@@ -1,8 +1,9 @@
-name: ci 
+name: main 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -14,4 +15,5 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - run: zip --version
+      - run: zip -r every-door-plugin\pride-map.zip every-door-plugin\pride-map
+      - run: mv every-door-plugin\pride-map.zip every-door-plugin\pride-map.edp
