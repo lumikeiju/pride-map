@@ -25,7 +25,7 @@ style:
       text-halo-width: 2
       text-halo-color: white
 ---
-[bbox:{{bbox}}][out:xml][timeout:300];
+[out:json][timeout:300];
 (
   nwr[lgbtq=only];
   nwr[lgbtq=primary];

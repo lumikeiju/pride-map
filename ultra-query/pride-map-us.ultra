@@ -1,0 +1,35 @@
+---
+style:
+  extends: https://styles.trailsta.sh/protomaps-grayscale.json
+  layers:
+    - type: symbol
+      filter:
+        - any
+        - [ ==, [ get, lgbtq ], only ]
+        - [ ==, [ get, lgbtq ], welcome ]
+        - [ ==, [ get, lgbtq ], primary ]
+      icon-image:
+        - match
+        - [get, lgbtq]
+        - welcome
+        - https://raw.githubusercontent.com/Lumikeiju/openstreetmap/main/resources/icons/lgbtq/osmpin_lgbtq_slanted_128.png
+        - only
+        - https://raw.githubusercontent.com/Lumikeiju/openstreetmap/main/resources/icons/lgbtq/osmheart_lgbtq_horizontal_128.png
+        - https://raw.githubusercontent.com/Lumikeiju/openstreetmap/main/resources/icons/lgbtq/osmheart_lgbtq_slanted_128.png
+      icon-allow-overlap: true
+      icon-anchor: bottom
+      icon-size: 0.25
+      text-field: '{name}'
+      text-anchor: top
+      text-optional: true
+      text-halo-width: 2
+      text-halo-color: white
+---
+[out:json][timeout:300];
+rel(148838); map_to_area->.searchArea;
+(
+  nwr[lgbtq=only](area.searchArea);
+  nwr[lgbtq=primary](area.searchArea);
+  nwr[lgbtq=welcome](area.searchArea);
+);
+out center meta;
