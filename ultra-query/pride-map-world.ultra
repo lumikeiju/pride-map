@@ -1,4 +1,13 @@
 ---
+options:
+  attributionControl:
+    customAttribution: '<a href=".">Ultra</a> | <a href="https://github.com/Lumikeiju/pride-map">Github</a>'
+controls:
+  - type: GeolocateControl
+    options:
+      positionOptions:
+        enableHighAccuracy: true
+      trackUserLocation: true
 style:
   extends: https://styles.trailsta.sh/protomaps-grayscale.json
   layers:
