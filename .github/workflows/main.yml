@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - every-door-plugin/**
   workflow_dispatch:
 permissions:
   contents: write
