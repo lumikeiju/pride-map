@@ -18,8 +18,9 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Create EDP
-      - run: zip -r "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map"
-      - run: mv "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map.edp"
+        run: |
+          zip -r "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map"
+          mv "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map.edp"
 
       - name: Debug File Existence
         run: ls -l every-door-plugin/
