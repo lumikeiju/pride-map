@@ -12,10 +12,10 @@ style:
         - match
         - [get, lgbtq]
         - welcome
-        - https://github.com/Lumikeiju/pride-map/raw/main/resources/icons/osmpin_lgbtq_slanted_24px.png
+        - https://github.com/Lumikeiju/pride-map/raw/main/icons/osmpin_lgbtq_slanted_24px.png
         - only
-        - https://github.com/Lumikeiju/pride-map/raw/main/resources/icons/osmheart_lgbtq_horizontal_24px.png
-        - https://github.com/Lumikeiju/pride-map/raw/main/resources/icons/osmheart_lgbtq_slanted_24px.png
+        - https://github.com/Lumikeiju/pride-map/raw/main/icons/osmheart_lgbtq_horizontal_24px.png
+        - https://github.com/Lumikeiju/pride-map/raw/main/icons/osmheart_lgbtq_slanted_24px.png
       icon-allow-overlap: true
       icon-anchor: bottom
       text-field: '{name}'
