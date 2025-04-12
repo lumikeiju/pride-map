@@ -7,6 +7,8 @@ You can access the map using the links below:
 * [United States](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/ultra-query/pride-map-us.ultra)
 * [World](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/ultra-query/pride-map-world.ultra)
 
+![image](images/pride-map-github-social-preview.png)
+
 # Adding Data
 
 All map information comes from [OpenStreetMap](https://www.openstreetmap.org/). The tags used by this project are documented on the [OpenStreetMap wiki](https://wiki.openstreetmap.org/):
