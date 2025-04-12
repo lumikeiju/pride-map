@@ -17,3 +17,8 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - run: zip -r "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map"
       - run: mv "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map.edp"
+      - name: Commit and Push pride-map.edp
+        run: |
+          git add every-door-plugin/pride-map.edp
+          git commit -m "Create pride-map.edp"
+          git push
