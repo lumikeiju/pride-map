@@ -5,7 +5,7 @@ This repo hosts the style files, icons, and related utilities for an [Ultra](htt
 You can access the map using the links below:
 
 * [United States](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/ultra-query/pride-map-us.ultra)
-* [Global](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/ultra-query/pride-map-world.ultra)
+* [World](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/ultra-query/pride-map-world.ultra)
 
 # Adding Data
 
