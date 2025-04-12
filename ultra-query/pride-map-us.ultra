@@ -16,22 +16,26 @@ style:
       filter:
         - any
         - [ ==, [ get, lgbtq ], only ]
-        - [ ==, [ get, lgbtq ], welcome ]
         - [ ==, [ get, lgbtq ], primary ]
+        - [ ==, [ get, lgbtq ], welcome ]
       icon-image:
         - match
         - [get, lgbtq]
-        - welcome
-        - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmpin_lgbtq_slanted_24px.png
         - only
         - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmheart_lgbtq_horizontal_24px.png
+        - primary
         - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmheart_lgbtq_slanted_24px.png
+        - welcome
+        - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmpin_lgbtq_slanted_24px.png
+        - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmpin_lgbtq_horizontal_24px.png
       icon-allow-overlap: true
       icon-anchor: bottom
       text-field: '{name}'
-      text-anchor: top
       text-optional: true
-      text-halo-width: 2
+      text-anchor: top
+      text-size: 12
+      text-color: black
+      text-halo-width: 1.5
       text-halo-color: white
 ---
 [out:json][timeout:300];
