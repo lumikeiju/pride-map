@@ -1,11 +1,11 @@
 {
   "data_format": 1,
-  "data_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/taginfo.json",
+  "data_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/main/taginfo.json",
   "project": {
     "name": "Pride Map",
     "description": "Pride Map is an Ultra-powered visualization of LGBTQ+-friendliness data in OpenStreetMap.",
     "project_url": "https://github.com/Lumikeiju/pride-map/",
-    "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/icons/osmheart_lgbtq_slanted_16px.png",
+    "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmheart_lgbtq_slanted_16px.png",
     "contact_name": "Lumikeiju",
     "contact_email": "pridemap@pm.me"
   },
@@ -13,17 +13,17 @@
     {
       "key": "lgbtq",
       "value": "only",
-      "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/icons/osmheart_lgbtq_horizontal_16px.png"
+      "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmheart_lgbtq_horizontal_16px.png"
     },
     {
       "key": "lgbtq",
       "value": "primary",
-      "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/icons/osmheart_lgbtq_slanted_16px.png"
+      "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmheart_lgbtq_slanted_16px.png"
     },
     {
       "key": "lgbtq",
       "value": "welcome",
-      "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/icons/osmpin_lgbtq_slanted_16px.png"
+      "icon_url": "https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmpin_lgbtq_slanted_16px.png"
     }
   ]
 }
