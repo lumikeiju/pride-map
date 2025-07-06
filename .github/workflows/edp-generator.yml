@@ -21,11 +21,10 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Create EDP
-        run: |
-          zip -r every-door-plugin/pride-map.edp -j every-door-plugin/pride-map/plugin.yaml -r every-door-plugin/pride-map/icons
-
-      - name: Debug File Existence
-        run: ls -l every-door-plugin/
+        run:
+          |
+          cd every-door-plugin/pride-map
+          zip -r ../../every-door-plugin/pride-map.edp . -x pride-map.edp
 
       - name: Commit and Push pride-map.edp
         run:
@@ -33,6 +32,3 @@ jobs:
           git add every-door-plugin/pride-map.edp
           git commit -m "Create pride-map.edp"
           git push
-
-      - name: Debug Git Status
-        run: git status
