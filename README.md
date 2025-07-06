@@ -9,7 +9,7 @@ You can access the map using the links below:
 
 ![image](images/pride-map-github-social-preview.png)
 
-# Adding Data
+## Adding Data
 
 All map information comes from [OpenStreetMap](https://www.openstreetmap.org/). The tags used by this project are documented on the [OpenStreetMap wiki](https://wiki.openstreetmap.org/):
 
@@ -18,10 +18,14 @@ All map information comes from [OpenStreetMap](https://www.openstreetmap.org/). 
 
 If you know the advertised LGBTQ+-friendliness of a local feature, please add it to the database!
 
-# Credits
+### [Every Door Plugin](https://github.com/Lumikeiju/pride-map/tree/main/every-door-plugin)
+
+An [Every Door](https://every-door.app/) plugin to add support for the above tags is included.
+
+## Credits
 
 * Lumikieju ([GitHub](https://github.com/Lumikeiju), [OSM](https://www.openstreetmap.org/user/Lumikeiju)) - Author and Maintainer
 
 * dschep ([GitHub](https://github.com/dschep), [OSM](https://www.openstreetmap.org/user/dpschep)) - Developer of [Ultra](https://gitlab.com/trailstash/ultra) (and [much more](https://github.com/dschep?tab=repositories)!) and [Contributor](https://github.com/Lumikeiju/openstreetmap/pull/1)
 
-* watmildon ([GitHub](https://github.com/watmildon), [OSM](https://www.openstreetmap.org/user/watmildon)) - Author of [HighSchoolMascotMap](https://github.com/watmildon/HighSchoolMascotMap), which this project uses as a template, and Mentor
+* watmildon ([GitHub](https://github.com/watmildon), [OSM](https://www.openstreetmap.org/user/watmildon)) - Mentor and Author of [HighSchoolMascotMap](https://github.com/watmildon/HighSchoolMascotMap), which this project uses as a template

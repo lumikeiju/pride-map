@@ -1,9 +1,11 @@
 ---
 id: pride-map
 name: Pride Map
-version: 1
+version: 1.0.0
+description: Adds LGBTQ+-friendliness tagging used by Pride Map
 author: Lumikeiju
 icon: osmheart_lgbtq_slanted_128.png
+homepage: 
 url: 'https://github.com/Lumikeiju/pride-map/raw/refs/heads/main/every-door-plugin/pride-map.edp'
 
 kinds:
