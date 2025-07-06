@@ -9,19 +9,24 @@ homepage: https://github.com/Lumikeiju/pride-map/tree/main/every-door-plugin
 source: "https://github.com/Lumikeiju/pride-map/raw/refs/heads/main/every-door-plugin/pride-map.edp"
 intro: This plugin adds LGBTQ+-friendliness tagging used by Pride Map. Thank you for contributing!
 
+presets:
+  lgbtq-signed:
+    name: 'LGBTQ+-friendliness level signage'
+    terms: [lgbtq]
+    icon: osmheart_lgbtq_slanted_128.png
+    area: true
+    fields: 
+      - lgbtq-signed
+
 fields:
-  lgbtq_signed:
-    label: "LGBTQ+-friendliness level signage"
-    key: "lgbtq:signed"
+  lgbtq-signed:
+    label: 'LGBTQ+-friendliness level signage'
+    key: 'lgbtq:signed'
     type: combo
+    customValues: false
     options:
       - yes
       - no
     labels:
       - Yes
       - No
-
-modes:
-  amenity:
-    fields:
-      - lgbtq_signed
