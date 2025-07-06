@@ -1,4 +1,4 @@
-name: main 
+name: main
 on:
   push:
     branches:
@@ -15,20 +15,22 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Configure Git Credentials
-        run: |
+        run:
+          |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Create EDP
-        run: |
-          zip -r "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map"
-          mv "every-door-plugin/pride-map.zip" "every-door-plugin/pride-map.edp"
+        run:
+          |
+          zip -r every-door-plugin/pride-map.edp every-door-plugin/pride-map/icons every-door-plugin/pride-map/plugin.yaml
 
       - name: Debug File Existence
         run: ls -l every-door-plugin/
 
       - name: Commit and Push pride-map.edp
-        run: |
+        run:
+          |
           git add every-door-plugin/pride-map.edp
           git commit -m "Create pride-map.edp"
           git push
