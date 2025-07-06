@@ -1,74 +1,27 @@
----
 id: pride-map
 name: Pride Map
-version: 1.0.0
+version: 2
 description: Adds LGBTQ+-friendliness tagging used by Pride Map
 author: Lumikeiju
 icon: osmheart_lgbtq_slanted_128.png
-homepage: 
-url: 'https://github.com/Lumikeiju/pride-map/raw/refs/heads/main/every-door-plugin/pride-map.edp'
-
-kinds:
-  prideFlag:
-    matcher:
-      man_made:
-        only: [flagpole]
-  lgbtqAccess:
-    matcher:
-      amenity:
-        only: [fast_food]
+experimental: true
+homepage: https://github.com/Lumikeiju/pride-map/tree/main/every-door-plugin
+source: "https://github.com/Lumikeiju/pride-map/raw/refs/heads/main/every-door-plugin/pride-map.edp"
+intro: This plugin adds LGBTQ+-friendliness tagging used by Pride Map. Thank you for contributing!
 
 fields:
-  pride_flag_type:
-    label: Flag Type
-    key: 'flag:wikidata'
+  lgbtq_signed:
+    label: "LGBTQ+ signage present"
+    key: "lgbtq:signed"
     type: combo
     options:
-      - Q51401
-      - Q96633914
-      - Q3249832
-    labels:
-      - Pride Flag
-      - Progress Flag
-      - Transgender Flag
-
-  lgbtq_access_level:
-    label: LGBTQ Friendliness
-    key: lgbtq
-    type: combo
-    options:
-      - only
-      - primary
-      - welcome
+      - yes
       - no
     labels:
-      - only
-      - primary
-      - welcome
-      - no
+      - Yes
+      - No
 
 modes:
-  pride:
-    type: entrances
-    icon: osmheart_lgbtq_slanted_bw_128.png
-    name: Pride
-    kinds: [prideFlag, lgbtqAccess]
-    markers:
-      prideFlag:
-        requiredKeys: [man_made]
-      lgbtqAccess:
-        requiredKeys: [amenity]
-        label: "{lgbtq}"
-    primary:
-      icon: osmheart_lgbtq_slanted_bw_128.png
-      tooltip: Flag
-      adjustZoom: 0.7
-      fields:
-        - pride_flag_type
-    secondary:
-      icon: osmheart_lgbtq_slanted_bw_128.png
-      tooltip: Access
-      adjustZoom: 0.7
-      kind: lgbtqAccess
-      fields:
-        - lgbtq_access_level
+  amenity:
+    fields:
+      - lgbtq_signed
