@@ -35,3 +35,9 @@ jobs:
 
       - name: Rename pride-map.zip to pride-map.edp
         run: mv every-door-plugin/pride-map.zip every-door-plugin/pride-map.edp
+
+      - name: Commit and push pride-map.edp
+        run: |
+          git add every-door-plugin/pride-map.edp
+          git commit -m "Compile pride-map.edp"
+          git push
