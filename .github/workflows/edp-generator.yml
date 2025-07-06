@@ -20,15 +20,18 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-      - name: Create EDP
+      - name: Delete existing pride-map.edp
+        run:
+          |
+          if [ -f every-door-plugin/pride-map.edp ]; then
+            rm every-door-plugin/pride-map.edp
+          fi
+
+      - name: Create pride-map.zip archive
         run:
           |
           cd every-door-plugin/pride-map
-          zip -r ../../every-door-plugin/pride-map.edp . -x pride-map.edp
+          zip -r ../pride-map.zip .
 
-      - name: Commit and Push pride-map.edp
-        run:
-          |
-          git add every-door-plugin/pride-map.edp
-          git commit -m "Create pride-map.edp"
-          git push
+      - name: Rename pride-map.zip to pride-map.edp
+        run: mv every-door-plugin/pride-map.zip every-door-plugin/pride-map.edp
