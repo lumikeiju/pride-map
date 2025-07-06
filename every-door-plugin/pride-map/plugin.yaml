@@ -1,6 +1,6 @@
 id: pride-map
 name: Pride Map
-version: 2
+version: 3
 description: Adds LGBTQ+-friendliness tagging used by Pride Map
 author: Lumikeiju
 icon: osmheart_lgbtq_slanted_128.png
@@ -11,7 +11,7 @@ intro: This plugin adds LGBTQ+-friendliness tagging used by Pride Map. Thank you
 
 fields:
   lgbtq_signed:
-    label: "LGBTQ+ signage present"
+    label: "LGBTQ+-friendliness level signage"
     key: "lgbtq:signed"
     type: combo
     options:
