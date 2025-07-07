@@ -18,7 +18,7 @@ All map information comes from [OpenStreetMap](https://www.openstreetmap.org/). 
 
 If you know the advertised LGBTQ+-friendliness of a local feature, please add it to the database!
 
-### [Every Door Plugin](https://github.com/Lumikeiju/pride-map/tree/main/every-door-plugin)
+### [Every Door Plugin](https://github.com/Lumikeiju/pride-map/tree/main/every-door-plugin) [DEV]
 
 An [Every Door](https://every-door.app/) plugin to add support for the above tags is included.
 
