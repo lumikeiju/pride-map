@@ -17,9 +17,6 @@ modes:
     hide: true
   micro:
     hide: true
-  notes:
-    hide: true
-# Add new Pride mode
   pride:
     icon: osmheart_lgbtq_slanted_bw_128.png
     iconActive: osmheart_lgbtq_slanted_128.png
