@@ -9,10 +9,18 @@ homepage: https://github.com/Lumikeiju/pride-map/tree/main/every-door-plugin
 source: "https://github.com/Lumikeiju/pride-map/raw/refs/heads/main/every-door-plugin/pride-map.edp"
 intro: This plugin adds LGBTQ+-friendliness tagging used by Pride Map. Thank you for contributing!
 
+# Hide all default modes
 modes:
-  micro:
+  amenity:
     hide: true
   entrances:
     hide: true
+  micro:
+    hide: true
   notes:
     hide: true
+
+  # Modes: Create new Pride mode
+  pride:
+    icon: osmheart_lgbtq_slanted_bw_128.png
+    iconActive: osmheart_lgbtq_slanted_128.png
