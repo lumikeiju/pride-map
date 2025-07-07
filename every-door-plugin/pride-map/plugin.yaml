@@ -1,6 +1,6 @@
 id: pride-map
 name: Pride Map
-version: 5
+version: 6
 description: Adds LGBTQ+-friendliness tagging used by Pride Map
 author: Lumikeiju
 icon: osmheart_lgbtq_slanted_128.png
@@ -8,18 +8,13 @@ experimental: true
 homepage: https://github.com/Lumikeiju/pride-map/tree/main/every-door-plugin
 source: "https://github.com/Lumikeiju/pride-map/raw/refs/heads/main/every-door-plugin/pride-map.edp"
 intro: This plugin adds LGBTQ+-friendliness tagging used by Pride Map. Thank you for contributing!
-modes:
-  entrances:
-    hide: true
-  micro:
-    hide: true
-  pride:
-    icon: osmheart_lgbtq_slanted_bw_128.png
 
 kinds:
   everything:
     update:
       amenity:
+        except:
+          - parking
 
 presets:
   amenity:
@@ -38,3 +33,22 @@ fields:
     labels:
       - Yes
       - No
+  lgbtq_friendliness:
+    label: LGBTQ+-friendliness level
+    key: lgbtq
+    type: combo
+    customValues: false
+    options:
+      - only
+      - primary
+      - welcome
+      - no
+    labels:
+      - Only
+      - Primary
+      - Welcome
+      - No
+
+modes:
+  pride:
+    icon: osmheart_lgbtq_slanted_bw_128.png
