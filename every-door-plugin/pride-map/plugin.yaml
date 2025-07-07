@@ -1,6 +1,6 @@
 id: pride-map
 name: Pride Map
-version: 6
+version: 7
 description: Adds LGBTQ+-friendliness tagging used by Pride Map
 author: Lumikeiju
 icon: osmheart_lgbtq_slanted_128.png
@@ -48,7 +48,3 @@ fields:
       - Primary
       - Welcome
       - No
-
-modes:
-  pride:
-    icon: osmheart_lgbtq_slanted_bw_128.png
