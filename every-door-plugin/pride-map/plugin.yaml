@@ -19,8 +19,7 @@ modes:
     hide: true
   notes:
     hide: true
-
-  # Modes: Create new Pride mode
+# Add new Pride mode
   pride:
     icon: osmheart_lgbtq_slanted_bw_128.png
     iconActive: osmheart_lgbtq_slanted_128.png
