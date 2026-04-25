@@ -4,10 +4,9 @@
 
 This repo hosts the style files, icons, and related utilities for an [Ultra](https://overpass-ultra.us/)-based LGBTQ+-friendliness map.
 
-You can access the map using the links below:
+You can access the map using the link below:
 
-- [United States](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/ultra-query/pride-map-us.ultra)
-- [World](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/ultra-query/pride-map-world.ultra)
+- [Pride Map](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/pride-map.ultra)
 
 ![image](images/pride-map-github-social-preview.png)
 
