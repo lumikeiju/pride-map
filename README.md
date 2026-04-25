@@ -30,4 +30,4 @@ An [Every Door](https://every-door.app/) plugin to add support for the above tag
 
 - dschep ([GitHub](https://github.com/dschep), [OSM](https://www.openstreetmap.org/user/dpschep)) - Developer of [Ultra](https://gitlab.com/trailstash/ultra) (and [much more](https://github.com/dschep?tab=repositories)!) and [Contributor](https://github.com/Lumikeiju/openstreetmap/pull/1)
 
-* watmildon ([GitHub](https://github.com/watmildon), [OSM](https://www.openstreetmap.org/user/watmildon)) - Mentor and Author of [HighSchoolMascotMap](https://github.com/watmildon/HighSchoolMascotMap) and [Microcosm](https://github.com/watmildon/microcosm), which this project use as templates
+- watmildon ([GitHub](https://github.com/watmildon), [OSM](https://www.openstreetmap.org/user/watmildon)) - Mentor and Author of [HighSchoolMascotMap](https://github.com/watmildon/HighSchoolMascotMap) and [Microcosm](https://github.com/watmildon/microcosm), which this project use as templates
