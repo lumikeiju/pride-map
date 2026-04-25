@@ -1,0 +1,98 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Windows-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+
+# CSS files
+[*.css]
+indent_size = 2
+indent_style = space
+
+# GeoJSON files
+[*.geojson]
+indent_size = 4
+indent_style = space
+
+# HTML files
+[*.html]
+indent_size = 2
+indent_style = space
+
+# JavaScript files
+[*.js]
+indent_size = 2
+indent_style = space
+
+# JSON files
+[*.json]
+indent_size = 4
+indent_style = space
+
+# Markdown files
+[*.md]
+indent_size = 4
+indent_style = space
+
+# OpenStreetMap change files
+[*.osc]
+indent_size = 4
+indent_style = space
+
+# OpenStreetMap files
+[*.osm]
+indent_size = 4
+indent_style = space
+
+# PowerShell files
+[*.ps1]
+indent_size = 4
+indent_style = space
+
+# Python files
+[*.py]
+indent_size = 4
+indent_style = space
+
+# Shell scripts
+[*.sh]
+indent_size = 2
+indent_style = space
+
+# TOML files
+[*.toml]
+indent_size = 4
+indent_style = space
+
+# TypeScript files
+[*.ts]
+indent_size = 2
+indent_style = space
+
+# TSX files
+[*.tsx]
+indent_size = 2
+indent_style = space
+
+# XML files
+[*.xml]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+
+# Wiki files
+[*.wiki]
+indent_size = 4
+indent_style = space
+
+# YAML files
+[*.yml]
+indent_size = 2
+indent_style = space

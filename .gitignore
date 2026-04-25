@@ -1,3 +1,11 @@
-# Ignore all .pdn files
-*.pdn
+# Project
 pride-map.code-workspace
+local-storage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dev
+.cache/
+.venv/
