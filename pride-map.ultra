@@ -1,4 +1,5 @@
 ---
+type: geojson
 options:
   attributionControl:
     customAttribution: '<a href=".">Ultra</a> | <a href="https://github.com/Lumikeiju/pride-map">Github</a>'
@@ -37,10 +38,4 @@ style:
       text-halo-width: 1.5
       text-halo-color: white
 ---
-[out:json][timeout:300];
-(
-  nwr[lgbtq=only];
-  nwr[lgbtq=primary];
-  nwr[lgbtq=welcome];
-);
-out center meta;
+https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/data.geojson
