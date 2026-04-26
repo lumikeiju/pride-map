@@ -41281,6 +41281,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -91.9254433,
+          44.8763685
+        ]
+      },
+      "properties": {
+        "addr:city": "Menomonie",
+        "addr:housenumber": "414",
+        "addr:postcode": "54751",
+        "addr:state": "WI",
+        "addr:street": "Main Street East",
+        "amenity": "pub",
+        "lgbtq": "welcome",
+        "name": "The Abbey Pub & Grub",
+        "old_name": "The Spot;Badabing'z",
+        "website": "https://www.restaurant.com/the-abbey-pub-and-grub-menomonie-pid=191629",
+        "@id": "node/6876263887",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.687712,
           45.5262549
         ]
@@ -41658,7 +41682,7 @@
         "lgbtq": "welcome",
         "name": "Cherri's Chocol'art",
         "shop": "chocolate",
-        "website": "http://cherrischocolart.com/",
+        "website": "https://cherrischocolart.com/",
         "@id": "node/6990113606",
         "@type": "node"
       }
@@ -113690,6 +113714,239 @@
         "coordinates": [
           [
             [
+              -91.9248203,
+              44.8750764
+            ],
+            [
+              -91.9248873,
+              44.875077
+            ],
+            [
+              -91.925028,
+              44.8750782
+            ],
+            [
+              -91.9250454,
+              44.8750783
+            ],
+            [
+              -91.9251272,
+              44.8750803
+            ],
+            [
+              -91.9251258,
+              44.8751157
+            ],
+            [
+              -91.9251234,
+              44.8751762
+            ],
+            [
+              -91.9251224,
+              44.8752023
+            ],
+            [
+              -91.925151,
+              44.8752031
+            ],
+            [
+              -91.9251499,
+              44.8752592
+            ],
+            [
+              -91.9251497,
+              44.8752789
+            ],
+            [
+              -91.9251492,
+              44.8752984
+            ],
+            [
+              -91.9251122,
+              44.875298
+            ],
+            [
+              -91.9251085,
+              44.8754374
+            ],
+            [
+              -91.9251142,
+              44.8754401
+            ],
+            [
+              -91.9251185,
+              44.8754439
+            ],
+            [
+              -91.9251209,
+              44.8754485
+            ],
+            [
+              -91.9251212,
+              44.8754533
+            ],
+            [
+              -91.925119,
+              44.8754585
+            ],
+            [
+              -91.9251144,
+              44.8754629
+            ],
+            [
+              -91.925108,
+              44.8754658
+            ],
+            [
+              -91.9251006,
+              44.8754671
+            ],
+            [
+              -91.925093,
+              44.8754665
+            ],
+            [
+              -91.9250862,
+              44.875464
+            ],
+            [
+              -91.925081,
+              44.8754601
+            ],
+            [
+              -91.9250111,
+              44.8754606
+            ],
+            [
+              -91.9250031,
+              44.8754606
+            ],
+            [
+              -91.9249942,
+              44.8754607
+            ],
+            [
+              -91.9249783,
+              44.8754609
+            ],
+            [
+              -91.924979,
+              44.8754488
+            ],
+            [
+              -91.9248906,
+              44.8754468
+            ],
+            [
+              -91.9248903,
+              44.8754554
+            ],
+            [
+              -91.9248897,
+              44.875467
+            ],
+            [
+              -91.9248786,
+              44.8754724
+            ],
+            [
+              -91.9248672,
+              44.875473
+            ],
+            [
+              -91.9248592,
+              44.8754717
+            ],
+            [
+              -91.9248514,
+              44.8754661
+            ],
+            [
+              -91.9248481,
+              44.875458
+            ],
+            [
+              -91.9247843,
+              44.8754577
+            ],
+            [
+              -91.9247848,
+              44.8754151
+            ],
+            [
+              -91.9247975,
+              44.8754149
+            ],
+            [
+              -91.9248024,
+              44.875321
+            ],
+            [
+              -91.9248028,
+              44.8753135
+            ],
+            [
+              -91.9248035,
+              44.8752951
+            ],
+            [
+              -91.924961,
+              44.8752951
+            ],
+            [
+              -91.9249823,
+              44.8752795
+            ],
+            [
+              -91.9250159,
+              44.8752786
+            ],
+            [
+              -91.9250181,
+              44.8752057
+            ],
+            [
+              -91.924818,
+              44.8752029
+            ],
+            [
+              -91.9248203,
+              44.8750764
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Menomonie",
+        "addr:housenumber": "420",
+        "addr:postcode": "54751-2555",
+        "addr:state": "WI",
+        "addr:street": "Wilson Avenue",
+        "air_conditioning": "yes",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "united_church_of_christ",
+        "email": "office@menomonieucc.org",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "First Congregational Church",
+        "opening_hours": "Mo-Th, 09:00-13:00",
+        "phone": "+1-715-235-5838",
+        "religion": "christian",
+        "service_times": "Su 08:30-09:00, 10:00-11:30",
+        "website": "https://menomonieucc.org/",
+        "wheelchair": "yes",
+        "@id": "way/722384670",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -9.2051696,
               38.587652
             ],
@@ -126262,6 +126519,72 @@
         "tourism": "camp_site",
         "website": "https://campnackte.com/",
         "@id": "way/1368196866",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.9289666,
+              44.8724455
+            ],
+            [
+              -91.9289667,
+              44.8724004
+            ],
+            [
+              -91.9289399,
+              44.8724005
+            ],
+            [
+              -91.9289132,
+              44.8724005
+            ],
+            [
+              -91.9288955,
+              44.8724006
+            ],
+            [
+              -91.9288954,
+              44.8723615
+            ],
+            [
+              -91.9287879,
+              44.8723618
+            ],
+            [
+              -91.9287883,
+              44.8724459
+            ],
+            [
+              -91.9289666,
+              44.8724455
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Menomonie",
+        "addr:housenumber": "1110",
+        "addr:postcode": "54751",
+        "addr:state": "WI",
+        "addr:street": "Broadway Street South",
+        "addr:unit": "121",
+        "indoor": "room",
+        "level": "0",
+        "lgbtq": "primary",
+        "name": "The Qube",
+        "office": "yes",
+        "opening_hours": "Mo-Fr 09:00-16:30",
+        "operator": "University of Wisconsin-Stout",
+        "ref": "121",
+        "room": "office",
+        "website": "https://connect.uwstout.edu/qube",
+        "@id": "way/1370960318",
         "@type": "way"
       }
     },
