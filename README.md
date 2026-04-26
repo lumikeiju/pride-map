@@ -6,7 +6,7 @@ This repo hosts the style files, icons, and related utilities for an [Ultra](htt
 
 You can access the map using the link below:
 
-- [Pride Map](https://overpass-ultra.us/#map&query=url:https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/pride-map.ultra)
+- [Pride Map](https://lumikeiju.dev/pride-map)
 
 ![image](images/pride-map-github-social-preview.png)
 

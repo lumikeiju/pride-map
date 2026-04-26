@@ -22,12 +22,12 @@ style:
         - match
         - [get, lgbtq]
         - only
-        - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmheart_lgbtq_horizontal_24px.png
+        - https://lumikeiju.dev/pride-map/icons/osmheart_lgbtq_horizontal_24px.png
         - primary
-        - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmheart_lgbtq_slanted_24px.png
+        - https://lumikeiju.dev/pride-map/icons/osmheart_lgbtq_slanted_24px.png
         - welcome
-        - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmpin_lgbtq_slanted_24px.png
-        - https://raw.githubusercontent.com/Lumikeiju/pride-map/main/icons/osmpin_lgbtq_horizontal_24px.png
+        - https://lumikeiju.dev/pride-map/icons/osmpin_lgbtq_slanted_24px.png
+        - https://lumikeiju.dev/pride-map/icons/osmpin_lgbtq_horizontal_24px.png
       icon-allow-overlap: true
       icon-anchor: bottom
       text-field: '{name}'
@@ -38,4 +38,4 @@ style:
       text-halo-width: 1.5
       text-halo-color: white
 ---
-https://raw.githubusercontent.com/Lumikeiju/pride-map/refs/heads/main/data.geojson
+https://lumikeiju.dev/pride-map/data.geojson
