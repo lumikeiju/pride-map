@@ -18966,6 +18966,7 @@
         "addr:housenumber": "1025",
         "addr:province": "BC",
         "addr:street": "Davie Street",
+        "air_conditioning": "no",
         "amenity": "pub",
         "email": "info@fthdpub.com",
         "indoor_seating": "yes",
@@ -18976,6 +18977,7 @@
         "phone": "+1-604-687-2222",
         "smoking": "no",
         "website": "https://thefountainheadpub.com/",
+        "wheelchair": "yes",
         "wikidata": "Q112252285",
         "wikipedia": "en:Fountainhead Pub",
         "@id": "node/2612812538",
@@ -21022,6 +21024,34 @@
         "source:date": "2014-08-12",
         "website": "https://shoutwageningen.nl/",
         "@id": "node/3013376400",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8150838,
+          51.9605248
+        ]
+      },
+      "properties": {
+        "addr:city": "Driel",
+        "addr:housenumber": "37",
+        "addr:postcode": "6665CE",
+        "addr:street": "Kerkstraat",
+        "lgbtq": "welcome",
+        "name": "VO de Vallei winkeltje",
+        "opening_hours": "Mo-Th 09:00-11:00,14:00-16:00",
+        "operator": "VO de Vallei",
+        "phone": "+31 6 24251343",
+        "shop": "art",
+        "source": "BAG",
+        "source:date": "2014-08-14",
+        "website": "https://www.vodevallei.nl",
+        "wheelchair": "yes",
+        "@id": "node/3016631053",
         "@type": "node"
       }
     },
@@ -24896,8 +24926,11 @@
         "addr:street": "Motzstraße",
         "addr:suburb": "Schöneberg",
         "amenity": "bar",
+        "check_date": "2026-04-26",
         "contact:facebook": "https://www.facebook.com/Heile-Welt-107920232603777/",
         "contact:phone": "+49 30 21917507",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
         "lgbtq": "primary",
         "lgbtq:signed": "yes",
         "lgbtq:women": "welcome",
@@ -33943,6 +33976,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -105.090138,
+          39.9323917
+        ]
+      },
+      "properties": {
+        "addr:city": "Broomfield",
+        "addr:housenumber": "1120",
+        "addr:postcode": "80020",
+        "addr:state": "CO",
+        "addr:street": "US Highway 287",
+        "amenity": "fuel",
+        "brand": "King Soopers",
+        "brand:wikidata": "Q6412065",
+        "drink:energy_drink": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_85": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_91": "yes",
+        "lgbtq": "welcome",
+        "name": "King Soopers Fuel Center",
+        "opening_hours": "24/7",
+        "operator": "King Soopers",
+        "self_service": "yes",
+        "toilets": "no",
+        "@id": "node/5447672249",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -46.651581,
           -23.5803825
         ]
@@ -40729,6 +40795,33 @@
         "website": "https://royalcitybrew.ca/",
         "wheelchair": "yes",
         "@id": "node/6775603085",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9718754,
+          -37.7698484
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "279",
+        "addr:postcode": "3057",
+        "addr:street": "Lygon Street",
+        "amenity": "community_centre",
+        "community_centre": "social_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Affirmation Station",
+        "opening_hours": "\"by appointment only\"",
+        "operator": "Transgender Victoria",
+        "operator:type": "charitable",
+        "website": "https://www.tgv.org.au/affirmation-station",
+        "wheelchair": "yes",
+        "@id": "node/6775850574",
         "@type": "node"
       }
     },
@@ -68862,7 +68955,6 @@
         "contact:phone": "+1-206-672-1130",
         "contact:vagaro": "https://www.vagaro.com/electrolysisbyisla",
         "contact:website": "https://www.electrolysis-by-isla.com/",
-        "female_owner": "yes",
         "healthcare": "electrologist",
         "healthcare:speciality": "electrolysis",
         "level": "3",
@@ -68881,7 +68973,9 @@
         "payment:mastercard": "yes",
         "payment:visa": "yes",
         "shop": "beauty",
-        "source:owner": "https://www.electrolysis-by-isla.com/",
+        "source:lgbtq_owner": "https://www.electrolysis-by-isla.com/",
+        "source:woman_owner": "https://www.electrolysis-by-isla.com/",
+        "woman_owner": "yes",
         "@id": "node/12671124307",
         "@type": "node"
       }
@@ -77150,7 +77244,7 @@
         "indoor_seating": "yes",
         "level": "1",
         "lgbtq": "primary",
-        "lgbtq:signed": "Yes",
+        "lgbtq:signed": "yes",
         "name": "Scandals East",
         "opening_hours": "Mo-Su 16:00-24:00",
         "opening_hours:kitchen": "Mo-Su 17:00-20:00",
@@ -77216,6 +77310,29 @@
         "phone": "+31 43 3218337",
         "website": "https://coclimburg.nl",
         "@id": "node/13621875915",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0963302,
+          51.4928948
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:country": "UK",
+        "addr:housenumber": "9",
+        "addr:postcode": "SE17 1JS",
+        "addr:street": "Hewson Way",
+        "amenity": "theatre",
+        "contact:website": "https://queercomedyclub.co.uk/",
+        "lgbtq": "primary",
+        "name": "The Queer Comedy Club",
+        "@id": "node/13623682389",
         "@type": "node"
       }
     },
@@ -78385,6 +78502,23 @@
         "opening_hours": "Mo-Su, PH 13:00-23:00",
         "wheelchair": "no",
         "@id": "node/13760690578",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9288519,
+          33.6428318
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Strut",
+        "@id": "node/13764199718",
         "@type": "node"
       }
     },
@@ -83852,6 +83986,105 @@
         "name": "Salle des Fétes Fabien Iribarren",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "@id": "way/86611428",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.330111,
+              52.9509773
+            ],
+            [
+              6.3300008,
+              52.9506028
+            ],
+            [
+              6.3299296,
+              52.9503297
+            ],
+            [
+              6.3298409,
+              52.950132
+            ],
+            [
+              6.3297933,
+              52.9499518
+            ],
+            [
+              6.3297424,
+              52.9497267
+            ],
+            [
+              6.329729,
+              52.9496471
+            ],
+            [
+              6.3295089,
+              52.9496079
+            ],
+            [
+              6.329496,
+              52.9497792
+            ],
+            [
+              6.3294487,
+              52.9503453
+            ],
+            [
+              6.3293816,
+              52.9512688
+            ],
+            [
+              6.330111,
+              52.9509773
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "alcohol": "no",
+        "alt_name": "Anarchistische camping Appelscha",
+        "backcountry": "yes",
+        "camp_site": "standard",
+        "caravans": "yes",
+        "contact:website": "https://www.anarchistischecamping.nl",
+        "description": "Anarchistisch kampeerterrein",
+        "dog": "yes",
+        "drinking_water": "yes",
+        "fee": "donation",
+        "group_only": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Acamping_guest",
+        "landuse": "grass",
+        "lgbtq": "primary",
+        "name": "Tot Vrijheidsbezinning",
+        "nobrand": "yes",
+        "note": "Betalen is optioneel, maar ongeveer €10 is gewild per nacht\n\nPaying is optional, but preferred to be around €10 per night",
+        "nudism": "no",
+        "opening_hours": "24/7",
+        "operator:type": "none",
+        "panoramax": "f5194b0e-01ea-4159-b393-41778a885cc9",
+        "payment:cash": "yes",
+        "power_supply": "yes",
+        "reservation": "yes",
+        "sanitary_dump_station": "no",
+        "shower": "yes",
+        "source": "3dShapes",
+        "start_date": "1933",
+        "static_caravans": "yes",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "yes",
+        "@id": "way/87926027",
         "@type": "way"
       }
     },
@@ -90158,24 +90391,40 @@
         "coordinates": [
           [
             [
-              -68.903236,
-              12.1153933
+              -68.9031873,
+              12.1154193
             ],
             [
-              -68.9030927,
-              12.1154283
+              -68.9030586,
+              12.115448
             ],
             [
-              -68.9030569,
-              12.1152883
+              -68.9030257,
+              12.1153073
             ],
             [
-              -68.9032002,
-              12.1152533
+              -68.9030416,
+              12.1153038
             ],
             [
-              -68.903236,
-              12.1153933
+              -68.9030292,
+              12.1152505
+            ],
+            [
+              -68.9031255,
+              12.115229
+            ],
+            [
+              -68.903138,
+              12.1152823
+            ],
+            [
+              -68.9031545,
+              12.1152786
+            ],
+            [
+              -68.9031873,
+              12.1154193
             ]
           ]
         ]
@@ -120971,6 +121220,7 @@
       "properties": {
         "highway": "path",
         "lgbtq": "welcome",
+        "lit": "yes",
         "name": "Chemin des fiertés",
         "smoothness": "excellent",
         "surface": "paving_stones",
@@ -126158,6 +126408,184 @@
         "name": "Win Pride",
         "shop": "tobacco",
         "@id": "way/1349203268",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.8149059,
+              51.9605656
+            ],
+            [
+              5.8149833,
+              51.960587
+            ],
+            [
+              5.8151504,
+              51.9606294
+            ],
+            [
+              5.8151618,
+              51.9606173
+            ],
+            [
+              5.8152052,
+              51.9606307
+            ],
+            [
+              5.8152217,
+              51.9606358
+            ],
+            [
+              5.8152611,
+              51.960648
+            ],
+            [
+              5.8154374,
+              51.9607025
+            ],
+            [
+              5.8155486,
+              51.9607336
+            ],
+            [
+              5.8155596,
+              51.9607375
+            ],
+            [
+              5.8155632,
+              51.9607388
+            ],
+            [
+              5.8155826,
+              51.9607459
+            ],
+            [
+              5.8155874,
+              51.9607476
+            ],
+            [
+              5.8156427,
+              51.9607677
+            ],
+            [
+              5.8156989,
+              51.9607873
+            ],
+            [
+              5.8157069,
+              51.9607805
+            ],
+            [
+              5.8157148,
+              51.960755
+            ],
+            [
+              5.8157442,
+              51.960681
+            ],
+            [
+              5.8157494,
+              51.9606659
+            ],
+            [
+              5.8157689,
+              51.9606093
+            ],
+            [
+              5.8157636,
+              51.9606073
+            ],
+            [
+              5.8155838,
+              51.9605469
+            ],
+            [
+              5.8154116,
+              51.9604891
+            ],
+            [
+              5.8153961,
+              51.9604844
+            ],
+            [
+              5.8153644,
+              51.9604256
+            ],
+            [
+              5.8153761,
+              51.9604136
+            ],
+            [
+              5.815184,
+              51.9603598
+            ],
+            [
+              5.8151322,
+              51.9603635
+            ],
+            [
+              5.8151179,
+              51.960359
+            ],
+            [
+              5.8150998,
+              51.9603727
+            ],
+            [
+              5.8150859,
+              51.9603747
+            ],
+            [
+              5.8150616,
+              51.9603709
+            ],
+            [
+              5.8150122,
+              51.9604389
+            ],
+            [
+              5.8150055,
+              51.9604474
+            ],
+            [
+              5.8149776,
+              51.960468
+            ],
+            [
+              5.8149059,
+              51.9605656
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Driel",
+        "addr:housenumber": "37",
+        "addr:postcode": "6665CE",
+        "addr:street": "Kerkstraat",
+        "amenity": "school",
+        "capacity": "60",
+        "description": "voortgezet democratisch onderwijs",
+        "education": "school",
+        "internet_access": "yes",
+        "lgbtq": "welcome",
+        "max_age": "21",
+        "min_age": "11",
+        "mobile": "+31 6 24251343",
+        "name": "VO de Vallei",
+        "opening_hours": "Mo-Th 8:30-16:30",
+        "phone": "+31 6 24251343",
+        "school": "secondary",
+        "start_date": "2015-10-06",
+        "website": "https://www.vodevallei.nl",
+        "wheelchair": "yes",
+        "@id": "way/1355514208",
         "@type": "way"
       }
     },
