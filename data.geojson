@@ -6874,7 +6874,7 @@
         "addr:housenumber": "19",
         "addr:postcode": "80796",
         "addr:street": "Elisabethstraße",
-        "check_date": "2023-03-28",
+        "check_date": "2026-04-27",
         "contact:email": "infi@casagiardino-blumen.de",
         "contact:phone": "+49 89 2711953",
         "lgbtq": "welcome",
@@ -19620,6 +19620,31 @@
         "swimming_pool": "yes",
         "website": "https://www.steamworks.nl",
         "@id": "node/2725570439",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9079916,
+          51.9829563
+        ]
+      },
+      "properties": {
+        "addr:city": "Arnhem",
+        "addr:housenumber": "47",
+        "addr:postcode": "6811GD",
+        "addr:street": "Jansplein",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "Café Queers",
+        "outdoor_seating": "yes",
+        "source": "BAG",
+        "source:date": "2014-02-11;2022-11-11",
+        "@id": "node/2725649246",
         "@type": "node"
       }
     },
@@ -36496,7 +36521,7 @@
         "opening_hours": "14:00-02:00",
         "phone": "+1 617 263-1449",
         "sport": "billiards",
-        "website": "www.thealleybar.com",
+        "website": "http://www.thealleybar.com",
         "@id": "node/6135655433",
         "@type": "node"
       }
@@ -51406,20 +51431,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.4167955,
-          50.5938138
+          8.416764,
+          50.5938189
         ]
       },
       "properties": {
         "addr:city": "Aßlar",
-        "addr:housenumber": "1A",
+        "addr:housenumber": "1a",
         "addr:postcode": "35614",
         "addr:street": "Bahnhofstraße",
         "amenity": "pub",
+        "email": "postfach@abseits-werdorf.de",
         "lgbtq": "welcome",
-        "name": "effzehweh",
-        "opening_hours": "Tu-Th 18:00-01:00; Fr 18:00-05:00; Sa 15:00-05:00; Su 11:00-22:00",
-        "phone": "+4964439566",
+        "mobile": "+49 160 6048596",
+        "name": "Abseits",
+        "opening_hours": "Mo-Tu 18:00-22:00; Fr 18:00-05:00; Sa 15:00-05:00; Su 11:00-22:00",
+        "phone": "+49 6443 9566",
+        "smoking": "outside",
+        "website": "https://www.abseits-werdorf.de",
         "@id": "node/9600698790",
         "@type": "node"
       }
@@ -78525,6 +78554,32 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6465078,
+          -43.5329605
+        ]
+      },
+      "properties": {
+        "addr:city": "Christchurch",
+        "addr:housenumber": "1/275",
+        "addr:postcode": "8011",
+        "addr:street": "Cashel Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "community_centre",
+        "community_centre": "social_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Te Toka",
+        "operator": "Burnett Foundation Aotearoa",
+        "operator:type": "private_non_profit",
+        "@id": "node/13769049501",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -81248,6 +81303,66 @@
         "service_times": "Su 09:00",
         "website": "https://www.graceandpeacelutheran.org/",
         "@id": "way/64111482",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.5746989,
+              40.7455108
+            ],
+            [
+              -89.5746976,
+              40.7457421
+            ],
+            [
+              -89.5745837,
+              40.7457418
+            ],
+            [
+              -89.5745825,
+              40.7454957
+            ],
+            [
+              -89.5746881,
+              40.7454957
+            ],
+            [
+              -89.5746881,
+              40.7455108
+            ],
+            [
+              -89.5746989,
+              40.7455108
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Peoria Heights",
+        "addr:housenumber": "1231",
+        "addr:postcode": "61616",
+        "addr:state": "IL",
+        "addr:street": "East Samuel Avenue",
+        "amenity": "pub",
+        "building": "commercial",
+        "check_date": "2026-04-22",
+        "cuisine": "american;burger;pizza",
+        "food": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Oliver's in the Heights",
+        "outdoor_seating": "yes",
+        "short_name": "Oliver's",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.oliversintheheights.com/",
+        "@id": "way/64358334",
         "@type": "way"
       }
     },
@@ -83996,8 +84111,8 @@
         "coordinates": [
           [
             [
-              6.330111,
-              52.9509773
+              6.3301098,
+              52.950963
             ],
             [
               6.3300008,
@@ -84036,12 +84151,52 @@
               52.9503453
             ],
             [
-              6.3293816,
-              52.9512688
+              6.3293877,
+              52.9511935
             ],
             [
-              6.330111,
-              52.9509773
+              6.3293713,
+              52.9512941
+            ],
+            [
+              6.3293695,
+              52.9513888
+            ],
+            [
+              6.329395,
+              52.951388
+            ],
+            [
+              6.3294567,
+              52.9513904
+            ],
+            [
+              6.3294567,
+              52.9513177
+            ],
+            [
+              6.3294715,
+              52.9512664
+            ],
+            [
+              6.3294896,
+              52.9512046
+            ],
+            [
+              6.3296016,
+              52.9511937
+            ],
+            [
+              6.3297109,
+              52.9511796
+            ],
+            [
+              6.3301179,
+              52.9509909
+            ],
+            [
+              6.3301098,
+              52.950963
             ]
           ]
         ]
@@ -126577,7 +126732,6 @@
         "lgbtq": "welcome",
         "max_age": "21",
         "min_age": "11",
-        "mobile": "+31 6 24251343",
         "name": "VO de Vallei",
         "opening_hours": "Mo-Th 8:30-16:30",
         "phone": "+31 6 24251343",
