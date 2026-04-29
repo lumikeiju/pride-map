@@ -3268,6 +3268,8 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "270",
+        "addr:street": "Karangahape Road",
         "amenity": "bar",
         "contact:instagram": "https://instagram.com/familybarnz/",
         "lgbtq": "primary",
@@ -42694,33 +42696,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.7788554,
-          51.7159296
-        ]
-      },
-      "properties": {
-        "addr:city": "Paderborn",
-        "addr:country": "DE",
-        "addr:housenumber": "28",
-        "addr:postcode": "33100",
-        "addr:street": "Schulze-Delitzsch-Straße",
-        "amenity": "community_centre",
-        "community_centre": "youth_centre",
-        "community_centre:for": "juvenile;lgbtq",
-        "contact:instagram": "https://www.instagram.com/ohana.pb/",
-        "lgbtq": "primary",
-        "name": "Ohana Paderborn",
-        "website": "https://www.queere-jugend-nrw.de/projekte/ohana-paderborn",
-        "wheelchair": "yes",
-        "@id": "node/7124783891",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           10.0139341,
           53.5537364
         ]
@@ -70652,6 +70627,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -4.1641897,
+          51.6841464
+        ]
+      },
+      "properties": {
+        "addr:city": "Llanelli",
+        "addr:postcode": "SA15 3DN",
+        "addr:street": "West End",
+        "amenity": "cafe",
+        "contact:facebook": "https://www.facebook.com/primaveratherapy",
+        "email": "primavera_therapy@outlook.com",
+        "fhrs:id": "1538120",
+        "lgbtq": "primary",
+        "name": "Primavera Wellness Space",
+        "name:cy": "Lle Llesiant Primavera",
+        "@id": "node/12914413046",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           108.2350925,
           16.0474663
         ]
@@ -74616,14 +74615,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.5909239,
-          40.7572502
+          -89.5909376,
+          40.7573435
         ]
       },
       "properties": {
         "addr:housenumber": "5901",
         "addr:postcode": "61614",
         "addr:street": "North Prospect Road",
+        "addr:unit": "107",
         "level": "0",
         "lgbtq": "welcome",
         "name": "Rebel Roots Hair Haus",
@@ -80396,6 +80396,7 @@
         "mhs:inscription_date": "30-12-1985",
         "name": "Église Saint-Guillaume",
         "name:de": "Wilhelmskirche",
+        "ref:FR:RNB": "HMSN2241NQ3G",
         "ref:mhs": "PA00085026",
         "religion": "christian",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
@@ -119145,81 +119146,6 @@
         "coordinates": [
           [
             [
-              -3.0485635,
-              53.8178526
-            ],
-            [
-              -3.0485597,
-              53.8178687
-            ],
-            [
-              -3.0484699,
-              53.8178675
-            ],
-            [
-              -3.0484367,
-              53.817852
-            ],
-            [
-              -3.0483586,
-              53.8177176
-            ],
-            [
-              -3.04838,
-              53.8177138
-            ],
-            [
-              -3.0483694,
-              53.8176959
-            ],
-            [
-              -3.0485039,
-              53.8176685
-            ],
-            [
-              -3.0485166,
-              53.8176955
-            ],
-            [
-              -3.0484747,
-              53.8177008
-            ],
-            [
-              -3.0485165,
-              53.8177665
-            ],
-            [
-              -3.0485374,
-              53.8177595
-            ],
-            [
-              -3.0485635,
-              53.8178526
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Blackpool",
-        "addr:housenumber": "137",
-        "addr:postcode": "FY1 3NU",
-        "addr:street": "Church Street",
-        "amenity": "bar",
-        "building": "yes",
-        "fhrs:id": "1701990",
-        "lgbtq": "primary",
-        "name": "Mama L's",
-        "@id": "way/996492597",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -102.322904,
               22.2302192
             ],
@@ -132442,8 +132368,8 @@
                 43.6128319
               ],
               [
-                -79.3894873,
-                43.6129118
+                -79.3894643,
+                43.612938
               ],
               [
                 -79.3893742,
