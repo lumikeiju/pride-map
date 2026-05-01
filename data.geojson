@@ -13409,10 +13409,16 @@
         ]
       },
       "properties": {
-        "disused:amenity": "pub",
+        "addr:city": "Düsseldorf",
+        "addr:housenumber": "11",
+        "addr:postcode": "40213",
+        "addr:street": "Hafenstraße",
+        "amenity": "bar",
         "indoor_seating": "yes",
-        "lgbtq": "primary",
+        "lgbtq": "welcome",
+        "name": "Kostbar Carlstadt",
         "outdoor_seating": "yes",
+        "start_date": "2026-04-30",
         "wheelchair": "no",
         "@id": "node/2045604889",
         "@type": "node"
@@ -15100,37 +15106,6 @@
         "name": "queer/bar",
         "wikidata": "Q65074307",
         "@id": "node/2158761250",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3179997,
-          47.6149189
-        ]
-      },
-      "properties": {
-        "addr:city": "Seattle",
-        "addr:country": "US",
-        "addr:housenumber": "1530",
-        "addr:postcode": "98122",
-        "addr:state": "WA",
-        "addr:street": "11th Avenue",
-        "addr:unit": "B",
-        "amenity": "restaurant",
-        "check_date": "2026-04-04",
-        "cuisine": "chicken",
-        "indoor_seating": "yes",
-        "lgbtq": "welcome",
-        "lgbtq:signed": "yes",
-        "name": "Mt. Joy",
-        "outdoor_seating": "no",
-        "website": "https://mtjoy.com",
-        "wikidata": "Q125055837",
-        "@id": "node/2158761274",
         "@type": "node"
       }
     },
@@ -24444,6 +24419,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.129915,
+          49.2793851
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "1022",
+        "addr:province": "BC",
+        "addr:street": "Davie Street",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Celebrities",
+        "opening_hours": "Tu 22:00-03:00; Th-Sa 22:00-03:00",
+        "opening_hours:signed": "no",
+        "phone": "+1-604-681-6180",
+        "smoking": "no",
+        "website": "https://www.celebritiesnightclub.com/",
+        "wheelchair": "limited",
+        "wikidata": "Q28232724",
+        "@id": "node/3746148694",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           25.3268136,
           37.4460622
         ]
@@ -27660,6 +27663,7 @@
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "no",
+        "phone": "+1-604-669-2013",
         "smoking": "no",
         "website": "https://www.junctionpub.com/",
         "wheelchair": "yes",
@@ -34150,7 +34154,7 @@
         "lgbtq": "welcome",
         "name": "NZ Laptops",
         "opening_hours": "Mo-Fr 09:00-17:30",
-        "phone": "+645773338",
+        "phone": "+64 9 577 3338",
         "ref:linz:address_id": "1992487",
         "website": "https://nzlaptops.co.nz",
         "@id": "node/5477309524",
@@ -41717,6 +41721,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.130399,
+          49.2796989
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "1042",
+        "addr:province": "BC",
+        "addr:street": "Davie Street",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "Numbers",
+        "opening_hours": "21:00-03:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "phone": "+1-604-685-4077",
+        "website": "https://numbers.ca/",
+        "wheelchair": "no",
+        "wikidata": "Q28232773",
+        "@id": "node/6950222736",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -111.8866625,
           40.750003
         ]
@@ -47763,6 +47796,31 @@
         "tourism": "gallery",
         "website": "https://bwa.wroc.pl/galeria/bwa-wroclaw-glowny/",
         "@id": "node/8849082277",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.8371755,
+          40.4865159
+        ]
+      },
+      "properties": {
+        "addr:city": "Steamboat Springs",
+        "addr:country": "US",
+        "addr:housenumber": "910",
+        "addr:street": "Yampa Street",
+        "check_date": "2025-09-19",
+        "craft": "brewery",
+        "email": "info@mountaintapbrewery.com",
+        "lgbtq": "welcome",
+        "name": "Mountain Tap Brewery",
+        "opening_hours": "Tu-Th 15:00-21:00; Fr-Sa 12:00-21:00; Su 12:00-20:00",
+        "phone": "+1 970-879-6646",
+        "@id": "node/8855388998",
         "@type": "node"
       }
     },
@@ -56772,7 +56830,7 @@
         ]
       },
       "properties": {
-        "amenity": "fast_food",
+        "amenity": "restaurant",
         "contact:email": "lionetpapillon37@gmail.com",
         "contact:facebook": "https://www.facebook.com/people/Lion-et-papillon/61553218982385/",
         "contact:housenumber": "128",
@@ -73817,6 +73875,33 @@
         "phone": "+1 309-676-9668",
         "website": "https://rhythmkitchenmusiccafe.com",
         "@id": "node/13137270201",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.827317,
+          40.4650216
+        ]
+      },
+      "properties": {
+        "addr:city": "Steamboat Springs",
+        "addr:housenumber": "1585",
+        "addr:postcode": "80487",
+        "addr:state": "CO",
+        "addr:street": "Mid Valley Drive",
+        "level": "1",
+        "lgbtq": "welcome",
+        "name": "Dusky Grouse Coffee",
+        "opening_hours": "Mo-Su 07:00-16:00",
+        "outdoor_seating": "yes",
+        "shop": "coffee",
+        "website": "https://www.duskygrousecoffee.com/",
+        "wheelchair": "limited",
+        "@id": "node/13138342401",
         "@type": "node"
       }
     },
