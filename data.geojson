@@ -52987,27 +52987,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7854408,
-          21.0315204
-        ]
-      },
-      "properties": {
-        "addr:district": "Cầu Giấy",
-        "addr:street": "Số 35, ngõ 66 Dịch Vọng Hậu",
-        "amenity": "social_facility",
-        "contact:facebook": "https://www.facebook.com/CsagaVietnam/?ref=br_rs",
-        "lgbtq": "welcome",
-        "name": "Trung tâm Nghiên cứu & Ứng dụng khoa học về Giới - Gia đình và Vị thành niên CSAGA",
-        "social_facility:for": "women, lgbtq",
-        "@id": "node/9805222060",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8237123,
           21.0275459
         ]
@@ -67405,11 +67384,19 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "79-81",
+        "addr:postcode": "3182",
+        "addr:state": "VIC",
+        "addr:street": "Fitzroy Street",
+        "addr:suburb": "St Kilda",
         "amenity": "community_centre",
         "community_centre:for": "lgbtq",
         "lgbtq": "primary",
         "name": "Victorian Pride Centre",
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa 10:00-17:00",
         "website": "https://pridecentre.org.au/",
+        "wikidata": "Q124472639",
+        "wikimedia_commons": "Category:Victorian Pride Centre",
         "@id": "node/12387775701",
         "@type": "node"
       }
@@ -85007,6 +84994,70 @@
         "coordinates": [
           [
             [
+              -84.3725458,
+              33.7544016
+            ],
+            [
+              -84.3725437,
+              33.7546051
+            ],
+            [
+              -84.3725427,
+              33.7546651
+            ],
+            [
+              -84.3724372,
+              33.7546632
+            ],
+            [
+              -84.3724385,
+              33.7545903
+            ],
+            [
+              -84.3724384,
+              33.7545654
+            ],
+            [
+              -84.3724443,
+              33.754403
+            ],
+            [
+              -84.3725458,
+              33.7544016
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Atlanta",
+        "addr:housename": "464",
+        "addr:housenumber": "466",
+        "addr:postcode": "30312",
+        "addr:street": "Edgewood Avenue Southeast",
+        "addr:unit": "B",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "building": "yes",
+        "building:use": "commercial",
+        "contact:facebook": "https://www.facebook.com/loreatl",
+        "contact:instagram": "https://www.instagram.com/lore.atlanta",
+        "cuisine": "international",
+        "lgbtq": "primary",
+        "min_age": "21",
+        "name": "Lore",
+        "source": "image",
+        "website": "https://loreatl.com/",
+        "@id": "way/108653469",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -112.070902,
               33.4584039
             ],
@@ -97790,7 +97841,7 @@
         "addr:street": "West Holly Street",
         "amenity": "pub",
         "brewery": "ranier",
-        "building": "yes",
+        "building": "retail",
         "check_date": "2026-02-07",
         "check_date:opening_hours": "2026-02-07",
         "diet:meat": "yes",
@@ -129865,6 +129916,59 @@
         "coordinates": [
           [
             [
+              8.3912202,
+              50.5140174
+            ],
+            [
+              8.3915348,
+              50.5141258
+            ],
+            [
+              8.3915889,
+              50.5140624
+            ],
+            [
+              8.3912743,
+              50.5139539
+            ],
+            [
+              8.3912202,
+              50.5140174
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Braunfels",
+        "addr:housenumber": "4",
+        "addr:postcode": "35619",
+        "addr:street": "Am Kurpark",
+        "amenity": "biergarten",
+        "brewery": "hacker_pschorr;paulaner",
+        "dog": "yes",
+        "facebook": "https://www.facebook.com/biergarten.braunfels",
+        "instagram": "https://www.instagram.com/biergarten_braunfels/",
+        "lgbtq": "welcome",
+        "name": "Biergarten Braunfels",
+        "opening_hours": "Mo-Fr 16:00-22:00, Sa,Su,PH 12:00-22:00",
+        "operator": "Event-Agentur C-Entertainment, Cem Eraslan",
+        "outdoor_seating": "yes",
+        "payment:cash": "only",
+        "seasonal": "yes",
+        "source": "https://www.mittelhessen.de/lokales/lahn-dill-kreis/braunfels/in-braunfels-ist-wieder-biergartenzeit-5567011",
+        "website": "https://www.braunfelser-biergarten.de/",
+        "website:menu": "https://www.braunfelser-biergarten.de/index.html#karte",
+        "@id": "way/1498986437",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -124.6816393,
               48.802543
             ],
@@ -130001,6 +130105,63 @@
         "phone": "+1-250-745-3999",
         "website": "https://nitinahtcampground.com/",
         "@id": "way/1503074165",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.7853763,
+              21.0317312
+            ],
+            [
+              105.785406,
+              21.0317186
+            ],
+            [
+              105.7854492,
+              21.0316961
+            ],
+            [
+              105.7855616,
+              21.0316286
+            ],
+            [
+              105.7855036,
+              21.0314725
+            ],
+            [
+              105.7854276,
+              21.0314306
+            ],
+            [
+              105.7852899,
+              21.0316691
+            ],
+            [
+              105.7853637,
+              21.0317285
+            ],
+            [
+              105.7853763,
+              21.0317312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:district": "Cầu Giấy",
+        "addr:street": "Số 35, ngõ 66 Dịch Vọng Hậu",
+        "amenity": "social_facility",
+        "contact:facebook": "https://www.facebook.com/CsagaVietnam/?ref=br_rs",
+        "lgbtq": "welcome",
+        "name": "Trung tâm Nghiên cứu & Ứng dụng khoa học về Giới - Gia đình và Vị thành niên CSAGA",
+        "social_facility:for": "women, lgbtq",
+        "@id": "way/1507597289",
         "@type": "way"
       }
     },
