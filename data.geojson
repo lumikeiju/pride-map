@@ -87,6 +87,7 @@
         "addr:postcode": "79106",
         "addr:street": "Kandelstraße",
         "amenity": "cinema",
+        "check_date": "2026-05-02",
         "check_date:opening_hours": "2022-10-04",
         "contact:facebook": "https://www.facebook.com/kinofreiburg/",
         "contact:instagram": "https://www.instagram.com/kinofreiburg",
@@ -8343,9 +8344,11 @@
         "amenity": "pub",
         "check_date": "2026-01-17",
         "check_date:opening_hours": "2026-01-17",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Rausch Gold",
         "opening_hours": "Mo-Fr 20:00-04:00+",
+        "outdoor_seating": "yes",
         "payment:cash": "no",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -21325,10 +21328,15 @@
         "amenity": "pub",
         "bar:type": "womens_sports_bar",
         "check_date": "2025-10-22",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Rough & Tumble",
         "opening_hours": "Mo,We-Th 16:00-22:00; Tu 16:00-23:00; Fr 16:00-24:00; Sa 10:00-24:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:unisex": "yes",
         "toilets:wheelchair": "yes",
         "website": "https://www.roughandtumblepub.com",
         "wheelchair": "yes",
@@ -64852,6 +64860,7 @@
         "shop": "tattoo",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "website": "https://nadelkunst.art",
+        "wheelchair": "no",
         "@id": "node/12070033556",
         "@type": "node"
       }
@@ -86746,13 +86755,15 @@
         "addr:country": "GB",
         "addr:postcode": "NN1 2QP",
         "addr:street": "College Street",
-        "amenity": "pub",
+        "amenity": "bar",
         "building": "retail",
+        "contact:instagram": "https://www.instagram.com/thebostonnorthampton",
         "fhrs:authority": "West Northamptonshire",
         "fhrs:id": "166336",
         "fhrs:local_authority_id": "PI/000009378",
         "lgbtq": "primary",
-        "name": "Boston Clipper",
+        "name": "The Boston",
+        "old_name": "Boston Clipper",
         "source": "Bing",
         "@id": "way/135154317",
         "@type": "way"
@@ -93368,60 +93379,36 @@
         "coordinates": [
           [
             [
-              -122.2708265,
-              47.5556161
+              -122.2708072,
+              47.5556181
             ],
             [
-              -122.2708262,
-              47.555701
+              -122.2708084,
+              47.5558952
             ],
             [
-              -122.2707959,
-              47.555701
+              -122.2707022,
+              47.5558947
             ],
             [
-              -122.2707955,
-              47.5558427
+              -122.270702,
+              47.5558105
             ],
             [
-              -122.2707765,
-              47.5558427
+              -122.2704335,
+              47.5558098
             ],
             [
-              -122.2707764,
-              47.5558698
+              -122.2703995,
+              47.5557855
             ],
             [
-              -122.2706858,
-              47.5558697
+              -122.2704,
+              47.5556183
             ],
             [
-              -122.2706859,
-              47.5558052
-            ],
-            [
-              -122.2705041,
-              47.5558049
-            ],
-            [
-              -122.2705041,
-              47.5558218
-            ],
-            [
-              -122.2704137,
-              47.5558217
-            ],
-            [
-              -122.270369,
-              47.5557885
-            ],
-            [
-              -122.2703695,
-              47.5556155
-            ],
-            [
-              -122.2708265,
-              47.5556161
+              -122.2708072,
+              47.5556181
             ]
           ]
         ]
@@ -97984,6 +97971,76 @@
         "website": "https://www.ponyseattle.com/",
         "wikidata": "Q22073397",
         "@id": "way/295329823",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.3106297,
+              47.7599877
+            ],
+            [
+              9.3106253,
+              47.7598694
+            ],
+            [
+              9.3103921,
+              47.7598733
+            ],
+            [
+              9.3103965,
+              47.7599916
+            ],
+            [
+              9.3106297,
+              47.7599877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Salem",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "88682",
+        "addr:street": "Markdorfer Straße",
+        "addr:suburb": "Neufrach",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2025-09-29",
+        "check_date:diet:halal": "2025-09-29",
+        "check_date:diet:kosher": "2025-09-29",
+        "check_date:diet:vegetarian": "2025-09-29",
+        "check_date:smoking": "2025-02-02",
+        "contact:phone": "+49 175 8862118",
+        "cuisine": "regional;german",
+        "description": "Café, Bar und Restaurant mit durchgehendem Betrieb und Abendgastronomie",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "diet:vegetarian": "yes",
+        "drink:beer": "yes",
+        "drink:coffee": "yes",
+        "drink:spirits": "yes",
+        "drink:wine": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "Grüner Baum",
+        "opening_hours": "Su-Th 12:00-24:00; Fr-Sa 12:00-03:00",
+        "outdoor_seating": "terrace",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "reservation": "yes",
+        "smoking": "outside",
+        "toilets": "yes",
+        "wheelchair": "no",
+        "@id": "way/297516874",
         "@type": "way"
       }
     },
