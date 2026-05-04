@@ -42951,7 +42951,7 @@
         "addr:housenumber": "70",
         "addr:street": "Carrer de Casanova",
         "amenity": "restaurant",
-        "check_date": "2024-03-02",
+        "check_date": "2026-05-03",
         "cuisine": "argentinian",
         "lgbtq": "welcome",
         "name": "Argentinisimo",
@@ -53758,9 +53758,20 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "329",
+        "addr:postcode": "75208",
+        "addr:street": "Centre Street",
+        "air_conditioning": "yes",
         "amenity": "pub",
+        "brewery": "various",
+        "check_date": "2026-05-03",
         "lgbtq": "primary",
+        "microbrewery": "no",
         "name": "Barbara's Pavillion",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "toilets": "yes",
         "@id": "node/9921435066",
         "@type": "node"
       }
@@ -68493,9 +68504,13 @@
         "beauty": "hair_removal",
         "email": "admin@shoyoface.com",
         "healthcare:speciality": "electrolysis",
+        "lgbtq": "welcome",
         "lgbtq:trans": "welcome",
         "name": "Shoyo Face Electrolysis",
         "opening_hours": "Tu-We 12:00-20:00; Sa 12:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+1-778-775-3272",
         "shop": "beauty",
         "website": "https://www.shoyoface.com/",
@@ -69038,9 +69053,8 @@
         "payment:mastercard": "yes",
         "payment:visa": "yes",
         "shop": "beauty",
-        "source:lgbtq_owner": "https://www.electrolysis-by-isla.com/",
-        "source:woman_owner": "https://www.electrolysis-by-isla.com/",
-        "woman_owner": "yes",
+        "source:owner": "https://www.electrolysis-by-isla.com/",
+        "women_owned": "yes",
         "@id": "node/12671124307",
         "@type": "node"
       }
@@ -78662,6 +78676,31 @@
         "operator": "Burnett Foundation Aotearoa",
         "operator:type": "private_non_profit",
         "@id": "node/13769049501",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0941171,
+          42.273739
+        ]
+      },
+      "properties": {
+        "addr:city": "Rockford",
+        "addr:housenumber": "327",
+        "addr:postcode": "61101",
+        "addr:street": "West Jefferson Street",
+        "contact:facebook": "https://www.facebook.com/metabeautycollective",
+        "email": "metabeautycollective@gmail.com",
+        "lgbtq": "welcome",
+        "name": "Meta Beauty Collective",
+        "phone": "+1-815-636-9850",
+        "shop": "hairdresser",
+        "website": "https://metabeautycollective.com",
+        "@id": "node/13792137331",
         "@type": "node"
       }
     },
@@ -103328,48 +103367,48 @@
         "coordinates": [
           [
             [
-              -68.9263296,
-              12.1017367
+              -68.9263578,
+              12.1017564
             ],
             [
-              -68.9261768,
-              12.1016863
+              -68.926205,
+              12.101706
             ],
             [
-              -68.9261025,
-              12.1019014
+              -68.9261307,
+              12.1019211
             ],
             [
-              -68.9259485,
-              12.1018505
+              -68.9259767,
+              12.1018702
             ],
             [
-              -68.9258615,
-              12.1021023
+              -68.9258897,
+              12.102122
             ],
             [
-              -68.9257303,
-              12.102059
+              -68.9257585,
+              12.1020787
             ],
             [
-              -68.9258481,
-              12.1016598
+              -68.9258763,
+              12.1016795
             ],
             [
-              -68.9259587,
-              12.1016945
+              -68.9259869,
+              12.1017142
             ],
             [
-              -68.9260381,
-              12.1014422
+              -68.9260663,
+              12.1014619
             ],
             [
-              -68.9263893,
-              12.1015639
+              -68.9264175,
+              12.1015836
             ],
             [
-              -68.9263296,
-              12.1017367
+              -68.9263578,
+              12.1017564
             ]
           ]
         ]
@@ -115561,6 +115600,14 @@
             [
               5.129103,
               52.1939624
+            ],
+            [
+              5.1291835,
+              52.1939264
+            ],
+            [
+              5.1293922,
+              52.1938259
             ],
             [
               5.1295261,
