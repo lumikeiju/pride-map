@@ -5006,6 +5006,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          10.8954831,
+          48.3657145
+        ]
+      },
+      "properties": {
+        "addr:city": "Augsburg",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "86150",
+        "addr:street": "Barthshof",
+        "amenity": "pub",
+        "lgbtq": "primary",
+        "name": "Oki's Bar",
+        "opening_hours": "Fr,Sa 19:00-03:00, Th 19:00-01:00",
+        "phone": "082166012089",
+        "smoking": "outside",
+        "wheelchair": "no",
+        "@id": "node/713155787",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -76.9982684,
           38.8851718
         ]
@@ -9922,13 +9948,16 @@
         ]
       },
       "properties": {
+        "addr:city": "Glasgow",
         "addr:housenumber": "84",
         "addr:postcode": "G1 1UZ",
         "addr:street": "Wilson Street",
         "alt_name": "Polo",
         "amenity": "nightclub",
+        "fhrs:id": "133940",
         "lgbtq": "primary",
         "name": "Polo Lounge",
+        "source:addr": "FHRS Open Data",
         "website": "https://www.pologlasgow.co.uk/",
         "@id": "node/1543443657",
         "@type": "node"
@@ -9971,8 +10000,10 @@
         "addr:street": "Virginia Street",
         "alt_name": "Dels",
         "amenity": "bar",
+        "fhrs:id": "734779",
         "lgbtq": "primary",
         "name": "Delmonicas",
+        "source:addr": "FHRS Open Data",
         "website": "https://delmonicas.co.uk/",
         "wheelchair": "no",
         "@id": "node/1543455399",
@@ -10448,8 +10479,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.4120945,
-          52.554228
+          13.4123732,
+          52.5542041
         ]
       },
       "properties": {
@@ -34888,7 +34919,7 @@
         "name": "Movimiento por la Diversidad Sexual MUMS",
         "operator": "MUMS Chile",
         "operator:type": "private_non_profit",
-        "website": "http://www.mums.cl",
+        "website": "https://www.mums.cl/",
         "wikidata": "Q6025404",
         "wikimedia_commons": "Category:Movimiento por la Diversidad Sexual",
         "wikipedia": "es:Movimiento por la Diversidad Sexual",
@@ -44302,7 +44333,10 @@
         "lgbtq": "primary",
         "name": "Le 2.4.9",
         "opening_hours": "Tu-Su 17:00-26:00",
+        "ref:FR:NAF": "56.30Z",
+        "ref:FR:SIREN": "931043772",
         "ref:FR:SIRET": "93104377200017",
+        "source": "INSEE - 2026-05",
         "@id": "node/7638178572",
         "@type": "node"
       }
@@ -97063,7 +97097,7 @@
         "takeaway": "yes",
         "toilets": "yes",
         "toilets:unisex": "yes",
-        "website": "therosemontnyc.com",
+        "website": "https://therosemontnyc.com/",
         "@id": "way/279655081",
         "@type": "way"
       }
@@ -97931,7 +97965,7 @@
         "lgbtq": "primary",
         "min_age": "18",
         "name": "Basement - Specialist Adult Store",
-        "phone": "+64 09 302 2250",
+        "phone": "+64 9 302 2250",
         "shop": "erotic",
         "website": "https://basementnz.com/",
         "@id": "way/293020911",
