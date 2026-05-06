@@ -5020,7 +5020,7 @@
         "lgbtq": "primary",
         "name": "Oki's Bar",
         "opening_hours": "Fr,Sa 19:00-03:00, Th 19:00-01:00",
-        "phone": "082166012089",
+        "phone": "+49 821 66012089",
         "smoking": "outside",
         "wheelchair": "no",
         "@id": "node/713155787",
@@ -13204,7 +13204,7 @@
         "name": "Circa",
         "outdoor_seating": "yes",
         "payment:american_express": "yes",
-        "website": "http://www.circasoho.com/",
+        "website": "https://www.circasoho.com/",
         "@id": "node/2007363135",
         "@type": "node"
       }
@@ -31592,7 +31592,7 @@
         "name": "Berlin Dark",
         "opening_hours": "Tu-Th 22:00-03:00; Fr, Sa 22:00-03:30; Su 20:00-02:00",
         "phone": "+34635773955",
-        "website": "http://www.berlindark.com",
+        "website": "https://www.berlindark.com/",
         "@id": "node/4958849921",
         "@type": "node"
       }
@@ -37966,31 +37966,6 @@
         "opening_hours": "Mo-Th 14:00-02:00, Fr-Su 14:00-03:00",
         "toilets:wheelchair": "designated",
         "@id": "node/6299549295",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.689589,
-          41.895924
-        ]
-      },
-      "properties": {
-        "addr:city": "Chicago",
-        "addr:housenumber": "2500",
-        "addr:postcode": "60622",
-        "addr:state": "IL",
-        "addr:street": "West Chicago Avenue",
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "lgbtq:women": "primary",
-        "name": "Dorothy's",
-        "phone": "+1-770-773-3799",
-        "website": "https://www.dorothydownstairs.com/",
-        "@id": "node/6300313243",
         "@type": "node"
       }
     },
@@ -94499,6 +94474,60 @@
         "website": "https://www.highstreetpharmacyoakland.com/",
         "wheelchair": "yes",
         "@id": "way/236498579",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.468282,
+              40.6175216
+            ],
+            [
+              -89.468402,
+              40.6173999
+            ],
+            [
+              -89.4683397,
+              40.6173646
+            ],
+            [
+              -89.4684174,
+              40.6172858
+            ],
+            [
+              -89.4683481,
+              40.6172464
+            ],
+            [
+              -89.4681505,
+              40.6174469
+            ],
+            [
+              -89.468282,
+              40.6175216
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "730",
+        "addr:street": "West Jackson Street",
+        "amenity": "cafe",
+        "building": "retail",
+        "drive_through": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Leaves 'n Beans Coffee",
+        "opening_hours": "Mo-Sa 07:00-14:00; Su 08:00-14:00",
+        "short_name": "LnB Coffee",
+        "takeaway": "yes",
+        "website": "https://www.lnbcoffee.com/morton",
+        "@id": "way/238392895",
         "@type": "way"
       }
     },
