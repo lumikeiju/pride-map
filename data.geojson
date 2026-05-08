@@ -2412,7 +2412,7 @@
         "payment:maestro": "yes",
         "phone": "+49 351 5633630",
         "smoking": "yes",
-        "website": "http://www.boys-dresden.de",
+        "website": "https://www.boys-dresden.de/",
         "wheelchair": "no",
         "@id": "node/381166990",
         "@type": "node"
@@ -8837,29 +8837,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.27815,
-          53.3406636
-        ]
-      },
-      "properties": {
-        "addr:city": "Dublin",
-        "addr:country": "IE",
-        "addr:county": "Dublin",
-        "addr:housenumber": "61-63",
-        "addr:postcode": "D08 P4V2",
-        "addr:street": "Meath Street",
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "name": "All My Friends",
-        "@id": "node/1373977813",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.9949831,
           49.2326964
         ]
@@ -12389,7 +12366,7 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "mamamia",
-        "website": "http://www.mamamia.tv/",
+        "website": "https://www.mamamia.tv/",
         "@id": "node/1853157148",
         "@type": "node"
       }
@@ -16982,7 +16959,7 @@
         "smoking": "outside",
         "toilets": "yes",
         "toilets:wheelchair": "no",
-        "website": "http://www.lokomov.de",
+        "website": "https://www.lokomov.de/",
         "wheelchair": "no",
         "@id": "node/2418162445",
         "@type": "node"
@@ -22626,6 +22603,7 @@
         "addr:street": "Zeiseweg",
         "addr:unit": "Ost-Flügel",
         "air_conditioning": "no",
+        "check_date": "2026-05-07",
         "club": "computer",
         "contact:mastodon": "@ccchh@chaos.social",
         "drink:club-mate": "yes",
@@ -22905,7 +22883,7 @@
         "lgbtq": "only",
         "name": "IDM",
         "opening_hours": "Mo-Su 12:00-01:00",
-        "website": "http://www.idm-sauna.com/",
+        "website": "https://idm-sauna.com/",
         "@id": "node/3429467237",
         "@type": "node"
       }
@@ -28337,7 +28315,7 @@
         "name:fr": "IDM Sauna",
         "opening_hours": "Mo-Su 12:00-01:00",
         "phone": "+33 1 45 23 10 03",
-        "website": "http://www.idm-sauna.com",
+        "website": "https://idm-sauna.com/",
         "@id": "node/4375369191",
         "@type": "node"
       }
@@ -73195,8 +73173,9 @@
       },
       "properties": {
         "addr:city": "Doncaster",
+        "addr:country": "GB",
         "addr:housenumber": "54",
-        "addr:postcode": "DN1 1HY",
+        "addr:postcode": "DN1 1HT",
         "addr:street": "Silver Street",
         "amenity": "bar",
         "check_date": "2025-08-16",
@@ -74810,6 +74789,30 @@
         "service_times": "Sundays @ 3:00 p.m.",
         "website": "pbuuc.org",
         "@id": "node/13271072728",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5909474,
+          40.7570595
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "5901",
+        "addr:postcode": "61614",
+        "addr:street": "North Prospect Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "level": "1",
+        "lgbtq": "welcome",
+        "name": "LifeStance Health",
+        "website": "https://lifestance.com/",
+        "@id": "node/13272934801",
         "@type": "node"
       }
     },
@@ -78710,6 +78713,86 @@
         "shop": "hairdresser",
         "website": "https://metabeautycollective.com",
         "@id": "node/13792137331",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1808621,
+          48.7728049
+        ]
+      },
+      "properties": {
+        "addr:city": "Stuttgart",
+        "addr:housenumber": "6",
+        "addr:postcode": "70182",
+        "addr:street": "Lazarettstraße",
+        "amenity": "social_facility",
+        "appointment": "required",
+        "contact:email": "regenbogen-refugium@zentrum-weissenburg.de",
+        "contact:phone": "+49 711 40053012",
+        "contact:whatsapp": "+49 176 58861408",
+        "description": "Beratung für queere Geflüchtete",
+        "description:ar": "إستشارات للّاجئين المثليين وأحرار الجنس",
+        "description:en": "Consultation for queer refugees",
+        "description:fa": "توصیه هایی برای پناهندگان دگرباش",
+        "description:fr": "Conseils pour les réfugiés queer",
+        "description:ru": "Консультации для квир-беженцев",
+        "description:tr": "Queer mülteciler için tavsiye",
+        "level": "0",
+        "lgbtq": "only",
+        "name": "Regenbogen Refugium",
+        "operator": "Weissenburg e.V.",
+        "operator:type": "private_non_profit",
+        "social_facility": "outreach",
+        "social_facility:for": "refugee",
+        "website": "https://www.zentrum-weissenburg.de/regenbogen-refugium/",
+        "wheelchair": "no",
+        "@id": "node/13806133496",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1604488,
+          48.7686089
+        ]
+      },
+      "properties": {
+        "addr:city": "Stuttgart",
+        "addr:housenumber": "82",
+        "addr:postcode": "70178",
+        "addr:street": "Reinsburgstraße",
+        "amenity": "social_facility",
+        "appointment": "required",
+        "description": "Beratungsstellen\n- für trans* und inter* und nicht-binäre und agender Menschen (TINA)\n- für bisexuelle und schwule Jungen* und Männer*",
+        "email": "beratung@zentrum-weissenburg.de",
+        "language:de": "main",
+        "language:en": "yes",
+        "level": "2",
+        "lgbtq:bi": "yes",
+        "lgbtq:gay": "primary",
+        "lgbtq:intersex": "yes",
+        "lgbtq:non_binary": "yes",
+        "lgbtq:trans": "primary",
+        "name": "Weissenburg Beratungsstelle",
+        "opening_hours": "Mo-Fr 12:00-18:00",
+        "operator": "Weissenburg e.V.",
+        "operator:type": "private_non_profit",
+        "phone:gay": "+49 711 40053010",
+        "phone:trans": "+49 711 40053013",
+        "social_facility": "outreach",
+        "social_facility:for": "lgbtq",
+        "website": "https://www.zentrum-weissenburg.de/beratung/",
+        "website:gay": "https://www.zentrum-weissenburg.de/beratung-sbq/",
+        "website:trans": "https://www.zentrum-weissenburg.de/beratung-tti/",
+        "@id": "node/13806242516",
         "@type": "node"
       }
     },
@@ -101838,7 +101921,7 @@
         "phone": "+1 410-243-1129",
         "religion": "christian",
         "source:lgbtq": "https://goodshepherdhampden.org/reconciling-statement/",
-        "website": "http://www.goodshepherdhampden.com/",
+        "website": "https://www.goodshepherdhampden.com/",
         "@id": "way/336412774",
         "@type": "way"
       }
@@ -124526,28 +124609,28 @@
               51.3254844
             ],
             [
-              12.3311234,
-              51.3250854
+              12.3311236,
+              51.3250866
             ],
             [
-              12.331038,
-              51.3250956
+              12.3310378,
+              51.3250967
             ],
             [
-              12.3309754,
-              51.3251024
+              12.3309756,
+              51.325104
             ],
             [
-              12.3308732,
-              51.3251155
+              12.3308814,
+              51.3251151
             ],
             [
-              12.3307689,
-              51.3251276
+              12.3307702,
+              51.3251282
             ],
             [
-              12.3307998,
-              51.3252285
+              12.3308016,
+              51.3252292
             ],
             [
               12.3309051,
