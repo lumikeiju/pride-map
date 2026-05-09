@@ -1591,9 +1591,11 @@
         "addr:postcode": "SE1 7RW",
         "addr:street": "Westminster Bridge Road",
         "amenity": "pub",
-        "check_date": "2025-11-01",
+        "check_date": "2026-05-08",
+        "check_date:opening_hours": "2026-05-08",
         "contact:facebook": "TheWalrusBarHostel",
         "contact:instagram": "thewalrusbarandhostel",
+        "email": "thewalrushostel@gmail.com",
         "fhrs:authority": "Lambeth",
         "fhrs:id": "484706",
         "fhrs:inspectiondate": "2013-03-22",
@@ -1605,14 +1607,16 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "The Walrus",
+        "opening_hours": "Su-We 12:00-23:00; Th 12:00-24:00;Fr-Sa 12:00-24:45",
         "outdoor_seating": "sidewalk",
         "payment:american_express": "no",
         "payment:cards": "yes",
         "payment:cash": "no",
+        "phone": "+44 7545589214",
         "smoking": "outside",
         "toilets": "yes",
         "toilets:wheelchair": "no",
-        "website": "https://www.thewalrusbarandhostel.co.uk",
+        "website": "https://www.thewalrusbarandhostel.co.uk/barpage1",
         "wheelchair": "no",
         "@id": "node/348782665",
         "@type": "node"
@@ -3086,6 +3090,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          10.0125642,
+          53.5581398
+        ]
+      },
+      "properties": {
+        "amenity": "pub",
+        "brewery": "Ratsherrn",
+        "check_date": "2026-05-08",
+        "check_date:opening_hours": "2025-11-17",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "KytiVoo",
+        "opening_hours": "Mo-Th 17:30-01:00, Fr,Sa 17:00-18:00+",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.kytivoo.com",
+        "wheelchair": "limited",
+        "@id": "node/443236859",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3588836,
           48.1985619
         ]
@@ -3552,6 +3584,33 @@
         "name": "The Wickham",
         "website": "https://www.thewickham.com.au/",
         "@id": "node/494599470",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0241582,
+          49.2229827
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "3",
+        "addr:postcode": "66121",
+        "addr:street": "An der Römerbrücke",
+        "amenity": "nightclub",
+        "contact:email": "info@silo-saar.de",
+        "contact:facebook": "https://www.facebook.com/silodom.sb",
+        "lgbtq": "welcome",
+        "name": "Silodom",
+        "opening_hours:signed": "no",
+        "operator": "Sibille Strauch Ortleb;Wilfried Voigt",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "toilets": "yes",
+        "@id": "node/498385368",
         "@type": "node"
       }
     },
@@ -4830,8 +4889,9 @@
         "addr:housenumber": "23",
         "addr:postcode": "76133",
         "addr:street": "Steinstraße",
-        "air_conditioning": "no",
-        "check_date": "2024-06-02",
+        "air_conditioning": "yes",
+        "alt_name": "CCC Karlsruhe",
+        "check_date": "2026-05-08",
         "contact:email": "info@entropia.de",
         "contact:mastodon": "entropia@chaos.social",
         "contact:twitter": "entropiagpn",
@@ -4839,8 +4899,10 @@
         "description": "Hackerspace, CCC Karlsruhe",
         "drink:club-mate": "yes",
         "drink:flora-mate": "yes",
+        "drink:tschunk": "yes",
+        "elevator": "no",
         "fee": "no",
-        "internet_access": "wlan",
+        "internet_access": "yes",
         "internet_access:fee": "no",
         "internet_access:ssid": "karlsruhe.freifunk.net",
         "leisure": "hackerspace",
@@ -4848,7 +4910,7 @@
         "lgbtq": "welcome",
         "name": "Entropia e.V.",
         "office": "ngo",
-        "opening_hours": "\"available 24/7 to members and guests only\"",
+        "opening_hours": "Available 24/7 to members, guests allowed as long as a member is present. Usually always open on Saturday afternoons.",
         "operator": "Entropia e.V.",
         "operator:type": "community",
         "outdoor_seating": "no",
@@ -4866,19 +4928,21 @@
         "payment:visa": "yes",
         "payment:visa_electron": "yes",
         "phone": "+49 721 5604723",
+        "public_transport": "departures_board",
         "shower": "hot",
         "smoking": "no",
         "start_date": "1999-04-11",
         "toilets": "yes",
         "toilets:access": "private",
         "toilets:female": "yes",
-        "toilets:gender_segregated": "yes",
-        "toilets:male": "yes",
+        "toilets:gender_segregated": "no",
         "toilets:name": "Enklopia",
         "toilets:position": "seated;urinal",
+        "toilets:unisex": "yes",
         "toilets:wheelchair": "no",
         "url:spaceapi": "https://club.entropia.de/spaceapiace.by/spaceapi",
         "website": "https://entropia.de",
+        "website:events": "https://gulas.ch",
         "wheelchair": "no",
         "wikidata": "Q84769515",
         "wikimedia_commons": "Category:Entropia Karlsruhe",
@@ -20959,8 +21023,10 @@
         "fhrs:authority": "Nottingham City",
         "fhrs:id": "939670",
         "fhrs:local_authority_id": "76292",
+        "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Blend",
+        "outdoor_seating": "yes",
         "source": "survey",
         "source:addr": "FHRS Open Data",
         "wheelchair": "yes",
@@ -24087,7 +24153,6 @@
         ]
       },
       "properties": {
-        "addr:country": "VN",
         "addr:district": "Hoàn Kiếm",
         "addr:housenumber": "6",
         "addr:street": "Ngõ Hội Vũ",
@@ -43541,7 +43606,9 @@
         ]
       },
       "properties": {
-        "addr:district": "Hoàn Kiếm",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:province": "Thành phố Hà Nội",
         "addr:street": "119 Phung Hung, Cua Dong",
         "amenity": "nightclub",
         "contact:facebook": "https://www.facebook.com/upclubhn/",
@@ -43908,7 +43975,7 @@
         "addr:district": "Hoàn Kiếm",
         "addr:housenumber": "11",
         "addr:postcode": "100000",
-        "addr:province": "Hà Nội",
+        "addr:province": "Thành phố Hà Nội",
         "addr:street": "Phố Phủ Doãn",
         "addr:subdistrict": "Hoàn Kiếm",
         "amenity": "cafe",
@@ -44641,6 +44708,30 @@
         "phone": "+1-631-632-1690",
         "website": "https://stonybrook.edu/lgbtq",
         "@id": "node/7775054383",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0238445,
+          49.2229189
+        ]
+      },
+      "properties": {
+        "amenity": "biergarten",
+        "bar": "no",
+        "indoor_seating": "no",
+        "lgbtq": "welcome",
+        "name": "Silodom",
+        "opening_hours:signed": "no",
+        "smoking": "yes",
+        "toilets": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "Außenbereich barrierefrei; Getränkeverkauf nur über eine Treppe erreichbar (außer bei Sonderveranstaltungen mit Außenverkauf)",
+        "@id": "node/7784572406",
         "@type": "node"
       }
     },
@@ -45951,6 +46042,32 @@
         "lgbtq": "primary",
         "name": "Hibrido",
         "@id": "node/7887980853",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0234848,
+          49.2232234
+        ]
+      },
+      "properties": {
+        "amenity": "events_venue",
+        "community_centre": "events_venue",
+        "contact:facebook": "https://facebook.com/sektorheimat",
+        "contact:instagram": "https://www.instagram.com/sektorheimat/",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Sektor Heimat",
+        "opening_hours:signed": "no",
+        "smoking": "outside",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "lange Rampe vorhanden",
+        "@id": "node/7891052903",
         "@type": "node"
       }
     },
@@ -52283,7 +52400,9 @@
         ]
       },
       "properties": {
-        "addr:district": "Hoàn Kiếm",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:province": "Thành phố Hà Nội",
         "addr:street": "8B Ta Hien, Hang Buom",
         "amenity": "bar",
         "contact:email": "1900.hanoi@gmail.com",
@@ -68620,8 +68739,6 @@
         "addr:city": "Dundee",
         "addr:postcode": "DD1 2EX",
         "addr:street": "St Andrews Street",
-        "amenity": "nightclub",
-        "disused": "yes",
         "disused:amenity": "nightclub",
         "fhrs:id": "1275804",
         "lgbtq": "primary",
