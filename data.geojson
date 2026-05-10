@@ -21481,7 +21481,7 @@
         "name": "Love Club",
         "opening_hours": "Fr 22:00-04:00, Sa 21:00-05:00",
         "phone": "+48509720079",
-        "website": "http://loveclub.pl",
+        "website": "https://loveclub.pl/",
         "@id": "node/3144504784",
         "@type": "node"
       }
@@ -49143,7 +49143,7 @@
         "note": "LGBTQ+ Freundlich, Unisex-Toilette vorhanden",
         "opening_hours": "Mo,Fr 08:30-15:00; Tu,Th 08:30-12:00, 13:00-18:00; Sa-Su off",
         "phone": "+49 611 23885018",
-        "website": "zahnarzt-wiesbaden-rezvan.de",
+        "website": "https://zahnarzt-wiesbaden-rezvan.de/",
         "wheelchair": "yes",
         "@id": "node/9094751918",
         "@type": "node"
@@ -65185,7 +65185,7 @@
         "addr:housenumber": "19",
         "addr:street": "Essex Street",
         "amenity": "bar",
-        "check_date": "2026-01-16",
+        "check_date": "2026-05-09",
         "lgbtq": "primary",
         "name": "The Flaming Galah",
         "website": "https://www.theflaminggalahfreo.com.au/",
@@ -115309,6 +115309,51 @@
         "building": "yes",
         "lgbtq": "primary",
         "@id": "way/757030576",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.6174188,
+              43.1030781
+            ],
+            [
+              -71.6171922,
+              43.1031161
+            ],
+            [
+              -71.6172342,
+              43.1032496
+            ],
+            [
+              -71.6174608,
+              43.1032115
+            ],
+            [
+              -71.6174188,
+              43.1030781
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2026-01-10",
+        "denomination": "congregational",
+        "ele": "246",
+        "gnis:feature_id": "1917394",
+        "lgbtq": "welcome",
+        "name": "Dunbarton Congregational Church",
+        "religion": "christian",
+        "roof:orientation": "along",
+        "roof:shape": "gabled",
+        "@id": "way/757719632",
         "@type": "way"
       }
     },
