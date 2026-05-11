@@ -20026,8 +20026,10 @@
         "addr:postcode": "10025",
         "addr:street": "Amsterdam Avenue",
         "amenity": "pub",
+        "check_date:opening_hours": "2026-05-10",
         "lgbtq": "primary",
         "name": "Suite",
+        "opening_hours:signed": "no",
         "phone": "+1-212-222-4600",
         "website": "https://suitenyc.com/",
         "@id": "node/2761677763",
@@ -20847,7 +20849,7 @@
         "name": "Jugendzentrum PULS",
         "phone": "+49 211 21094852",
         "toilets:wheelchair": "yes",
-        "website": "http://www.puls-duesseldorf.de/",
+        "website": "https://www.puls-duesseldorf.de/",
         "wheelchair": "limited",
         "@id": "node/2933055301",
         "@type": "node"
@@ -30374,6 +30376,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          121.5236547,
+          25.0581505
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "104臺北市中山區民生東路一段13號",
+        "addr:housenumber": "13",
+        "addr:postcode": "104",
+        "addr:street": "民生東路一段",
+        "contact:facebook": "https://www.facebook.com/soi13ingaysauna",
+        "description": "Gay men sauna",
+        "fee": "yes",
+        "leisure": "sauna",
+        "lgbtq": "primary",
+        "lgbtq:men": "primary",
+        "name": "Soi 13 in",
+        "name:zh": "Soi 13 in",
+        "name:zh-Hant": "Soi 13 in",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "phone": "+886 2 2523 6270",
+        "@id": "node/4705586064",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3517739,
           48.196961
         ]
@@ -38034,7 +38070,7 @@
         "name": "GAP in Bonn",
         "operator": "Aids-Hilfe Bonn e.V.",
         "operator:type": "ngo",
-        "website": "http://gap-in-bonn.de/",
+        "website": "https://gap-in-bonn.de/",
         "wheelchair": "limited",
         "@id": "node/6314845469",
         "@type": "node"
@@ -69284,7 +69320,7 @@
         "opening_hours": "Mo,Fr-Su off; Tu-Th 10:30-16:00",
         "panoramax": "a9e58289-826b-4209-8d58-9592d7fbbea7",
         "phone": "+1 5198242091",
-        "website": "http://opirgguelph.org/",
+        "website": "https://opirgguelph.org/",
         "@id": "node/12684873233",
         "@type": "node"
       }
@@ -78916,6 +78952,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0365192,
+          14.3408148
+        ]
+      },
+      "properties": {
+        "lgbtq": "primary",
+        "name": "All EN one",
+        "shop": "erotic",
+        "@id": "node/13816551543",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -80302,7 +80355,7 @@
         ]
       },
       "properties": {
-        "addr:city": "Bremgarten",
+        "addr:city": "Bremgarten AG",
         "addr:country": "CH",
         "addr:housenumber": "2",
         "addr:postcode": "5620",
@@ -107918,10 +107971,16 @@
         "addr:postcode": "75235",
         "addr:state": "TX",
         "addr:street": "Butler Street",
+        "air_conditioning": "yes",
         "amenity": "bar",
         "building": "yes",
+        "check_date": "2026-05-09",
         "lgbtq": "primary",
+        "microbrewery": "no",
         "name": "The Grapevine Bar",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "toilets": "yes",
         "toilets:unisex": "yes",
         "website": "https://www.grapevinebar.com/",
