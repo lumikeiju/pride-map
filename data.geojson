@@ -3206,11 +3206,17 @@
         "addr:postcode": "20099",
         "addr:street": "Lange Reihe",
         "amenity": "pub",
+        "brewery": "Jever;Radeberger;Bayreuther;Büble",
+        "check_date": "2026-05-11",
+        "cocktails": "yes",
         "indoor_seating": "yes",
-        "lgbtq": "welcome",
+        "lgbtq": "primary",
         "name": "M&V Gaststätte",
         "opening_hours": "Mo-Su 17:00-02:00",
         "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "outside",
         "toilets:wheelchair": "no",
         "wheelchair": "limited",
         "@id": "node/457891861",
@@ -9679,13 +9685,13 @@
         "addr:postcode": "BN2 1TH",
         "addr:street": "St. James's Street",
         "amenity": "bar",
-        "contact:website": "https://nautiluslounge.com/",
         "email": "info@nautiluslounge.com",
         "fhrs:id": "1276603",
         "lgbtq": "welcome",
         "name": "Nautilus Lounge",
         "opening_hours": "Mo,Th 18:00-24:00; Fr-Su 18:00-01:00, Tu,We off",
         "source:addr": "FHRS Open Data",
+        "website": "https://nautiluslounge.com/",
         "@id": "node/1513142901",
         "@type": "node"
       }
@@ -14814,9 +14820,9 @@
         "addr:postcode": "98122",
         "addr:state": "WA",
         "addr:street": "East Pike Street",
-        "amenity": "bar",
         "check_date": "2025-03-04",
         "contact:phone": "+1-206-860-4238",
+        "disused:amenity": "bar",
         "internet_access": "wlan",
         "internet_access:fee": "customers",
         "lgbtq": "welcome",
@@ -15497,7 +15503,7 @@
         "lgbtq:signed": "yes",
         "name": "Realfine Coffee",
         "opening_hours": "Mo-Fr 07:00-18:00; Sa,Su 08:00-18:00",
-        "website": "http://realfinecoffee.com",
+        "website": "https://realfinecoffee.com/",
         "@id": "node/2158768959",
         "@type": "node"
       }
@@ -30453,7 +30459,7 @@
         "name:de": "Apollo city",
         "opening_hours": "Mo-Su 14:00-02:00",
         "phone": "+43 660 67 36 133",
-        "website": "http://www.apollosauna.at",
+        "website": "https://www.apollosauna.at/",
         "@id": "node/4710825004",
         "@type": "node"
       }
@@ -33084,6 +33090,41 @@
         "phone": "+1 800 769 0045",
         "website": "https://www.plannedparenthood.org/health-center/washington/lynnwood/98036/lynnwood-health-center-2996-91810",
         "@id": "node/5271201060",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.403573,
+          48.8746334
+        ]
+      },
+      "properties": {
+        "addr:city": "Paris",
+        "addr:housenumber": "3",
+        "addr:postcode": "75020",
+        "addr:street": "Rue des Tourelles",
+        "amenity": "bar",
+        "bar": "wine",
+        "contact:instagram": "https://www.instagram.com/sor.paris20",
+        "contact:website": "https://linktr.ee/sorbar",
+        "cuisine": "local;organic",
+        "description": "Café et bar à vin féministe, écologique et inclusif",
+        "description:fr": "Café et bar à vin féministe, écologique et inclusif",
+        "diet:vegetarian": "yes",
+        "drink:wine": "served",
+        "food": "yes",
+        "lgbtq": "welcome",
+        "name": "SOR",
+        "opening_hours": "Tu-Sa 14:00-23:59; Su 14:00-22:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "99167774100012",
+        "start_date": "2025-10-15",
+        "wheelchair": "yes",
+        "@id": "node/5278438416",
         "@type": "node"
       }
     },
@@ -41617,7 +41658,7 @@
         "name": "Wall of Sound",
         "opening_hours": "11:00-18:00",
         "shop": "music",
-        "website": "http://wosound.com/",
+        "website": "https://wosound.com/",
         "wheelchair": "no",
         "wikidata": "Q115131449",
         "@id": "node/6901506446",
@@ -47320,16 +47361,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.6404545,
-          -23.6214626
+          -46.6369949,
+          -23.608439
         ]
       },
       "properties": {
         "addr:city": "São Paulo",
-        "addr:housenumber": "117",
-        "addr:postcode": "04302-020",
-        "addr:street": "Rua Paracatú",
-        "addr:suburb": "Saúde",
+        "addr:housenumber": "497",
+        "addr:postcode": "04138-001",
+        "addr:street": "Rua Caramuru",
+        "addr:suburb": "Chácara Inglesa",
         "amenity": "restaurant",
         "contact:instagram": "chefnaturaloficial",
         "contact:phone": "+55 11 97800-6565",
@@ -68633,6 +68674,50 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          79.8615935,
+          6.8902802
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "20",
+        "addr:postcode": "00050",
+        "addr:street": "De Fonseka Road",
+        "amenity": "restaurant",
+        "check_date": "2026-05-11",
+        "contact:facebook": "https://www.facebook.com/p/The-Stache-Bread-Brunch-Bistro-100091992083076/",
+        "contact:instagram": "@the.stache_brunch",
+        "cuisine": "brunch;coffee_shop;sandwich",
+        "delivery": "yes",
+        "description": "All Day Brunch Bistro with a Lankan Twist!",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "dog": "outside",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "lgbtq": "welcome",
+        "name": "The ‘Stache",
+        "opening_hours": "Mo off; Tu-Su 09:00-17:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "@id": "node/12591878787",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.8131882,
           49.1448526
         ]
@@ -87534,11 +87619,11 @@
         "amenity": "nightclub",
         "building": "yes",
         "building:levels": "3",
-        "contact:website": "http://www.revenge.co.uk/",
         "fhrs:id": "1593547",
         "lgbtq": "primary",
         "name": "Club Revenge",
         "source:addr": "FHRS Open Data",
+        "website": "http://www.revenge.co.uk/",
         "wikidata": "Q26660846",
         "@id": "way/137389409",
         "@type": "way"
@@ -87592,7 +87677,6 @@
         "building:levels": "3",
         "contact:facebook": "CharlesStreetTap",
         "contact:twitter": "CharlesStTapBri",
-        "contact:website": "http://www.charles-street.com/",
         "email": "CharlesStreetTap.Brighton@stonegatepubs.com",
         "fhrs:id": "352590",
         "lgbtq": "primary",
@@ -87604,6 +87688,7 @@
         "phone": "+44 1273 624091",
         "ref:GB:uprn": "22061481;22274152",
         "smoking": "outside",
+        "website": "http://www.charles-street.com/",
         "@id": "way/137389441",
         "@type": "way"
       }
@@ -106241,7 +106326,7 @@
         "phone": "+1-310-652-1015",
         "source": "mapillary",
         "start_date": "1923",
-        "website": "http://west.hollywood.trunksbar.com",
+        "website": "https://west.hollywood.trunksbar.com/",
         "@id": "way/440269341",
         "@type": "way"
       }
@@ -107133,6 +107218,10 @@
               40.602256
             ],
             [
+              -75.4684111,
+              40.6022615
+            ],
+            [
               -75.468268,
               40.6023051
             ],
@@ -107156,9 +107245,9 @@
         "addr:housenumber": "522",
         "addr:postcode": "18101",
         "addr:state": "PA",
-        "addr:street": "West Maple St",
+        "addr:street": "West Maple Street",
         "amenity": "community_centre",
-        "building": "yes",
+        "building": "commercial",
         "community_centre": "community_hall",
         "community_centre:for": "lgbtq",
         "lgbtq": "primary",
@@ -124830,24 +124919,24 @@
               51.3254844
             ],
             [
-              12.3311236,
-              51.3250866
+              12.3311231,
+              51.3250862
             ],
             [
               12.3310378,
-              51.3250967
+              51.3250963
             ],
             [
-              12.3309756,
-              51.325104
+              12.3309755,
+              51.3251036
             ],
             [
-              12.3308814,
-              51.3251151
+              12.3308809,
+              51.3251147
             ],
             [
-              12.3307702,
-              51.3251282
+              12.3307697,
+              51.3251278
             ],
             [
               12.3308016,
