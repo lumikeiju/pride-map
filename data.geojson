@@ -36747,7 +36747,7 @@
         "min_age": "18",
         "name": "District 272",
         "phone": "+39 349 690 8519",
-        "website": "http://www.district272.com/",
+        "website": "https://www.district272.com/",
         "@id": "node/6148445585",
         "@type": "node"
       }
@@ -58047,7 +58047,7 @@
         "lgbtq": "primary",
         "name": "The Fire",
         "note": "Gay Sauna",
-        "website": "http://www.saunathefire.pl",
+        "website": "https://www.saunathefire.pl/",
         "@id": "node/11020861280",
         "@type": "node"
       }
@@ -67609,14 +67609,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0055748,
-          55.6035996
+          13.0095097,
+          55.5894497
         ]
       },
       "properties": {
         "addr:city": "Malmö",
-        "addr:housenumber": "42",
-        "addr:street": "Stora Nygatan",
+        "addr:housenumber": "7",
+        "addr:street": "Bangatan",
         "amenity": "community_centre",
         "community_centre:for": "lgbtq",
         "lgbtq": "primary",
@@ -79048,6 +79048,43 @@
         "name": "All EN one",
         "shop": "erotic",
         "@id": "node/13816551543",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3792958,
+          28.5437437
+        ]
+      },
+      "properties": {
+        "addr:city": "Orlando",
+        "addr:housenumber": "100",
+        "addr:postcode": "32801",
+        "addr:state": "FL",
+        "addr:street": "North Orange Avenue",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "contact:instagram": "@AnthemOrlando",
+        "lgbtq": "primary",
+        "name": "Anthem Orlando",
+        "opening_hours": "Mo-Fr 15:00-02:30",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-407-279-0609",
+        "takeaway": "no",
+        "website": "https://www.anthemorlando.com",
+        "wheelchair": "yes",
+        "@id": "node/13822302589",
         "@type": "node"
       }
     },
