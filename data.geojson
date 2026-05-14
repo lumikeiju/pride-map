@@ -8524,8 +8524,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0253021,
-          38.9971865
+          -77.0253441,
+          38.9971944
         ]
       },
       "properties": {
@@ -8535,13 +8535,13 @@
         "contact:email": "info@loyaltybookstores.com",
         "contact:instagram": "https://www.instagram.com/loyaltybooks/",
         "contact:twitter": "https://twitter.com/loyaltybooks",
+        "disused:shop": "books",
         "email": "info@loyaltybookstores.com",
         "lgbtq": "welcome",
         "name": "Loyalty Bookstores",
         "opening_hours": "Tu-Fr 12:00-20:00; Sa 10:00-20:00; Su 12:00-18:00; Mo off",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
-        "shop": "books",
         "website": "https://www.loyaltybookstores.com",
         "@id": "node/1343299898",
         "@type": "node"
@@ -10336,6 +10336,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.5721156,
+          55.6767102
+        ]
+      },
+      "properties": {
+        "amenity": "pub",
+        "fvst:navnelbnr": "1240578",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "Centralhjørnet",
+        "outdoor_seating": "sidewalk",
+        "ref:DK:cvr": "42841781",
+        "ref:DK:cvr:pnummer": "1027736021",
+        "smoking": "yes",
+        "source": "survey",
+        "website": "https://centralhjornet.dk/",
+        "wheelchair": "no",
+        "wikidata": "Q106668905",
+        "@id": "node/1613051108",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           44.7918662,
           41.7025227
         ]
@@ -10691,7 +10718,7 @@
         "source": "BAG",
         "source:date": "2014-02-11",
         "twitter": "CafeKalff",
-        "website": "http://www.cafekalff.nl/",
+        "website": "https://www.cafekalff.nl/",
         "wheelchair": "limited",
         "@id": "node/1659043373",
         "@type": "node"
@@ -41127,8 +41154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.512544,
-          39.1069929
+          -84.512358,
+          39.1071265
         ]
       },
       "properties": {
@@ -64485,7 +64512,7 @@
         "name": "Hair Therapy Electrolysis and Waxing Spa",
         "phone": "+1-262-325-3612",
         "shop": "beauty",
-        "website": "http://www.hairtherapyspa.com/",
+        "website": "https://hairtherapyspa.com/",
         "@id": "node/11999095826",
         "@type": "node"
       }
@@ -79091,6 +79118,33 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4317427,
+          46.6703286
+        ]
+      },
+      "properties": {
+        "addr:floor": "1",
+        "addr:room": "B 111",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "contact:facebook": "https://www.facebook.com/centrelgbtvendee/",
+        "contact:instagram": "https://www.instagram.com/centrelgbtvendee/",
+        "email": "centrelgbt85@gmail.com",
+        "fixme": "Tags d'adresse à vérifier.",
+        "level": "1",
+        "lgbtq": "primary",
+        "name": "Centre LGBTQI+ de Vendée",
+        "phone": "+33 7 63 57 13 28",
+        "website": "https://centre-lgbt-de-vendee.org/",
+        "@id": "node/13824593624",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -86349,9 +86403,9 @@
       "properties": {
         "addr:city": "Stralsund",
         "addr:country": "DE",
-        "addr:housenumber": "20",
+        "addr:housenumber": "3",
         "addr:postcode": "18439",
-        "addr:street": "Hafenstraße",
+        "addr:street": "Am Langenkanal",
         "building": "yes",
         "contact:mastodon": "@Port39@chaos.social",
         "description": "Port39 e.V. betreibt einen Hackerspace, in der technisch interessierte Menschen zusammenkommen und voneinander lernen können. Hier können Mitglieder gemeinsam an Projekten arbeiten, Ideen austauschen und ihre Fähigkeiten verbessern.",
@@ -93279,6 +93333,101 @@
         "website": "https://seattlequest.org/",
         "wheelchair": "yes",
         "@id": "way/217499166",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.0582124,
+              47.543338
+            ],
+            [
+              -122.0581791,
+              47.5433611
+            ],
+            [
+              -122.0581346,
+              47.5433725
+            ],
+            [
+              -122.0580871,
+              47.5433701
+            ],
+            [
+              -122.0580529,
+              47.5433585
+            ],
+            [
+              -122.0580218,
+              47.5433341
+            ],
+            [
+              -122.0580099,
+              47.5433096
+            ],
+            [
+              -122.0580134,
+              47.5432775
+            ],
+            [
+              -122.0580306,
+              47.5432545
+            ],
+            [
+              -122.0580667,
+              47.5432335
+            ],
+            [
+              -122.058103,
+              47.5432254
+            ],
+            [
+              -122.0581412,
+              47.5432262
+            ],
+            [
+              -122.0581767,
+              47.5432358
+            ],
+            [
+              -122.0582052,
+              47.5432529
+            ],
+            [
+              -122.0582259,
+              47.5432819
+            ],
+            [
+              -122.0582281,
+              47.5433077
+            ],
+            [
+              -122.0582124,
+              47.543338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Issaquah",
+        "addr:housenumber": "1234",
+        "addr:postcode": "98027",
+        "addr:state": "WA",
+        "addr:street": "Northwest Maple Street",
+        "amenity": "restaurant",
+        "building": "retail",
+        "cuisine": "donut;coffee_shop",
+        "lgbtq": "welcome",
+        "name": "Top Pot Doughnuts",
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa-Su 07:00-18:00",
+        "phone": "+1-425-270-6161",
+        "website": "https://www.toppotdoughnuts.com/",
+        "@id": "way/217971983",
         "@type": "way"
       }
     },
@@ -108698,7 +108847,7 @@
         "lgbtq": "primary",
         "name": "Woody's KC",
         "phone": "+1-816-888-3340",
-        "website": "http://woodyskc.com/",
+        "website": "https://woodyskc.com/",
         "@id": "way/500787201",
         "@type": "way"
       }
@@ -121863,6 +122012,7 @@
         "lgbtq": "primary",
         "min_age": "21",
         "name": "Central Station",
+        "website": "https://foodeist.com/place/central-station",
         "@id": "way/1089894575",
         "@type": "way"
       }
