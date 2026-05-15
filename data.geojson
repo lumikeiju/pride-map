@@ -22602,6 +22602,7 @@
         "addr:housenumber": "9/10",
         "addr:postcode": "50-028",
         "addr:street": "Plac Tadeusza Kościuszki",
+        "check_date:opening_hours": "2026-05-14",
         "description": "galeria poświęcona szkłu artystycznemu",
         "dog": "yes",
         "drinking_water": "yes",
@@ -44415,7 +44416,7 @@
         "payment:visa": "yes",
         "phone": "+48 786 175 808",
         "start_date": "2011-07-01",
-        "website": "http://www.hah.com.pl/",
+        "website": "https://www.hah.com.pl/",
         "@id": "node/7629862854",
         "@type": "node"
       }
@@ -68252,7 +68253,7 @@
         "addr:state": "CA",
         "addr:street": "Market Street",
         "addr:unit": "100",
-        "check_date": "2025-12-02",
+        "check_date": "2026-05-14",
         "government": "yes",
         "level": "0",
         "lgbtq": "primary",
@@ -87714,7 +87715,7 @@
         "lgbtq": "primary",
         "name": "Club Revenge",
         "source:addr": "FHRS Open Data",
-        "website": "http://www.revenge.co.uk/",
+        "website": "https://www.revenge.co.uk/",
         "wikidata": "Q26660846",
         "@id": "way/137389409",
         "@type": "way"
