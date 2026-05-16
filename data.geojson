@@ -5732,7 +5732,7 @@
         "name": "KUSS41",
         "opening_hours": "Tu-We 18:00-22:00; Fr 16:00-23:00",
         "social_facility:for": "juvenile",
-        "website": "http://www.kuss41.de",
+        "website": "https://www.kuss41.de/",
         "wheelchair": "yes",
         "@id": "node/776009661",
         "@type": "node"
@@ -14547,7 +14547,7 @@
         "opening_hours": "11:00-21:00",
         "outdoor_seating": "yes",
         "takeaway": "yes",
-        "website": "http://www.uneedaburger.com",
+        "website": "https://www.uneedaburger.com/",
         "@id": "node/2144271748",
         "@type": "node"
       }
@@ -96532,7 +96532,7 @@
         "swimming_pool": "no",
         "tourism": "hotel",
         "unisex": "no",
-        "website": "http://www.gaythering.com/",
+        "website": "https://www.gaythering.com/",
         "wheelchair": "yes",
         "@id": "way/258238120",
         "@type": "way"
