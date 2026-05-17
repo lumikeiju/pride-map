@@ -1220,7 +1220,8 @@
         "addr:postcode": "90429",
         "addr:street": "Hochstraße",
         "amenity": "restaurant",
-        "check_date:opening_hours": "2025-10-23",
+        "check_date": "2026-05-16",
+        "check_date:opening_hours": "2026-05-16",
         "contact:phone": "+49 911 288482",
         "cuisine": "regional",
         "diet:vegan": "yes",
@@ -1229,7 +1230,7 @@
         "internet_access": "wlan",
         "lgbtq": "primary",
         "name": "Balazzo Brozzi",
-        "opening_hours": "Tu-Sa 09:00-23:00; Su-Mo, PH 09:00-21:00; Mo[1] off",
+        "opening_hours": "Mo,Su 09:00-21:00; Tu-Sa 09:00-23:00; Mo[1] closed",
         "outdoor_area": "yes",
         "outdoor_seating": "yes",
         "smoking": "no",
@@ -131755,6 +131756,140 @@
         "tourism": "attraction",
         "type": "multipolygon",
         "@id": "relation/3159574",
+        "@type": "relation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -89.4595155,
+                40.6123151
+              ],
+              [
+                -89.459502,
+                40.6122644
+              ],
+              [
+                -89.4593911,
+                40.6122815
+              ],
+              [
+                -89.4594046,
+                40.6123321
+              ],
+              [
+                -89.4595155,
+                40.6123151
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -89.4599431,
+                40.6122402
+              ],
+              [
+                -89.4599821,
+                40.6121924
+              ],
+              [
+                -89.4598136,
+                40.6121132
+              ],
+              [
+                -89.4598262,
+                40.6120978
+              ],
+              [
+                -89.4597033,
+                40.6120401
+              ],
+              [
+                -89.4595933,
+                40.6121753
+              ],
+              [
+                -89.4595798,
+                40.612169
+              ],
+              [
+                -89.459502,
+                40.6122644
+              ],
+              [
+                -89.4595155,
+                40.6123151
+              ],
+              [
+                -89.4598386,
+                40.6124671
+              ],
+              [
+                -89.4599288,
+                40.6123567
+              ],
+              [
+                -89.4599121,
+                40.6123489
+              ],
+              [
+                -89.4599848,
+                40.6122598
+              ],
+              [
+                -89.4599431,
+                40.6122402
+              ]
+            ],
+            [
+              [
+                -89.459829,
+                40.6123177
+              ],
+              [
+                -89.4598425,
+                40.6123011
+              ],
+              [
+                -89.4596379,
+                40.6122049
+              ],
+              [
+                -89.4596244,
+                40.6122215
+              ],
+              [
+                -89.459829,
+                40.6123177
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Morton",
+        "addr:housenumber": "300",
+        "addr:postcode": "61550",
+        "addr:street": "North Main Street",
+        "amenity": "place_of_worship",
+        "denomination": "christian_community",
+        "ele": "218",
+        "email": "mortoncucc@gmail.com",
+        "gnis:feature_id": "1811157",
+        "lgbtq": "welcome",
+        "name": "Community United Church of Christ",
+        "phone": "+1 309-266-7263",
+        "religion": "christian",
+        "source:lgbtq": "https://www.mortoncucc.org/about-us",
+        "type": "multipolygon",
+        "website": "https://www.mortoncucc.org/",
+        "@id": "relation/3306593",
         "@type": "relation"
       }
     },
