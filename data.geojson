@@ -19952,6 +19952,7 @@
         "addr:housenumber": "10",
         "addr:postcode": "5654CD",
         "addr:street": "Antoon Coolenlaan",
+        "check_date": "2026-05-15",
         "fee": "yes",
         "leisure": "sauna",
         "lgbtq": "only",
@@ -75627,23 +75628,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.8958214,
-          52.4721828
-        ]
-      },
-      "properties": {
-        "amenity": "pub",
-        "lgbtq": "primary",
-        "name": "The Fox",
-        "@id": "node/13322725496",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.4003393,
           52.5226965
         ]
@@ -118954,13 +118938,16 @@
       },
       "properties": {
         "addr:city": "Birmingham",
+        "addr:housenumber": "152",
         "addr:postcode": "B5 6RY",
         "addr:street": "Hurst Street",
         "amenity": "pub",
-        "building": "yes",
+        "building": "retail",
         "building:levels": "3",
+        "fhrs:id": "598816",
         "lgbtq": "primary",
         "name": "The Village Inn",
+        "source:addr": "FHRS Open Data",
         "@id": "way/963068989",
         "@type": "way"
       }
@@ -119015,11 +119002,17 @@
         ]
       },
       "properties": {
+        "addr:city": "Birmingham",
+        "addr:housenumber": "17",
+        "addr:postcode": "B5 6SN",
+        "addr:street": "Lower Essex Street",
         "amenity": "pub",
-        "building": "yes",
+        "building": "retail",
         "building:levels": "3",
+        "fhrs:id": "601489",
         "lgbtq": "primary",
         "name": "The Fox",
+        "source:addr": "FHRS Open Data",
         "@id": "way/963075623",
         "@type": "way"
       }
@@ -119135,16 +119128,19 @@
       },
       "properties": {
         "addr:city": "Birmingham",
+        "addr:housenumber": "16",
         "addr:postcode": "B5 6RD",
         "addr:street": "Kent Street",
         "amenity": "nightclub",
-        "building": "yes",
+        "building": "retail",
         "building:levels": "3",
         "email": "info@boltz-club.com",
         "facebook": "https://www.facebook.com/boltzclub/",
+        "fhrs:id": "1621144",
         "lgbtq": "primary",
         "name": "Boltz",
         "old_name": "Amusement 13",
+        "source:addr": "FHRS Open Data",
         "twitter": "https://twitter.com/BirminghamBoltz",
         "website": "http://www.boltz-club.com",
         "@id": "way/963985128",
