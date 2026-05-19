@@ -6398,7 +6398,7 @@
         "addr:suburb": "Friedrichshain",
         "air_conditioning": "no",
         "amenity": "restaurant",
-        "check_date:opening_hours": "2023-11-28",
+        "check_date:opening_hours": "2026-05-18",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "indoor_seating": "yes",
@@ -25850,6 +25850,7 @@
         "addr:postcode": "22902",
         "addr:state": "VA",
         "addr:street": "East Main Street",
+        "check_date": "2026-05-18",
         "clothes": "yes",
         "lgbtq": "primary",
         "name": "The Beautiful Idea",
@@ -65777,6 +65778,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -77.4172008,
+          37.5305297
+        ]
+      },
+      "properties": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "2623",
+        "addr:postcode": "23223",
+        "addr:state": "VA",
+        "addr:street": "East Broad Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Riverbend Coffee Company",
+        "opening_hours": "Mo-Fr 06:30-18:00; Sa-Su 07:00-18:00",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.riverbendroastery.com/",
+        "wheelchair": "no",
+        "@id": "node/12148746801",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.4197617,
           45.3354079
         ]
@@ -73199,6 +73231,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -77.4175069,
+          37.5331845
+        ]
+      },
+      "properties": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "418",
+        "addr:postcode": "23223",
+        "addr:state": "VA",
+        "addr:street": "North 25th Street",
+        "addr:unit": "A",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "changing_table": "yes",
+        "changing_table:fee": "no",
+        "changing_table:location": "unisex_toilet",
+        "cuisine": "american;breakfast;burger;salad",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "-1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Liberty Public House",
+        "opening_hours": "Mo 11:00-21:00; We-Fr 11:30-21:00; Sa-Su 10:00-21:00",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.lphrva.com",
+        "wheelchair": "designated",
+        "@id": "node/13061993166",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.2054214,
           40.7757298
         ]
@@ -79069,6 +79140,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -77.4039928,
+          37.536461
+        ]
+      },
+      "properties": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "1301",
+        "addr:postcode": "23223",
+        "addr:state": "VA",
+        "addr:street": "North 32nd Street",
+        "addr:unit": "A",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "Peaberry Coffeehouse",
+        "opening_hours": "Mo-Fr 06:00-16:00; Sa-Su 07:00-17:00",
+        "outdoor_seating": "yes",
+        "@id": "node/13822260363",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -81.3792958,
           28.5437437
         ]
@@ -79125,6 +79223,68 @@
         "phone": "+33 7 63 57 13 28",
         "website": "https://centre-lgbt-de-vendee.org/",
         "@id": "node/13824593624",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5329437,
+          13.7284617
+        ]
+      },
+      "properties": {
+        "addr:district": "Bang Rak",
+        "addr:housenumber": "71-73",
+        "addr:postcode": "10500",
+        "addr:province": "Bangkok",
+        "addr:street": "Soi Si Lom 4",
+        "addr:subdistrict": "Suriya Wong",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "min_age": "20",
+        "name": "Horn",
+        "smoking": "isolated",
+        "@id": "node/13844079924",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.050649,
+          48.5045081
+        ]
+      },
+      "properties": {
+        "addr:city": "Tübingen",
+        "addr:housenumber": "19",
+        "addr:postcode": "72072",
+        "addr:street": "Jurastraße",
+        "check_date": "2026-05-18",
+        "description": "Frauengeführter Meisterbetrieb",
+        "email": "info@fahrradwerkstatt-runde-sache.de",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Runde Sache",
+        "official_name": "Fahrradwerkstatt Runde Sache",
+        "opening_hours": "Mo-Tu,Fr 08:00-12:00,14:00-16:45; We,Sa-Su off; Th 14:00-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "service:bicycle:rental": "no",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "no",
+        "shop": "bicycle",
+        "source:lgbtq": "Mitgliedschaft Buntes Handwerk e.V. Sticker",
+        "website": "https://fahrradwerkstatt-runde-sache.de",
+        "wheelchair": "limited",
+        "wheelchair:description": "Die Werkstatt ist über eine Rampe erreichbar. Länge 2 m, Breite 73 cm, Höhenunterschied 37 cm.",
+        "@id": "node/13845429450",
         "@type": "node"
       }
     },
