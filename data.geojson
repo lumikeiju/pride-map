@@ -324,7 +324,7 @@
         "internet_access:fee": "no",
         "lgbtq": "primary",
         "name": "The Corner House",
-        "opening_hours": "Mo-Th 11:00-23:00; Vr-Sa 10:00-00:00; Su 10:00-22:00",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 10:00-00:00; Su 10:00-22:00",
         "outdoor_seating": "yes",
         "payment:apple_pay": "yes",
         "payment:cash": "yes",
@@ -2959,8 +2959,8 @@
         "bar": "yes",
         "brewery": "yes",
         "changing_table": "yes",
-        "check_date": "2025-12-08",
-        "check_date:opening_hours": "2025-04-09",
+        "check_date": "2026-05-19",
+        "check_date:opening_hours": "2026-05-19",
         "contact:email": "kontakt@walhalla-berlin.de",
         "contact:phone": "+49 30 3933039",
         "contact:website": "https://www.walhalla-berlin.de/",
@@ -2977,7 +2977,7 @@
         "microbrewery": "no",
         "name": "Walhalla",
         "note": "Küche bis 22:30",
-        "opening_hours": "Mo-Th 12:00-01:00, Fr-Su 10:00-01:00, PH 10:00-18:00+",
+        "opening_hours": "Mo-Su,PH 12:00-01:00",
         "outdoor_seating": "yes",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
@@ -3975,15 +3975,25 @@
         "addr:state": "MN",
         "addr:street": "West Lake Street",
         "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2026-05-19",
+        "check_date:opening_hours": "2026-05-19",
         "cuisine": "american",
+        "delivery": "no",
         "description": "Funky alley & bar hosts DJs plus music & theater performers while serving a simple American menu.",
         "diet:vegetarian": "yes",
         "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Bryant Lake Bowl Guests",
         "lgbtq": "welcome",
+        "microbrewery": "no",
         "name": "Bryant-Lake Bowl and Theater",
-        "opening_hours": "Mo-Su 09:00-01:00",
+        "opening_hours": "Su-Th 09:00-24:00; Fr-Sa 09:00-01:00",
         "outdoor_seating": "yes",
+        "phone": "+1-612-825-3737",
         "sport": "10pin",
+        "toilets": "yes",
         "website": "https://www.bryantlakebowl.com/",
         "wikidata": "Q4980544",
         "wikipedia": "en:Bryant-Lake Bowl",
@@ -8772,34 +8782,6 @@
         "toilets:wheelchair": "yes",
         "wheelchair": "limited",
         "@id": "node/1361259244",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.0121878,
-          53.5577774
-        ]
-      },
-      "properties": {
-        "addr:city": "Hamburg",
-        "addr:country": "DE",
-        "addr:housenumber": "70",
-        "addr:postcode": "20099",
-        "addr:street": "Danziger Straße",
-        "contact:phone": "+49 40 98238081",
-        "contact:website": "http://www.brunos.de",
-        "lgbtq": "primary",
-        "name": "Brunos",
-        "opening_hours": "Mo-Sa 10:00-20:00",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "shop": "books",
-        "wheelchair": "yes",
-        "@id": "node/1362122152",
         "@type": "node"
       }
     },
@@ -16500,7 +16482,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "B-Lage",
-        "opening_hours": "Mo-Su 19:00+",
+        "opening_hours": "Mo-Su 18:00-24:00",
         "outdoor_seating": "yes",
         "phone": "+493062982776",
         "smoking": "separated",
@@ -29868,6 +29850,35 @@
         "website": "https://www.cafe-firlefanz.de/",
         "wheelchair": "no",
         "@id": "node/4598928202",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6414255,
+          -23.5558868
+        ]
+      },
+      "properties": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "151",
+        "addr:postcode": "01318-020",
+        "addr:street": "Rua Adoniran Barbosa",
+        "addr:suburb": "Bela Vista",
+        "amenity": "community_centre",
+        "community_centre": "cultural_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Casa1",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-19:00; PH off",
+        "opening_hours:url": "https://www.casaum.org/programacao/",
+        "website": "https://www.casaum.org/",
+        "wikidata": "Q130532767",
+        "wikipedia": "pt:Casa 1",
+        "@id": "node/4607755965",
         "@type": "node"
       }
     },
@@ -75535,6 +75546,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.6315346,
+          50.0048608
+        ]
+      },
+      "properties": {
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "MaWa Banny",
+        "website": "https://t.me/MaWaBanny",
+        "@id": "node/13294969301",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.0879129,
           37.5161887
         ]
@@ -79286,6 +79316,141 @@
         "wheelchair:description": "Die Werkstatt ist über eine Rampe erreichbar. Länge 2 m, Breite 73 cm, Höhenunterschied 37 cm.",
         "@id": "node/13845429450",
         "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1971654,
+          -33.8934245
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "6",
+        "addr:street": "Cornwallis Street",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "community;general",
+        "lgbtq": "primary",
+        "name": "Kaleido Health Centre",
+        "operator": "ACON Health",
+        "operator:wikidata": "Q136402862",
+        "phone": "+61 2 8323 7378",
+        "website": "https://kaleidohealth.org.au/",
+        "@id": "node/13848730754",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2083668,
+          -33.8861837
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "414",
+        "addr:street": "Elizabeth Street",
+        "branch": "Sydney",
+        "lgbtq": "primary",
+        "name": "ACON",
+        "office": "association",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "operator": "ACON Health Limited",
+        "operator:wikidata": "Q136402862",
+        "phone": "+61 2 9206 2000",
+        "website": "https://www.acon.org.au/",
+        "@id": "node/13848773637",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1785077,
+          -33.8973054
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1",
+        "addr:street": "Bedford Street",
+        "lgbtq": "primary",
+        "name": "Twenty10",
+        "office": "association",
+        "phone": "+61 2 8594 9555",
+        "website": "https://twenty10.org.au",
+        "@id": "node/13848938836",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1275091,
+          43.1215917
+        ]
+      },
+      "properties": {
+        "addr:street": "Barrenkalea",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Pirineum",
+        "@id": "node/13849745102",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.1786102,
+              -33.8974001
+            ],
+            [
+              151.1785203,
+              -33.8971886
+            ],
+            [
+              151.1783367,
+              -33.8972442
+            ],
+            [
+              151.1784171,
+              -33.8974535
+            ],
+            [
+              151.1786102,
+              -33.8974001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1",
+        "addr:street": "Bedford Street",
+        "amenity": "community_centre",
+        "building": "yes",
+        "building:levels": "2",
+        "community_centre": "community_hall",
+        "community_centre:for": "lgbtq",
+        "height": "7",
+        "lgbtq": "primary",
+        "name": "Inner West Pride Centre",
+        "operator": "Twenty10",
+        "website": "https://twenty10.org.au/about/iwpc/",
+        "@id": "way/27825189",
+        "@type": "way"
       }
     },
     {
