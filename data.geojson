@@ -182,7 +182,7 @@
         "addr:street": "Blackheath Hill",
         "air_conditioning": "yes",
         "amenity": "pub",
-        "check_date": "2026-02-24",
+        "check_date": "2026-05-21",
         "contact:facebook": "georgedragongreenwich",
         "contact:instagram": "georgeanddragongreenwich",
         "contact:twitter": "GeorgeGreenwich",
@@ -29866,35 +29866,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.6414255,
-          -23.5558868
-        ]
-      },
-      "properties": {
-        "addr:city": "São Paulo",
-        "addr:housenumber": "151",
-        "addr:postcode": "01318-020",
-        "addr:street": "Rua Adoniran Barbosa",
-        "addr:suburb": "Bela Vista",
-        "amenity": "community_centre",
-        "community_centre": "cultural_centre",
-        "community_centre:for": "lgbtq",
-        "lgbtq": "primary",
-        "name": "Casa1",
-        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-19:00; PH off",
-        "opening_hours:url": "https://www.casaum.org/programacao/",
-        "website": "https://www.casaum.org/",
-        "wikidata": "Q130532767",
-        "wikipedia": "pt:Casa 1",
-        "@id": "node/4607755965",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -111.895642,
           40.7493851
         ]
@@ -33079,6 +33050,32 @@
         "name": "Pride Bar",
         "shop": "games",
         "@id": "node/5262844288",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1308474,
+          56.9654392
+        ]
+      },
+      "properties": {
+        "addr:city": "Rīga",
+        "addr:country": "LV",
+        "addr:housenumber": "9A",
+        "addr:postcode": "LV-1001",
+        "addr:street": "Aristida Briāna iela",
+        "amenity": "bar",
+        "check_date": "2026-05-21",
+        "lgbtq": "primary",
+        "name": "Ķēķis",
+        "operator": "SIA \"Skapis\"",
+        "outdoor_seating": "yes",
+        "ref:LV:addr": "105832117",
+        "@id": "node/5267522735",
         "@type": "node"
       }
     },
@@ -39043,6 +39040,7 @@
         "check_date": "2025-08-10",
         "lgbtq": "primary",
         "name": "Sauna69",
+        "wikidata": "Q116851602",
         "@id": "node/6489276635",
         "@type": "node"
       }
@@ -57555,7 +57553,7 @@
         "addr:postcode": "LV-1001",
         "addr:street": "Aristida Briāna iela",
         "amenity": "bar",
-        "check_date": "2025-05-17",
+        "check_date": "2026-05-21",
         "contact:email": "skapis.riga@gmail.com",
         "contact:facebook": "https://www.facebook.com/skapis.riga/",
         "contact:instagram": "https://www.instagram.com/skapis.riga",
@@ -74952,9 +74950,15 @@
         "addr:postcode": "69002",
         "addr:street": "Rue Constantine",
         "amenity": "swingerclub",
+        "facebook": "https://www.facebook.com/doublesidelyon",
+        "instagram": "https://www.instagram.com/doublesidelyon",
         "lgbtq": "primary",
         "lgbtq:men": "only",
+        "min_age": "18",
         "name": "Double Side",
+        "opening_hours": "Mo 12:00-19:00; Tu-Th 12:00-01:00; Fr-Sa 12:00-05:00; Su 12:00-01:00",
+        "phone": "+33 4 78 29 85 22",
+        "website": "https://doubleside.fr",
         "@id": "node/13243736013",
         "@type": "node"
       }
@@ -79413,6 +79417,67 @@
         "lgbtq": "primary",
         "name": "Pirineum",
         "@id": "node/13849745102",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1534615,
+          -33.9082161
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "10",
+        "addr:street": "Lilydale Street",
+        "amenity": "social_facility",
+        "lgbtq": "primary",
+        "lgbtq:trans": "primary",
+        "name": "The Gender Centre",
+        "opening_hours": "Mo-Fr 09:00-12:00,13:00-16:30",
+        "phone": "+61 2 9519 7599;+61 2 9569 2366",
+        "social_facility": "outreach",
+        "social_facility:for": "lgbtq",
+        "website": "https://gendercentre.org.au",
+        "@id": "node/13856106427",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6398636,
+          -23.5578568
+        ]
+      },
+      "properties": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "277",
+        "addr:postcode": "01320-000",
+        "addr:street": "Rua Condessa de São Joaquim",
+        "addr:suburb": "Bela Vista",
+        "amenity": "library",
+        "books": "lgbtq",
+        "full_name": "Biblioteca Comunitária Caio Fernando Abreu - Casa1",
+        "full_name:en": "Community Library Caio Fernando Abreu - Casa1",
+        "lgbtq": "primary",
+        "name": "Biblioteca Caio Fernando Abreu - Casa1",
+        "name:en": "Caio Fernando Abreu Library - Casa1",
+        "opening_hours": "Mo-Fr 10:00-19:00",
+        "operator": "Casa1",
+        "operator:type": "ngo",
+        "operator:website": "https://www.casaum.org",
+        "operator:wikidata": "Q130532767",
+        "operator:wikipedia": "pt:Casa 1",
+        "short_name": "Biblioteca da Casa1",
+        "short_name:en": "Casa1's Library",
+        "website": "https://www.casaum.org/nossos-espacos/biblioteca/",
+        "website:catalogue": "https://ibeac.alexandria.com.br/resultado.jsf#ini&e_codbl=[12]&sort=datacad&page=1",
+        "@id": "node/13859163685",
         "@type": "node"
       }
     },
@@ -105654,6 +105719,107 @@
         "coordinates": [
           [
             [
+              -46.6414419,
+              -23.5559662
+            ],
+            [
+              -46.6414568,
+              -23.5559795
+            ],
+            [
+              -46.6414815,
+              -23.5560017
+            ],
+            [
+              -46.6415236,
+              -23.5559623
+            ],
+            [
+              -46.6415913,
+              -23.5558989
+            ],
+            [
+              -46.6416295,
+              -23.5558631
+            ],
+            [
+              -46.6415861,
+              -23.5558268
+            ],
+            [
+              -46.641584,
+              -23.5558095
+            ],
+            [
+              -46.6414696,
+              -23.5558187
+            ],
+            [
+              -46.6414705,
+              -23.5558314
+            ],
+            [
+              -46.6414713,
+              -23.5558428
+            ],
+            [
+              -46.6414255,
+              -23.5558868
+            ],
+            [
+              -46.6413906,
+              -23.5559203
+            ],
+            [
+              -46.6414419,
+              -23.5559662
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "151",
+        "addr:postcode": "01318-020",
+        "addr:street": "Rua Adoniran Barbosa",
+        "addr:suburb": "Bela Vista",
+        "alt_name": "Galpão da Casa1",
+        "alt_name:en": "Galpão da Casa1",
+        "alt_name:pt": "Galpão da Casa1",
+        "amenity": "community_centre",
+        "building": "yes",
+        "community_centre": "cultural_centre",
+        "community_centre:for": "lgbtq",
+        "full_name": "Casa1 - Centro de Cultura LGBTQIAPN+",
+        "full_name:en": "Casa1 - LGBTQIAPN+ Culture Centre",
+        "full_name:pt": "Casa1 - Centro de Cultura LGBTQIAPN+",
+        "height": "7.498",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "Centro Cultural Casa1",
+        "name:en": "Casa1 Cultural Centre",
+        "name:pt": "Centro Cultural Casa1",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-19:00; PH off",
+        "opening_hours:url": "https://www.casaum.org/programacao/",
+        "operator": "Casa1",
+        "operator:type": "ngo",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.casaum.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q130532767",
+        "wikipedia": "pt:Casa 1",
+        "@id": "way/423508988",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -84.0743739,
               9.9300764
             ],
@@ -131242,6 +131408,83 @@
         "name": "Trung tâm Nghiên cứu & Ứng dụng khoa học về Giới - Gia đình và Vị thành niên CSAGA",
         "social_facility:for": "women, lgbtq",
         "@id": "way/1507597289",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.6588565,
+              -23.5529436
+            ],
+            [
+              -46.6588405,
+              -23.5529583
+            ],
+            [
+              -46.6588155,
+              -23.5529813
+            ],
+            [
+              -46.6587814,
+              -23.5529596
+            ],
+            [
+              -46.6587536,
+              -23.5529419
+            ],
+            [
+              -46.6587862,
+              -23.5528988
+            ],
+            [
+              -46.6588246,
+              -23.5529233
+            ],
+            [
+              -46.6588565,
+              -23.5529436
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "298",
+        "addr:postcode": "01309-030",
+        "addr:street": "Fernando de Albuquerque",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "baby_feeding": "no",
+        "changing_table": "no",
+        "contact:email": "dominatrixaugusta@gmail.com",
+        "contact:fetlife": "Dominatrix_Bar",
+        "contact:phone": "+55 11 3456-2295",
+        "contact:twitter": "DOMINATRIXBAR",
+        "fetish:bdsm": "yes",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "kids_area": "no",
+        "kinky": "yes",
+        "level": "1,2",
+        "lgbtq": "welcome",
+        "lgbtq:men": "welcome",
+        "lgbtq:trans": "welcome",
+        "lgbtq:women": "welcome",
+        "min_age": "18",
+        "name": "Dominatrix Augusta",
+        "opening_hours": "We-Th 19:00-01:00; Fr-Sa 21:00-04:00; PH closed",
+        "outdoor_seating": "no",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "no",
+        "website": "http://www.dominatrixaugusta.com",
+        "wheelchair": "limited",
+        "@id": "way/1518535855",
         "@type": "way"
       }
     },
