@@ -6940,7 +6940,7 @@
         "name": "Confusion Open Gay Pub",
         "opening_hours": "We-Su 19:30-24:00+",
         "outdoor_seating": "no",
-        "phone": "0541 3504488",
+        "phone": "+49 541 3504488",
         "source:description": "https://www.noz.de/lokales/osnabrueck/artikel/653079/ins-confusion-in-osnabruck-gehen-nicht-nur-schwule",
         "website": "http://www.confusion-online.eu/",
         "website:menu": "http://www.confusion-online.eu/gallery/Getr%C3%A4nkekarte%20Endfassung%2030.05.22.pdf",
@@ -11973,23 +11973,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.4830317,
-          5.0474056
-        ]
-      },
-      "properties": {
-        "amenity": "nightclub",
-        "lgbtq": "primary",
-        "name": "Ma Vie en Rose",
-        "@id": "node/1767548088",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.4889698,
           5.0607623
         ]
@@ -12007,23 +11990,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.4882613,
-          5.0607992
-        ]
-      },
-      "properties": {
-        "amenity": "nightclub",
-        "lgbtq": "primary",
-        "name": "Paris Night",
-        "@id": "node/1767548090",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.5225856,
           5.0675522
         ]
@@ -12033,24 +11999,6 @@
         "lgbtq": "primary",
         "name": "Spa Thermas Club",
         "@id": "node/1767548091",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.4921732,
-          5.0618592
-        ]
-      },
-      "properties": {
-        "addr:city": "Manizales",
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "name": "Touch Me",
-        "@id": "node/1767548092",
         "@type": "node"
       }
     },
@@ -19154,12 +19102,12 @@
         "addr:street": "Boxhagener Straße",
         "addr:suburb": "Friedrichshain",
         "air_conditioning": "no",
-        "amenity": "cafe",
-        "check_date": "2026-03-01",
+        "check_date": "2026-05-22",
         "check_date:diet:vegetarian": "2026-03-01",
         "check_date:opening_hours": "2025-09-16",
         "cuisine": "tea;cake;pancake;coffee_shop;bagel;coffee",
         "diet:vegetarian": "yes",
+        "disused:amenity": "cafe",
         "drink:espresso": "served",
         "drink:filter_coffee": "served",
         "indoor_seating": "yes",
@@ -19554,6 +19502,28 @@
         "lgbtq": "welcome",
         "name": "Barulho",
         "@id": "node/2712055074",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5767118,
+          27.7574301
+        ]
+      },
+      "properties": {
+        "addr:city": "Playa del Inglés",
+        "addr:housenumber": "37",
+        "addr:street": "Avenida de EE. UU.",
+        "check_date": "2025-05-06",
+        "lgbtq": "primary",
+        "name": "Basement Studios",
+        "tourism": "hotel",
+        "website": "https://www.basementstudios.eu/",
+        "@id": "node/2712291618",
         "@type": "node"
       }
     },
@@ -23379,6 +23349,29 @@
         "name": "RFSL Luleå",
         "office": "ngo",
         "@id": "node/3496708097",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5792948,
+          27.7569201
+        ]
+      },
+      "properties": {
+        "addr:city": "Playa del Inglés",
+        "addr:street": "Avenida de Tirajana",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Zoo Mens Bar",
+        "note": "Men only",
+        "opening_hours": "Mo-Su 22:00-04:00",
+        "website": "https://www.zoomensbar.com/",
+        "wheelchair": "limited",
+        "@id": "node/3502839819",
         "@type": "node"
       }
     },
@@ -37241,6 +37234,7 @@
         "email": "contact@iskis.org",
         "lgbtq": "primary",
         "name": "Iskis - Centre LGBTI+ de Rennes",
+        "name:br": "Iskis - Kreizenn LGBDTE+ Roazhon",
         "opening_hours": "We 18:30-21:30",
         "phone": "+33 2 99 33 26 08",
         "website": "https://iskis.org/",
@@ -44842,16 +44836,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0238445,
-          49.2229189
+          7.0238801,
+          49.2229093
         ]
       },
       "properties": {
+        "alt_name": "Silogarten;Café am Silo",
         "amenity": "biergarten",
         "bar": "no",
+        "contact:instagram": "https://www.instagram.com/silogarten",
+        "contact:website": "https://gärtchjen.de/",
         "indoor_seating": "no",
         "lgbtq": "welcome",
-        "name": "Silodom",
+        "name": "Das Gärtchjen",
+        "opening_hours": "Apr-Oct: Mo-Fr 15:00+; Apr-Oct: Sa,Su,PH 14:00+; closed \"bei Regen / schlechtem Wetter\"",
         "opening_hours:signed": "no",
         "smoking": "yes",
         "toilets": "yes",
@@ -65496,7 +65494,7 @@
         "addr:street": "Rue Bergère",
         "amenity": "bar",
         "changing_table": "limited",
-        "check_date": "2025-12-20",
+        "check_date": "2026-05-22",
         "check_date:opening_hours": "2025-12-20",
         "contact:facebook": "Le_Barlone",
         "contact:instagram": "lebarlone",
@@ -79478,6 +79476,25 @@
         "website": "https://www.casaum.org/nossos-espacos/biblioteca/",
         "website:catalogue": "https://ibeac.alexandria.com.br/resultado.jsf#ini&e_codbl=[12]&sort=datacad&page=1",
         "@id": "node/13859163685",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.577917,
+          27.757243
+        ]
+      },
+      "properties": {
+        "leisure": "resort",
+        "lgbtq": "primary",
+        "name": "Aqua Beach",
+        "resort": "resort",
+        "website": "https://www.aquabeachbungalows.com/",
+        "@id": "node/13863430352",
         "@type": "node"
       }
     },
