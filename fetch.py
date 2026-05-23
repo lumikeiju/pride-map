@@ -114,7 +114,7 @@ def fetch_overpass(query):
             req = urllib.request.Request(
                 endpoint,
                 data=encoded,
-                headers={"User-Agent": "tap-in-osm/1.0"},
+                headers={"User-Agent": "pride-map/1.0 (https://github.com/lumikeiju/pride-map)"},
             )
             with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
                 body = resp.read().decode("utf-8")
