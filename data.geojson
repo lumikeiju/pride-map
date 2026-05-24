@@ -21114,8 +21114,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.8150838,
-          51.9605248
+          5.8150543,
+          51.9605423
         ]
       },
       "properties": {
@@ -25568,7 +25568,7 @@
         "addr:street": "Marienstraße",
         "addr:suburb": "Mitte",
         "alt_name": "CCCB/W;CCC Berlin",
-        "check_date": "2025-10-19",
+        "check_date": "2026-05-24",
         "check_date:opening_hours": "2025-10-18",
         "contact:email": "mail@berlin.ccc.de",
         "contact:email:pgp": "0x73D62575",
@@ -25578,6 +25578,7 @@
         "contact:website": "https://berlin.ccc.de/",
         "fee": "no",
         "internet_access": "wlan",
+        "internet_access:fee": "no",
         "internet_access:ssid": "Geekz.open",
         "leisure": "hackerspace",
         "level": "0",
@@ -49612,6 +49613,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.6686764,
+          48.2621962
+        ]
+      },
+      "properties": {
+        "addr:city": "Garching b. München",
+        "addr:housenumber": "3",
+        "addr:postcode": "85748",
+        "addr:street": "Boltzmannstraße",
+        "check_date": "2025-11-03",
+        "contact:city": "Garching bei München",
+        "contact:country": "DE",
+        "contact:housenumber": "3",
+        "contact:postcode": "85748",
+        "contact:street": "Boltzmannstraße",
+        "contact:website": "https://mpic.fs.tum.de",
+        "description": "Student Council Mathematics, Informatics, Physics, Chemistry",
+        "email": "fsmpic@fs.tum.de",
+        "faculty": "computer_science;mathematics;physics;chemistry",
+        "internet_access": "wlan",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Fachschaft MPIC (MI office)",
+        "office": "association",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+49 89 28918545",
+        "toilets": "yes",
+        "toilets:access": "no",
+        "toilets:disposal": "flush",
+        "toilets:gender_segregated": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "toilets:wheelchair": "no",
+        "website": "https://mpic.fs.tum.de",
+        "wheelchair": "yes",
+        "@id": "node/9176372049",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.7661843,
           51.2198483
         ]
@@ -72418,7 +72467,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "British Heart Foundation",
-        "opening_hours": "Mo-Sa 9:30-18:00, Su 11:00-16:00",
+        "opening_hours": "Mo-Sa 09:30-18:00, Su 11:00-16:00",
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -79501,6 +79550,25 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3844425,
+          43.2994706
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "L'annexe",
+        "outdoor_seating": "no",
+        "@id": "node/13866539536",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -82913,7 +82981,7 @@
         "bar": "yes",
         "building": "retail",
         "building:levels": "1",
-        "check_date": "2023-10-03",
+        "check_date": "2026-05-23",
         "contact:website": "http://www.suedblock.org",
         "cuisine": "salad;german;burger",
         "culture": "kleinkunst",
