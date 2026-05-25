@@ -13532,6 +13532,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.4547156,
+          43.6049176
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "level": "0",
+        "lgbtq": "primary",
+        "name": "CHEZ LES JUMEAUX",
+        "opening_hours": "Su-Fr 16:00-02:00, Sa 16:00-03:00",
+        "source": "ToulouseMetropole;local knowledge",
+        "source:date": "2012/10/04",
+        "@id": "node/2051905786",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.474629,
           49.4893086
         ]
@@ -24237,7 +24258,7 @@
         "addr:state": "CA",
         "addr:street": "18th Street",
         "amenity": "bar",
-        "check_date": "2024-07-01",
+        "check_date": "2026-05-24",
         "lgbtq": "primary",
         "name": "Moby Dick",
         "phone": "+1-415-294-0731",
@@ -53672,6 +53693,38 @@
         "website": "https://www.instagram.com/pddbar_ge/",
         "wheelchair": "no",
         "@id": "node/9864732202",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.47227,
+          37.5644623
+        ]
+      },
+      "properties": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "2930",
+        "addr:postcode": "23230",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "check_date": "2026-05-24",
+        "craft": "brewery",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Three Notch’d RVA Collab House",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-20:00",
+        "opening_hours:signed": "yes",
+        "outdoor_seating": "yes",
+        "phone": "+1 804-554-4100",
+        "source": "esri_USDOT_Virgina;esri_Virginia",
+        "source:opening_hours": "entrance; website",
+        "website": "https://threenotchdbrewing.com/pages/rva",
+        "wheelchair": "yes",
+        "@id": "node/9870180617",
         "@type": "node"
       }
     },
