@@ -7192,7 +7192,7 @@
         "addr:street": "Alexander Street",
         "amenity": "theatre",
         "contact:facebook": "https://www.facebook.com/buddiesinbadtimes/",
-        "contact:instagram": "https://www.instagram.com/buddiesTO/",
+        "contact:instagram": "https://www.instagram.com/buddiesTO/;",
         "contact:twitter": "buddiesTO",
         "contact:youtube": "https://www.youtube.com/user/BIBTTV",
         "lgbtq": "primary",
@@ -13540,7 +13540,7 @@
         "amenity": "bar",
         "level": "0",
         "lgbtq": "primary",
-        "name": "CHEZ LES JUMEAUX",
+        "name": "Chez les Jumeaux",
         "opening_hours": "Su-Fr 16:00-02:00, Sa 16:00-03:00",
         "source": "ToulouseMetropole;local knowledge",
         "source:date": "2012/10/04",
@@ -26552,7 +26552,7 @@
         "internet_access": "wlan",
         "internet_access:fee": "customers",
         "laptop": "yes",
-        "laptop:conditional": "no @ (Sa,So,PH)",
+        "laptop:conditional": "no @ (Sa,Su,PH)",
         "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -49682,8 +49682,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.7661843,
-          51.2198483
+          6.7661988,
+          51.2198381
         ]
       },
       "properties": {
@@ -72790,7 +72790,7 @@
         ]
       },
       "properties": {
-        "addr:city": "Neuhof an der Zenn",
+        "addr:city": "Neuhof a.d.Zenn",
         "addr:housenumber": "9",
         "addr:postcode": "90616",
         "addr:street": "Hauptstraße",
@@ -79550,42 +79550,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.6398636,
-          -23.5578568
-        ]
-      },
-      "properties": {
-        "addr:city": "São Paulo",
-        "addr:housenumber": "277",
-        "addr:postcode": "01320-000",
-        "addr:street": "Rua Condessa de São Joaquim",
-        "addr:suburb": "Bela Vista",
-        "amenity": "library",
-        "books": "lgbtq",
-        "full_name": "Biblioteca Comunitária Caio Fernando Abreu - Casa1",
-        "full_name:en": "Community Library Caio Fernando Abreu - Casa1",
-        "lgbtq": "primary",
-        "name": "Biblioteca Caio Fernando Abreu - Casa1",
-        "name:en": "Caio Fernando Abreu Library - Casa1",
-        "opening_hours": "Mo-Fr 10:00-19:00",
-        "operator": "Casa1",
-        "operator:type": "ngo",
-        "operator:website": "https://www.casaum.org",
-        "operator:wikidata": "Q130532767",
-        "operator:wikipedia": "pt:Casa 1",
-        "short_name": "Biblioteca da Casa1",
-        "short_name:en": "Casa1's Library",
-        "website": "https://www.casaum.org/nossos-espacos/biblioteca/",
-        "website:catalogue": "https://ibeac.alexandria.com.br/resultado.jsf#ini&e_codbl=[12]&sort=datacad&page=1",
-        "@id": "node/13859163685",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -15.577917,
           27.757243
         ]
@@ -79616,6 +79580,30 @@
         "name": "L'annexe",
         "outdoor_seating": "no",
         "@id": "node/13866539536",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0672631,
+          40.5017694
+        ]
+      },
+      "properties": {
+        "addr:city": "Valdemorillo",
+        "addr:housenumber": "10",
+        "addr:postcode": "28210",
+        "addr:street": "Calle Caracol",
+        "amenity": "fast_food",
+        "cuisine": "burger;venezolana",
+        "dog": "yes",
+        "lgbtq": "welcome",
+        "name": "Korakol Burger Bar",
+        "phone": "+34919339222",
+        "@id": "node/13875447527",
         "@type": "node"
       }
     },
@@ -105857,107 +105845,6 @@
         "coordinates": [
           [
             [
-              -46.6414419,
-              -23.5559662
-            ],
-            [
-              -46.6414568,
-              -23.5559795
-            ],
-            [
-              -46.6414815,
-              -23.5560017
-            ],
-            [
-              -46.6415236,
-              -23.5559623
-            ],
-            [
-              -46.6415913,
-              -23.5558989
-            ],
-            [
-              -46.6416295,
-              -23.5558631
-            ],
-            [
-              -46.6415861,
-              -23.5558268
-            ],
-            [
-              -46.641584,
-              -23.5558095
-            ],
-            [
-              -46.6414696,
-              -23.5558187
-            ],
-            [
-              -46.6414705,
-              -23.5558314
-            ],
-            [
-              -46.6414713,
-              -23.5558428
-            ],
-            [
-              -46.6414255,
-              -23.5558868
-            ],
-            [
-              -46.6413906,
-              -23.5559203
-            ],
-            [
-              -46.6414419,
-              -23.5559662
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "São Paulo",
-        "addr:housenumber": "151",
-        "addr:postcode": "01318-020",
-        "addr:street": "Rua Adoniran Barbosa",
-        "addr:suburb": "Bela Vista",
-        "alt_name": "Galpão da Casa1",
-        "alt_name:en": "Galpão da Casa1",
-        "alt_name:pt": "Galpão da Casa1",
-        "amenity": "community_centre",
-        "building": "yes",
-        "community_centre": "cultural_centre",
-        "community_centre:for": "lgbtq",
-        "full_name": "Casa1 - Centro de Cultura LGBTQIAPN+",
-        "full_name:en": "Casa1 - LGBTQIAPN+ Culture Centre",
-        "full_name:pt": "Casa1 - Centro de Cultura LGBTQIAPN+",
-        "height": "7.498",
-        "lgbtq": "primary",
-        "lgbtq:signed": "yes",
-        "name": "Centro Cultural Casa1",
-        "name:en": "Casa1 Cultural Centre",
-        "name:pt": "Centro Cultural Casa1",
-        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-19:00; PH off",
-        "opening_hours:url": "https://www.casaum.org/programacao/",
-        "operator": "Casa1",
-        "operator:type": "ngo",
-        "toilets": "yes",
-        "toilets:wheelchair": "yes",
-        "website": "https://www.casaum.org/",
-        "wheelchair": "yes",
-        "wikidata": "Q130532767",
-        "wikipedia": "pt:Casa 1",
-        "@id": "way/423508988",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -84.0743739,
               9.9300764
             ],
@@ -131623,6 +131510,170 @@
         "website": "http://www.dominatrixaugusta.com",
         "wheelchair": "limited",
         "@id": "way/1518535855",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.6399052,
+              -23.5578737
+            ],
+            [
+              -46.639878,
+              -23.5578421
+            ],
+            [
+              -46.6398661,
+              -23.5578405
+            ],
+            [
+              -46.6398544,
+              -23.5578391
+            ],
+            [
+              -46.6398166,
+              -23.5578663
+            ],
+            [
+              -46.6398529,
+              -23.5579117
+            ],
+            [
+              -46.6399052,
+              -23.5578737
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "277",
+        "addr:postcode": "01320-000",
+        "addr:street": "Rua Condessa de São Joaquim",
+        "addr:suburb": "Bela Vista",
+        "amenity": "library",
+        "books": "lgbtq",
+        "full_name": "Biblioteca Comunitária Caio Fernando Abreu - Casa1",
+        "full_name:en": "Community Library Caio Fernando Abreu - Casa1",
+        "full_name:pt": "Biblioteca Comunitária Caio Fernando Abreu - Casa1",
+        "level": "0",
+        "lgbtq": "primary",
+        "name": "Biblioteca Caio Fernando Abreu (Casa1)",
+        "name:en": "Caio Fernando Abreu Library (Casa1)",
+        "name:pt": "Biblioteca Caio Fernando Abreu (Casa1)",
+        "opening_hours": "Mo-Fr 10:00-19:00",
+        "operator": "Casa1",
+        "operator:type": "ngo",
+        "operator:website": "https://www.casaum.org",
+        "operator:wikidata": "Q130532767",
+        "operator:wikipedia": "pt:Casa 1",
+        "short_name": "Biblioteca da Casa1",
+        "short_name:en": "Casa1's Library",
+        "short_name:pt": "Biblioteca da Casa1",
+        "website": "https://www.casaum.org/nossos-espacos/biblioteca/",
+        "website:catalogue": "https://ibeac.alexandria.com.br/resultado.jsf#ini&e_codbl=[12]&sort=datacad&page=1",
+        "@id": "way/1521916099",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.6413475,
+              -23.5558274
+            ],
+            [
+              -46.6414696,
+              -23.5558187
+            ],
+            [
+              -46.641584,
+              -23.5558095
+            ],
+            [
+              -46.6415861,
+              -23.5558268
+            ],
+            [
+              -46.6416295,
+              -23.5558631
+            ],
+            [
+              -46.6415913,
+              -23.5558989
+            ],
+            [
+              -46.6415236,
+              -23.5559623
+            ],
+            [
+              -46.6414815,
+              -23.5560017
+            ],
+            [
+              -46.6414568,
+              -23.5559795
+            ],
+            [
+              -46.6414419,
+              -23.5559662
+            ],
+            [
+              -46.6413906,
+              -23.5559203
+            ],
+            [
+              -46.6413809,
+              -23.5559116
+            ],
+            [
+              -46.6413559,
+              -23.5558935
+            ],
+            [
+              -46.6413475,
+              -23.5558274
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "151",
+        "addr:postcode": "01318-020",
+        "addr:street": "Rua Adoniran Barbosa",
+        "addr:suburb": "Bela Vista",
+        "amenity": "community_centre",
+        "community_centre": "cultural_centre",
+        "community_centre:for": "lgbtq",
+        "full_name": "Casa1 - Centro de Cultura LGBTQIAPN+",
+        "full_name:en": "Casa1 - LGBTQIAPN+ Culture Centre",
+        "full_name:pt": "Casa1 - Centro de Cultura LGBTQIAPN+",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "Centro Cultural Casa1",
+        "name:en": "Casa1 Cultural Centre",
+        "name:pt": "Centro Cultural Casa1",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-19:00; PH off",
+        "opening_hours:url": "https://www.casaum.org/programacao/",
+        "operator": "Casa1",
+        "operator:type": "ngo",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.casaum.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q130532767",
+        "wikipedia": "pt:Casa 1",
+        "@id": "way/1521919753",
         "@type": "way"
       }
     },
