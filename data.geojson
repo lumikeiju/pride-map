@@ -3002,6 +3002,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.3553697,
+          48.192783
+        ]
+      },
+      "properties": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:floor": "0",
+        "addr:housenumber": "24",
+        "addr:postcode": "1050",
+        "addr:street": "Pilgramgasse",
+        "branch": "Pilgramgasse",
+        "brand": "Felzl",
+        "check_date": "2026-05-26",
+        "email": "office@felzl.at",
+        "indoor_seating": "limited",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Felzl Gast",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Felzl",
+        "opening_hours": "Mo-Fr 06:45-18:30; Sa 07:00-14:00; Su,PH 07:30-12:30; Jan 01,Aug 15,Dec 25 off; Dec 24,Dec 31 07:30-13:00",
+        "operator": "Felzl GmbH",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+43 1 5811189",
+        "ref:vatin": "ATU70167534",
+        "shop": "bakery",
+        "stroller": "yes",
+        "takeaway": "only",
+        "toilets": "no",
+        "website": "https://www.felzl.at/filiale-pilgramgasse/",
+        "wheelchair": "limited",
+        "@id": "node/419313074",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3617915,
           48.1962274
         ]
@@ -7963,10 +8010,11 @@
         "addr:housenumber": "465",
         "addr:postcode": "98103",
         "addr:street": "North 36th Street",
-        "check_date": "2024-08-16",
+        "check_date": "2026-05-26",
+        "check_date:opening_hours": "2026-05-26",
         "lgbtq": "primary",
         "name": "Charlie's Queer Books",
-        "opening_hours": "Mo-Tu off; We-Sa 11:00-19:00; Su 11:00-17:00",
+        "opening_hours": "Su 11:00-17:00; Mo-Sa 11:00-19:00",
         "shop": "books",
         "website": "https://charliesqueerbooks.com",
         "@id": "node/1248842374",
@@ -19531,6 +19579,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -15.5791882,
+          27.7562538
+        ]
+      },
+      "properties": {
+        "addr:city": "Playa del Inglés",
+        "addr:housenumber": "17",
+        "addr:street": "Avenida de Tirajana",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "name": "REDS Club",
+        "note": "Men only",
+        "opening_hours": "21:00-04:00",
+        "website": "https://www.redsclub.es/",
+        "@id": "node/2712291613",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -15.5767118,
           27.7574301
         ]
@@ -19541,6 +19613,7 @@
         "addr:street": "Avenida de EE. UU.",
         "check_date": "2025-05-06",
         "lgbtq": "primary",
+        "lgbtq:men": "only",
         "name": "Basement Studios",
         "tourism": "hotel",
         "website": "https://www.basementstudios.eu/",
@@ -23387,6 +23460,7 @@
         "addr:street": "Avenida de Tirajana",
         "amenity": "bar",
         "lgbtq": "primary",
+        "lgbtq:men": "only",
         "name": "Zoo Mens Bar",
         "note": "Men only",
         "opening_hours": "Mo-Su 22:00-04:00",
@@ -35487,6 +35561,7 @@
         "lgbtq:men": "only",
         "name": "Cruise Bar",
         "name:en": "Cruise Bar",
+        "opening_hours": "Mo-Su 22:00-04:00",
         "website": "http://www.cruisebaryumbo.com",
         "@id": "node/5764600559",
         "@type": "node"
@@ -40868,6 +40943,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -15.5780079,
+          27.7579551
+        ]
+      },
+      "properties": {
+        "addr:floor": "2",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Tom's Cruising Bar",
+        "@id": "node/6750132973",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5765524,
+          27.757715
+        ]
+      },
+      "properties": {
+        "addr:floor": "2",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "name": "The Box Mens Bar",
+        "opening_hours": "Mo-Su 22:00-04:00",
+        "@id": "node/6750135614",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -15.5762772,
           27.7583442
         ]
@@ -40902,6 +41015,7 @@
         "lgbtq": "primary",
         "lgbtq:men": "only",
         "name": "Strong Construction Men's Cruising Bar",
+        "smoking": "isolated",
         "website": "http://strongconstructionyumbo.com",
         "@id": "node/6750581721",
         "@type": "node"
@@ -79604,6 +79718,45 @@
         "name": "Korakol Burger Bar",
         "phone": "+34919339222",
         "@id": "node/13875447527",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5793406,
+          27.7567978
+        ]
+      },
+      "properties": {
+        "fee": "yes",
+        "leisure": "sauna",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "name": "Club Enjoy",
+        "@id": "node/13883685401",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5759801,
+          27.7578645
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "min_age": "18",
+        "name": "Noxon",
+        "smoking": "outside",
+        "@id": "node/13883935605",
         "@type": "node"
       }
     },
