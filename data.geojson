@@ -5751,17 +5751,17 @@
         "addr:housenumber": "6",
         "addr:postcode": "90402",
         "addr:street": "An der Sparkasse",
-        "amenity": "cafe",
         "contact:facebook": "https://www.facebook.com/CafeCartoon/",
         "contact:phone": "+49 911 227170",
         "cuisine": "regional",
         "description": "Cafe/Bar",
         "diet:vegetarian": "limited",
+        "disused:amenity": "cafe",
         "indoor_seating": "yes",
         "internet_access": "terminal",
         "lgbtq": "primary",
         "name": "Cartoon",
-        "opening_hours": "Fr,Sa 12:00-03:00, PH,Su 14:00-24:00; Mo off",
+        "opening_hours": "Mo-Su off",
         "outdoor_seating": "sidewalk",
         "smoking": "separated",
         "smoking:outside": "yes",
@@ -12030,40 +12030,6 @@
         "lgbtq": "primary",
         "name": "Move",
         "@id": "node/1767548089",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.5225856,
-          5.0675522
-        ]
-      },
-      "properties": {
-        "leisure": "sauna",
-        "lgbtq": "primary",
-        "name": "Spa Thermas Club",
-        "@id": "node/1767548091",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.5226938,
-          5.0670645
-        ]
-      },
-      "properties": {
-        "lgbtq": "primary",
-        "name": "Video Olaya",
-        "shop": "video",
-        "@id": "node/1767548093",
         "@type": "node"
       }
     },
@@ -18991,6 +18957,7 @@
         "addr:housenumber": "10",
         "addr:postcode": "3012KB",
         "addr:street": "Keerweer",
+        "check_date": "2026-05-27",
         "lgbtq": "primary",
         "name": "Gaytoys",
         "opening_hours": "Mo-Fr 12:00-20:00; Sa-Su 12:00-17:00",
@@ -49796,8 +49763,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.7661988,
-          51.2198381
+          6.7661843,
+          51.2198483
         ]
       },
       "properties": {
@@ -55819,7 +55786,7 @@
         "addr:housenumber": "2",
         "addr:postcode": "22761",
         "addr:street": "Bahrenfelder Chaussee",
-        "check_date:opening_hours": "2025-04-25",
+        "check_date:opening_hours": "2026-05-27",
         "lgbtq": "welcome",
         "name": "Stich Tattoo",
         "opening_hours": "Tu-Fr 14:00-19:00; Sa 12:00-19:00",
@@ -79736,6 +79703,7 @@
         "lgbtq": "primary",
         "lgbtq:men": "only",
         "name": "Club Enjoy",
+        "opening_hours": "We-Su 14:00-22:00",
         "@id": "node/13883685401",
         "@type": "node"
       }
@@ -118777,11 +118745,17 @@
         ]
       },
       "properties": {
+        "addr:city": "Waterloo",
+        "addr:housenumber": "304",
+        "addr:postcode": "50701",
+        "addr:state": "IA",
+        "addr:street": "West 4th Street",
         "amenity": "nightclub",
         "building": "yes",
+        "contact:instagram": "railstation319",
         "lgbtq": "primary",
         "name": "Rail Station",
-        "opening_hours": "Th 19:00-18:00+, Fr,Sa 19:00-02:00",
+        "opening_hours": "Th,Fr,Sa 19:00-02:00",
         "@id": "way/923008470",
         "@type": "way"
       }
