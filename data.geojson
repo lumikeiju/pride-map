@@ -12004,23 +12004,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.478592,
-          5.0476779
-        ]
-      },
-      "properties": {
-        "amenity": "nightclub",
-        "lgbtq": "primary",
-        "name": "Lola",
-        "@id": "node/1767548087",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.4889698,
           5.0607623
         ]
@@ -16631,14 +16614,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3132827,
-          47.6618255
+          -122.3132953,
+          47.6618304
         ]
       },
       "properties": {
         "addr:city": "Seattle",
+        "addr:country": "US",
         "addr:housenumber": "4517",
         "addr:postcode": "98105",
+        "addr:state": "WA",
         "addr:street": "University Way Northeast",
         "check_date": "2025-11-21",
         "firearms": "no",
@@ -20312,8 +20297,8 @@
         "addr:state": "MN",
         "addr:street": "Hennepin Avenue South",
         "amenity": "community_centre",
-        "check_date": "2026-04-29",
-        "check_date:opening_hours": "2026-04-29",
+        "check_date": "2026-05-28",
+        "check_date:opening_hours": "2026-05-28",
         "community_centre": "community_hall",
         "community_centre:for": "lgbtq",
         "contact:instagram": "queermunitymn",
@@ -20323,7 +20308,7 @@
         "level": "1",
         "lgbtq": "primary",
         "name": "Queermunity",
-        "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 10:00-20:00",
+        "opening_hours": "We-Fr 08:00-20:00; Sa-Su 10:00-20:00; Mo-Tu 08:00-17:00 \"Open for tenants, members co+working, and room bookings. Café and lounge closed\"",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -37568,7 +37553,7 @@
         "payment:visa": "yes",
         "payment:visa_debit": "yes",
         "smoking": "separated",
-        "website": "http://diegutequelle.de/",
+        "website": "https://www.diegutequelle.de/",
         "wheelchair": "no",
         "@id": "node/6239839213",
         "@type": "node"
@@ -119794,7 +119779,7 @@
         "old_name": "Amusement 13",
         "source:addr": "FHRS Open Data",
         "twitter": "https://twitter.com/BirminghamBoltz",
-        "website": "http://www.boltz-club.com",
+        "website": "https://www.boltz-club.com/",
         "@id": "way/963985128",
         "@type": "way"
       }
