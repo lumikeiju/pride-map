@@ -4076,6 +4076,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.4173898,
+          52.5466467
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:floor": "0",
+        "addr:housenumber": "13",
+        "addr:postcode": "10437",
+        "addr:street": "Stargarder Straße",
+        "amenity": "bar",
+        "check_date": "2026-06-01",
+        "contact:instagram": "https://www.instagram.com/trixiebarberlin",
+        "indoor_seating": "yes",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Trixie Bar",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "source": "survey",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "@id": "node/560524662",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.1306377,
           51.5150956
         ]
@@ -7098,6 +7129,7 @@
         "addr:street": "Greifenhagener Straße",
         "addr:suburb": "Prenzlauer Berg",
         "amenity": "bar",
+        "check_date": "2026-06-01",
         "check_date:opening_hours": "2025-03-21",
         "contact:facebook": "sonntagsclub",
         "contact:instagram": "sonntags.club",
@@ -7110,8 +7142,12 @@
         "name": "Sonntags-Club",
         "opening_hours": "Mo-Th,Sa-Su 18:00+; Fr 18:00+ open \"female only\"",
         "operator": "Sonntags-Club e.V.",
-        "outdoor_seating": "no",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "smoking": "outside",
+        "toilets": "yes",
         "toilets:wheelchair": "no",
         "website": "https://sonntags-club.de/",
         "wheelchair": "limited",
@@ -15909,6 +15945,7 @@
       },
       "properties": {
         "addr:street": "Rue de Bonald",
+        "air_conditioning": "yes",
         "amenity": "restaurant",
         "check_date": "2026-03-27",
         "contact:facebook": "livestationdiy",
@@ -79731,6 +79768,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.602906,
+          51.9962349
+        ]
+      },
+      "properties": {
+        "lgbtq": "primary",
+        "name": "Hate's Gooner Shop",
+        "opening_hours": "24/7",
+        "operator": "Hate/Hype",
+        "payment:backshots": "yes",
+        "payment:blop": "yes",
+        "payment:blow": "yes",
+        "payment:cash": "yes",
+        "shop": "erotic",
+        "@id": "node/13899782447",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -91118,6 +91178,63 @@
         "source": "esri_USDOT_Kansas",
         "website": "https://www.plantingpeace.org/campaign/transgender-house/",
         "@id": "way/180129286",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.4660897,
+              42.7599883
+            ],
+            [
+              -71.4661075,
+              42.7599837
+            ],
+            [
+              -71.4661992,
+              42.7599604
+            ],
+            [
+              -71.4662631,
+              42.7600957
+            ],
+            [
+              -71.4663077,
+              42.7601901
+            ],
+            [
+              -71.466324,
+              42.7602248
+            ],
+            [
+              -71.4662145,
+              42.7602527
+            ],
+            [
+              -71.4660897,
+              42.7599883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "93 1/2",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "West Pearl Street",
+        "building": "yes",
+        "lgbtq": "primary",
+        "name": "JillyKutz Salon",
+        "opening_hours": "\"by appointment\"",
+        "shop": "hairdresser",
+        "website": "https://www.jillykutzhair.com/",
+        "@id": "way/180771919",
         "@type": "way"
       }
     },
@@ -107007,33 +107124,44 @@
         "coordinates": [
           [
             [
-              -75.4788051,
-              40.6013597
+              -75.4787936,
+              40.6013449
             ],
             [
-              -75.4787587,
-              40.6012623
+              -75.4787428,
+              40.601241
             ],
             [
-              -75.4784001,
-              40.6013594
+              -75.4783919,
+              40.6013399
             ],
             [
-              -75.4784457,
-              40.6014583
+              -75.4784427,
+              40.6014438
             ],
             [
-              -75.4788051,
-              40.6013597
+              -75.4786916,
+              40.6013736
+            ],
+            [
+              -75.4787936,
+              40.6013449
             ]
           ]
         ]
       },
       "properties": {
+        "addr:city": "Allentown",
+        "addr:housenumber": "28",
+        "addr:postcode": "18101",
+        "addr:state": "PA",
+        "addr:street": "North 10th Street",
         "amenity": "bar",
-        "building": "yes",
+        "building": "commercial",
+        "building:levels": "3",
         "lgbtq": "primary",
         "name": "Stonewall Moose Lounge Bar & Grille",
+        "roof:shape": "flat",
         "@id": "way/440116162",
         "@type": "way"
       }
@@ -126303,6 +126431,7 @@
       "properties": {
         "lgbtq:men": "primary",
         "natural": "beach",
+        "nudism": "yes",
         "surface": "ground",
         "@id": "way/1286706861",
         "@type": "way"
@@ -126346,8 +126475,10 @@
         ]
       },
       "properties": {
-        "leisure": "beach_resort",
         "lgbtq:men": "primary",
+        "natural": "beach",
+        "note": "plaz je divoka, neudrzovana",
+        "nudism": "yes",
         "surface": "ground",
         "@id": "way/1286706865",
         "@type": "way"
@@ -126383,8 +126514,10 @@
         ]
       },
       "properties": {
-        "leisure": "beach_resort",
         "lgbtq:men": "primary",
+        "natural": "beach",
+        "note": "plaz je divoka, neudrzovana",
+        "nudism": "yes",
         "surface": "ground",
         "@id": "way/1286706866",
         "@type": "way"
