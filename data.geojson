@@ -28264,6 +28264,7 @@
       },
       "properties": {
         "amenity": "bar",
+        "check_date": "2026-06-01",
         "lgbtq": "primary",
         "name": "Castro",
         "@id": "node/4361643030",
@@ -39295,6 +39296,7 @@
         "addr:city": "Murcia",
         "addr:street": "Calle Rocamora",
         "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
         "email": "noteprives@felgtb.org",
         "lgbtq": "primary",
         "name": "Colectivo No Te Prives",
@@ -44689,24 +44691,6 @@
         "website": "https://zenchay.de",
         "wheelchair": "no",
         "@id": "node/7658178576",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.4559218,
-          46.5140329
-        ]
-      },
-      "properties": {
-        "amenity": "community_centre",
-        "community_centre:for": "lgbtq",
-        "lgbtq": "primary",
-        "name": "Camin Cultural",
-        "@id": "node/7661089954",
         "@type": "node"
       }
     },
@@ -50925,10 +50909,21 @@
         "addr:postcode": "02122",
         "addr:state": "MA",
         "addr:street": "Dorchester Avenue",
+        "air_conditioning": "yes",
         "amenity": "bar",
+        "brunch": "yes",
+        "check_date": "2026-06-01",
+        "contact:facebook": "https://www.facebook.com/blenddorchester",
+        "contact:tiktok": "https://www.tiktok.com/@blenddorchester",
+        "instagram": "https://www.instagram.com/@BLENDBOSTON",
         "lgbtq": "primary",
-        "name": "Blend",
+        "name": "blend",
+        "opening_hours": "Tu-Th 17:00-22:00; Fr-Sa 05:00-26:00; Su 11:00-17:00",
+        "phone": "+1-617-265-8846",
         "source": "esri/Boston_MA_Addresses",
+        "twitter": "https://www.x.com/@blenddorchester",
+        "website": "https://blenddorchester.com/",
+        "website:menu": "https://blenddorchester.com/dinner-menu",
         "@id": "node/9416524429",
         "@type": "node"
       }
