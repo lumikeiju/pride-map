@@ -1200,6 +1200,7 @@
         "wheelchair": "limited",
         "wheelchair:description:fr": "Seule notre salle 3 est accessible aux personnes à mobilité réduite.",
         "wikidata": "Q28564015",
+        "wikipedia": "fr:American_Cosmograph",
         "@id": "node/312898921",
         "@type": "node"
       }
@@ -25657,8 +25658,8 @@
         "addr:postcode": "10117",
         "addr:street": "Marienstraße",
         "addr:suburb": "Mitte",
-        "alt_name": "CCCB/W;CCC Berlin",
-        "check_date": "2026-05-24",
+        "alt_name": "CCC Berlin",
+        "check_date": "2026-06-02",
         "check_date:opening_hours": "2025-10-18",
         "contact:email": "mail@berlin.ccc.de",
         "contact:email:pgp": "0x73D62575",
@@ -75928,7 +75929,7 @@
         "name": "Tunel Club",
         "smoking": "isolated",
         "start_date": "2019-05-01",
-        "website:cz": "https://tunelclub.cz/",
+        "website": "https://tunelclub.cz/",
         "@id": "node/13314327755",
         "@type": "node"
       }
@@ -79780,6 +79781,53 @@
         "payment:cash": "yes",
         "shop": "erotic",
         "@id": "node/13899782447",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5208099,
+          28.3921333
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "34",
+        "addr:street": "Avenida Doctor Emilio Luque Moreno",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Diversas",
+        "opening_hours": "Mo-Fr \"mañanas\"",
+        "@id": "node/13904872916",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7093187,
+          33.5561223
+        ]
+      },
+      "properties": {
+        "addr:city": "Laguna Niguel",
+        "addr:housenumber": "28002",
+        "addr:postcode": "92677",
+        "addr:state": "CA",
+        "addr:street": "La Paz Road",
+        "lgbtq": "welcome",
+        "name": "Wild Fork",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "payment:account_cards": "yes",
+        "phone": "+19495064947",
+        "shop": "supermarket",
+        "website": "http://wildforkfoods.com/",
+        "@id": "node/13905060102",
         "@type": "node"
       }
     },
@@ -96418,6 +96466,110 @@
         "coordinates": [
           [
             [
+              -82.7457512,
+              27.9684672
+            ],
+            [
+              -82.7457471,
+              27.9682114
+            ],
+            [
+              -82.7458787,
+              27.9682098
+            ],
+            [
+              -82.7458828,
+              27.9684655
+            ],
+            [
+              -82.7457512,
+              27.9684672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Clearwater",
+        "addr:country": "US",
+        "addr:housenumber": "205",
+        "addr:postcode": "33765",
+        "addr:state": "FL",
+        "addr:street": "North Belcher Road",
+        "amenity": "fuel",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "building": "roof",
+        "building:levels": "1",
+        "height": "8.07",
+        "layer": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "7-Eleven",
+        "ref": "33966",
+        "source:lgbtq": "Progress pride flag flown, employee has rainbow flag and lgbtq ally pins, employee wished me happy pride",
+        "@id": "way/253366065",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.745386,
+              27.9684476
+            ],
+            [
+              -82.7453831,
+              27.9682608
+            ],
+            [
+              -82.7455718,
+              27.9682583
+            ],
+            [
+              -82.7455748,
+              27.9684451
+            ],
+            [
+              -82.745386,
+              27.9684476
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Clearwater",
+        "addr:country": "US",
+        "addr:housenumber": "205",
+        "addr:postcode": "33765",
+        "addr:state": "FL",
+        "addr:street": "North Belcher Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:website": "https://www.7-eleven.com/locations/fl/clearwater/205-n-belcher-rd-33966",
+        "height": "14.92",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "7-Eleven",
+        "ref": "33966",
+        "shop": "convenience",
+        "source:lgbtq": "Progress pride flag flown, employee has rainbow flag and lgbtq ally pins, employee wished me happy pride",
+        "@id": "way/253366067",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -94.5857554,
               39.0599536
             ],
@@ -106337,10 +106489,12 @@
       "properties": {
         "building": "yes",
         "lgbtq": "welcome",
-        "name": "Les Îles d'Or du Levant",
+        "mobile": "+33617687394",
+        "name": "La Callipyge des Îles d'Or",
         "rooms": "7",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "tourism": "chalet",
+        "website": "https://www.iledulevant.com.fr/vacances/callipyge/",
         "@id": "way/427460079",
         "@type": "way"
       }
@@ -112831,12 +112985,15 @@
         "addr:housenumber": "118",
         "addr:postcode": "E2 6DG",
         "addr:street": "Bethnal Green Road",
+        "check_date:opening_hours": "2026-05-19",
         "lgbtq": "primary",
         "name": "The Common Press",
         "opening_hours": "Tu-Su 11:00-18:30",
+        "payment:cash": "no",
         "second_hand": "no",
         "shop": "books",
         "website": "https://www.commonpress.co.uk",
+        "wheelchair": "yes",
         "@id": "way/638542145",
         "@type": "way"
       }
