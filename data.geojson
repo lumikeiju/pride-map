@@ -21314,30 +21314,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.7949225,
-          53.2015927
-        ]
-      },
-      "properties": {
-        "addr:city": "Leeuwarden",
-        "addr:housenumber": "13",
-        "addr:postcode": "8911HL",
-        "addr:street": "Weerd",
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "name": "YAI",
-        "source": "BAG",
-        "source:date": "2014-09-08",
-        "website": "https://www.cafeyai.nl/",
-        "@id": "node/3066853985",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.6511275,
           49.8708409
         ]
@@ -79834,6 +79810,51 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9291115,
+          41.2496286
+        ]
+      },
+      "properties": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "1015",
+        "addr:postcode": "68108",
+        "addr:state": "NE",
+        "addr:street": "South 10th Street",
+        "amenity": "bar",
+        "atm": "yes",
+        "lgbtq": "primary",
+        "name": "Flixx",
+        "@id": "node/13908516481",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9291138,
+          41.2495125
+        ]
+      },
+      "properties": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "1019",
+        "addr:postcode": "68108",
+        "addr:state": "NE",
+        "addr:street": "South 10th Street",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Flixx Cabaret & Show Bar",
+        "@id": "node/13908516482",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -90078,11 +90099,13 @@
         "addr:street": "Old Compton Street",
         "building": "yes",
         "building:levels": "4",
-        "check_date": "2024-10-22",
+        "check_date": "2026-06-03",
+        "check_date:opening_hours": "2026-06-03",
         "clothes": "gay",
         "lgbtq": "primary",
         "name": "Prowler Red",
         "old_name": "DV8",
+        "opening_hours": "Mo-Th 10:30-21:30; Fr,Sa 10:30-22:30; Su 12:00-20:00",
         "roof:colour": "grey",
         "shop": "erotic",
         "website": "https://www.fiftyanddean.com/",
