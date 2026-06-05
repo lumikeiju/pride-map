@@ -14068,7 +14068,7 @@
         "addr:street": "Mehringdamm",
         "addr:suburb": "Kreuzberg",
         "alt_name": "Boiler Sauna Berlin",
-        "check_date": "2026-01-22",
+        "check_date": "2026-06-04",
         "check_date:opening_hours": "2025-09-11",
         "email": "info@boiler-berlin.de",
         "fee": "yes",
@@ -14078,8 +14078,8 @@
         "lgbtq": "primary",
         "lgbtq:men": "only",
         "male": "yes",
-        "name": "Der Boiler",
-        "name:de": "Der Boiler",
+        "name": "Boiler",
+        "name:de": "Boiler",
         "opening_hours": "Mo-Th 12:00-06:00, Fr 12:00-24:00, Sa 00:00-00:00, Su 00:00-00:00, Mo 00:00-06:00",
         "operator": "Boiler Berlin Sauna GmbH",
         "payment:mastercard": "yes",
@@ -34365,16 +34365,16 @@
         "addr:housenumber": "7",
         "addr:postcode": "67000",
         "addr:street": "Rue des Écrivains",
+        "amenity": "community_centre",
         "community_centre:for": "lgbtq",
         "description": "Centre Lesbien Gay Bi Trans Queer Intersexe Aromantique/Asexuel +\nLieu d'accueil et d'information",
         "email": "contact@lastation-lgbti.eu",
-        "internet_access": "wlan",
         "lgbtq": "primary",
         "name": "La Station LGBTQIA+",
-        "office": "association",
         "opening_hours": "Tu-Fr 16:00-20:00; Sa 14:00-19:00",
         "phone": "+33 9 50 51 13 29",
         "website": "https://www.lastation-lgbti.eu/",
+        "wikidata": "Q140052898",
         "@id": "node/5456104515",
         "@type": "node"
       }
@@ -46794,6 +46794,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          4.8358709,
+          45.7777605
+        ]
+      },
+      "properties": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "9",
+        "addr:postcode": "69004",
+        "addr:street": "Rue Dumont d'Urville",
+        "amenity": "restaurant",
+        "breakfast": "Mo-Fr 08:30-11:00",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "dog": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lunch": "Mo-Fr 12:00-15:00",
+        "name": "Café Malzieu",
+        "opening_hours": "Mo-Fr 08:30-18:30",
+        "outdoor_seating": "yes",
+        "phone": "+33472458179",
+        "wheelchair": "yes",
+        "@id": "node/8164212513",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.571298,
           55.6771205
         ]
@@ -58304,6 +58335,8 @@
         "addr:state": "MN",
         "addr:street": "Lyndale Avenue South",
         "air_conditioning": "yes",
+        "check_date": "2026-06-04",
+        "check_date:opening_hours": "2026-06-04",
         "email": "hello@smittenkittenonline.com",
         "fetish:bdsm:soft": "yes",
         "fetish:bdsm:specialized": "yes",
@@ -58318,7 +58351,7 @@
         "lgbtq:women": "welcome",
         "name": "Smitten Kitten",
         "nobrand": "yes",
-        "opening_hours": "Tu-Th 13:00-20:00; Fr-Sa 13:00-21:00; Su 13:00-20:00",
+        "opening_hours": "Tu-Fr 13:00-20:00; Sa 11:00-20:00; Su 11:00-17:00",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:visa": "yes",
@@ -66466,37 +66499,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4278901,
-          50.091111
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "1201/18",
-        "addr:street": "Revoluční",
-        "amenity": "cafe",
-        "contact:email": "info@sharesweetbar.cz",
-        "description": "Sweet bar, coffee and brunch, vegan friendly",
-        "diet:gluten_free": "yes",
-        "diet:lactose_free": "yes",
-        "diet:vegan": "only",
-        "indoor_seating": "yes",
-        "internet_access": "yes",
-        "internet_access:fee": "no",
-        "lgbtq": "welcome",
-        "lgbtq:trans": "welcome",
-        "name": "Share",
-        "opening_hours": "Mo-Su 08:00-18:00",
-        "phone": "+420 771 151 113",
-        "website": "https://www.sharesweetbar.cz/en",
-        "@id": "node/12196949807",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           4.9039026,
           46.3599096
         ]
@@ -66674,10 +66676,12 @@
         "addr:housenumber": "17",
         "addr:street": "Bremer Reihe",
         "amenity": "bar",
-        "check_date": "2025-12-22",
+        "check_date": "2026-06-04",
+        "check_date:opening_hours": "2026-06-04",
         "email": "info@schatzii-bar.de",
         "lgbtq": "primary",
         "name": "Schatziii",
+        "opening_hours:signed": "no",
         "phone": "+49 40 60850798",
         "website": "https://www.schatziii-bar.de/?",
         "wheelchair": "no",
@@ -70273,7 +70277,7 @@
         "check_date": "2025-05-01",
         "contact:email": "info@stuntwerk-koeln-zollstock.de",
         "contact:phone": "+49 221 69059326",
-        "contact:website": "https://stuntwerk-koeln-zollstock.de/",
+        "contact:website": "https://stuntwerk.de/koeln-zollstock/",
         "fee": "yes",
         "leisure": "sports_centre",
         "level": "0",
@@ -91693,11 +91697,7 @@
               52.4168881
             ],
             [
-              9.7975958,
-              52.416892
-            ],
-            [
-              9.7975953,
+              9.7975956,
               52.416892
             ],
             [
