@@ -13577,12 +13577,12 @@
       },
       "properties": {
         "amenity": "bar",
+        "contact:instagram": "https://www.instagram.com/chezlesjumeaux",
         "level": "0",
         "lgbtq": "primary",
         "name": "Chez les Jumeaux",
         "opening_hours": "Su-Fr 16:00-02:00, Sa 16:00-03:00",
-        "source": "ToulouseMetropole;local knowledge",
-        "source:date": "2012/10/04",
+        "phone": "+33 5 61 42 37 82",
         "@id": "node/2051905786",
         "@type": "node"
       }
@@ -44881,16 +44881,11 @@
       },
       "properties": {
         "addr:postcode": "75005",
-        "amenity": "cafe",
-        "diet:vegan": "yes",
         "email": "librairiemajo@gmail.com",
-        "indoor_seating": "yes",
         "level": "0",
         "lgbtq": "primary",
         "name": "Librairie Majo",
-        "old_name": "Century 21",
         "opening_hours": "Tu-Sa 10:00-19:00; Su 14:00-19:15",
-        "outdoor_seating": "no",
         "phone": "+33 9 86 16 96 94",
         "second_hand": "no",
         "shop": "books",
@@ -49343,7 +49338,7 @@
       },
       "properties": {
         "amenity": "community_centre",
-        "check_date:opening_hours": "2023-12-16",
+        "check_date:opening_hours": "2026-06-05",
         "lgbtq": "primary",
         "name": "LGBT Center",
         "opening_hours:signed": "no",
@@ -83349,11 +83344,13 @@
         ]
       },
       "properties": {
-        "amenity": "pub",
+        "bar": "yes",
         "building": "yes",
         "check_date": "2025-01-04",
+        "fee": "yes",
+        "female": "no",
         "leisure": "sauna",
-        "lgbtq:men": "only",
+        "lgbtq": "primary",
         "male": "yes",
         "name": "Les Bains",
         "ref:FR:SIRET": "41038064600019",
