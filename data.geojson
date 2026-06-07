@@ -8568,6 +8568,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          19.1719595,
+          47.3102239
+        ]
+      },
+      "properties": {
+        "addr:city": "Alsónémedi",
+        "addr:housenumber": "37",
+        "addr:postcode": "2351",
+        "addr:street": "Fő út",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "diet:dairy_free": "yes",
+        "diet:gluten_free": "yes",
+        "lgbtq": "welcome",
+        "name": "Mindennapi Pékség",
+        "parking": "street_side",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "06303673087",
+        "@id": "node/1318710511",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.187766,
           55.9568752
         ]
@@ -75016,7 +75044,7 @@
         "addr:unit": "2",
         "amenity": "restaurant",
         "bar": "yes",
-        "check_date": "2025-11-30",
+        "check_date": "2026-06-06",
         "contact:facebook": "villavidacafe",
         "contact:instagram": "villavidacafe",
         "contact:tiktok": "villavidacafe",
@@ -75031,7 +75059,7 @@
         "name": "Villa Vida",
         "opening_hours": "Mo,Su,PH off; Tu-Th 13:00-23:00; Fr-Sa 13:00-24:00",
         "operator": "Denise Van De Cruze",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "parklet",
         "payment:cards": "yes",
         "payment:cash": "yes",
         "payment:contactless": "yes",
