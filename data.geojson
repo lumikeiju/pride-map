@@ -8490,17 +8490,29 @@
         "addr:postcode": "80469",
         "addr:street": "Pestalozzistraße",
         "amenity": "ice_cream",
-        "check_date": "2025-11-24",
+        "check_date": "2026-06-08",
         "check_date:opening_hours": "2023-03-19",
         "contact:fax": "+49 89 8906 4776",
         "contact:mobile": "+49 163 9157 308",
         "contact:website": "https://daseismeer.de/",
         "cuisine": "ice_cream",
+        "delivery": "no",
+        "diet:vegan": "yes",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "level": "0",
         "lgbtq": "primary",
         "name": "Eismeer",
         "note": "Saisonbetrieb von Ende März bis September",
         "opening_hours": "Mo-Fr 13:00-23:00; Sa-Su 12:00-23:00",
         "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "stroller": "limited",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website:menu": "https://daseismeer.de/menu/",
         "wheelchair": "no",
         "@id": "node/1296858570",
         "@type": "node"
@@ -9957,7 +9969,7 @@
         "addr:street": "Tschamlerstraße",
         "addr:suburb": "Wilten",
         "alt_name": "ITsyndikat",
-        "check_date": "2025-03-26",
+        "check_date": "2026-06-07",
         "check_date:opening_hours": "2021-10-23",
         "contact:mastodon": "@itsyndikat@chaos.social",
         "contact:matrix": "#lobby:it-syndik.at",
@@ -24113,6 +24125,8 @@
         "air_conditioning": "yes",
         "amenity": "cafe",
         "bar": "yes",
+        "check_date": "2026-06-07",
+        "check_date:opening_hours": "2026-06-07",
         "cuisine": "coffee_shop",
         "delivery": "no",
         "description": "Chill coffee house with pinball machines and arcade games in the basement.",
@@ -24124,7 +24138,7 @@
         "internet_access:ssid": "Caffetto",
         "lgbtq": "welcome",
         "name": "Caffetto",
-        "opening_hours": "Mo-Su 06:30-12:00",
+        "opening_hours": "Mo-Su 06:30-01:00",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -79882,6 +79896,25 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6176356,
+          44.75923
+        ]
+      },
+      "properties": {
+        "amenity": "community_centre",
+        "check_date": "2026-06-06",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Up North Pride",
+        "@id": "node/13918859044",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -107710,7 +107743,7 @@
         "lacounty:ain": "7259003001",
         "lacounty:bld_id": "515601745801",
         "lgbtq": "primary",
-        "name": "The Suite",
+        "name": "Werk",
         "opening_hours": "Mo-Su 21:00-02:00",
         "smoking": "outside",
         "start_date": "1960",
