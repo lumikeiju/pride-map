@@ -12844,6 +12844,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3503688,
+          52.5005192
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "10787",
+        "addr:street": "Kleiststraße",
+        "addr:suburb": "Schöneberg",
+        "amenity": "pub",
+        "brewery": "König Pilsner",
+        "check_date": "2026-06-08",
+        "indoor_seating": "yes",
+        "level": "0",
+        "lgbtq": "primary",
+        "name": "K6",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 177 6039397",
+        "smoking": "yes",
+        "website": "http://www.k6-berlin.de",
+        "wheelchair": "yes",
+        "@id": "node/1927276405",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.430953,
           52.4865618
         ]
@@ -22717,6 +22752,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.4099389,
+          52.5284199
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "40",
+        "addr:postcode": "10119",
+        "addr:street": "Linienstraße",
+        "addr:suburb": "Mitte",
+        "amenity": "bar",
+        "brewery": "Brlo",
+        "check_date": "2026-06-07",
+        "contact:email": "kaschk@brlo.de",
+        "contact:website": "https://www.brlo.de/gastronomien/brlo-kaschk",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lqbtq:signed": "yes",
+        "name": "Kaschk by Brlo",
+        "opening_hours": "Mo-We 12:00-02:00; Th 12:00-02:00; Fr 12:00-03:00; Sa 10:00-03:00; Su 12:00-01:00",
+        "operator": "Brlo",
+        "operator:wikidata": "Q123734638",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "short_name": "Kaschk",
+        "smoking": "outside",
+        "wheelchair": "yes",
+        "@id": "node/3390615493",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.3758699,
           39.4849072
         ]
@@ -24973,6 +25048,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3491419,
+          52.4979525
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "19",
+        "addr:postcode": "10777",
+        "addr:street": "Motzstraße",
+        "addr:suburb": "Schöneberg",
+        "amenity": "fast_food",
+        "check_date": "2026-06-08",
+        "cuisine": "sausage",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "no",
+        "lgbtq": "primary",
+        "name": "Toms Wurst",
+        "opening_hours": "Su-We,PH 11:30-22:00, Th-Sa 11:30-24:00",
+        "outdoor_seating": "sidewalk",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "yes",
+        "takeaway": "yes",
+        "@id": "node/3780969415",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           10.9323948,
           50.6826284
         ]
@@ -26980,6 +27089,7 @@
         "payment:meal_voucher": "yes",
         "phone": "+33472413329",
         "ref:FR:SIRET": "81890647100011",
+        "toilets:wheelchair": "yes",
         "website": "http://www.rita-plage.com/",
         "wheelchair": "limited",
         "@id": "node/4108208859",
@@ -30959,6 +31069,7 @@
         "addr:street": "Kleiststraße",
         "air_conditioning": "yes",
         "amenity": "bar",
+        "check_date": "2026-06-08",
         "indoor_seating": "yes",
         "level": "0",
         "lgbtq": "primary",
@@ -47214,6 +47325,7 @@
         "addr:postcode": "35233",
         "addr:street": "3rd Avenue South",
         "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
         "lgbtq": "primary",
         "name": "Magic City Acceptance Center",
         "website": "https://www.magiccityacceptancecenter.org/",
@@ -58457,13 +58569,17 @@
         "addr:postcode": "10777",
         "addr:street": "Motzstraße",
         "amenity": "bar",
-        "check_date": "2024-03-27",
+        "check_date": "2026-06-08",
         "email": "berlin@boyberry.com",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "lgbtq:men": "only",
         "min_age": "18",
         "name": "Boyberry Berlin",
         "opening_hours": "Mo-Th,Su 15:00-05:00; Fr,Sa 15:00-06:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "website": "https://boyberry.com/berlin",
         "wheelchair": "no",
         "@id": "node/11035783613",
@@ -58487,14 +58603,18 @@
         "addr:street": "Motzstraße",
         "addr:suburb": "Schöneberg",
         "amenity": "bar",
-        "check_date": "2023-07-09",
+        "check_date": "2026-06-08",
+        "check_date:smoking": "2026-06-08",
         "cocktails": "yes",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Blond",
         "opening_hours": "Mo-Su 17:00-04:00",
         "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+49 30 66403947",
+        "smoking": "outside",
         "website": "http://www.blond-berlin.de",
         "wheelchair": "no",
         "@id": "node/11035951199",
@@ -58980,6 +59100,7 @@
       "properties": {
         "addr:housenumber": "18",
         "addr:street": "Motzstraße",
+        "check_date": "2026-06-08",
         "lgbtq": "welcome",
         "name": "Kuckuck",
         "opening_hours": "Mo-Sa 11:00-19:00",
@@ -70579,7 +70700,7 @@
         "drive_through": "no",
         "lgbtq": "welcome",
         "name": "The Urban Juicer",
-        "opening_hours": "Mo-Fr 07:00-15:00",
+        "opening_hours": "Mo-Fr 07:00-15:00; Sa,Su 08:00-14:00",
         "phone": "+18559058423",
         "takeaway": "yes",
         "website": "https://theurbanjuicer.com/locations/nashville-yards/",
@@ -70920,8 +71041,10 @@
         "addr:state": "IL",
         "addr:street": "Southwest Water Street",
         "amenity": "bar",
+        "cuisine": "pizza",
         "lgbtq": "welcome",
-        "name": "8bit arcade bar",
+        "name": "8bit Beercade",
+        "opening_hours": "Mo-Fr 16:00-23:00; Sa 14:00-23:00",
         "phone": "+1 309-713-3007",
         "website": "https://www.8bitbeercade.com/peoria-homepage",
         "@id": "node/12882582701",
@@ -125085,6 +125208,61 @@
         "office": "government",
         "roof:shape": "flat",
         "@id": "way/1212401552",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.4176968,
+              46.9854805
+            ],
+            [
+              -120.4178967,
+              46.9854867
+            ],
+            [
+              -120.4179065,
+              46.9853382
+            ],
+            [
+              -120.4177066,
+              46.9853321
+            ],
+            [
+              -120.4176968,
+              46.9854805
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "building": "yes",
+        "changing_table": "yes",
+        "changing_table:count": "1",
+        "changing_table:fee": "no",
+        "changing_table:location": "unisex_toilet",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Kittitas Cafe",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "designated",
+        "wheelchair": "yes",
+        "@id": "way/1216666175",
         "@type": "way"
       }
     },
