@@ -3552,6 +3552,7 @@
         "addr:housenumber": "29",
         "addr:postcode": "70182",
         "addr:street": "Blumenstraße",
+        "check_date": "2026-06-09",
         "lgbtq": "welcome",
         "name": "Gästehaus Ziegler",
         "tourism": "hotel",
@@ -17656,6 +17657,7 @@
         "historic": "memorial",
         "lgbtq": "primary",
         "name": "Verletzte Liebe",
+        "name:de": "Verletzte Liebe",
         "name:fr": "À l’amour blessé",
         "wheelchair": "yes",
         "wikidata": "Q293525",
@@ -21288,6 +21290,10 @@
         "addr:housenumber": "37",
         "addr:postcode": "6665CE",
         "addr:street": "Kerkstraat",
+        "currency:EUR": "yes",
+        "email": "info@vodevallei.nl",
+        "facebook": "vodevallei",
+        "instagram": "vodevallei",
         "lgbtq": "welcome",
         "name": "VO de Vallei winkeltje",
         "opening_hours": "Mo-Th 09:00-11:00,14:00-16:00",
@@ -21296,6 +21302,7 @@
         "shop": "art",
         "source": "BAG",
         "source:date": "2014-08-14",
+        "stroller": "yes",
         "website": "https://www.vodevallei.nl",
         "wheelchair": "yes",
         "@id": "node/3016631053",
@@ -39865,7 +39872,7 @@
       },
       "properties": {
         "addr:housenumber": "39",
-        "addr:street": "carrer Fray Joan Tensa",
+        "addr:street": "Carrer Fray Joan Tensa",
         "amenity": "pub",
         "contact:facebook": "https://www.facebook.com/Abbey-road-Pub-1686432768286561/",
         "lgbtq": "primary",
@@ -70669,10 +70676,19 @@
         "inscription": "Ici habitait Eugène Eggermann Né 1912 Arrêté 31.3.1942 Condamné § 175 Interné Mulhouse, Schirmeck Rescapé",
         "lgbtq": "primary",
         "memorial": "stolperstein",
+        "memorial:addr": "19, rue des Grandes Arcades, Strasbourg",
         "name": "Eugène Eggermann",
+        "object:city": "Strasbourg",
+        "object:country": "FR",
+        "object:housenumber": "19",
+        "object:postcode": "67000",
+        "object:street": "Rue des Grandes Arcades",
         "panoramax": "24eb1aba-0679-4a62-a946-dd0ae823fa72;20b6195a-5f74-4956-8ad0-a38992afc781;b8b38330-a8a9-4eb4-83a9-26b8916c2c3f",
+        "person:date_of_birth": "1912",
+        "sorting_name": "Eggermann, Eugène",
         "start_date": "2025-05-16",
         "subject:wikidata": "Q133074473",
+        "wikimedia_commons": "File:Stolperstein Eugène Eggermann 19, rue des Grandes Arcades Strasbourg.jpg",
         "@id": "node/12841505218",
         "@type": "node"
       }
@@ -70771,10 +70787,20 @@
         "inscription": "Ici habitait Josef Martus Né 1909 Arrêté 31.3.1942 Condamné § 175 Exécuté 10.8.1942 Stuttgart",
         "lgbtq": "primary",
         "memorial": "stolperstein",
+        "memorial:addr": "19, rue des Grandes Arcades, Strasbourg",
         "name": "Josef Martus",
+        "object:city": "Strasbourg",
+        "object:country": "FR",
+        "object:housenumber": "19",
+        "object:postcode": "67000",
+        "object:street": "Rue des Grandes Arcades",
         "panoramax": "24eb1aba-0679-4a62-a946-dd0ae823fa72;20b6195a-5f74-4956-8ad0-a38992afc781;b8b38330-a8a9-4eb4-83a9-26b8916c2c3f",
+        "person:date_of_birth": "1909",
+        "person:date_of_death": "1942-08-10",
+        "sorting_name": "Martus, Josef",
         "start_date": "2025-05-16",
         "subject:wikidata": "Q134497164",
+        "wikimedia_commons": "File:Stolperstein Josef Martus 19, rue des Grandes Arcades Strasbourg.jpg",
         "@id": "node/12846527551",
         "@type": "node"
       }
@@ -71510,6 +71536,28 @@
         "shop": "clothes",
         "website": "https://shopual.com/",
         "@id": "node/12926542410",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5476018,
+          46.9963392
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Pearl Street Books & Gifts",
+        "opening_hours": "Mo-Sa 10:00-17:00",
+        "second_hand": "no",
+        "shop": "books",
+        "wheelchair": "limited",
+        "@id": "node/12926563011",
         "@type": "node"
       }
     },
@@ -75480,6 +75528,30 @@
         "name": "ORIENTA, Oficina integral LGTBI",
         "opening_hours": "\"by appointment\"",
         "@id": "node/13254429363",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5456941,
+          46.9999561
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "fax": "+1 509-962-3329",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Jerrol's",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa-Su 09:00-18:00",
+        "phone": "+1 509-925-9851;+1 800-858-2427",
+        "shop": "books",
+        "website": "https://jerrols.com",
+        "@id": "node/13266251901",
         "@type": "node"
       }
     },
@@ -109117,63 +109189,6 @@
         "coordinates": [
           [
             [
-              -0.0770651,
-              51.53624
-            ],
-            [
-              -0.0770423,
-              51.536221
-            ],
-            [
-              -0.0770434,
-              51.5361631
-            ],
-            [
-              -0.0771835,
-              51.5361611
-            ],
-            [
-              -0.0771903,
-              51.5362357
-            ],
-            [
-              -0.0770651,
-              51.53624
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:housenumber": "281",
-        "addr:postcode": "E2 8AS",
-        "addr:street": "Kingsland Road",
-        "amenity": "pub",
-        "building": "yes",
-        "building:levels": "3",
-        "contact:facebook": "TheGloryLondon",
-        "contact:instagram": "thegloryldn",
-        "contact:twitter": "theglorylondon",
-        "email": "info@theglory.co",
-        "lgbtq": "primary",
-        "min_age": "18",
-        "name": "The Glory",
-        "opening_hours": "Mo 17:00-23:00; Tu-Th 17:00-24:00; Fr-Sa 17:00-27:00; Su 14:00-23:00",
-        "phone": "+44 20 7684 0794",
-        "was:name": "The Paradise Inn",
-        "was:name:2": "The Victory",
-        "website": "https://www.theglory.co",
-        "@id": "way/469650895",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -96.7878839,
               32.9411514
             ],
@@ -112325,6 +112340,73 @@
         "ref:linz:address_id": "1723711",
         "website": "http://wingateclub.co.nz",
         "@id": "way/607729719",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.4564501,
+              51.5688813
+            ],
+            [
+              0.4568659,
+              51.5688336
+            ],
+            [
+              0.4568301,
+              51.5687132
+            ],
+            [
+              0.4570817,
+              51.5686843
+            ],
+            [
+              0.4570539,
+              51.5685907
+            ],
+            [
+              0.4563866,
+              51.5686672
+            ],
+            [
+              0.4564289,
+              51.5688098
+            ],
+            [
+              0.4564501,
+              51.5688813
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Basildon",
+        "addr:postcode": "SS14 1DQ",
+        "addr:street": "Southernhay",
+        "amenity": "pub",
+        "building": "pub",
+        "check_date": "2026-06-09",
+        "email": "beehive.basildon@stonegategroup.co.uk",
+        "lgbtq": "welcome",
+        "name": "The Beehive",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr 10:00-01:00; Sa 09:00-01:00; Su 09:00-23:00",
+        "operator": "Stonegate",
+        "operator:wikidata": "Q7619176",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 1268 273394",
+        "smoking": "outside",
+        "toilets": "yes",
+        "website": "https://www.greatukpubs.co.uk/beehive-basildon",
+        "wheelchair": "yes",
+        "@id": "way/607936086",
         "@type": "way"
       }
     },
@@ -128741,14 +128823,20 @@
         "capacity": "60",
         "description": "voortgezet democratisch onderwijs",
         "education": "school",
+        "email": "info@vodevallei.nl",
+        "facebook": "vodevallei",
+        "instagram": "vodevallei",
         "internet_access": "yes",
+        "internet_access:ssid": "VO De Vallei",
         "lgbtq": "welcome",
         "max_age": "21",
         "min_age": "11",
-        "name": "VO de Vallei",
+        "name": "VO De Vallei",
+        "note": "Elk woord in de naam is met een eerste letter als hoofdletter. Ook \"De\" dus. Ookal is dit niet grammatisch correct is dit wel de correcte naam.",
         "opening_hours": "Mo-Th 8:30-16:30",
         "phone": "+31 6 24251343",
         "school": "secondary",
+        "short_name": "De Vallei",
         "start_date": "2015-10-06",
         "website": "https://www.vodevallei.nl",
         "wheelchair": "yes",
