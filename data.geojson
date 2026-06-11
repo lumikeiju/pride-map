@@ -14185,6 +14185,7 @@
         "atm": "no",
         "contact:email": "Info@bar-romantis.de",
         "food": "no",
+        "indoor_seating": "yes",
         "internet_access": "no",
         "lgbtq": "primary",
         "name": "Bar Romantis",
@@ -14193,6 +14194,7 @@
         "outdoor_seating": "yes",
         "phone": "+4951154575239",
         "smoking": "isolated",
+        "toilets:wheelchair": "no",
         "website": "https://bar-romantis.chayns.site/aboutus?v=0",
         "wheelchair": "limited",
         "@id": "node/2118561655",
@@ -18618,8 +18620,11 @@
         "level": "0",
         "lgbtq": "primary",
         "name": "Gut Level",
+        "owner": "Music Venue Properties",
+        "owner:wikidata": "Q134611648",
         "source": "survey",
         "source:addr": "FHRS Open Data",
+        "wikidata": "Q140158868",
         "@id": "node/2573466583",
         "@type": "node"
       }
@@ -61242,8 +61247,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5197192,
-          36.7423007
+          -3.5196764,
+          36.7422905
         ]
       },
       "properties": {
