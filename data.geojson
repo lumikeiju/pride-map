@@ -6498,10 +6498,12 @@
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Batho",
+        "opening_hours": "Mo-Su 12:00-23:30",
         "opening_hours:signed": "no",
         "outdoor_seating": "yes",
         "shisha": "yes",
         "smoking": "outside",
+        "website": "http://batho-restaurant.de",
         "wheelchair": "yes",
         "@id": "node/886851197",
         "@type": "node"
@@ -12993,6 +12995,38 @@
         "website": "http://www.luckychengsnewyork.com",
         "wheelchair": "yes",
         "@id": "node/1948123002",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.903676,
+          32.6481361
+        ]
+      },
+      "properties": {
+        "addr:city": "Funchal",
+        "addr:country": "PT",
+        "addr:housenumber": "23",
+        "addr:postcode": "9060-291",
+        "addr:street": "Rua de Santa Maria",
+        "amenity": "bar",
+        "check_date": "2025-08-01",
+        "contact:email": "geral@grupocafedoteatro.com",
+        "contact:facebook": "lustvintagefunchal",
+        "contact:instagram": "lustvintagefunchal",
+        "contact:mobile": "+351 914 758 975",
+        "internet_access": "wlan",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "Lust Vintage",
+        "opening_hours": "Tu-Su 19:00-02:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited",
+        "@id": "node/1948167955",
         "@type": "node"
       }
     },
@@ -21401,6 +21435,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.7949225,
+          53.2015927
+        ]
+      },
+      "properties": {
+        "addr:city": "Leeuwarden",
+        "addr:housenumber": "13",
+        "addr:postcode": "8911HL",
+        "addr:street": "Weerd",
+        "amenity": "pub",
+        "lgbtq": "welcome",
+        "name": "The Drunken Dragon",
+        "source": "BAG",
+        "source:date": "2014-09-08",
+        "@id": "node/3066853985",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.6511275,
           49.8708409
         ]
@@ -21908,6 +21965,38 @@
         "shop": "erotic",
         "website": "https://www.fetishfreak.co.uk/",
         "@id": "node/3203056868",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.386846,
+          43.0746094
+        ]
+      },
+      "properties": {
+        "addr:city": "Madison",
+        "addr:housenumber": "101",
+        "addr:postcode": "53703",
+        "addr:state": "WI",
+        "addr:street": "State Street",
+        "amenity": "fast_food",
+        "cuisine": "pasty;cornish",
+        "diet:vegan": "limited",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "no",
+        "lgbtq": "welcome",
+        "name": "Teddywedgers",
+        "opening_hours": "Mo 07:00-14:00; Tu-Sa 07:00-21:00; Su 09:00-15:00",
+        "outdoor_seating": "pedestrian_zone",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@id": "node/3209759387",
         "@type": "node"
       }
     },
@@ -39285,14 +39374,19 @@
         ]
       },
       "properties": {
+        "addr:city": "Stockholm",
+        "air_conditioning": "yes",
         "amenity": "bar",
-        "check_date": "2025-12-12",
+        "check_date": "2026-06-11",
         "check_date:opening_hours": "2025-12-12",
         "contact:phone": "+4686411688",
         "contact:website": "http://www.sidetrack.nu/",
+        "level": "-1",
         "lgbtq": "primary",
         "name": "Side Track",
         "opening_hours": "We-Sa 18:00-01:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "wheelchair": "no",
         "@id": "node/6491090385",
         "@type": "node"
@@ -58193,7 +58287,9 @@
         "addr:city": "Funchal",
         "amenity": "bar",
         "brewery": "yes",
-        "lgbtq": "primary",
+        "contact:instagram": "gpointfunchal",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
         "name": "GPoint Funchal",
         "@id": "node/10977445660",
         "@type": "node"
@@ -80109,6 +80205,26 @@
         "lgbtq": "primary",
         "name": "Up North Pride",
         "@id": "node/13918859044",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7022978,
+          40.4124408
+        ]
+      },
+      "properties": {
+        "amenity": "dancing_school",
+        "dance:style": "swing",
+        "education": "dancing_school",
+        "lgbtq": "primary",
+        "name": "LaDemo Swing Lab",
+        "website": "https://queeryswing.es/",
+        "@id": "node/13929667328",
         "@type": "node"
       }
     },
