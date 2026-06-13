@@ -27094,6 +27094,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.1378648,
+          51.5933276
+        ]
+      },
+      "properties": {
+        "addr:city": "Herten",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "45699",
+        "addr:street": "Antoniusstraße",
+        "contact:facebook": "https://www.facebook.com/foto.pollmann",
+        "contact:phone": "+49 2366 35145",
+        "contact:website": "https://foto-pollmann.de/de/",
+        "lgbtq": "welcome",
+        "name": "Foto Pollmann",
+        "opening_hours": "Mo-Fr 09:00-18:00; We 09:00-13:30; Sa 09:30-14:00",
+        "operator": "Jörg Pollmann",
+        "shop": "photo",
+        "wheelchair": "no",
+        "@id": "node/4086836752",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.268167,
           37.8095406
         ]
@@ -39374,7 +39402,6 @@
         ]
       },
       "properties": {
-        "addr:city": "Stockholm",
         "air_conditioning": "yes",
         "amenity": "bar",
         "check_date": "2026-06-11",
@@ -64565,11 +64592,11 @@
         "addr:state": "CA",
         "addr:street": "East Shaw Avenue",
         "amenity": "bar",
+        "contact:facebook": "http://www.facebook.com/the.shanty.lounge",
         "lgbtq": "welcome",
         "name": "The Shanty",
         "opening_hours": "Mo-Su 10:00-26:00",
         "phone": "+1-559-224-4777",
-        "website": "http://www.facebook.com/the.shanty.lounge",
         "@id": "node/11968367285",
         "@type": "node"
       }
@@ -122726,6 +122753,7 @@
         "outdoor_seating": "yes",
         "phone": "+1-708-401-4238",
         "website": "https://ashbarycoffeehouse.com/",
+        "wheelchair": "no",
         "@id": "way/1058687191",
         "@type": "way"
       }
