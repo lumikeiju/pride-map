@@ -37558,7 +37558,10 @@
         "name": "Mexxx Gay Bar",
         "opening_hours": "Su-Th 20:30-04:00; Fr-Sa 20:30-05:00",
         "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "website": "https://mexxxgaybar.at/",
+        "wheelchair": "yes",
         "@id": "node/6194602715",
         "@type": "node"
       }
@@ -71677,6 +71680,7 @@
         ]
       },
       "properties": {
+        "building:levels": "2",
         "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -75669,7 +75673,11 @@
         ]
       },
       "properties": {
-        "building": "retail",
+        "addr:city": "Ellensburg",
+        "addr:housenumber": "111",
+        "addr:postcode": "98926",
+        "addr:state": "WA",
+        "addr:street": "East University Way",
         "fax": "+1 509-962-3329",
         "level": "0",
         "lgbtq": "welcome",
@@ -75677,7 +75685,8 @@
         "name": "Jerrol's",
         "opening_hours": "Mo-Fr 08:00-19:00; Sa-Su 09:00-18:00",
         "phone": "+1 509-925-9851;+1 800-858-2427",
-        "shop": "books",
+        "shop": "department_store",
+        "toilets": "yes",
         "website": "https://jerrols.com",
         "@id": "node/13266251901",
         "@type": "node"
@@ -77310,6 +77319,35 @@
         "opening_hours": "We-Sa 12:00-18:00",
         "website": "https://www.ritacommunity.com",
         "@id": "node/13517128480",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3508787,
+          48.1952325
+        ]
+      },
+      "properties": {
+        "addr:floor": "0",
+        "addr:housenumber": "68",
+        "addr:street": "Gumpendorfer Straße",
+        "amenity": "bar",
+        "art:display": "yes",
+        "check_date": "2026-06-13",
+        "contact:instagram": "last_little_haven",
+        "indoor_seating": "yes",
+        "level": "0",
+        "lgbtq": "primary",
+        "lgbtq:women": "primary",
+        "name": "Last Little Haven",
+        "outdoor_seating": "no",
+        "source": "https://www.derstandard.at/story/3000000318294/sapphic-bar-last-little-haven-wien",
+        "wheelchair": "no",
+        "@id": "node/13523512379",
         "@type": "node"
       }
     },
@@ -130545,7 +130583,7 @@
         "amenity": "pub",
         "brewery": "various",
         "building": "yes",
-        "check_date": "2023-07-14",
+        "check_date": "2026-06-14",
         "full_name": "The Laird O'Cockpen Hotel",
         "lgbtq": "primary",
         "lgbtq:men": "only",
