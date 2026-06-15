@@ -24271,23 +24271,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.65648,
-          38.0044513
-        ]
-      },
-      "properties": {
-        "amenity": "nightclub",
-        "lgbtq": "primary",
-        "name": "Orgullo L.G.T.B. Discoteca",
-        "@id": "node/3646447885",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -93.288555,
           44.9610412
         ]
@@ -26775,7 +26758,7 @@
         "contact:street": "Rue d'Austerlitz",
         "cuisine": "regional",
         "delivery": "yes",
-        "delivery:partner": "deliveroo",
+        "delivery:partner": "Deliveroo",
         "diet:vegan": "limited",
         "diet:vegetarian": "yes",
         "indoor_seating": "yes",
@@ -30334,16 +30317,20 @@
         ]
       },
       "properties": {
+        "access": "customers",
         "addr:city": "Edinburgh",
         "addr:housenumber": "5",
         "addr:postcode": "EH3 6NU",
         "addr:street": "Broughton Market",
+        "fee": "yes",
         "leisure": "sauna",
+        "lgbtq": "primary",
         "lgbtq:men": "only",
-        "name": "The Pound",
-        "opening_hours": "Mo-Su 11:00-23:00",
+        "male": "yes",
+        "name": "Steamworks Sauna",
+        "opening_hours": "Mo-Su 11:00-22:00",
         "phone": "+44 131 477 3567",
-        "sauna": "gay",
+        "sauna": "yes",
         "source": "survey",
         "website": "https://www.thepoundedinburgh.co.uk",
         "@id": "node/4625806992",
@@ -63648,7 +63635,7 @@
         "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00",
         "phone": "+1-559-446-1986",
         "shop": "cosmetics",
-        "website": "https://www.sephora.com/happening/stores/river-park-fresno?utm_source=gmb&utm_medium=Yext",
+        "website": "https://www.sephora.com/happening/stores/river-park-fresno",
         "@id": "node/11861524153",
         "@type": "node"
       }
@@ -64936,7 +64923,7 @@
         "opening_hours": "Mo-Su 06:00-21:50",
         "phone": "+1-559-258-0110",
         "shop": "cannabis",
-        "website": "https://www.theartisttree.com/order-online-fresno/?utm_source=gmb&utm_campaign=dispenza",
+        "website": "https://www.theartisttree.com/order-online-fresno/",
         "@id": "node/11998396170",
         "@type": "node"
       }
@@ -66312,8 +66299,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.4172008,
-          37.5305297
+          -77.417201,
+          37.53053
         ]
       },
       "properties": {
@@ -66330,6 +66317,7 @@
         "name": "Riverbend Coffee Company",
         "opening_hours": "Mo-Fr 06:30-18:00; Sa-Su 07:00-18:00",
         "outdoor_seating": "yes",
+        "phone": "+1-804-644-0148",
         "toilets": "yes",
         "toilets:access": "customers",
         "website": "https://www.riverbendroastery.com/",
@@ -69834,7 +69822,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:trans": "welcome",
-        "lgbtq_owner": "yes",
+        "lgbtq_owned": "yes",
         "name": "Electrolysis By Isla",
         "opening_hours": "Su,Mo closed; Tu-Th 10:00-19:00; Fr,Sa 10:00-15:30",
         "operator": "Isla McShane",
@@ -69845,7 +69833,8 @@
         "payment:mastercard": "yes",
         "payment:visa": "yes",
         "shop": "beauty",
-        "source:owner": "https://www.electrolysis-by-isla.com/",
+        "source:lgbtq_owned": "https://www.electrolysis-by-isla.com/staff",
+        "source:women_owned": "https://www.electrolysis-by-isla.com/staff",
         "women_owned": "yes",
         "@id": "node/12671124307",
         "@type": "node"
@@ -80290,6 +80279,54 @@
         "name": "LaDemo Swing Lab",
         "website": "https://queeryswing.es/",
         "@id": "node/13929667328",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2801947,
+          55.8662736
+        ]
+      },
+      "properties": {
+        "addr:city": "Glasgow",
+        "addr:housenumber": "16",
+        "addr:postcode": "G3 7LE",
+        "addr:street": "North Claremont Street",
+        "amenity": "community_centre",
+        "community_centre": "events_venue",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "LGBT Health & Wellbeing Community Space",
+        "website": "https://lgbthealth.org.uk/",
+        "@id": "node/13938331238",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0121164,
+          35.1386485
+        ]
+      },
+      "properties": {
+        "addr:city": "Memphis",
+        "addr:housenumber": "1474",
+        "addr:postcode": "38104",
+        "addr:state": "TN",
+        "addr:street": "Madison Avenue",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "DRUS Bar",
+        "opening_hours": "We-Th 17:00-24:00; Fr-Sa 17:00-26:00, Su 13:00-22:00",
+        "website": "https://www.drusbar.com/",
+        "@id": "node/13939641837",
         "@type": "node"
       }
     },
@@ -127455,6 +127492,7 @@
         ]
       },
       "properties": {
+        "fee": "no",
         "leisure": "beach_resort",
         "lgbtq": "primary",
         "nudism": "yes",
@@ -128008,7 +128046,7 @@
         "opening_hours": "Mo-Su 08:00-21:00",
         "phone": "+1-559-433-6478",
         "shop": "supermarket",
-        "website": "https://locations.traderjoes.com/ca/fresno/8/?utm_source=gmb&utm_medium=organic&utm_campaign=local",
+        "website": "https://locations.traderjoes.com/ca/fresno/8/",
         "@id": "way/1318168329",
         "@type": "way"
       }
