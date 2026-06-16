@@ -54714,6 +54714,78 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.3158174,
+          41.7049072
+        ]
+      },
+      "properties": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "1050",
+        "addr:postcode": "60543",
+        "addr:street": "Douglas Road",
+        "amenity": "tourism",
+        "brand": "AmericInn",
+        "brand:wikidata": "Q4742493",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "AmericInn",
+        "official_name": "AmericInn by Wyndham",
+        "source:addr": "Kendall County",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "tourism": "hotel",
+        "wheelchair": "yes",
+        "@id": "node/9958337440",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3206919,
+          41.7177568
+        ]
+      },
+      "properties": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "12",
+        "addr:postcode": "60543",
+        "addr:street": "East Merchants Drive",
+        "amenity": "restaurant",
+        "changing_table": "yes",
+        "changing_table:location": "female_toliet",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:gluten_free": "yes",
+        "diet:kosher": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "language:es": "yes",
+        "language:it": "yes",
+        "lgbtq": "welcome",
+        "name": "Pizza Cucina",
+        "opening_hours": "Mo, We, Th 11:00-21:00; Sr-Sa 11; 00-22:00; Su 12:00-21:00",
+        "phone": "+1-630-844-9600",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "yes",
+        "toilets:unisex": "yes",
+        "website": "https://www.orderpizzacucinamenu.com/",
+        "wheelchair": "yes",
+        "@id": "node/9958344696",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.7845285,
           35.7202708
         ]
@@ -59210,6 +59282,44 @@
         "website": "https://queereszentrumtuebingen.de/",
         "wheelchair": "yes",
         "@id": "node/11082891714",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2577804,
+          41.5640001
+        ]
+      },
+      "properties": {
+        "addr:city": "Plainfield",
+        "addr:housenumber": "7180",
+        "addr:postcode": "60586",
+        "addr:street": "Caton Farm Road",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "delivery": "yes",
+        "diet:egg_free": "yes",
+        "diet:nut_free": "yes",
+        "diet:shellfish_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "no",
+        "language:yue": "yes",
+        "language:zh": "yes",
+        "lgbtq": "welcome",
+        "name": "Hong Kong Cuisine",
+        "opening_hours": "Tu-Th, Su 11:00-20:30; Fr-Sa 11:00-21:00",
+        "phone": "+1 815-609-8090",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "wheelchair": "yes",
+        "@id": "node/11089335302",
         "@type": "node"
       }
     },
@@ -75328,8 +75438,11 @@
         "addr:state": "NY",
         "addr:street": "University Avenue",
         "amenity": "bar",
+        "check_date": "2026-06-15",
+        "contact:instagram": "forumroc",
         "lgbtq": "primary",
-        "name": "Bachelor Forum",
+        "name": "Forum Seventy-Three",
+        "website": "https://forumroc.com",
         "@id": "node/13207821752",
         "@type": "node"
       }
@@ -77111,7 +77224,7 @@
         "lgbtq": "welcome",
         "name": "Velvet by Noon & Moon",
         "old_name": "Al Museo",
-        "opening_hours": "Su–Th 18:00-01:00; Fr–Sa 18:00-03:00",
+        "opening_hours": "Su-Th 18:00-01:00; Fr-Sa 18:00-03:00",
         "operator": "Soheil Pouladkhan;Sephehr Pouladkhan",
         "source:url": "https://www.schwaebische.de/regional/bodensee/friedrichshafen/neue-bar-eroeffnet-mehr-als-200-cocktails-und-blick-auf-den-bodensee-4263471",
         "start_date": "2026-01-18",
