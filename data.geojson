@@ -4483,6 +4483,7 @@
         "addr:housenumber": "18",
         "addr:street": "Rue des Archives",
         "amenity": "cafe",
+        "check_date": "2026-06-16",
         "contact:facebook": "https://www.facebook.com/lesmarronniers75004/",
         "contact:instagram": "https://www.instagram.com/marronnier_s/",
         "contact:tripadvisor": "https://www.tripadvisor.fr/Restaurant_Review-g187147-d786517-Reviews-Les_Marronniers-Paris_Ile_de_France.html",
@@ -4514,6 +4515,7 @@
         "addr:postcode": "75004",
         "addr:street": "Rue des Archives",
         "amenity": "restaurant",
+        "check_date": "2026-06-16",
         "contact:facebook": "https://www.facebook.com/Caffvito",
         "contact:instagram": "https://www.instagram.com/caffevito_paris/",
         "contact:phone": "+33 1 42 74 08 84",
@@ -4577,10 +4579,11 @@
         "addr:postcode": "75004",
         "addr:street": "Rue des Archives",
         "amenity": "bar",
+        "check_date": "2026-06-16",
         "facebook": "https://www.facebook.com/cafecoxbarparis",
         "lgbtq": "primary",
         "lgbtq:men": "primary",
-        "name": "Cox",
+        "name": "Café Cox",
         "opening_hours": "Mo-Su 17:00-02:00",
         "smoking": "outside",
         "twitter": "cafecoxbarparis",
@@ -4605,6 +4608,7 @@
         "addr:street": "Rue du Temple",
         "amenity": "bar",
         "brewery": "yes",
+        "check_date": "2026-06-16",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Le Raidd",
@@ -5151,7 +5155,7 @@
         "addr:postcode": "75004",
         "addr:street": "Rue des Archives",
         "amenity": "cafe",
-        "check_date": "2025-07-29",
+        "check_date": "2026-06-16",
         "cuisine": "french",
         "lgbtq": "primary",
         "name": "Le Bouquet des Archives",
@@ -6503,7 +6507,7 @@
         "outdoor_seating": "yes",
         "shisha": "yes",
         "smoking": "outside",
-        "website": "http://batho-restaurant.de",
+        "website": "https://batho-restaurant.de/",
         "wheelchair": "yes",
         "@id": "node/886851197",
         "@type": "node"
@@ -7174,7 +7178,7 @@
         "addr:postcode": "75004",
         "addr:street": "Rue des Archives",
         "amenity": "bar",
-        "check_date": "2025-07-29",
+        "check_date": "2026-06-16",
         "lgbtq": "primary",
         "name": "La Fronde",
         "toilets:wheelchair": "no",
@@ -21012,7 +21016,7 @@
         "addr:postcode": "75004",
         "addr:street": "Rue du Temple",
         "amenity": "restaurant",
-        "check_date": "2025-09-07",
+        "check_date": "2026-06-16",
         "check_date:opening_hours": "2025-09-07",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -21076,6 +21080,32 @@
         "opening_hours": "Mo-Su 18:00-06:00",
         "wheelchair": "no",
         "@id": "node/2934288672",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.192275,
+          42.5494927
+        ]
+      },
+      "properties": {
+        "addr:city": "Fennville",
+        "addr:housenumber": "6635",
+        "addr:postcode": "49408",
+        "addr:state": "MI",
+        "addr:street": "118th Avenue",
+        "gnis:feature_id": "2574364",
+        "lgbtq": "primary",
+        "name": "Campit Outdoor Resort",
+        "phone": "+1-269-543-4327",
+        "tents": "yes",
+        "tourism": "caravan_site",
+        "website": "https://www.campitresort.com/",
+        "@id": "node/2936296395",
         "@type": "node"
       }
     },
@@ -21320,8 +21350,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.8150543,
-          51.9605423
+          5.8150493,
+          51.9605426
         ]
       },
       "properties": {
@@ -22873,7 +22903,7 @@
         "internet_access": "wlan",
         "level": "0",
         "lgbtq": "welcome",
-        "lqbtq:signed": "yes",
+        "lgbtq:signed": "yes",
         "name": "Kaschk by Brlo",
         "opening_hours": "Mo-We 12:00-02:00; Th 12:00-02:00; Fr 12:00-03:00; Sa 10:00-03:00; Su 12:00-01:00",
         "operator": "Brlo",
@@ -38478,6 +38508,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -87.689589,
+          41.895924
+        ]
+      },
+      "properties": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "2500",
+        "addr:postcode": "60622",
+        "addr:state": "IL",
+        "addr:street": "West Chicago Avenue",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "lgbtq:women": "primary",
+        "name": "Dorothy",
+        "opening_hours": "Su-Th 18:00-23:00; Fr-Sa 18:00-26:00",
+        "phone": "+1-770-773-3799",
+        "website": "https://www.dorothydownstairs.com/",
+        "@id": "node/6300313243",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.1054828,
           50.7386186
         ]
@@ -48707,6 +48763,7 @@
         "min_age": "18",
         "name": "Iconic Bar",
         "opening_hours": "We-Su 14:00+",
+        "wheelchair": "no",
         "@id": "node/8905291760",
         "@type": "node"
       }
@@ -49780,6 +49837,7 @@
         "lgbtq": "primary",
         "name": "The LGBTQ+ Queen Bee",
         "tourism": "artwork",
+        "wheelchair": "yes",
         "@id": "node/9131790457",
         "@type": "node"
       }
@@ -51404,7 +51462,8 @@
         "addr:postcode": "SE1 9JH",
         "addr:street": "Hopton Street",
         "amenity": "community_centre",
-        "check_date": "2022-12-19",
+        "check_date": "2026-06-15",
+        "check_date:opening_hours": "2026-06-15",
         "community_centre:for": "lgbtq",
         "contact:email": "hello@londonlgbtqcentre.org",
         "contact:facebook": "https://www.facebook.com/ldnlgbtqcentre/",
@@ -111669,6 +111728,56 @@
         "coordinates": [
           [
             [
+              -86.2115251,
+              42.6373068
+            ],
+            [
+              -86.2110563,
+              42.6381993
+            ],
+            [
+              -86.2103723,
+              42.6391191
+            ],
+            [
+              -86.2091683,
+              42.6391171
+            ],
+            [
+              -86.2085255,
+              42.6386343
+            ],
+            [
+              -86.2085138,
+              42.6381066
+            ],
+            [
+              -86.2100984,
+              42.6372996
+            ],
+            [
+              -86.2115251,
+              42.6373068
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "leisure": "resort",
+        "lgbtq": "primary",
+        "name": "The Dunes Resort",
+        "website": "https://dunesresort.com/",
+        "@id": "way/576424438",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               12.3453091,
               41.6996234
             ],
@@ -123188,6 +123297,7 @@
         "lgbtq:gay": "primary",
         "name": "G-A-Y",
         "opening_hours:signed": "no",
+        "wheelchair": "no",
         "@id": "way/1076438786",
         "@type": "way"
       }
@@ -129006,6 +129116,61 @@
         "coordinates": [
           [
             [
+              -116.8779798,
+              33.9253205
+            ],
+            [
+              -116.878001,
+              33.9253411
+            ],
+            [
+              -116.8783778,
+              33.925344
+            ],
+            [
+              -116.878381,
+              33.9250523
+            ],
+            [
+              -116.8781182,
+              33.9250503
+            ],
+            [
+              -116.8781177,
+              33.9250972
+            ],
+            [
+              -116.8779823,
+              33.9250962
+            ],
+            [
+              -116.8779798,
+              33.9253205
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Banning",
+        "addr:housenumber": "144",
+        "addr:postcode": "92220",
+        "addr:state": "CA",
+        "addr:street": "Ramsey Street",
+        "amenity": "bar",
+        "building": "yes",
+        "lgbtq": "primary",
+        "name": "Akimi Kantina",
+        "@id": "way/1351240481",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               5.8149059,
               51.9605656
             ],
@@ -129028,6 +129193,10 @@
             [
               5.8152217,
               51.9606358
+            ],
+            [
+              5.8152264,
+              51.9606373
             ],
             [
               5.8152611,
@@ -129098,8 +129267,8 @@
               51.9604891
             ],
             [
-              5.8153961,
-              51.9604844
+              5.8153962,
+              51.960484
             ],
             [
               5.8153644,
