@@ -19059,6 +19059,7 @@
         "addr:housenumber": "972",
         "addr:street": "Danforth Avenue",
         "amenity": "bar",
+        "check_date": "2026-01-10",
         "lgbtq": "welcome",
         "name": "The Only Cafe",
         "website": "https://www.theonlycafe.com/",
@@ -54773,6 +54774,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.5986272,
+          41.5625519
+        ]
+      },
+      "properties": {
+        "addr:city": "Millington",
+        "addr:housenumber": "102",
+        "addr:postcode": "60537",
+        "addr:street": "South Church Street",
+        "amenity": "pub",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet",
+        "delivery": "no",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:low_sodium": "yes",
+        "highchair": "yes",
+        "lgbtq": "welcome",
+        "name": "Last Chance Saloon & Restaurant",
+        "opening_hours": "Su-Th 10:00-24:00; Fr-Sa 10:00-1:00",
+        "phone": "+1-815-695-5660",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "wheelchair": "yes",
+        "@id": "node/9953562054",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -88.3158174,
           41.7049072
         ]
@@ -70301,6 +70337,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.3289322,
+          41.6927232
+        ]
+      },
+      "properties": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "3516",
+        "addr:postcode": "60543",
+        "addr:state": "IL",
+        "addr:street": "Route 34",
+        "amenity": "restaurant",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "delivery": "no",
+        "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "Christina's Grill & Gatherings",
+        "opening_hours": "Mo-Sa 11:00-17:00; Su 11:00-16:00",
+        "phone": "+1-630-554-8905",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://www.christinasgrillgatherings.com/",
+        "wheelchair": "yes",
+        "@id": "node/12720141814",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -104.5784095,
           38.3094717
         ]
@@ -80499,6 +80573,31 @@
         "opening_hours": "We-Th 17:00-24:00; Fr-Sa 17:00-26:00, Su 13:00-22:00",
         "website": "https://www.drusbar.com/",
         "@id": "node/13939641837",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4099286,
+          41.8180192
+        ]
+      },
+      "properties": {
+        "addr:city": "Providence",
+        "addr:housenumber": "161",
+        "addr:postcode": "02903",
+        "addr:state": "RI",
+        "addr:street": "Chestnut Street",
+        "email": "info@findthecrypt.com",
+        "lgbtq": "welcome",
+        "name": "The Crypt",
+        "phone": "(401) 661-9620",
+        "shop": "games",
+        "website": "https://www.findthecrypt.com/",
+        "@id": "node/13948065392",
         "@type": "node"
       }
     },
@@ -111135,6 +111234,70 @@
         "coordinates": [
           [
             [
+              -88.319247,
+              41.7221831
+            ],
+            [
+              -88.3188896,
+              41.7221844
+            ],
+            [
+              -88.3188907,
+              41.7223656
+            ],
+            [
+              -88.3192482,
+              41.7223643
+            ],
+            [
+              -88.319247,
+              41.7221831
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Montgomery",
+        "addr:housenumber": "1700",
+        "addr:postcode": "60538",
+        "addr:street": "Douglas Road",
+        "amenity": "restaurant",
+        "building": "retail",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "delivery": "yes",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:low_fat": "yes",
+        "diet:low_sodium": "yes",
+        "diet:nut_free": "yes",
+        "diet:pescetarian": "yes",
+        "diet:shellfish_free": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "language:el": "yes",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "Grandmas Table",
+        "opening_hours": "Mo-Sa 6:00-21:00; Su 6:00-20:00",
+        "phone": "+1-630-892-1100",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://www.grandmastablemontgomery.com/",
+        "wheelchair": "yes",
+        "@id": "way/549837264",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -73.765542,
               42.6532971
             ],
@@ -117446,6 +117609,67 @@
         "coordinates": [
           [
             [
+              -71.4279183,
+              41.8180852
+            ],
+            [
+              -71.4278983,
+              41.8179829
+            ],
+            [
+              -71.4278849,
+              41.8179843
+            ],
+            [
+              -71.4278562,
+              41.8178666
+            ],
+            [
+              -71.4278711,
+              41.8178649
+            ],
+            [
+              -71.4279669,
+              41.8178545
+            ],
+            [
+              -71.4280101,
+              41.8180752
+            ],
+            [
+              -71.4279183,
+              41.8180852
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Providence",
+        "addr:housenumber": "272",
+        "addr:postcode": "02909",
+        "addr:state": "RI",
+        "addr:street": "Carpenter Street",
+        "building": "yes",
+        "clothes": "women;men;denim;oversize",
+        "description": "Transgender-inclusive slow fashion secondhand clothing store that additionally offers mending services and classes.",
+        "lgbtq": "welcome",
+        "name": "The Nest",
+        "opening_hours": "Mo-Su 11:00-19:00",
+        "second_hand": "only",
+        "shop": "clothes",
+        "toilets": "yes",
+        "website": "https://thenestpvd.com/",
+        "@id": "way/771421185",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               6.0915962,
               50.7715766
             ],
@@ -121455,6 +121679,76 @@
         "website": "https://www.charliesphoenix.com",
         "wheelchair": "yes",
         "@id": "way/984959718",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4444194,
+              41.6583729
+            ],
+            [
+              -88.4444255,
+              41.6583015
+            ],
+            [
+              -88.4444422,
+              41.6581074
+            ],
+            [
+              -88.4446,
+              41.658115
+            ],
+            [
+              -88.4445772,
+              41.6583805
+            ],
+            [
+              -88.4444194,
+              41.6583729
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Yorkville",
+        "addr:housenumber": "3",
+        "addr:postcode": "60560",
+        "addr:state": "IL",
+        "addr:street": "West Veterans Parkway",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "retail",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:peanut_free": "yes",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "McDonald's",
+        "opening_hours": "Su-We 05:00-24:00, Th-Sa 00:00-24:00",
+        "phone": "+1 630-553-9393",
+        "ref:YorkvilleAddressID": "5841",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://www.mcdonalds.com/us/en-us/location/4188.html",
+        "wheelchair": "yes",
+        "@id": "way/988686291",
         "@type": "way"
       }
     },
