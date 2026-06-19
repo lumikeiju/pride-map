@@ -4451,6 +4451,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.4032424,
+          52.5245938
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "46-47",
+        "addr:postcode": "10178",
+        "addr:street": "Rosenthaler Straße",
+        "addr:suburb": "Mitte",
+        "amenity": "pharmacy",
+        "check_date": "2026-06-19",
+        "check_date:opening_hours": "2025-12-17",
+        "contact:phone": "+49 30 2827876",
+        "contact:website": "http://www.mediosapotheke.de/",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "email": "hackescher-markt@mediosapotheke.de",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "MediosApotheke Hackescher Markt",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q2168607",
+        "wikipedia": "de:Rothe Apotheke",
+        "@id": "node/595536654",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.3552026,
           48.8582735
         ]
@@ -6737,6 +6776,7 @@
       },
       "properties": {
         "amenity": "bar",
+        "check_date": "2026-06-18",
         "contact:facebook": "https://www.facebook.com/ironCGN",
         "lgbtq": "primary",
         "name": "Iron",
@@ -17757,6 +17797,7 @@
         "email": "office@other-nature.de",
         "lgbtq": "primary",
         "name": "Other Nature",
+        "nobrand": "yes",
         "opening_hours": "Mo 12:00-19:00; Tu 13:00-18:00; We-Sa 12:00-19:00",
         "phone": "+49 30 889 266 57",
         "shop": "erotic",
@@ -19831,25 +19872,9 @@
         "addr:housenumber": "20",
         "addr:postcode": "50676",
         "addr:street": "Balduinstraße",
-        "amenity": "bar",
-        "brewery": "Peters",
-        "check_date": "2025-10-05",
-        "contact:email": "info@kinkz.wtf",
-        "contact:facebook": "https://www.facebook.com/kinkzcologne",
-        "indoor_seating": "yes",
-        "internet_access": "wlan",
-        "level": "0",
+        "check_date": "2026-06-18",
+        "disused:amenity": "bar",
         "lgbtq": "primary",
-        "lgbtq:men": "only",
-        "name": "Kinkz",
-        "opening_hours": "Tu-Th 19:00-02:00,Fr-Sa 19:00-04:00,Su 17:00-02:00",
-        "payment:cards": "yes",
-        "phone": "+49 221 16875038",
-        "toilets": "yes",
-        "toilets:access": "customers",
-        "toilets:wheelchair": "no",
-        "website": "https://www.kinkz.wtf/",
-        "wheelchair": "no",
         "@id": "node/2725057244",
         "@type": "node"
       }
@@ -30614,7 +30639,7 @@
         "amenity": "fast_food",
         "contact:facebook": "https://www.facebook.com/HolaPiedraLibre",
         "contact:instagram": "https://www.instagram.com/hpl_haedo/",
-        "contact:whatsapp": "1138092253",
+        "contact:whatsapp": "+54 11 3809 2253",
         "cuisine": "pizza;regional;argentinian;empanada;fainá;diner",
         "delivery": "yes",
         "email": "hplhaedo@gmail.com",
@@ -30629,7 +30654,7 @@
         "payment:debit_cards": "yes",
         "payment:mastercard": "yes",
         "payment:visa": "yes",
-        "phone": "01144603655",
+        "phone": "+54 11 4460 3655",
         "source": "Reconocimiento terrestre por #Kaart 2016",
         "takeaway": "yes",
         "website:menu": "https://drive.google.com/file/d/1TMNpqFyBX_nXLgAOV4AWSRc3SrVtTUHP/view",
@@ -32318,6 +32343,7 @@
         "addr:postcode": "60200",
         "addr:street": "Pekařská",
         "amenity": "nightclub",
+        "check_date": "2026-06-18",
         "lgbtq": "primary",
         "name": "Lemon Music Club",
         "opening_hours": "Fr-Sa 20:00-05:00",
@@ -46247,6 +46273,29 @@
         "website": "https://pinkshop.pl/",
         "wheelchair": "limited",
         "@id": "node/7805053303",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8350896,
+          53.0815939
+        ]
+      },
+      "properties": {
+        "amenity": "doctors",
+        "check_date": "2026-06-18",
+        "check_date:opening_hours": "2026-06-18",
+        "healthcare": "doctor",
+        "healthcare:speciality": "gynaecology",
+        "lgbtq": "welcome",
+        "name": "Dr. Geerd Hensmann - Gynäkologie",
+        "opening_hours": "Mo-Tu 08:15-12:30, 13:30-16:45; We-Fr 08:15-13:15",
+        "website": "https://frauenarzt-hensmann.de",
+        "@id": "node/7811909387",
         "@type": "node"
       }
     },
@@ -67723,11 +67772,14 @@
         ]
       },
       "properties": {
+        "addr:city": "Toronto",
+        "addr:housenumber": "1564",
+        "addr:street": "Danforth Avenue",
         "amenity": "bar",
         "level": "0",
         "lgbtq": "welcome",
-        "name": "CC’s bar & grill",
-        "start_date": "2022-02-11",
+        "name": "CC’s Bar & Grill",
+        "start_date": "2026-01-10",
         "@id": "node/12316501731",
         "@type": "node"
       }
@@ -80533,8 +80585,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.2801947,
-          55.8662736
+          -4.280204,
+          55.8662516
         ]
       },
       "properties": {
@@ -80594,7 +80646,7 @@
         "email": "info@findthecrypt.com",
         "lgbtq": "welcome",
         "name": "The Crypt",
-        "phone": "(401) 661-9620",
+        "phone": "+1-401-661-9620",
         "shop": "games",
         "website": "https://www.findthecrypt.com/",
         "@id": "node/13948065392",
@@ -125980,6 +126032,7 @@
         "lgbtq": "primary",
         "natural": "beach",
         "nudism": "yes",
+        "surface": "grass",
         "@id": "way/1207837681",
         "@type": "way"
       }
@@ -131047,8 +131100,16 @@
               33.8149693
             ],
             [
-              -116.5371062,
-              33.8144705
+              -116.5371059,
+              33.8145144
+            ],
+            [
+              -116.5371061,
+              33.8144894
+            ],
+            [
+              -116.5371072,
+              33.8144669
             ],
             [
               -116.5373625,
@@ -131099,8 +131160,16 @@
               33.8142067
             ],
             [
-              -116.5381264,
-              33.8141971
+              -116.5381394,
+              33.8141972
+            ],
+            [
+              -116.5381441,
+              33.8143854
+            ],
+            [
+              -116.5381491,
+              33.8145985
             ],
             [
               -116.5381417,
