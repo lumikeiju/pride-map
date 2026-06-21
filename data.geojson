@@ -5777,7 +5777,7 @@
         ]
       },
       "properties": {
-        "books": "adults;children;comic;lgbtq",
+        "books": "adults;children;comic;queer",
         "check_date:opening_hours": "2025-04-21",
         "contact:facebook": "terra.nova.33",
         "contact:housenumber": "18",
@@ -8288,11 +8288,13 @@
       "properties": {
         "addr:city": "Berlin",
         "addr:country": "DE",
+        "addr:floor": "-0,5",
         "addr:housenumber": "13",
         "addr:postcode": "10119",
         "addr:street": "Mulackstraße",
         "addr:suburb": "Mitte",
         "amenity": "bar",
+        "check_date": "2026-06-20",
         "contact:website": "http://www.bettyf.de/",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -34805,6 +34807,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.3701558,
+          48.2108001
+        ]
+      },
+      "properties": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:housenumber": "7",
+        "addr:postcode": "1010",
+        "addr:street": "Kleeblattgasse",
+        "books": "feminist;queer;adults;children",
+        "check_date": "2026-06-21",
+        "contact:facebook": "BuchhandlungChickLit",
+        "contact:instagram": "chicklit_vienna",
+        "email": "buchhandlung@chicklit.at",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Buchhandlung ChickLit",
+        "opening_hours": "Mo-Fr 10:00-13:00, 14:00-18:00; Sa-Su, PH, off",
+        "operator": "Verein zur Förderung feministischer Projekte",
+        "operator:email": "verein@chicklit.at",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+43 1 5339164",
+        "ref:vatin": "ATU66863888",
+        "shop": "books",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.chicklit.at/",
+        "wheelchair": "designated",
+        "@id": "node/5492256921",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.3831577,
           43.2930821
         ]
@@ -35241,6 +35283,33 @@
         "lgbtq": "primary",
         "name": "OMG",
         "@id": "node/5612303766",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5475333,
+          46.9953456
+        ]
+      },
+      "properties": {
+        "addr:city": "Ellensburg",
+        "addr:housenumber": "323",
+        "addr:street": "North Pearl Street",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "DM Downtown",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "D&M Coffee",
+        "opening_hours": "Mo-Su 07:00-17:00",
+        "outdoor_seating": "yes",
+        "@id": "node/5612673645",
         "@type": "node"
       }
     },
@@ -47635,7 +47704,7 @@
         ]
       },
       "properties": {
-        "addr:city": "Saint-vincent de Tyrosse",
+        "addr:city": "Saint-Vincent-de-Tyrosse",
         "addr:postcode": "40230",
         "addr:street": "Allée des Magnolias",
         "amenity": "community_centre",
@@ -50127,10 +50196,6 @@
         ]
       },
       "properties": {
-        "addr:city": "Garching b. München",
-        "addr:housenumber": "3",
-        "addr:postcode": "85748",
-        "addr:street": "Boltzmannstraße",
         "check_date": "2025-11-03",
         "contact:city": "Garching bei München",
         "contact:country": "DE",
@@ -74673,11 +74738,10 @@
         "internet_access:ssid": "wifi network",
         "level": "-1",
         "lgbtq": "primary",
-        "name": "valentines service emporium",
+        "name": "valentines salon",
         "opening_hours": "Mo-Sa 09:00-20:00; Sa 09:00-17:00; PH closed \"by appointment only\"",
         "operator": "valentines service emporium",
         "payment:apple_pay": "yes",
-        "payment:bitcoin": "yes",
         "payment:cash": "yes",
         "payment:cheque": "yes",
         "payment:contactless": "yes",
@@ -74686,6 +74750,7 @@
         "payment:debit_cards": "yes",
         "payment:google_pay": "yes",
         "payment:visa": "yes",
+        "payment:xbt": "yes",
         "phone": "+1 320-237-8155",
         "shop": "beauty",
         "start_date": "2025-09-01",
@@ -79284,6 +79349,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -79.4233695,
+          43.6420283
+        ]
+      },
+      "properties": {
+        "addr:city": "Toronto",
+        "addr:housenumber": "32",
+        "addr:postcode": "M6J 0C7",
+        "addr:province": "Ontario",
+        "addr:street": "Lisgar Street",
+        "books": "queer",
+        "check_date": "2026-03-21",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Glad Day",
+        "shop": "books",
+        "website": "https://www.gladday.ca/",
+        "@id": "node/13667895820",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -87.6678903,
           41.9731474
         ]
@@ -80653,6 +80744,30 @@
         "shop": "games",
         "website": "https://www.findthecrypt.com/",
         "@id": "node/13948065392",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5475305,
+          46.9953187
+        ]
+      },
+      "properties": {
+        "addr:city": "Ellensburg",
+        "addr:housenumber": "323",
+        "addr:postcode": "98926",
+        "addr:state": "WA",
+        "addr:street": "North Pearl Street",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Evolve",
+        "shop": "clothes",
+        "@id": "node/13954762760",
         "@type": "node"
       }
     },
@@ -86336,6 +86451,7 @@
         "backcountry": "yes",
         "camp_site": "standard",
         "caravans": "yes",
+        "contact:mastodon": "@anarchistischkampeerterrein@todon.nl",
         "contact:website": "https://www.anarchistischecamping.nl",
         "description": "Anarchistisch kampeerterrein",
         "dog": "yes",
@@ -86349,7 +86465,7 @@
         "lgbtq": "primary",
         "name": "Tot Vrijheidsbezinning",
         "nobrand": "yes",
-        "note": "Betalen is optioneel, maar ongeveer €10 is gewild per nacht\n\nPaying is optional, but preferred to be around €10 per night",
+        "note": "Betalen is optioneel, maar ongeveer €10 is gewild per nacht Paying is optional, but preferred to be around €10 per night",
         "nudism": "no",
         "opening_hours": "24/7",
         "operator:type": "none",
@@ -86367,6 +86483,7 @@
         "toilets": "yes",
         "tourism": "camp_site",
         "wheelchair": "yes",
+        "wikidata": "Q140266644",
         "@id": "way/87926027",
         "@type": "way"
       }
@@ -110174,6 +110291,7 @@
         "amenity": "clinic",
         "branch": "Eastside-Bellevue Health Center",
         "building": "yes",
+        "contact:phone": "+1-800-769-0045",
         "healthcare": "counselling",
         "healthcare:counselling": "antenatal;sexual",
         "healthcare:speciality": "venereology;abortion;fertility",
@@ -110184,7 +110302,6 @@
         "operator": "Planned Parenthood",
         "operator:type": "ngo",
         "operator:wikidata": "Q2553262",
-        "phone": "+1 800 769 0045",
         "website": "https://www.plannedparenthood.org/health-center/washington/bellevue/98007/eastside-bellevue-health-center-4151-91810",
         "@id": "way/484987657",
         "@type": "way"
@@ -133191,7 +133308,7 @@
         "addr:street": "Rua Condessa de São Joaquim",
         "addr:suburb": "Bela Vista",
         "amenity": "library",
-        "books": "lgbtq",
+        "books": "queer",
         "full_name": "Biblioteca Comunitária Caio Fernando Abreu - Casa1",
         "full_name:en": "Community Library Caio Fernando Abreu - Casa1",
         "full_name:pt": "Biblioteca Comunitária Caio Fernando Abreu - Casa1",
