@@ -57691,8 +57691,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          112.9668398,
-          28.1950815
+          112.9667762,
+          28.1949719
         ]
       },
       "properties": {
@@ -76041,6 +76041,7 @@
         "opening_hours": "Mo-Fr 08:00-19:00; Sa-Su 09:00-18:00",
         "phone": "+1 509-925-9851;+1 800-858-2427",
         "shop": "department_store",
+        "start_date": "1947-06-21",
         "toilets": "yes",
         "website": "https://jerrols.com",
         "@id": "node/13266251901",
