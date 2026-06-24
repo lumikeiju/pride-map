@@ -2783,8 +2783,10 @@
         "addr:housenumber": "10-12",
         "addr:postcode": "76135",
         "addr:street": "Liebigstraße",
+        "air_conditioning": "no",
         "amenity": "community_centre",
         "changing_table": "yes",
+        "check_date": "2026-06-23",
         "check_date:opening_hours": "2024-12-18",
         "club": "yes",
         "community_centre": "club_home",
@@ -9468,13 +9470,13 @@
       },
       "properties": {
         "amenity": "restaurant",
-        "check_date": "2024-08-15",
+        "check_date": "2026-06-23",
         "cuisine": "austrian;diner;regional",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Sixta",
         "opening_hours": "Tu-Su 18:00-24:00",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "parklet",
         "smoking": "outside",
         "website": "http://www.sixta-restaurant.at",
         "wheelchair": "yes",
@@ -13061,27 +13063,6 @@
         "wikidata": "Q5157187",
         "wikipedia": "en:Comptons of Soho",
         "@id": "node/1937328128",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9842271,
-          40.7629935
-        ]
-      },
-      "properties": {
-        "amenity": "theatre",
-        "cuisine": "asian",
-        "genre": "cabaret",
-        "lgbtq": "welcome",
-        "name": "Lucky Cheng's",
-        "website": "http://www.luckychengsnewyork.com",
-        "wheelchair": "yes",
-        "@id": "node/1948123002",
         "@type": "node"
       }
     },
@@ -18563,15 +18544,16 @@
         "addr:street": "Stanisława Taczaka",
         "air_conditioning": "no",
         "amenity": "fast_food",
-        "check_date:opening_hours": "2024-11-11",
+        "check_date:opening_hours": "2026-03-17",
         "cuisine": "burger",
         "delivery": "yes",
+        "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "email": "cojakco@cojakco.pl",
         "level": "0",
         "lgbtq": "welcome",
         "name": "co Jak co",
-        "opening_hours": "09:00-20:00",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa,Su 08:30-18:00",
         "outdoor_seating": "yes",
         "phone": "+48 733 654 564",
         "ref:vatin": "PL7773166769",
@@ -55045,6 +55027,123 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.2571887,
+          41.5166624
+        ]
+      },
+      "properties": {
+        "addr:city": "Shorewood",
+        "addr:housenumber": "14285",
+        "addr:postcode": "60404",
+        "addr:state": "IL",
+        "addr:street": "Line Road",
+        "amenity": "bar",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "cuisine": "american",
+        "delivery": "no",
+        "diet:egg_free": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "language:es": "yes",
+        "language:pl": "yes",
+        "lgbtq": "welcome",
+        "name": "Papa Magoo's Bar & Grill",
+        "opening_hours": "Mo-Su 11:00-2:00",
+        "phone": "+1-708-670-7130",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://papamagoos.com/",
+        "wheelchair": "yes",
+        "@id": "node/9958322603",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3531627,
+          41.6832601
+        ]
+      },
+      "properties": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "113",
+        "addr:postcode": "60543",
+        "addr:state": "IL",
+        "addr:street": "South Main Street",
+        "amenity": "restaurant",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "cuisine": "american",
+        "delivery": "yes",
+        "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:peanut_free": "yes",
+        "diet:shellfish_free": "yes",
+        "diet:treenut_free": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "lgbtq": "welcome",
+        "name": "113 Main",
+        "opening_hours": "Tu-We 11:00-21:00; Th-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1-331-216-5133",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://www.113main.com/",
+        "wheelchair": "yes",
+        "@id": "node/9958324675",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5021812,
+          41.6613123
+        ]
+      },
+      "properties": {
+        "addr:city": "Plano",
+        "addr:housenumber": "212",
+        "addr:postcode": "60545",
+        "addr:street": "Mitchell Drive",
+        "amenity": "restaurant",
+        "changing_table": "yes",
+        "changing_table:location": "male_toilet",
+        "cuisine": "american;latin_american",
+        "delivery": "yes",
+        "diet:gluten_free": "yes",
+        "diet:peanut_free": "yes",
+        "highchair": "yes",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "Two Partners Family Restaurant",
+        "opening_hours": "Mo-Su 7:00-21:00",
+        "phone": "+1-630-882-9091",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://twopartnerscafefamilyil.com/",
+        "wheelchair": "yes",
+        "@id": "node/9958330315",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -88.3177246,
           41.7208616
         ]
@@ -78957,7 +79056,7 @@
         "lgbtq": "primary",
         "name": "COC Limburg",
         "office": "ngo",
-        "opening_hours": "Tu-Fr 9:00-17:00",
+        "opening_hours": "Tu-Fr 09:00-17:00",
         "phone": "+31 43 3218337",
         "website": "https://coclimburg.nl",
         "@id": "node/13621875915",
@@ -80964,27 +81063,6 @@
         "name": "Evolve",
         "shop": "clothes",
         "@id": "node/13954762760",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8141443,
-          51.0740844
-        ]
-      },
-      "properties": {
-        "amenity": "community_centre",
-        "community_centre": "smoking_shed",
-        "community_centre:for": "lgbtq",
-        "lgbtq": "primary",
-        "name": "The Shagging Shed ™",
-        "operator": "Reach South Academy Trust",
-        "operator:type": "county_government",
-        "@id": "node/13957843625",
         "@type": "node"
       }
     },
@@ -130024,7 +130102,7 @@
         "min_age": "11",
         "name": "VO De Vallei",
         "note": "Elk woord in de naam is met een eerste letter als hoofdletter. Ook \"De\" dus. Ookal is dit niet grammatisch correct is dit wel de correcte naam.",
-        "opening_hours": "Mo-Th 8:30-16:30",
+        "opening_hours": "Mo-Th 08:30-16:30",
         "phone": "+31 6 24251343",
         "school": "secondary",
         "short_name": "De Vallei",
@@ -133642,6 +133720,66 @@
         "wikidata": "Q130532767",
         "wikipedia": "pt:Casa 1",
         "@id": "way/1521919753",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              145.0769036,
+              -37.7461851
+            ],
+            [
+              145.0769713,
+              -37.7461922
+            ],
+            [
+              145.0769917,
+              -37.7460846
+            ],
+            [
+              145.0770088,
+              -37.7459945
+            ],
+            [
+              145.0769493,
+              -37.7459874
+            ],
+            [
+              145.0769264,
+              -37.7461079
+            ],
+            [
+              145.0769177,
+              -37.7461065
+            ],
+            [
+              145.0769036,
+              -37.7461851
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "45",
+        "addr:postcode": "3084",
+        "addr:state": "VIC",
+        "addr:street": "Greville Road",
+        "addr:suburb": "Rosanna",
+        "building": "yes",
+        "email": "lana@woolybutt.com.au",
+        "lgbtq:signed": "welcome",
+        "mobile": "+61 4 0002 1642",
+        "name": "Woolbutt Knitting",
+        "opening_hours": "Mo-Tu 10:00-15:00; Th-Fr 10:00-15:00; Sa 10:00-14:00",
+        "phone": "+61 3 9458 3101",
+        "shop": "sewing",
+        "website": "https://woolybutt.com.au/",
+        "@id": "way/1531566494",
         "@type": "way"
       }
     },
