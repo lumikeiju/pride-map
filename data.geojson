@@ -3612,6 +3612,7 @@
         "name": "Westfield Family Restaurant",
         "opening_hours": "Su 7:00-15:00; Mo-Th 7:00-21:00; Fr-Sa 7:00-22:00",
         "phone": "+1-815-577-8888",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -17183,6 +17184,7 @@
         "name": "Johnny K's",
         "opening_hours": "Su-Sa 11:00-20:00",
         "phone": "+1-815-786-3088",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -23055,8 +23057,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.9445404,
-          53.5585405
+          9.944484,
+          53.558389
         ]
       },
       "properties": {
@@ -23068,14 +23070,13 @@
         "addr:street": "Zeiseweg",
         "addr:unit": "Ost-Flügel",
         "air_conditioning": "no",
-        "check_date": "2026-05-07",
+        "check_date": "2026-06-24",
         "club": "computer",
         "contact:mastodon": "@ccchh@chaos.social",
         "drink:club-mate": "yes",
         "drink:flora-power": "yes",
         "drink:premium-cola": "yes",
         "email": "mail@hamburg.ccc.de",
-        "fax": "+49 40 40180142",
         "fee": "no",
         "internet_access": "yes",
         "internet_access:fee": "no",
@@ -23090,7 +23091,7 @@
         "opening_hours:covid19": "restricted",
         "operator": "CCC Hansestadt Hamburg e.V.",
         "operator:type": "community",
-        "phone": "+49 40 4018010",
+        "phone": "+49 40 23830150",
         "short_name": "CCCHH",
         "smoking": "no",
         "url:spaceapi": "https://spaceapi.hamburg.ccc.de/",
@@ -28334,6 +28335,50 @@
         "was:amenity": "pub",
         "was:name": "Hop N Grapes",
         "@id": "node/4302919748",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4484718,
+          41.6338946
+        ]
+      },
+      "properties": {
+        "addr:city": "Yorkville",
+        "addr:housenumber": "56",
+        "addr:postcode": "60560",
+        "addr:street": "East Schoolhouse Road",
+        "amenity": "restaurant",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "cuisine": "breakfast",
+        "delivery": "yes",
+        "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:peanut_free": "yes",
+        "diet:shellfish_free": "yes",
+        "diet:treenut_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "language:el": "yes",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "Southern Belle's",
+        "opening_hours": "Mo-Fr 6:00-15:00; Sa-Su 6:00-15:00",
+        "phone": "+1-630-553-9977",
+        "ref:YorkvilleAddressID": "143",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://southernbellespancakes.com/site/",
+        "wheelchair": "yes",
+        "@id": "node/4317887791",
         "@type": "node"
       }
     },
@@ -46499,6 +46544,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.4423099,
+          41.6558264
+        ]
+      },
+      "properties": {
+        "addr:city": "Yorkville",
+        "addr:housenumber": "1206",
+        "addr:postcode": "60560",
+        "addr:state": "IL",
+        "addr:street": "North Bridge Street",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "changing_table": "no",
+        "cuisine": "sandwich;bakery",
+        "delivery": "yes",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:lactose_free": "yes",
+        "diet:low_fat": "yes",
+        "diet:peanut_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "lgbtq": "welcome",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-20:00",
+        "phone": "+1 630-553-2355",
+        "ref": "2021",
+        "ref:YorkvilleAddressID": "5852",
+        "short_name": "Panera",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://locations.panerabread.com/il/yorkville/1206-north-bridge-street.html",
+        "wheelchair": "yes",
+        "@id": "node/7826890075",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -121.7588671,
           36.7664837
         ]
@@ -48373,6 +48464,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.2573845,
+          41.5639067
+        ]
+      },
+      "properties": {
+        "addr:city": "Plainfield",
+        "addr:housenumber": "7162",
+        "addr:postcode": "60586",
+        "addr:street": "Caton Farm Road",
+        "amenity": "pub",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet",
+        "cuisine": "grill",
+        "delivery": "yes",
+        "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:low_fat": "yes",
+        "diet:vegetarian": "yes",
+        "entrance": "main",
+        "highchair": "yes",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "McBride's Pub & Grille",
+        "opening_hours": "Mo-Th 11:00-1:00; Fr-Sa 11:00-2:00; Su 11:00-24:00",
+        "phone": "+1-815-530-9897",
+        "service_animal": "yes",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "wheelchair": "yes",
+        "@id": "node/8697876014",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -121.8906234,
           37.3351481
         ]
@@ -49998,6 +50129,46 @@
         "website": "https://www.instagram.com/sansamalmo/",
         "wheelchair": "no",
         "@id": "node/9119830519",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3795853,
+          41.6871199
+        ]
+      },
+      "properties": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "3300",
+        "addr:postcode": "60543",
+        "addr:state": "IL",
+        "addr:street": "Orchard Road",
+        "addr:unit": "3340",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "changing_table": "no",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "email": "LBRADLEY@DOMINOS-CHICAGO.COM",
+        "highchair": "no",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-00:00, Fr-Sa 10:30-01:00",
+        "phone": "+1 630-423-5600",
+        "ref": "2946",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://pizza.dominos.com/illinois/oswego/3300-orchard-road",
+        "@id": "node/9127686156",
         "@type": "node"
       }
     },
@@ -54905,6 +55076,7 @@
         "opening_hours": "Mo-Fr 07:00-19:00, Sa-Su 08:00-20:00",
         "phone": "+1-815-764-8666",
         "ref:YorkvilleAddressID": "6064",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -55007,18 +55179,91 @@
         "delivery": "no",
         "diet:dairy_free": "yes",
         "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
         "diet:low_sodium": "yes",
+        "diet:peanut_free": "yes",
+        "diet:shellfish_free": "yes",
+        "diet:treenut_free": "yes",
         "highchair": "yes",
         "lgbtq": "welcome",
+        "menu:half_portions": "yes",
+        "menu:sharing_plates": "yes",
         "name": "Last Chance Saloon & Restaurant",
         "opening_hours": "Su-Th 10:00-24:00; Fr-Sa 10:00-1:00",
         "phone": "+1-815-695-5660",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
         "toilets:unisex": "no",
         "wheelchair": "yes",
         "@id": "node/9953562054",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5973266,
+          41.5603247
+        ]
+      },
+      "properties": {
+        "addr:city": "Millington",
+        "addr:housenumber": "310",
+        "addr:postcode": "60537",
+        "addr:state": "IL",
+        "addr:street": "South Church Street",
+        "amenity": "bar",
+        "changing_table": "no",
+        "cuisine": "grill",
+        "lgbtq": "welcome",
+        "name": "Jimbo's Place",
+        "opening_hours": "Su-Th 12:00-24:00; Fr-Sa 12:00-1:00",
+        "phone": "+1-815-695-5577",
+        "source:addr": "Kendall County",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "yes",
+        "wheelchair": "yes",
+        "@id": "node/9953562112",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4419362,
+          41.6558127
+        ]
+      },
+      "properties": {
+        "addr:city": "Yorkville",
+        "addr:housenumber": "1218",
+        "addr:postcode": "60560",
+        "addr:street": "North Bridge Street",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "vietnamese",
+        "delivery": "yes",
+        "diet:peanut_free": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "lgbtq": "welcome",
+        "name": "Pho 89 Vietnamese Cuisine",
+        "opening_hours": "Su-Mo 11:00-20:00,Tu 16:00-20:00, We-Th 11:00-20:00, Fr 11:00-20:30",
+        "phone": "+1-630-568-6666",
+        "ref:YorkvilleAddressID": "5858",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://www.yelp.com/biz/pho-89-yorkville-2",
+        "wheelchair": "yes",
+        "@id": "node/9958321092",
         "@type": "node"
       }
     },
@@ -55066,6 +55311,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.3165423,
+          41.7030838
+        ]
+      },
+      "properties": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "1148",
+        "addr:postcode": "60543",
+        "addr:state": "IL",
+        "addr:street": "Douglas Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "changing_table": "no",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "email": "LBradley@dominos-chicago.com",
+        "highchair": "no",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "Domino's",
+        "opening_hours": "Fr-Sa 10:30-1:00; Su-Th 10:30-24:00",
+        "phone": "+1 630-554-7777",
+        "ref": "2937",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://pizza.dominos.com/illinois/oswego/1148-douglas-road",
+        "wheelchair": "yes",
+        "@id": "node/9958324144",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -88.3531627,
           41.6832601
         ]
@@ -55099,6 +55384,50 @@
         "website": "https://www.113main.com/",
         "wheelchair": "yes",
         "@id": "node/9958324675",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.314393,
+          41.6990595
+        ]
+      },
+      "properties": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "1450",
+        "addr:postcode": "60543",
+        "addr:state": "IL",
+        "addr:street": "Douglas Road",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "changing_table": "no",
+        "cuisine": "sandwich;bakery",
+        "delivery": "yes",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:lactose_free": "yes",
+        "diet:low_fat": "yes",
+        "diet:peanut_free": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "lgbtq": "welcome",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-21:00, Su 07:00-20:00",
+        "phone": "+1 630-554-7996",
+        "ref": "2016",
+        "short_name": "Panera",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "wheelchair": "yes",
+        "@id": "node/9958324811",
         "@type": "node"
       }
     },
@@ -55164,9 +55493,11 @@
         "language:es": "yes",
         "language:zh": "yes",
         "lgbtq": "welcome",
+        "menu:large_print": "yes",
         "name": "Number 1 China",
         "opening_hours": "Mo, We-Su 11:00-21:30",
         "phone": "+1-630-552-8313",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -55188,6 +55519,7 @@
         "addr:city": "Oswego",
         "addr:housenumber": "1050",
         "addr:postcode": "60543",
+        "addr:state": "IL",
         "addr:street": "Douglas Road",
         "amenity": "tourism",
         "brand": "AmericInn",
@@ -55198,6 +55530,7 @@
         "lgbtq": "welcome",
         "name": "AmericInn",
         "official_name": "AmericInn by Wyndham",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "toilets:menstrual_products": "no",
         "toilets:unisex": "no",
@@ -55223,7 +55556,7 @@
         "addr:street": "East Merchants Drive",
         "amenity": "restaurant",
         "changing_table": "yes",
-        "changing_table:location": "female_toliet",
+        "changing_table:location": "female_toilet",
         "cuisine": "pizza",
         "delivery": "yes",
         "diet:gluten_free": "yes",
@@ -55234,9 +55567,11 @@
         "language:es": "yes",
         "language:it": "yes",
         "lgbtq": "welcome",
+        "menu:large_print": "yes",
         "name": "Pizza Cucina",
         "opening_hours": "Mo, We, Th 11:00-21:00; Sr-Sa 11; 00-22:00; Su 12:00-21:00",
         "phone": "+1-630-844-9600",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "yes",
@@ -59770,8 +60105,9 @@
         "cuisine": "asian",
         "delivery": "yes",
         "diet:egg_free": "yes",
-        "diet:nut_free": "yes",
+        "diet:peanut_free": "yes",
         "diet:shellfish_free": "yes",
+        "diet:treenut_free": "yes",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "highchair": "no",
@@ -59781,6 +60117,7 @@
         "name": "Hong Kong Cuisine",
         "opening_hours": "Tu-Th, Su 11:00-20:30; Fr-Sa 11:00-21:00",
         "phone": "+1 815-609-8090",
+        "service_animal": "no",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -70735,6 +71072,7 @@
         "name": "Christina's Grill & Gatherings",
         "opening_hours": "Mo-Sa 11:00-17:00; Su 11:00-16:00",
         "phone": "+1-630-554-8905",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -70823,6 +71161,7 @@
         "name": "Franco's Pizza",
         "opening_hours": "Tu-Th 16:00-21:00; Fr-Sa 16:00-22:00; Su 15:00-21:00",
         "phone": "+1-815-230-3241",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -70857,6 +71196,52 @@
         "phone": "+1-217-359-7977",
         "website": "https://www.bentleyspub.com/",
         "@id": "node/12729456416",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4476535,
+          41.6178452
+        ]
+      },
+      "properties": {
+        "addr:city": "Yorkville",
+        "addr:housenumber": "2007",
+        "addr:postcode": "60560",
+        "addr:state": "IL",
+        "addr:street": "South Bridge Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet;male_toilet",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:peanut_free": "yes",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Su 05:00-23:00",
+        "phone": "+1 630-553-1893",
+        "ref:YorkvilleAddressID": "4389",
+        "service_animal": "yes",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://www.mcdonalds.com/us/en-us/location/14843.html",
+        "wheelchair": "yes",
+        "@id": "node/12729727295",
         "@type": "node"
       }
     },
@@ -81063,6 +81448,51 @@
         "name": "Evolve",
         "shop": "clothes",
         "@id": "node/13954762760",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3200744,
+          41.7206357
+        ]
+      },
+      "properties": {
+        "addr:city": "Montgomery",
+        "addr:housenumber": "1895",
+        "addr:postcode": "60538",
+        "addr:state": "IL",
+        "addr:street": "Douglas Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "changing_table": "no",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:lactose_free": "yes",
+        "diet:low_fat": "yes",
+        "diet:peanut_free": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "entrance": "main",
+        "highchair": "yes",
+        "lgbtq": "welcome",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 05:30-22:00; Th-Sa 05:30-00:00; Su 05:30-22:00; Mo-Th 6:00-1:00; Fr 6:00-2:00; Sa-Su 06:30-1:00",
+        "opening_hours:drive_through": "Mo-Th 05:30-01:00; Fr-Sa 05:30-02:00; Su 05:30-01:00",
+        "phone": "+1 630-844-9320",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://locations.wendys.com/united-states/il/montgomery/1895-douglas-road",
+        "@id": "node/13962906300",
         "@type": "node"
       }
     },
@@ -93142,6 +93572,62 @@
         "website": "https://www.prattlibrary.org/locations/reisterstownroad/",
         "wikidata": "Q69776467",
         "@id": "way/191346154",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.4065761,
+              50.9132984
+            ],
+            [
+              -1.4065701,
+              50.9133608
+            ],
+            [
+              -1.4068896,
+              50.9133464
+            ],
+            [
+              -1.4068822,
+              50.9132873
+            ],
+            [
+              -1.4065761,
+              50.9132984
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Southampton",
+        "addr:postcode": "SO15 2DS",
+        "addr:street": "Bedford Place",
+        "amenity": "cafe",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "diet:carnivore": "no",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "name": "Happy Bean Coffee Bar",
+        "outdoor_seating": "yes",
+        "ref:GB:uprn": "100062503828;100060680410;100060680411;10034869620;100060680413;100062503986",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "happybeancoffeebar.co.uk",
+        "@id": "way/195012170",
         "@type": "way"
       }
     },
@@ -111737,17 +112223,19 @@
         "diet:egg_free": "yes",
         "diet:low_fat": "yes",
         "diet:low_sodium": "yes",
-        "diet:nut_free": "yes",
-        "diet:pescetarian": "yes",
         "diet:shellfish_free": "yes",
+        "diet:treenut_free": "yes",
         "diet:vegetarian": "yes",
         "highchair": "yes",
         "language:el": "yes",
         "language:es": "yes",
         "lgbtq": "welcome",
+        "menu:half_portions": "yes",
+        "menu:sharing_plates": "yes",
         "name": "Grandmas Table",
         "opening_hours": "Mo-Sa 6:00-21:00; Su 6:00-20:00",
         "phone": "+1-630-892-1100",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
@@ -122205,10 +122693,13 @@
         "internet_access": "wlan",
         "language:es": "yes",
         "lgbtq": "welcome",
+        "menu:braille": "yes",
+        "menu:large_print": "yes",
         "name": "McDonald's",
         "opening_hours": "Su-We 05:00-24:00, Th-Sa 00:00-24:00",
         "phone": "+1 630-553-9393",
         "ref:YorkvilleAddressID": "5841",
+        "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
         "toilets:menstrual_products": "no",
