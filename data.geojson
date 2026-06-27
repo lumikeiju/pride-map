@@ -19387,21 +19387,24 @@
       "properties": {
         "addr:city": "Berlin",
         "addr:country": "DE",
+        "addr:floor": "0",
         "addr:housenumber": "74",
         "addr:postcode": "10245",
         "addr:street": "Boxhagener Straße",
         "addr:suburb": "Friedrichshain",
         "air_conditioning": "no",
-        "check_date": "2026-05-22",
+        "amenity": "cafe",
+        "check_date": "2026-06-26",
         "check_date:diet:vegetarian": "2026-03-01",
         "check_date:opening_hours": "2025-09-16",
         "cuisine": "tea;cake;pancake;coffee_shop;bagel;coffee",
         "diet:vegetarian": "yes",
-        "disused:amenity": "cafe",
         "drink:espresso": "served",
         "drink:filter_coffee": "served",
         "indoor_seating": "yes",
         "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "level": "0",
         "lgbtq": "welcome",
         "microroasting": "yes",
         "name": "19grams",
@@ -19411,6 +19414,8 @@
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
         "website": "https://19grams.coffee/de/ueber-19grams/unsere-cafes/tres-cabezas-cafe",
         "wheelchair": "limited",
         "wheelchair:description": "Keine behindertengerechte Toilette. Eingang ok.",
@@ -19722,6 +19727,31 @@
         "source": "Happy hour",
         "wheelchair": "limited",
         "@id": "node/2689799115",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7944407,
+          36.7381817
+        ]
+      },
+      "properties": {
+        "addr:city": "Fresno",
+        "addr:housenumber": "2011",
+        "addr:postcode": "93721",
+        "addr:street": "Tuolumne Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "lgbtq": "welcome",
+        "name": "Sacred Heart Coffee",
+        "opening_hours": "Mo-Fr 07:00-16:00; Sa 08:00-14:00",
+        "phone": "+1-559-914-1051",
+        "website": "https://www.sacredheartcoffee.com/",
+        "@id": "node/2693034905",
         "@type": "node"
       }
     },
@@ -21589,14 +21619,14 @@
         "addr:postcode": "64283",
         "addr:street": "Wilhelminenstraße",
         "addr:suburb": "Darmstadt-Mitte",
+        "air_conditioning": "no",
         "alt_name": "W17",
         "alt_name2": "CCC Darmstadt",
-        "check_date": "2024-10-07",
+        "check_date": "2026-06-26",
         "contact:mastodon": "https://chaos.social/@cccda",
-        "contact:twitter": "@chaosdarmstadt",
         "description": "Hackerspace und Erfa-Kreis des Chaos Computer Club",
-        "drink:club-mate": "served",
-        "drink:flora-power": "served",
+        "drink:club-mate": "bottled",
+        "drink:flora-power": "bottled",
         "email": "info@chaos-darmstadt.de",
         "fridge": "yes",
         "internet_access": "yes",
@@ -21612,6 +21642,7 @@
         "phone": "+49 6151 5200088",
         "polling_station": "no",
         "short_name": "CCCDA",
+        "smoking": "no",
         "source": "survey;local knowledge",
         "toilets": "yes",
         "toilets:wheelchair": "no",
@@ -56354,7 +56385,7 @@
         "name:en": "Red Hot Pizza",
         "name:ka": "რედ ჰოთ პიცა",
         "name:ru": "Рэд Хот Пицца",
-        "opening_hours": "Mo–Su 13:00–23:00",
+        "opening_hours": "Mo-Su 13:00-23:00",
         "outdoor_seating": "yes",
         "parking:fee": "no",
         "payment:contactless": "yes",
@@ -59083,22 +59114,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1308895,
-          51.5132104
+          -0.1308993,
+          51.51323
         ]
       },
       "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "23a",
+        "addr:postcode": "W1D 5JL",
+        "addr:street": "Old Compton Street",
         "amenity": "nightclub",
         "charge": "10 GBP",
-        "check_date": "2023-06-10",
-        "contact:facebook": "https://www.facebook.com/shesohobar/",
-        "contact:instagram": "https://www.instagram.com/shesohobar/",
-        "contact:website": "https://www.she-soho.com",
+        "check_date": "2026-06-26",
+        "check_date:opening_hours": "2026-06-26",
+        "contact:facebook": "shesohobar",
+        "contact:instagram": "shesohobar",
+        "contact:website": "https://ku-bar.co.uk/she",
         "fee": "yes",
         "level": "-1",
         "lgbtq": "primary",
         "lgbtq:women": "primary",
-        "name": "SheBar",
+        "min_age": "18",
+        "name": "She Soho",
+        "opening_hours": "Mo off; Tu-Sa 17:00-25:00; Su 17:00-22:30",
         "payment:cards": "yes",
         "payment:cash": "no",
         "@id": "node/10968314400",
@@ -63673,11 +63711,13 @@
         "addr:postcode": "00-515",
         "addr:street": "Żurawia",
         "amenity": "nightclub",
-        "check_date": "2024-03-23",
+        "check_date": "2026-06-26",
+        "check_date:opening_hours": "2026-06-26",
         "contact:facebook": "GLAMCLUBWARSAW",
         "lgbtq": "primary",
         "name": "Glam",
         "opening_hours": "Fr-Sa 22:00+",
+        "opening_hours:signed": "no",
         "@id": "node/11755967710",
         "@type": "node"
       }
@@ -72183,7 +72223,7 @@
         "clothes": "children",
         "lgbtq": "welcome",
         "name": "Petit Bateau",
-        "opening_hours": "Mo-Fr 10:00–19:00",
+        "opening_hours": "Mo-Fr 10:00-19:00",
         "phone": "+33 1 47 05 18 51",
         "ref:FR:SIRET": "30529134601089",
         "shop": "clothes",
@@ -72716,8 +72756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.5476018,
-          46.9963392
+          -120.5475534,
+          46.9963458
         ]
       },
       "properties": {
@@ -72992,6 +73032,7 @@
         "opening_hours": "Tu-Fr 10:00-20:00",
         "shop": "hairdresser",
         "website": "https://www.artwork-hairdresser.com/",
+        "wheelchair": "no",
         "@id": "node/12982948501",
         "@type": "node"
       }
@@ -81506,6 +81547,121 @@
         "toilets:unisex": "no",
         "website": "https://locations.wendys.com/united-states/il/montgomery/1895-douglas-road",
         "@id": "node/13962906300",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7924294,
+          36.7378747
+        ]
+      },
+      "properties": {
+        "addr:city": "Fresno",
+        "addr:housenumber": "1306",
+        "addr:postcode": "93721",
+        "addr:state": "CA",
+        "addr:street": "Van Ness Avenue",
+        "alt_name": "On A Roll Sushi Mexican Japanese Bar",
+        "amenity": "restaurant",
+        "cuisine": "sushi;mexican",
+        "lgbtq": "welcome",
+        "name": "On A Roll Sushi",
+        "opening_hours": "Mo-Th 11:00-14:30,16:30-21:00; Fr 11:00-14:30,16:30-20:00; Sa 12:00-20:00",
+        "phone": "+1-559-264-1500",
+        "website": "https://www.onarollsushifresno.com/",
+        "@id": "node/13967759387",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7921195,
+          36.7380694
+        ]
+      },
+      "properties": {
+        "addr:city": "Fresno",
+        "addr:housenumber": "2119",
+        "addr:postcode": "93721",
+        "addr:state": "CA",
+        "addr:street": "Merced Street",
+        "amenity": "restaurant",
+        "cuisine": "american;breakfast;brunch;lunch",
+        "lgbtq": "welcome",
+        "name": "Rocco's Eats",
+        "opening_hours": "Mo-Fr 07:00-14:00",
+        "phone": "+1559-375-1730",
+        "website": "https://roccoseats.com/",
+        "@id": "node/13967759388",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7925711,
+          36.7379854
+        ]
+      },
+      "properties": {
+        "addr:city": "Fresno",
+        "addr:housenumber": "1310",
+        "addr:postcode": "93721",
+        "addr:state": "CA",
+        "addr:street": "Van Ness Avenue",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "mexican",
+        "lgbtq": "welcome",
+        "name": "Mezcal Lounge",
+        "opening_hours": "Fr 09:00-15:00; Sa 09:00-16:00",
+        "phone": "+1-559-264-6015",
+        "website": "http://www.mezcalloungefresno.com/",
+        "@id": "node/13967759389",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1310348,
+          51.5130872
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "25",
+        "addr:postcode": "W1D 5LB",
+        "addr:street": "Frith Street",
+        "amenity": "bar",
+        "check_date": "2026-06-26",
+        "check_date:opening_hours": "2026-06-26",
+        "contact:facebook": "kubarlondon",
+        "contact:instagram": "kubarlondon",
+        "email": "info@ku-bar.co.uk",
+        "fhrs:id": "413661",
+        "lgbtq": "primary",
+        "min_age": "18",
+        "name": "Little Ku",
+        "opening_hours": "Mo off; Tu-Th 17:00-25:00; Fr 16:00-25:00; Sa 15:00-25:00; Su 15:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 7437 4303",
+        "website": "https://ku-bar.co.uk/little-ku",
+        "wheelchair": "no",
+        "wikimedia_commons": "File:Ku Bar, Soho, W1 (6377865779).jpg",
+        "@id": "node/13968960248",
         "@type": "node"
       }
     },
@@ -91463,8 +91619,20 @@
               -39.9382243
             ],
             [
-              175.6424807,
-              -39.9383162
+              175.6432434,
+              -39.9383522
+            ],
+            [
+              175.643653,
+              -39.9383376
+            ],
+            [
+              175.6437026,
+              -39.9380421
+            ],
+            [
+              175.6430562,
+              -39.9379991
             ],
             [
               175.6424827,
@@ -91495,20 +91663,48 @@
               -39.9353227
             ],
             [
-              175.6386175,
-              -39.9347092
+              175.6388781,
+              -39.9352163
             ],
             [
-              175.6387906,
-              -39.9342658
+              175.6387512,
+              -39.93505
+            ],
+            [
+              175.6386592,
+              -39.9347212
+            ],
+            [
+              175.6386858,
+              -39.9345175
+            ],
+            [
+              175.6387749,
+              -39.9343338
+            ],
+            [
+              175.6389199,
+              -39.9341853
+            ],
+            [
+              175.6391274,
+              -39.9340772
+            ],
+            [
+              175.6393127,
+              -39.934041
+            ],
+            [
+              175.6395228,
+              -39.9339928
             ],
             [
               175.6398476,
               -39.9338327
             ],
             [
-              175.6403301,
-              -39.9335455
+              175.6402492,
+              -39.9336455
             ],
             [
               175.641317,
@@ -91518,7 +91714,7 @@
         ]
       },
       "properties": {
-        "alt_name": "Vinegar Hill",
+        "alt_name": "Vinegar Hill Domain",
         "lgbtq": "primary",
         "name": "Putai Ngahere Domain",
         "tourism": "camp_site",
@@ -120504,61 +120700,6 @@
         "coordinates": [
           [
             [
-              -0.1310714,
-              51.5131078
-            ],
-            [
-              -0.1309885,
-              51.5131367
-            ],
-            [
-              -0.1309555,
-              51.513085
-            ],
-            [
-              -0.1310375,
-              51.5130537
-            ],
-            [
-              -0.1310714,
-              51.5131078
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:country": "GB",
-        "addr:housenumber": "25",
-        "addr:postcode": "W1D 5LB",
-        "addr:street": "Frith Street",
-        "amenity": "bar",
-        "building": "retail",
-        "fhrs:confidence_management": "5",
-        "fhrs:hygiene": "5",
-        "fhrs:id": "413661",
-        "fhrs:local_authority_id": "01333/0025/0/000",
-        "fhrs:rating": "5",
-        "fhrs:structural": "5",
-        "lgbtq": "primary",
-        "name": "Little Ku",
-        "outdoor_seating": "yes",
-        "ref:GB:uprn": "10033621646;10033526147;10033587894;100023472362",
-        "source:postcode": "FSA Food Hygiene Ratings Database",
-        "website": "https://www.ku-bar.co.uk/",
-        "wheelchair": "no",
-        "wikimedia_commons": "File:Ku Bar, Soho, W1 (6377865779).jpg",
-        "@id": "way/893059519",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -83.3332872,
               33.931966
             ],
@@ -122905,16 +123046,12 @@
               51.5118145
             ],
             [
-              -0.1296446,
-              51.5118341
+              -0.1295389,
+              51.5118473
             ],
             [
-              -0.1296359,
-              51.5118032
-            ],
-            [
-              -0.1295098,
-              51.511819
+              -0.1295189,
+              51.5118279
             ],
             [
               -0.1294883,
@@ -122941,16 +123078,17 @@
         "addr:postcode": "WC2H 7BA",
         "addr:street": "Lisle Street",
         "amenity": "bar",
+        "contact:facebook": "kubarlondon",
+        "contact:instagram": "kubarlondon",
+        "email": "info@ku-bar.co.uk",
         "fhrs:id": "412984",
-        "fhrs:local_authority_id": "00992/0030/0/000",
         "lgbtq": "primary",
+        "min_age": "18",
         "name": "Ku Bar",
         "phone": "+44 20 7437 4303",
-        "source:addr": "FSA Food Hygiene Ratings Database",
-        "source:postcode": "FSA Food Hygiene Ratings Database",
         "toilets": "yes",
         "toilets:access": "customers",
-        "website": "https://www.ku-bar.co.uk/",
+        "website": "https://ku-bar.co.uk/",
         "wheelchair": "limited",
         "wikimedia_commons": "File:Ku Bar, Chinatown, WC2 (2361962660).jpg",
         "@id": "way/995869078",
