@@ -14160,8 +14160,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.2501382,
-          55.8587353
+          -4.250101,
+          55.8587904
         ]
       },
       "properties": {
@@ -19533,6 +19533,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.3890041,
+          52.1563722
+        ]
+      },
+      "properties": {
+        "addr:city": "Amersfoort",
+        "addr:housenumber": "17A",
+        "addr:postcode": "3811CJ",
+        "addr:street": "Hof",
+        "amenity": "bar",
+        "check_date": "2026-06-28",
+        "email": "info@cafekoetje.nl",
+        "facebook": "www.facebook.com/cafekoetje/",
+        "instagam": "https://www.instagram.com/cafekoetje/",
+        "lgbtq": "welcome",
+        "name": "Café Koetje",
+        "opening_hours": "Mo-Th 20:00-03:00; Fr-Sa 20:00-05:00; Su 20:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+31 6 53 836 715",
+        "source": "BAG",
+        "source:date": "2014-02-11",
+        "website": "https://cafekoetje.nl/",
+        "@id": "node/2672770340",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3890253,
+          52.156326
+        ]
+      },
+      "properties": {
+        "addr:city": "Amersfoort",
+        "addr:housenumber": "18",
+        "addr:postcode": "3811CJ",
+        "addr:street": "Hof",
+        "amenity": "bar",
+        "check_date": "2026-06-28",
+        "email": "info@j-d.cafe",
+        "facebook": "https://www.facebook.com/CafeJenD/",
+        "instagram": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fjd.cafe&h=AUCCCWxg0f1fQHEI5v7P2367_LamjVmm_eyFjIaC3vNY0RctLbNMQslUYBg59b79iHGjfRG1i7xIhkqqWIfWgl9JQ7_xwsOXJhabqX0dhNpYZ8sFw0AlgjlSas-9xSHh06IWRMnnWcakN3yuLNM",
+        "lgbtq": "primary",
+        "name": "J&D",
+        "opening_hours": "Mo-Th 20:00-03:00; Fr-Sa 20:00-05:00; Su 20:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+31 6 55 774 189",
+        "reservation": "yes",
+        "source": "BAG",
+        "source:date": "2014-02-11",
+        "website": "http://j-d.cafe/",
+        "wikidata": "Q17613022",
+        "@id": "node/2672770528",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -47.957359,
           -15.822028
         ]
@@ -19987,8 +20051,10 @@
         "addr:housenumber": "32",
         "addr:postcode": "6811JN",
         "addr:street": "Roermondsplein",
+        "disused:end_date": "2026-01-01",
+        "disused:leisure": "sauna",
         "email": "info@steamworks.nl",
-        "leisure": "sauna",
+        "fetish:bdsm:conditional": "yes @ specific events",
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Steamworks",
@@ -43040,7 +43106,7 @@
       },
       "properties": {
         "amenity": "cafe",
-        "check_date": "2025-04-25",
+        "check_date": "2026-06-27",
         "contact:city": "Paris",
         "contact:housenumber": "15",
         "contact:postcode": "75010",
@@ -52346,15 +52412,15 @@
         "contact:email": "tbilisipride@gmail.com",
         "contact:facebook": "https://www.facebook.com/TiflisPride/",
         "contact:instagram": "https://www.instagram.com/tbilisipride/",
-        "contact:phone": "+995 551228808",
+        "contact:mobile": "+995 551 22 88 08",
         "contact:twitter": "https://twitter.com/tbilisipride",
+        "contact:website": "https://tbilisipride.ge/",
         "description": "Tbilisi Pride is the association who organizes the annual pride week in Tbilisi. They also carry out social campaigns, advocate for policy changes and strive for human rights of lesbian, gay, bisexual, transgender and queer people.",
         "lgbtq": "primary",
         "name": "თბილისი პრაიდი",
         "name:en": "Tbilisi Pride",
         "name:ka": "თბილისი პრაიდი",
         "office": "association",
-        "website": "https://tbilisipride.ge/",
         "@id": "node/9572692509",
         "@type": "node"
       }
@@ -79393,6 +79459,7 @@
       "properties": {
         "addr:housenumber": "53",
         "addr:street": "Virginia Street",
+        "air_conditioning": "yes",
         "amenity": "bar",
         "check_date": "2026-02-28",
         "internet_access": "wlan",
@@ -79408,7 +79475,8 @@
         "toilets": "yes",
         "toilets:position": "seated",
         "toilets:unisex": "yes",
-        "wheelchair": "no",
+        "wheelchair": "limited",
+        "wheelchair:note": "access via beer garden upon request",
         "@id": "node/13607729114",
         "@type": "node"
       }
@@ -81662,6 +81730,28 @@
         "wheelchair": "no",
         "wikimedia_commons": "File:Ku Bar, Soho, W1 (6377865779).jpg",
         "@id": "node/13968960248",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3767524,
+          51.749437
+        ]
+      },
+      "properties": {
+        "addr:city": "Merthyr Tydfil",
+        "addr:housenumber": "73",
+        "addr:postcode": "CF47 8UN",
+        "addr:street": "Pontmorlais High Street",
+        "amenity": "bar",
+        "fhrs:id": "1846493",
+        "lgbtq": "primary",
+        "name": "Sparkles Bar",
+        "@id": "node/13970514485",
         "@type": "node"
       }
     },
@@ -89117,10 +89207,11 @@
         "addr:street": "Lyndale Avenue South",
         "amenity": "veterinary",
         "building": "retail",
-        "check_date": "2025-07-19",
+        "check_date": "2026-06-27",
+        "check_date:opening_hours": "2026-06-27",
         "lgbtq": "welcome",
         "name": "Lyndale Animal Hospital",
-        "opening_hours": "Mo-Fr 08:00-17:00",
+        "opening_hours": "Mo-Fr 08:00-17:00;",
         "website": "https://lyndaleanimalhospital.com/",
         "@id": "way/118880403",
         "@type": "way"
