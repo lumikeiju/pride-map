@@ -79901,6 +79901,7 @@
       "properties": {
         "addr:city": "Asbury Park",
         "addr:country": "US",
+        "addr:county": "Monmouth",
         "addr:housenumber": "725",
         "addr:postcode": "07712",
         "addr:state": "NJ",
@@ -79909,6 +79910,7 @@
         "changing_table:count": "0",
         "contact:facebook": "larrycadillacasburypark",
         "contact:instagram": "larrycadillac",
+        "contact:phone": "+17324555898",
         "contact:yelp": "larry-cadillac-asbury-park",
         "drinking_water": "no",
         "female": "yes",
@@ -79924,7 +79926,6 @@
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "payment:girocard": "yes",
-        "phone": "+17324555898",
         "shop": "hairdresser",
         "toilets": "yes",
         "toilets:menstrual_products": "no",
@@ -81752,6 +81753,25 @@
         "lgbtq": "primary",
         "name": "Sparkles Bar",
         "@id": "node/13970514485",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5339361,
+          13.7302447
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "check_date": "2026-06-28",
+        "lgbtq": "primary",
+        "name": "TUFF Bar",
+        "wheelchair": "no",
+        "@id": "node/13972154101",
         "@type": "node"
       }
     },
@@ -93909,7 +93929,7 @@
         "addr:postcode": "SO15 2DS",
         "addr:street": "Bedford Place",
         "amenity": "cafe",
-        "building": "retail",
+        "building": "apartments",
         "cuisine": "coffee_shop",
         "diet:carnivore": "no",
         "diet:gluten_free": "yes",
@@ -134062,109 +134082,6 @@
         "coordinates": [
           [
             [
-              -124.670511,
-              48.8036356
-            ],
-            [
-              -124.6705357,
-              48.8036389
-            ],
-            [
-              -124.6705572,
-              48.8036475
-            ],
-            [
-              -124.6705732,
-              48.8036603
-            ],
-            [
-              -124.6705818,
-              48.8036758
-            ],
-            [
-              -124.670582,
-              48.8036924
-            ],
-            [
-              -124.6705738,
-              48.803708
-            ],
-            [
-              -124.6705581,
-              48.803721
-            ],
-            [
-              -124.6705368,
-              48.8037297
-            ],
-            [
-              -124.6705122,
-              48.8037333
-            ],
-            [
-              -124.6704892,
-              48.8037316
-            ],
-            [
-              -124.670468,
-              48.8037253
-            ],
-            [
-              -124.6704509,
-              48.803715
-            ],
-            [
-              -124.6704394,
-              48.8037018
-            ],
-            [
-              -124.6704347,
-              48.8036868
-            ],
-            [
-              -124.6704372,
-              48.8036717
-            ],
-            [
-              -124.6704467,
-              48.8036578
-            ],
-            [
-              -124.6704638,
-              48.8036456
-            ],
-            [
-              -124.6704861,
-              48.803638
-            ],
-            [
-              -124.670511,
-              48.8036356
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Area F (Cowichan Lake South / Skutz Falls)",
-        "addr:postcode": "V9Y7M8",
-        "addr:province": "BC",
-        "building": "yert",
-        "camp_site": "reception",
-        "lgbtq": "welcome",
-        "name": "Nitinaht Campground Registration Office",
-        "phone": "+1-250-745-3999",
-        "website": "https://nitinahtcampground.com/",
-        "@id": "way/1503074165",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               105.7853763,
               21.0317312
             ],
@@ -134463,36 +134380,40 @@
         "coordinates": [
           [
             [
-              145.0769036,
-              -37.7461851
+              145.0769024,
+              -37.7461853
             ],
             [
-              145.0769713,
-              -37.7461922
+              145.0769721,
+              -37.746193
             ],
             [
-              145.0769917,
+              145.0769861,
+              -37.7461136
+            ],
+            [
+              145.0769916,
               -37.7460846
             ],
             [
-              145.0770088,
-              -37.7459945
+              145.0770076,
+              -37.7459952
             ],
             [
-              145.0769493,
-              -37.7459874
+              145.0769507,
+              -37.7459889
             ],
             [
-              145.0769264,
-              -37.7461079
+              145.0769296,
+              -37.7461073
             ],
             [
-              145.0769177,
-              -37.7461065
+              145.0769165,
+              -37.7461059
             ],
             [
-              145.0769036,
-              -37.7461851
+              145.0769024,
+              -37.7461853
             ]
           ]
         ]
@@ -134503,8 +134424,9 @@
         "addr:state": "VIC",
         "addr:street": "Greville Road",
         "addr:suburb": "Rosanna",
-        "building": "yes",
+        "building": "retail",
         "email": "lana@woolybutt.com.au",
+        "level": "0",
         "lgbtq:signed": "welcome",
         "mobile": "+61 4 0002 1642",
         "name": "Woolbutt Knitting",
@@ -134513,6 +134435,52 @@
         "shop": "sewing",
         "website": "https://woolybutt.com.au/",
         "@id": "way/1531566494",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.6704916,
+              48.803765
+            ],
+            [
+              -124.6705832,
+              48.8036208
+            ],
+            [
+              -124.67074,
+              48.803664
+            ],
+            [
+              -124.6706485,
+              48.8038082
+            ],
+            [
+              -124.6704916,
+              48.803765
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Area F (Cowichan Lake South / Skutz Falls)",
+        "addr:postcode": "V9Y 7M8",
+        "addr:province": "BC",
+        "building": "commercial",
+        "building:levels": "1",
+        "camp_site": "reception",
+        "description": "The buildings serves as a campground office and a West Coast Trail registration office.",
+        "fixme": "outline approximal",
+        "lgbtq": "welcome",
+        "name": "Nitinaht Campground Registration Office",
+        "phone": "+1-250-745-3999",
+        "website": "https://nitinahtcampground.com/",
+        "@id": "way/1533273621",
         "@type": "way"
       }
     },
