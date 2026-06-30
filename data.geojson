@@ -75525,6 +75525,7 @@
         "brand": "valentines service emporium",
         "check_date": "2026-02-11",
         "currency:USD": "yes",
+        "currency:XBT": "yes",
         "email": "techs@valentines.salon",
         "fax": "+1 412-844-2086",
         "female_owner": "yes",
@@ -75548,7 +75549,6 @@
         "payment:debit_cards": "yes",
         "payment:google_pay": "yes",
         "payment:visa": "yes",
-        "payment:xbt": "yes",
         "phone": "+1 320-237-8155",
         "shop": "beauty",
         "start_date": "2025-09-01",
@@ -81772,6 +81772,26 @@
         "name": "TUFF Bar",
         "wheelchair": "no",
         "@id": "node/13972154101",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0053076,
+          40.7331554
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Ty's",
+        "opening_hours": "Mo-We 14:00-02:00, Th 14:00-03:00, Fr-Sa 13:00-04:00, Su 14:00-02:00",
+        "phone": "+1-212-741-9641",
+        "website": "https://tys.nyc",
+        "@id": "node/13976267583",
         "@type": "node"
       }
     },
@@ -134420,15 +134440,12 @@
       },
       "properties": {
         "addr:housenumber": "45",
-        "addr:postcode": "3084",
-        "addr:state": "VIC",
         "addr:street": "Greville Road",
-        "addr:suburb": "Rosanna",
         "building": "retail",
         "email": "lana@woolybutt.com.au",
         "level": "0",
         "lgbtq:signed": "welcome",
-        "mobile": "+61 4 0002 1642",
+        "mobile": "+61 400 021 642",
         "name": "Woolbutt Knitting",
         "opening_hours": "Mo-Tu 10:00-15:00; Th-Fr 10:00-15:00; Sa 10:00-14:00",
         "phone": "+61 3 9458 3101",
