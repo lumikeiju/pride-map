@@ -896,6 +896,7 @@
         "drink:wine": "yes",
         "email": "info@bluepavilion.co.uk",
         "family": "friendly",
+        "fhrs:id": "1669710",
         "highchair": "yes",
         "indoor_seating": "yes",
         "layer": "-1",
@@ -910,6 +911,7 @@
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
+        "source:addr": "FHRS Open Data",
         "toilets": "yes",
         "toilets:wheelchair": "yes",
         "website:menu": "https://www.bluepavilion.co.uk/our-menus",
@@ -6613,6 +6615,8 @@
         "addr:street": "Gottschedstraße",
         "air_conditioning": "yes",
         "amenity": "bar",
+        "check_date": "2026-06-30",
+        "check_date:opening_hours": "2026-06-30",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "food": "yes",
@@ -6620,10 +6624,11 @@
         "lgbtq": "welcome",
         "name": "Barcelona",
         "name:de": "Barcelona Tapas Bar",
-        "opening_hours": "Mo-Su,PH 17:00-24:00+",
+        "opening_hours": "Mo-Su 17:00-24:00",
         "outdoor_seating": "yes",
         "payment:credit_cards": "no",
         "payment:debit_cards": "yes",
+        "phone": "+493412126128",
         "smoking": "no",
         "wheelchair": "no",
         "@id": "node/890992516",
@@ -25521,13 +25526,16 @@
         ]
       },
       "properties": {
+        "addr:city": "Leeds",
         "addr:housenumber": "66",
+        "addr:postcode": "LS2 8LW",
         "addr:street": "Merrion Street",
         "amenity": "nightclub",
         "cocktails": "yes",
         "description": "Nightclub with live music from independent artists.",
         "drink:beer": "yes",
         "drink:wine": "yes",
+        "fhrs:id": "1018173",
         "layer": "-1",
         "level": "-1",
         "lgbtq": "welcome",
@@ -25537,6 +25545,7 @@
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
+        "source:addr": "FHRS Open Data",
         "toilets": "yes",
         "website": "https://thekeyclubleeds.com",
         "wheelchair": "yes",
@@ -34277,6 +34286,7 @@
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "drive_through": "no",
+        "fhrs:id": "1704475",
         "highchair": "yes",
         "layer": "-1",
         "level": "-1",
@@ -34288,6 +34298,7 @@
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
+        "source:addr": "FHRS Open Data",
         "takeaway": "yes",
         "toilets": "yes",
         "wheelchair": "yes",
@@ -61921,15 +61932,18 @@
         ]
       },
       "properties": {
+        "addr:city": "Los Angeles",
         "addr:housenumber": "1557",
         "addr:postcode": "90026",
+        "addr:state": "CA",
         "addr:street": "Sunset Boulevard",
-        "check_date": "2025-04-20",
+        "check_date": "2026-06-30",
         "clothes": "vintage",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsundaysbestvintage.com%2Fcdn%2Fshop%2Ffiles%2Fvintagesign2.png%3Fheight%3D628%26pad_color%3Dffffff%26v%3D1709070081%26width%3D1200&f=1&nofb=1&ipt=a55b5c9ade7f3ada9caaf6390404b45beab4b792f78160de9",
+        "contact:instagram": "https://www.instagram.com/sundaysbestthrift",
+        "contact:yelp": "https://www.yelp.com/biz/sundays-best-thrift-apparel-los-angeles",
         "lgbtq": "welcome",
         "name": "Sunday's Best Vintage",
-        "opening_hours": "Mo-Fr,Su 11:30-19:00; Sa 11:30-20:00",
+        "opening_hours": "11:30-19:00",
         "phone": "+1 213-986-5695",
         "second_hand": "only",
         "shop": "clothes",
@@ -74127,6 +74141,7 @@
         "addr:housenumber": "40",
         "addr:postcode": "LS2 8LX",
         "addr:street": "Woodhouse Lane",
+        "addr:suburb": "Woodhouse",
         "alcohol": "yes",
         "amenity": "restaurant",
         "bar": "yes",
@@ -74140,6 +74155,7 @@
         "drink:beer": "yes",
         "drink:coffee": "yes",
         "drinking_water:refill": "free",
+        "fhrs:id": "1940370",
         "fireplace": "yes",
         "indoor_seating": "yes",
         "layer": "-1",
@@ -74152,6 +74168,7 @@
         "payment:debit_cards": "yes",
         "phone": "+44 113 824 2756",
         "reservation": "accepted",
+        "source:addr": "FHRS Open Data",
         "takeaway": "yes",
         "toilets": "yes",
         "website": "https://pho37.co.uk",
@@ -75519,15 +75536,14 @@
         "addr:street": "West Saint Germain Street",
         "addr:unit": "suite 1",
         "air_conditioning": "yes",
-        "alt_name": "valentines salon",
-        "alt_name:en": "valentines electrolysis",
+        "alt_name": "Valentines Salon",
+        "alt_name:en": "Valentines Electrolysis",
         "beauty": "hair_removal;electrolysis;massage",
-        "brand": "valentines service emporium",
         "check_date": "2026-02-11",
         "currency:USD": "yes",
         "currency:XBT": "yes",
         "email": "techs@valentines.salon",
-        "fax": "+1 412-844-2086",
+        "fax": "+1 412 844 2086",
         "female_owner": "yes",
         "healthcare": "electrologist",
         "healthcare:speciality": "electrolysis",
@@ -75537,19 +75553,20 @@
         "internet_access:ssid": "wifi network",
         "level": "-1",
         "lgbtq": "primary",
-        "name": "valentines salon",
+        "name": "Valentines Salon",
         "opening_hours": "Mo-Sa 09:00-20:00; Sa 09:00-17:00; PH closed \"by appointment only\"",
-        "operator": "valentines service emporium",
         "payment:apple_pay": "yes",
         "payment:cash": "yes",
         "payment:cheque": "yes",
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
-        "payment:cryptocurrencies": "yes",
         "payment:debit_cards": "yes",
         "payment:google_pay": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
         "payment:visa": "yes",
-        "phone": "+1 320-237-8155",
+        "phone": "+1 320 237 8155",
         "shop": "beauty",
         "start_date": "2025-09-01",
         "toilets": "yes",
@@ -81694,7 +81711,7 @@
         "name": "Mezcal Lounge",
         "opening_hours": "Fr 09:00-15:00; Sa 09:00-16:00",
         "phone": "+1-559-264-6015",
-        "website": "http://www.mezcalloungefresno.com/",
+        "website": "https://www.mezcalloungefresno.com/",
         "@id": "node/13967759389",
         "@type": "node"
       }
@@ -81792,6 +81809,22 @@
         "phone": "+1-212-741-9641",
         "website": "https://tys.nyc",
         "@id": "node/13976267583",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1433571,
+          44.0377795
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "@id": "node/13978434755",
         "@type": "node"
       }
     },
@@ -102790,6 +102823,82 @@
         "source:lgbtq": "https://uufcc.com/welcoming-congregation/",
         "website": "https://uufcc.com/",
         "@id": "way/326595257",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.8577919,
+              45.4932927
+            ],
+            [
+              -122.8577949,
+              45.4931471
+            ],
+            [
+              -122.857873,
+              45.4931479
+            ],
+            [
+              -122.8578739,
+              45.4931057
+            ],
+            [
+              -122.857993,
+              45.4931069
+            ],
+            [
+              -122.8579926,
+              45.4931251
+            ],
+            [
+              -122.8581194,
+              45.4931264
+            ],
+            [
+              -122.8581165,
+              45.4932622
+            ],
+            [
+              -122.8580078,
+              45.4932611
+            ],
+            [
+              -122.8580071,
+              45.4932949
+            ],
+            [
+              -122.8577919,
+              45.4932927
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "17575",
+        "addr:postcode": "97003",
+        "addr:state": "OR",
+        "addr:street": "Southwest Tualatin Valley Highway",
+        "building": "yes",
+        "contact:email": "dr.sbhasin2008@yahoo.com",
+        "contact:facebook": "https://www.facebook.com/Chiropractor.Salem.OR/",
+        "contact:phone": "(503) 642-2845",
+        "contact:twitter": "https://x.com/Backdoctor2011",
+        "contact:youtube": "https://www.youtube.com/@Oregonmedicalcenters1",
+        "ele": "59.4",
+        "healthcare": "alternative",
+        "healthcare:speciality": "chiropractic",
+        "height": "8.0",
+        "lgbtq": "welcome",
+        "name": "Oregon Medical Centers, LLC",
+        "website": "https://www.oregonmedicalcenters.com/",
+        "@id": "way/327357186",
         "@type": "way"
       }
     },
