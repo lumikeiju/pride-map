@@ -1212,6 +1212,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.5860831,
+          48.1601028
+        ]
+      },
+      "properties": {
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "70",
+        "addr:postcode": "80802",
+        "addr:street": "Leopoldstraße",
+        "amenity": "cafe",
+        "branch": "Dulce Caffe + Eis",
+        "brand": "Coffee Fellows",
+        "brand:wikidata": "Q23461429",
+        "check_date": "2026-05-10",
+        "contact:phone": "+49 89 38898470",
+        "contact:website": "https://www.coffee-fellows.com/",
+        "cuisine": "coffee_shop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "lgbtq": "welcome",
+        "name": "Coffee Fellows",
+        "opening_hours": "Mo-Th 08:00-20:00; Fr-Sa 08:00-21:00; Su 08:00-20:00",
+        "operator": "Coffee Fellows GmbH",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited",
+        "wheelchair:description": "Stufe.- Hinweis: Straßenbereich gut erreichbar",
+        "@id": "node/315972795",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           11.0643885,
           49.4524163
         ]
@@ -9593,7 +9635,7 @@
         "outdoor_seating": "yes",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "toilets:wheelchair": "no",
-        "website": "http://www.cafekittel.de/",
+        "website": "http://www.cafe-kittel.de",
         "wheelchair": "limited",
         "@id": "node/1443507834",
         "@type": "node"
@@ -53088,6 +53130,7 @@
         "name": "Boxxman",
         "opening_hours": "Mo-Fr 10:30-23:00; Sa 10:30-00:00; Su 12:00-22:00",
         "phone": "+33 1 42 21 47 02",
+        "ref:FR:SIRET": "80775186200010",
         "shop": "erotic",
         "website": "https://www.boxxman.fr",
         "wheelchair": "no",
@@ -69635,35 +69678,6 @@
         "phone": "+49 4535 515868",
         "website": "https://www.gymtime-fitness.de/",
         "@id": "node/12468601146",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.9269909,
-          43.2568705
-        ]
-      },
-      "properties": {
-        "addr:city": "Bilbao",
-        "addr:housenumber": "3",
-        "addr:postcode": "48003",
-        "addr:street": "Mesedeetako kaia",
-        "air_conditioning": "yes",
-        "brand": "Axel Hotels",
-        "email": "bilbao@axelhotels.com",
-        "internet_access": "yes",
-        "lgbtq": "primary",
-        "name": "Axel Hotel Bilbao",
-        "phone": "+34 944 77 90 93",
-        "stars": "4",
-        "tourism": "hotel",
-        "website": "https://www.axelhotels.com/es/axel-hotel-bilbao/hotel",
-        "wheelchair": "yes",
-        "@id": "node/12474302713",
         "@type": "node"
       }
     },
@@ -90335,6 +90349,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Safeway",
+        "opening_hours": "Mo-Su 05:00-00:00",
         "phone": "+1-206-323-4988",
         "shop": "supermarket",
         "store_ref": "1551",
@@ -102888,7 +102903,7 @@
         "building": "yes",
         "contact:email": "dr.sbhasin2008@yahoo.com",
         "contact:facebook": "https://www.facebook.com/Chiropractor.Salem.OR/",
-        "contact:phone": "(503) 642-2845",
+        "contact:phone": "+1-503-642-2845",
         "contact:twitter": "https://x.com/Backdoctor2011",
         "contact:youtube": "https://www.youtube.com/@Oregonmedicalcenters1",
         "ele": "59.4",
@@ -134551,11 +134566,12 @@
         "addr:housenumber": "45",
         "addr:street": "Greville Road",
         "building": "retail",
+        "check_date": "2026-07-02",
         "email": "lana@woolybutt.com.au",
         "level": "0",
         "lgbtq:signed": "welcome",
         "mobile": "+61 400 021 642",
-        "name": "Woolbutt Knitting",
+        "name": "Woolybutt Knitting",
         "opening_hours": "Mo-Tu 10:00-15:00; Th-Fr 10:00-15:00; Sa 10:00-14:00",
         "phone": "+61 3 9458 3101",
         "shop": "sewing",
