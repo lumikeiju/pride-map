@@ -17013,6 +17013,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.3255672,
+          47.579594
+        ]
+      },
+      "properties": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "2702",
+        "addr:postcode": "98134",
+        "addr:state": "WA",
+        "addr:street": "6th Avenue South",
+        "amenity": "trapeze_school",
+        "lgbtq": "welcome",
+        "name": "Emerald City Trapeze",
+        "source": "King County GIS;data.seattle.gov",
+        "website": "https://emeraldcitytrapeze.com/",
+        "@id": "node/2350331323",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.6390936,
           50.1046445
         ]
@@ -72855,8 +72879,7 @@
         ]
       },
       "properties": {
-        "building:levels": "2",
-        "level": "0",
+        "level": "0;1",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Pearl Street Books & Gifts",
