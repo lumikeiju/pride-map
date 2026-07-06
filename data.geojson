@@ -4935,6 +4935,7 @@
         "addr:street": "Battonnstraße",
         "amenity": "pub",
         "brewery": "Guinness;Henninger;Kilkenny",
+        "check_date": "2026-07-05",
         "cuisine": "burger",
         "food": "yes",
         "indoor_seating": "yes",
@@ -9637,7 +9638,7 @@
         "outdoor_seating": "yes",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "toilets:wheelchair": "no",
-        "website": "http://www.cafe-kittel.de",
+        "website": "https://cafe-kittel.de/",
         "wheelchair": "limited",
         "@id": "node/1443507834",
         "@type": "node"
@@ -20737,6 +20738,7 @@
         "payment:debit_cards": "yes",
         "phone": "+1 612 208 7082",
         "start_date": "2024-11-09",
+        "toilets": "yes",
         "website": "https://www.queermunitymn.com/",
         "wheelchair": "yes",
         "@id": "node/2795520117",
@@ -81874,6 +81876,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.434327,
+          37.7630042
+        ]
+      },
+      "properties": {
+        "addr:city": "San Francisco",
+        "addr:housenumber": "2369",
+        "addr:state": "CA",
+        "addr:street": "Market Street",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "The Café",
+        "@id": "node/13991331474",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -90141,7 +90164,6 @@
         "short_name": "Eden Roc Miami Beach",
         "smoking": "no",
         "spa": "yes",
-        "stars": "4",
         "start_date": "1956",
         "swimming_pool": "yes",
         "tourism": "hotel",
@@ -100133,7 +100155,6 @@
         "image": "https://commons.wikimedia.org/wiki/File:Delano_National_MiamiBeach.JPG",
         "internet_access": "wlan",
         "internet_access:fee": "no",
-        "landuse": "construction",
         "lgbtq": "welcome",
         "name": "Delano South Beach",
         "old_operator": "Morgans Hotel Group",
@@ -100143,7 +100164,6 @@
         "rooms": "194",
         "source:geometry": "Bing",
         "spa": "yes",
-        "stars": "4",
         "start_date": "1947",
         "swimming_pool": "yes",
         "tourism": "hotel",
@@ -110398,7 +110418,7 @@
         "laundry": "yes",
         "lgbtq": "welcome",
         "minibar": "yes",
-        "name": "Fontainebleau Miami Beach",
+        "name": "Fontainebleau",
         "nrhp:inscription_date": "2008-12-22",
         "operator": "Fontainebleau Resorts",
         "operator:wikidata": "Q4261856",
@@ -110412,7 +110432,6 @@
         "room_service": "yes",
         "smoking": "no",
         "spa": "yes",
-        "stars": "5",
         "start_date": "1954",
         "swimming_pool": "yes",
         "tourism": "hotel",
@@ -131838,6 +131857,61 @@
         "website": "https://www.thequeerbrewingproject.com/taproom",
         "wheelchair": "yes",
         "@id": "way/1385726376",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.1455615,
+              37.9821116
+            ],
+            [
+              -1.1456357,
+              37.9821259
+            ],
+            [
+              -1.1456236,
+              37.9822495
+            ],
+            [
+              -1.145383,
+              37.9822166
+            ],
+            [
+              -1.1453854,
+              37.9821145
+            ],
+            [
+              -1.1454955,
+              37.9821193
+            ],
+            [
+              -1.1454992,
+              37.9821039
+            ],
+            [
+              -1.1455615,
+              37.9821116
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Murcia",
+        "addr:housenumber": "5",
+        "addr:postcode": "30009",
+        "addr:street": "Carril de La Esparza",
+        "amenity": "pub",
+        "building": "yes",
+        "lgbtq": "primary",
+        "name": "Bar Luky",
+        "website": "http://www.bar-luky.es/",
+        "@id": "way/1388027199",
         "@type": "way"
       }
     },
