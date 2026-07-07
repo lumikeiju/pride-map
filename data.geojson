@@ -47193,7 +47193,7 @@
         "lgbtq": "primary",
         "min_age": "21",
         "name": "Club Try-Angles",
-        "opening_hours": "Su 14:00-01:00; Mo-Fr 16:00-01:00; Sa 19:00-01:00",
+        "opening_hours": "Mo-Fr 16:00-01:00, Sa 18:00-01:00, Su 14:00-01:00",
         "outdoor_seating": "patio",
         "website": "https://clubtryangles.com/",
         "@id": "node/7928647193",
@@ -66181,30 +66181,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3804006,
-          40.8218785
-        ]
-      },
-      "properties": {
-        "addr:city": "Ercolano",
-        "addr:housenumber": "140",
-        "addr:postcode": "80056",
-        "addr:street": "Via San Vito",
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "mobile": "+393276563246",
-        "name": "Cratere",
-        "opening_hours": "Mo,Tu 18:30-23:30, Th,Fr,Su 18:30-01:00, Sa 18:30-02:00; We off",
-        "website": "https://www.ilcratere.it/",
-        "@id": "node/12002369479",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           10.8908068,
           48.3795323
         ]
@@ -73415,14 +73391,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2034546,
-          40.773878
+          -119.2139633,
+          40.7837641
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "contact:facebook": "https://facebook.com/groups/burnerbuddies",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Burner Buddies",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740721",
         "@type": "node"
@@ -73433,33 +73411,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2033687,
-          40.7743228
+          -119.211876,
+          40.7800353
         ]
       },
       "properties": {
+        "addr:street": "6:30 & C",
+        "contact:facebook": "https://facebook.com/xpatalien",
+        "contact:instagram": "https://instagram.com/xpatalien",
+        "email": "info@xpatalien.com",
         "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Luvclub",
-        "tourism": "camp_site",
-        "@id": "node/13011740722",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2148698,
-          40.7774563
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
+        "fixme": "Only intersection is currently known; will need to update with more precise location.",
+        "lgbtq": "welcome",
         "name": "Xpat Alien",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://xpatalien.com",
         "@id": "node/13011740723",
         "@type": "node"
       }
@@ -73469,14 +73436,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2180291,
-          40.7805284
+          -119.2187221,
+          40.7839031
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Pink Ponies",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740724",
         "@type": "node"
@@ -73487,104 +73455,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2175391,
-          40.7807558
+          -119.2146125,
+          40.7836525
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Mary's Little Lambs",
-        "tourism": "camp_site",
-        "@id": "node/13011740725",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2177371,
-          40.7817138
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Banana Hammocks",
-        "tourism": "camp_site",
-        "@id": "node/13011740726",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2179095,
-          40.7834186
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Accult",
-        "tourism": "camp_site",
-        "@id": "node/13011740727",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2179815,
-          40.7821942
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Glow Job",
-        "tourism": "camp_site",
-        "@id": "node/13011740728",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2181418,
-          40.7825605
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Beardhaus",
-        "tourism": "camp_site",
-        "@id": "node/13011740729",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2183045,
-          40.7829115
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Astropups",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740730",
         "@type": "node"
@@ -73595,14 +73474,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2186698,
-          40.7826052
+          -119.2149281,
+          40.7843127
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "BRC Municipal Pool",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740731",
         "@type": "node"
@@ -73613,14 +73493,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2191485,
-          40.7823613
+          -119.2137574,
+          40.7832895
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Cockpit",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740732",
         "@type": "node"
@@ -73631,32 +73512,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2195173,
-          40.7832257
+          -119.2142619,
+          40.7845156
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Land of Monkey",
-        "tourism": "camp_site",
-        "@id": "node/13011740733",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.219019,
-          40.7834663
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
+        "addr:street": "7:00 & B",
+        "contact:instagram": "https://instagram.com/fermented.reality",
+        "email": "fermented.reality.camp@gmail.com",
+        "end_date": "2026-09-07",
+        "fixme": "Only intersection is currently known; will need to update with more precise location.",
         "lgbtq": "primary",
         "name": "Fermented Reality",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740734",
         "@type": "node"
@@ -73667,14 +73535,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2184924,
-          40.7833102
+          -119.2189984,
+          40.7835465
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "BAAAHS",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740735",
         "@type": "node"
@@ -73685,15 +73554,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.217646,
-          40.784114
+          -119.2173072,
+          40.7838423
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "addr:street": "7:00 & E",
+        "contact:instagram": "https://instagram.com/futureturtles",
+        "email": "info@futureturtles.com",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
+        "lgbtq:men": "primary",
         "name": "Future Turtles",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://futureturtles.com",
         "@id": "node/13011740736",
         "@type": "node"
       }
@@ -73703,14 +73578,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.218156,
-          40.7839872
+          -119.2178004,
+          40.7837778
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "8-bit Bunny",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740737",
         "@type": "node"
@@ -73721,14 +73597,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2177173,
-          40.7844899
+          -119.2171055,
+          40.7832046
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
+        "lgbtq:women": "primary",
         "name": "Beaverton",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740738",
         "@type": "node"
@@ -73739,33 +73617,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.218709,
-          40.7838615
+          -119.2167413,
+          40.7868303
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Slightly Conscious",
-        "tourism": "camp_site",
-        "@id": "node/13011740739",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2192409,
-          40.7837798
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
+        "addr:street": "7:29 & D",
+        "contact:facebook": "https://facebook.com/groups/1364267443604634",
+        "contact:instagram": "https://instagram.com/patsysontheplaya",
+        "email": "patsyshangout@gmail.com",
+        "end_date": "2026-09-07",
+        "lgbt:men": "primary",
         "lgbtq": "primary",
         "name": "Patsy's Hangout",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://patsyshangout.org",
         "@id": "node/13011740740",
         "@type": "node"
       }
@@ -73775,14 +73642,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2193252,
-          40.7841029
+          -119.2167522,
+          40.7864561
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "addr:street": "D & 7:15",
+        "contact:facebook": "https://facebook.com/groups/DownLowClub",
+        "email": "billybob91354@hotmail.com",
+        "end_date": "2026-09-07",
+        "fixme": "Which side of the street is unknown man-facing vs mountain-facing; will need to update with more precise location.",
         "lgbtq": "primary",
+        "lgbtq:men": "primary",
         "name": "Down Low Club",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740741",
         "@type": "node"
@@ -73793,14 +73666,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2188069,
-          40.7842266
+          -119.2182485,
+          40.7837029
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Queertirement",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740742",
         "@type": "node"
@@ -73811,14 +73685,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2188804,
-          40.7845896
+          -119.2182701,
+          40.7830255
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Gender Blender",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740743",
         "@type": "node"
@@ -73829,51 +73704,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.220184,
-          40.7850204
+          -119.2205969,
+          40.7865922
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "qt pies",
-        "tourism": "camp_site",
-        "@id": "node/13011740744",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2202208,
-          40.7853116
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Penguin Place",
-        "tourism": "camp_site",
-        "@id": "node/13011740745",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.220753,
-          40.786644
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
+        "contact:instagram": "https://instagram.com/camp_celestial_bodies",
+        "email": "celestialbodiesemail@gmail.com",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Celestial Bodies",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://campcelestialbodies.org",
         "@id": "node/13011740746",
         "@type": "node"
       }
@@ -73883,15 +73726,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2207424,
-          40.7871786
+          -119.2201324,
+          40.7871873
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "addr:street": "7:30 & G plaza",
+        "contact:instgram": "https://instagram.com/noholesbarred_comedyclub",
+        "end_date": "2026-09-07",
+        "fixme": "Only intersection is known; needs a more precision location once known.",
         "lgbtq": "primary",
         "name": "No Holes Barred",
+        "source": "https://noholesbarredcomedy.com;https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://noholesbarredcomedy.com",
         "@id": "node/13011740747",
         "@type": "node"
       }
@@ -73901,70 +73749,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2180133,
-          40.7865722
+          -119.2168157,
+          40.7827203
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Bub",
-        "tourism": "camp_site",
-        "@id": "node/13011740748",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2139723,
-          40.7835085
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Olympus",
-        "tourism": "camp_site",
-        "@id": "node/13011740749",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2135666,
-          40.7850005
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Mystopia",
-        "tourism": "camp_site",
-        "@id": "node/13011740750",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2162747,
-          40.785539
-        ]
-      },
-      "properties": {
+        "addr:street": "E & 6:45",
         "alt_name": "Fruit Pop",
-        "end_date": "2025-09-04",
+        "contact:facebook": "https://facebook.com/groups/586031312275014",
+        "contact:instagram": "https://instagram.com/campfruitpop",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "FruitPop",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://campfruitpop.com",
         "@id": "node/13011740751",
         "@type": "node"
       }
@@ -73992,12 +73791,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.214241,
-          40.7871626
+          -119.2163317,
+          40.7840993
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "alt_name": "Mission CC",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Mission Country Club",
         "tourism": "camp_site",
@@ -74010,14 +73810,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2146835,
-          40.7879125
+          -119.2185091,
+          40.7836349
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Yes Please",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740754",
         "@type": "node"
@@ -74028,33 +73829,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2149891,
-          40.7871387
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Perihelion",
-        "tourism": "camp_site",
-        "@id": "node/13011740755",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2168121,
-          40.7867118
+          -119.2164412,
+          40.7844001
         ]
       },
       "properties": {
         "alt_name": "Glam Cocks",
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "GLAMCOCKS",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740756",
         "@type": "node"
@@ -74065,15 +73849,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2169016,
-          40.7870748
+          -119.2169643,
+          40.7839453
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "addr:street": "E & 7:00",
+        "contact:instagram": "https://instagram.com/playajoy",
+        "email": "Info@playajoy.org",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Comfort and Joy",
+        "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://cnj.world",
         "@id": "node/13011740757",
         "@type": "node"
       }
@@ -74083,52 +73872,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2173705,
-          40.7882197
+          -119.2143667,
+          40.7831353
         ]
       },
       "properties": {
-        "end_date": "2025-09-04",
+        "end_date": "2026-09-07",
         "lgbtq": "primary",
         "name": "Mud Skippers",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740758",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2201945,
-          40.7887223
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Space Racers",
-        "tourism": "camp_site",
-        "@id": "node/13011740759",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1930428,
-          40.7769465
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "CASA",
-        "tourism": "camp_site",
-        "@id": "node/13011740760",
         "@type": "node"
       }
     },
@@ -74303,79 +74057,6 @@
         "name": "The Center",
         "website": "https://thecenterorlando.org",
         "@id": "node/13019989671",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2188837,
-          40.781836
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Sandy Taco",
-        "tourism": "camp_site",
-        "@id": "node/13027887234",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2153101,
-          40.7856164
-        ]
-      },
-      "properties": {
-        "alt_name": "And Camp",
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "AndCamp",
-        "tourism": "camp_site",
-        "@id": "node/13027887235",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2143617,
-          40.7865623
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Mission Country Club",
-        "tourism": "camp_site",
-        "@id": "node/13027887236",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2131386,
-          40.7891176
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "FUR",
-        "tourism": "camp_site",
-        "@id": "node/13027887237",
         "@type": "node"
       }
     },
@@ -75017,24 +74698,6 @@
         "website": "https://www.lphrva.com",
         "wheelchair": "designated",
         "@id": "node/13061993166",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2054214,
-          40.7757298
-        ]
-      },
-      "properties": {
-        "end_date": "2025-09-04",
-        "lgbtq": "primary",
-        "name": "Global Camp",
-        "tourism": "camp_site",
-        "@id": "node/13064076458",
         "@type": "node"
       }
     },
@@ -81891,6 +81554,203 @@
         "lgbtq": "primary",
         "name": "The Café",
         "@id": "node/13991331474",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1946592,
+          40.7761335
+        ]
+      },
+      "properties": {
+        "addr:street": "3:30 & F",
+        "alt_name": "Orgy Dome",
+        "end_date": "2027-09-07",
+        "fixme": "Only intersection is known; will need to move to more precise location once known.",
+        "lgbtq": "welcome",
+        "name": "And Then There's Only Love",
+        "source": "https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "@id": "node/13991802792",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2151277,
+          40.7892643
+        ]
+      },
+      "properties": {
+        "addr:street": "C & 8:00",
+        "contact:instagram": "https://instagram.com/burningshipcamp",
+        "end_date": "2027-09-07",
+        "fixme": "Only intersection is known; will need to move to more precise location once known.",
+        "lgbtq": "welcome",
+        "name": "BurningShip",
+        "source": "https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "website": "https://burningshipcamp.com",
+        "@id": "node/13991802793",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.214398,
+          40.7881184
+        ]
+      },
+      "properties": {
+        "addr:street": "B & 7:45",
+        "contact:facebook": "https://facebook.com/groups/DownLowClub",
+        "contact:instagram": "https://instagram.com/plur.pups",
+        "email": "doggos@plurpups.org",
+        "end_date": "2026-09-07",
+        "lgbtq": "primary",
+        "name": "PLUR Pups",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "website": "https://plurpups.org",
+        "@id": "node/13991802797",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2134148,
+          40.7867124
+        ]
+      },
+      "properties": {
+        "addr:street": "7:30 & A",
+        "contact:facebook": "https://facebook.com/prettypicklecamp",
+        "email": "PrettyPickleCamp@gmail.com",
+        "end_date": "2026-09-07",
+        "fixme": "Only intersection is currently known; will need to update with more precise location.",
+        "lgbtq": "welcome",
+        "name": "Pretty Pickle",
+        "source": "https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "website": "https://prettypicklecamp.p1r8.net",
+        "@id": "node/13991802798",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2182251,
+          40.7820466
+        ]
+      },
+      "properties": {
+        "addr:street": "F & 6:45",
+        "contact:instagram": "https://instagram.com/brcmunicipalpool",
+        "end_date": "2026-09-07",
+        "fixme": "Only intersection is currently known; will need to update with more precise location.",
+        "lgbtq": "primary",
+        "name": "Black Rock City Municipal Pool",
+        "source": "https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "website": "http://brcmunicipalpool.com",
+        "@id": "node/13991802799",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.214475,
+          40.787633
+        ]
+      },
+      "properties": {
+        "addr:street": "B & 7:45",
+        "contact:facebook": "https://facebook.com/thebadasstronauts",
+        "contact:instagram": "https://instagram.com/thebadasstronauts",
+        "email": "doggos@plurpups.org",
+        "end_date": "2026-09-07",
+        "lgbtq": "primary",
+        "name": "Bad Asstronauts",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "@id": "node/13991802800",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2148739,
+          40.7872843
+        ]
+      },
+      "properties": {
+        "addr:street": "B & 7:30",
+        "end_date": "2026-09-07",
+        "lgbtq": "primary",
+        "name": "Bubble Lounge",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "@id": "node/13991804701",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2183905,
+          40.783306
+        ]
+      },
+      "properties": {
+        "end_date": "2026-09-07",
+        "lgbtq": "primary",
+        "name": "Bikini Bottom(less)",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "@id": "node/13991804702",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2169586,
+          40.7829023
+        ]
+      },
+      "properties": {
+        "end_date": "2026-09-07",
+        "lgbtq": "primary",
+        "name": "Fantastic Sams",
+        "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "@id": "node/13991804703",
         "@type": "node"
       }
     },
@@ -118444,8 +118304,9 @@
         "phone": "+1-715-235-5838",
         "religion": "christian",
         "service_times": "Su 08:30-09:00, 10:00-11:30",
+        "toilets:wheelchair": "yes",
         "website": "https://menomonieucc.org/",
-        "wheelchair": "yes",
+        "wheelchair": "limited",
         "@id": "way/722384670",
         "@type": "way"
       }
