@@ -3354,34 +3354,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.4226392,
-          52.4925988
-        ]
-      },
-      "properties": {
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "86",
-        "addr:postcode": "10967",
-        "addr:street": "Kottbusser Damm",
-        "addr:suburb": "Neukölln",
-        "contact:phone": "+49 30 6913071",
-        "contact:website": "http://www.mauritius-apotheke-berlin.de",
-        "dispensing": "yes",
-        "disused:amenity": "pharmacy",
-        "lgbtq": "welcome",
-        "name": "Mauritius Apotheke",
-        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00",
-        "wheelchair": "limited",
-        "@id": "node/459651448",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           5.7309588,
           58.9714918
         ]
@@ -19444,7 +19416,7 @@
         "healthcare:speciality": "psychotherapy;sexotherapy",
         "lgbtq": "primary",
         "name": "MACS",
-        "opening_hours": "Mo-Fr 9:30-17:30",
+        "opening_hours": "Mo-Fr 09:30-17:30",
         "@id": "node/2631878654",
         "@type": "node"
       }
@@ -38637,10 +38609,9 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "min_age": "21",
-        "name": "KIKI",
-        "note": "Connected to Buddy's through an indoor walkway.",
-        "phone": "+12813101050",
-        "website": "https://www.kiki.bar/",
+        "name": "Play",
+        "note": "Connected to Pause through an indoor walkway. New ownership and name change in 2024",
+        "website": "https://www.instagram.com/playnightlife1",
         "@id": "node/6285320313",
         "@type": "node"
       }
@@ -43627,6 +43598,7 @@
         "operator:type": "community",
         "source:addr:postcode": "code-point_open",
         "website": "https://www.fourpillarsuk.org/",
+        "wheelchair": "limited",
         "@id": "node/7113103173",
         "@type": "node"
       }
@@ -47217,14 +47189,10 @@
         "addr:street": "Grant Street",
         "addr:unit": "A",
         "amenity": "bar",
-        "contact:facebook": "https://www.facebook.com/buddyshouston/",
-        "contact:instagram": "https://www.instagram.com/buddyshouston/",
-        "contact:twitter": "https://x.com/BUDDYSHouston",
         "lgbtq": "primary",
         "min_age": "21",
-        "name": "Buddy's",
-        "note": "Connected to KIKI via indoor walkway",
-        "website": "https://www.buddys.bar/",
+        "name": "Pause",
+        "note": "New ownership and names in 2024",
         "@id": "node/7929766235",
         "@type": "node"
       }
@@ -60287,6 +60255,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          151.0859716,
+          -33.908286
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "121",
+        "addr:street": "Burwood Road",
+        "contact:facebook": "https://www.facebook.com/dallelscutsandcurls/",
+        "contact:instagram": "https://www.instagram.com/dallelscutsandcurls/",
+        "lgbtq": "welcome",
+        "name": "Dallel's Cuts & Curls",
+        "phone": "+61 404 805 148",
+        "shop": "hairdresser",
+        "website": "https://www.dallels.com.au/",
+        "@id": "node/11085019781",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -88.2577804,
           41.5640001
         ]
@@ -68477,7 +68468,7 @@
         "addr:housenumber": "182",
         "addr:street": "Rue Saint-Martin",
         "amenity": "bar",
-        "check_date": "2025-10-07",
+        "check_date": "2026-07-07",
         "contact:instagram": "barlesaimantes",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -81533,6 +81524,29 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "@id": "node/13978434755",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4688278,
+          -28.1348363
+        ]
+      },
+      "properties": {
+        "addr:unit": "15A",
+        "brand": "Sportsgirl",
+        "brand:wikidata": "Q7579970",
+        "check_date": "2026-07-07",
+        "clothes": "women",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Sportsgirl",
+        "shop": "clothes",
+        "@id": "node/13987358826",
         "@type": "node"
       }
     },
@@ -108196,6 +108210,78 @@
         "coordinates": [
           [
             [
+              16.3619504,
+              48.2138468
+            ],
+            [
+              16.3619816,
+              48.213817
+            ],
+            [
+              16.3620282,
+              48.2138114
+            ],
+            [
+              16.3620569,
+              48.2138527
+            ],
+            [
+              16.3620006,
+              48.2138701
+            ],
+            [
+              16.3619504,
+              48.2138468
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:housenumber": "8",
+        "addr:postcode": "1010",
+        "addr:street": "Schottentor-Passage",
+        "amenity": "cafe",
+        "check_date": "2026-07-07",
+        "check_date:opening_hours": "2026-05-22",
+        "cuisine": "coffee_shop",
+        "diet:vegetarian": "yes",
+        "email": "mitarbeiten@kaffeekueche.at",
+        "indoor": "room",
+        "indoor_seating": "yes",
+        "level": "-1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "flag",
+        "name": "Kaffeküche",
+        "newspapers": "yes",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su,PH off; Jan 01-06,Dec 24-31 off",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:qr_code": "no",
+        "ref:vatin": "ATU62931411",
+        "reservation": "no",
+        "roastery": "Tribeka",
+        "room": "restaurant",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "no",
+        "website": "https://www.kaffeekueche.at/",
+        "wheelchair": "yes",
+        "@id": "way/407676243",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -122.3199452,
               47.6125866
             ],
@@ -108852,8 +108938,8 @@
               29.7480659
             ],
             [
-              -95.3895867,
-              29.7479042
+              -95.3895884,
+              29.7479045
             ],
             [
               -95.3895388,
@@ -120998,28 +121084,36 @@
         "coordinates": [
           [
             [
-              -95.3886482,
-              29.7473425
+              -95.3886375,
+              29.747397
             ],
             [
-              -95.3887532,
-              29.7473425
+              -95.3887801,
+              29.7473955
             ],
             [
-              -95.3887531,
-              29.7472777
+              -95.3887772,
+              29.7472792
             ],
             [
-              -95.3887528,
-              29.7471861
+              -95.3887752,
+              29.7471924
             ],
             [
-              -95.3886482,
-              29.7471865
+              -95.3886534,
+              29.7471955
             ],
             [
-              -95.3886482,
-              29.7473425
+              -95.3886554,
+              29.7472384
+            ],
+            [
+              -95.3886346,
+              29.7472394
+            ],
+            [
+              -95.3886375,
+              29.747397
             ]
           ]
         ]
@@ -121034,10 +121128,9 @@
         "building": "yes",
         "lgbtq": "primary",
         "min_age": "21",
-        "name": "Eagle Houston",
-        "source": "microsoft/BuildingFootprints",
-        "website": "http://www.houstoneagle.com/",
-        "wikidata": "Q24891257",
+        "name": "Varsity Bar",
+        "note": "Ownership and name change in 2025. Used to be Eagle",
+        "website": "https://www.instagram.com/varsitybarhouston",
         "@id": "way/902286465",
         "@type": "way"
       }
