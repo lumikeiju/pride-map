@@ -17791,30 +17791,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2210762,
-          31.7820461
-        ]
-      },
-      "properties": {
-        "addr:city": "ירושלים",
-        "addr:housenumber": "1",
-        "addr:postcode": "91010",
-        "addr:street": "הורקנוס",
-        "amenity": "pub",
-        "lgbtq": "primary",
-        "name": "וידאו",
-        "name:en": "Videopub",
-        "name:he": "וידאו",
-        "phone": "+972-54-726-3567",
-        "@id": "node/2489682483",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.6849271,
           50.1161708
         ]
@@ -28478,6 +28454,38 @@
         "was:amenity": "pub",
         "was:name": "Hop N Grapes",
         "@id": "node/4302919748",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4584943,
+          52.5111049
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "15A",
+        "addr:postcode": "10245",
+        "addr:street": "Gabriel-Max-Straße",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-05-11",
+        "contact:instagram": "https://www.instagram.com/thisiscocoberlin/",
+        "cuisine": "coffee_shop;cake;breakfast",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "name": "This is Coco",
+        "opening_hours": "Mo-Th 09:30-16:30; Fr-Su 9:30-17:30",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "phone": "+49 30 259 33 003",
+        "website": "http://thisiscoco.de/",
+        "@id": "node/4304149095",
         "@type": "node"
       }
     },
@@ -68385,6 +68393,7 @@
         "lgbtq": "welcome",
         "microbrewery": "yes",
         "name": "Drawdown Brewing",
+        "opening_hours": "We,Th 17:00-21:00; Fr 17:00-22:00; Sa 12:00-22:00; Su 12:00-18:30",
         "website": "https://www.drawdownbrewing.com/main",
         "@id": "node/12258767238",
         "@type": "node"
@@ -81766,6 +81775,37 @@
         "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13991804703",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.924267,
+          41.3157334
+        ]
+      },
+      "properties": {
+        "addr:city": "New Haven",
+        "addr:housenumber": "135",
+        "addr:postcode": "06511",
+        "addr:state": "CT",
+        "addr:street": "Prospect Street",
+        "air_conditioning": "yes",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "contact:instagram": "https://www.instagram.com/yalelgbtq",
+        "lgbtq": "primary",
+        "name": "Yale LGBTQ Center",
+        "opening_hours": "Mo-Fr 12:00-21:00",
+        "operator": "Yale University",
+        "operator:type": "university",
+        "phone": "+1 203-432-0309",
+        "website": "https://lgbtq.yale.edu/",
+        "wheelchair": "yes",
+        "@id": "node/14000286381",
         "@type": "node"
       }
     },
