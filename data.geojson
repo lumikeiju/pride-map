@@ -18693,7 +18693,7 @@
         "name": "Q café",
         "opening_hours": "Mo-Su 15:00-02:00",
         "outdoor_seating": "no",
-        "phone": "+ 420 776 856 361",
+        "phone": "+420 776 856 361",
         "website": "https://q-cafe.cz/",
         "@id": "node/2560980014",
         "@type": "node"
@@ -26591,6 +26591,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -77.4247084,
+          37.5312751
+        ]
+      },
+      "properties": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "2100",
+        "addr:postcode": "23223",
+        "addr:state": "VA",
+        "addr:street": "East Main Street",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "no",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Whisk",
+        "opening_hours": "Tu-Sa 07:00-16:00; Su,Mo 07:00-14:00",
+        "outdoor_seating": "yes",
+        "shop": "pastry",
+        "website": "https://www.whiskrva.com/",
+        "@id": "node/3931510359",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           9.1781645,
           48.767571
         ]
@@ -32776,6 +32809,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.3235159,
+          -35.7241391
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "65",
+        "addr:street": "John Street",
+        "addr:suburb": "Whangārei",
+        "amenity": "community_centre",
+        "check_date:opening_hours": "2026-07-10",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Whangarei Proud",
+        "opening_hours:signed": "no",
+        "ref:linz:address_id": "937954",
+        "@id": "node/5052462850",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -79.38968,
           43.6592042
         ]
@@ -35084,7 +35141,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "Buchhandlung ChickLit",
-        "opening_hours": "Mo-Fr 10:00-13:00, 14:00-18:00; Sa-Su, PH, off",
+        "opening_hours": "Mo-Fr 10:00-13:00,14:00-18:00; Sa,Su,PH off",
         "operator": "Verein zur Förderung feministischer Projekte",
         "operator:email": "verein@chicklit.at",
         "payment:cash": "yes",
@@ -49788,7 +49845,7 @@
         "lgbtq": "primary",
         "min_age": "18",
         "name": "No Limits SM Bar & Lounge",
-        "opening_hours": "We 20:00-00:00, Th-Sa 20:00-02",
+        "opening_hours": "We 20:00-00:00; Th-Sa 20:00-02:00",
         "phone": "+43 676 4014426",
         "ref:vatin": "ATU61356623",
         "url": "https://www.nolimits.bar",
@@ -81806,6 +81863,27 @@
         "website": "https://lgbtq.yale.edu/",
         "wheelchair": "yes",
         "@id": "node/14000286381",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0176177,
+          52.225175
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "check_date": "2026-07-10",
+        "lgbtq": "primary",
+        "name": "Lodi Dodi",
+        "opening_hours": "Mo-Th,Su 19:00-01:00; Fr-Sa 19:00-03:00",
+        "outdoor_seating": "no",
+        "wheelchair": "limited",
+        "@id": "node/14003260757",
         "@type": "node"
       }
     },
@@ -132927,6 +133005,110 @@
         "tourism": "camp_site",
         "website": "https://www.campdavispa.com/",
         "@id": "way/1418564835",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.9645399,
+              40.4366049
+            ],
+            [
+              -79.9644462,
+              40.4365251
+            ],
+            [
+              -79.9644591,
+              40.4365175
+            ],
+            [
+              -79.9644297,
+              40.4364837
+            ],
+            [
+              -79.9644074,
+              40.4364688
+            ],
+            [
+              -79.9643671,
+              40.4364473
+            ],
+            [
+              -79.9643483,
+              40.436456
+            ],
+            [
+              -79.9643358,
+              40.4364456
+            ],
+            [
+              -79.9642924,
+              40.4364609
+            ],
+            [
+              -79.9642689,
+              40.4364479
+            ],
+            [
+              -79.963843,
+              40.4367577
+            ],
+            [
+              -79.963908,
+              40.4368141
+            ],
+            [
+              -79.9639027,
+              40.4368203
+            ],
+            [
+              -79.9639372,
+              40.436857
+            ],
+            [
+              -79.9639893,
+              40.4368219
+            ],
+            [
+              -79.9640103,
+              40.43684
+            ],
+            [
+              -79.9640427,
+              40.4368156
+            ],
+            [
+              -79.9640606,
+              40.43683
+            ],
+            [
+              -79.9643717,
+              40.4366022
+            ],
+            [
+              -79.9644497,
+              40.4366657
+            ],
+            [
+              -79.9645399,
+              40.4366049
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "architect": "Rothschild Doyno Collaborative",
+        "building": "nursing_home",
+        "building:levels": "6",
+        "lgbtq": "primary",
+        "name": "Mosaic",
+        "number_of_apartments": "48",
+        "@id": "way/1434423354",
         "@type": "way"
       }
     },
