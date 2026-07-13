@@ -3275,8 +3275,8 @@
         "addr:housenumber": "7-9",
         "addr:postcode": "52062",
         "addr:street": "Münsterplatz",
-        "check_date": "2025-07-02",
-        "check_date:opening_hours": "2025-07-02",
+        "check_date": "2026-07-12",
+        "check_date:opening_hours": "2026-07-12",
         "entrance": "yes",
         "lgbtq": "welcome",
         "name": "Schmetz am Dom",
@@ -3487,6 +3487,7 @@
         "branch": "Restaurant Atlantic",
         "brand": "GOSCH Sylt",
         "brand:wikidata": "Q83870795",
+        "check_date": "2026-07-12",
         "cuisine": "seafood",
         "indoor_seating": "yes",
         "internet_access": "no",
@@ -3524,6 +3525,7 @@
         "addr:street": "Am Strom",
         "addr:suburb": "Warnemünde",
         "amenity": "restaurant",
+        "check_date": "2026-07-12",
         "contact:email": "info@hotel-am-alten-strom.de",
         "contact:fax": "+49 381 54823444",
         "contact:phone": "+49 381 548230",
@@ -9597,7 +9599,7 @@
       },
       "properties": {
         "amenity": "cafe",
-        "check_date:opening_hours": "2023-08-06",
+        "check_date:opening_hours": "2026-07-12",
         "contact:instagram": "https://www.instagram.com/cafekittel",
         "drink:club-mate": "served",
         "indoor_seating": "yes",
@@ -23022,7 +23024,7 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2024-07-09",
+        "check_date": "2026-07-12",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "CuBar",
@@ -24339,6 +24341,32 @@
         "name": "The Lumber Yard Bar",
         "website": "https://www.thelumberyardbar.com",
         "@id": "node/3615670804",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3867862,
+          45.4362827
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "check_date": "2024-05-28",
+        "email": "zanzybar.stetienne@outlook.com",
+        "lgbtq": "primary",
+        "name": "Zanzy Bar",
+        "old_name": "Le B Four",
+        "opening_hours": "We-Su 18:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+33427646488",
+        "ref:FR:SIRET": "98773912500019",
+        "smoking": "no",
+        "wheelchair": "no",
+        "@id": "node/3617131384",
         "@type": "node"
       }
     },
@@ -30697,6 +30725,7 @@
       },
       "properties": {
         "addr:postcode": "19107",
+        "check_date:opening_hours": "2026-07-12",
         "email": "info@queerbooks.com",
         "historic": "building",
         "lgbtq": "primary",
@@ -41248,7 +41277,7 @@
         "air_conditioning": "no",
         "amenity": "cafe",
         "changing_table": "no",
-        "check_date": "2025-02-22",
+        "check_date": "2026-07-06",
         "check_date:opening_hours": "2025-02-22",
         "contact:facebook": "WattigniesNantesOfficiel",
         "contact:housenumber": "13",
@@ -41402,8 +41431,8 @@
         "addr:postcode": "52062",
         "addr:street": "Münsterplatz",
         "amenity": "fast_food",
-        "check_date": "2025-07-08",
-        "check_date:opening_hours": "2025-07-08",
+        "check_date": "2026-07-12",
+        "check_date:opening_hours": "2026-07-12",
         "cuisine": "german",
         "diet:vegetarian": "no",
         "indoor_seating": "yes",
@@ -66248,8 +66277,8 @@
         "female": "yes",
         "lgbtq": "welcome",
         "male": "yes",
-        "name": "Atellier 23 | Marco Einbock",
-        "opening_hours": "call us",
+        "name": "Atelier 23 | Marco Einbock",
+        "opening_hours": "\"nach Vereinbarung\"",
         "shop": "hairdresser",
         "unisex": "yes",
         "website": "https://atelier-23.net/",
@@ -66686,7 +66715,8 @@
         "addr:street": "Bornhofenweg",
         "amenity": "community_centre",
         "changing_table": "limited",
-        "check_date": "2024-07-22",
+        "check_date": "2026-07-10",
+        "check_date:opening_hours": "2026-07-10",
         "community_centre": "club_home",
         "community_centre:for": "lgbtq",
         "contact:email": "hallo@qzwi.de",
@@ -68347,32 +68377,6 @@
         "shop": "erotic",
         "website": "https://www.roughtradegear.com",
         "@id": "node/12237201196",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.7282804,
-          43.9265866
-        ]
-      },
-      "properties": {
-        "addr:city": "L'Isle-Bouzon",
-        "addr:housenumber": "8",
-        "addr:postcode": "32380",
-        "addr:street": "Place du Parc",
-        "amenity": "community_centre",
-        "community_centre": "party_room",
-        "community_centre:for": "lgbtq",
-        "fixme": "préciser les tags lgbtq",
-        "lgbtq": "primary",
-        "name": "Salle des Fêtes",
-        "operator": "Mairie",
-        "operator:type": "public",
-        "@id": "node/12241052641",
         "@type": "node"
       }
     },
@@ -72918,6 +72922,11 @@
         ]
       },
       "properties": {
+        "addr:city": "Ellensburg",
+        "addr:housenumber": "421",
+        "addr:postcode": "98926",
+        "addr:state": "WA",
+        "addr:street": "North Pearl Street",
         "level": "0;1",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -81645,19 +81654,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.1946592,
-          40.7761335
+          -119.2177963,
+          40.7870478
         ]
       },
       "properties": {
-        "addr:street": "3:30 & F",
-        "alt_name": "Orgy Dome",
+        "addr:street": "7:30 & F",
+        "alt_name": "Orgy Dome;ATTOL",
+        "check_date": "2026-07-12",
+        "contact": "facebook=https://facebook.com/brcdome",
+        "contact:instagram": "https://instagram.com/orgydome",
+        "email": "info@orgydome.com",
         "end_date": "2027-09-07",
-        "fixme": "Only intersection is known; will need to move to more precise location once known.",
+        "fixme": "Only intersection is known; will need to move to more precise location once known. Intersection source is https://facebook.com/brcdome post on 2026-06-21.",
         "lgbtq": "welcome",
         "name": "And Then There's Only Love",
         "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://andthentheresonlylove.com",
         "@id": "node/13991802792",
         "@type": "node"
       }
@@ -81886,6 +81900,29 @@
         "outdoor_seating": "no",
         "wheelchair": "limited",
         "@id": "node/14003260757",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2171637,
+          40.7870631
+        ]
+      },
+      "properties": {
+        "addr:street": "7:30 & E",
+        "contact:instagram": "https://instagram.com/dirtyburnersretrofrolic",
+        "email": "CampRetrofrolic@gmail.com",
+        "end_date": "2026-09-07",
+        "lgbtq": "primary",
+        "name": "Retrofrolic",
+        "source": "https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "website": "https://retrofrolic.org",
+        "@id": "node/14007406594",
         "@type": "node"
       }
     },
