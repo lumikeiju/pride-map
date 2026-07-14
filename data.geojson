@@ -1048,6 +1048,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.3483749,
+          48.1960748
+        ]
+      },
+      "properties": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:floor": "0",
+        "addr:housenumber": "1",
+        "addr:postcode": "1060",
+        "addr:street": "Schmalzhofgasse",
+        "amenity": "pharmacy",
+        "check_date": "2026-07-13",
+        "check_date:opening_hours": "2025-11-09",
+        "dispensing": "yes",
+        "email": "info@marienapo.eu",
+        "fax": "+43 1 5970207 66",
+        "healthcare": "pharmacy",
+        "internet_access": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Marien Apotheke",
+        "opening_hours": "Mo-Tu,Th 08:00-19:00; We 07:30-19:00; Fr 08:00-18:00; Sa 08:00-12:00; Su,PH off",
+        "operator": "Mag. pharm. Karin Simonitsch",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:qr_code": "no",
+        "phone": "+43 1 5970207",
+        "ref:vatin": "ATU47064901",
+        "toilets:wheelchair": "no",
+        "website": "https://www.marienapo.eu/",
+        "wheelchair": "yes",
+        "@id": "node/307423635",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -2.2373016,
           53.4774432
         ]
@@ -4283,6 +4328,7 @@
         "level": "0",
         "lgbtq": "primary",
         "name": "ExCorners",
+        "outdoor_seating": "yes",
         "payment:cards": "yes",
         "smoking": "yes",
         "toilets": "yes",
@@ -23827,9 +23873,11 @@
         "addr:postcode": "50676",
         "addr:street": "Schaafenstraße",
         "amenity": "bar",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Exile on Main Street",
         "opening_hours": "Fr,Sa,PH -1 day 21:00-05:00",
+        "outdoor_seating": "yes",
         "smoking": "no",
         "@id": "node/3465117721",
         "@type": "node"
@@ -45124,6 +45172,7 @@
         ]
       },
       "properties": {
+        "air_conditioning": "yes",
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "XS Bar",
@@ -45461,7 +45510,7 @@
         "email": "ahoj@baterkaren.sk",
         "lgbtq": "welcome",
         "name": "Baterkáreň",
-        "opening_hours": "Mo-Fr 10:00-18:00; Sa 9:00-24:00",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-24:00",
         "phone": "+421 910 326 976",
         "shop": "convenience",
         "source": "survey",
@@ -66460,13 +66509,27 @@
         ]
       },
       "properties": {
+        "addr:city": "Grand Rapids",
         "addr:housenumber": "211",
-        "addr:postcode": "49506",
+        "addr:postcode": "49506-1525",
+        "addr:state": "MI",
         "addr:street": "Diamond Avenue Southeast",
+        "addr:unit": "1",
         "amenity": "cafe",
+        "check_date:currency:XBT": "2026-07-13",
+        "contact:email": "lotusbrewcoffee@gmail.com",
+        "contact:facebook": "https://www.facebook.com/LotusBrewCo/",
+        "contact:instagram": "https://www.instagram.com/lotusbrewcoffeedrybar/",
         "cuisine": "coffee_shop",
+        "currency:XBT": "yes",
         "lgbtq": "primary",
         "name": "Lotus Brew Coffee",
+        "opening_hours": "We 08:00-18:00; Th-Su 08:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1-616-419-8613",
         "website": "https://www.lotusbrewcoffee.com",
         "@id": "node/12046338331",
         "@type": "node"
@@ -73459,8 +73522,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2139633,
-          40.7837641
+          -119.2188403,
+          40.7800479
         ]
       },
       "properties": {
@@ -73479,8 +73542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.211876,
-          40.7800353
+          -119.216753,
+          40.7763189
         ]
       },
       "properties": {
@@ -73488,7 +73551,7 @@
         "contact:facebook": "https://facebook.com/xpatalien",
         "contact:instagram": "https://instagram.com/xpatalien",
         "email": "info@xpatalien.com",
-        "end_date": "2025-09-04",
+        "end_date": "2027-09-07",
         "fixme": "Only intersection is currently known; will need to update with more precise location.",
         "lgbtq": "welcome",
         "name": "Xpat Alien",
@@ -73504,8 +73567,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2187221,
-          40.7839031
+          -119.2235991,
+          40.7801869
         ]
       },
       "properties": {
@@ -73523,8 +73586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2146125,
-          40.7836525
+          -119.2194895,
+          40.7799363
         ]
       },
       "properties": {
@@ -73542,8 +73605,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2149281,
-          40.7843127
+          -119.2198051,
+          40.7805966
         ]
       },
       "properties": {
@@ -73561,8 +73624,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2137574,
-          40.7832895
+          -119.2186344,
+          40.7795733
         ]
       },
       "properties": {
@@ -73580,8 +73643,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2142619,
-          40.7845156
+          -119.2191389,
+          40.7807995
         ]
       },
       "properties": {
@@ -73603,8 +73666,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2189984,
-          40.7835465
+          -119.2238754,
+          40.7798303
         ]
       },
       "properties": {
@@ -73622,8 +73685,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2173072,
-          40.7838423
+          -119.2221842,
+          40.7801261
         ]
       },
       "properties": {
@@ -73646,8 +73709,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2178004,
-          40.7837778
+          -119.2226774,
+          40.7800616
         ]
       },
       "properties": {
@@ -73665,8 +73728,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2171055,
-          40.7832046
+          -119.2219825,
+          40.7794884
         ]
       },
       "properties": {
@@ -73685,8 +73748,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2167413,
-          40.7868303
+          -119.2216183,
+          40.7831143
         ]
       },
       "properties": {
@@ -73710,8 +73773,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2167522,
-          40.7864561
+          -119.2216292,
+          40.7827401
         ]
       },
       "properties": {
@@ -73734,8 +73797,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2182485,
-          40.7837029
+          -119.2231255,
+          40.7799867
         ]
       },
       "properties": {
@@ -73753,8 +73816,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2182701,
-          40.7830255
+          -119.2231471,
+          40.7793093
         ]
       },
       "properties": {
@@ -73772,8 +73835,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2205969,
-          40.7865922
+          -119.2254739,
+          40.7828762
         ]
       },
       "properties": {
@@ -73794,8 +73857,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2201324,
-          40.7871873
+          -119.2250094,
+          40.7834713
         ]
       },
       "properties": {
@@ -73817,8 +73880,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2168157,
-          40.7827203
+          -119.2216927,
+          40.7790041
         ]
       },
       "properties": {
@@ -73841,8 +73904,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2138146,
-          40.7867065
+          -119.2186916,
+          40.7829905
         ]
       },
       "properties": {
@@ -73859,8 +73922,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2163317,
-          40.7840993
+          -119.2212087,
+          40.7803831
         ]
       },
       "properties": {
@@ -73878,8 +73941,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2185091,
-          40.7836349
+          -119.2233861,
+          40.7799187
         ]
       },
       "properties": {
@@ -73897,8 +73960,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2164412,
-          40.7844001
+          -119.2213182,
+          40.780684
         ]
       },
       "properties": {
@@ -73917,8 +73980,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2169643,
-          40.7839453
+          -119.2218413,
+          40.7802291
         ]
       },
       "properties": {
@@ -73940,8 +74003,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2143667,
-          40.7831353
+          -119.2192437,
+          40.7794191
         ]
       },
       "properties": {
@@ -78417,7 +78480,7 @@
         "lgbtq": "welcome",
         "mobile": "+39 348 4500145",
         "name": "Bowie",
-        "opening_hours": "Su 08:00-00:00; Mo 07:00-00:00; Tu-TH 07:30-00:00; Fr 07:30-03:00; Sa 08:00-03:00",
+        "opening_hours": "Su 08:00-00:00; Mo 07:00-00:00; Tu-Th 07:30-00:00; Fr 07:30-03:00; Sa 08:00-03:00",
         "phone": "+39011233553",
         "website": "https://www.bowietorino.it/",
         "@id": "node/13534181456",
@@ -81654,8 +81717,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2177963,
-          40.7870478
+          -119.2226733,
+          40.7833318
         ]
       },
       "properties": {
@@ -81681,8 +81744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2151277,
-          40.7892643
+          -119.2200047,
+          40.7855484
         ]
       },
       "properties": {
@@ -81704,8 +81767,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.214398,
-          40.7881184
+          -119.219275,
+          40.7844025
         ]
       },
       "properties": {
@@ -81728,8 +81791,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2134148,
-          40.7867124
+          -119.2182918,
+          40.7829964
         ]
       },
       "properties": {
@@ -81752,8 +81815,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2182251,
-          40.7820466
+          -119.2231021,
+          40.7783303
         ]
       },
       "properties": {
@@ -81775,8 +81838,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.214475,
-          40.787633
+          -119.219352,
+          40.783917
         ]
       },
       "properties": {
@@ -81798,8 +81861,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2148739,
-          40.7872843
+          -119.2197509,
+          40.7835683
         ]
       },
       "properties": {
@@ -81818,8 +81881,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2183905,
-          40.783306
+          -119.2232675,
+          40.7795898
         ]
       },
       "properties": {
@@ -81837,8 +81900,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2169586,
-          40.7829023
+          -119.2218356,
+          40.7791861
         ]
       },
       "properties": {
@@ -81908,8 +81971,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2171637,
-          40.7870631
+          -119.2220407,
+          40.7833471
         ]
       },
       "properties": {
@@ -132022,7 +132085,7 @@
         "building": "yes",
         "lgbtq": "primary",
         "name": "Bar Luky",
-        "website": "http://www.bar-luky.es/",
+        "website": "https://www.bar-luky.es/",
         "@id": "way/1388027199",
         "@type": "way"
       }
