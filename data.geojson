@@ -3532,7 +3532,7 @@
         "branch": "Restaurant Atlantic",
         "brand": "GOSCH Sylt",
         "brand:wikidata": "Q83870795",
-        "check_date": "2026-07-12",
+        "check_date": "2026-07-08",
         "cuisine": "seafood",
         "indoor_seating": "yes",
         "internet_access": "no",
@@ -10940,7 +10940,7 @@
         "diet:vegetarian": "yes",
         "lgbtq": "welcome",
         "name": "Tabla",
-        "opening_hours": "Tu-Sun 12:30-15:00; Tu 18:30-22:00; Wed 18:30-21:00; Thu-Sat 18:30-22:00",
+        "opening_hours": "Tu-Su 12:30-15:00; Tu 18:30-22:00; We 18:30-21:00; Th-Sa 18:30-22:00",
         "phone": "+33665183606",
         "ref:FR:SIRET": "98069019200011",
         "takeaway": "yes",
@@ -19252,6 +19252,8 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "203",
+        "addr:street": "Cuba Street",
         "amenity": "restaurant",
         "check_date": "2026-01-05",
         "cuisine": "pizza;pasta",
@@ -19260,6 +19262,7 @@
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Nolita",
+        "opening_hours": "Mo-Fr 12:00-21:00; Sa-Su 10:00-21:00",
         "outdoor_seating": "yes",
         "website": "https://nolita.co.nz/",
         "wheelchair": "yes",
@@ -28589,7 +28592,7 @@
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "This is Coco",
-        "opening_hours": "Mo-Th 09:30-16:30; Fr-Su 9:30-17:30",
+        "opening_hours": "Mo-Th 09:30-16:30; Fr-Su 09:30-17:30",
         "opening_hours:signed": "no",
         "outdoor_seating": "yes",
         "phone": "+49 30 259 33 003",
@@ -29526,19 +29529,16 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2025-08-06",
-        "contact:facebook": "https://www.facebook.com/100057718795202",
+        "check_date": "2026-07-14",
+        "contact:facebook": "Le-Plein-Sud-100057718795202",
         "contact:housenumber": "2",
         "contact:phone": "+33 2 40 47 06 03",
         "contact:street": "Rue Prémion",
         "lgbtq": "primary",
         "name": "Le Plein Sud",
+        "note": "Ouverture effective à vérifier. Le Siret indiquait activité cessée.",
         "opening_hours": "Mo,We-Su 15:00-02:00",
         "opening_hours:signed": "no",
-        "ref:FR:NAF": "56.30Z",
-        "ref:FR:SIREN": "326788056",
-        "ref:FR:SIRET": "32678805600025",
-        "source": "INSEE - 2025-08",
         "wheelchair": "no",
         "@id": "node/4405930389",
         "@type": "node"
@@ -44528,7 +44528,7 @@
         "healthcare:speciality": "general;internal;infectious_diseases",
         "lgbtq:trans": "primary",
         "name": "ViRo Praxisgemeinschaft",
-        "opening_hours": "Mo-Fr 9:00-13:00; Mo,Tu,Th 15:00-18:00",
+        "opening_hours": "Mo-Fr 09:00-13:00; Mo,Tu,Th 15:00-18:00",
         "operator": "Elena Rodríguez;Martin Viehweger",
         "start_date": "2020-10",
         "@id": "node/7255420186",
@@ -47587,7 +47587,7 @@
         "lgbtq": "primary",
         "lgbtq:men": "only",
         "name": "XL Sauna & Lounge",
-        "opening_hours": "Mo-Fr 14:00-24:00; Sa 14:00-24:00; Su 0:00-24:00",
+        "opening_hours": "Mo-Fr 14:00-24:00; Sa 14:00-24:00; Su 00:00-24:00",
         "@id": "node/8048040053",
         "@type": "node"
       }
@@ -79598,9 +79598,12 @@
         "addr:postcode": "97232",
         "addr:state": "OR",
         "addr:street": "Northeast Martin Luther King Junior Boulevard",
+        "alt_name": "TOTL Games",
+        "check_date": "2026-07-14",
         "lgbtq": "welcome",
         "name": "Top of the Line Games",
         "opening_hours": "11:00-20:00",
+        "phone": "+15034777113",
         "shop": "games",
         "short_name": "TOTL",
         "website": "https://totlgames.com/",
@@ -89445,7 +89448,7 @@
         "check_date:opening_hours": "2026-06-27",
         "lgbtq": "welcome",
         "name": "Lyndale Animal Hospital",
-        "opening_hours": "Mo-Fr 08:00-17:00;",
+        "opening_hours": "Mo-Fr 08:00-17:00",
         "website": "https://lyndaleanimalhospital.com/",
         "@id": "way/118880403",
         "@type": "way"
@@ -115789,44 +115792,6 @@
         "name": "Salle des fêtes",
         "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2018",
         "@id": "way/660294608",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -78.5359249,
-              0.3508097
-            ],
-            [
-              -78.5356983,
-              0.3506851
-            ],
-            [
-              -78.5359091,
-              0.3502908
-            ],
-            [
-              -78.5361447,
-              0.3504154
-            ],
-            [
-              -78.5359249,
-              0.3508097
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "amenity": "community_centre",
-        "building": "yes",
-        "lgbtq": "primary",
-        "name": "Coliseo Peñaherrera",
-        "@id": "way/662213932",
         "@type": "way"
       }
     },
