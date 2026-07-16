@@ -19078,6 +19078,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.5519748,
+          47.2185882
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "check_date": "2026-07-14",
+        "check_date:opening_hours": "2026-07-14",
+        "contact:housenumber": "4",
+        "contact:instagram": "boysbarnantes",
+        "contact:phone": "+33 2 28 44 59 50",
+        "contact:street": "Rue Ogée",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "name": "Boy's bar",
+        "opening_hours": "We-Th 20:00-02:00, Fr,Sa 22:00-04:00",
+        "was:amenity": "nightclub",
+        "was:name": "Block Men",
+        "wheelchair": "no",
+        "@id": "node/2590481065",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3545314,
           48.1972602
         ]
@@ -19235,8 +19263,10 @@
         "addr:street": "Danforth Avenue",
         "amenity": "bar",
         "check_date": "2026-01-10",
+        "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "The Only Cafe",
+        "outdoor_seating": "yes",
         "website": "https://www.theonlycafe.com/",
         "@id": "node/2603690237",
         "@type": "node"
@@ -24256,8 +24286,9 @@
         "addr:postcode": "1070",
         "addr:street": "Zollergasse",
         "amenity": "cafe",
+        "art:display": "yes",
         "changing_table": "no",
-        "check_date": "2025-12-31",
+        "check_date": "2026-07-15",
         "check_date:diet:vegan": "2025-09-07",
         "check_date:diet:vegetarian": "2025-09-07",
         "contact:facebook": "kaffemik.at",
@@ -24278,8 +24309,9 @@
         "loyalty_card": "stamps",
         "name": "kaffemik",
         "opening_hours": "Mo-Fr 08:00-18:00; Sa 10:00-18:00; Su,PH 11:00-17:00; Jan 01,Dec 24-28 off",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "pedestrian_zone",
         "payment:cash": "yes",
+        "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "phone": "+43 680 5557220",
@@ -24289,6 +24321,7 @@
         "takeaway": "yes",
         "toilets": "yes",
         "toilets:wheelchair": "no",
+        "training": "barista",
         "website": "https://www.kaffemik.at/",
         "wheelchair": "no",
         "@id": "node/3586247775",
@@ -30331,6 +30364,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.7589249,
+          48.113694
+        ]
+      },
+      "properties": {
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Deanna's Hair Design",
+        "shop": "hairdresser",
+        "@id": "node/4539931519",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -81.7685868,
           41.4618321
         ]
@@ -32249,6 +32300,26 @@
         "recycling:green_waste": "yes",
         "website": "https://www.habitat-baumpflege.de/",
         "@id": "node/4906229541",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7573942,
+          48.1141865
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "940",
+        "addr:street": "Water Street",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "flag",
+        "name": "PT Shirt Company",
+        "shop": "clothes",
+        "@id": "node/4922649073",
         "@type": "node"
       }
     },
@@ -51793,7 +51864,7 @@
         "level": "0",
         "lgbtq": "primary",
         "name": "Juicy Leipzig",
-        "opening_hours": "So, Mo, Tu off; We 14:00-19:00 \"FLINTAQ only\"; Th 14:00-19:00; Fr,Sa 14:00-18:00",
+        "opening_hours": "Su,Mo,Tu off; We 14:00-19:00 \"FLINTAQ only\"; Th 14:00-19:00; Fr,Sa 14:00-18:00",
         "payment:cash": "yes",
         "payment:debit_cards": "yes",
         "shop": "erotic",
@@ -53586,7 +53657,7 @@
         "healthcare:speciality": "general;acupuncture;palliative;chiropractic;vaccination",
         "lgbtq": "welcome",
         "name": "Hausärztliche Praxis",
-        "opening_hours": "Mo-Fr 8:00-12:00, Mo,Tu,Th 14:00-17:00, \"by appointment\"",
+        "opening_hours": "Mo-Fr 08:00-12:00, Mo,Tu,Th 14:00-17:00, \"by appointment\"",
         "operator": "Stephan Gemein, Dr. med. Luise Topf",
         "phone": "+49 341 6880447",
         "website": "https://hausarztleipzig.com/",
@@ -108434,28 +108505,28 @@
         "coordinates": [
           [
             [
-              16.3619504,
-              48.2138468
+              16.3619965,
+              48.2138682
             ],
             [
-              16.3619816,
-              48.213817
+              16.3620277,
+              48.2138384
             ],
             [
-              16.3620282,
-              48.2138114
+              16.3620743,
+              48.2138328
             ],
             [
-              16.3620569,
-              48.2138527
+              16.362103,
+              48.2138741
             ],
             [
-              16.3620006,
-              48.2138701
+              16.3620467,
+              48.2138915
             ],
             [
-              16.3619504,
-              48.2138468
+              16.3619965,
+              48.2138682
             ]
           ]
         ]
