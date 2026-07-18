@@ -28559,6 +28559,7 @@
         "name": "Le Shalimar",
         "opening_hours": "Mo-Th,Su 11:45-13:45,18:45-21:45;Fr-Sa 11:45-13:45,18:45-22:15",
         "phone": "+33 9 70 35 17 74",
+        "ref:FR:SIRET": "79230312500019",
         "reservation": "recommended",
         "website": "https://www.restaurant-indien-valence.fr/",
         "website:menu": "https://www.restaurant-indien-valence.fr/carte.php",
@@ -29848,6 +29849,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.6123385,
+          -33.4229412
+        ]
+      },
+      "properties": {
+        "addr:city": "Providencia",
+        "addr:street": "Orrego Luco",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Taberna Samej",
+        "source": "Reconocimiento cortográfico de campo 2016 por KG",
+        "@id": "node/4448387091",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.1608385,
           41.3845748
         ]
@@ -30246,6 +30267,7 @@
         "name": "Shalimar junior",
         "opening_hours": "Mo-Th,Su 11:45-13:45,18:45-21:45; Fr-Sa 11:45-13:45,18:45-22:15",
         "phone": "+33 9 70 35 17 74",
+        "ref:FR:SIRET": "79230312500019",
         "reservation": "recommended",
         "website": "https://www.restaurant-indien-valence.fr/",
         "website:menu": "https://www.restaurant-indien-valence.fr/carte.php",
@@ -32458,6 +32480,7 @@
         "lgbtq": "welcome",
         "name": "Top",
         "ref:LV:addr": "101851967",
+        "website": "https://www.topclub.lv/",
         "@id": "node/4958190321",
         "@type": "node"
       }
@@ -39823,10 +39846,10 @@
         "air_conditioning": "no",
         "amenity": "cafe",
         "changing_table": "no",
-        "check_date": "2026-02-11",
-        "check_date:diet:vegetarian": "2026-02-11",
-        "check_date:opening_hours": "2025-09-17",
-        "check_date:smoking": "2026-02-11",
+        "check_date": "2026-07-16",
+        "check_date:diet:vegetarian": "2026-07-16",
+        "check_date:opening_hours": "2026-07-16",
+        "check_date:smoking": "2026-07-16",
         "contact:facebook": "https://www.facebook.com/cafeundbistrotransfair/",
         "contact:instagram": "https://www.instagram.com/cafe_transfair",
         "cuisine": "coffee_shop;cake",
@@ -39844,6 +39867,7 @@
         "payment:credit_cards": "no",
         "payment:debit_cards": "no",
         "smoking": "outside",
+        "takeaway": "yes",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes",
         "@id": "node/6470345311",
@@ -54745,7 +54769,10 @@
         "addr:state": "AR",
         "addr:street": "West Wedington Drive",
         "amenity": "cafe",
+        "contact:facebook": "https://www.facebook.com/sixtwelvecoffeehouseandbar/",
+        "contact:instagram": "https://www.instagram.com/sixtwelve612/",
         "cuisine": "pizza;chicken;wings;cheesy_bean_dip",
+        "description": "Coffeehouse and bar on Wedington Drive serving coffee, tea, cocktails, and food, with live music.",
         "internet_access": "wlan",
         "lgbtq": "welcome",
         "name": "Six Twelve Coffeehouse & Bar",
@@ -57695,6 +57722,7 @@
         "addr:housenumber": "3",
         "addr:street": "Itsenäisyydenkatu",
         "amenity": "restaurant",
+        "check_date": "2026-07-17",
         "cuisine": "asian",
         "diet:gluten_free": "yes",
         "diet:vegan": "yes",
@@ -57707,6 +57735,9 @@
         "name": "Whatever",
         "opening_hours": "Mo-Fr 10:30-20:00; Sa 12:00-18:00",
         "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "0456700510",
         "website": "https://restaurant-whatever.fi/",
         "@id": "node/10278807598",
@@ -60989,6 +61020,7 @@
         "operator:type": "association",
         "website": "https://www.lovemyway.it/",
         "wheelchair": "limited",
+        "wikidata": "Q136337811",
         "@id": "node/11161114464",
         "@type": "node"
       }
@@ -82096,6 +82128,29 @@
         "tourism": "camp_site",
         "website": "https://retrofrolic.org",
         "@id": "node/14007406594",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1319063,
+          36.6838604
+        ]
+      },
+      "properties": {
+        "addr:city": "Jerez de la Frontera",
+        "addr:housenumber": "42",
+        "addr:postcode": "11401",
+        "addr:street": "Calle Arcos",
+        "amenity": "bar",
+        "facebook": "https://www.facebook.com/profile.php?id=61592048484298",
+        "instagram": "https://www.instagram.com/la_bocana_jerez/",
+        "lgbtq": "primary",
+        "name": "La Bocaná",
+        "@id": "node/14022757025",
         "@type": "node"
       }
     },
