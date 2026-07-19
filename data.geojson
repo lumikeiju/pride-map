@@ -9205,13 +9205,15 @@
         "addr:housenumber": "10",
         "addr:postcode": "66111",
         "addr:street": "Fröschengasse",
-        "check_date": "2025-06-10",
+        "check_date": "2026-07-18",
+        "check_date:opening_hours": "2026-07-18",
+        "clothes": "wedding",
         "level": "0",
         "lgbtq": "welcome",
-        "name": "FS Fabienne Schwarzer",
+        "name": "Fabienne Schwarzer",
         "old_name": "No. 10;Comic",
-        "opening_hours": "Mo-Sa 10:00-18:00; PH,Su closed",
-        "shop": "tailor",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su,PH off",
+        "shop": "clothes",
         "strapline": "Bridal Design",
         "wheelchair": "no",
         "wheelchair:description": "2 Stufen nach der Tür",
@@ -19655,7 +19657,7 @@
         "amenity": "bar",
         "check_date": "2026-06-28",
         "contact:facebook": "cafekoetje",
-        "contact:instagam": "cafekoetje",
+        "contact:instagram": "cafekoetje",
         "email": "info@cafekoetje.nl",
         "lgbtq": "welcome",
         "name": "Café Koetje",
@@ -19716,24 +19718,6 @@
         "lgbtq": "welcome",
         "name": "Boate Oficina Club",
         "@id": "node/2677092429",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -47.9372406,
-          -15.7609882
-        ]
-      },
-      "properties": {
-        "addr:street": "SAA Quadra 01 lote 930",
-        "amenity": "nightclub",
-        "lgbtq": "welcome",
-        "name": "Victoria Haus",
-        "@id": "node/2678765929",
         "@type": "node"
       }
     },
@@ -24453,7 +24437,7 @@
         "old_name": "Le B Four",
         "opening_hours": "We-Su 18:00-01:00",
         "outdoor_seating": "no",
-        "phone": "+33427646488",
+        "phone": "+33 4 27 64 64 88",
         "ref:FR:SIRET": "98773912500019",
         "smoking": "no",
         "wheelchair": "no",
@@ -32475,10 +32459,12 @@
         "addr:postcode": "LV-1050",
         "addr:street": "Alfrēda Kalniņa iela",
         "amenity": "nightclub",
-        "check_date": "2024-09-04",
+        "check_date": "2026-07-18",
+        "check_date:opening_hours": "2026-07-18",
         "internet_access": "wlan",
         "lgbtq": "welcome",
         "name": "Top",
+        "opening_hours": "Tu-Th 20:00-02:00, Fr,Sa 21:00-07:00, Su 20:00-02:00",
         "ref:LV:addr": "101851967",
         "website": "https://www.topclub.lv/",
         "@id": "node/4958190321",
@@ -55372,15 +55358,13 @@
         "addr:postcode": "103-0007",
         "addr:province": "東京都",
         "addr:quarter": "日本橋浜町",
+        "addr:street": "清洲橋通り",
         "amenity": "cafe",
-        "contact:facebook": "BrewParlor3615",
-        "contact:instagram": "brewparlor3615",
-        "contact:twitter": "@BrewParlor3615",
-        "cuisine": "coffee_shop",
+        "check_date": "2026-07-18",
+        "check_date:opening_hours": "2026-07-18",
+        "cuisine": "deli;sandwich",
         "delivery": "no",
         "diet:gluten_free": "yes",
-        "diet:vegan": "yes",
-        "diet:vegetarian": "only",
         "drink:coffee": "yes",
         "indoor_seating": "yes",
         "internet_access": "wlan",
@@ -55388,8 +55372,8 @@
         "internet_access:ssid": "BrewParlor3615-2G;BrewParlor3615-5G",
         "level": "0",
         "lgbtq": "welcome",
-        "name": "Brew Parlor 3615",
-        "opening_hours": "Mo-Fr 11:30-17:00 open \"Lunch Box\" || Mo-Fr 07:00-17:00; Su,PH 11:30-18:00 open \"Lunch Box\" || Su,PH 09:00-18:00",
+        "name": "わくわく広場日本橋浜町店",
+        "opening_hours": "10:00-19:00",
         "outdoor_seating": "no",
         "payment:apple_pay": "yes",
         "payment:au_pay": "yes",
@@ -55400,6 +55384,7 @@
         "payment:id": "yes",
         "payment:quicpay": "yes",
         "payment:rakuten_pay": "yes",
+        "phone": "070-2247-5444",
         "reusable_packaging:accept": "no",
         "reusable_packaging:offer": "yes",
         "self_service": "partially",
@@ -55407,6 +55392,7 @@
         "takeaway": "yes",
         "toilets": "yes",
         "toilets:wheelchair": "no",
+        "website": "https://wakuwaku-hiroba.com/shop/わくわく広場%E3%80%80日本橋浜町店/",
         "wheelchair": "limited",
         "@id": "node/9929754071",
         "@type": "node"
@@ -63791,9 +63777,12 @@
         "addr:postcode": "55408",
         "addr:state": "MN",
         "addr:street": "West Lake Street",
+        "air_conditioning": "yes",
         "amenity": "restaurant",
-        "check_date": "2026-03-03",
+        "check_date": "2026-07-18",
         "check_date:diet:vegan": "2025-11-17",
+        "check_date:opening_hours": "2026-07-18",
+        "contact:instagram": "wrecktanglepizzamn",
         "cuisine": "pizza",
         "diet:dairy": "yes",
         "diet:omnivore": "yes",
@@ -63804,11 +63793,12 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Wrecktangle Pizza",
-        "opening_hours": "We-Fr 16:00-23:00; Sa-Su 11:00-23:00",
+        "opening_hours": "Mo, We-Th 16:00-00:00; Fr-Su 11:00-00:00",
         "outdoor_seating": "yes",
         "phone": "+1 612-444-4420",
         "self_service": "no",
-        "website": "https://wrecktanglepizza.com/lynlake",
+        "toilets": "yes",
+        "website": "https://wrecktanglepizza.com/lyn-lake",
         "website:menu": "https://static1.squarespace.com/static/6211216ebf14d728300edd98/t/6920eb88619d7d051bd57326/1763765128532/FULL+MENU+LYNLAKE.pdf",
         "@id": "node/11674328215",
         "@type": "node"
@@ -68848,7 +68838,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "Centre Médical et Esthétique des Canuts",
-        "opening_hours": "Mo-Fr 09:00-13:00,14:00–19:00",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-19:00",
         "opening_hours:signed": "no",
         "operator": "Centre Médical Croix Rousse",
         "operator:type": "private",
@@ -74002,7 +73992,7 @@
       },
       "properties": {
         "addr:street": "7:30 & G plaza",
-        "contact:instgram": "https://instagram.com/noholesbarred_comedyclub",
+        "contact:instagram": "https://instagram.com/noholesbarred_comedyclub",
         "end_date": "2026-09-07",
         "fixme": "Only intersection is known; needs a more precision location once known.",
         "lgbtq": "primary",
@@ -81460,6 +81450,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          9.6118753,
+          47.7833441
+        ]
+      },
+      "properties": {
+        "contact:phone": "+4975195873207",
+        "lgbtq": "welcome",
+        "name": "Comeback Vintage Store",
+        "opening_hours": "Mo-Fr 11:00-18:30; Sa 11:00-16:00",
+        "second_hand": "only",
+        "shop": "clothes",
+        "@id": "node/13923605054",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.7022978,
           40.4124408
         ]
@@ -82151,6 +82161,34 @@
         "lgbtq": "primary",
         "name": "La Bocaná",
         "@id": "node/14022757025",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7961203,
+          33.5013517
+        ]
+      },
+      "properties": {
+        "addr:city": "Birmingham",
+        "addr:housenumber": "2012",
+        "addr:postcode": "35205",
+        "addr:state": "AL",
+        "addr:street": "Magnolia Avenue South",
+        "addr:unit": "R1;R2",
+        "amenity": "bar",
+        "check_date": "2026-07-18",
+        "contact:facebook": "https://facebook.com/IconBham",
+        "email": "iconbirmingham@gmail.com",
+        "lgbtq": "primary",
+        "name": "ICON Birmingham",
+        "opening_hours": "We-Fr 18:00-02:00; Sa-Su 16:00-02:00",
+        "website": "https://flow.page/iconbirmingham",
+        "@id": "node/14025386572",
         "@type": "node"
       }
     },
