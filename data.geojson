@@ -8999,10 +8999,12 @@
         "contact:phone": "+49 89 295672",
         "contact:website": "https://petitcafe1962.de",
         "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Petit Café",
         "opening_hours": "Mo-Su 15:00-22:00",
+        "outdoor_seating": "yes",
         "wheelchair": "no",
         "@id": "node/1347976611",
         "@type": "node"
@@ -23720,18 +23722,21 @@
       },
       "properties": {
         "addr:city": "Berlin",
-        "addr:housenumber": "27",
+        "addr:housenumber": "28",
         "addr:postcode": "12435",
         "addr:street": "Karl-Kunger-Straße",
         "addr:suburb": "Alt-Treptow",
-        "check_date": "2024-09-09",
+        "check_date": "2026-07-19",
         "craft": "photographer",
+        "email": "fotostudio.pahl@gmx.de",
+        "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Fotostudio Pahl",
         "opening_hours": "\"nach Vereinbarung\"",
         "operator": "Pahl",
         "outdoor_seating": "no",
+        "phone": "+49 30 5328154;+49 163 2553188",
         "website": "https://www.fotostudio-pahl.de/",
         "@id": "node/3442702173",
         "@type": "node"
@@ -27666,13 +27671,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.9308863,
-          60.1665439
+          24.9396474,
+          60.1639524
         ]
       },
       "properties": {
-        "addr:housenumber": "1",
-        "addr:street": "Malminrinne",
+        "addr:housenumber": "16",
+        "addr:street": "Uudenmaankatu",
         "amenity": "bar",
         "contact:email": "streetpridebar69@gmail.com",
         "contact:phone": "+358413132010",
@@ -31101,6 +31106,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          24.9361882,
+          60.163901
+        ]
+      },
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "26",
+        "addr:postcode": "00120",
+        "addr:street": "Bulevardi",
+        "amenity": "bar",
+        "contact:facebook": "roombulevard",
+        "contact:instagram": "roombulevard",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "Room Blvd",
+        "opening_hours": "14:00-02:00",
+        "outdoor_seating": "yes",
+        "@id": "node/4692013482",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -9.1539677,
           38.7147589
         ]
@@ -32874,6 +32906,36 @@
         "website": "https://exitamsterdam.nl/",
         "wheelchair": "limited",
         "@id": "node/5028417622",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.3664079,
+          48.4244768
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1011",
+        "addr:street": "Broad Street",
+        "amenity": "restaurant",
+        "check_date": "2026-07-18",
+        "cuisine": "italian",
+        "delivery": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "eat@pagliaccis.ca",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Pagliacci's",
+        "opening_hours": "Mo-Th 11:30-22:00; Fr-Sa 11:30-23:00; Su 10:00-22:00",
+        "phone": "+1-250-386-1662",
+        "takeaway": "yes",
+        "website": "https://www.pagliaccis.ca/",
+        "@id": "node/5029339655",
         "@type": "node"
       }
     },
@@ -41016,6 +41078,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.3449319,
+          44.4953599
+        ]
+      },
+      "properties": {
+        "addr:city": "Bologna",
+        "addr:housenumber": "2a",
+        "addr:postcode": "40126",
+        "addr:street": "Via degli Albari",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "various",
+        "contact:instagram": "https://www.instagram.com/nobody.queerbar?igsh=MWpyenR0MWRmZnV6dg==",
+        "description": "Nobody is perfect.\nNobody is for everybody.\nQueer Bar / Cocktails / & more",
+        "food": "yes",
+        "image": "https://maps.app.goo.gl/tiCQfP2TjiNxHSHZ7?g_st=ac",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "lgbtq": "primary",
+        "name": "Nobody",
+        "opening_hours": "Tu-Th 11:00-00:00; Fr 11:00-01:30; Sa 10:00-01:30; Su 10:00-00:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes",
+        "@id": "node/6550744785",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -74.0005435,
           40.7340227
         ]
@@ -42144,7 +42238,6 @@
       "properties": {
         "amenity": "pharmacy",
         "contact:email": "remus@appate.cz",
-        "contact:phone": "+420 377 520 755",
         "contact:website": "https://lekarna-remus.business.site",
         "dispensing": "yes",
         "drive_through": "no",
@@ -55338,63 +55431,6 @@
         "sport": "billiards",
         "website": "http://ohonlark.com/",
         "@id": "node/9921603810",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.789453,
-          35.6844315
-        ]
-      },
-      "properties": {
-        "addr:block_number": "20",
-        "addr:city": "中央区",
-        "addr:housenumber": "11",
-        "addr:neighbourhood": "3",
-        "addr:postcode": "103-0007",
-        "addr:province": "東京都",
-        "addr:quarter": "日本橋浜町",
-        "addr:street": "清洲橋通り",
-        "amenity": "cafe",
-        "check_date": "2026-07-18",
-        "check_date:opening_hours": "2026-07-18",
-        "cuisine": "deli;sandwich",
-        "delivery": "no",
-        "diet:gluten_free": "yes",
-        "drink:coffee": "yes",
-        "indoor_seating": "yes",
-        "internet_access": "wlan",
-        "internet_access:fee": "customers",
-        "internet_access:ssid": "BrewParlor3615-2G;BrewParlor3615-5G",
-        "level": "0",
-        "lgbtq": "welcome",
-        "name": "わくわく広場日本橋浜町店",
-        "opening_hours": "10:00-19:00",
-        "outdoor_seating": "no",
-        "payment:apple_pay": "yes",
-        "payment:au_pay": "yes",
-        "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "payment:edy": "yes",
-        "payment:icsf": "yes",
-        "payment:id": "yes",
-        "payment:quicpay": "yes",
-        "payment:rakuten_pay": "yes",
-        "phone": "070-2247-5444",
-        "reusable_packaging:accept": "no",
-        "reusable_packaging:offer": "yes",
-        "self_service": "partially",
-        "smoking": "no",
-        "takeaway": "yes",
-        "toilets": "yes",
-        "toilets:wheelchair": "no",
-        "website": "https://wakuwaku-hiroba.com/shop/わくわく広場%E3%80%80日本橋浜町店/",
-        "wheelchair": "limited",
-        "@id": "node/9929754071",
         "@type": "node"
       }
     },
@@ -77904,23 +77940,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.0983034,
-          48.7546831
-        ]
-      },
-      "properties": {
-        "amenity": "nightclub",
-        "lgbtq": "primary",
-        "name": "ПОКОЙО 67",
-        "@id": "node/13413894398",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           24.9602854,
           60.1842327
         ]
@@ -82189,6 +82208,34 @@
         "opening_hours": "We-Fr 18:00-02:00; Sa-Su 16:00-02:00",
         "website": "https://flow.page/iconbirmingham",
         "@id": "node/14025386572",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4433608,
+          23.4734389
+        ]
+      },
+      "properties": {
+        "addr:city": "嘉義市",
+        "addr:district": "西區",
+        "addr:floor": "-1",
+        "addr:housenumber": "640",
+        "addr:postcode": "600",
+        "addr:street": "垂楊路",
+        "contact:facebook": "https://www.facebook.com/100063676218978/",
+        "email": "a052223155@gmail.com",
+        "leisure": "fitness_centre",
+        "lgbtq": "primary",
+        "lgbtq:gay": "primary",
+        "name": "嘉義健身休閒中心",
+        "opening_hours": "Mo-Fr off; Sa-Su 14:30-21:00; PH 14:30-21:00",
+        "phone": "+886 5 222 3155",
+        "@id": "node/14026645401",
         "@type": "node"
       }
     },
@@ -108024,36 +108071,48 @@
               53.2557527
             ],
             [
-              12.910722,
-              53.2556072
+              12.9104605,
+              53.2556353
+            ],
+            [
+              12.9107041,
+              53.25557
             ],
             [
               12.9095108,
               53.2540894
             ],
             [
-              12.9093964,
-              53.2534841
+              12.9094231,
+              53.253493
             ],
             [
-              12.9094295,
-              53.252624
+              12.9099214,
+              53.2532567
             ],
             [
-              12.9099102,
-              53.2524856
+              12.9099473,
+              53.2525265
+            ],
+            [
+              12.9099277,
+              53.2524833
             ],
             [
               12.9105556,
               53.2520977
             ],
             [
+              12.9103709,
+              53.251874
+            ],
+            [
               12.910333,
               53.2518281
             ],
             [
-              12.9096366,
-              53.2520118
+              12.9095913,
+              53.2518395
             ],
             [
               12.9088122,
@@ -108088,16 +108147,20 @@
               53.2515871
             ],
             [
-              12.9076379,
-              53.251791
+              12.9076582,
+              53.2517854
             ],
             [
-              12.9077289,
-              53.2519253
+              12.9077508,
+              53.2518958
             ],
             [
-              12.9079712,
-              53.2519218
+              12.9077584,
+              53.2519092
+            ],
+            [
+              12.9079599,
+              53.2518781
             ],
             [
               12.9081167,
@@ -108115,6 +108178,7 @@
         ]
       },
       "properties": {
+        "access": "customers",
         "addr:city": "Wustrow",
         "addr:country": "DE",
         "addr:housenumber": "1",
@@ -108129,6 +108193,7 @@
         "contact:phone": "+49 39828 266191",
         "contact:website": "https://raetzsee.de",
         "drinking_water": "yes",
+        "fee": "yes",
         "hot_water": "yes",
         "internet_access": "yes",
         "lgbtq": "welcome",
@@ -108138,6 +108203,9 @@
         "name": "FKK Campingplatz am Rätzsee",
         "nudism": "yes",
         "operator": "Campingzeit am Rätzsee GmbH",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
         "permanent_camping": "yes",
         "picnic_table": "yes",
         "sanitary_dump_station": "yes",
@@ -135101,6 +135169,68 @@
         "phone": "+1-250-745-3999",
         "website": "https://nitinahtcampground.com/",
         "@id": "way/1533273621",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.5165736,
+              34.2651996
+            ],
+            [
+              -118.5165754,
+              34.2650269
+            ],
+            [
+              -118.5165822,
+              34.2650269
+            ],
+            [
+              -118.516589,
+              34.265027
+            ],
+            [
+              -118.5166298,
+              34.2650227
+            ],
+            [
+              -118.5166297,
+              34.2650273
+            ],
+            [
+              -118.5166279,
+              34.2651999
+            ],
+            [
+              -118.5165736,
+              34.2651996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Granada Hills",
+        "addr:housenumber": "17535",
+        "addr:postcode": "91344",
+        "addr:state": "CA",
+        "addr:street": "Chatsworth Street",
+        "addr:unit": "A",
+        "branch": "Granada Hills",
+        "indoor": "room",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "The Stkr Store",
+        "opening_hours": "Su-Th 11:00-07:30; Fr-Sa 11:00-9:00",
+        "phone": "+1-626-553-0925",
+        "shop": "stationery",
+        "start_date": "2026-07-11",
+        "website": "https://thestkrstore.com/",
+        "@id": "way/1540720846",
         "@type": "way"
       }
     },
