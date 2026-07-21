@@ -4042,6 +4042,8 @@
         "addr:street": "Bergsgatan",
         "amenity": "bar",
         "check_date": "2025-01-04",
+        "contact:instagram": "atemlosmalmo",
+        "email": "info@atemlos.se",
         "indoor_seating": "yes",
         "level": "0",
         "lgbtq": "primary",
@@ -20657,11 +20659,16 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "10",
+        "addr:street": "Rue Defly",
         "amenity": "bar",
         "facebook": "https://www.facebook.com/LESWING06/",
         "lgbtq": "welcome",
         "name": "Le Swing",
+        "ref:FR:NAF": "56.30Z",
+        "ref:FR:SIREN": "803779610",
         "ref:FR:SIRET": "80377961000010",
+        "source": "INSEE - 2026-07",
         "@id": "node/2779377535",
         "@type": "node"
       }
@@ -31670,8 +31677,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.3563853,
-          49.1752466
+          -0.356325,
+          49.1752659
         ]
       },
       "properties": {
@@ -36752,7 +36759,7 @@
         "addr:street": "Rúa Oliva",
         "amenity": "nightclub",
         "lgbtq": "primary",
-        "name": "Plaf!",
+        "name": "¡Plaff!",
         "opening_hours": "Th 19:00-25:00; Fr 20:00-27:30; Sa 20:00-28:00; Su 19:00-25:00",
         "@id": "node/5844787924",
         "@type": "node"
@@ -47441,7 +47448,7 @@
         "email": "hello@breakfast-in-america.com",
         "lgbtq": "welcome",
         "name": "Breakfast in America \"Marais\"",
-        "opening_hours": "Mo-Su 8:30-22:00",
+        "opening_hours": "Mo-Su 08:30-22:00",
         "phone": "+33 1 42 72 40 21",
         "ref:FR:SIRET": "48328633200018",
         "short_name": "BIA",
@@ -56122,6 +56129,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          21.0110236,
+          52.2360545
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "18",
+        "addr:street": "Świętokrzyska",
+        "check_date": "2024-02-17",
+        "female": "yes",
+        "hairdresser": "barber",
+        "lgbtq": "welcome",
+        "male": "yes",
+        "name": "Margines",
+        "opening_hours": "Mo 09:00-19:00; Tu-Sa 09:00-21:00; Su 10:00-19:00",
+        "reservation": "recommended",
+        "shop": "hairdresser",
+        "unisex": "yes",
+        "website": "https://marginesbarber.pl/",
+        "website:booking": "https://margines.booksy.com/",
+        "wheelchair": "no",
+        "@id": "node/9980182409",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           21.0132819,
           52.2372549
         ]
@@ -58322,7 +58358,7 @@
         "level": "0",
         "lgbtq": "primary",
         "name": "QZM - Queeres Zentrum Mannheim",
-        "opening_hours": "Do-Sa 18:00-23:00",
+        "opening_hours": "Th-Sa 18:00-23:00",
         "operator": "QZM",
         "operator:type": "ngo",
         "phone": "+4962115677628",
@@ -61112,6 +61148,33 @@
         "operator:type": "private",
         "phone": "+39 329 333 3653",
         "@id": "node/11167727567",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5036574,
+          35.9153821
+        ]
+      },
+      "properties": {
+        "addr:city": "Tas-Sliema",
+        "addr:country": "MT",
+        "addr:housenumber": "19",
+        "addr:postcode": "SLM 1859",
+        "addr:street": "Triq Windsor",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/sirena.malta",
+        "contact:instagram": "@sirena.malta",
+        "email": "info@sirenamalta.com",
+        "lgbtq": "primary",
+        "name": "Sirena - Drag Bar & Gay Café",
+        "opening_hours": "Mo-Su 16:00-00:00",
+        "phone": "+35679561851",
+        "@id": "node/11169780318",
         "@type": "node"
       }
     },
@@ -82222,10 +82285,13 @@
       },
       "properties": {
         "addr:city": "嘉義市",
+        "addr:country": "TW",
         "addr:district": "西區",
-        "addr:floor": "-1",
+        "addr:floor": "B1",
+        "addr:full": "600嘉義市西區垂楊路640號B1樓",
         "addr:housenumber": "640",
         "addr:postcode": "600",
+        "addr:province": "台灣省",
         "addr:street": "垂楊路",
         "contact:facebook": "https://www.facebook.com/100063676218978/",
         "email": "a052223155@gmail.com",
@@ -83050,8 +83116,10 @@
         "addr:housenumber": "17105",
         "addr:postcode": "98072",
         "addr:street": "Avondale Road Northeast",
+        "air_conditioning": "yes",
         "amenity": "library",
         "building": "library",
+        "changing_table": "yes",
         "internet_access": "terminal;wlan",
         "internet_access:fee": "no",
         "internet_access:ssid": "kcls.org Wireless",
@@ -83069,6 +83137,7 @@
         "service:print": "yes",
         "service:scan": "yes",
         "source": "bing",
+        "toilets": "yes",
         "website": "https://kcls.org/locations/1548",
         "@id": "way/32993409",
         "@type": "way"
@@ -97061,6 +97130,10 @@
               33.768108
             ],
             [
+              -118.1734175,
+              33.7681144
+            ],
+            [
               -118.1734932,
               33.768124
             ],
@@ -110104,6 +110177,10 @@
               33.7675977
             ],
             [
+              -118.1709676,
+              33.7675864
+            ],
+            [
               -118.1708827,
               33.7675753
             ],
@@ -110154,6 +110231,10 @@
             [
               -118.1705106,
               33.7675235
+            ],
+            [
+              -118.1704204,
+              33.7675104
             ],
             [
               -118.170338,
@@ -111056,17 +111137,20 @@
         "addr:street": "Lakewood Boulevard",
         "amenity": "bar",
         "building": "retail",
+        "contact:instagram": "https://www.instagram.com/fluxcocktailbar/",
         "ele": "21.5",
+        "food": "yes",
         "height": "3.2",
+        "indoor_seating": "yes",
         "lacounty:ain": "7162020059",
         "lacounty:bld_id": "518312775319",
         "lgbtq": "primary",
         "min_age": "21",
         "name": "Flux",
         "opening_hours": "Tu-Su 14:00-26:00",
-        "phone": "+1-562-633-6394",
+        "phone": "+1-310-554-4447",
         "start_date": "1953",
-        "website": "http://www.fluxbarla.com/",
+        "website": "http://www.fluxcocktailbar.com/",
         "@id": "way/455831712",
         "@type": "way"
       }
