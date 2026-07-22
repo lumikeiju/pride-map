@@ -2276,7 +2276,7 @@
         "operator": "Manfred Keiper",
         "shop": "books",
         "website": "https://www.anderebuchhandlung.de/",
-        "wheelchair": "limited",
+        "wheelchair": "yes",
         "@id": "node/365860941",
         "@type": "node"
       }
@@ -3817,28 +3817,6 @@
         "wheelchair": "no",
         "wikidata": "Q28791184",
         "@id": "node/500618033",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.8901611,
-          44.4115814
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "13 rosso",
-        "addr:street": "Via Alfredo Carzino",
-        "amenity": "nightclub",
-        "contact:instagram": "virgodiscoclub",
-        "lgbtq": "welcome",
-        "live_music": "yes",
-        "name": "Virgo Disco Club",
-        "website": "http://www.virgoclub.com/",
-        "@id": "node/506626158",
         "@type": "node"
       }
     },
@@ -16264,12 +16242,18 @@
         ]
       },
       "properties": {
+        "addr:floor": "G",
+        "addr:housenumber": "176",
         "addr:street": "Cuba Street",
         "amenity": "bar",
+        "check_date": "2026-07-22",
         "facebook": "https://www.facebook.com/SMs-117307008345438/",
+        "level": "0",
         "lgbtq": "primary",
         "name": "Scotty and Mal S&Ms",
-        "opening_hours": "Tu-We,Su 17:00-24:00+; Fr 17:00-27:00; Sa 19:00-27:00; Mo off",
+        "opening_hours": "Mo-Tu,Su off; We-Sa 17:00-02:00",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+64 4 802 5335",
         "website": "http://www.scottyandmals.co.nz/",
         "@id": "node/2187889934",
@@ -37502,9 +37486,13 @@
         "addr:state": "UT",
         "addr:street": "East 900 South",
         "amenity": "veterinary",
+        "check_date": "2026-07-21",
         "lgbtq": "welcome",
         "name": "University Veterinary Hospital",
         "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-14:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "@id": "node/6069540960",
         "@type": "node"
       }
@@ -84464,18 +84452,16 @@
         "addr:postcode": "45202",
         "addr:state": "OH",
         "addr:street": "Walnut Street",
-        "amenity": "bar",
+        "amenity": "nightclub",
         "building": "retail",
         "building:levels": "3",
-        "contact:email": "belowzerolounge@aol.com",
-        "contact:facebook": "https://www.facebook.com/BelowZeroLounge/",
-        "contact:twitter": "https://twitter.com/BelowZeroLounge",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
+        "email": "inquiries@bloomotr.com",
         "lgbtq": "primary",
-        "name": "Below 0 Lounge",
-        "phone": "+1 513-421-9376",
-        "website": "https://www.belowzerolounge.com/",
+        "name": "Bloom OTR",
+        "old_name": "Below 0 Lounge",
+        "opening_hours": "Th 17:00-15:30; Fr-Sa 17:00-26:30; Su 11:00-16:00",
+        "phone": "+1 513-537-4591",
+        "website": "https://bloomotr.com/",
         "@id": "way/50725363",
         "@type": "way"
       }
@@ -96471,6 +96457,7 @@
         "amenity": "pub",
         "building": "yes",
         "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
         "microbrewery": "yes",
         "name": "Rushford & Sons",
         "@id": "way/216384478",
