@@ -6458,7 +6458,7 @@
         "lgbtq": "primary",
         "lgbtq:women": "primary",
         "name": "Café Glück",
-        "opening_hours": "Tu-Fr 18:00-01:00, Sa,Su 10:00-01:00",
+        "opening_hours": "Mo,Tu,Th,Fr 18:00-24:00, Sa,Su,PH 10:00-24:00; We off",
         "wheelchair": "no",
         "@id": "node/886077754",
         "@type": "node"
@@ -8768,7 +8768,7 @@
         "addr:postcode": "EH1 3JT",
         "addr:street": "Picardy Place",
         "amenity": "bar",
-        "check_date": "2025-08-09",
+        "check_date": "2026-07-18",
         "contact:phone": "+44 131 556 4272",
         "fhrs:id": "149464",
         "indoor_seating": "yes",
@@ -27435,7 +27435,7 @@
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Le Bears bar",
-        "opening_hours": "We,Th 21:00-02:00, Fr 19:00-02:00, Sa 19:00-03:00, Su 19:00-02:00",
+        "opening_hours": "Th 21:00-04:00, Fr 21:00-05:00, Sa 19:00-05:00, Su 19:00-02:00",
         "phone": "+33 5 61 61 54 28",
         "ref:FR:SIRET": "45169580300036",
         "website": "http://bears-toulouse.club",
@@ -48199,6 +48199,43 @@
         "lgbtq": "primary",
         "name": "Knockout",
         "@id": "node/8272629181",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.004105,
+          52.2036434
+        ]
+      },
+      "properties": {
+        "addr:city": "Warszawa",
+        "addr:housenumber": "83",
+        "addr:postcode": "02-524",
+        "addr:street": "Ludwika Narbutta",
+        "amenity": "restaurant",
+        "brand": "Vegan Ramen Shop",
+        "check_date": "2026-05-11",
+        "check_date:opening_hours": "2026-05-11",
+        "contact:facebook": "https://www.facebook.com/veganramenshop",
+        "contact:instagram": "https://www.instagram.com/veganramenshop",
+        "contact:phone": "+48 791732584",
+        "contact:website": "https://www.veganramenshop.pl",
+        "cuisine": "noodle;ramen;japanese;onigiri",
+        "diet:vegan": "only",
+        "email": "veganramenbar@gmail.com",
+        "lgbtq": "welcome",
+        "name": "Vegan Ramen Shop Mokotów",
+        "opening_hours": "12:00-21:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "phone": "+48 791732584",
+        "website:menu": "https://veganramenshop.pl/restaurant/",
+        "wheelchair": "yes",
+        "@id": "node/8274746065",
         "@type": "node"
       }
     },
@@ -82296,6 +82333,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.4929112,
+          32.6617527
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "La Linterna",
+        "@id": "node/14040788416",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -106862,6 +106916,7 @@
         "addr:street": "Cathedral Street",
         "amenity": "library",
         "building": "civic",
+        "check_date:opening_hours": "2026-07-22",
         "ele": "31",
         "internet_access": "wlan",
         "lgbtq": "welcome",
@@ -114908,12 +114963,14 @@
       },
       "properties": {
         "addr:housenumber": "76",
+        "addr:postcode": "0600",
         "addr:street": "Wingate Street",
         "addr:suburb": "Avondale",
         "building": "yes",
         "leisure": "sauna",
         "lgbtq": "primary",
         "name": "Wingate Club",
+        "phone": "+64 9 828 0910",
         "ref:linz:address_id": "1723711",
         "website": "http://wingateclub.co.nz",
         "@id": "way/607729719",
@@ -126192,6 +126249,7 @@
         "addr:street": "Eberle Street",
         "amenity": "nightclub",
         "building:part": "yes",
+        "check_date": "2026-07-22",
         "lgbtq": "primary",
         "name": "GBar",
         "@id": "way/1115561667",
