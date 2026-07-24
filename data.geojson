@@ -19386,6 +19386,7 @@
         "addr:street": "Davie Street",
         "air_conditioning": "no",
         "amenity": "pub",
+        "diet:vegan": "limited",
         "email": "info@fthdpub.com",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -21505,9 +21506,9 @@
       "properties": {
         "amenity": "bar",
         "internet_access": "wlan",
+        "internet_access:fee": "no",
         "lgbtq": "primary",
         "name": "Soho",
-        "wifi": "free",
         "@id": "node/2982245930",
         "@type": "node"
       }
@@ -26311,6 +26312,7 @@
         "contact:phone": "+33776797066",
         "contact:website": "https://alafolie.paris",
         "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "À la folie",
         "name:fr": "À la folie",
@@ -44252,6 +44254,7 @@
       },
       "properties": {
         "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
         "lgbtq": "primary",
         "name": "Lesbian, Gay, Bisexual, Transgender Community Resources Center",
         "short_name": "LGBT-CRC",
@@ -44270,6 +44273,7 @@
       },
       "properties": {
         "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
         "lgbtq": "primary",
         "name": "QSpot",
         "website": "https://queer.stanford.edu/center/qspot/",
@@ -54822,6 +54826,7 @@
         "email": "info@scionciderbar.com",
         "lgbtq": "welcome",
         "microbrewery": "yes",
+        "min_age": "21",
         "name": "Scion Cider",
         "opening_hours": "Mo 16:00-22:00; We-Th 16:00-22:00; Fr 16:00-23:00; Sa 12:00-23:59; Su 12:00-21:00",
         "product": "cider",
@@ -66775,9 +66780,11 @@
         "contact:instagram": "https://www.instagram.com/lotusbrewcoffeedrybar/",
         "cuisine": "coffee_shop",
         "currency:XBT": "yes",
+        "internet_access": "wlan",
         "lgbtq": "primary",
         "name": "Lotus Brew Coffee",
-        "opening_hours": "We 08:00-18:00; Th-Su 08:00-20:00",
+        "opening_hours": "Tu-We 08:00-16:00; Th-Su 08:00-20:00",
+        "outdoor_seating": "no",
         "payment:lightning": "yes",
         "payment:lightning:operator": "square",
         "payment:lightning_contactless": "no",
@@ -76992,6 +76999,8 @@
         "addr:postcode": "61614",
         "addr:street": "North Prospect Road",
         "amenity": "clinic",
+        "brand": "LifeStance Health",
+        "brand:wikidata": "Q133456236",
         "healthcare": "clinic",
         "internet_access": "wlan",
         "level": "1",
@@ -82344,6 +82353,54 @@
         "lgbtq": "primary",
         "name": "La Linterna",
         "@id": "node/14040788416",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.1884328,
+          36.6541824
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "contact:p": "+81 50-3701-7166",
+        "contact:website": "https://bar-jazzy.jimdofree.com/",
+        "level": "4",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "name": "Jazzy",
+        "opening_hours": "Fr-Su 21:00-01:00; Sa-Th off",
+        "wheelchair": "no",
+        "@id": "node/14041358686",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.1884347,
+          36.6542145
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "contact:phone": "+81 70-5585-0812",
+        "contact:twitter": "SecretNagano",
+        "contact:website": "https://bar-secret.jimdosite.com/",
+        "level": "4",
+        "lgbtq": "primary",
+        "name": "シークレット",
+        "name:en": "Secret",
+        "name:ja": "シークレット",
+        "opening_hours": "Mo-Su, PH 20:00-01:00",
+        "wheelchair": "no",
+        "@id": "node/14041358687",
         "@type": "node"
       }
     },
@@ -89566,11 +89623,13 @@
         "building:material": "brick",
         "contact:website": "https://www.schwulesauhannover.de/",
         "height": "6",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "lgbtq:men": "welcome",
         "lgbtq:women": "welcome",
         "name": "Schwule Sau",
         "opening_hours": "Fr 21:00-18:00+, Sa 22:00-18:00+",
+        "outdoor_seating": "no",
         "website": "https://www.schwulesauhannover.de/",
         "wheelchair": "limited",
         "@id": "way/117093417",
