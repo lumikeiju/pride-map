@@ -9303,7 +9303,8 @@
         "addr:suburb": "Prenzlauer Berg",
         "amenity": "pub",
         "brewery": "yes",
-        "check_date": "2025-10-30",
+        "check_date": "2026-07-24",
+        "check_date:toilets:wheelchair": "2026-07-24",
         "contact:email": "flax.berlin@mailbox.org",
         "contact:facebook": "https://www.facebook.com/flax.berlin",
         "contact:instagram": "https://www.instagram.com/flaxberlin1994",
@@ -9311,12 +9312,13 @@
         "contact:website": "http://www.flax-berlin.de",
         "contact:whatsapp": "+4917696800293",
         "cuisine": "regional;german",
+        "indoor_seating": "yes",
         "level": "0",
         "lgbtq": "primary",
         "name": "FLAX",
         "opening_hours": "Mo,Tu off, We 18:30-03:00, Th 18:30-03:00, Fr 18:30-04:00, Sa 18:30-04:00, Su 18:30-02:00",
         "operator": "S. Wehrmaker",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "sidewalk",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -9324,6 +9326,7 @@
         "smoking": "outside",
         "sport": "table_tennis",
         "toilets": "yes",
+        "toilets:wheelchair": "limited",
         "wheelchair": "limited",
         "@id": "node/1400511882",
         "@type": "node"
@@ -17842,6 +17845,7 @@
       },
       "properties": {
         "amenity": "pub",
+        "check_date": "2026-07-24",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Butzenstübchen",
@@ -18359,26 +18363,6 @@
         "website": "http://www.clubsauna-amsterdam.de/",
         "wheelchair": "no",
         "@id": "node/2505624103",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6870367,
-          50.1136737
-        ]
-      },
-      "properties": {
-        "lgbtq": "primary",
-        "lgbtq:men": "primary",
-        "name": "SkyLine",
-        "opening_hours": "Mo-Sa 10:00-22:00",
-        "shop": "erotic",
-        "website": "http://www.skylineworld.de/",
-        "@id": "node/2506049338",
         "@type": "node"
       }
     },
@@ -21059,6 +21043,30 @@
         "source:date": "2014-05-20",
         "toilets": "yes",
         "@id": "node/2873511689",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.179178,
+          52.2298083
+        ]
+      },
+      "properties": {
+        "addr:city": "Hilversum",
+        "addr:housenumber": "72",
+        "addr:postcode": "1221AB",
+        "addr:street": "Noorderweg",
+        "amenity": "pub",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Rainbow Bar",
+        "source": "BAG;survey",
+        "source:date": "2014-05-24",
+        "@id": "node/2878882722",
         "@type": "node"
       }
     },
@@ -33243,7 +33251,8 @@
       },
       "properties": {
         "amenity": "pharmacy",
-        "check_date": "2023-02-11",
+        "check_date": "2026-07-24",
+        "check_date:opening_hours": "2026-07-24",
         "healthcare": "pharmacy",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -72159,6 +72168,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.3368,
+          48.8671076
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "lgbtq:women": "primary",
+        "name": "La Champmeslé",
+        "ref:FR:SIRET": "31574872300022",
+        "wikidata": "Q88465773",
+        "@id": "node/12802290379",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.7188756,
           51.0508757
         ]
@@ -90029,6 +90058,7 @@
         "amenity": "restaurant",
         "bar": "yes",
         "building": "yes",
+        "building:levels": "2",
         "check_date": "2026-04-12",
         "email": "millysmpls@gmail.com",
         "layer": "-1",
@@ -108914,8 +108944,11 @@
         "cuisine": "coffee_shop",
         "diet:vegetarian": "yes",
         "email": "mitarbeiten@kaffeekueche.at",
+        "highchair": "no",
         "indoor": "room",
         "indoor_seating": "yes",
+        "internet_access": "no",
+        "kids_area": "no",
         "level": "-1",
         "lgbtq": "welcome",
         "lgbtq:signed": "flag",
@@ -108932,6 +108965,7 @@
         "reservation": "no",
         "roastery": "Tribeka",
         "room": "restaurant",
+        "service:electricity": "yes",
         "smoking": "no",
         "takeaway": "yes",
         "toilets": "no",
@@ -119855,56 +119889,6 @@
         "wheelchair": "no",
         "wikidata": "Q134310166",
         "@id": "way/775555697",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              121.0363266,
-              14.6278402
-            ],
-            [
-              121.0363624,
-              14.6278499
-            ],
-            [
-              121.0363801,
-              14.627786
-            ],
-            [
-              121.0363462,
-              14.6277772
-            ],
-            [
-              121.0363266,
-              14.6278402
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Kamuning, Quezon City",
-        "addr:housenumber": "41-B",
-        "addr:postcode": "1103",
-        "addr:street": "T. Gener Street",
-        "air_conditioning": "yes",
-        "amenity": "pub",
-        "building": "yes",
-        "cuisine": "burger",
-        "description": "Community dive bar formerly known as Boho when it was previously located at Ermin Garcia. Home to anyone looking for a creative and safe space. Regular venue for indie artists and events for community causes.",
-        "lgbtq": "primary",
-        "name": "Catch272",
-        "opening_hours": "Tu-Su 20:00-03:30",
-        "outdoor_seating": "yes",
-        "payment:cash": "yes",
-        "phone": "+639952221782",
-        "smoking": "outside",
-        "@id": "way/775861805",
         "@type": "way"
       }
     },
