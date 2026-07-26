@@ -9133,7 +9133,7 @@
         "addr:postcode": "15208",
         "addr:state": "PA",
         "addr:street": "North Lexington Street",
-        "air_conditioning": "yes",
+        "air_conditioning": "no",
         "charity": "yes",
         "contact:facebook": "https://www.facebook.com/freeridebicycleproject/",
         "contact:instagram": "https://www.instagram.com/freeridepgh/",
@@ -9166,6 +9166,7 @@
         "service:bicycle:stand": "yes",
         "service:bicycle:tools": "yes",
         "shop": "bicycle",
+        "valves": "schrader;sclaverand",
         "website": "https://freeridepgh.org/",
         "wheelchair": "yes",
         "@id": "node/1371543235",
@@ -13797,7 +13798,7 @@
         "internet_access": "wlan",
         "lgbtq": "welcome",
         "name": "Bar2",
-        "opening_hours": "Mo-Th 18:00-0:00, Fr 18:00-03:00, Sa 18:00-03:00, Su 16:00-23:00",
+        "opening_hours": "Mo-Th 18:00-24:00, Fr 18:00-03:00, Sa 18:00-03:00, Su 16:00-23:00",
         "opening_hours:covid19": "closed",
         "operator": "Heiko Deutscher",
         "outdoor_seating": "yes",
@@ -14233,7 +14234,7 @@
         "addr:housenumber": "45",
         "addr:postcode": "G1 1TS",
         "addr:street": "Virginia Street",
-        "check_date": "2026-02-28",
+        "check_date": "2026-06-27",
         "lgbtq": "primary",
         "name": "Luke & Jack",
         "opening_hours:url": "https://www.lukeandjack.co.uk/contact-us",
@@ -64564,6 +64565,7 @@
         "amenity": "restaurant",
         "brewery": "yes",
         "changing_table": "yes",
+        "check_date": "2026-07-25",
         "cuisine": "filipino;asian;dessert",
         "delivery": "yes",
         "diet:vegan": "yes",
@@ -64592,6 +64594,7 @@
         "takeaway": "yes",
         "toilets": "yes",
         "website": "https://www.facebook.com/profile.php?id=100094451743954&mibextid=ZbWKwL",
+        "wheelchair": "no",
         "@id": "node/11782113561",
         "@type": "node"
       }
@@ -79584,13 +79587,15 @@
         ]
       },
       "properties": {
+        "addr:floor": "G",
         "addr:housenumber": "53",
         "addr:street": "Virginia Street",
         "air_conditioning": "yes",
         "amenity": "bar",
-        "check_date": "2026-02-28",
+        "check_date": "2026-06-27",
         "internet_access": "wlan",
         "internet_access:fee": "customers",
+        "level": "0;-1",
         "lgbtq": "primary",
         "microbrewery": "no",
         "name": "The Corset Club",
@@ -79602,6 +79607,7 @@
         "toilets": "yes",
         "toilets:position": "seated",
         "toilets:unisex": "yes",
+        "website": "https://www.thecorsetclub.co.uk",
         "wheelchair": "limited",
         "wheelchair:note": "access via beer garden upon request",
         "@id": "node/13607729114",
@@ -82396,7 +82402,7 @@
       },
       "properties": {
         "amenity": "bar",
-        "contact:p": "+81 50-3701-7166",
+        "contact:phone": "+81 50-3701-7166",
         "contact:website": "https://bar-jazzy.jimdofree.com/",
         "level": "4",
         "lgbtq": "primary",
@@ -99681,12 +99687,20 @@
               37.7740815
             ],
             [
-              -122.4088289,
-              37.7741584
+              -122.408924,
+              37.7742339
             ],
             [
-              -122.4086763,
-              37.7742812
+              -122.4085741,
+              37.7745124
+            ],
+            [
+              -122.4083808,
+              37.7743623
+            ],
+            [
+              -122.4084745,
+              37.7742869
             ],
             [
               -122.4085772,
@@ -99700,14 +99714,16 @@
         "addr:country": "US",
         "addr:housenumber": "385",
         "addr:postcode": "94103",
+        "addr:state": "CA",
         "addr:street": "8th Street",
-        "building": "yes",
-        "check_date": "2024-01-27",
+        "building": "retail",
+        "check_date": "2026-07-25",
         "lgbtq": "primary",
         "name": "Mr. S Leather",
-        "opening_hours": "12:00-19:00",
+        "opening_hours": "Mo-Su 12:00-19:00",
+        "phone": "+1-415-863-7764",
         "shop": "erotic",
-        "survey:date": "2013-12-16",
+        "website": "https://mr-s-leather.com",
         "@id": "way/255967301",
         "@type": "way"
       }
@@ -135403,6 +135419,58 @@
         "start_date": "2026-07-11",
         "website": "https://thestkrstore.com/",
         "@id": "way/1540720846",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.173548,
+              19.4577837
+            ],
+            [
+              -99.1735652,
+              19.4576841
+            ],
+            [
+              -99.1734818,
+              19.4576713
+            ],
+            [
+              -99.173416,
+              19.4576612
+            ],
+            [
+              -99.1733988,
+              19.4577608
+            ],
+            [
+              -99.173548,
+              19.4577837
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "accommodation": "no",
+        "air_conditioning": "no",
+        "amenity": "pub",
+        "building": "yes",
+        "food": "no",
+        "internet_access": "no",
+        "lgbtq": "primary",
+        "name": "Vagones",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes",
+        "@id": "way/1544648051",
         "@type": "way"
       }
     },
