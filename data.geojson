@@ -9231,7 +9231,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3172456,
+          -122.317246,
           47.614234
         ]
       },
@@ -9241,6 +9241,7 @@
         "addr:city": "Seattle",
         "addr:housenumber": "1118",
         "addr:postcode": "98122",
+        "addr:state": "WA",
         "addr:street": "East Pike Street",
         "amenity": "bar",
         "check_date": "2026-04-04",
@@ -9250,6 +9251,7 @@
         "payment:discover_card": "yes",
         "payment:mastercard": "yes",
         "payment:visa": "yes",
+        "phone": "+1-206-325-6492",
         "theme": "carnival",
         "website": "http://www.unicornseattle.com/",
         "wheelchair": "no",
@@ -58988,6 +58990,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.7872741,
+          42.6532114
+        ]
+      },
+      "properties": {
+        "addr:city": "Albany",
+        "addr:housenumber": "263",
+        "addr:postcode": "12208",
+        "addr:state": "NY",
+        "addr:street": "New Scotland Avenue",
+        "amenity": "cafe",
+        "lgbtq": "welcome",
+        "name": "Mr. Bumbles Cafe",
+        "website": "https://www.mrbumblescafe.com/",
+        "@id": "node/10829882994",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           4.8917113,
           52.3661979
         ]
@@ -64197,6 +64222,7 @@
         "amenity": "cinema",
         "check_date": "2025-10-07",
         "check_date:opening_hours": "2025-10-07",
+        "cinema": "erotic",
         "lgbtq": "primary",
         "name": "Wiscot Gay Cinema",
         "opening_hours": "12:00-24:00",
@@ -74050,8 +74076,8 @@
         "contact:instagram": "https://instagram.com/patsysontheplaya",
         "email": "patsyshangout@gmail.com",
         "end_date": "2026-09-07",
-        "lgbt:men": "primary",
         "lgbtq": "primary",
+        "lgbtq:men": "primary",
         "name": "Patsy's Hangout",
         "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
@@ -82070,6 +82096,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -119.2219332,
+          40.7806142
+        ]
+      },
+      "properties": {
+        "addr:street": "7:30 & A",
+        "contact:facebook": "https://facebook.com/groups/111107568995459",
+        "email": "brcvice@gmail.com",
+        "lgbtq": "primary",
+        "lgbtq:men": "primary",
+        "name": "VICE: Vietnamese Iced Coffee Experience",
+        "source": "https://queerburners.com/directory",
+        "tourism": "camp_site",
+        "@id": "node/13991802795",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.219275,
           40.7844025
         ]
@@ -82131,7 +82179,7 @@
         "name": "Black Rock City Municipal Pool",
         "source": "https://queerburners.com/directory",
         "tourism": "camp_site",
-        "website": "http://brcmunicipalpool.com",
+        "website": "https://www.brcmunicipalpool.com/",
         "@id": "node/13991802799",
         "@type": "node"
       }
@@ -82436,6 +82484,117 @@
         "opening_hours": "Mo-Su, PH 20:00-01:00",
         "wheelchair": "no",
         "@id": "node/14041358687",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9802486,
+          -13.5152494
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "429",
+        "addr:street": "Teqsicocha",
+        "amenity": "bar",
+        "check_date": "2026-07-25",
+        "contact:facebook": "changoclubcusco",
+        "lgbtq": "primary",
+        "name": "Chango Club Cusco",
+        "phone": "990 523 722",
+        "@id": "node/14050264601",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9795004,
+          -13.5163312
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Mama Africa",
+        "@id": "node/14050271101",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9706715,
+          -13.5203172
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "230c",
+        "addr:street": "Avenida de la Cultura",
+        "amenity": "nightclub",
+        "check_date": "2026-07-25",
+        "check_date:opening_hours": "2026-07-25",
+        "lgbtq": "primary",
+        "name": "club gay Paradise queen",
+        "opening_hours": "Tu, Sa 17:15-04:00",
+        "phone": "+51 961 205 087",
+        "@id": "node/14050283202",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7883351,
+          42.6383599
+        ]
+      },
+      "properties": {
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "indoor_seating": "no",
+        "lgbtq": "welcome",
+        "name": "Bitchin' Dougnuts",
+        "opening_hours": "We-Su 07:00-17:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "only",
+        "wheelchair": "yes",
+        "@id": "node/14051863140",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0930318,
+          44.0425533
+        ]
+      },
+      "properties": {
+        "addr:city": "Eugene",
+        "addr:housenumber": "1590 Willamette",
+        "addr:postcode": "97401",
+        "addr:state": "OR",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "The Lavender Network",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "website": "https://www.lavendernetwork.org/",
+        "@id": "node/14052938424",
         "@type": "node"
       }
     },
@@ -114774,6 +114933,7 @@
         "name": "O Bar",
         "opening_hours": "Mo 00:00-06:00; We 22:00-00:00; Th-Su 00:00-06:00, 23:30-00:00",
         "opening_hours:covid19": "off",
+        "wikidata": "Q124372896",
         "@id": "way/589128434",
         "@type": "way"
       }
@@ -133991,15 +134151,26 @@
         "addr:postcode": "98252",
         "addr:state": "WA",
         "addr:street": "Mountain Loop Highway",
+        "cabins": "no",
+        "capacity:caravans": "32",
+        "capacity:tents": "63",
         "caravans": "yes",
+        "contact:city": "Granite Falls",
+        "contact:pobox": "P.O. Box 1226",
+        "contact:postcode": "98252",
+        "contact:state": "WA",
+        "dog": "leashed",
         "fee": "yes",
+        "group_only": "no",
         "lgbtq": "only",
         "min_age": "21",
         "name": "Triangle Recreation Camp",
         "nudism": "yes",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
-        "seasonal": "spring/summer/autumn",
+        "picnic_table": "yes",
+        "reservation": "yes",
+        "seasonal": "spring;summer;autumn",
         "start_date": "1975",
         "tents": "yes",
         "tourism": "camp_site",
