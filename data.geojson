@@ -3468,14 +3468,19 @@
         ]
       },
       "properties": {
+        "addr:city": "Strasbourg",
+        "addr:housenumber": "20",
+        "addr:postcode": "67000",
+        "addr:street": "Rue des Couples",
         "amenity": "bar",
         "contact:city": "Strasbourg",
         "contact:housenumber": "20",
         "contact:postcode": "67000",
         "contact:street": "Rue des Couples",
         "lgbtq": "primary",
-        "name": "Canapé Queer",
+        "name": "Canapé Queer Bar",
         "opening_hours": "Mo-We 17:00-01:30, Th-Sa 17:00-04:00",
+        "phone": "+33 3 88 35 51 52",
         "ref:FR:SIRET": "90847876100012",
         "smoking": "outside",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
@@ -6218,7 +6223,7 @@
       },
       "properties": {
         "amenity": "bar",
-        "contact:website": "http://www.lebelgica.be",
+        "contact:website": "https://www.lebelgica.be/",
         "lgbtq": "welcome",
         "name": "Belgica",
         "@id": "node/843729088",
@@ -10373,6 +10378,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Strasbourg",
+        "addr:housenumber": "5",
+        "addr:postcode": "67000",
+        "addr:street": "Rue de la Lanterne",
         "amenity": "pub",
         "brewery": "yes",
         "check_date": "2026-05-30",
@@ -12930,7 +12939,7 @@
         "contact:email": "info@saunamacho.com",
         "contact:facebook": "https://www.facebook.com/sauna.macho.brxl",
         "contact:phone": "+32 2 513 56 67",
-        "contact:website": "http://machosauna.be/",
+        "contact:website": "https://machosauna.be/",
         "leisure": "sauna",
         "lgbtq": "primary",
         "name": "Macho Sauna",
@@ -32097,44 +32106,20 @@
         ]
       },
       "properties": {
+        "addr:city": "Strasbourg",
+        "addr:housenumber": "63",
+        "addr:postcode": "67000",
+        "addr:street": "Rue du Fossé des Tanneurs",
         "amenity": "bar",
-        "check_date": "2026-03-04",
+        "check_date": "2026-07-27",
         "contact:housenumber": "63",
         "indoor_seating": "yes",
         "lgbtq": "primary",
-        "name": "Golden Gate",
+        "name": "Golden Gate Bar",
         "outdoor_seating": "yes",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2015",
+        "phone": "+33388751175",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2015",
         "@id": "node/4868319684",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.7370317,
-          48.5831306
-        ]
-      },
-      "properties": {
-        "amenity": "bar",
-        "contact:city": "Strasbourg",
-        "contact:email": "ZbarStrasbourg@outlook.fr",
-        "contact:facebook": "https://www.facebook.com/ZbarStrasbourg",
-        "contact:housenumber": "9",
-        "contact:postcode": "67000",
-        "contact:street": "Rue de la Course",
-        "contact:twitter": "ZBar_Strasbourg",
-        "indoor_seating": "yes",
-        "lgbtq": "primary",
-        "name": "Z Bar",
-        "opening_hours": "Tu 22:00-02:00; We-Sa 22:00-04:00; Su 22:00-02:00",
-        "outdoor_seating": "no",
-        "ref:FR:SIRET": "81792690000017",
-        "website": "https://zbarstrasbourg.wixsite.com/accueil",
-        "@id": "node/4868323000",
         "@type": "node"
       }
     },
@@ -41592,16 +41577,20 @@
       "properties": {
         "addr:city": "Kingston",
         "addr:housenumber": "75",
-        "addr:postcode": "K7K 2Y5",
+        "addr:postcode": "K7K 1A5",
+        "addr:province": "Ontario",
         "addr:street": "Queen Street",
-        "amenity": "community_centre",
+        "addr:unit": "1",
+        "air_conditioning": "yes",
+        "amenity": "social_centre",
         "description": "The AKA is both a physical building and meeting/event/organizing space, and an organization of local anarchists/anti-authoritarians.",
         "facebook": "https://m.facebook.com/akaautonomoussocialcentre",
         "lgbtq": "welcome",
-        "name": "The AKA Autonomous Social Centre",
-        "operator": "The AKA Autonomous Social Centre",
+        "name": "AKA Autonomous Social Centre",
+        "operator": "AKA Collective",
+        "operator:type": "cooperative",
         "start_date": "2008",
-        "website": "http://www.the-aka.ca",
+        "website": "https://linktr.ee/akasocialcentre",
         "wheelchair": "yes",
         "@id": "node/6670200616",
         "@type": "node"
@@ -59300,10 +59289,12 @@
         "addr:unit": "170",
         "amenity": "cafe",
         "check_date": "2025-03-12",
+        "dog": "yes",
         "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "203ºF Coffee Company",
+        "payment:cash": "no",
         "@id": "node/10891883062",
         "@type": "node"
       }
@@ -79695,6 +79686,7 @@
         "opening_hours": "We-Fr 19:00-22:00; Sa 15:00-23:00",
         "phone": "+351 218 873 918",
         "website": "https://ilga-portugal.pt/",
+        "wikidata": "Q9634405",
         "@id": "node/13615302284",
         "@type": "node"
       }
@@ -82595,6 +82587,51 @@
         "opening_hours": "Mo-Fr 09:00-17:00",
         "website": "https://www.lavendernetwork.org/",
         "@id": "node/14052938424",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8370583,
+          21.2909545
+        ]
+      },
+      "properties": {
+        "addr:city": "Honolulu",
+        "addr:floor": "2",
+        "addr:housenumber": "1726",
+        "addr:postcode": "96814",
+        "addr:state": "HI",
+        "addr:street": "Kapiolani Boulevard",
+        "amenity": "nightclub",
+        "level": "1",
+        "lgbtq": "primary",
+        "name": "Velvet Bar",
+        "phone": "+1-808-892-2012",
+        "reservation": "yes",
+        "website": "https://www.velvethawaii.com/",
+        "@id": "node/14054961010",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3374736,
+          52.505037
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "teledisko",
+        "opening_hours": "Mo-Su,PH 00:00-00:00",
+        "@id": "node/14055022623",
         "@type": "node"
       }
     },
@@ -89371,16 +89408,35 @@
       "properties": {
         "addr:city": "Ellicott City",
         "addr:housenumber": "3709",
-        "addr:postcode": "21043",
+        "addr:postcode": "21043-4642",
+        "addr:state": "MD",
         "addr:street": "Old Columbia Pike",
+        "air_conditioning": "yes",
         "building": "retail",
-        "check_date": "2023-06-25",
+        "building:levels": "1",
+        "check_date": "2026-07-27",
+        "email": "info@ECPops.com",
+        "internet_access": "no",
         "lgbtq": "welcome",
         "name": "EC Pops",
         "opening_hours": "Mo-Su 10:00-19:00",
+        "payment:american_express": "yes",
+        "payment:american_express_contactless": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:discover_card_contactless": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:mastercard_contactless": "yes",
+        "payment:visa": "yes",
+        "payment:visa_contactless": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "+1-410-988-5179",
         "shop": "gift",
         "source": "USGS Ortho",
-        "website": "https://ecpops.com",
+        "survey:date": "2026-07-27",
+        "website": "https://ECPops.com",
         "@id": "way/113572424",
         "@type": "way"
       }
@@ -131729,12 +131785,15 @@
         "instagram": "vodevallei",
         "internet_access": "yes",
         "internet_access:ssid": "VO De Vallei",
+        "isced:level": "2",
+        "landuse": "education",
         "lgbtq": "welcome",
         "max_age": "21",
         "min_age": "11",
         "name": "VO De Vallei",
         "note": "Elk woord in de naam is met een eerste letter als hoofdletter. Ook \"De\" dus. Ookal is dit niet grammatisch correct is dit wel de correcte naam.",
         "opening_hours": "Mo-Th 08:30-16:30",
+        "pedagogy": "democratic",
         "phone": "+31 6 24251343",
         "school": "secondary",
         "short_name": "De Vallei",
@@ -134145,7 +134204,7 @@
         ]
       },
       "properties": {
-        "access": "customers",
+        "access": "private",
         "addr:city": "Granite Falls",
         "addr:housenumber": "47715",
         "addr:postcode": "98252",
