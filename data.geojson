@@ -3680,7 +3680,7 @@
         "language:es": "yes",
         "lgbtq": "welcome",
         "name": "Westfield Family Restaurant",
-        "opening_hours": "Su 7:00-15:00; Mo-Th 7:00-21:00; Fr-Sa 7:00-22:00",
+        "opening_hours": "Su 07:00-15:00; Mo-Th 07:00-21:00; Fr-Sa 07:00-22:00",
         "phone": "+1-815-577-8888",
         "service_animal": "yes",
         "source:addr": "Kendall County",
@@ -22662,7 +22662,7 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "Capital Club",
-        "opening_hours": "17:00-2:00",
+        "opening_hours": "17:00-02:00",
         "phone": "+1 803-256-6464",
         "website": "https://www.capitalclubsc.com/",
         "@id": "node/3262280947",
@@ -23728,8 +23728,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.4498941,
-          52.4894595
+          13.4500718,
+          52.4893464
         ]
       },
       "properties": {
@@ -23738,16 +23738,19 @@
         "addr:postcode": "12435",
         "addr:street": "Karl-Kunger-Straße",
         "addr:suburb": "Alt-Treptow",
-        "check_date": "2026-07-19",
+        "check_date": "2026-07-28",
         "craft": "photographer",
         "email": "fotostudio.pahl@gmx.de",
         "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Fotostudio Pahl",
-        "opening_hours": "\"nach Vereinbarung\"",
-        "operator": "Pahl",
+        "opening_hours": "Tu,Th 10:00-18:00",
+        "operator": "Antje Pahl",
         "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+49 30 5328154;+49 163 2553188",
         "website": "https://www.fotostudio-pahl.de/",
         "@id": "node/3442702173",
@@ -28675,7 +28678,7 @@
         "language:es": "yes",
         "lgbtq": "welcome",
         "name": "Southern Belle's",
-        "opening_hours": "Mo-Fr 6:00-15:00; Sa-Su 6:00-15:00",
+        "opening_hours": "Mo-Fr 06:00-15:00; Sa-Su 06:00-15:00",
         "phone": "+1-630-553-9977",
         "ref:YorkvilleAddressID": "143",
         "service_animal": "yes",
@@ -30963,13 +30966,17 @@
         "addr:street": "Calle Marqués de Falces",
         "amenity": "restaurant",
         "capacity": "30",
+        "check_date": "2026-07-28",
+        "check_date:opening_hours": "2026-07-28",
         "cuisine": "regional",
         "lgbtq": "welcome",
         "name": "El Bar de Fede",
-        "opening_hours": "Th-Su 13:30-01:00; We 18:00-01:00",
-        "outdoor_seating": "no",
+        "opening_hours": "Mo-Sa 13:30-00:00; Su 13:30-18:00",
+        "outdoor_seating": "yes",
+        "phone": "958288814",
         "smoking": "no",
         "takeaway": "no",
+        "website": "https://elbardefede.com",
         "@id": "node/4657105206",
         "@type": "node"
       }
@@ -37138,8 +37145,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.1798315,
-          45.444104
+          9.1798375,
+          45.4441125
         ]
       },
       "properties": {
@@ -48999,46 +49006,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.2573845,
-          41.5639067
-        ]
-      },
-      "properties": {
-        "addr:city": "Plainfield",
-        "addr:housenumber": "7162",
-        "addr:postcode": "60586",
-        "addr:street": "Caton Farm Road",
-        "amenity": "pub",
-        "changing_table": "yes",
-        "changing_table:location": "female_toilet",
-        "cuisine": "grill",
-        "delivery": "yes",
-        "diet:egg_free": "yes",
-        "diet:gluten_free": "yes",
-        "diet:low_fat": "yes",
-        "diet:vegetarian": "yes",
-        "entrance": "main",
-        "highchair": "yes",
-        "language:es": "yes",
-        "lgbtq": "welcome",
-        "name": "McBride's Pub & Grille",
-        "opening_hours": "Mo-Th 11:00-1:00; Fr-Sa 11:00-2:00; Su 11:00-24:00",
-        "phone": "+1-815-530-9897",
-        "service_animal": "yes",
-        "source:addr": "Kendall County",
-        "takeaway": "yes",
-        "toilets:menstrual_products": "no",
-        "toilets:unisex": "no",
-        "wheelchair": "yes",
-        "@id": "node/8697876014",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.8906234,
           37.3351481
         ]
@@ -55540,6 +55507,7 @@
         "addr:city": "Yorkville",
         "addr:housenumber": "215",
         "addr:postcode": "60560",
+        "addr:state": "IL",
         "addr:street": "South Bridge Street",
         "amenity": "cafe",
         "changing_table": "yes",
@@ -55557,7 +55525,7 @@
         "highchair": "yes",
         "lgbtq": "welcome",
         "name": "Juicehead Cafe",
-        "opening_hours": "Mo-Fr 07:00-19:00, Sa-Su 08:00-20:00",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su 08:00-20:00",
         "phone": "+1-815-764-8666",
         "ref:YorkvilleAddressID": "6064",
         "service_animal": "yes",
@@ -55949,7 +55917,7 @@
         "lgbtq": "welcome",
         "menu:large_print": "yes",
         "name": "Two Partners Family Restaurant",
-        "opening_hours": "Mo-Su 7:00-21:00",
+        "opening_hours": "Mo-Su 07:00-21:00",
         "phone": "+1-630-882-9091",
         "service_animal": "no",
         "source:addr": "Kendall County",
@@ -60683,6 +60651,7 @@
         "addr:city": "Plainfield",
         "addr:housenumber": "7180",
         "addr:postcode": "60586",
+        "addr:state": "IL",
         "addr:street": "Caton Farm Road",
         "amenity": "restaurant",
         "changing_table": "no",
@@ -71712,6 +71681,7 @@
         "addr:city": "Plainfield",
         "addr:housenumber": "7174",
         "addr:postcode": "60586",
+        "addr:state": "IL",
         "addr:street": "Caton Farm Road",
         "amenity": "restaurant",
         "changing_table": "no",
@@ -77029,7 +76999,7 @@
         "phone": "+1-301-937-3688",
         "religion": "unitarian_universalist",
         "service_times": "Sundays @ 3:00 p.m.",
-        "website": "pbuuc.org",
+        "website": "http://pbuuc.org",
         "@id": "node/13271072728",
         "@type": "node"
       }
@@ -79529,7 +79499,7 @@
         "diet:vegetarian": "yes",
         "lgbtq": "welcome",
         "name": "Manhattan Pizza",
-        "opening_hours": "Mo-Fr 10:30-22:00 Sa-Su 11:00-22:00",
+        "opening_hours": "Mo-Fr 10:30-22:00; Sa-Su 11:00-22:00",
         "phone": "+19193676667",
         "website": "https://manhattanpizza.com/locations/raleigh-holly-springs/",
         "@id": "node/13603076706",
@@ -79559,7 +79529,7 @@
         "diet:vegetarian": "yes",
         "lgbtq": "welcome",
         "name": "Town Hall Burger & Beer Holly Springs",
-        "opening_hours": "Mo-Sa 11:00-21:00 Su 11:00-20:00",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
         "phone": "+19193355388",
         "website": "https://www.townhallburgerandbeer.com/",
         "@id": "node/13603087225",
@@ -82632,6 +82602,48 @@
         "name": "teledisko",
         "opening_hours": "Mo-Su,PH 00:00-00:00",
         "@id": "node/14055022623",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2573721,
+          41.5637732
+        ]
+      },
+      "properties": {
+        "addr:city": "Plainfield",
+        "addr:housenumber": "7162",
+        "addr:postcode": "60586",
+        "addr:state": "IL",
+        "addr:street": "Caton Farm Road",
+        "amenity": "pub",
+        "changing_table": "yes",
+        "changing_table:location": "female_toilet",
+        "cuisine": "grill",
+        "delivery": "yes",
+        "diet:egg_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:low_fat": "yes",
+        "diet:vegetarian": "yes",
+        "entrance": "main",
+        "highchair": "yes",
+        "language:es": "yes",
+        "lgbtq": "welcome",
+        "name": "McBride's Pub & Grille",
+        "opening_hours": "Mo-Th 11:00-25:00; Fr-Sa 11:00-26:00; Su 11:00-24:00",
+        "phone": "+1-815-609-0192",
+        "service_animal": "yes",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:unisex": "no",
+        "website": "https://plainfield.mcbridespubandgrille.com",
+        "wheelchair": "yes",
+        "@id": "node/14056994941",
         "@type": "node"
       }
     },
@@ -113626,7 +113638,7 @@
         "menu:half_portions": "yes",
         "menu:sharing_plates": "yes",
         "name": "Grandmas Table",
-        "opening_hours": "Mo-Sa 6:00-21:00; Su 6:00-20:00",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 06:00-20:00",
         "phone": "+1-630-892-1100",
         "service_animal": "yes",
         "source:addr": "Kendall County",
@@ -130425,7 +130437,7 @@
         "lgbtq": "primary",
         "min_age": "21",
         "name": "Bar Polari",
-        "opening_hours": "Mo-Sa 16:00-00:00 Su 13:00-22:00",
+        "opening_hours": "Mo-Sa 16:00-00:00; Su 13:00-22:00",
         "@id": "way/1307744003",
         "@type": "way"
       }
