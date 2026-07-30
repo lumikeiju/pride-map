@@ -5292,6 +5292,7 @@
         "amenity": "cafe",
         "check_date": "2026-06-16",
         "cuisine": "french",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Le Bouquet des Archives",
         "name:fr": "Le Bouquet des Archives",
@@ -21602,11 +21603,15 @@
         "addr:postcode": "75004",
         "addr:street": "Rue Sainte-Croix de la Bretonnerie",
         "amenity": "restaurant",
+        "check_date": "2026-07-29",
+        "check_date:diet:vegetarian": "2026-07-29",
         "cuisine": "burger",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Tata Burger",
+        "outdoor_seating": "yes",
         "phone": "+33148874871",
-        "survey:date": "2025-04-14",
         "wheelchair": "limited",
         "@id": "node/3011024812",
         "@type": "node"
@@ -23878,8 +23883,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.2955511,
-          44.948231
+          -93.2955343,
+          44.9482305
         ]
       },
       "properties": {
@@ -28611,6 +28616,7 @@
         "name": "Within Temptation",
         "was:amenity": "pub",
         "was:name": "Hop N Grapes",
+        "wikidata": "Q79684575",
         "@id": "node/4302919748",
         "@type": "node"
       }
@@ -30742,6 +30748,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Strasbourg",
+        "addr:housenumber": "15",
+        "addr:postcode": "67000",
+        "addr:street": "Rue Sainte-Barbe",
         "air_conditioning": "yes",
         "amenity": "cafe",
         "description": "Café de spécialités, cocktails, bières",
@@ -35069,10 +35079,13 @@
         "addr:housenumber": "126",
         "addr:postcode": "K7G 1G2",
         "addr:street": "King Street East",
+        "books": "new;used",
         "lgbtq": "welcome",
         "name": "Beggar's Banquet Books",
+        "operator": "Alison Dunn;Tom Stormonth",
         "phone": "+1-613-463-8998",
         "shop": "books",
+        "website": "https://www.beggarsbanquetbooks.com",
         "@id": "node/5423715864",
         "@type": "node"
       }
@@ -47027,29 +47040,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.9256365,
-          11.9627554
-        ]
-      },
-      "properties": {
-        "addr:postcode": "5608",
-        "addr:street": "D'mall Avenue",
-        "addr:town": "Boracay",
-        "branch": "Boracay",
-        "contact:phone": "+63 36 2884019",
-        "contact:website": "http://www.pleasureplace.com.ph",
-        "lgbtq": "welcome",
-        "name": "Pleasure Place",
-        "shop": "erotic",
-        "@id": "node/7821010986",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -88.4423099,
           41.6558264
         ]
@@ -47150,6 +47140,7 @@
         "payment:cards": "yes",
         "shop": "books",
         "website": "https://www.categoryisbooks.com/",
+        "wikidata": "Q61695754",
         "@id": "node/7840355382",
         "@type": "node"
       }
@@ -76998,7 +76989,7 @@
         "name": "Paint Branch Unitarian Universalist Church",
         "phone": "+1-301-937-3688",
         "religion": "unitarian_universalist",
-        "service_times": "Sundays @ 3:00 p.m.",
+        "service_times": "Su 15:00",
         "website": "http://pbuuc.org",
         "@id": "node/13271072728",
         "@type": "node"
@@ -78091,7 +78082,7 @@
         "addr:unit": "Suite 3",
         "lgbtq": "primary",
         "name": "Off Ramp Leathers",
-        "opening_hours": "Tu,Fr 11:00-04:00; Sa 11:00-03:00off; Su,Mo",
+        "opening_hours": "Tu,Fr 11:00-04:00; Sa 11:00-03:00 off; Su,Mo",
         "phone": "+1-760-778-2798",
         "shop": "erotic",
         "website": "https://www.offrampleathers.com",
@@ -79436,7 +79427,7 @@
         "cuisine": "breakfast;bakery;lunch",
         "lgbtq": "welcome",
         "name": "Darnel's Cakes",
-        "opening_hours": "Mo-F 9:00-14:00",
+        "opening_hours": "Mo-Fr 09:00-14:00",
         "phone": "+1-215-608-8471",
         "shop": "bakery",
         "website": "https://www.darnelscakes.com/",
@@ -82644,6 +82635,23 @@
         "website": "https://plainfield.mcbridespubandgrille.com",
         "wheelchair": "yes",
         "@id": "node/14056994941",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2787069,
+          -18.9232704
+        ]
+      },
+      "properties": {
+        "amenity": "pub",
+        "lgbtq": "primary",
+        "name": "Rainbow Pub",
+        "@id": "node/14059814741",
         "@type": "node"
       }
     },
@@ -89890,7 +89898,7 @@
         "lgbtq:men": "welcome",
         "lgbtq:women": "welcome",
         "name": "Schwule Sau",
-        "opening_hours": "Fr 21:00-18:00+, Sa 22:00-18:00+",
+        "opening_hours": "Fr 21:00-18:00+; Sa 22:00-18:00+",
         "outdoor_seating": "no",
         "website": "https://www.schwulesauhannover.de/",
         "wheelchair": "limited",
@@ -119305,7 +119313,7 @@
         "internet_access": "wlan",
         "lgbtq": "welcome",
         "name": "First Congregational Church",
-        "opening_hours": "Mo-Th, 09:00-13:00",
+        "opening_hours": "Mo-Th 09:00-13:00",
         "phone": "+1-715-235-5838",
         "religion": "christian",
         "service_times": "Su 08:30-09:00, 10:00-11:30",
