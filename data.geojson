@@ -23362,8 +23362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4425749,
-          27.9603991
+          -82.4425941,
+          27.9603775
         ]
       },
       "properties": {
@@ -23375,15 +23375,15 @@
         "addr:street": "East 7th Avenue",
         "amenity": "bar",
         "contact:email": "bradleyson7th@aol.com",
-        "contact:facebook": "https://www.facebook.com/Bradleyson7th",
+        "contact:facebook": "Bradleyson7th",
         "lgbtq": "primary",
         "name": "Bradley's on 7th",
-        "opening_hours": "Mo-Sa 16:00-03:00;Su 14:30-03:00",
+        "opening_hours": "Mo-Sa 16:00-03:00; Su 14:30-03:00",
         "outdoor_seating": "yes",
-        "phone": "+1 813-241-2723",
+        "phone": "+1-813-241-2723",
         "toilets": "yes",
         "toilets:access": "customers",
-        "website": "http://bradleyson7th.com/",
+        "website": "https://bradleyson7th.com/",
         "wheelchair": "yes",
         "@id": "node/3408501630",
         "@type": "node"
@@ -30824,6 +30824,34 @@
         "outdoor_seating": "no",
         "phone": "+34 958 20 39 95",
         "@id": "node/4619375890",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3620641,
+          48.8623306
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "28",
+        "addr:street": "Rue Charlot",
+        "amenity": "bar",
+        "check_date": "2025-08-07",
+        "contact:instagram": "https://www.instagram.com/onewaybarparis",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "lgbtq:cruising": "yes",
+        "lgbtq:gay": "yes",
+        "lgbtq:men": "yes",
+        "name": "One Way",
+        "opening_hours": "Mo-Su 18:00-02:00",
+        "outdoor_seating": "no",
+        "wikidata": "Q137597766",
+        "@id": "node/4623635818",
         "@type": "node"
       }
     },
@@ -50443,6 +50471,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.3893827,
+          52.1545611
+        ]
+      },
+      "properties": {
+        "addr:city": "Amersfoort",
+        "addr:housenumber": "23",
+        "addr:postcode": "3811EB",
+        "addr:street": "Mooierstraat",
+        "books": "english_language",
+        "cafe": "yes",
+        "check_date": "2026-07-30",
+        "contact:instagram": "https://www.instagram.com/annasbookcafe/",
+        "contact:tiktok": "https://www.tiktok.com/@annas.bookcafe",
+        "email": "info@annasbookcafe.nl",
+        "lgbtq": "welcome",
+        "name": "Anna's Bookcafé",
+        "opening_hours": "We-Sa 10:00-17:00",
+        "operator": "Anna's Bookcafé",
+        "shop": "books",
+        "source": "BAG",
+        "source:date": "2021-08-08",
+        "start_date": "2026-08-01",
+        "website": "https://www.annasbookcafe.nl/",
+        "@id": "node/9059472360",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           11.9362544,
           43.150654
         ]
@@ -50767,24 +50828,6 @@
         "lgbtq": "primary",
         "name": "Ruby Deluxe",
         "@id": "node/9147324740",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          73.0846811,
-          49.8096134
-        ]
-      },
-      "properties": {
-        "addr:city": "Караганда",
-        "amenity": "community_centre",
-        "lgbtq": "primary",
-        "name": "ДК горняков",
-        "@id": "node/9167586593",
         "@type": "node"
       }
     },
@@ -62337,9 +62380,14 @@
         "addr:postcode": "55405",
         "addr:state": "MN",
         "addr:street": "Lyndale Avenue South",
-        "check_date": "2025-07-19",
+        "check_date": "2026-07-30",
+        "check_date:opening_hours": "2026-07-30",
         "lgbtq": "welcome",
         "name": "Lucky Cat Records",
+        "opening_hours": "We 12:00-18:00; Th 11:00-18:00; Fr,Sa 11:00-17:00; Su 12:00-17:00",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "shop": "music",
         "website": "https://luckycatrecords.com/",
         "@id": "node/11372361574",
