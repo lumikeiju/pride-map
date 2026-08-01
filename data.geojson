@@ -672,7 +672,8 @@
         "addr:postcode": "SW4 7UJ",
         "addr:street": "Clapham High Street",
         "amenity": "pub",
-        "check_date": "2024-08-11",
+        "check_date": "2026-07-31",
+        "check_date:opening_hours": "2026-07-31",
         "contact:email": "twobrewers.london@stonegatepubs.com",
         "contact:phone": "+44 20 7819 9539",
         "fhrs:authority": "Lambeth",
@@ -681,7 +682,7 @@
         "fhrs:rating": "5",
         "lgbtq": "primary",
         "name": "Two Brewers",
-        "opening_hours": "17:00-02:00; Th 17:00-03:00; Fr,Sa 17:00-04:00",
+        "opening_hours": "Tu-Th 17:00-02:00, Fr,Sa 17:00-04:00, Su 16:00-02:00, Mo 17:00-01:00",
         "operator": "Stonegate",
         "operator:wikidata": "Q7619176",
         "website": "https://www.the2brewers.com/london",
@@ -12353,7 +12354,7 @@
         "addr:postcode": "EH1 1HB",
         "addr:street": "Lothian Street",
         "amenity": "restaurant",
-        "check_date": "2026-03-17",
+        "check_date": "2026-07-30",
         "diet:vegan": "yes",
         "diet:vegetarian": "only",
         "fhrs:id": "719618",
@@ -19526,20 +19527,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.4428366,
+          -82.4428339,
           27.9611062
         ]
       },
       "properties": {
         "addr:city": "Tampa",
         "addr:housenumber": "1901",
+        "addr:postcode": "33605",
         "addr:state": "FL",
         "addr:street": "North 15th Street",
+        "amenity": "nightclub",
         "description": "Gay gift shop",
         "lgbtq": "primary",
-        "name": "Eclectic Gifts",
+        "name": "Disco Pony Nightclub",
+        "opening_hours": "Mo 15:00-03:00; We 18:00-03:00; Fr 18:00-03:00; Sa-Su 12:00-03:00",
         "phone": "+1 813-247-6233",
-        "shop": "gift",
         "wheelchair": "yes",
         "@id": "node/2641536525",
         "@type": "node"
@@ -21539,35 +21542,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1383007,
-          52.9543087
-        ]
-      },
-      "properties": {
-        "addr:city": "Nottingham",
-        "addr:postcode": "NG1 1DW",
-        "addr:street": "Avenue C",
-        "addr:unit": "30",
-        "amenity": "cafe",
-        "fhrs:authority": "Nottingham City",
-        "fhrs:id": "939670",
-        "fhrs:local_authority_id": "76292",
-        "indoor_seating": "yes",
-        "lgbtq": "welcome",
-        "name": "Blend",
-        "outdoor_seating": "yes",
-        "source": "survey",
-        "source:addr": "FHRS Open Data",
-        "wheelchair": "yes",
-        "@id": "node/2998621289",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.3177809,
           47.6142404
         ]
@@ -23333,27 +23307,6 @@
         "phone": "+1-813-232-3808",
         "website": "https://www.metrotampabay.org/",
         "@id": "node/3406720271",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.4425528,
-          27.9611057
-        ]
-      },
-      "properties": {
-        "club": "gay",
-        "contact:facebook": "https://www.facebook.com/yborresortnspa",
-        "fixme": "verify, building got demolished",
-        "lgbtq": "primary",
-        "name": "Ybor Resort and Spa",
-        "phone": "+1-813-242-0900",
-        "tourism": "hotel",
-        "@id": "node/3406742552",
         "@type": "node"
       }
     },
@@ -27150,6 +27103,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Strasbourg",
+        "addr:housenumber": "24",
+        "addr:postcode": "67000",
+        "addr:street": "Place d'Austerlitz",
         "amenity": "cafe",
         "check_date": "2025-08-21",
         "check_date:toilets:wheelchair": "2025-08-21",
@@ -41061,6 +41018,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.0695893,
+          49.2591835
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "2836",
+        "addr:postcode": "V5N 4C6",
+        "addr:province": "BC",
+        "addr:street": "Commercial Drive",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100090982740070",
+        "contact:instagram": "crossandcrows",
+        "contact:twitter": "crossncrowsbks",
+        "email": "info@crossandcrows.com",
+        "lgbtq": "primary",
+        "name": "Cross & Crow Books",
+        "opening_hours": "Mo-Su 12:00-18:00; We-Sa 10:00-18:00",
+        "phone": "+1 604-796-4159",
+        "second_hand": "yes",
+        "shop": "books",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "no",
+        "website": "https://crossandcrows.com/",
+        "wheelchair": "limited",
+        "@id": "node/6531349398",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           127.6870333,
           26.2182597
         ]
@@ -51905,6 +51896,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.1383393,
+          52.9543152
+        ]
+      },
+      "properties": {
+        "addr:city": "Nottingham",
+        "addr:postcode": "NG1 1DW",
+        "addr:street": "Avenue C",
+        "addr:unit": "30",
+        "amenity": "cafe",
+        "fhrs:authority": "Nottingham City",
+        "fhrs:id": "939670",
+        "fhrs:local_authority_id": "76292",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "name": "Blend",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa,Su 09:00-17:00",
+        "outdoor_seating": "yes",
+        "source": "survey",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes",
+        "@id": "node/9344901519",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.3337965,
           41.0699772
         ]
@@ -55675,7 +55696,7 @@
         "menu:half_portions": "yes",
         "menu:sharing_plates": "yes",
         "name": "Last Chance Saloon & Restaurant",
-        "opening_hours": "Su-Th 10:00-24:00; Fr-Sa 10:00-1:00",
+        "opening_hours": "Mo-Th,Su 10:00-24:00; Fr-Sa 10:00-01:00",
         "phone": "+1-815-695-5660",
         "service_animal": "yes",
         "source:addr": "Kendall County",
@@ -55707,7 +55728,7 @@
         "cuisine": "grill",
         "lgbtq": "welcome",
         "name": "Jimbo's Place",
-        "opening_hours": "Su-Th 12:00-24:00; Fr-Sa 12:00-1:00",
+        "opening_hours": "Mo-Th,Su 12:00-24:00; Fr-Sa 12:00-01:00",
         "phone": "+1-815-695-5577",
         "source:addr": "Kendall County",
         "toilets:menstrual_products": "no",
@@ -55782,7 +55803,7 @@
         "language:pl": "yes",
         "lgbtq": "welcome",
         "name": "Papa Magoo's Bar & Grill",
-        "opening_hours": "Mo-Su 11:00-2:00",
+        "opening_hours": "Mo-Su 11:00-02:00",
         "phone": "+1-708-670-7130",
         "service_animal": "yes",
         "source:addr": "Kendall County",
@@ -55822,8 +55843,8 @@
         "language:es": "yes",
         "lgbtq": "welcome",
         "name": "Domino's",
-        "opening_hours": "Fr-Sa 10:30-1:00; Su-Th 10:30-24:00",
-        "phone": "+1 630-554-7777",
+        "opening_hours": "Mo-Th,Su 10:30-24:00; Fr-Sa 10:30-01:00",
+        "phone": "+1-630-554-7777",
         "ref": "2937",
         "service_animal": "yes",
         "source:addr": "Kendall County",
@@ -81290,6 +81311,7 @@
         "healthcare:speciality": "community;general",
         "lgbtq": "primary",
         "name": "Kaleido Health Centre",
+        "opening_hours": "Mo-Fr 08:00-17:00",
         "operator": "ACON Health",
         "operator:wikidata": "Q136402862",
         "phone": "+61 2 8323 7378",
@@ -81793,9 +81815,9 @@
         "highchair": "yes",
         "lgbtq": "welcome",
         "name": "Wendy's",
-        "opening_hours": "Mo-We 05:30-22:00; Th-Sa 05:30-00:00; Su 05:30-22:00; Mo-Th 6:00-1:00; Fr 6:00-2:00; Sa-Su 06:30-1:00",
+        "opening_hours": "Mo-Th 06:00-01:00; Fr 06:00-02:00; Sa-Su 06:30-01:00",
         "opening_hours:drive_through": "Mo-Th 05:30-01:00; Fr-Sa 05:30-02:00; Su 05:30-01:00",
-        "phone": "+1 630-844-9320",
+        "phone": "+1-630-844-9320",
         "service_animal": "yes",
         "source:addr": "Kendall County",
         "takeaway": "yes",
@@ -82700,6 +82722,288 @@
         "lgbtq": "primary",
         "name": "Rainbow Pub",
         "@id": "node/14059814741",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1499518,
+          38.7165698
+        ]
+      },
+      "properties": {
+        "addr:city": "Lisboa",
+        "addr:housenumber": "2",
+        "addr:postcode": "1200-277",
+        "addr:street": "Travessa do Monte do Carmo",
+        "alt_name": "CheckpointLX",
+        "amenity": "doctors",
+        "contact:email": "checkpointlx@gatportugal.org",
+        "contact:email:doctors": "consulta.checkpointlx@gatportugal.org",
+        "contact:facebook": "gat.checkpointlx",
+        "contact:instagram": "gat.checkpointlx",
+        "contact:linktree": "gatportugal",
+        "contact:phone": "+351 910 693 158",
+        "handwashing:soap": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "venereology",
+        "hot_water": "no",
+        "lgbtq": "welcome",
+        "lgbtq:men": "primary",
+        "name": "GAT Checkpoint LX",
+        "opening_hours": "Mo-Fr 12:00-20:00",
+        "operator": "GAT – Grupo de Ativistas em Tratamentos",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q131428250",
+        "ref:vatin": "PT506248259",
+        "reservation": "yes",
+        "start_date": "2011-04-18",
+        "toilets": "yes",
+        "toilets:changing_table": "no",
+        "toilets:disposal": "flush",
+        "toilets:gender_segregated": "no",
+        "toilets:handwashing": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "limited",
+        "website": "https://www.checkpointlx.com/;https://www.gatportugal.org/servicos/gat-checkpoint-lx_4",
+        "wheelchair": "yes",
+        "@id": "node/14065355035",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1340656,
+          38.7411831
+        ]
+      },
+      "properties": {
+        "addr:city": "Lisboa",
+        "addr:floor": "1 Dto.",
+        "addr:housenumber": "4",
+        "addr:postcode": "1000-228",
+        "addr:street": "Avenida de Paris",
+        "contact:email": "geral@gatportugal.org",
+        "contact:email:recruiting": "recrutamento@gatportugal.org",
+        "contact:linktree": "gatportugal",
+        "contact:phone": "+351 210 967 826",
+        "level": "1",
+        "lgbtq": "welcome",
+        "name": "GAT – Grupo de Ativistas em Tratamentos",
+        "office": "ngo",
+        "operator": "GAT – Grupo de Ativistas em Tratamentos",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q131428250",
+        "ref:vatin": "PT506248259",
+        "website": "https://www.gatportugal.org/",
+        "@id": "node/14065355036",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1358827,
+          38.7217603
+        ]
+      },
+      "properties": {
+        "addr:city": "Lisboa",
+        "addr:floor": "R/C",
+        "addr:housenumber": "8",
+        "addr:postcode": "1150-043",
+        "addr:street": "Rua Antero de Quental",
+        "addr:unit": "Dto.",
+        "amenity": "doctors",
+        "contact:email": "gatafrik@gatportugal.org",
+        "contact:facebook": "gat.afrik",
+        "contact:instagram": "gat.afrik",
+        "contact:linktree": "gatportugal",
+        "contact:phone": "+351 915 290 975",
+        "healthcare": "clinic",
+        "healthcare:speciality": "venereology",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:men": "primary",
+        "name": "GAT Afrik",
+        "opening_hours": "Mo-Fr 10:00-17:30",
+        "operator": "GAT – Grupo de Ativistas em Tratamentos",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q131428250",
+        "ref:vatin": "PT506248259",
+        "reservation": "yes",
+        "start_date": "2019-09-15",
+        "website": "https://www.gatportugal.org/servicos/gat-afrik_19",
+        "@id": "node/14065355037",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1358656,
+          38.7217142
+        ]
+      },
+      "properties": {
+        "addr:city": "Lisboa",
+        "addr:floor": "R/C",
+        "addr:housenumber": "8A",
+        "addr:postcode": "1150-043",
+        "addr:street": "Rua Antero de Quental",
+        "addr:unit": "Dto.",
+        "amenity": "doctors",
+        "contact:email": "espaco.intendente@gatportugal.org",
+        "contact:facebook": "gat.intendente",
+        "contact:instagram": "gat.intendente",
+        "contact:linktree": "gatportugal",
+        "contact:phone": "+351 919 613 092",
+        "healthcare": "clinic",
+        "healthcare:speciality": "venereology",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:men": "primary",
+        "name": "GAT Intendente",
+        "opening_hours": "Mo-Fr 13:00-20:00",
+        "operator": "GAT – Grupo de Ativistas em Tratamentos",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q131428250",
+        "ref:ers": "132964",
+        "ref:vatin": "PT506248259",
+        "reservation": "required",
+        "start_date": "2016-11-25",
+        "website": "https://www.gatportugal.org/servicos/gat-intendente_3",
+        "@id": "node/14065355038",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1322905,
+          38.7155836
+        ]
+      },
+      "properties": {
+        "addr:city": "Lisboa",
+        "addr:full": "Calçada de Santo André, 79, 81-83, 1100-496, Lisboa",
+        "addr:housenumber": "79, 81-83",
+        "addr:postcode": "1100-496",
+        "addr:street": "Calçada de Santo André",
+        "amenity": "doctors",
+        "contact:email": "in.mouraria@gatportugal.org",
+        "contact:facebook": "gat.inmouraria",
+        "contact:instagram": "gat.inmouraria",
+        "contact:linktree": "gatportugal",
+        "contact:phone": "+351 211 953 273",
+        "healthcare": "clinic",
+        "healthcare:speciality": "venereology",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:men": "primary",
+        "name": "GAT IN Mouraria",
+        "opening_hours": "Mo-Fr 11:00-13:00, 14:00-20:00",
+        "operator": "GAT – Grupo de Ativistas em Tratamentos",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q131428250",
+        "ref:ers": "126027",
+        "ref:vatin": "PT506248259",
+        "reservation": "required",
+        "start_date": "2013-04-01",
+        "website": "https://www.gatportugal.org/servicos/gat-in-mouraria_18",
+        "@id": "node/14065355039",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1524229,
+          38.656058
+        ]
+      },
+      "properties": {
+        "addr:city": "Almada",
+        "addr:floor": "R/C",
+        "addr:housename": "Edifício Luís de Camões",
+        "addr:housenumber": "14",
+        "addr:postcode": "2810-252",
+        "addr:street": "Rua Luís de Camões",
+        "amenity": "doctors",
+        "contact:email": "gat.almada@gatportugal.org",
+        "contact:facebook": "gat.almada",
+        "contact:instagram": "gat.almada",
+        "contact:linktree": "gatportugal",
+        "contact:phone": "+351 910 250 553",
+        "healthcare": "clinic",
+        "healthcare:speciality": "venereology",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:men": "primary",
+        "name": "GAT Almada",
+        "opening_hours": "We 09:00-17:00; Th-Fr 10:00-17:30",
+        "operator": "GAT – Grupo de Ativistas em Tratamentos",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q131428250",
+        "ref:vatin": "PT506248259",
+        "reservation": "required",
+        "start_date": "2021-09-15",
+        "website": "https://www.gatportugal.org/servicos/gat-almada_25",
+        "@id": "node/14065355040",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8938041,
+          38.5240568
+        ]
+      },
+      "properties": {
+        "addr:city": "Setúbal",
+        "addr:floor": "R/C",
+        "addr:housenumber": "12",
+        "addr:postcode": "2900-444",
+        "addr:street": "Travessa das Lobas",
+        "amenity": "doctors",
+        "contact:email": "gat.setubal@gatportugal.org",
+        "contact:facebook": "gat.setubal",
+        "contact:instagram": "gat.setubal",
+        "contact:linktree": "gatportugal",
+        "contact:phone": "+351 910 990 777",
+        "healthcare": "clinic",
+        "healthcare:speciality": "venereology",
+        "lgbtq": "welcome",
+        "lgbtq:men": "primary",
+        "name": "GAT Setúbal",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "operator": "GAT – Grupo de Ativistas em Tratamentos",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q131428250",
+        "ref:vatin": "PT506248259",
+        "reservation": "required",
+        "start_date": "2021-09-07",
+        "website": "https://www.gatportugal.org/servicos/gat-setubal_24",
+        "@id": "node/14065355041",
         "@type": "node"
       }
     },
@@ -87253,8 +87557,9 @@
         "min_age": "18",
         "name": "The Castle",
         "opening_hours": "Fr-Sa 22:30-03:00",
+        "phone": "+1-813-247-7547",
         "smoking": "outside",
-        "website": "http://castleybor.com",
+        "website": "https://castleybor.com",
         "wheelchair": "limited",
         "@id": "way/75615709",
         "@type": "way"
@@ -87643,20 +87948,20 @@
               50.7757411
             ],
             [
-              6.0853598,
-              50.7757657
+              6.0853561,
+              50.7757593
             ],
             [
-              6.0854328,
-              50.7757302
+              6.0854284,
+              50.7757255
             ],
             [
               6.0853849,
               50.7756852
             ],
             [
-              6.085342,
-              50.7757111
+              6.0853323,
+              50.7757086
             ],
             [
               6.0852787,
@@ -102128,6 +102433,7 @@
         "fhrs:id": "931442;1036152",
         "lgbtq": "welcome",
         "name": "Six Barrel Drafthouse",
+        "opening_hours": "Mo-Su 12:00-24:00",
         "operator": "Pub People",
         "phone": "+44 1159 501798",
         "real_ale": "yes",
@@ -113770,12 +114076,32 @@
               39.9783977
             ],
             [
+              -83.0035394,
+              39.9784481
+            ],
+            [
               -83.00354,
               39.9784509
             ],
             [
               -83.0031119,
               39.9785002
+            ],
+            [
+              -83.0031082,
+              39.9784814
+            ],
+            [
+              -83.0030662,
+              39.978486
+            ],
+            [
+              -83.0030571,
+              39.9784422
+            ],
+            [
+              -83.0030997,
+              39.9784379
             ],
             [
               -83.0030912,
