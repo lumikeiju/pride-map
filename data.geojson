@@ -10787,15 +10787,19 @@
         "addr:city": "Göteborg",
         "addr:country": "SE",
         "addr:housenumber": "35",
-        "addr:postcode": "41114",
+        "addr:postcode": "411 14",
         "addr:street": "Drottninggatan",
-        "amenity": "pub",
+        "amenity": "nightclub",
         "contact:email": "gretas1@live.se",
+        "contact:instagram": "gretasgbg",
         "contact:phone": "+46 31 13 69 49",
-        "lgbtq": "welcome",
+        "lgbtq": "primary",
         "name": "Gretas",
         "opening_hours": "Fr,Sa 22:00-05:00",
         "smoking": "no",
+        "start_date": "1997",
+        "wikidata": "Q10508710",
+        "wikipedia": "sv:Gretas",
         "@id": "node/1632019516",
         "@type": "node"
       }
@@ -23378,6 +23382,8 @@
         "alt_name": "Wilhelm Bar",
         "amenity": "cafe",
         "changing_table": "no",
+        "check_date": "2026-08-01",
+        "check_date:opening_hours": "2026-08-01",
         "cuisine": "tea;cake;coffee_shop",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
@@ -23386,7 +23392,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Willi",
-        "opening_hours": "Mo-Th 07:30-20:00; Fr 07:30-22:00; Sa 10:00-22:00; Su 10:00-20:00",
+        "opening_hours": "Mo-Su 09:00-19:00",
         "operator": "Theofilos Kalaitzidis",
         "outdoor_seating": "terrace",
         "phone": "+497071 8598677",
@@ -37816,6 +37822,7 @@
         "addr:housenumber": "176",
         "addr:postcode": "75003",
         "addr:street": "Rue Saint-Martin",
+        "air_conditioning": "yes",
         "amenity": "bar",
         "check_date": "2025-08-22",
         "contact:bluesky": "https://bsky.app/profile/lamutinerie.bsky.social",
@@ -37833,6 +37840,8 @@
         "name": "La Mutinerie",
         "opening_hours": "17:00-01:30",
         "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+33 1 42 72 70 59",
         "smoking": "outside",
         "wheelchair": "no",
@@ -59058,18 +59067,22 @@
         "addr:housenumber": "10",
         "addr:street": "Montée des Carmélites",
         "amenity": "coworking_space",
+        "bathroom:privacy": "full",
+        "check_date": "2026-08-01",
         "contact:facebook": "Pilohotels",
         "contact:instagram": "pilohotels",
         "contact:linkedin": "https://www.linkedin.com/company/pilo-hotels/",
         "cuisine": "local",
         "guest_house": "hostel",
         "internet_access": "wlan",
+        "level": "0;1;2;3;4;5;6;7",
         "lgbtq": "welcome",
         "name": "The People Lyon Hostel",
         "opening_date": "2023-01-02",
         "opening_hours": "24/7",
         "organic": "yes",
         "phone": "+33 4 28 01 86 00",
+        "reservation": "yes",
         "rooms": "45",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "tourism": "hostel",
@@ -78005,11 +78018,11 @@
         "air_conditioning": "yes",
         "amenity": "swingerclub",
         "brewery": "various",
-        "check_date": "2025-06-01",
+        "check_date": "2026-08-01",
         "contact:instagram": "thelordclyde.se8",
         "description": "Gay cruise bar",
         "lgbtq:cruising": "primary",
-        "name": "Lord Clyde",
+        "name": "The Lord Clyde",
         "outdoor_seating": "no",
         "payment:cash": "no",
         "payment:credit_cards": "yes",
@@ -83004,6 +83017,53 @@
         "start_date": "2021-09-07",
         "website": "https://www.gatportugal.org/servicos/gat-setubal_24",
         "@id": "node/14065355041",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9193458,
+          37.0242561
+        ]
+      },
+      "properties": {
+        "addr:city": "Faro",
+        "addr:country": "PT",
+        "addr:housenumber": "1 Loja A",
+        "addr:postcode": "8000-123",
+        "addr:street": "Rua Moto Clube",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2026-08-01",
+        "contact:instagram": "rubys.smash",
+        "cuisine": "burger",
+        "diet:vegetarian": "yes",
+        "dog": "yes",
+        "drinking_water:refill": "yes",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "Ruby‘s Smashburger",
+        "opening_hours": "Mo-Sa 12:30-15:30,18:30-23:15; Su off",
+        "outdoor_seating": "yes",
+        "panoramax": "931269b7-f3a5-4be0-9374-95cd71330963",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:mbway": "yes",
+        "payment:visa": "yes",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://rubys-smashburger.pt",
+        "wheelchair": "limited",
+        "@id": "node/14066185401",
         "@type": "node"
       }
     },
@@ -133009,63 +133069,6 @@
         "phone": "+1-407-412-5039",
         "website": "https://www.facebook.com/SouthernNightsOrlando/",
         "@id": "way/1380127503",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -0.043175,
-              51.5706593
-            ],
-            [
-              -0.0432931,
-              51.5707129
-            ],
-            [
-              -0.0434656,
-              51.570566
-            ],
-            [
-              -0.0433475,
-              51.5705125
-            ],
-            [
-              -0.043175,
-              51.5706593
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:housename": "Leyton Industrial Village",
-        "addr:street": "Argall Avenue",
-        "addr:suburb": "Leyton",
-        "addr:unit": "D2",
-        "amenity": "pub",
-        "building": "industrial",
-        "check_date": "2025-05-10",
-        "contact:email": "hello@thequeerbrewingproject.com",
-        "contact:facebook": "https://www.facebook.com/QueerBrewing",
-        "diet:vegan": "yes",
-        "dog": "yes",
-        "lgbtq": "primary",
-        "name": "Queer Brewing Project",
-        "opening_hours": "Mo-Th off; Fr 16:00-22:00; Sa 13:00-22:00; Su off; PH off",
-        "outdoor_seating": "yes",
-        "real_ale": "yes",
-        "short_name": "Queer Brewing",
-        "start_date": "2024-04",
-        "toilets": "yes",
-        "toilets:access": "customers",
-        "website": "https://www.thequeerbrewingproject.com/taproom",
-        "wheelchair": "yes",
-        "@id": "way/1385726376",
         "@type": "way"
       }
     },
