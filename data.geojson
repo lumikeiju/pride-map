@@ -13392,12 +13392,11 @@
         "check_date": "2026-03-28",
         "indoor_seating": "yes",
         "internet_access": "no",
-        "internet_access:fee": "no",
         "lgbtq": "primary",
         "lgbtq:signed": "yes",
         "min_age": "21",
         "name": "Rumors Cabaret",
-        "opening_hours": "16:00-4:00",
+        "opening_hours": "16:00-02:00",
         "outdoor_seating": "no",
         "payment:cash": "yes",
         "payment:debit_cards": "yes",
@@ -16613,8 +16612,8 @@
       "properties": {
         "alt_name": "Les Bien-Aimés",
         "amenity": "cafe",
-        "check_date": "2025-12-08",
-        "check_date:opening_hours": "2025-12-08",
+        "check_date": "2026-07-28",
+        "check_date:opening_hours": "2026-07-28",
         "contact:email": "librairielesbienaimes@gmail.com",
         "contact:housenumber": "2",
         "contact:phone": "+33 2 85 37 36 01",
@@ -16626,14 +16625,14 @@
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Les Bien-Aimé·e·s",
-        "opening_hours": "Mo-Sa 11:00-19:00; Fr 11:00-21:30",
+        "opening_hours": "Mo-Sa 11:00-19:00; Fr 11:00-21:30; Aug: Tu-Sa 10:00-19:00",
         "outdoor_seating": "pedestrian_zone",
         "pastry": "yes",
         "ref:FR:NAF": "47.61Z",
         "ref:FR:SIREN": "793987108",
         "ref:FR:SIRET": "79398710800016",
         "shop": "books",
-        "source:ref": "INSEE - 2025-08",
+        "source:ref:FR": "INSEE - 2025-08",
         "toilets:wheelchair": "no",
         "wheelchair": "yes",
         "@id": "node/2289128178",
@@ -32781,13 +32780,18 @@
       },
       "properties": {
         "addr:city": "Glasgow",
-        "addr:housenumber": "8",
+        "addr:housenumber": "6A",
         "addr:postcode": "G1 1JQ",
         "addr:street": "John Street",
         "amenity": "bar",
-        "check_date": "2023-02-13",
+        "check_date": "2026-08-02",
+        "check_date:opening_hours": "2026-08-02",
+        "contact:facebook": "UndergroundGlasgo",
+        "level": "-1",
         "lgbtq": "primary",
         "name": "The Underground",
+        "opening_hours": "Mo-Th 18:00-00:00; Fr 18:00-01:00; Su 14:00-01:00; Sa 12:00-01:00",
+        "phone": "+441415532456",
         "@id": "node/5008347534",
         "@type": "node"
       }
@@ -34332,9 +34336,13 @@
         "addr:postcode": "G1 1UR",
         "addr:street": "Glassford Street",
         "amenity": "nightclub",
-        "check_date": "2025-06-05",
+        "check_date": "2026-08-02",
+        "check_date:opening_hours": "2026-08-02",
+        "contact:facebook": "axmclubglasgow",
+        "contact:instagram": "axmclubglasgow",
         "lgbtq": "primary",
         "name": "AXM",
+        "opening_hours": "Fr-Sa 22:00-04:00",
         "smoking": "no",
         "@id": "node/5318342497",
         "@type": "node"
@@ -35958,7 +35966,7 @@
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "ILOsBar",
-        "opening_hours": "Tue - Thu 17 - 02 Fr & Sa 17 - 04",
+        "opening_hours": "Tu - Th 17:00 - 02:00; Fr, Sa 17:00 - 04:00",
         "outdoor_seating": "yes",
         "website": "https://ilosbar.de/",
         "@id": "node/5640234265",
@@ -40400,10 +40408,16 @@
       },
       "properties": {
         "addr:city": "Madrid",
+        "addr:housenumber": "62",
         "addr:postcode": "28004",
         "addr:street": "Calle de Hortaleza",
+        "check_date": "2026-08-02",
+        "contact:instagram": "https://www.instagram.com/libreria_berkana",
+        "description": "Creada en 1993, Berkana fue la primera librería especializada en cultura LGTBIQ+ de España y Latinoamérica. Además de ser una de las librerías más grande del mundo en su especialización, son un referente de la cultura LGTBIQ+.",
+        "email": "berkana@libreriaberkana.com",
         "lgbtq": "primary",
         "name": "Berkana",
+        "opening_hours": "Mo-Fr 10:30-20:30; Sa 11:30-20:30; Su 12:00-14:00, 17:00-20:00",
         "shop": "books",
         "website": "https://www.libreriaberkana.com/",
         "wheelchair": "no",
@@ -41132,6 +41146,7 @@
         "air_conditioning": "yes",
         "amenity": "bar",
         "brewery": "various",
+        "check_date": "2026-08-02",
         "contact:instagram": "https://www.instagram.com/nobody.queerbar?igsh=MWpyenR0MWRmZnV6dg==",
         "description": "Nobody is perfect.\nNobody is for everybody.\nQueer Bar / Cocktails / & more",
         "food": "yes",
@@ -90326,24 +90341,24 @@
         "coordinates": [
           [
             [
-              13.3761731,
-              52.5132718
+              13.3761703,
+              52.5132742
             ],
             [
-              13.3761002,
-              52.5132713
+              13.3760979,
+              52.5132687
             ],
             [
-              13.3761007,
-              52.5132436
+              13.3761035,
+              52.5132412
             ],
             [
-              13.3761736,
-              52.5132441
+              13.3761759,
+              52.5132467
             ],
             [
-              13.3761731,
-              52.5132718
+              13.3761703,
+              52.5132742
             ]
           ]
         ]
@@ -109323,45 +109338,61 @@
         "coordinates": [
           [
             [
-              -0.0752889,
-              51.5500721
+              -0.0752897,
+              51.5500726
             ],
             [
-              -0.0752869,
-              51.5501154
+              -0.0752865,
+              51.5501156
             ],
             [
-              -0.0754449,
-              51.5501191
+              -0.0754448,
+              51.5501201
             ],
             [
-              -0.0754509,
-              51.5500757
+              -0.0756921,
+              51.5501272
             ],
             [
-              -0.0752889,
-              51.5500721
+              -0.0756953,
+              51.5500842
+            ],
+            [
+              -0.0754508,
+              51.5500772
+            ],
+            [
+              -0.0752897,
+              51.5500726
             ]
           ]
         ]
       },
       "properties": {
         "addr:city": "London",
+        "addr:housename": "Dalston Superstore",
         "addr:housenumber": "117",
         "addr:postcode": "E8 2PB",
         "addr:street": "Kingsland High Street",
         "amenity": "nightclub",
         "building": "yes",
         "building:colour": "white",
+        "building:level": "1",
         "building:levels": "3",
+        "building:levels:underground": "1",
         "building:material": "plaster",
+        "contact:email": "hello@dalstonsuperstore.com",
         "contact:phone": "+44 20 7254 2273",
         "contact:website": "http://dalstonsuperstore.com/",
+        "description": "Queer nightclub/bar/drag & performance space. Check opening hours & age on website per event.\nRamp available on request to enter. No accessible toilet, downstairs only reachable by stairs. See https://dalstonsuperstore.com/accessibility/",
         "fhrs:id": "470202",
         "lgbtq": "primary",
         "name": "Dalston Superstore",
+        "opening_hours": "Mo 17:00-24:00; Tu 16:00-24:00; We,Th 16:00-28:30; Fr, Sa 12:00-30:00; Su 12:00-25:00",
         "smoking": "outside",
-        "wheelchair": "no",
+        "source:wheelchair": "was there (survey)",
+        "wheelchair": "limited",
+        "wheelchair:description": "Ramp available on request to enter. No accessible toilet, downstairs only reachable by stairs. Cloakroom is up a short flight of stairs, staff willing to assist. See https://dalstonsuperstore.com/accessibility/",
         "wikidata": "Q116481018",
         "@id": "way/395184529",
         "@type": "way"
