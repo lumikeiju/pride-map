@@ -2890,6 +2890,8 @@
         "lgbtq": "primary",
         "name": "queerKAstle",
         "opening_hours:signed": "no",
+        "toilets:menstrual_products": "yes",
+        "toilets:unisex": "yes",
         "wheelchair": "yes",
         "@id": "node/410312751",
         "@type": "node"
@@ -13396,7 +13398,7 @@
         "lgbtq:signed": "yes",
         "min_age": "21",
         "name": "Rumors Cabaret",
-        "opening_hours": "16:00-02:00",
+        "opening_hours": "16:00-04:00",
         "outdoor_seating": "no",
         "payment:cash": "yes",
         "payment:debit_cards": "yes",
@@ -73637,33 +73639,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.1863856,
-          48.008477
-        ]
-      },
-      "properties": {
-        "addr:city": "Le Mans",
-        "addr:housenumber": "147",
-        "addr:postcode": "72000",
-        "addr:street": "rue Gambetta",
-        "amenity": "community_centre",
-        "community_centre:for": "lgbtq",
-        "contact:facebook": "LGBT72.le.Mans",
-        "email": "homogene72.asso.lgbt@gmail.com",
-        "lgbtq": "primary",
-        "name": "Homogène - Centre LGBT du Mans",
-        "phone": "+33 9 51 44 66 00",
-        "twitter": "lgbt_72",
-        "website": "https://homogene72.net/",
-        "@id": "node/12987319633",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -89.6025785,
           40.6993564
         ]
@@ -83079,6 +83054,50 @@
         "website": "https://rubys-smashburger.pt",
         "wheelchair": "limited",
         "@id": "node/14066185401",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6585322,
+          43.5410012
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "BGB",
+        "@id": "node/14070067611",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2116623,
+          48.0151871
+        ]
+      },
+      "properties": {
+        "addr:city": "Le Mans",
+        "addr:housenumber": "137",
+        "addr:postcode": "72000",
+        "addr:street": "Rue des Maillets",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "contact:facebook": "LGBT72.le.Mans",
+        "email": "homogene72.asso.lgbt@gmail.com",
+        "lgbtq": "primary",
+        "name": "Homogène - Centre LGBT du Mans",
+        "phone": "+33 9 51 44 66 00",
+        "twitter": "lgbt_72",
+        "website": "https://homogene72.net/",
+        "@id": "node/14070845065",
         "@type": "node"
       }
     },
