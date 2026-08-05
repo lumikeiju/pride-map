@@ -4124,6 +4124,8 @@
         "addr:street": "West Lake Street",
         "amenity": "restaurant",
         "bar": "yes",
+        "capacity:indoor": "272",
+        "capacity:outdoor": "16",
         "check_date": "2026-05-19",
         "check_date:opening_hours": "2026-05-19",
         "cuisine": "american",
@@ -5350,12 +5352,16 @@
         "addr:state": "DC",
         "addr:street": "Pennsylvania Avenue Southeast",
         "amenity": "restaurant",
+        "check_date": "2026-08-04",
         "cuisine": "american",
         "dataset": "ABRA locations",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Mr. Henry's",
         "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+1 202-546-8412",
         "source": "dcgis",
         "website": "https://www.mrhenrysdc.com/",
@@ -15877,7 +15883,6 @@
         "lgbtq": "primary",
         "name": "Union",
         "opening_hours": "Mo-Fr 16:00-22:00; Sa,Su 12:00-22:00",
-        "opening_hours:kitchen": "yes",
         "website": "https://www.unionseattle.com/",
         "wikidata": "Q65054127",
         "@id": "node/2159322642",
@@ -32246,6 +32251,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -77.032186,
+          38.919426
+        ]
+      },
+      "properties": {
+        "addr:city": "Washington",
+        "addr:housenumber": "2204",
+        "addr:postcode": "20009",
+        "addr:state": "DC",
+        "addr:street": "14th Street Northwest",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Thurst Lounge",
+        "website": "http://thurstlounge.com/",
+        "@id": "node/4887182723",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -77.0321905,
           38.9092778
         ]
@@ -36084,6 +36112,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.5531626,
+          53.8010809
+        ]
+      },
+      "properties": {
+        "addr:city": "Leeds",
+        "addr:housenumber": "77a",
+        "addr:postcode": "LS1 3BR",
+        "addr:street": "Great George Street",
+        "dog": "yes",
+        "lgbtq": "primary",
+        "name": "The Bookish Type",
+        "opening_hours": "Tu-Sa 10:00-18:00; Su 12:00-16:00",
+        "shop": "books",
+        "website": "https://thebookishtype.co.uk/",
+        "@id": "node/5660715672",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.6669629,
           -33.4488697
         ]
@@ -37307,6 +37359,42 @@
         "name": "Man for Man",
         "shop": "erotic",
         "@id": "node/6016353377",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5416349,
+          53.7963606
+        ]
+      },
+      "properties": {
+        "addr:city": "Leeds",
+        "addr:postcode": "LS1 6DX",
+        "addr:street": "Central Arcade",
+        "addr:unit": "10",
+        "amenity": "cafe",
+        "check_date": "2025-05-30",
+        "contact:phone": "+44 113 244 8699",
+        "contact:website": "https://flamingosleeds.co.uk/",
+        "cuisine": "coffee_shop",
+        "email": "neil@flamingosleeds.co.uk",
+        "fhrs:id": "1808801",
+        "fixme:addr2": "Central Arcade",
+        "fixme:addr3": "Leeds",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Flamingos",
+        "opening_hours": "Mo-Fr,Su 11:00-18:00; Sa 10:30-18:00",
+        "outdoor_seating": "no",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes",
+        "@id": "node/6022850232",
         "@type": "node"
       }
     },
@@ -40361,8 +40449,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.6985115,
-          40.4217433
+          -3.6984968,
+          40.4217381
         ]
       },
       "properties": {
@@ -43066,6 +43154,7 @@
         "lgbtq:signed": "yes",
         "name": "Seattle Electric Bike",
         "opening_hours": "10:30-18:00",
+        "phone": "+1-425-273-2959",
         "shop": "bicycle",
         "website": "https://www.seattleelectricbike.net/",
         "@id": "node/6947174626",
@@ -49052,11 +49141,9 @@
         "addr:postcode": "95113",
         "addr:state": "CA",
         "addr:street": "Post Street",
-        "amenity": "nightclub",
-        "check_date": "2024-01-12",
+        "amenity": "bar",
         "lgbtq": "primary",
-        "name": "Mac’s Club",
-        "official_name": "Mac’s Club Incorporated",
+        "name": "U Bar",
         "@id": "node/8712948012",
         "@type": "node"
       }
@@ -126118,7 +126205,7 @@
         "addr:street": "Post Street",
         "amenity": "nightclub",
         "building": "yes",
-        "check_date": "2024-01-12",
+        "check_date": "2026-07-04",
         "ele": "36.78",
         "height": "10.00",
         "level": "0",
@@ -136090,7 +136177,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "The Stkr Store",
-        "opening_hours": "Su-Th 11:00-07:30; Fr-Sa 11:00-9:00",
+        "opening_hours": "Su-Th 11:00-19:30; Fr-Sa 11:00-21:00",
         "phone": "+1-626-553-0925",
         "shop": "stationery",
         "start_date": "2026-07-11",
