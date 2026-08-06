@@ -21552,6 +21552,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.5908456,
+          47.5636143
+        ]
+      },
+      "properties": {
+        "addr:city": "Basel",
+        "addr:housenumber": "1b",
+        "addr:postcode": "4057",
+        "addr:street": "Klybeckstrasse",
+        "amenity": "bar",
+        "check_date": "2026-08-05",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "name": "KABAR",
+        "outdoor_seating": "yes",
+        "phone": "+41 61 681 47 17",
+        "smoking": "outside",
+        "website": "https://kaserne-basel.ch/de/kabar",
+        "wheelchair": "limited",
+        "@id": "node/2987527171",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.3177809,
           47.6142404
         ]
@@ -45508,12 +45536,31 @@
         ]
       },
       "properties": {
+        "addr:city": "lyon",
+        "addr:country": "france",
+        "addr:housenumber": "19",
+        "addr:postcode": "69002",
+        "addr:street": "rue claudia",
         "air_conditioning": "yes",
         "amenity": "bar",
+        "brewery": "yes;various;heineken",
+        "check_date": "2026-08-05",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100057352962844",
+        "contact:instagram": "https://www.instagram.com/xs_bar_lyon/",
+        "description": "XS BAR, bar gay emblématique de Lyon depuis 2010. Safe place LGBT+, cocktails, ambiance festive et inclusive au 19 Rue Claudia, Lyon 2e.",
+        "email": "xs.bar.miracle@gmail.com",
+        "image": "https://xs-bar.fr/img/logo-xs-bar.webp",
+        "internet_access": "wlan",
         "lgbtq": "primary",
-        "name": "XS Bar",
-        "ref:FR:SIRET": "52457070200018",
+        "min_age": "18",
+        "name": "XS BAR",
+        "opening_hours": "16:00-03:00",
+        "operator": "Carbonell Wilfried",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "94085781600034",
         "survey:date": "2022-03-13",
+        "website": "https://xs-bar.fr/",
+        "wheelchair": "yes",
         "@id": "node/7499147567",
         "@type": "node"
       }
@@ -88914,6 +88961,150 @@
         "coordinates": [
           [
             [
+              11.9876177,
+              57.7023379
+            ],
+            [
+              11.9877166,
+              57.7023905
+            ],
+            [
+              11.9877467,
+              57.7024685
+            ],
+            [
+              11.9877268,
+              57.7025601
+            ],
+            [
+              11.988046,
+              57.7026177
+            ],
+            [
+              11.9881738,
+              57.7026347
+            ],
+            [
+              11.9882339,
+              57.7026209
+            ],
+            [
+              11.9882389,
+              57.7025878
+            ],
+            [
+              11.9881922,
+              57.7025336
+            ],
+            [
+              11.988227,
+              57.7025032
+            ],
+            [
+              11.9883017,
+              57.7024946
+            ],
+            [
+              11.9883517,
+              57.7025067
+            ],
+            [
+              11.9884029,
+              57.7025609
+            ],
+            [
+              11.9884373,
+              57.7025699
+            ],
+            [
+              11.9885362,
+              57.7025376
+            ],
+            [
+              11.988679,
+              57.7023978
+            ],
+            [
+              11.9886643,
+              57.7023641
+            ],
+            [
+              11.9886475,
+              57.7023379
+            ],
+            [
+              11.9884871,
+              57.7022973
+            ],
+            [
+              11.9883909,
+              57.7022743
+            ],
+            [
+              11.9880909,
+              57.7021631
+            ],
+            [
+              11.9880803,
+              57.7021244
+            ],
+            [
+              11.9880313,
+              57.7020749
+            ],
+            [
+              11.9878945,
+              57.7020284
+            ],
+            [
+              11.9876464,
+              57.7020757
+            ],
+            [
+              11.9875753,
+              57.7022462
+            ],
+            [
+              11.9875431,
+              57.7023336
+            ],
+            [
+              11.9876177,
+              57.7023379
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "alcohol": "no",
+        "contact:email": "actionpark@socialcentrum.goteborg.se",
+        "covered": "no",
+        "dog": "no",
+        "fee": "no",
+        "leisure": "pitch",
+        "lgbtq": "welcome",
+        "lit": "yes",
+        "name": "Actionpark",
+        "smoking": "no",
+        "source": "local knowledge",
+        "sport": "skateboard;bmx;inlines;scooter;kickbike",
+        "start_date": "2008-11-01",
+        "surface": "concrete",
+        "website": "https://goteborg.se/wps/portal/enheter/actionpark",
+        "wikidata": "Q10400577",
+        "wikipedia": "sv:Actionpark (Göteborg)",
+        "@id": "way/87959505",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -0.0932121,
               51.494691
             ],
@@ -128790,6 +128981,79 @@
         "nudism": "yes",
         "surface": "grass",
         "@id": "way/1207837681",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.4663011,
+              53.3884118
+            ],
+            [
+              -1.4663851,
+              53.3885036
+            ],
+            [
+              -1.4663821,
+              53.3885127
+            ],
+            [
+              -1.4663738,
+              53.3885201
+            ],
+            [
+              -1.466219,
+              53.3885577
+            ],
+            [
+              -1.466142,
+              53.3884736
+            ],
+            [
+              -1.4662237,
+              53.388447
+            ],
+            [
+              -1.4662167,
+              53.3884393
+            ],
+            [
+              -1.4663011,
+              53.3884118
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sheffield",
+        "addr:housename": "The Harlequin",
+        "addr:housenumber": "108",
+        "addr:postcode": "S3 8GG",
+        "addr:street": "Nursery Street",
+        "amenity": "pub",
+        "brewery": "munich_lager;bitburger;various;yes;real_ales",
+        "building": "yes",
+        "diet:vegetarian": "yes",
+        "email": "harlequinpub@gmail.com",
+        "fhrs:id": "438104",
+        "lgbtq": "welcome",
+        "lgbtq:trans": "welcome",
+        "name": "The Harlequin",
+        "old_name": "The Manchester",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 7794 156916",
+        "smoking": "outside",
+        "website": "https://theharlequinpub.wordpress.com/",
+        "wheelchair": "limited",
+        "@id": "way/1211131640",
         "@type": "way"
       }
     },
