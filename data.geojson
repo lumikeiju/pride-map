@@ -77,6 +77,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.3699125,
+          51.3256076
+        ]
+      },
+      "properties": {
+        "addr:floor": "0",
+        "addr:housenumber": "36",
+        "addr:street": "Dufourstraße",
+        "check_date": "2024-12-18",
+        "female:signed": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "male:signed": "no",
+        "name": "Salon Noland",
+        "opening_hours": "Mo 10:00-20:00; Tu-Fr 09:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:ec_cards": "yes",
+        "phone": "+49 341 44281844",
+        "shop": "hairdresser",
+        "website": "https://www.salon-noland.de",
+        "wheelchair": "no",
+        "@id": "node/110624370",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.8501798,
           48.0079632
         ]
@@ -3471,17 +3503,13 @@
         ]
       },
       "properties": {
-        "addr:city": "Strasbourg",
-        "addr:housenumber": "20",
-        "addr:postcode": "67000",
-        "addr:street": "Rue des Couples",
         "amenity": "bar",
         "contact:city": "Strasbourg",
         "contact:housenumber": "20",
         "contact:postcode": "67000",
         "contact:street": "Rue des Couples",
         "lgbtq": "primary",
-        "name": "Canapé Queer Bar",
+        "name": "Le Canapé Queer",
         "opening_hours": "Mo-We 17:00-01:30, Th-Sa 17:00-04:00",
         "phone": "+33 3 88 35 51 52",
         "ref:FR:SIRET": "90847876100012",
@@ -4834,6 +4862,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.3723528,
+          51.3314782
+        ]
+      },
+      "properties": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "52",
+        "addr:postcode": "04107",
+        "addr:street": "Riemannstraße",
+        "female:signed": "no",
+        "lgbtq": "welcome",
+        "male:signed": "no",
+        "name": "Salon Noland",
+        "shop": "hairdresser",
+        "@id": "node/612994407",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -15.5833356,
           27.7359983
         ]
@@ -5153,7 +5204,7 @@
         "lgbtq": "welcome",
         "name": "Entropia e.V.",
         "office": "ngo",
-        "opening_hours": "Available 24/7 to members, guests allowed as long as a member is present. Usually always open on Saturday afternoons.",
+        "opening_hours": "\"Available 24/7 to members, guests allowed as long as a member is present. Usually always open on Saturday afternoons.\"",
         "operator": "Entropia e.V.",
         "operator:type": "community",
         "outdoor_seating": "no",
@@ -6129,6 +6180,36 @@
         "website:menu": "https://www.estragon-nuernberg.de/kulinarisches/kulinarisches.htm",
         "wheelchair": "no",
         "@id": "node/795942829",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5693422,
+          47.7952676
+        ]
+      },
+      "properties": {
+        "addr:city": "Auxerre",
+        "addr:housenumber": "3",
+        "addr:postcode": "89000",
+        "addr:street": "Rue de la Draperie",
+        "currency:XBT": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Cartes sur Table",
+        "opening_hours": "We,Th,Sa 10:00-19:00; Tu,Fr 10:00-23:00",
+        "panoramax": "0ce82960-1ee0-4243-b3f2-8bcde7839ebe",
+        "ref:FR:SIRET": "89232187800027",
+        "shop": "games",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010;survey",
+        "start_date": "2022-11-05",
+        "survey:date": "2026-01-18",
+        "wheelchair": "limited",
+        "@id": "node/806508964",
         "@type": "node"
       }
     },
@@ -10750,6 +10831,32 @@
         "opening_hours": "Mo-Th 17:00-01:00; Fr-Su 00:00-24:00",
         "website": "https://www.rawhide2010.com/",
         "@id": "node/1617789009",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3770716,
+          51.3250171
+        ]
+      },
+      "properties": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "44",
+        "addr:postcode": "04107",
+        "addr:street": "Körnerstraße",
+        "check_date:opening_hours": "2023-12-13",
+        "email": "kosmetik-leipzig@engelundbengel.studio",
+        "lgbtq": "welcome",
+        "name": "Engel & Bengel",
+        "opening_hours": "Mo-Tu 09:00-17:00; Th-Fr 12:00-19:00",
+        "phone": "+49 341 23801728",
+        "shop": "beauty",
+        "website": "https://www.engelundbengel.studio",
+        "@id": "node/1625199848",
         "@type": "node"
       }
     },
@@ -32148,10 +32255,6 @@
         ]
       },
       "properties": {
-        "addr:city": "Strasbourg",
-        "addr:housenumber": "63",
-        "addr:postcode": "67000",
-        "addr:street": "Rue du Fossé des Tanneurs",
         "amenity": "bar",
         "check_date": "2026-07-27",
         "contact:housenumber": "63",
@@ -32159,7 +32262,7 @@
         "lgbtq": "primary",
         "name": "Golden Gate Bar",
         "outdoor_seating": "yes",
-        "phone": "+33388751175",
+        "phone": "+33 3 88 75 72 98",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2015",
         "@id": "node/4868319684",
         "@type": "node"
@@ -55193,7 +55296,7 @@
       "properties": {
         "air_conditioning": "yes",
         "amenity": "bar",
-        "check_date": "2024-04-07",
+        "check_date": "2026-08-04",
         "cuisine": "sandwich",
         "delivery": "no",
         "drink:beer": "draught",
@@ -56246,7 +56349,7 @@
         "lgbtq": "welcome",
         "menu:large_print": "yes",
         "name": "Pizza Cucina",
-        "opening_hours": "Mo, We, Th 11:00-21:00; Sr-Sa 11; 00-22:00; Su 12:00-21:00",
+        "opening_hours": "Su,Mo,We-Th 11:00-20:30; Tu 11:00-19:30; Fr,Sa 11:00-21:30",
         "phone": "+1-630-844-9600",
         "service_animal": "yes",
         "source:addr": "Kendall County",
@@ -74672,6 +74775,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -89.6509634,
+          39.803073
+        ]
+      },
+      "properties": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "319",
+        "addr:postcode": "62701",
+        "addr:state": "IL",
+        "addr:street": "East Jefferson Street",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "min_age": "21",
+        "name": "Fluid",
+        "opening_hours": "Mo-Sa 14:00-26:00; Su 12:30-24:30",
+        "phone": "+1-217-481-1133",
+        "start_date": "2025-07-19",
+        "@id": "node/13021072209",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.5325973,
           53.8051114
         ]
@@ -80031,6 +80160,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.4039008,
+          51.3277509
+        ]
+      },
+      "properties": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "33",
+        "addr:postcode": "04317",
+        "addr:street": "Riebeckstraße",
+        "lgbtq": "welcome",
+        "name": "Johanniter-Akademie Mitteldeutschland - Campus Leipzig",
+        "office": "educational_institution",
+        "operator": "Johanniter-Unfall-Hilfe e.V.",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q14751117",
+        "website": "https://www.johanniter.de/bildungseinrichtungen/johanniter-akademie/johanniter-akademie-mitteldeutschland/standorte-der-akademie-in-mitteldeutschland/campus-leipzig/",
+        "@id": "node/13645655173",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -75.1475438,
           39.9411836
         ]
@@ -82867,8 +83021,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.1499518,
-          38.7165698
+          -9.1499622,
+          38.716582
         ]
       },
       "properties": {
@@ -82887,7 +83041,14 @@
         "handwashing:soap": "yes",
         "healthcare": "clinic",
         "healthcare:speciality": "venereology",
+        "hiv:test": "yes",
         "hot_water": "no",
+        "infection:hiv": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:password": "checkpointlx",
+        "internet_access:ssid": "checkpointlx",
+        "level": "0",
         "lgbtq": "welcome",
         "lgbtq:men": "primary",
         "name": "GAT Checkpoint LX",
@@ -82904,10 +83065,11 @@
         "toilets:gender_segregated": "no",
         "toilets:handwashing": "yes",
         "toilets:menstrual_products": "no",
+        "toilets:number": "1",
         "toilets:paper_supplied": "yes",
         "toilets:position": "seated",
         "toilets:wheelchair": "limited",
-        "website": "https://www.checkpointlx.com/;https://www.gatportugal.org/servicos/gat-checkpoint-lx_4",
+        "website": "https://www.checkpointlx.com/",
         "wheelchair": "yes",
         "@id": "node/14065355035",
         "@type": "node"
@@ -83232,6 +83394,31 @@
         "twitter": "lgbt_72",
         "website": "https://homogene72.net/",
         "@id": "node/14070845065",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4807024,
+          51.340363
+        ]
+      },
+      "properties": {
+        "addr:city": "Leipzig",
+        "addr:country": "de",
+        "addr:housenumber": "21",
+        "addr:postcode": "04319",
+        "addr:street": "Opalstraße",
+        "addr:suburb": "Engelsdorf",
+        "beauty": "skin,hair_removal,eyelash,eyebrow",
+        "lgbtq": "welcome",
+        "name": "Estetica Lounge",
+        "name:de": "Estetica Lounge",
+        "shop": "beauty",
+        "@id": "node/14077699259",
         "@type": "node"
       }
     },
@@ -118685,7 +118872,7 @@
         "lgbtq": "welcome",
         "name": "Community Church of Hope",
         "religion": "christian",
-        "service_times": "Sundays 9 AM and 11 AM",
+        "service_times": "Su 09:00,11:00",
         "@id": "way/687715003",
         "@type": "way"
       }
@@ -123763,79 +123950,6 @@
         "phone": "+1 209 835 8910",
         "website": "https://www.plannedparenthood.org/health-center/california/tracy/95376/tracy-health-center-3856-90130",
         "@id": "way/962995659",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -1.8947393,
-              52.472471
-            ],
-            [
-              -1.8945797,
-              52.4723295
-            ],
-            [
-              -1.8945166,
-              52.4723542
-            ],
-            [
-              -1.8945636,
-              52.472391
-            ],
-            [
-              -1.8945341,
-              52.4724327
-            ],
-            [
-              -1.8944898,
-              52.472422
-            ],
-            [
-              -1.8944483,
-              52.4724724
-            ],
-            [
-              -1.8943624,
-              52.4724416
-            ],
-            [
-              -1.8943436,
-              52.4724512
-            ],
-            [
-              -1.8945601,
-              52.4725328
-            ],
-            [
-              -1.894628,
-              52.4725593
-            ],
-            [
-              -1.8947393,
-              52.472471
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Birmingham",
-        "addr:housenumber": "152",
-        "addr:postcode": "B5 6RY",
-        "addr:street": "Hurst Street",
-        "amenity": "pub",
-        "building": "retail",
-        "building:levels": "3",
-        "fhrs:id": "598816",
-        "lgbtq": "primary",
-        "name": "The Village Inn",
-        "source:addr": "FHRS Open Data",
-        "@id": "way/963068989",
         "@type": "way"
       }
     },
