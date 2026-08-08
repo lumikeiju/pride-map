@@ -43083,34 +43083,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3166512,
-          47.6139749
-        ]
-      },
-      "properties": {
-        "addr:city": "Seattle",
-        "addr:housenumber": "1205",
-        "addr:postcode": "98122",
-        "addr:state": "WA",
-        "addr:street": "East Pike Street",
-        "check_date": "2024-08-21",
-        "lgbtq": "welcome",
-        "lgbtq:signed": "yes",
-        "name": "Wall of Sound",
-        "opening_hours": "11:00-18:00",
-        "shop": "music",
-        "website": "https://wosound.com/",
-        "wheelchair": "no",
-        "wikidata": "Q115131449",
-        "@id": "node/6901506446",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.1115783,
           48.1478001
         ]
@@ -45639,11 +45611,11 @@
         ]
       },
       "properties": {
-        "addr:city": "lyon",
-        "addr:country": "france",
+        "addr:city": "Lyon",
+        "addr:country": "FR",
         "addr:housenumber": "19",
         "addr:postcode": "69002",
-        "addr:street": "rue claudia",
+        "addr:street": "Rue Claudia",
         "air_conditioning": "yes",
         "amenity": "bar",
         "brewery": "yes;various;heineken",
@@ -52979,6 +52951,36 @@
         "lgbtq": "primary",
         "name": "Kobalt",
         "@id": "node/9520470870",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8977965,
+          41.8351576
+        ]
+      },
+      "properties": {
+        "addr:city": "Westchester",
+        "addr:housenumber": "3061 A",
+        "addr:postcode": "60154",
+        "addr:state": "IL",
+        "addr:street": "South Wolf Road",
+        "branch": "Westchester",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "lgbtq": "welcome",
+        "name": "Anytime Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 708-483-6148",
+        "ref": "3714",
+        "website": "https://www.anytimefitness.com/gyms/3714/westchester-il-60154/",
+        "wheelchair": "yes",
+        "@id": "node/9520717904",
         "@type": "node"
       }
     },
@@ -83419,6 +83421,57 @@
         "name:de": "Estetica Lounge",
         "shop": "beauty",
         "@id": "node/14077699259",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5672778,
+          45.5056895
+        ]
+      },
+      "properties": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "372",
+        "addr:postcode": "H3B 1A2",
+        "addr:province": "Québec",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "addr:unit": "114",
+        "air_conditioning": "yes",
+        "changing_room": "yes",
+        "community_centre:for_hire": "yes",
+        "contact:facebook": "https://www.facebook.com/missfitmontreal/",
+        "contact:instagram": "https://www.instagram.com/missfitmontreal/",
+        "description": "Gym pour femmes au Quartier des spectacles, Montréal. Espace inclusif adapté aux débutantes. Cours de groupe (Cross-Training, HIIT, Hyrox, musculation), haltérophilie, dynamophilie, coaching, gym libre et location d'espace.",
+        "description:en": "Women's gym in Quartier des spectacles, Montreal. Inclusive, beginner-friendly space offering group classes (Cross-Training, HIIT, Hyrox, strength), weightlifting, powerlifting, private coaching, open gym and space rental.",
+        "email": "admin@missfitmontreal.com",
+        "fee": "yes",
+        "female": "only",
+        "indoor": "yes",
+        "internet_access": "wlan",
+        "language:en": "yes",
+        "language:fr": "yes",
+        "leisure": "fitness_centre",
+        "lgbtq": "welcome",
+        "name": "Studio MissFit Montréal",
+        "opening_hours": "Mo-Fr 06:30-21:00; Sa-Su 08:00-21:00",
+        "ownership": "women",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:wellhub": "yes",
+        "phone": "+1 438-793-7222",
+        "queer": "yes",
+        "shower": "yes",
+        "sport": "fitness;weightlifting;powerlifting;crossfit;calisthenics;strength;group_classes",
+        "toilets": "yes",
+        "website": "https://missfitmontreal.com",
+        "wheelchair": "yes",
+        "women_owned": "yes",
+        "@id": "node/14078553302",
         "@type": "node"
       }
     },
