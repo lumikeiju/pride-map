@@ -1155,14 +1155,17 @@
         ]
       },
       "properties": {
+        "addr:city": "Liverpool",
         "addr:housenumber": "10",
+        "addr:postcode": "L1 6BU",
         "addr:street": "Cumberland Street",
         "amenity": "bar",
         "contact:facebook": "https://www.facebook.com/masquerade.bar/",
+        "fhrs:id": "496342",
         "lgbtq": "primary",
         "name": "Masquerade Bar",
         "phone": "+44 151 236 7786",
-        "postal_code": "L1 6BU",
+        "source:addr": "FHRS Open Data",
         "@id": "node/308766469",
         "@type": "node"
       }
@@ -12819,7 +12822,7 @@
         "check_date:min_age": "2025-05-26",
         "check_date:opening_hours": "2025-05-26",
         "contact:phone": "+49 431 6967373",
-        "contact:website": "www.birdcage-kiel.de",
+        "contact:website": "https://www.birdcage-kiel.de",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "min_age": "18",
@@ -25692,7 +25695,7 @@
         "lgbtq": "welcome",
         "name": "Crazy Cat Café",
         "note": "Il Crazy Cat Café è la prima caffetteria-bistrot di Milano con all'interno tanti gatti da coccolare! Potrai stare con loro durante tutta la giornata, dalla colazione all'aperitivo",
-        "opening_hours": "Tu-Su 9:30-21:30",
+        "opening_hours": "Tu-Su 09:30-21:30",
         "start_date": "2015-10",
         "theme": "cat",
         "website": "https://www.crazycatcafe.it/",
@@ -58694,6 +58697,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.7270541,
+          52.3985549
+        ]
+      },
+      "properties": {
+        "addr:city": "Kettering",
+        "addr:country": "GB",
+        "lgbtq": "welcome",
+        "name": "Kitsch Mitch",
+        "opening_hours": "Tu-Sa 10:00-17:00",
+        "shop": "gift",
+        "@id": "node/10709921308",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.1590499,
           41.386245
         ]
@@ -78595,26 +78618,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.7267337,
-          52.3986633
-        ]
-      },
-      "properties": {
-        "addr:city": "Kettering",
-        "addr:country": "GB",
-        "lgbtq": "welcome",
-        "name": "Kitsch Mitch",
-        "opening_hours": "Tu-Sa 10:00-17:00",
-        "shop": "gift",
-        "@id": "node/13450161839",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -6.2643186,
           53.348588
         ]
@@ -83478,6 +83481,34 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5360807,
+          47.4698986
+        ]
+      },
+      "properties": {
+        "addr:city": "Angers",
+        "addr:housenumber": "32",
+        "addr:postcode": "49100",
+        "addr:street": "Avenue Montaigne",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "contact:facebook": "https://www.facebook.com/LeRefugeMaineEtLoire/?locale=fr_FR",
+        "description": "Reconnue d'Utilité Publique, la Fondation Le Refuge a pour objet de prévenir l’isolement et le suicide des jeunes LGBT+, de 18 à 25 ans",
+        "email": "angers@le-refuge.org",
+        "lgbtq": "primary",
+        "mobile": "+33 6 31 59 69 50",
+        "name": "Le Refuge",
+        "opening_hours": "Mo-Fr 10:00-17:00",
+        "website": "https://le-refuge.org/",
+        "@id": "node/14080640105",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -86915,6 +86946,8 @@
         "website": "https://www.suedblock.org/",
         "wheelchair": "yes",
         "wheelchair:description": "Toilette vorhanden",
+        "wikidata": "Q140937108",
+        "wikimedia_commons": "File:Restaurant Südblock Admiralstraße Berlin-Kreuzberg.jpg",
         "@id": "way/65425822",
         "@type": "way"
       }
@@ -89050,6 +89083,96 @@
         "name": "Salle des Fétes Fabien Iribarren",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "@id": "way/86611428",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.4999831,
+              53.6824919
+            ],
+            [
+              -1.5002074,
+              53.6824675
+            ],
+            [
+              -1.500241,
+              53.682466
+            ],
+            [
+              -1.5002786,
+              53.6824728
+            ],
+            [
+              -1.5002968,
+              53.6824848
+            ],
+            [
+              -1.5003064,
+              53.6825024
+            ],
+            [
+              -1.5002953,
+              53.6825217
+            ],
+            [
+              -1.5002706,
+              53.6825412
+            ],
+            [
+              -1.5000768,
+              53.6826196
+            ],
+            [
+              -1.5000042,
+              53.682565
+            ],
+            [
+              -1.5000281,
+              53.682556
+            ],
+            [
+              -1.4999831,
+              53.6824919
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Wakefield",
+        "addr:housenumber": "40",
+        "addr:postcode": "WF1 1JY",
+        "addr:street": "Westgate",
+        "amenity": "bar",
+        "brewery": "budweiser;old_mount;peroni;carling;coors;strongbow",
+        "building": "commercial",
+        "contact:facebook": "https://www.facebook.com/CountingHouseWakefield/",
+        "contact:instagram": "https://www.instagram.com/countinghousew/?hl=en",
+        "email": "denis@countinghousewakefield.com",
+        "fhrs:id": "1842465",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "name": "The Counting House",
+        "opening_hours": "Fr 16:00-01:00; Sa 12:00-01:30; Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "01924 299381",
+        "ref:GB:uprn": "63124142",
+        "source": "OS_OpenData_StreetView",
+        "sport": "sky_sports",
+        "website": "https://countinghousewakefield.co.uk/",
+        "wheelchair": "yes",
+        "@id": "way/87307577",
         "@type": "way"
       }
     },
@@ -127474,8 +127597,10 @@
         "amenity": "nightclub",
         "building:part": "yes",
         "check_date": "2026-07-22",
+        "fhrs:id": "683698",
         "lgbtq": "primary",
         "name": "GBar",
+        "source:addr": "FHRS Open Data",
         "@id": "way/1115561667",
         "@type": "way"
       }
@@ -128687,14 +128812,17 @@
         ]
       },
       "properties": {
+        "addr:city": "Liverpool",
         "addr:housenumber": "23",
+        "addr:postcode": "L1 6BU",
         "addr:street": "Cumberland Street",
         "amenity": "pub",
-        "building": "yes",
+        "building": "retail",
+        "fhrs:id": "496343",
         "lgbtq": "primary",
         "name": "The Poste House",
         "phone": "+44 151 236 4130",
-        "postal_code": "L1 6BU",
+        "source:addr": "FHRS Open Data",
         "@id": "way/1175446626",
         "@type": "way"
       }
@@ -133260,28 +133388,24 @@
         "coordinates": [
           [
             [
-              -77.998912,
-              -1.4806435
-            ],
-            [
-              -77.9989102,
-              -1.4807285
-            ],
-            [
-              -77.9989095,
-              -1.4807611
-            ],
-            [
-              -77.998857,
-              -1.4807686
-            ],
-            [
-              -77.998867,
+              -77.9989147,
               -1.480641
             ],
             [
               -77.998912,
-              -1.4806435
+              -1.4807633
+            ],
+            [
+              -77.9988633,
+              -1.4807623
+            ],
+            [
+              -77.998866,
+              -1.4806399
+            ],
+            [
+              -77.9989147,
+              -1.480641
             ]
           ]
         ]
@@ -136443,6 +136567,56 @@
         "wikidata": "Q130532767",
         "wikipedia": "pt:Casa 1",
         "@id": "way/1521919753",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.1174454,
+              49.2308605
+            ],
+            [
+              -123.1171313,
+              49.2308537
+            ],
+            [
+              -123.1171433,
+              49.2306479
+            ],
+            [
+              -123.1173248,
+              49.2306524
+            ],
+            [
+              -123.1174549,
+              49.2306556
+            ],
+            [
+              -123.1174454,
+              49.2308605
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:unit": "3540",
+        "brand": "Lululemon",
+        "brand:wikidata": "Q6702957",
+        "clothes": "men;women",
+        "indoor": "room",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Lululemon",
+        "official_name": "Lululemon Athletica",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+        "shop": "clothes",
+        "@id": "way/1527710558",
         "@type": "way"
       }
     },
