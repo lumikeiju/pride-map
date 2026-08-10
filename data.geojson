@@ -5701,7 +5701,7 @@
         "addr:postcode": "80337",
         "addr:street": "Fliegenstraße",
         "contact:phone": "+49 89 97603858",
-        "contact:website": "https://brunos.de/",
+        "contact:website": "https://www.brunos.store/",
         "lgbtq": "primary",
         "name": "Brunos",
         "opening_hours": "Mo-Sa 10:00-20:00",
@@ -59764,6 +59764,7 @@
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "phone": "+1 480-590-7246",
+        "toilets": "yes",
         "website": "https://www.brickroadtempe.com/",
         "@id": "node/10916987247",
         "@type": "node"
@@ -65585,7 +65586,7 @@
         "brand:wikidata": "Q5413426",
         "lgbtq": "welcome",
         "name": "European Wax Center",
-        "opening_hours": "Mo-Fr 08:30-21:00; Fr-Sa 08:30; 18:00",
+        "opening_hours": "Mo-Fr 08:30-21:00; Sa-Su 08:30-18:00",
         "phone": "+1-559-438-9700",
         "shop": "beauty",
         "website": "https://locations.waxcenter.com/ca/fresno/fresno-riverpark-0214.html",
@@ -76191,7 +76192,7 @@
         "internet_access": "wlan",
         "lgbtq": "welcome",
         "name": "Nawabi Hyderabad House - Biryani Place",
-        "opening_hours": "Daily 11:00-14:30 17:00-21:30",
+        "opening_hours": "Mo-Su 11:00-14:30; 17:00-21:30",
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -78468,7 +78469,7 @@
         "addr:unit": "Suite 1",
         "lgbtq": "primary",
         "name": "GEAR",
-        "opening_hours": "11:00-18:00 Day",
+        "opening_hours": "Mo-Su 11:00-18:00",
         "phone": "+1-760-322-3363",
         "shop": "erotic",
         "website": "https://www.gearleather.com/palmsprings/",
@@ -83503,6 +83504,28 @@
         "opening_hours": "Mo-Fr 10:00-17:00",
         "website": "https://le-refuge.org/",
         "@id": "node/14080640105",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2210935,
+          -29.1155288
+        ]
+      },
+      "properties": {
+        "addr:city": "Bloemfontein",
+        "addr:postcode": "9301",
+        "addr:street": "West Burger Street",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Free State Rainbow Seeds",
+        "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-15:00",
+        "@id": "node/14081476423",
         "@type": "node"
       }
     },
@@ -89166,7 +89189,7 @@
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
-        "phone": "01924 299381",
+        "phone": "+44 1924 299381",
         "ref:GB:uprn": "63124142",
         "source": "OS_OpenData_StreetView",
         "sport": "sky_sports",
@@ -113944,6 +113967,121 @@
         "phone": "+1-816-888-3340",
         "website": "https://woodyskc.com/",
         "@id": "way/500787201",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.2948845,
+              37.1424105
+            ],
+            [
+              -93.294896,
+              37.1420699
+            ],
+            [
+              -93.2949293,
+              37.1420706
+            ],
+            [
+              -93.2949387,
+              37.1417921
+            ],
+            [
+              -93.2949086,
+              37.1417915
+            ],
+            [
+              -93.2949204,
+              37.1414408
+            ],
+            [
+              -93.2947324,
+              37.1414368
+            ],
+            [
+              -93.2944606,
+              37.141431
+            ],
+            [
+              -93.2944529,
+              37.1416684
+            ],
+            [
+              -93.2944515,
+              37.141702
+            ],
+            [
+              -93.2942897,
+              37.1416985
+            ],
+            [
+              -93.2942876,
+              37.1417617
+            ],
+            [
+              -93.2942762,
+              37.1420989
+            ],
+            [
+              -93.2944365,
+              37.1421025
+            ],
+            [
+              -93.2944347,
+              37.1421363
+            ],
+            [
+              -93.2944241,
+              37.1424006
+            ],
+            [
+              -93.2946499,
+              37.1424049
+            ],
+            [
+              -93.2948845,
+              37.1424105
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Springfield",
+        "addr:country": "US",
+        "addr:housenumber": "4005",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "South Avenue",
+        "amenity": "cinema",
+        "bicycle_parking": "yes",
+        "branch": "Springfield",
+        "brand": "Alamo Drafthouse Cinema",
+        "brand:wikidata": "Q4705954",
+        "building": "yes",
+        "check_date": "2024-08-10",
+        "contact:facebook": "https://www.facebook.com/AlamoSpringMO",
+        "contact:instagram": "https://www.instagram.com/alamospringmo/",
+        "contact:twitter": "https://twitter.com/alamospringmo",
+        "email": "hello@alamospringmo.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "name": "Alamo Drafthouse Cinema",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1 417-708-9599",
+        "screen": "16",
+        "toilets:wheelchair": "yes",
+        "website": "https://drafthouse.com/springfield/theater/springfield",
+        "wheelchair": "yes",
+        "wikidata": "Q42298360",
+        "@id": "way/502181502",
         "@type": "way"
       }
     },
