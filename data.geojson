@@ -6299,6 +6299,7 @@
         "name": "RainbowHouse Brussels",
         "office": "ngo",
         "opening_hours": "Tu-Su 18:00-23:00",
+        "outdoor_seating": "yes",
         "wheelchair": "yes",
         "wikidata": "Q2504877",
         "wikipedia": "nl:RainbowHouse Brussels",
@@ -6320,6 +6321,7 @@
         "contact:website": "https://www.lebelgica.be/",
         "lgbtq": "welcome",
         "name": "Belgica",
+        "outdoor_seating": "yes",
         "@id": "node/843729088",
         "@type": "node"
       }
@@ -6337,6 +6339,7 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "C'est ma Tournée",
+        "outdoor_seating": "yes",
         "@id": "node/843729093",
         "@type": "node"
       }
@@ -10228,7 +10231,7 @@
         "addr:street": "Tschamlerstraße",
         "addr:suburb": "Wilten",
         "alt_name": "ITsyndikat",
-        "check_date": "2026-06-07",
+        "check_date": "2026-08-10",
         "check_date:opening_hours": "2021-10-23",
         "contact:mastodon": "@itsyndikat@chaos.social",
         "contact:matrix": "#lobby:it-syndik.at",
@@ -10243,7 +10246,6 @@
         "lgbtq": "welcome",
         "name": "IT-Syndikat",
         "opening_hours": "Tu 19:00-23:30",
-        "phone": "+43 720 519629",
         "short_name": "ITS",
         "url:spaceapi": "https://spaceapi.it-syndikat.org/api/status.php",
         "website": "https://it-syndikat.org/",
@@ -23211,12 +23213,16 @@
         "addr:postcode": "1060",
         "addr:street": "Gumpendorfer Straße",
         "amenity": "bar",
-        "check_date": "2023-05-01",
+        "check_date": "2026-08-11",
         "contact:facebook": "https://www.facebook.com/marea.alta.at",
         "contact:website": "http://mareaalta.bplaced.net/",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
+        "min_age": "18",
         "name": "Marea Alta",
-        "opening_hours": "Mo-Th 19:00-02:00, Fr-Sa 19:00-04:00",
+        "opening_hours": "Mo-Th 18:00-02:00, Fr-Sa 19:00-04:00",
+        "phone": "+43 699 1920 4194",
+        "smoking": "outside",
         "sport": "table_soccer",
         "toilets:wheelchair": "no",
         "wheelchair": "no",
@@ -29396,8 +29402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.7334981,
-          58.9726497
+          5.7334048,
+          58.9726539
         ]
       },
       "properties": {
@@ -52271,9 +52277,9 @@
       "properties": {
         "addr:housenumber": "4",
         "addr:street": "The Triangle",
-        "amenity": "nightclub",
+        "amenity": "bar",
         "lgbtq": "primary",
-        "name": "Illuzion",
+        "name": "Fireball",
         "@id": "node/9382464200",
         "@type": "node"
       }
@@ -62882,6 +62888,7 @@
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Le Baroque",
+        "outdoor_seating": "yes",
         "@id": "node/11392484934",
         "@type": "node"
       }
@@ -83526,6 +83533,34 @@
         "name": "Free State Rainbow Seeds",
         "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-15:00",
         "@id": "node/14081476423",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.260469,
+          41.0758876
+        ]
+      },
+      "properties": {
+        "addr:city": "Santa Maria Capua Vetere",
+        "addr:housenumber": "117",
+        "addr:postcode": "81055",
+        "addr:street": "Via Albana",
+        "air_conditioning": "yes",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "email": "contatti@sportelloarcobaleno.it",
+        "lgbtq": "primary",
+        "name": "Sportello Arcobaleno",
+        "operator": "Rain Arcigay Caserta ODV",
+        "operator:type": "ngo",
+        "phone": "+38 800 990 678",
+        "website": "https://www.sportelloarcobaleno.it",
+        "@id": "node/14085657896",
         "@type": "node"
       }
     },
@@ -112933,6 +112968,7 @@
         "description": "Feminist community center with restaurant and shop",
         "diet:vegan": "yes",
         "diet:vegetarian": "only",
+        "food": "yes",
         "lgbtq": "primary",
         "name": "La Sinsorga",
         "opening_hours": "Su-We 08:00-23:00; Th-Fr 08:00-00:00; Sa 08:00-01:00",
