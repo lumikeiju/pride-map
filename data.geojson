@@ -53501,7 +53501,7 @@
         "level": "0",
         "lgbtq": "primary",
         "name": "Pixi",
-        "opening_hours": "Mo-Th 18:00-24:00; Fr,Sa 18:00-02:00",
+        "opening_hours": "We-Th 18:00-24:00; Fr-Sa 18:00-02:00",
         "opening_hours:signed": "no",
         "outdoor_seating": "yes",
         "payment:cards": "yes",
@@ -76257,10 +76257,11 @@
         "addr:postcode": "07800",
         "addr:street": "Carrer de la Mare de Déu",
         "amenity": "bar",
-        "check_date": "2025-09-11",
+        "check_date": "2026-08-11",
         "check_date:smoking": "2025-09-11",
         "cocktails": "yes",
         "indoor_seating": "yes",
+        "internet_access": "wlan",
         "level": "0",
         "lgbtq": "primary",
         "name": "Mystic",
@@ -83561,6 +83562,31 @@
         "phone": "+38 800 990 678",
         "website": "https://www.sportelloarcobaleno.it",
         "@id": "node/14085657896",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3622469,
+          48.8625268
+        ]
+      },
+      "properties": {
+        "addr:city": "Paris",
+        "addr:housenumber": "34",
+        "addr:postcode": "75003",
+        "addr:street": "Rue Charlot",
+        "amenity": "nightclub",
+        "contact:email": "contact@lemensch.com",
+        "contact:phone": "+33 09 53 53 38 84",
+        "lgbtq": "primary",
+        "min_age": "18",
+        "name": "Le Mensch",
+        "opening_hours": "Mo-We,Fr-Sa 00:00-02:00,21:00-00:00; Th,Su 00:00-02:00,17:00-00:00",
+        "@id": "node/14087676277",
         "@type": "node"
       }
     },
@@ -114763,7 +114789,6 @@
         "community_centre:for": "family;lgbtq",
         "contact:facebook": "https://www.facebook.com/CRDerbyshire",
         "email": "swad@crderbyshire.co.uk",
-        "fhrs:id": "1250459",
         "lgbtq": "welcome",
         "name": "Collective Hub",
         "opening_hours": "Mo-Sa 09:00-23:00",
@@ -122794,8 +122819,8 @@
         "coordinates": [
           [
             [
-              -121.4796532,
-              38.5762694
+              -121.4796526,
+              38.5762692
             ],
             [
               -121.479747,
@@ -122810,8 +122835,8 @@
               38.5763434
             ],
             [
-              -121.4796532,
-              38.5762694
+              -121.4796526,
+              38.5762692
             ]
           ]
         ]
