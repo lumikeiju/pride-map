@@ -3256,7 +3256,7 @@
         "addr:postcode": "01099",
         "addr:street": "Prießnitzstraße",
         "amenity": "theatre",
-        "check_date": "2025-01-13",
+        "check_date": "2026-08-12",
         "genre": "varieté",
         "lgbtq": "primary",
         "name": "Carte Blanche (Travestie)",
@@ -8749,6 +8749,7 @@
         "contact:website": "https://daseismeer.de/",
         "cuisine": "ice_cream",
         "delivery": "no",
+        "diet:gluten_free": "limited",
         "diet:vegan": "yes",
         "drive_through": "no",
         "indoor_seating": "yes",
@@ -11454,6 +11455,32 @@
         "name": "X Bar",
         "website": "https://www.xbardenver.com/",
         "@id": "node/1710264108",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3131094,
+          47.6213086
+        ]
+      },
+      "properties": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "321",
+        "addr:postcode": "98112",
+        "addr:street": "15th Avenue East",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "KeyBank",
+        "brand:wikidata": "Q1740314",
+        "check_date": "2026-08-12",
+        "lgbtq": "welcome",
+        "name": "KeyBank",
+        "source": "King County GIS",
+        "@id": "node/1722522713",
         "@type": "node"
       }
     },
@@ -22071,6 +22098,7 @@
         "name": "Rough & Tumble",
         "opening_hours": "Mo,We-Th 16:00-22:00; Tu 16:00-23:00; Fr 16:00-24:00; Sa 10:00-24:00; Su 10:00-22:00",
         "outdoor_seating": "yes",
+        "phone": "+1-206-737-7687",
         "toilets": "yes",
         "toilets:unisex": "yes",
         "toilets:wheelchair": "yes",
@@ -33373,8 +33401,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.6550528,
-          45.5195403
+          -122.6550538,
+          45.5195304
         ]
       },
       "properties": {
@@ -39666,6 +39694,35 @@
         "wikidata": "Q5839436",
         "wikipedia": "es:Escultura al colectivo homosexual",
         "@id": "node/6334596227",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3499693,
+          48.2042949
+        ]
+      },
+      "properties": {
+        "addr:city": "Wien",
+        "addr:housenumber": "44",
+        "addr:postcode": "1070",
+        "addr:street": "Burggasse",
+        "amenity": "bar",
+        "contact:instagram": "@cafe.roza.wien",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Cafe Roza",
+        "opening_hours": "Tu-Th 14:00-24:00; Fr 14:00-01:00; Sa 12:00-01:00; Su, PH 12:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no",
+        "@id": "node/6336080709",
         "@type": "node"
       }
     },
@@ -53405,8 +53462,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.416764,
-          50.5938189
+          8.4167391,
+          50.5938259
         ]
       },
       "properties": {
@@ -63103,6 +63160,31 @@
         "phone": "+1-503-734-9236",
         "website": "https://celedonelectrolysis.com",
         "@id": "node/11418014845",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5966362,
+          33.5499921
+        ]
+      },
+      "properties": {
+        "brand": "Coach",
+        "brand:wikidata": "Q727697",
+        "check_date": "2026-08-06",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Coach_Guest_WiFi",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Coach",
+        "shop": "bag",
+        "website": "https://www.coach.com/stores/outlets/al/leeds/6200-grand-river-blvd-east",
+        "@id": "node/11418198770",
         "@type": "node"
       }
     },
@@ -73820,6 +73902,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -2.5981541,
+          51.4515403
+        ]
+      },
+      "properties": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "1",
+        "addr:postcode": "BS1 5UH",
+        "addr:street": "Canons Road",
+        "addr:suburb": "City Centre",
+        "amenity": "cafe",
+        "bar": "yes",
+        "check_date": "2025-06-08",
+        "email": "info@watershed.co.uk",
+        "fhrs:id": "311370",
+        "indoor_seating": "yes",
+        "level:ref": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Watershed",
+        "outdoor_seating": "yes",
+        "phone": "+44 117 927 5100",
+        "source:addr": "FHRS Open Data",
+        "toilets:unisex": "yes",
+        "twitter": "wshed",
+        "website": "https://www.watershed.co.uk/",
+        "wheelchair": "yes",
+        "@id": "node/12973154701",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -89.5985891,
           40.6863548
         ]
@@ -82084,6 +82202,35 @@
         "name": "Evolve",
         "shop": "clothes",
         "@id": "node/13954762760",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9956153,
+          14.6204275
+        ]
+      },
+      "properties": {
+        "addr:city": "Manila",
+        "addr:district": "Sampaloc",
+        "addr:housenumber": "2157",
+        "addr:province": "Metro Manila",
+        "addr:street": "Laon Laan Street",
+        "branch": "Laong Laan",
+        "female": "yes",
+        "hairdresser": "barber",
+        "lgbtq": "welcome",
+        "male": "yes",
+        "name": "Barbierro Barbershop",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+639271861722",
+        "shop": "hairdresser",
+        "website": "https://barbierro.com",
+        "@id": "node/13961580673",
         "@type": "node"
       }
     },
@@ -127560,6 +127707,77 @@
         "coordinates": [
           [
             [
+              -54.6066755,
+              -25.5141824
+            ],
+            [
+              -54.6061218,
+              -25.5142354
+            ],
+            [
+              -54.6058436,
+              -25.5142377
+            ],
+            [
+              -54.6058283,
+              -25.5142907
+            ],
+            [
+              -54.6057543,
+              -25.5155987
+            ],
+            [
+              -54.6065607,
+              -25.5155964
+            ],
+            [
+              -54.6066551,
+              -25.5144219
+            ],
+            [
+              -54.6066755,
+              -25.5141824
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Ciudad del Este",
+        "addr:country": "PY",
+        "baby_feeding": "room",
+        "building": "yes",
+        "building:levels": "10",
+        "changing_table": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "name": "Shopping China",
+        "official_name": "Shopping China Importados",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "parking": "yes",
+        "parking:covered": "no",
+        "parking:fee": "yes",
+        "parking:wheelchair": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+595 981 701701",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://shoppingchina.com.py/",
+        "wheelchair": "yes",
+        "wheelchair:rental": "yes",
+        "@id": "way/1092722118",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -85.6340882,
               42.9563623
             ],
@@ -136411,9 +136629,9 @@
         "addr:street": "Am Kurpark",
         "amenity": "biergarten",
         "brewery": "hacker_pschorr;paulaner",
+        "contact:facebook": "https://www.facebook.com/biergarten.braunfels",
+        "contact:instagram": "https://www.instagram.com/biergarten_braunfels/",
         "dog": "yes",
-        "facebook": "https://www.facebook.com/biergarten.braunfels",
-        "instagram": "https://www.instagram.com/biergarten_braunfels/",
         "lgbtq": "welcome",
         "name": "Biergarten Braunfels",
         "opening_hours": "Mo-Fr 16:00-22:00, Sa,Su,PH 12:00-22:00",
