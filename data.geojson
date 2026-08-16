@@ -76694,6 +76694,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.4402577,
+          38.9088721
+        ]
+      },
+      "properties": {
+        "addr:city": "Eivissa",
+        "addr:housenumber": "79",
+        "addr:postcode": "07800",
+        "addr:street": "Carrer de la Mare de Déu",
+        "amenity": "bar",
+        "check_date": "2026-08-15",
+        "cocktails": "yes",
+        "contact:email": "contact@jjbaribiza.com",
+        "contact:facebook": "https://www.facebook.com/jjbaribiza",
+        "contact:instagram": "https://www.instagram.com/jjbaribiza",
+        "contact:phone": "+34 649 24 69 25",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "JJ Bar Ibiza",
+        "opening_hours": "May-Oct Mo-Su 22:00-04:00",
+        "outdoor_seating": "street",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.jjbaribiza.com/",
+        "@id": "node/13142456615",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.1832945,
           47.7160974
         ]
@@ -83753,6 +83786,140 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4600425,
+          51.7641571
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "5a",
+        "addr:street": "Plac Komuny Paryskiej",
+        "amenity": "nightclub",
+        "check_date": "2026-08-15",
+        "contact:facebook": "https://www.facebook.com/Narraganset/",
+        "contact:instagram": "https://www.instagram.com/narraganset_klub",
+        "lgbtq": "primary",
+        "name": "Narraganset",
+        "opening_hours": "Mo-We,Su off; Th 22:00-03:00; Fr 22:00-05:00; Sa 22:00-06:00",
+        "phone": "+48 601 317 758",
+        "website": "https://www.narraganset.pl/",
+        "wheelchair": "limited",
+        "@id": "node/14096410125",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4192241,
+          52.5318337
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "18",
+        "addr:postcode": "10405",
+        "addr:street": "Belforter Straße",
+        "craft": "cleaning",
+        "email": "sauber@queere-haushaltshilfe.berlin",
+        "lgbtq": "primary",
+        "name": "Queere Haushaltshilfe",
+        "operator": "Baumgärtel Berlin GmbH",
+        "phone": "+49 176 32 82 84 96",
+        "website": "https://queere-haushaltshilfe.berlin/",
+        "@id": "node/14096556928",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8097336,
+          33.5145491
+        ]
+      },
+      "properties": {
+        "addr:city": "Birmingham",
+        "addr:housenumber": "226",
+        "addr:state": "AL",
+        "addr:street": "18th Street North",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Climaxx",
+        "start_date": "2025-04-25",
+        "@id": "node/14097666801",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.45906,
+          28.0839885
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "14839",
+        "addr:street": "North Florida Avenue",
+        "clothes": "hats;men;oversize;women",
+        "contact:ebay": "https://www.ebay.com/sch/i.html?_ipg=50&_sop=12&_rdc=1&_ssn=ravensandrockers",
+        "contact:email": "RavensNRockers@yahoo.com",
+        "contact:facebook": "http://www.facebook.com/RavensAndRockers",
+        "contact:instagram": "http://www.instagram.com/ravensandrockers",
+        "contact:phone": "+1-813-443-0826",
+        "contact:tiktok": "https://vm.tiktok.com/ZMRqMbrdM",
+        "description": "Gothic & alternative fashion store",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Ravens & Rockers",
+        "opening_hours": "Mo-Sa 12:00-19:00",
+        "panoramax": "2ef6973c-0cb8-4b60-b147-2e5339d0dedd",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "second_hand": "yes",
+        "shop": "clothes;fashion_accessories;leather;shoes",
+        "toilets": "yes",
+        "toilets:access": "private",
+        "website": "https://www.ravensandrockers.com",
+        "@id": "node/14097668070",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.440205,
+          38.9088062
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "check_date": "2026-08-15",
+        "cocktails": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "Alexbar",
+        "outdoor_seating": "yes",
+        "@id": "node/14097902746",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -87248,13 +87415,15 @@
       "properties": {
         "bar": "yes",
         "building": "yes",
-        "check_date": "2025-01-04",
+        "check_date": "2026-08-15",
+        "check_date:opening_hours": "2026-08-15",
         "fee": "yes",
         "female": "no",
         "leisure": "sauna",
         "lgbtq": "primary",
         "male": "yes",
         "name": "Les Bains",
+        "opening_hours": "Mo-Su 12:00-24:00",
         "ref:FR:SIRET": "41038064600019",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "website": "https://www.lesbains.fr",
