@@ -4155,8 +4155,9 @@
         "bar": "yes",
         "capacity:indoor": "272",
         "capacity:outdoor": "16",
-        "check_date": "2026-05-19",
+        "check_date": "2026-08-17",
         "check_date:opening_hours": "2026-05-19",
+        "check_date:smoking": "2026-08-17",
         "cuisine": "american",
         "delivery": "no",
         "description": "Funky alley & bar hosts DJs plus music & theater performers while serving a simple American menu.",
@@ -4169,8 +4170,11 @@
         "microbrewery": "no",
         "name": "Bryant-Lake Bowl and Theater",
         "opening_hours": "Su-Th 09:00-24:00; Fr-Sa 09:00-01:00",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "parklet",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+1-612-825-3737",
+        "smoking": "no",
         "sport": "10pin",
         "toilets": "yes",
         "website": "https://www.bryantlakebowl.com/",
@@ -29165,15 +29169,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3478051,
-          50.8454359
+          4.3478218,
+          50.8453939
         ]
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2026-06-01",
+        "check_date": "2026-08-17",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Castro",
+        "outdoor_seating": "yes",
         "@id": "node/4361643030",
         "@type": "node"
       }
@@ -39759,7 +39765,7 @@
         "addr:postcode": "1070",
         "addr:street": "Burggasse",
         "amenity": "bar",
-        "contact:instagram": "@cafe.roza.wien",
+        "contact:instagram": "cafe.roza.wien",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -43566,8 +43572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.8989452,
-          10.3192409
+          123.8989087,
+          10.3192113
         ]
       },
       "properties": {
@@ -46062,7 +46068,7 @@
         "toilets": "yes",
         "toilets:wheelchair": "yes",
         "website": "https://zenchay.de",
-        "wheelchair": "no",
+        "wheelchair": "limited",
         "@id": "node/7658178576",
         "@type": "node"
       }
@@ -48108,7 +48114,7 @@
         "diet:kosher": "no",
         "lgbtq": "welcome",
         "name": "Kissakahvila Purnauskis",
-        "opening_hours": "Tu-Fr 12:00-18:00; Sa 11:00-18:00; Su-Mo off",
+        "opening_hours": "Tu-Fr 12:00-18:00; Sa 12:00-18:00; Su-Mo off",
         "outdoor_seating": "no",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -62667,6 +62673,29 @@
         "wikidata": "Q123532321",
         "wikipedia": "en:53two",
         "@id": "node/11312018869",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.999979,
+          49.2264587
+        ]
+      },
+      "properties": {
+        "brand": "Arc'teryx",
+        "brand:wikidata": "Q3271455",
+        "check_date": "2026-08-17",
+        "clothes": "men;women",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Arc'teryx",
+        "shop": "clothes",
+        "@id": "node/11331347719",
         "@type": "node"
       }
     },
@@ -83962,6 +83991,41 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8437343,
+          19.0116657
+        ]
+      },
+      "properties": {
+        "addr:city": "Dadar(East), Mumbai",
+        "addr:district": "Mumbai",
+        "addr:housenumber": "Shop No. 3",
+        "addr:postcode": "400014",
+        "addr:street": "Dr Babasaheb Ambedkar Marg (Vincent Road)",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "mobile": "09619923712",
+        "name": "Duroflex - Mattress, Dadar East",
+        "name:hi": "ड्यूरोफ्लेक्स - मैट्रेस, दादर ईस्ट",
+        "name:mr": "ड्यूरोफ्लेक्स - मैट्रेस, दादर ईस्ट",
+        "opening_hours": "Mo-Su 10:30-20:30",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "payment:upi": "yes",
+        "shop": "bed",
+        "website": "https://www.duroflexworld.com/",
+        "@id": "node/14101608679",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -102374,24 +102438,24 @@
         "coordinates": [
           [
             [
-              121.0524065,
-              14.6234468
+              121.0524773,
+              14.6234937
             ],
             [
-              121.052359,
-              14.6235434
+              121.0524435,
+              14.6235747
             ],
             [
-              121.052658,
-              14.623681
+              121.0526257,
+              14.6236594
             ],
             [
-              121.0527054,
-              14.6235845
+              121.0526607,
+              14.6235785
             ],
             [
-              121.0524065,
-              14.6234468
+              121.0524773,
+              14.6234937
             ]
           ]
         ]
