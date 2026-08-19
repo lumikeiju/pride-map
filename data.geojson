@@ -13488,7 +13488,7 @@
         "name": "The Brass Rail",
         "old_name": "The Brass Rail",
         "opening_hours": "Mo-Tu 11:00-00:00; We-Su 11:00-02:00",
-        "phone": "(619) 203-2047",
+        "phone": "+1-619-203-2047",
         "website": "https://www.thebrassrailsd.com/",
         "@id": "node/1974497779",
         "@type": "node"
@@ -28923,6 +28923,7 @@
         ]
       },
       "properties": {
+        "check_date": "2026-08-18",
         "disused:shop": "yes",
         "lgbtq": "primary",
         "@id": "node/4329577521",
@@ -32314,6 +32315,8 @@
         "addr:postcode": "26000",
         "addr:street": "Boulevard d'Alsace",
         "amenity": "fast_food",
+        "brand": "Big Fernand",
+        "brand:wikidata": "Q19521346",
         "check_date": "2025-08-12",
         "contact:instagram": "https://www.instagram.com/bigfernand_valence/",
         "contact:tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187272-d26833516-Reviews-Big_Fernand_Valence_(26)-Drome_Auvergne_Rh%C3%B4ne_Alpes.html",
@@ -32327,7 +32330,7 @@
         "ref:FR:SIRET": "95230293300017",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "takeaway": "yes",
-        "website": "https://www.burger-valence.fr/",
+        "website": "http://www.bigfernand.com",
         "website:menu": "https://bigfernand.com/menu-big-fernand/",
         "@id": "node/4863585740",
         "@type": "node"
@@ -34753,7 +34756,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Rouen",
         "addr:housenumber": "1 bis",
+        "addr:postcode": "76000",
+        "addr:street": "Rue du Père Adam",
         "amenity": "bar",
         "email": "contact@bar-milk.com",
         "lgbtq": "primary",
@@ -83993,14 +83999,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.8437343,
-          19.0116657
+          11.9613483,
+          51.1995205
+        ]
+      },
+      "properties": {
+        "addr:floor": "0",
+        "addr:housenumber": "1",
+        "addr:postcode": "06667",
+        "addr:street": "Herrmannsgarten",
+        "amenity": "community_centre",
+        "check_date": "2026-08-18",
+        "club": "social",
+        "community_centre": "club_home",
+        "contact:facebook": "https://www.facebook.com/StadtRaumWSF/",
+        "contact:instagram": "https://www.instagram.com/stadtraum.wsf",
+        "email": "info@stadtraum.net",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Raum.Station",
+        "operator": "Stadt.Raum Initiative Weißenfels",
+        "operator:type": "private_non_profit",
+        "toilets": "yes",
+        "website": "https://stadtraum.net/",
+        "wheelchair": "no",
+        "@id": "node/14099702805",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8436957,
+          19.0116081
         ]
       },
       "properties": {
         "addr:city": "Dadar(East), Mumbai",
         "addr:district": "Mumbai",
-        "addr:housenumber": "Shop No. 3",
+        "addr:housenumber": "3",
         "addr:postcode": "400014",
         "addr:street": "Dr Babasaheb Ambedkar Marg (Vincent Road)",
         "delivery": "yes",
@@ -84020,6 +84059,30 @@
         "shop": "bed",
         "website": "https://www.duroflexworld.com/",
         "@id": "node/14101608679",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.1924688,
+          19.6999132
+        ]
+      },
+      "properties": {
+        "addr:city": "Morelia",
+        "addr:housenumber": "116",
+        "addr:neighbourhood": "Centro histórico de Morelia",
+        "addr:postcode": "58000",
+        "addr:state": "Michoacan",
+        "addr:street": "Calle Aldama",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Mamá no lo sabe",
+        "website": "https://www.instagram.com/mama.nolosabe/",
+        "@id": "node/14103291406",
         "@type": "node"
       }
     },
@@ -89344,7 +89407,6 @@
         ]
       },
       "properties": {
-        "alt_name": "CCD",
         "amenity": "place_of_worship",
         "building": "church",
         "check_date": "2026-01-14",
@@ -89356,7 +89418,8 @@
         "name": "Community Church of Durham",
         "note": "More informal sermon, \"The Table\", happens at noon on Sundays.",
         "religion": "christian",
-        "service_times": "Su 10",
+        "service_times": "Sep-Jun Su 10:00,12:00; Jul-Aug 09:00",
+        "short_name": "CCD",
         "wheelchair": "yes",
         "@id": "way/83263223",
         "@type": "way"
@@ -137935,7 +137998,7 @@
         "name": "Platja de la Mar Bella",
         "name:ca": "Platja de la Mar Bella",
         "name:en": "Mar Bella beach",
-        "name:ru": "пляж \"Мар Белла\"",
+        "name:ru": "пляж «Мар Белла»",
         "natural": "beach",
         "nudism": "yes",
         "operator": "Ajuntament de Barcelona",
