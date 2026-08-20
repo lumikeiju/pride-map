@@ -1287,16 +1287,18 @@
         ]
       },
       "properties": {
-        "addr:city": "Toulouse",
-        "addr:housenumber": "24",
-        "addr:postcode": "31000",
-        "addr:street": "Rue Montardy",
         "amenity": "cinema",
         "check_date": "2025-12-24",
         "check_date:opening_hours": "2025-12-24",
+        "contact:city": "Toulouse",
+        "contact:email": "cinema@american-cosmograph.fr",
         "contact:facebook": "AmericanCosmograph",
+        "contact:housenumber": "24",
         "contact:instagram": "american_cosmograph",
-        "email": "cinema@american-cosmograph.fr",
+        "contact:phone": "+33 5 61 21 22 11",
+        "contact:postcode": "31000",
+        "contact:street": "Rue Montardy",
+        "contact:website": "https://www.american-cosmograph.fr/",
         "internet_access": "no",
         "lgbtq": "welcome",
         "name": "American Cosmograph",
@@ -1305,17 +1307,15 @@
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
-        "phone": "+33 5 61 21 22 11",
         "ref:FR:Allocine": "P0235",
         "ref:FR:CNC": "430243",
         "ref:FR:SIRET": "82034796100022",
         "screen": "3",
         "suspended_food": "yes",
-        "website": "https://www.american-cosmograph.fr/",
         "wheelchair": "limited",
         "wheelchair:description:fr": "Seule notre salle 3 est accessible aux personnes à mobilité réduite.",
         "wikidata": "Q28564015",
-        "wikipedia": "fr:American_Cosmograph",
+        "wikipedia": "fr:American Cosmograph",
         "@id": "node/312898921",
         "@type": "node"
       }
@@ -13561,6 +13561,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.480073,
+          48.7480827
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "1135",
+        "addr:postcode": "98225",
+        "addr:state": "WA",
+        "addr:street": "Railroad Avenue",
+        "amenity": "cafe",
+        "check_date": "2026-08-20",
+        "lgbtq": "welcome",
+        "name": "Cafe Hazeltree",
+        "note": "Under construction. Expected opening October 3rd, 2026",
+        "opening_hours": "We-Sa 14:00-00:00; Su 14:00-24:00",
+        "pet": "fish",
+        "shop": "pet",
+        "@id": "node/1976759432",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.4728948,
           49.4842367
         ]
@@ -24355,6 +24382,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.4305648,
+          48.1197786
+        ]
+      },
+      "properties": {
+        "addr:city": "Port Angeles",
+        "addr:housenumber": "222",
+        "addr:postcode": "98362-2913",
+        "addr:state": "WA",
+        "addr:street": "North Lincoln Street",
+        "addr:unit": "103",
+        "amenity": "cafe",
+        "check_date": "2026-08-17",
+        "check_date:currency:XBT": "2026-02-06",
+        "contact:email": "shay.n.shari@gmail.com",
+        "contact:facebook": "https://www.facebook.com/p/Pink-Pony-Cafe-61561072055646",
+        "contact:instagram": "https://www.instagram.com/pinkpony.cafe",
+        "cuisine": "crepe",
+        "currency:XBT": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "lgbtq": "welcome",
+        "name": "Pink Pony Cafe",
+        "opening_hours": "Mo-Th 07:30-17:00; Fr-Su 07:30-21:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1-360-504-2192",
+        "toilets": "yes",
+        "website": "https://pinkponycafe.com",
+        "@id": "node/3548464880",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.3687684,
           48.8500632
         ]
@@ -31025,8 +31094,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3620641,
-          48.8623306
+          2.3620597,
+          48.8623359
         ]
       },
       "properties": {
@@ -31940,6 +32009,32 @@
         "phone": "+33 2 32 42 52 62",
         "ref:FR:SIRET": "98084035900015",
         "@id": "node/4791402788",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.471514,
+          48.731765
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "224",
+        "addr:postcode": "98225",
+        "addr:street": "36th Street",
+        "amenity": "dentist",
+        "brand": "Gentle Dental",
+        "brand:wikidata": "Q108410773",
+        "check_date": "2026-08-20",
+        "healthcare": "dentist",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Gentle Dental",
+        "@id": "node/4797363712",
         "@type": "node"
       }
     },
@@ -37068,6 +37163,36 @@
         "shop": "books",
         "wikidata": "Q56290091",
         "@id": "node/5853191765",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4774066,
+          48.7498785
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "1323",
+        "addr:postcode": "98225",
+        "addr:state": "WA",
+        "addr:street": "Railroad Avenue",
+        "amenity": "ice_cream",
+        "delivery": "no",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Mallard Ice Cream",
+        "opening_hours": "Su-Th 12:00-22:00; Fr,Sa 12:00-23:00",
+        "outdoor_seating": "yes",
+        "shop": "yes",
+        "takeaway": "yes",
+        "website": "https://www.mallardicecream.com/",
+        "@id": "node/5862322332",
         "@type": "node"
       }
     },
@@ -44141,6 +44266,40 @@
         "website": "https://www.wagnerberlin.com/",
         "wheelchair": "no",
         "@id": "node/7058016113",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4788168,
+          48.7497136
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "101",
+        "addr:postcode": "98225",
+        "addr:state": "WA",
+        "addr:street": "East Holly Street",
+        "check_date:opening_hours": "2026-04-02",
+        "clothes": "women;men;fashion;unisex",
+        "email": "wornagainthrift11@gmail.com",
+        "instagram": "@wornagain.thrift",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Worn Again Thrift",
+        "opening_hours": "Mo-Su 11:00-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-360-671-3448",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.wornagainthrift.com/",
+        "@id": "node/7072322587",
         "@type": "node"
       }
     },
@@ -74294,6 +74453,7 @@
       },
       "properties": {
         "addr:city": "Leeds",
+        "addr:housename": "Merrion Centre",
         "addr:housenumber": "2",
         "addr:postcode": "LS2 8NG",
         "addr:street": "Wade Lane",
@@ -74309,6 +74469,7 @@
         "diet:healthy": "yes",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
+        "fhrs:id": "1407216",
         "highchair": "yes",
         "indoor_seating": "yes",
         "internet_access": "yes",
@@ -74324,6 +74485,7 @@
         "payment:debit_cards": "yes",
         "phone": "+44 113 244 2956",
         "reservation": "recommended",
+        "source:addr": "FHRS Open Data",
         "takeaway": "yes",
         "toilets": "yes",
         "website": "https://merrioncentre.co.uk/units/oba-kitchen-and-bar",
@@ -78205,6 +78367,32 @@
         "name": "The Coven",
         "outdoor_seating": "yes",
         "@id": "node/13327110717",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4798061,
+          48.7490213
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "1208",
+        "addr:postcode": "98225",
+        "addr:state": "WA",
+        "addr:street": "Cornwall Avenue",
+        "check_date": "2026-06-28",
+        "lgbtq": "welcome",
+        "name": "Emmaquatics",
+        "pet": "fish",
+        "phone": "+1-360-713-7644",
+        "shop": "pet",
+        "start_date": "2025-11-30",
+        "@id": "node/13327160013",
         "@type": "node"
       }
     },
@@ -83692,7 +83880,7 @@
       },
       "properties": {
         "addr:city": "Leipzig",
-        "addr:country": "de",
+        "addr:country": "DE",
         "addr:housenumber": "21",
         "addr:postcode": "04319",
         "addr:street": "Opalstraße",
@@ -83840,8 +84028,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3622469,
-          48.8625268
+          2.3622519,
+          48.8625244
         ]
       },
       "properties": {
@@ -84045,6 +84233,7 @@
         "delivery": "yes",
         "internet_access": "wlan",
         "internet_access:fee": "no",
+        "level": "0",
         "lgbtq": "welcome",
         "mobile": "09619923712",
         "name": "Duroflex - Mattress, Dadar East",
@@ -120853,7 +121042,7 @@
         "lgbtq": "welcome",
         "min_age": "21",
         "name": "Lily's Snack Bar",
-        "opening_hours": "Mo-Sa 11:30-02:00; Su 12:00-02:00",
+        "opening_hours": "Mo-Su 3pm-2am",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -135864,8 +136053,8 @@
         "addr:street": "Connecticut Street",
         "amenity": "clinic",
         "branch": "Merrillville",
-        "building": "yes",
-        "healthcare": "counselling",
+        "building": "commercial",
+        "healthcare": "clinic",
         "healthcare:counselling": "antenatal;sexual",
         "healthcare:speciality": "venereology;abortion;fertility",
         "lgbtq": "welcome",
