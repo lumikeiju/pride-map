@@ -2835,8 +2835,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.5700445,
-          48.1305017
+          11.5700284,
+          48.1305028
         ]
       },
       "properties": {
@@ -16047,11 +16047,13 @@
         "addr:unit": "C",
         "alt_name": "Union Seattle",
         "amenity": "bar",
+        "check_date": "2026-08-18",
         "contact:facebook": "https://www.facebook.com/unionseattle/",
-        "contact:instagram": "https://www.instagram.com/union.seattle/",
+        "contact:instagram": "union.seattle.bar",
         "lgbtq": "primary",
         "name": "Union",
         "opening_hours": "Mo-Fr 16:00-22:00; Sa,Su 12:00-22:00",
+        "outdoor_seating": "yes",
         "website": "https://www.unionseattle.com/",
         "wikidata": "Q65054127",
         "@id": "node/2159322642",
@@ -24592,32 +24594,6 @@
         "website": "https://www.kaffemik.at/",
         "wheelchair": "no",
         "@id": "node/3586247775",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.0255635,
-          43.3243346
-        ]
-      },
-      "properties": {
-        "addr:city": "Portugalete",
-        "addr:housenumber": "15",
-        "addr:postcode": "48920",
-        "addr:street": "Calle Mugakoa",
-        "amenity": "bar",
-        "bar": "yes",
-        "crossing": "uncontrolled",
-        "crossing:markings": "zebra",
-        "highway": "crossing",
-        "lgbtq": "primary",
-        "opening_hours": "24/7",
-        "wheelchair": "limited",
-        "@id": "node/3596526942",
         "@type": "node"
       }
     },
@@ -50195,7 +50171,7 @@
         "addr:housenumber": "20",
         "addr:postcode": "33200",
         "addr:street": "Hämeenkatu",
-        "check_date": "2024-02-03",
+        "check_date": "2026-08-20",
         "guard:operator": "Securitas",
         "level": "0",
         "lgbtq": "welcome",
@@ -50205,6 +50181,7 @@
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "phone": "+358 400 188 270",
+        "second_hand": "yes",
         "shop": "clothes",
         "website": "https://www.mieladesignroom.fi/",
         "wheelchair": "yes",
@@ -51604,12 +51581,10 @@
         "addr:postcode": "64100",
         "addr:street": "Rue Pannecau",
         "amenity": "bar",
-        "check_date": "2025-07-18",
+        "check_date": "2026-08-20",
+        "contact:instagram": "mari.bar.bayonne",
         "lgbtq": "primary",
-        "name": "Jo's Bar",
-        "opening_hours": "We-Sa 19:00-02:00; Su 19:00-24:00",
-        "ref:FR:SIRET": "95219717600011",
-        "website": "https://josbar64.com/",
+        "name": "Mari",
         "@id": "node/9196167095",
         "@type": "node"
       }
@@ -64590,9 +64565,12 @@
         "addr:street": "West Lake Street",
         "air_conditioning": "yes",
         "amenity": "restaurant",
-        "check_date": "2026-07-18",
+        "brewery": "various",
+        "changing_table": "yes",
+        "check_date": "2026-08-20",
         "check_date:diet:vegan": "2025-11-17",
         "check_date:opening_hours": "2026-07-18",
+        "check_date:smoking": "2026-08-20",
         "contact:instagram": "wrecktanglepizzamn",
         "cuisine": "pizza",
         "diet:dairy": "yes",
@@ -64605,12 +64583,16 @@
         "lgbtq:signed": "yes",
         "name": "Wrecktangle Pizza",
         "opening_hours": "Mo, We-Th 16:00-00:00; Fr-Su 11:00-00:00",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "sidewalk",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+1 612-444-4420",
         "self_service": "no",
+        "smoking": "no",
         "toilets": "yes",
         "website": "https://wrecktanglepizza.com/lyn-lake",
         "website:menu": "https://static1.squarespace.com/static/6211216ebf14d728300edd98/t/6920eb88619d7d051bd57326/1763765128532/FULL+MENU+LYNLAKE.pdf",
+        "wheelchair": "yes",
         "@id": "node/11674328215",
         "@type": "node"
       }
@@ -84278,6 +84260,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0255478,
+          43.3242715
+        ]
+      },
+      "properties": {
+        "addr:city": "Portugalete",
+        "amenity": "bar",
+        "bar": "yes",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "lgbtq": "primary",
+        "wheelchair": "limited",
+        "@id": "node/14108195045",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -85989,80 +85992,20 @@
         "coordinates": [
           [
             [
-              7.7579975,
-              48.5819864
+              7.7578531,
+              48.581953
             ],
             [
-              7.7579811,
-              48.5819879
+              7.7576463,
+              48.5820132
             ],
             [
-              7.7579608,
-              48.5819622
+              7.7576348,
+              48.5819961
             ],
             [
-              7.7579737,
-              48.5819525
-            ],
-            [
-              7.7579613,
-              48.581946
-            ],
-            [
-              7.7579488,
-              48.581954
-            ],
-            [
-              7.757909,
-              48.5819445
-            ],
-            [
-              7.7579094,
-              48.5819329
-            ],
-            [
-              7.7578934,
-              48.581932
-            ],
-            [
-              7.7578937,
-              48.5819433
-            ],
-            [
-              7.7578518,
-              48.5819572
-            ],
-            [
-              7.7578497,
-              48.5819359
-            ],
-            [
-              7.7577912,
-              48.5819426
-            ],
-            [
-              7.7577872,
-              48.5819162
-            ],
-            [
-              7.7577408,
-              48.5819277
-            ],
-            [
-              7.757746,
-              48.5819552
-            ],
-            [
-              7.757631,
-              48.581987
-            ],
-            [
-              7.7576396,
-              48.5819983
-            ],
-            [
-              7.7573955,
-              48.5820777
+              7.7573989,
+              48.5820724
             ],
             [
               7.757268,
@@ -86073,16 +86016,28 @@
               48.5821277
             ],
             [
+              7.7572731,
+              48.5821489
+            ],
+            [
+              7.7572937,
+              48.5822099
+            ],
+            [
+              7.7573049,
+              48.5822426
+            ],
+            [
               7.7573079,
               48.582251
             ],
             [
-              7.7577268,
-              48.5821182
+              7.7577208,
+              48.582118
             ],
             [
-              7.7577177,
-              48.5821044
+              7.757711,
+              48.5821073
             ],
             [
               7.757904,
@@ -86101,42 +86056,84 @@
               48.5820468
             ],
             [
-              7.7579548,
-              48.5820361
+              7.7579541,
+              48.5820363
             ],
             [
-              7.7579625,
-              48.582043
+              7.7579618,
+              48.5820432
             ],
             [
-              7.7579771,
-              48.5820375
+              7.7579764,
+              48.5820377
             ],
             [
-              7.7579659,
-              48.5820298
+              7.7579682,
+              48.582028
             ],
             [
-              7.7579816,
-              48.581999
+              7.7579873,
+              48.5819939
             ],
             [
-              7.7579998,
-              48.5819974
+              7.7580055,
+              48.5819923
             ],
             [
-              7.7579975,
-              48.5819864
+              7.7580032,
+              48.5819813
+            ],
+            [
+              7.7579868,
+              48.5819828
+            ],
+            [
+              7.7579652,
+              48.5819553
+            ],
+            [
+              7.757973,
+              48.5819467
+            ],
+            [
+              7.7579596,
+              48.5819402
+            ],
+            [
+              7.7579475,
+              48.5819518
+            ],
+            [
+              7.7579107,
+              48.5819418
+            ],
+            [
+              7.7579124,
+              48.5819338
+            ],
+            [
+              7.7578897,
+              48.5819304
+            ],
+            [
+              7.757888,
+              48.5819417
+            ],
+            [
+              7.7578531,
+              48.581953
             ]
           ]
         ]
       },
       "properties": {
-        "addr:street": "Rue Saint-Guillaume",
         "amenity": "place_of_worship",
-        "building": "church",
+        "building:architecture": "gothic",
+        "building:colour": "white",
+        "building:part": "church",
         "check_date": "2024-10-11",
         "denomination": "presbyterian",
+        "height": "23.2",
         "heritage": "3",
         "heritage:operator": "mhs",
         "lgbtq": "welcome",
@@ -86146,6 +86143,9 @@
         "ref:FR:RNB": "HMSN2241NQ3G",
         "ref:mhs": "PA00085026",
         "religion": "christian",
+        "roof:height": "10.2",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
         "source:heritage": "data.gouv.fr:Ministère de la Culture - 04/2015",
         "wheelchair": "no",
@@ -96676,6 +96676,138 @@
         "coordinates": [
           [
             [
+              13.1783686,
+              52.4229327
+            ],
+            [
+              13.1783581,
+              52.4229199
+            ],
+            [
+              13.1783308,
+              52.4229196
+            ],
+            [
+              13.1783127,
+              52.4228992
+            ],
+            [
+              13.1783312,
+              52.4228895
+            ],
+            [
+              13.1782367,
+              52.4227774
+            ],
+            [
+              13.1782106,
+              52.4227829
+            ],
+            [
+              13.1781795,
+              52.4227769
+            ],
+            [
+              13.1781635,
+              52.4227567
+            ],
+            [
+              13.1781718,
+              52.4227369
+            ],
+            [
+              13.1781521,
+              52.4227142
+            ],
+            [
+              13.178347,
+              52.4226514
+            ],
+            [
+              13.178488,
+              52.4226065
+            ],
+            [
+              13.1785663,
+              52.4226971
+            ],
+            [
+              13.1785977,
+              52.4226872
+            ],
+            [
+              13.1786722,
+              52.4227689
+            ],
+            [
+              13.1786227,
+              52.4227855
+            ],
+            [
+              13.1786689,
+              52.4228367
+            ],
+            [
+              13.1785749,
+              52.4228673
+            ],
+            [
+              13.1785867,
+              52.4228829
+            ],
+            [
+              13.178477,
+              52.4229171
+            ],
+            [
+              13.1784657,
+              52.4229007
+            ],
+            [
+              13.1783686,
+              52.4229327
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "14109",
+        "addr:street": "Am Sandwerder",
+        "addr:suburb": "Wannsee",
+        "alt_name": "LCB",
+        "building": "house",
+        "contact:bluesky": "https://bsky.app/profile/lcb.de",
+        "contact:email": "mail@lcb.de",
+        "contact:facebook": "lcb.berlin",
+        "contact:fax": "+49 30 816996-19",
+        "contact:instagram": "lcb.berlin",
+        "contact:phone": "+49 30 816996-0",
+        "contact:website": "https://www.lcb.de",
+        "heritage": "4",
+        "heritage:operator": "lda",
+        "lda:criteria": "Baudenkmal",
+        "lgbtq": "welcome",
+        "name": "Literarisches Colloquium Berlin",
+        "old_name": "Villa Guthmann",
+        "operator": "Literarisches Colloquium Berlin e.V.",
+        "ref:lda": "09075517,T",
+        "start_date": "1885",
+        "wikidata": "Q1726286",
+        "wikipedia": "de:Literarisches Colloquium Berlin",
+        "@id": "way/194061423",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -1.4065761,
               50.9132984
             ],
@@ -104540,6 +104672,7 @@
         "building": "retail",
         "building:levels": "1",
         "building:use:retail": "yes",
+        "check_date:opening_hours": "2026-08-20",
         "lgbtq": "welcome",
         "name": "Penny",
         "opening_hours": "Mo-Sa 07:00-22:00",
