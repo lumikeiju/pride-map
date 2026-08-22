@@ -5161,13 +5161,19 @@
         ]
       },
       "properties": {
+        "artist": "Wolfgang Tillmans",
         "historic": "memorial",
-        "inscription": "Den Toten, den Infizierten, ihren Freunden, ihren Familien. 1981 bis Heute.",
+        "inscription": "AIDS\nDen Toten\nden Infizierten\nihren Freunden\nihren Familien\n1981 bis heute",
         "level": "0",
         "lgbtq": "primary",
-        "memorial": "obelisk",
+        "memorial": "column",
         "name": "AIDS",
+        "panoramax": "b4e54a70-7a85-4479-ace8-4657b9bca0c5",
+        "start_date": "2001-07-17",
+        "subject": "AIDS",
         "wheelchair": "yes",
+        "wikidata": "Q293530",
+        "wikipedia": "de:AIDS-Memorial (München)",
         "@id": "node/658947401",
         "@type": "node"
       }
@@ -19664,8 +19670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.4686605,
-          52.5071039
+          13.4685959,
+          52.5071296
         ]
       },
       "properties": {
@@ -19681,7 +19687,7 @@
         "check_date": "2026-06-26",
         "check_date:diet:vegetarian": "2026-03-01",
         "check_date:opening_hours": "2025-09-16",
-        "cuisine": "tea;cake;pancake;coffee_shop;bagel;coffee",
+        "cuisine": "coffee_shop",
         "diet:vegetarian": "yes",
         "drink:espresso": "served",
         "drink:filter_coffee": "served",
@@ -19991,6 +19997,7 @@
       },
       "properties": {
         "amenity": "bar",
+        "check_date": "2026-08-21",
         "contact:city": "Paris 4eme Arrondissement",
         "contact:housenumber": "9",
         "contact:phone": "+33 9 74 73 53 64",
@@ -30753,7 +30760,7 @@
         "addr:postcode": "75004",
         "addr:street": "Rue des Lombards",
         "amenity": "bar",
-        "check_date": "2026-02-20",
+        "check_date": "2026-08-21",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "La Boîte",
@@ -41614,39 +41621,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0005435,
-          40.7340227
-        ]
-      },
-      "properties": {
-        "addr:city": "New York",
-        "addr:housenumber": "15",
-        "addr:postcode": "10014",
-        "addr:state": "NY",
-        "addr:street": "Christopher Street",
-        "amenity": "cafe",
-        "cuisine": "coffee;sandwich;breakfast",
-        "description": "Warm, hip venue offering organic coffee and sandwiches plus a shop with modern furniture and homewares.",
-        "diet:vegetarian": "yes",
-        "internet_access": "yes",
-        "lgbtq": "welcome",
-        "name": "ad hoc collective coffee + shoppe",
-        "opening_hours": "Su, Sa 08:00-19:00; Mo-Fr 07:00-19:00",
-        "outdoor_seating": "yes",
-        "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "website": "https://adhoccollective.com",
-        "wheelchair": "no",
-        "@id": "node/6558563124",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -74.8645607,
           11.018391
         ]
@@ -42859,6 +42833,37 @@
         "operator:type": "community",
         "wheelchair": "limited",
         "@id": "node/6835699058",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5032076,
+          48.7196422
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1319",
+        "addr:street": "11th Street",
+        "amenity": "cafe",
+        "check_date": "2026-08-21",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Cafeblue",
+        "payment:cash": "yes",
+        "payment:cash:USD": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-360-323-6669",
+        "website": "https://cafebluecafe.com/",
+        "wheelchair": "yes",
+        "@id": "node/6838692921",
         "@type": "node"
       }
     },
@@ -52160,6 +52165,27 @@
         "phone": "+1-404-874-8247",
         "smoking": "isolated",
         "@id": "node/9270199577",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5031743,
+          48.7204899
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1209",
+        "addr:street": "11th Street",
+        "check_date": "2026-08-21",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Fairhaven Runners & Walkers",
+        "shop": "shoes",
+        "@id": "node/9281237570",
         "@type": "node"
       }
     },
@@ -78443,7 +78469,8 @@
         "addr:housenumber": "4",
         "addr:street": "Strobachgasse",
         "amenity": "community_centre",
-        "check_date": "2025-12-04",
+        "check_date": "2026-08-21",
+        "check_date:opening_hours": "2026-08-21",
         "community_centre": "youth_centre",
         "contact:facebook": "backonstage5",
         "contact:instagram": "backonstage5",
@@ -78453,6 +78480,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Back on Stage 5",
+        "opening_hours:signed": "no",
         "phone": "+43 676 897060452",
         "website": "https://jugendzentren.at/bos5",
         "wheelchair": "no",
@@ -81623,7 +81651,7 @@
         "historic": "heritage",
         "lgbtq": "welcome",
         "name": "Manasquan Quaker Meeting House",
-        "nrhp:criteria": "(A)",
+        "nrhp:criteria": "A",
         "nrhp:inscription_date": "1992-07-22",
         "official_name": "Manasquan Friends Meetinghouse and Burying Ground",
         "opening_hours": "Su 10:00+",
@@ -83475,6 +83503,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.9944612,
+          50.2254833
+        ]
+      },
+      "properties": {
+        "contact:phone": "+48 32 25 27 299",
+        "hot_tub": "yes",
+        "leisure": "sauna",
+        "lgbtq:gay": "primary",
+        "male": "yes",
+        "min_age": "18",
+        "name": "Blue Sauna Gay",
+        "opening_hours": "Mo-Su 00:00-01:00,17:00-24:00",
+        "sauna": "dry;steam",
+        "swimming_pool": "outdoor",
+        "unisex:conditional": "yes @ Mo-Tu",
+        "website": "https://bluesaunagay.wixsite.com/website",
+        "@id": "node/14062563988",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -9.1499622,
           38.716582
         ]
@@ -84254,6 +84308,34 @@
         "name": "Mamá no lo sabe",
         "website": "https://www.instagram.com/mama.nolosabe/",
         "@id": "node/14103291406",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4362301,
+          49.3164961
+        ]
+      },
+      "properties": {
+        "addr:city": "Speyer",
+        "addr:housenumber": "2",
+        "addr:postcode": "67346",
+        "addr:street": "Schulergasse",
+        "email": "psychiatrie@pgpg-speyer.de;psychotherapie@pgpg-speyer.de",
+        "fax": "+49 6232 61002",
+        "healthcare": "psychotherapist;psychiatrist",
+        "image": "https://www.pgpg-speyer.de/wp-content/uploads/2022/12/Schriftzugfarbe-1-300x81.png",
+        "level": "3",
+        "lgbtq": "welcome",
+        "name": "Praxisgemeinschaftpsychische Gesundheit PGPG",
+        "operator": "Dr. med. Elisa Palm;Dipl. Psych. Laura Braun;Ms. Sc. Nora Reis",
+        "phone": "+49 6232 61000;+49 6232 6795252;+49 6232 623363",
+        "website": "https://www.pgpg-speyer.de/",
+        "@id": "node/14107518575",
         "@type": "node"
       }
     },
@@ -92159,18 +92241,25 @@
         "bar": "yes",
         "building": "yes",
         "building:levels": "2",
-        "check_date": "2026-04-12",
+        "check_date": "2026-08-19",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
         "email": "millysmpls@gmail.com",
         "layer": "-1",
         "lgbtq": "welcome",
         "location": "surface",
         "name": "Milly's Wine Bar & Bistro",
         "opening_hours": "Mo-Th 16:00-22:00; Fr 15:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
-        "outdoor_seating": "no",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+1-612-223-8934",
         "reservation": "yes",
+        "toilets": "yes",
         "website": "https://millysmpls.com/",
         "website:menu": "https://millysmpls.com/minneapolis-mill-district-millys-wine-bar-and-bistro-food-menu",
+        "wheelchair": "yes",
         "@id": "way/125837156",
         "@type": "way"
       }
@@ -103968,62 +104057,6 @@
         "phone": "+1 209 466 2081",
         "website": "https://www.plannedparenthood.org/health-center/california/stockton/95205/eastland-plaza-health-center-2529-90130",
         "@id": "way/287634180",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              4.4934345,
-              52.1625797
-            ],
-            [
-              4.4934956,
-              52.1625754
-            ],
-            [
-              4.49351,
-              52.1626071
-            ],
-            [
-              4.4935292,
-              52.1626043
-            ],
-            [
-              4.4934783,
-              52.1624685
-            ],
-            [
-              4.4933882,
-              52.1624763
-            ],
-            [
-              4.4934345,
-              52.1625797
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Leiden",
-        "addr:country": "NL",
-        "addr:housenumber": "128",
-        "addr:street": "Oude Singel",
-        "amenity": "pub",
-        "building": "yes",
-        "contact:phone": "+31 71 528 0680",
-        "lgbtq": "primary",
-        "name": "De Roze Beurs",
-        "ref:bag": "0546100000036652",
-        "source": "survey",
-        "source:date": "2014-06-13",
-        "start_date": "1650",
-        "website": "https://www.derozebeurs.nl/",
-        "@id": "way/287908132",
         "@type": "way"
       }
     },
