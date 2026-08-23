@@ -25387,6 +25387,55 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.3374637,
+          48.4197173
+        ]
+      },
+      "properties": {
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "410",
+        "addr:postcode": "98273",
+        "addr:state": "WA",
+        "addr:street": "South 1st Street",
+        "lgbtq": "welcome",
+        "name": "elSage Designs",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "shop": "clothes",
+        "website": "https://shop.elsagedesigns.com/",
+        "@id": "node/3738299846",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3374478,
+          48.419752
+        ]
+      },
+      "properties": {
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "408",
+        "addr:postcode": "98273",
+        "addr:state": "WA",
+        "addr:street": "South 1st Street",
+        "check_date": "2026-08-22",
+        "check_date:opening_hours": "2025-04-22",
+        "lgbtq": "welcome",
+        "name": "El Sage",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "shop": "clothes",
+        "@id": "node/3740777461",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.129915,
           49.2793851
         ]
@@ -48746,7 +48795,6 @@
         "check_date:opening_hours": "2026-05-11",
         "contact:facebook": "https://www.facebook.com/veganramenshop",
         "contact:instagram": "https://www.instagram.com/veganramenshop",
-        "contact:phone": "+48 791732584",
         "contact:website": "https://www.veganramenshop.pl",
         "cuisine": "noodle;ramen;japanese;onigiri",
         "diet:vegan": "only",
@@ -48756,7 +48804,7 @@
         "opening_hours": "12:00-21:00",
         "opening_hours:signed": "no",
         "outdoor_seating": "yes",
-        "phone": "+48 791732584",
+        "phone": "+48 791 732 584",
         "website:menu": "https://veganramenshop.pl/restaurant/",
         "wheelchair": "yes",
         "@id": "node/8274746065",
@@ -49417,6 +49465,53 @@
         "lgbtq": "only",
         "name": "Manticore Spa",
         "@id": "node/8604128247",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9337052,
+          58.3498074
+        ]
+      },
+      "properties": {
+        "addr:city": "Uddevalla",
+        "addr:country": "SE",
+        "addr:housenumber": "5",
+        "addr:street": "Norra Drottninggatan",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "yes",
+        "capacity": "95",
+        "changing_table": "yes",
+        "check_date": "2026-08-22",
+        "contact:instagram": "https://www.instagram.com/rag_kafe?igsi=MTk3bWo3dXUxcjg1ag==",
+        "cuisine": "lunch;coffee;regional;sandwich;dessert;pastry;soup",
+        "description": "Café with a colourful retro decoration style. Objects used are memorable pieces from everyday life in 1950's-80's.",
+        "diet:meat": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drink:espresso": "yes",
+        "highchair": "yes",
+        "internet_access": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "RÅG",
+        "opening_hours": "Mo-Tu,Su off; We-Fr 11:00-18:00; Sa 11:00-16:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "phone": "+46 73 141 79 14",
+        "toilets": "yes",
+        "toilets:menstrual_products": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://råg.se/",
+        "website:menu": "https://råg.se/meny/",
+        "wheelchair": "yes",
+        "@id": "node/8607671318",
         "@type": "node"
       }
     },
@@ -84075,7 +84170,7 @@
         "addr:street": "Rue Charlot",
         "amenity": "nightclub",
         "contact:email": "contact@lemensch.com",
-        "contact:phone": "+33 09 53 53 38 84",
+        "contact:phone": "+33 9 53 53 38 84",
         "lgbtq": "primary",
         "min_age": "18",
         "name": "Le Mensch",
@@ -98523,6 +98618,76 @@
         "wheelchair:description": "Sizable step at entrance",
         "wikidata": "Q26546400",
         "@id": "way/209079430",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3369529,
+              48.4207494
+            ],
+            [
+              -122.3366894,
+              48.4206818
+            ],
+            [
+              -122.336505,
+              48.4209866
+            ],
+            [
+              -122.3364055,
+              48.4211509
+            ],
+            [
+              -122.3367133,
+              48.4211577
+            ],
+            [
+              -122.3369529,
+              48.4207494
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "202",
+        "addr:postcode": "98273",
+        "addr:state": "WA",
+        "addr:street": "South 1st Street",
+        "air_conditioning": "yes",
+        "amenity_1": "cafe",
+        "building": "retail",
+        "building:levels": "3",
+        "check_date": "2026-08-22",
+        "contact:facebook": "skagitfoodcoop",
+        "contact:instagram": "skagitfoodcoop",
+        "contact:twitter": "SkagitFoodCoop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "image": "https://static1.squarespace.com/static/5fcdc0a3cd8500165ad2a837/t/63b4a4e1f472024daf1d9aab/1677079121872/",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "Skagit Valley Food Co-op",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:cash:USD": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-360-336-9777",
+        "roof:shape": "flat",
+        "scraper_microdata:date": "01/21/2026 16:39:09",
+        "shop": "supermarket",
+        "website": "https://skagitfoodcoop.com",
+        "wheelchair": "yes",
+        "@id": "way/209490324",
         "@type": "way"
       }
     },
