@@ -6426,6 +6426,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.4181472,
+          52.5014868
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "172",
+        "addr:postcode": "10999",
+        "addr:street": "Oranienstraße",
+        "addr:suburb": "Kreuzberg",
+        "amenity": "restaurant",
+        "contact:email": "reservations@shiraz-berlin.com",
+        "contact:instagram": "shirazberlin",
+        "contact:phone": "+49 176 32638389",
+        "contact:website": "https://shiraz-berlin.com/",
+        "cuisine": "persian",
+        "lgbtq": "welcome",
+        "name": "Shiraz",
+        "opening_hours": "Mo-Th,Su 11:30-23:00; Fr-Sa 11:30-01:00",
+        "smoking": "no",
+        "wheelchair": "no",
+        "@id": "node/866058253",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.5283976,
           47.3773258
         ]
@@ -17997,17 +18028,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2507796,
-          49.5921956
+          17.2505956,
+          49.5922549
         ]
       },
       "properties": {
         "addr:housenumber": "17",
         "addr:street": "Pavelčálova",
         "amenity": "bar",
+        "brewery": "gambrinus",
         "contact:facebook": "https://www.facebook.com/Diva-Bar-Olomouc-150937484965342/",
-        "description": "Gay bar",
+        "description": "Vchod je z Ulice: Pavelčákova. Jedná se o Gay Club.",
         "lgbtq": "primary",
+        "min_age": "18",
         "name": "Diva",
         "url": "https://www.nakluky.cz/klub/33-diva-club/",
         "website": "http://www.club-diva.websnadno.cz/",
@@ -39433,14 +39466,17 @@
         ]
       },
       "properties": {
+        "addr:city": "Dunedin",
         "addr:housenumber": "337-339",
         "addr:street": "George Street",
         "addr:suburb": "Dunedin Central",
         "amenity": "cafe",
         "check_date": "2025-07-27",
+        "contact:phone": "+64 3-477 6563",
+        "contact:website": "https://www.modaks-espresso.com/",
         "lgbtq": "welcome",
         "name": "Modaks",
-        "opening_hours": "Mo-Tu,Th-Fr 07:30-14:30; We 12:00-15:00; Sa-Su 08:00-15:00",
+        "opening_hours": "Mo-Tu 07:30-14:30; We 10:30-14:30; Th-Fr 07:30-14:30; Sa-Su 08:00-15:00",
         "reusable_packaging:accept": "yes",
         "wheelchair": "limited",
         "@id": "node/6287051685",
@@ -45887,7 +45923,7 @@
         "email": "info@best-of-fetish.com",
         "lgbtq": "welcome",
         "name": "Best Of Cologne",
-        "opening_hours": "Mo-Sa 12:00-19:00; Th,Fr 12:00-20:00",
+        "opening_hours": "Mo-We,Sa 12:00-19:00; Th,Fr 12:00-20:00",
         "operator": "Klaus Jentjens",
         "shop": "clothes",
         "website": "https://best-of-fetish.com",
@@ -84458,6 +84494,31 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2025688,
+          51.4857752
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "305a",
+        "addr:postcode": "W14 9NS",
+        "addr:street": "North End Road",
+        "amenity": "bar",
+        "check_date": "2026-08-23",
+        "lgbtq": "primary",
+        "name": "Teds Place",
+        "opening_hours": "Mo-Tu 19:00-00:00, Th 19:00-02:00, Fr 19:00-00:00, Su 19:00-02:00",
+        "phone": "+44 20 7385 9359",
+        "website": "https://tedsplaceuk.co.uk/",
+        "@id": "node/14116168334",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -85673,6 +85734,7 @@
         "lgbtq:signed": "yes",
         "name": "Saint Andrews Episcopal Church",
         "religion": "christian",
+        "website": "https://saintandrewsseattle.org",
         "@id": "way/34151144",
         "@type": "way"
       }
@@ -98164,59 +98226,6 @@
         "phone": "+55 51 3026-2126",
         "website": "http://www.beco203.com.br",
         "@id": "way/202972818",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              9.2176688,
-              45.4606431
-            ],
-            [
-              9.2181769,
-              45.4606448
-            ],
-            [
-              9.2180884,
-              45.4608375
-            ],
-            [
-              9.2178428,
-              45.4607972
-            ],
-            [
-              9.2176647,
-              45.4607972
-            ],
-            [
-              9.2176668,
-              45.4607181
-            ],
-            [
-              9.2176686,
-              45.4606515
-            ],
-            [
-              9.2176688,
-              45.4606431
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "building": "yes",
-        "contact:email": "info@loginmilano.com",
-        "contact:phone": "+39 349 4669374",
-        "contact:website": "http://www.loginmilano.com",
-        "leisure": "nightlife",
-        "lgbtq": "primary",
-        "name": "Black Hole Milano",
-        "@id": "way/205040446",
         "@type": "way"
       }
     },
@@ -119589,24 +119598,24 @@
         "coordinates": [
           [
             [
-              -110.9650025,
-              32.2262226
+              -110.965024,
+              32.2262215
             ],
             [
-              -110.9650017,
-              32.2263265
+              -110.9650232,
+              32.2263254
             ],
             [
-              -110.9649483,
-              32.2263262
+              -110.9649698,
+              32.2263251
             ],
             [
-              -110.9649491,
-              32.2262223
+              -110.9649706,
+              32.2262212
             ],
             [
-              -110.9650025,
-              32.2262226
+              -110.965024,
+              32.2262215
             ]
           ]
         ]
