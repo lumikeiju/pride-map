@@ -6198,15 +6198,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5693422,
-          47.7952676
+          3.5693228,
+          47.7952787
         ]
       },
       "properties": {
-        "addr:city": "Auxerre",
-        "addr:housenumber": "3",
-        "addr:postcode": "89000",
-        "addr:street": "Rue de la Draperie",
+        "contact:city": "Auxerre",
+        "contact:housenumber": "3",
+        "contact:postcode": "89000",
+        "contact:street": "Rue de la Draperie",
         "currency:XBT": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -6780,6 +6780,36 @@
         "website": "https://batho-restaurant.de/",
         "wheelchair": "yes",
         "@id": "node/886851197",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1362969,
+          49.2707965
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "1502",
+        "addr:postcode": "V6H 3S4",
+        "addr:province": "BC",
+        "addr:street": "Duranleau Street",
+        "amenity": "theatre",
+        "contact:facebook": "https://www.facebook.com/TheImprovCentre",
+        "contact:instagram": "https://instagram.com/theimprovcentre/",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "The Improv Centre",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-604-280-4444",
+        "website": "https://theimprovcentre.ca",
+        "@id": "node/889266044",
         "@type": "node"
       }
     },
@@ -9980,6 +10010,52 @@
         "takeaway": "yes",
         "website": "https://www.theironbear.com/",
         "@id": "node/1481633387",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.133589,
+          49.2700173
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1315",
+        "addr:street": "Railspur Alley",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Studio 13 Fine Art",
+        "shop": "art",
+        "@id": "node/1486470286",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1361069,
+          49.2719415
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "1652",
+        "addr:province": "BC",
+        "addr:street": "Duranleau Street",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Hamuhk Hang Out Place",
+        "note": "This business has different winter/summer hours but winter and summer are not defined.",
+        "opening_hours": "May-Sep Mo-Fr 09:30-18:00, Sa-Su 09:30-19:00; Oct-Apr 10:00-17:00",
+        "phone": "+1-604-623-3477",
+        "shop": "furniture",
+        "website": "https://hamuhk.com/",
+        "@id": "node/1490614169",
         "@type": "node"
       }
     },
@@ -14667,7 +14743,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Magpie Thrift",
-        "opening_hours": "Su,Mo 12:00-18:00; Tu-Sa 12:00-19:00",
+        "opening_hours": "Mo-Su 12:00-19:00",
         "second_hand": "yes",
         "shop": "clothes",
         "short_name": "Magpie",
@@ -22103,6 +22179,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.134034,
+          49.2708258
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "1406",
+        "addr:postcode": "V6H 3S6",
+        "addr:street": "Old Bridge Street",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Granville Island Broom Co.",
+        "opening_hours": "Mo-Su 10:00-17:00",
+        "phone": "+1-604-629-1141",
+        "shop": "art",
+        "website": "https://broomcompany.com/",
+        "@id": "node/3088556556",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.1592727,
           41.3847826
         ]
@@ -26149,7 +26250,8 @@
         "addr:postcode": "10777",
         "addr:street": "Motzstraße",
         "addr:suburb": "Schöneberg",
-        "check_date": "2026-03-04",
+        "air_conditioning": "no",
+        "check_date": "2026-08-25",
         "check_date:opening_hours": "2021-01-06",
         "contact:email": "laden@prinz-eisenherz.com",
         "contact:facebook": "eisenherz.berlin",
@@ -28118,10 +28220,11 @@
         "addr:postcode": "13000",
         "addr:street": "Seifertova",
         "amenity": "nightclub",
-        "check_date": "2023-06-21",
+        "check_date": "2026-08-24",
+        "check_date:opening_hours": "2026-08-24",
         "lgbtq": "primary",
         "name": "UP & DOWN",
-        "opening_hours": "Mo-Th 14:00-03:00; Fr-Sa 11:00-06:00; Su 11:00-03:00",
+        "opening_hours": "Mo-Su 21:30-02:00+",
         "phone": "+420 777 106 308",
         "website": "http://www.updownbarprague.cz/",
         "@id": "node/4171120558",
@@ -39094,6 +39197,40 @@
         "name": "Centro Asociativo Pedro Zerolo",
         "website": "https://www.cogam.es/centro-asociativo-pedro-zerolo/",
         "@id": "node/6245710135",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2603751,
+          53.3428631
+        ]
+      },
+      "properties": {
+        "addr:city": "Dublin",
+        "addr:county": "Dublin",
+        "addr:housenumber": "8",
+        "addr:postcode": "D02 AX90",
+        "addr:street": "Wicklow Street",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/marysbardublin",
+        "contact:instagram": "@marysbardublin",
+        "contact:twitter": "@MarysBarDublin",
+        "email": "info@marysbar.ie",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:big_pride_flag:outside": "yes",
+        "name": "Mary’s Bar & Hardware Shop",
+        "outdoor_seating": "yes",
+        "phone": "+353 1 670 8629",
+        "ref:vatin": "IE9746992L",
+        "website": "https://marysbar.ie/",
+        "wheelchair": "yes",
+        "@id": "node/6245890989",
         "@type": "node"
       }
     },
@@ -63319,6 +63456,7 @@
         "contact:facebook": "https://fr-fr.facebook.com/Bearzone-Le-Baroque-149719448466069/",
         "contact:website": "http://www.barlebaroque.be/",
         "fetish:bear": "yes",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Le Baroque",
@@ -74660,8 +74798,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.216753,
-          40.7763189
+          -119.2188577,
+          40.7782236
         ]
       },
       "properties": {
@@ -74670,7 +74808,6 @@
         "contact:instagram": "https://instagram.com/xpatalien",
         "email": "info@xpatalien.com",
         "end_date": "2027-09-07",
-        "fixme": "Only intersection is currently known; will need to update with more precise location.",
         "lgbtq": "welcome",
         "name": "Xpat Alien",
         "source": "https://queerburners.com/directory",
@@ -74704,8 +74841,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2194895,
-          40.7799363
+          -119.2195113,
+          40.7798602
         ]
       },
       "properties": {
@@ -74723,16 +74860,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2198051,
-          40.7805966
+          -119.2199045,
+          40.7806744
         ]
       },
       "properties": {
+        "alt_name": "BRC Municipal Pool",
+        "contact:instagram": "https://instagram.com/brcmunicipalpool",
         "end_date": "2026-09-07",
         "lgbtq": "primary",
-        "name": "BRC Municipal Pool",
+        "name": "Black Rock City Municipal Pool",
         "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
+        "website": "https://www.brcmunicipalpool.com/",
         "@id": "node/13011740731",
         "@type": "node"
       }
@@ -74761,8 +74901,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2191389,
-          40.7807995
+          -119.2191845,
+          40.7808157
         ]
       },
       "properties": {
@@ -74770,7 +74910,6 @@
         "contact:instagram": "https://instagram.com/fermented.reality",
         "email": "fermented.reality.camp@gmail.com",
         "end_date": "2026-09-07",
-        "fixme": "Only intersection is currently known; will need to update with more precise location.",
         "lgbtq": "primary",
         "name": "Fermented Reality",
         "source": "https://queerburners.com/directory",
@@ -74784,8 +74923,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2238754,
-          40.7798303
+          -119.2239585,
+          40.7801126
         ]
       },
       "properties": {
@@ -74803,8 +74942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2221842,
-          40.7801261
+          -119.22227,
+          40.7801484
         ]
       },
       "properties": {
@@ -74827,8 +74966,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2226774,
-          40.7800616
+          -119.2229161,
+          40.7800474
         ]
       },
       "properties": {
@@ -74846,8 +74985,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2219825,
-          40.7794884
+          -119.221903,
+          40.7795216
         ]
       },
       "properties": {
@@ -74891,8 +75030,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2216292,
-          40.7827401
+          -119.221606,
+          40.7825502
         ]
       },
       "properties": {
@@ -74900,7 +75039,6 @@
         "contact:facebook": "https://facebook.com/groups/DownLowClub",
         "email": "billybob91354@hotmail.com",
         "end_date": "2026-09-07",
-        "fixme": "Which side of the street is unknown man-facing vs mountain-facing; will need to update with more precise location.",
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Down Low Club",
@@ -74915,8 +75053,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2231255,
-          40.7799867
+          -119.223206,
+          40.7799684
         ]
       },
       "properties": {
@@ -74934,8 +75072,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2231471,
-          40.7793093
+          -119.2232249,
+          40.7792037
         ]
       },
       "properties": {
@@ -74975,17 +75113,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2250094,
-          40.7834713
+          -119.2249537,
+          40.7830546
         ]
       },
       "properties": {
         "addr:street": "7:30 & G plaza",
         "contact:instagram": "https://instagram.com/noholesbarred_comedyclub",
         "end_date": "2026-09-07",
-        "fixme": "Only intersection is known; needs a more precision location once known.",
         "lgbtq": "primary",
-        "name": "No Holes Barred",
+        "name": "No Holes Barred Comedy Club",
         "source": "https://noholesbarredcomedy.com;https://queerburners.com/directory",
         "tourism": "camp_site",
         "website": "https://noholesbarredcomedy.com",
@@ -74998,8 +75135,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2216927,
-          40.7790041
+          -119.2217338,
+          40.7791723
         ]
       },
       "properties": {
@@ -75059,8 +75196,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2233861,
-          40.7799187
+          -119.2235256,
+          40.7798882
         ]
       },
       "properties": {
@@ -75070,26 +75207,6 @@
         "source": "https://blog.queerburners.org/queerborhood-2026;https://queerburners.com/directory",
         "tourism": "camp_site",
         "@id": "node/13011740754",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2213182,
-          40.780684
-        ]
-      },
-      "properties": {
-        "alt_name": "Glam Cocks",
-        "end_date": "2026-09-07",
-        "lgbtq": "primary",
-        "name": "GLAMCOCKS",
-        "source": "https://queerburners.com/directory",
-        "tourism": "camp_site",
-        "@id": "node/13011740756",
         "@type": "node"
       }
     },
@@ -75121,8 +75238,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2192437,
-          40.7794191
+          -119.2193136,
+          40.7795051
         ]
       },
       "properties": {
@@ -82973,8 +83090,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2226733,
-          40.7833318
+          -119.2241594,
+          40.7831173
         ]
       },
       "properties": {
@@ -82985,7 +83102,6 @@
         "contact:instagram": "https://instagram.com/orgydome",
         "email": "info@orgydome.com",
         "end_date": "2027-09-07",
-        "fixme": "Only intersection is known; will need to move to more precise location once known. Intersection source is https://facebook.com/brcdome post on 2026-06-21.",
         "lgbtq": "welcome",
         "name": "And Then There's Only Love",
         "source": "https://queerburners.com/directory",
@@ -83000,15 +83116,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2200047,
-          40.7855484
+          -119.2199827,
+          40.7855676
         ]
       },
       "properties": {
         "addr:street": "C & 8:00",
         "contact:instagram": "https://instagram.com/burningshipcamp",
         "end_date": "2027-09-07",
-        "fixme": "Only intersection is known; will need to move to more precise location once known.",
         "lgbtq": "welcome",
         "name": "BurningShip",
         "source": "https://queerburners.com/directory",
@@ -83023,8 +83138,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2219332,
-          40.7806142
+          -119.2228532,
+          40.7803075
         ]
       },
       "properties": {
@@ -83045,8 +83160,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.219275,
-          40.7844025
+          -119.2193088,
+          40.7842973
         ]
       },
       "properties": {
@@ -83069,8 +83184,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2182918,
-          40.7829964
+          -119.2186234,
+          40.7833782
         ]
       },
       "properties": {
@@ -83093,31 +83208,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2231021,
-          40.7783303
-        ]
-      },
-      "properties": {
-        "addr:street": "F & 6:45",
-        "contact:instagram": "https://instagram.com/brcmunicipalpool",
-        "end_date": "2026-09-07",
-        "fixme": "Only intersection is currently known; will need to update with more precise location.",
-        "lgbtq": "primary",
-        "name": "Black Rock City Municipal Pool",
-        "source": "https://queerburners.com/directory",
-        "tourism": "camp_site",
-        "website": "https://www.brcmunicipalpool.com/",
-        "@id": "node/13991802799",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.219352,
-          40.783917
+          -119.2193032,
+          40.7835689
         ]
       },
       "properties": {
@@ -83139,8 +83231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2197509,
-          40.7835683
+          -119.219693,
+          40.7829275
         ]
       },
       "properties": {
@@ -83159,8 +83251,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2232675,
-          40.7795898
+          -119.2233211,
+          40.77947
         ]
       },
       "properties": {
@@ -83178,8 +83270,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.2218356,
-          40.7791861
+          -119.2212487,
+          40.7790241
         ]
       },
       "properties": {
@@ -84363,10 +84455,9 @@
         "addr:housenumber": "1",
         "addr:postcode": "06667",
         "addr:street": "Herrmannsgarten",
+        "air_conditioning": "no",
         "amenity": "community_centre",
-        "check_date": "2026-08-18",
-        "club": "social",
-        "community_centre": "club_home",
+        "check_date": "2026-08-23",
         "contact:facebook": "https://www.facebook.com/StadtRaumWSF/",
         "contact:instagram": "https://www.instagram.com/stadtraum.wsf",
         "email": "info@stadtraum.net",
@@ -84375,6 +84466,7 @@
         "name": "Raum.Station",
         "operator": "Stadt.Raum Initiative Weißenfels",
         "operator:type": "private_non_profit",
+        "polling_station": "no",
         "toilets": "yes",
         "website": "https://stadtraum.net/",
         "wheelchair": "no",
@@ -84513,6 +84605,84 @@
         "phone": "+44 20 7385 9359",
         "website": "https://tedsplaceuk.co.uk/",
         "@id": "node/14116168334",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1345356,
+          49.271703
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "1551",
+        "addr:postcode": "V6H 3R9",
+        "addr:province": "BC",
+        "addr:street": "Johnston Street",
+        "addr:unit": "102",
+        "email": "rhinoceros.gifts@gmail.com",
+        "facebook": "https://www.facebook.com/RhinocerosAccessories",
+        "instagram": "https://www.instagram.com/rhinoceros.acc/",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Rhinoceros Accessories",
+        "note": "Located in building under Granville Bridge.",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "phone": "+1-604-684-3448",
+        "shop": "gift",
+        "website": "https://www.rhinostore.ca/",
+        "@id": "node/14118125220",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9715454,
+          51.1999456
+        ]
+      },
+      "properties": {
+        "addr:floor": "3",
+        "addr:housenumber": "6",
+        "addr:street": "Klosterstraße",
+        "amenity": "community_centre",
+        "check_date": "2026-08-24",
+        "community_centre": "family_centre",
+        "contact:mobile": "+4915565681045",
+        "description": "Erziehungs- und Familienberatung; Queerverbindung",
+        "lgbtq": "welcome",
+        "name": "pro familia",
+        "opening_hours": "Mo,Th 09:00-12:00,14:00-16:00; Tu 09:00-12:00,14:00-18:00; We,Fr 09:00-12:00",
+        "operator": "pro familia",
+        "phone": "+49 3443 238468",
+        "website": "https://www.profamilia.de/weissenfels",
+        "wheelchair": "no",
+        "@id": "node/14118546897",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8535006,
+          5.504677
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Billard",
+        "@id": "node/14121299523",
         "@type": "node"
       }
     },
@@ -138159,6 +138329,62 @@
         "coordinates": [
           [
             [
+              -119.2212504,
+              40.7810047
+            ],
+            [
+              -119.2211843,
+              40.780787
+            ],
+            [
+              -119.2211241,
+              40.7806087
+            ],
+            [
+              -119.2215976,
+              40.7805131
+            ],
+            [
+              -119.2216961,
+              40.7808071
+            ],
+            [
+              -119.2220881,
+              40.7807387
+            ],
+            [
+              -119.2221826,
+              40.7810494
+            ],
+            [
+              -119.2212997,
+              40.7811891
+            ],
+            [
+              -119.2212504,
+              40.7810047
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "alt_name": "Glam Cocks",
+        "end_date": "2026-09-07",
+        "lgbtq": "primary",
+        "name": "GLAMCOCKS",
+        "source": "https://queerburners.com/directory;https://burningman.org/arts-innovation/sustainability/the-green-corridor",
+        "tourism": "camp_site",
+        "@id": "way/1552035647",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               2.2107323,
               41.3959649
             ],
@@ -139842,12 +140068,12 @@
               41.3735233
             ],
             [
-              2.1894577,
-              41.3736312
+              2.1894447,
+              41.3736376
             ],
             [
-              2.1894259,
-              41.3735451
+              2.1894088,
+              41.3735471
             ],
             [
               2.1893263,
@@ -139914,28 +140140,8 @@
               41.371075
             ],
             [
-              2.1889099,
-              41.3703577
-            ],
-            [
-              2.1889017,
-              41.3703117
-            ],
-            [
-              2.1888883,
-              41.3702087
-            ],
-            [
-              2.1888788,
-              41.3701786
-            ],
-            [
               2.1888474,
               41.3699687
-            ],
-            [
-              2.1889697,
-              41.3697913
             ],
             [
               2.1892131,
@@ -139948,10 +140154,6 @@
             [
               2.1898362,
               41.369606
-            ],
-            [
-              2.1899838,
-              41.369591
             ],
             [
               2.1901772,
