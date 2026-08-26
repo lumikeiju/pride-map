@@ -6376,8 +6376,7 @@
         "lgbtq:men": "primary",
         "min_age": "18",
         "name": "Spexter",
-        "opening_hours": "Mo-Sa 10:00-20:00",
-        "opening_hours:covid19": "Mo-Sa 10:00-18:00",
+        "opening_hours": "Mo-Sa 11:00-19:00",
         "operator": "Leonhard März und Michael Di Mugno",
         "payment:cash": "yes",
         "payment:contactless": "yes",
@@ -38093,7 +38092,7 @@
       "properties": {
         "amenity": "bar",
         "lgbtq": "primary",
-        "name": "Speakeasy",
+        "name": "Woody's",
         "@id": "node/6056122707",
         "@type": "node"
       }
@@ -69762,9 +69761,11 @@
         "addr:postcode": "02144",
         "addr:state": "MA",
         "addr:street": "Highland Avenue",
+        "female": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:trans": "welcome",
+        "male": "yes",
         "name": "HAIR by Christine & Co",
         "shop": "hairdresser",
         "@id": "node/12262756406",
@@ -73688,6 +73689,7 @@
       "properties": {
         "brand": "Petit Bateau",
         "brand:wikidata": "Q3377090",
+        "check_date": "2026-08-25",
         "clothes": "children",
         "lgbtq": "welcome",
         "name": "Petit Bateau",
@@ -85506,7 +85508,7 @@
         "internet_access:ssid": "kcls.org Wireless",
         "lgbtq": "welcome",
         "name": "Woodinville Library",
-        "opening_hours": "Mo-Th 10:00-21:00; Fr 10:00-18:00; Sa 10:00-17:00; Su 13:00-17:00",
+        "opening_hours": "Mo,Th-Fr 10:00-18:00; Tu-We 12:00-20:00; Sa 11:00-18:00; Su off",
         "operator": "King County Library System",
         "operator:short": "KCLS",
         "operator:type": "public",
@@ -85519,7 +85521,7 @@
         "service:scan": "yes",
         "source": "bing",
         "toilets": "yes",
-        "website": "https://kcls.org/locations/1548",
+        "website": "https://kcls.org/locations/woodinville/",
         "@id": "way/32993409",
         "@type": "way"
       }
@@ -140138,6 +140140,10 @@
             [
               2.1890252,
               41.371075
+            ],
+            [
+              2.1888943,
+              41.3702512
             ],
             [
               2.1888474,
