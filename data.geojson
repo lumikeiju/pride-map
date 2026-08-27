@@ -8219,6 +8219,7 @@
       "properties": {
         "addr:city": "Barcelona",
         "air_conditioning": "yes",
+        "check_date": "2026-08-26",
         "lgbtq": "primary",
         "name": "AXEL Hotel",
         "rooftop": "yes",
@@ -14183,6 +14184,31 @@
         "nudism": "permissive",
         "website": "https://www.freewebs.com/sangregoriobeach/",
         "@id": "node/2058858711",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3334927,
+          47.6612762
+        ]
+      },
+      "properties": {
+        "addr:city": "Seattle",
+        "addr:country": "US",
+        "addr:housenumber": "2103",
+        "addr:postcode": "98103",
+        "addr:state": "WA",
+        "addr:street": "North 45th Street",
+        "amenity": "bar",
+        "check_date": "2026-08-26",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "Changes",
+        "@id": "node/2061048098",
         "@type": "node"
       }
     },
@@ -24546,6 +24572,8 @@
         "diet:non-vegetarian": "yes",
         "diet:vegan": "no",
         "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
         "lgbtq": "welcome",
         "name": "Pink Pony Cafe",
         "opening_hours": "Mo-Th 07:30-17:00; Fr-Su 07:30-21:00",
@@ -24556,6 +24584,7 @@
         "payment:onchain": "no",
         "phone": "+1-360-504-2192",
         "toilets": "yes",
+        "toilets:unisex": "yes",
         "website": "https://pinkponycafe.com",
         "@id": "node/3548464880",
         "@type": "node"
@@ -34280,11 +34309,13 @@
         "addr:state": "CA",
         "addr:street": "Santa Monica Boulevard",
         "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/MattiesWeHo",
+        "contact:instagram": "mattiesweho",
         "lgbtq": "primary",
-        "name": "Rocco’s",
-        "opening_hours": "Mo-Su 12:00-02:00",
-        "phone": "+-1424-343-0123",
-        "website": "https://www.roccosweho.com/",
+        "name": "Mattie's WeHo",
+        "opening_hours": "Mo 05:00-23:00; Tu 17:00-02:00; We-Th 14:00-02:00; Fr 14:00-04:00; Sa 12:00-04:00; Su 12:00-02:00",
+        "phone": "+1-424-343-0123",
+        "website": "https://www.mattiesweho.com/",
         "wheelchair": "yes",
         "@id": "node/5207270080",
         "@type": "node"
@@ -39608,7 +39639,7 @@
         "addr:suburb": "Dunedin Central",
         "amenity": "cafe",
         "check_date": "2025-07-27",
-        "contact:phone": "+64 3-477 6563",
+        "contact:phone": "+64 3 477 6563",
         "contact:website": "https://www.modaks-espresso.com/",
         "lgbtq": "welcome",
         "name": "Modaks",
@@ -59083,6 +59114,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -118.3846841,
+          34.0847455
+        ]
+      },
+      "properties": {
+        "addr:city": "West Hollywood",
+        "addr:housenumber": "8919",
+        "addr:postcode": "90069",
+        "addr:state": "CA",
+        "addr:street": "Santa Monica Boulevard",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "min_age": "21",
+        "name": "Gym Bar WeHo",
+        "opening_hours": "Mo-Th 15:00-24:00; Fr 15:00-02:00; Sa 12:00-02:00; Su 10:00-24:00",
+        "phone": "+1-424-313-8202",
+        "website": "https://www.gymbarweho.com",
+        "wheelchair": "yes",
+        "@id": "node/10675391895",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9540031,
           48.82954
         ]
@@ -60878,8 +60936,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9953488,
-          52.2307075
+          20.9953262,
+          52.2307252
         ]
       },
       "properties": {
@@ -60887,11 +60945,13 @@
         "addr:housenumber": "44",
         "addr:postcode": "00-831",
         "addr:street": "Twarda",
+        "check_date": "2026-08-26",
         "leisure": "sauna",
         "lgbtq": "primary",
         "name": "The Fire",
         "note": "Gay Sauna",
         "website": "https://www.saunathefire.pl/",
+        "wheelchair": "no",
         "@id": "node/11020861280",
         "@type": "node"
       }
@@ -84685,6 +84745,78 @@
         "lgbtq": "primary",
         "name": "Billard",
         "@id": "node/14121299523",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3840176,
+          34.0852433
+        ]
+      },
+      "properties": {
+        "addr:city": "West Hollywood",
+        "addr:country": "US",
+        "addr:housenumber": "8869",
+        "addr:postcode": "90069",
+        "addr:street": "Santa Monica Boulevard",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=61574923329071",
+        "contact:instagram": "sweetwater_weho",
+        "email": "whatsup@sweetwaterweho.com",
+        "lgbtq": "primary",
+        "lgbtq:women": "primary",
+        "mobile": "+1-310-806-7772",
+        "name": "SweetWater WeHo",
+        "opening_hours": "Mo off; Tu off; We-Th 18:00-24:00; Fr-Sa 18:00-02:00; Su 18:00-24:00",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.sweetwaterweho.com/",
+        "wheelchair": "yes",
+        "@id": "node/14124199480",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0016562,
+          53.134793
+        ]
+      },
+      "properties": {
+        "addr:city": "Bydgoszcz",
+        "addr:housenumber": "27b",
+        "addr:postcode": "85-042",
+        "addr:street": "Bocianowo",
+        "amenity": "community_centre",
+        "community_centre": "cultural_centre",
+        "lgbtq": "welcome",
+        "name": "Hackerspace Bydgoszcz",
+        "operator:type": "community",
+        "website": "https://hsbdg.pl/",
+        "@id": "node/14127209626",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9706435,
+          40.4786682
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Harold's Haunt",
+        "@id": "node/14127287138",
         "@type": "node"
       }
     },
@@ -112876,17 +113008,27 @@
       },
       "properties": {
         "addr:city": "West Hollywood",
+        "addr:country": "US",
         "addr:housenumber": "8811",
         "addr:postcode": "90069",
         "addr:state": "CA",
         "addr:street": "Santa Monica Boulevard",
+        "amenity": "bar",
         "building": "retail",
-        "disused:amenity": "nightclub",
+        "contact:instagram": "micdropla",
         "ele": "74.8",
+        "email": "hello@micdrop.la",
         "height": "8.8",
+        "karaoke": "yes",
         "lgbtq": "primary",
-        "name": "Flaming Saddles",
-        "shop": "vacant",
+        "name": "Mic Drop Karaoke",
+        "opening_hours": "Mo off; Tu off; We 17:45-24:00; Th 17:45-01:00; Fr-Sa 17:45-02:00; Su 17:45-24:00",
+        "phone": "+1-310-879-8811",
+        "toilets": "yes",
+        "toilets:unisex": "no",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.micdrop.la/",
+        "wheelchair": "yes",
         "@id": "way/440269339",
         "@type": "way"
       }
@@ -118785,13 +118927,16 @@
         "addr:housenumber": "118",
         "addr:postcode": "E2 6DG",
         "addr:street": "Bethnal Green Road",
+        "cafe": "yes",
         "check_date:opening_hours": "2026-05-19",
+        "drink:coffee": "yes",
         "lgbtq": "primary",
         "name": "The Common Press",
         "opening_hours": "Tu-Su 11:00-18:30",
         "payment:cash": "no",
         "second_hand": "no",
         "shop": "books",
+        "toilets": "yes",
         "website": "https://www.commonpress.co.uk",
         "wheelchair": "yes",
         "@id": "way/638542145",
@@ -121554,7 +121699,7 @@
         "lgbtq": "welcome",
         "min_age": "21",
         "name": "Lily's Snack Bar",
-        "opening_hours": "Mo-Su 3pm-2am",
+        "opening_hours": "Mo-Su 15:00-02:00",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
