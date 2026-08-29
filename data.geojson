@@ -13390,6 +13390,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.0707081,
+          49.2749646
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1661",
+        "addr:postcode": "V5L 4X4",
+        "addr:street": "Napier Street",
+        "amenity": "library",
+        "email": "info@vpl.ca",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "VPL: Britannia Branch",
+        "opening_hours": "Mo-We 09:30-20:00; Sa-Su 09:30-17:00; Th-Fr 09:30-18:00",
+        "operator": "Vancouver Public Library",
+        "operator:short": "VPL",
+        "operator:type": "public",
+        "operator:wikidata": "Q1376408",
+        "phone": "+1-604-665-2222",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.vpl.ca/location/britannia-branch",
+        "wheelchair": "yes",
+        "@id": "node/1934829660",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.1325151,
           51.5126049
         ]
@@ -69398,9 +69430,19 @@
         "addr:postcode": "29201",
         "addr:state": "SC",
         "addr:street": "Assembly Street",
+        "air_conditioning": "yes",
         "amenity": "bar",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "PT's 1109",
+        "opening_hours": "Mo-Su 17:00-02:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "separated",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited",
         "@id": "node/12207870374",
         "@type": "node"
       }
@@ -72860,6 +72902,40 @@
         "shop": "erotic",
         "website": "https://locations.loversstores.com/wa/silverdale/9129-ridgetop-blvd-nw/",
         "@id": "node/12746013662",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6577496,
+          49.1632431
+        ]
+      },
+      "properties": {
+        "addr:city": "Langley",
+        "addr:housenumber": "8843",
+        "addr:postcode": "V1M2K4",
+        "addr:province": "BC",
+        "addr:street": "204 Street",
+        "addr:unit": "105",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "RBC",
+        "brand:en": "RBC Royal Bank",
+        "brand:fr": "RBC Banque Royale",
+        "brand:wikidata": "Q735261",
+        "brand:wikipedia": "en:Royal Bank of Canada",
+        "drive_through": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "RBC Royal Bank",
+        "name:en": "RBC Royal Bank",
+        "name:fr": "RBC Banque Royale",
+        "official_name": "Royal Bank of Canada",
+        "@id": "node/12748188382",
         "@type": "node"
       }
     },
@@ -84819,13 +84895,15 @@
         "addr:street": "Herrmannsgarten",
         "air_conditioning": "no",
         "amenity": "community_centre",
-        "check_date": "2026-08-23",
+        "check_date": "2026-08-28",
+        "check_date:opening_hours": "2026-08-28",
         "contact:facebook": "https://www.facebook.com/StadtRaumWSF/",
         "contact:instagram": "https://www.instagram.com/stadtraum.wsf",
         "email": "info@stadtraum.net",
         "level": "0",
         "lgbtq": "welcome",
         "name": "Raum.Station",
+        "opening_hours:signed": "no",
         "operator": "Stadt.Raum Initiative Weißenfels",
         "operator:type": "private_non_profit",
         "polling_station": "no",
@@ -93072,6 +93150,80 @@
         "coordinates": [
           [
             [
+              13.6252718,
+              47.7117579
+            ],
+            [
+              13.6253212,
+              47.7116898
+            ],
+            [
+              13.62562,
+              47.7117877
+            ],
+            [
+              13.6255707,
+              47.7118559
+            ],
+            [
+              13.6252718,
+              47.7117579
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Bad Ischl",
+        "addr:country": "AT",
+        "addr:floor": "0",
+        "addr:housenumber": "6",
+        "addr:postcode": "4820",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "cafe",
+        "books": "children;adults;regional:comics",
+        "building": "yes",
+        "cafe": "yes",
+        "check_date": "2026-08-28",
+        "cuisine": "coffee_shop;cake;austrian:ice_cream",
+        "description": "Buchhandelung & Café",
+        "drink:babyccino": "yes",
+        "drink:espresso": "yes",
+        "email": "office@kurdirektion.at",
+        "internet_access": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Kurdirektion",
+        "official_name": "Kurdirektion Verlagsbuchhandlung GmbH",
+        "opening_hours": "Mo-Sa 09:00-20:00; Su,PH off",
+        "operator": "Erik Alexander de Goederen",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+43 6132 25627",
+        "piano": "yes",
+        "ref:vatin": "ATU78753207",
+        "roastery": "Gori",
+        "self_service": "only",
+        "shop": "books",
+        "stroller": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.kurdirektion.at/",
+        "wheelchair": "yes",
+        "wurlitzer": "yes",
+        "@id": "way/129691469",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               6.0716839,
               50.7739332
             ],
@@ -96672,6 +96824,130 @@
         "office": "association",
         "opening_hours": "\"verschiedene regelmäßige Termine: https://andersroom.de/termine/\"",
         "@id": "way/179698140",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.6656891,
+              49.1654123
+            ],
+            [
+              -122.6656267,
+              49.1654276
+            ],
+            [
+              -122.6656626,
+              49.1654897
+            ],
+            [
+              -122.6654484,
+              49.1655376
+            ],
+            [
+              -122.665455,
+              49.1655558
+            ],
+            [
+              -122.6652777,
+              49.1655966
+            ],
+            [
+              -122.6652139,
+              49.1654804
+            ],
+            [
+              -122.6652409,
+              49.1654733
+            ],
+            [
+              -122.6650914,
+              49.1651903
+            ],
+            [
+              -122.665099,
+              49.1651881
+            ],
+            [
+              -122.6650633,
+              49.165123
+            ],
+            [
+              -122.6651206,
+              49.1651101
+            ],
+            [
+              -122.6651162,
+              49.1651036
+            ],
+            [
+              -122.6653519,
+              49.1650514
+            ],
+            [
+              -122.6653562,
+              49.1650573
+            ],
+            [
+              -122.6654079,
+              49.1650462
+            ],
+            [
+              -122.6653959,
+              49.1650224
+            ],
+            [
+              -122.665384,
+              49.1649985
+            ],
+            [
+              -122.6654615,
+              49.1649813
+            ],
+            [
+              -122.6655325,
+              49.1651159
+            ],
+            [
+              -122.6655434,
+              49.1651185
+            ],
+            [
+              -122.6656235,
+              49.1652692
+            ],
+            [
+              -122.6656181,
+              49.1652778
+            ],
+            [
+              -122.6656891,
+              49.1654123
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "20159",
+        "addr:street": "88 Avenue",
+        "amenity": "pharmacy",
+        "brand": "Shoppers Drug Mart",
+        "brand:wikidata": "Q1820137",
+        "brand:wikipedia": "en:Shoppers Drug Mart",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Shoppers Drug Mart",
+        "website": "https://www.shoppersdrugmart.ca/en/store-locator/store/2205",
+        "website:en": "https://www.shoppersdrugmart.ca/en/store-locator/store/2205",
+        "website:fr": "https://www.shoppersdrugmart.ca/fr/store-locator/store/2205",
+        "@id": "way/180053795",
         "@type": "way"
       }
     },
