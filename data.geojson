@@ -2337,7 +2337,7 @@
         "addr:postcode": "18057",
         "addr:street": "Wismarsche Straße",
         "addr:suburb": "Kröpeliner-Tor-Vorstadt",
-        "check_date:opening_hours": "2025-08-24",
+        "check_date:opening_hours": "2026-08-29",
         "contact:email": "mail@anderebuchhandlung.de",
         "contact:fax": "+49 381 4920515",
         "contact:phone": "+49 381 492 050",
@@ -4156,10 +4156,13 @@
         "addr:postcode": "55408",
         "addr:state": "MN",
         "addr:street": "West Lake Street",
+        "air_conditioning": "yes",
         "amenity": "restaurant",
         "bar": "yes",
+        "brewery": "various",
         "capacity:indoor": "272",
         "capacity:outdoor": "16",
+        "changing_table": "no",
         "check_date": "2026-08-17",
         "check_date:opening_hours": "2026-05-19",
         "check_date:smoking": "2026-08-17",
@@ -4183,6 +4186,7 @@
         "sport": "10pin",
         "toilets": "yes",
         "website": "https://www.bryantlakebowl.com/",
+        "wheelchair": "limited",
         "wikidata": "Q4980544",
         "wikipedia": "en:Bryant-Lake Bowl",
         "@id": "node/550910340",
@@ -4355,7 +4359,7 @@
         "indoor_seating": "yes",
         "level": "0",
         "lgbtq": "primary",
-        "name": "ExCorners",
+        "name": "ExCorner",
         "outdoor_seating": "yes",
         "payment:cards": "yes",
         "smoking": "yes",
@@ -4819,8 +4823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.5194027,
-          47.6249563
+          -122.5194761,
+          47.6249482
         ]
       },
       "properties": {
@@ -7044,10 +7048,12 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2026-06-18",
+        "check_date": "2026-08-30",
+        "check_date:opening_hours": "2026-08-30",
         "contact:facebook": "https://www.facebook.com/ironCGN",
         "lgbtq": "primary",
-        "name": "Iron",
+        "name": "Iron Cocktaillounge",
+        "opening_hours": "Tu,Th 18:00-02:00, We 18:00-03:00, Fr,Sa 19:00-05:00",
         "wheelchair": "limited",
         "@id": "node/937529177",
         "@type": "node"
@@ -16965,8 +16971,8 @@
       "properties": {
         "alt_name": "Les Bien-Aimés",
         "amenity": "cafe",
-        "check_date": "2026-08-14",
-        "check_date:opening_hours": "2026-07-28",
+        "check_date": "2026-08-30",
+        "check_date:opening_hours": "2026-08-30",
         "contact:email": "librairielesbienaimes@gmail.com",
         "contact:facebook": "Librairie-café-Les-bien-aimées/100064554915304",
         "contact:housenumber": "2",
@@ -16981,7 +16987,7 @@
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Les Bien-Aimé·e·s",
-        "opening_hours": "Mo-Sa 11:00-19:00; Fr 11:00-21:30; Aug: Tu-Sa 10:00-19:00",
+        "opening_hours": "Mo-Sa 10:00-19:00; Fr 10:00-20:30",
         "outdoor_seating": "pedestrian_zone",
         "pastry": "yes",
         "ref:FR:NAF": "47.61Z",
@@ -21562,6 +21568,7 @@
         "addr:postcode": "2312NW",
         "addr:street": "Langegracht",
         "amenity": "bar",
+        "check_date": "2026-08-29",
         "contact:facebook": "cocleiden",
         "contact:instagram": "coc_leiden",
         "email": "info@cocleiden.nl",
@@ -22945,6 +22952,7 @@
         "addr:state": "MN",
         "addr:street": "Washington Avenue South",
         "amenity": "bar",
+        "check_date": "2026-08-29",
         "lgbtq": "primary",
         "lgbtq:bi": "welcome",
         "lgbtq:gay": "primary",
@@ -23847,7 +23855,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Willi",
-        "opening_hours": "Mo-Su 09:00-19:00",
+        "opening_hours": "Mo-Su 11:00-13:00, 14:00-20:00",
         "operator": "Theofilos Kalaitzidis",
         "outdoor_seating": "terrace",
         "phone": "+497071 8598677",
@@ -24336,9 +24344,10 @@
         "addr:postcode": "50676",
         "addr:street": "Schaafenstraße",
         "amenity": "bar",
+        "check_date": "2026-08-30",
         "indoor_seating": "yes",
         "lgbtq": "primary",
-        "name": "Exile on Main Street",
+        "name": "Exile",
         "opening_hours": "Fr,Sa,PH -1 day 21:00-05:00",
         "outdoor_seating": "yes",
         "smoking": "no",
@@ -29464,6 +29473,28 @@
         "opening_hours": "Mo-Su 09:00-21:00",
         "shop": "hairdresser",
         "@id": "node/4353378468",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4437824,
+          53.3954432
+        ]
+      },
+      "properties": {
+        "addr:city": "Sheffield",
+        "addr:housenumber": "208",
+        "addr:postcode": "S4 7UQ",
+        "addr:street": "Savile Street East",
+        "fhrs:id": "1170541",
+        "leisure": "sauna",
+        "lgbtq:gay": "primary",
+        "name": "Club Zeus",
+        "@id": "node/4353974798",
         "@type": "node"
       }
     },
@@ -37268,7 +37299,9 @@
         "lgbtq": "primary",
         "name": "LeccoMilano",
         "opening_hours": "Mo-Fr 12:00-15:00; Mo-Su 18:00-02:00",
+        "operator": "Maddaegianni SRL",
         "outdoor_seating": "yes",
+        "ref:vatin": "IT14649920965",
         "smoking": "outside",
         "wikidata": "Q64453789",
         "@id": "node/5827501471",
@@ -53495,6 +53528,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.06671,
+          51.5553093
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "Studio 11",
+        "addr:postcode": "E5 8QJ",
+        "addr:street": "Downs Road",
+        "check_date:opening_hours": "2026-05-31",
+        "lgbtq": "primary",
+        "name": "Barberette London",
+        "opening_hours:signed": "no",
+        "payment:contactless": "yes",
+        "phone": "+44 7716 381129",
+        "shop": "hairdresser",
+        "website": "https://www.barberette.co.uk/london",
+        "wheelchair": "no",
+        "@id": "node/9497759364",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -93.2080819,
           44.7277218
         ]
@@ -55603,9 +55663,11 @@
         "amenity": "bar",
         "check_date": "2024-10-22",
         "contact:instagram": "elles_bar_paris",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "lgbtq:women": "primary",
         "name": "Elles bar",
+        "outdoor_seating": "no",
         "@id": "node/9808617388",
         "@type": "node"
       }
@@ -58559,6 +58621,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.1239054,
+          51.5356967
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "2",
+        "addr:postcode": "N1C 4BH",
+        "addr:street": "Granary Square",
+        "contact:website": "https://queerbritain.org.uk/",
+        "fee": "no",
+        "lgbtq": "primary",
+        "name": "Queer Britain",
+        "opening_hours": "Mo-Tu off; We-Su 12:00-18:00",
+        "operator": "Queer Britain Museum Ltd",
+        "start_date": "2022-05-05",
+        "toilets": "yes",
+        "tourism": "museum",
+        "website": "https://queerbritain.org.uk/",
+        "wheelchair": "yes",
+        "wikidata": "Q110687141",
+        "wikimedia_commons": "Category:Queer Britain",
+        "wikipedia": "en:Queer Britain",
+        "@id": "node/10240945793",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           121.6601101,
           25.0674398
         ]
@@ -60617,6 +60711,31 @@
         "payment:cards": "yes",
         "payment:cash": "no",
         "@id": "node/10968314400",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4164342,
+          37.5351927
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "amenity": "ice_cream",
+        "changing_table": "yes",
+        "changing_table:fee": "no",
+        "changing_table:location": "unisex_toilet",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Spotty Dog",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "@id": "node/10968385404",
         "@type": "node"
       }
     },
@@ -66946,6 +67065,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.1816478,
+          41.3857062
+        ]
+      },
+      "properties": {
+        "addr:city": "Barcelona",
+        "addr:housenumber": "15",
+        "addr:postcode": "08003",
+        "addr:street": "Carrer dels Flassaders",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/bubitabar/",
+        "contact:instagram": "https://www.instagram.com/bubita_bcn",
+        "cuisine": "local",
+        "description": "Plant Based Brunch, Cocktails, Paella & Tapas",
+        "diet:vegan": "only",
+        "food": "yes",
+        "lgbtq": "welcome",
+        "name": "#Bubita",
+        "opening_hours": "Fr-Sa 09:30-01:00; Su-Th 09:30-00:00",
+        "reservation": "no",
+        "website": "https://bubita.es/",
+        "@id": "node/11940248363",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           100.5419026,
           13.7427012
         ]
@@ -67614,6 +67763,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.0811223,
+          51.4735152
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "44",
+        "addr:postcode": "SE5 8PX",
+        "addr:street": "Peckham Road",
+        "check_date": "2026-07-07",
+        "check_date:opening_hours": "2026-07-07",
+        "lgbtq": "welcome",
+        "name": "Toad Bakery",
+        "opening_hours": "Tu-Sa 08:00-15:00; Su 09:00-15:00",
+        "shop": "bakery",
+        "website": "https://www.toadbakery.com",
+        "@id": "node/11999189644",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -93.2567259,
           44.9485691
         ]
@@ -67726,6 +67900,36 @@
         "ref:vatin": "BE0829432251",
         "source:opening_hours": "website",
         "@id": "node/12021276798",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9987589,
+          -37.7713615
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "300",
+        "addr:postcode": "3070",
+        "addr:state": "VIC",
+        "addr:street": "High Street",
+        "addr:suburb": "Northcote",
+        "amenity": "bar",
+        "contact:email": "hello@goodwater.melbourne",
+        "contact:facebook": "https://facebook.com/people/Goodwater/61554770225145",
+        "contact:instagram": "https://instagram.com/goodwater.melbourne",
+        "description": "Cocktail bar",
+        "lgbtq": "welcome",
+        "mobile": "+61 478 129 499",
+        "name": "Goodwater",
+        "opening_hours": "We-Th 17:00-24:00; Fr 17:00-25:00; Sa 14:00-25:00; Su 14:00-23:00",
+        "opening_hours:kitchen": "We-Th 17:00-24:00; Fr 17:00-25:00; Sa 14:00-25:00; Su 14:00-23:00",
+        "website": "https://goodwater.melbourne",
+        "@id": "node/12032082712",
         "@type": "node"
       }
     },
@@ -68255,6 +68459,38 @@
         "website:menu": "https://doublerainbowcafe.ca/",
         "wheelchair": "yes",
         "@id": "node/12075219886",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0570451,
+          51.5303676
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "275-276",
+        "addr:postcode": "E2 9RF",
+        "addr:street": "Poyser Street",
+        "contact:bluesky": "vaginamuseum.bsky.social",
+        "contact:facebook": "https://www.facebook.com/vmuseum/",
+        "contact:instagram": "https://www.instagram.com/vagina_museum/",
+        "contact:mastodon": "@vagina_museum@masto.ai",
+        "email": "info@vaginamuseum.co.uk",
+        "lgbtq": "welcome",
+        "museum": "vaginas",
+        "name": "Vagina Museum",
+        "name:etymology:wikidata": "Q5880",
+        "opening_hours": "We-Su 10:00-18:00",
+        "subject:wikidata": "Q844342",
+        "tourism": "museum",
+        "website": "https://www.vaginamuseum.co.uk/",
+        "wikidata": "Q55075068",
+        "@id": "node/12076130969",
         "@type": "node"
       }
     },
@@ -72211,6 +72447,24 @@
         "name:en": "Piccolo Cafe",
         "source": "Comune di Firenze",
         "@id": "node/12650851180",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1416253,
+          51.5235741
+        ]
+      },
+      "properties": {
+        "check_date": "2026-06-17",
+        "lgbtq": "primary",
+        "name": "Boys! Boys! Boys!",
+        "tourism": "gallery",
+        "@id": "node/12657088173",
         "@type": "node"
       }
     },
@@ -82055,7 +82309,7 @@
         "addr:city": "Salt Lake City",
         "addr:housenumber": "110",
         "addr:state": "UT",
-        "addr:street": "West Broadway",
+        "addr:street": "West Broadway Street",
         "amenity": "bar",
         "description": "Inside the Peery Hotel. European-styled cocktail bar with a conversational ambiance---avoiding a high-energy nightclub environment---and focus on spritz cocktails.",
         "lgbtq": "welcome",
@@ -83825,6 +84079,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.0262531,
+          51.478065
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "1-3",
+        "addr:postcode": "SE8 4BX",
+        "addr:street": "Market Yard",
+        "check_date": "2026-07-17",
+        "check_date:opening_hours": "2026-07-17",
+        "fhrs:id": "1967034",
+        "lgbtq": "welcome",
+        "name": "Toad Bakery",
+        "opening_hours": "Mo-Fr 07:30-15:30; Sa 08:00-16:00; Su 09:00-15:00",
+        "shop": "bakery",
+        "website": "https://www.toadbakery.com/",
+        "@id": "node/14023017201",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -86.7961203,
           33.5013517
         ]
@@ -85201,6 +85481,56 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.988725,
+          49.2135606
+        ]
+      },
+      "properties": {
+        "addr:city": "Burnaby",
+        "addr:housenumber": "7727",
+        "addr:postcode": "V5J 4K2",
+        "addr:province": "BC",
+        "addr:street": "Royal Oak Avenue",
+        "addr:unit": "111",
+        "education": "training",
+        "email": "janice@youngartistsplace.com",
+        "lgbtq": "welcome",
+        "name": "Young Artists' Place",
+        "phone": "+1-604-780-2283",
+        "source:lgbtq": "website",
+        "website": "https://www.youngartistsplace.com/",
+        "@id": "node/14134336677",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.005703,
+          51.4994229
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housename": "B4",
+        "addr:housenumber": "3",
+        "addr:postcode": "SE10 0BN",
+        "addr:street": "Barton Yard",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "QUEERCIRCLE",
+        "@id": "node/14134875052",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -85382,7 +85712,7 @@
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Kuckuck",
-        "opening_hours": "Mo-Th 20:00-02:00, Fr-Sa 02:00-04:00, Su 20:00-01:00",
+        "opening_hours": "Mo-Fr 20:00-02:00; Sa 20:00-02:00",
         "operator": "Clubraum Team Kuckuck WHO n.e.V.",
         "outdoor_seating": "yes",
         "phone": "+49 7071 1388339",
@@ -93190,6 +93520,8 @@
         "drink:espresso": "yes",
         "email": "office@kurdirektion.at",
         "internet_access": "no",
+        "jukebox": "yes",
+        "jukebox:brand": "Wurlitzer",
         "level": "0",
         "lgbtq": "welcome",
         "name": "Kurdirektion",
@@ -93212,7 +93544,6 @@
         "toilets": "yes",
         "website": "https://www.kurdirektion.at/",
         "wheelchair": "yes",
-        "wurlitzer": "yes",
         "@id": "way/129691469",
         "@type": "way"
       }
@@ -105272,6 +105603,193 @@
         "coordinates": [
           [
             [
+              -0.079336,
+              51.5186889
+            ],
+            [
+              -0.07922,
+              51.5186718
+            ],
+            [
+              -0.0792113,
+              51.5186935
+            ],
+            [
+              -0.0791811,
+              51.5186889
+            ],
+            [
+              -0.0792016,
+              51.5186391
+            ],
+            [
+              -0.0792073,
+              51.5186254
+            ],
+            [
+              -0.0791424,
+              51.5186167
+            ],
+            [
+              -0.0788418,
+              51.5186188
+            ],
+            [
+              -0.0787821,
+              51.5186217
+            ],
+            [
+              -0.0787834,
+              51.5186071
+            ],
+            [
+              -0.0786359,
+              51.5186142
+            ],
+            [
+              -0.0786366,
+              51.5186276
+            ],
+            [
+              -0.0786188,
+              51.518629
+            ],
+            [
+              -0.0784981,
+              51.5186343
+            ],
+            [
+              -0.0782834,
+              51.518645
+            ],
+            [
+              -0.0782863,
+              51.5186842
+            ],
+            [
+              -0.0782749,
+              51.5186844
+            ],
+            [
+              -0.0781379,
+              51.518685
+            ],
+            [
+              -0.0781456,
+              51.5188756
+            ],
+            [
+              -0.0782,
+              51.5188743
+            ],
+            [
+              -0.0782892,
+              51.5188721
+            ],
+            [
+              -0.0782879,
+              51.5188412
+            ],
+            [
+              -0.0783013,
+              51.5188328
+            ],
+            [
+              -0.0783376,
+              51.5188318
+            ],
+            [
+              -0.0784039,
+              51.5188299
+            ],
+            [
+              -0.0784798,
+              51.5188277
+            ],
+            [
+              -0.078536,
+              51.5188261
+            ],
+            [
+              -0.0787082,
+              51.51882
+            ],
+            [
+              -0.0787184,
+              51.518887
+            ],
+            [
+              -0.0787731,
+              51.5188829
+            ],
+            [
+              -0.0788278,
+              51.5188788
+            ],
+            [
+              -0.0788222,
+              51.5188153
+            ],
+            [
+              -0.0790737,
+              51.518811
+            ],
+            [
+              -0.0790829,
+              51.5187952
+            ],
+            [
+              -0.0790885,
+              51.5187806
+            ],
+            [
+              -0.0791008,
+              51.5187327
+            ],
+            [
+              -0.0793038,
+              51.5187605
+            ],
+            [
+              -0.0793195,
+              51.5187253
+            ],
+            [
+              -0.079336,
+              51.5186889
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:street": "Bishopsgate",
+        "architect": "Charles Harrison Townsend",
+        "architect:wikidata": "Q5078812",
+        "building": "commercial",
+        "heritage": "2",
+        "heritage:operator": "Historic England",
+        "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1191674",
+        "inscription_date": "1964-07-16",
+        "lgbtq": "welcome",
+        "listed_status": "Grade II*",
+        "name": "Bishopsgate Institute",
+        "ref:GB:nhle": "1191674",
+        "roof:colour": "grey",
+        "start_date": "1894",
+        "wikidata": "Q2904689",
+        "wikipedia": "en:Bishopsgate Institute",
+        "@id": "way/290003411",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               120.9942872,
               14.5447762
             ],
@@ -116222,58 +116740,6 @@
         "lgbtq": "primary",
         "source": "Fb: OpenStreetMap Algeria",
         "@id": "way/524712943",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -0.0195112,
-              51.4661813
-            ],
-            [
-              -0.0195871,
-              51.4661128
-            ],
-            [
-              -0.0195653,
-              51.4661034
-            ],
-            [
-              -0.0196018,
-              51.4660704
-            ],
-            [
-              -0.0196897,
-              51.4661082
-            ],
-            [
-              -0.0195773,
-              51.4662097
-            ],
-            [
-              -0.0195112,
-              51.4661813
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:housenumber": "26",
-        "addr:postcode": "SE13 7SW",
-        "addr:street": "Loampit Hill",
-        "amenity": "pub",
-        "building": "yes",
-        "contact:instagram": "llamashead",
-        "lgbtq": "primary",
-        "name": "Llama's Head Pub",
-        "opening_hours": "Tu-Fr 16:00+; Sa 14:00+",
-        "@id": "way/525502439",
         "@type": "way"
       }
     },
