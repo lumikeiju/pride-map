@@ -23913,6 +23913,7 @@
         "lgbtq:men": "only",
         "name": "L'Impact",
         "opening_hours": "Mo-Th 19:00-04:00; Fr-Sa 19:00-06:00; Su 17:00-04:00",
+        "ref:FR:SIRET": "42213652300012",
         "smoking": "no",
         "wheelchair": "no",
         "@id": "node/3429417881",
@@ -68667,7 +68668,7 @@
       "properties": {
         "addr:housenumber": "2",
         "addr:street": "Carretera a Pinos",
-        "amenity": "bar",
+        "amenity": "pub",
         "lgbtq": "primary",
         "name": "Ubiña",
         "@id": "node/12091740777",
@@ -85525,6 +85526,24 @@
         "lgbtq": "primary",
         "name": "QUEERCIRCLE",
         "@id": "node/14134875052",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1513487,
+          40.8034029
+        ]
+      },
+      "properties": {
+        "amenity": "social_facility",
+        "lgbtq": "welcome",
+        "name": "The Raven Project Drop-in House",
+        "website": "https://hoovenm.wixsite.com/youth-service-bureau/the-raven-project",
+        "@id": "node/14135918308",
         "@type": "node"
       }
     },
