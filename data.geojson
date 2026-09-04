@@ -694,6 +694,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          9.7404897,
+          52.3914158
+        ]
+      },
+      "properties": {
+        "amenity": "pub",
+        "check_date:opening_hours": "2026-05-10",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Fiedel",
+        "opening_hours": "Tu-Sa 18:00+",
+        "outdoor_seating": "yes",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
+        "phone": "+49 511 666677",
+        "reservation": "recommended",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.fiedel-hannover.de/",
+        "website:menu": "https://www.fiedel-hannover.de/speisen/speisen.htm#getr",
+        "wheelchair": "no",
+        "@id": "node/289499099",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.1348176,
           51.4630642
         ]
@@ -41166,6 +41199,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -157.8218742,
+          21.2718213
+        ]
+      },
+      "properties": {
+        "addr:city": "Honolulu",
+        "addr:floor": "2",
+        "addr:housenumber": "134",
+        "addr:postcode": "96815",
+        "addr:state": "HI",
+        "addr:street": "Kapahulu Avenue",
+        "amenity": "bar",
+        "check_date": "2026-09-02",
+        "contact:facebook": "https://www.facebook.com/hulasofficial/",
+        "contact:instagram": "https://www.instagram.com/hulaswaikiki",
+        "contact:yelp": "https://www.yelp.com/biz/hulas-bar-and-lei-stand-honolulu",
+        "level": "1",
+        "lgbtq": "primary",
+        "name": "Hula’s Bar and Lei Stand",
+        "opening_hours": "11:00-02:00",
+        "phone": "+1 808-923-0669",
+        "sport": "billiards",
+        "website": "https://hulas.com/",
+        "@id": "node/6512372185",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.6984968,
           40.4217381
         ]
@@ -52556,21 +52621,24 @@
       },
       "properties": {
         "addr:city": "Atlanta",
-        "addr:housenumber": "1544",
+        "addr:housenumber": "1544, Unit #406",
         "addr:postcode": "30324",
         "addr:state": "GA",
         "addr:street": "Piedmont Avenue Northeast",
         "air_conditioning": "yes",
         "amenity": "bar",
+        "cuisine": "barbecue",
         "internet_access": "no",
         "level": "1",
         "lgbtq": "primary",
         "microbrewery": "no",
         "min_age": "21",
-        "name": "The Hideaway",
-        "outdoor_seating": "no",
-        "phone": "+1-404-874-8247",
+        "name": "Lewis Barbecue",
+        "opening_hours": "Su-Mo 11:00-21:00; Tu-Sa 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "404-939-9567",
         "smoking": "isolated",
+        "website": "https://www.lewisbarbecue.com/location/lewis-barbecue-atlanta/",
         "@id": "node/9270199577",
         "@type": "node"
       }
@@ -85644,6 +85712,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1387769,
+          19.4376351
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "El Marra",
+        "@id": "node/14146016956",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -93796,11 +93881,15 @@
         "amenity": "pub",
         "building": "yes",
         "contact:facebook": "https://www.facebook.com/TsPub/",
+        "contact:instagram": "https://www.instagram.com/tspub_ottawa/",
         "lgbtq": "primary",
         "name": "T's Pub",
+        "opening_hours": "Mo-Th 14:00-00:00; Fr,Sa 14:00-02:00; Su 14:00-00:00",
+        "outdoor_seating": "yes",
         "phone": "+1-613-233-7375",
+        "smoking": "outside",
         "source": "City of Ottawa",
-        "website": "https://tspub.ca/",
+        "website": "https://www.tspub.ca/",
         "@id": "way/131641001",
         "@type": "way"
       }
@@ -93868,6 +93957,85 @@
         "website": "https://tavara-asema.fi",
         "wheelchair": "yes",
         "@id": "way/131649196",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.6427316,
+              47.8283628
+            ],
+            [
+              9.6426095,
+              47.8283788
+            ],
+            [
+              9.6425804,
+              47.828279
+            ],
+            [
+              9.6425946,
+              47.8282771
+            ],
+            [
+              9.6424985,
+              47.8279483
+            ],
+            [
+              9.6426245,
+              47.8279317
+            ],
+            [
+              9.642609,
+              47.8278785
+            ],
+            [
+              9.6428753,
+              47.8278434
+            ],
+            [
+              9.6429339,
+              47.8280439
+            ],
+            [
+              9.6428718,
+              47.8280521
+            ],
+            [
+              9.6429418,
+              47.8282917
+            ],
+            [
+              9.6427194,
+              47.8283209
+            ],
+            [
+              9.6427316,
+              47.8283628
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Baienfurt",
+        "addr:country": "DE",
+        "addr:housenumber": "70",
+        "addr:postcode": "88255",
+        "addr:street": "Niederbieger Straße",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "building": "retail",
+        "lgbtq": "welcome",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:30-21:00",
+        "shop": "supermarket",
+        "@id": "way/132575948",
         "@type": "way"
       }
     },
@@ -94236,6 +94404,7 @@
         "email": "edenrocreservations@nobuedenroc.com",
         "fitness_centre": "yes",
         "hot_tub": "yes",
+        "image": "https://admin.edenrochotelmiami.com/content/uploads/2023/07/about-8-1920x900.png",
         "internet_access": "wlan",
         "internet_access:fee": "no",
         "laundry": "yes",
@@ -95600,6 +95769,71 @@
         "wikipedia": "he:המרכז העירוני לקהילה הגאה",
         "wikipedia:he": "המרכז העירוני לקהילה הגאה",
         "@id": "way/149744453",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0294852,
+              52.2376082
+            ],
+            [
+              21.0298569,
+              52.237889
+            ],
+            [
+              21.0299634,
+              52.2378362
+            ],
+            [
+              21.0295916,
+              52.2375553
+            ],
+            [
+              21.0294852,
+              52.2376082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Warszawa",
+        "addr:housenumber": "14/16",
+        "addr:postcode": "00-388",
+        "addr:street": "Dobra",
+        "amenity": "cafe",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-09-03",
+        "delivery": "no",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Mlodsza_Siostra",
+        "kids_area": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "no",
+        "name": "Młodsza Siostra",
+        "opening_hours": "Mo-Fr 12:00-24:00; Sa-Su 12:00-02:00",
+        "outdoor_seating": "yes",
+        "panoramax": "358d535f-6573-4d09-98cd-97b1184096de",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
+        "phone": "+48 502 935 604",
+        "service:electricity": "limited",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "@id": "way/152107775",
         "@type": "way"
       }
     },
@@ -115676,6 +115910,7 @@
         "addr:street": "Bayview Walk",
         "amenity": "theatre",
         "building": "yes",
+        "check_date": "2026-09-03",
         "lgbtq": "primary",
         "name": "Cherry Grove Community House and Theatre",
         "website": "https://www.artsprojectcg.org/",
@@ -119213,6 +119448,7 @@
         "building": "pub",
         "check_date": "2026-06-09",
         "email": "beehive.basildon@stonegategroup.co.uk",
+        "fhrs:id": "115154",
         "lgbtq": "welcome",
         "name": "The Beehive",
         "opening_hours": "Mo-Th 10:00-23:00; Fr 10:00-01:00; Sa 09:00-01:00; Su 09:00-23:00",
@@ -119224,6 +119460,7 @@
         "payment:debit_cards": "yes",
         "phone": "+44 1268 273394",
         "smoking": "outside",
+        "source:addr": "FHRS Open Data",
         "toilets": "yes",
         "website": "https://www.greatukpubs.co.uk/beehive-basildon",
         "wheelchair": "yes",
@@ -137968,12 +138205,18 @@
         ]
       },
       "properties": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "3221",
+        "addr:postcode": "15213",
+        "addr:state": "PA",
+        "addr:street": "Forbes Avenue",
         "architect": "Rothschild Doyno Collaborative",
-        "building": "nursing_home",
+        "building": "apartments",
         "building:levels": "6",
         "lgbtq": "primary",
-        "name": "Mosaic",
+        "name": "Mosaic Apartments",
         "number_of_apartments": "48",
+        "website": "http://www.srcare.org/MosaicApartments",
         "@id": "way/1434423354",
         "@type": "way"
       }
@@ -138957,7 +139200,7 @@
         "amenity": "clinic",
         "branch": "Roseville Health Center",
         "building": "yes",
-        "healthcare": "counselling",
+        "healthcare": "clinic",
         "healthcare:counselling": "antenatal;sexual",
         "healthcare:speciality": "venereology;abortion;fertility",
         "lgbtq": "welcome",
