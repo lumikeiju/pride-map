@@ -1,4 +1,7 @@
+# @format
+
 name: edp-generator
+
 on:
   push:
     branches:
@@ -6,8 +9,10 @@ on:
     paths:
       - every-door-plugin/**
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,21 +20,18 @@ jobs:
       - uses: actions/checkout@v7
 
       - name: Configure Git Credentials
-        run:
-          |
+        run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Delete existing pride-map.edp
-        run:
-          |
+        run: |
           if [ -f every-door-plugin/pride-map.edp ]; then
             rm every-door-plugin/pride-map.edp
           fi
 
       - name: Create pride-map.zip archive
-        run:
-          |
+        run: |
           cd every-door-plugin/pride-map
           zip -r ../pride-map.zip .
 
