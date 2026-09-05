@@ -4,9 +4,8 @@ name: Update GeoJSON Data
 
 on:
   schedule:
-    # Run at 04:00 UTC daily
-    - cron: "0 4 * * *"
-  workflow_dispatch: # Allow manual trigger from Actions tab
+    - cron: "27 6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,8 +21,10 @@ jobs:
       - name: Fetch and convert data
         run: python3 fetch.py
         env:
-          TAP_IN_OSM_DROP_THRESHOLD: ${{ vars.DROP_THRESHOLD || '50' }}
-          TAP_IN_OSM_MAX_DATA_LAG_HOURS: ${{ vars.MAX_DATA_LAG_HOURS || '48' }}
+          MICROCOSM_DROP_THRESHOLD: ${{ vars.DROP_THRESHOLD || '50' }}
+          MICROCOSM_MAX_DATA_LAG_HOURS: ${{ vars.MAX_DATA_LAG_HOURS || '48' }}
+          MICROCOSM_USER_AGENT: ${{ vars.USER_AGENT }}
+          OVERPASS_PRIMARY_URL: ${{ secrets.OVERPASS_PRIMARY_URL }}
 
       - name: Commit and push if changed
         run: |
