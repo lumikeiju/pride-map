@@ -7852,8 +7852,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1727814,
-          51.4821726
+          -3.1728511,
+          51.4821981
         ]
       },
       "properties": {
@@ -9354,8 +9354,9 @@
         "contact:instagram": "https://www.instagram.com/freeridepgh/",
         "description": "Volunteer-run co-op where hours worked earn shop credit",
         "lgbtq": "welcome",
-        "name": "Free Ride Pittsburgh",
+        "name": "FreeRide Bicycle Collective",
         "opening_hours": "Tu 18:00-21:00; Sa 10:00-14:00",
+        "operator": "Free Ride Bicycle Project",
         "operator:type": "private_non_profit",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
@@ -42714,6 +42715,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "Starbucks",
+        "not:addr:postcode": "LS2 8BT",
         "official_name": "Starbucks Coffee",
         "opening_hours": "Mo-Fr 06:30-19:00, Sa 07:30-19:00, Su 08:30-18:00",
         "outdoor_seating": "yes",
@@ -46734,9 +46736,10 @@
         "addr:street": "Falconrui",
         "amenity": "bar",
         "description": "Hessenhuis - \"The Embassy of Freedom\"",
+        "last_checked": "2026-09-04",
         "lgbtq": "primary",
         "name": "Hessenhuis",
-        "opening_hours": "Tu-We 16:00-01:00; Th 16:00-02:00; Fr-Sa 16:00-04:00; Su 16:00-01:00",
+        "opening_hours": "Mo-Tu: Closed; We: 19:00-01:00; Th:19:00-02:00; Fr-Sa:19:00-04:00; Su:19:00-02:00",
         "outdoor_seating": "yes",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
@@ -46864,10 +46867,13 @@
         "check_date:opening_hours": "2026-07-14",
         "contact:instagram": "lafierte.barqueer",
         "cuisine": "pizza;tapas",
+        "indoor_seating": "yes",
         "level": "0",
         "lgbtq": "welcome",
         "name": "La Fierté",
         "opening_hours": "Tu-Sa 18:00-01:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no",
         "@id": "node/7764506185",
         "@type": "node"
       }
@@ -59476,7 +59482,9 @@
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "The Agenda",
+        "opening_hours": "Tu-Su 15:00-02:00",
         "outdoor_seating": "no",
+        "wheelchair": "no",
         "@id": "node/10693357994",
         "@type": "node"
       }
@@ -73443,24 +73451,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.6702379,
-          45.6343208
-        ]
-      },
-      "properties": {
-        "amenity": "bar",
-        "check_date": "2025-04-18",
-        "lgbtq": "primary",
-        "name": "Underbar",
-        "@id": "node/12766747509",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -74.361702,
           4.3416772
         ]
@@ -77756,15 +77746,25 @@
         ]
       },
       "properties": {
+        "addr:city": "Peoria",
         "addr:housenumber": "305",
         "addr:postcode": "61602",
+        "addr:state": "IL",
         "addr:street": "Southwest Water Street",
+        "air_conditioning": "yes",
         "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2026-09-04",
+        "check_date:opening_hours": "2026-09-04",
+        "cuisine": "burger;grill;pizza;sandwich",
+        "diet:gluten_free": "yes",
         "diet:vegan": "yes",
         "internet_access": "wlan",
         "lgbtq": "welcome",
-        "name": "Rhythm Kitchen",
+        "name": "Rhythm Kitchen Music Cafe",
+        "opening_hours": "Tu-Th 17:00-21:00; Fr-Sa 17:00-22:00",
         "phone": "+1 309-676-9668",
+        "self_service": "no",
         "website": "https://rhythmkitchenmusiccafe.com",
         "@id": "node/13137270201",
         "@type": "node"
@@ -85042,6 +85042,7 @@
         "language:fr": "yes",
         "leisure": "fitness_centre",
         "lgbtq": "welcome",
+        "lgbtq:queer": "yes",
         "name": "Studio MissFit Montréal",
         "opening_hours": "Mo-Fr 06:30-21:00; Sa-Su 08:00-21:00",
         "ownership": "women",
@@ -85050,7 +85051,6 @@
         "payment:debit_cards": "yes",
         "payment:wellhub": "yes",
         "phone": "+1 438-793-7222",
-        "queer": "yes",
         "shower": "yes",
         "sport": "fitness;weightlifting;powerlifting;crossfit;calisthenics;strength;group_classes",
         "toilets": "yes",
@@ -85723,6 +85723,90 @@
         "lgbtq": "primary",
         "name": "El Marra",
         "@id": "node/14146016956",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2356212,
+          45.4979367
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "contact:city": "Milano",
+        "contact:housenumber": "3",
+        "contact:instagram": "https://instagram.com/hotdogclubmi",
+        "contact:postcode": "20132",
+        "contact:street": "Via Oropa",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "name": "Hot Dog Club Milano",
+        "opening_hours": "Tu-Sa 21:00-04:00",
+        "payment:apple_pay": "yes",
+        "payment:bancomat": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:samsung_pay": "yes",
+        "payment:visa": "yes",
+        "phone": "+39 0226826709",
+        "website": "https://www.hotdogclubmilano.it",
+        "wheelchair": "limited",
+        "@id": "node/14148227982",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1641418,
+          30.0793781
+        ]
+      },
+      "properties": {
+        "addr:door": "135",
+        "addr:housenumber": "5925",
+        "addr:street": "Phelan Boulevard",
+        "addr:unit": "I",
+        "beauty": "hair_removal",
+        "check_date": "2026-09-04",
+        "electrolysis": "thermolysis",
+        "hair_removal": "electrolysis",
+        "healthcare:speciality": "electrolysis",
+        "lgbtq:trans": "welcome",
+        "name": "Hairless Ever After",
+        "opening_hours": "\"by appointment\"",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "beauty",
+        "source:lgbtq:trans": "survey",
+        "website": "https://www.hairlesseverafter.com/",
+        "@id": "node/14150123872",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9389653,
+          41.2522112
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Omaha Mining Company",
+        "@id": "node/14152397926",
         "@type": "node"
       }
     },
@@ -106399,11 +106483,13 @@
         "addr:street": "East Madison Street",
         "amenity": "bar",
         "building": "yes",
-        "check_date": "2024-07-10",
+        "check_date": "2026-09-04",
+        "check_date:opening_hours": "2026-09-04",
         "lgbtq": "primary",
         "min_age": "21",
         "name": "Pony",
         "note:lgbtq": "Signage says Pony is for queer people and respectful allies only.",
+        "opening_hours": "Mo-Th 17:00-02:00, Fr-Su 15:00-02:00",
         "outdoor_seating": "yes",
         "smoking": "outside",
         "source:addr:id": "438751",
@@ -130603,6 +130689,7 @@
         "building": "yes",
         "building:levels": "10",
         "changing_table": "yes",
+        "delivery": "yes",
         "internet_access": "yes",
         "internet_access:fee": "no",
         "lgbtq": "welcome",
