@@ -22,8 +22,15 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 -
 
+## v1.0.1 (2026-09-06)
+
+### Fixed
+
+- Fixed query.overpassql
+    - Details: _Fixed missing `;` (classic)_
+
 ## v1.0.0 (2026-09-05)
 
 ### Added
 
-- v1.0.0 release
+- Released v1.0.0
