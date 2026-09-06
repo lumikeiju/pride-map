@@ -671,6 +671,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.1819291,
+          51.3963369
+        ]
+      },
+      "properties": {
+        "addr:city": "Hattingen",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "45525",
+        "addr:street": "Im Bruchfeld",
+        "air_conditioning": "no",
+        "brand": "REWE Getränkemarkt",
+        "brand:wikidata": "Q57519344",
+        "check_date": "2026-08-25",
+        "check_date:lgbtq:signed": "2026-08-25",
+        "check_date:opening_hours": "2026-07-23",
+        "lgbtq:signed": "yes",
+        "name": "REWE Getränkemarkt",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "phone": "+49 2324 56590",
+        "shop": "beverages",
+        "website": "https://rewe-uhl.de/",
+        "wheelchair": "yes",
+        "@id": "node/283631758",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.5420643,
           53.7944327
         ]
@@ -1834,6 +1868,7 @@
         "addr:postcode": "W1D 6DR",
         "addr:street": "Rupert Street",
         "amenity": "pub",
+        "check_date": "2024-12-31",
         "contact:facebook": "https://www.facebook.com/RupertStreetBar/",
         "contact:instagram": "https://www.instagram.com/rupert_street_bar/",
         "contact:twitter": "https://twitter.com/RupertStreetBar",
@@ -3196,6 +3231,32 @@
         "toilets:wheelchair": "yes",
         "wheelchair": "yes",
         "@id": "node/417191722",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0703012,
+          59.324956
+        ]
+      },
+      "properties": {
+        "amenity": "cafe",
+        "check_date": "2025-11-13",
+        "contact:email": "info@chokladkoppen.se",
+        "contact:phone": "+468203170",
+        "contact:website": "https://chokladkoppen.se/",
+        "diet:vegetarian": "yes",
+        "lgbtq:signed": "yes",
+        "name": "Chokladkoppen",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:cash": "yes",
+        "start_date": "1997",
+        "wheelchair": "limited",
+        "@id": "node/418260300",
         "@type": "node"
       }
     },
@@ -8009,7 +8070,7 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2024-10-17",
+        "check_date": "2026-09-06",
         "lgbtq": "primary",
         "name": "The Riley",
         "opening_hours": "Th-Sa 10:00-03:00, Su-We 10:00-23:00",
@@ -8069,12 +8130,12 @@
       "properties": {
         "addr:housenumber": "30,32",
         "addr:street": "Kleinmarschierstraße",
-        "check_date": "2025-07-02",
+        "check_date": "2026-09-05",
         "description": "Queere Buchhandlung",
         "email": "info@artemisbooks.de",
         "lgbtq": "welcome",
         "name": "Artemis Books",
-        "opening_hours": "Tu-Fr 11:00-18:00; Sa 10:00-16:30; Su,Mo,PH off",
+        "opening_hours": "Mo,Su,PH off; Tu-Fr 11:00-18:00; Sa 10:00-17:00",
         "operator": "Leonie Reißmann",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -11356,6 +11417,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.345806,
+          48.89413
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "43",
+        "addr:street": "Rue Hermel",
+        "amenity": "restaurant",
+        "check_date": "2026-08-17",
+        "cuisine": "italian;pasta;pizza",
+        "level": "0",
+        "lgbtq": "yes",
+        "name": "Pasticcio",
+        "opening_hours": "Mo-Su 12:00-14:30,19:00-22:30",
+        "phone": "+33 1 42 58 34 22",
+        "self_service": "no",
+        "website": "https://pasticcio.fr",
+        "website:menu": "https://www.pasticcio.fr/wp-content/uploads/2025/06/PASTICCIO-MENU.pdf",
+        "@id": "node/1668733595",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           44.7838473,
           41.7226111
         ]
@@ -11554,29 +11642,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2146574,
-          -33.8790473
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "85-91",
-        "addr:postcode": "2010",
-        "addr:state": "NSW",
-        "addr:street": "Oxford Street",
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "name": "Midnight Shift",
-        "opening_hours": "Fr,Sa 12:00-03:00, Su-Th 12:00-01:00",
-        "website": "http://www.themidnightshift.com.au",
-        "@id": "node/1707176771",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.3804785,
           43.6659076
         ]
@@ -11662,7 +11727,8 @@
         "lgbtq": "primary",
         "lgbtq:women": "primary",
         "name": "Saarein",
-        "opening_hours": "Mo off; Tu-Th 17:00-01:00; Sa-Su 17:00-02:00",
+        "opening_hours": "Mo off; Tu-Th 17:00-01:00; Sa, Su 17:00-02:00",
+        "sport": "billiards",
         "website": "https://cafesaarein.nl/",
         "wheelchair": "no",
         "@id": "node/1723227279",
@@ -11906,6 +11972,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.9029138,
+          41.1154208
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "lgbtq:cruising": "yes",
+        "@id": "node/1733906697",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.3126,
           47.6150995
         ]
@@ -12049,6 +12131,54 @@
         "opening_hours": "22:00-04:00",
         "wheelchair": "no",
         "@id": "node/1740056167",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3923206,
+          49.0099102
+        ]
+      },
+      "properties": {
+        "addr:city": "Karlsruhe",
+        "addr:country": "DE",
+        "addr:housenumber": "227-229",
+        "addr:postcode": "76133",
+        "addr:street": "Kaiserstraße",
+        "air_conditioning": "yes",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "de:Rewe",
+        "check_date": "2026-06-22",
+        "check_date:diet:halal": "2025-07-22",
+        "check_date:diet:kosher": "2025-07-22",
+        "check_date:opening_hours": "2025-06-20",
+        "contact:phone": "+49 721 1208970",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "lgbtq:signed:small_pride_flag:inside": "yes",
+        "name": "REWE Schindler",
+        "opening_hours": "Mo-Sa 07:00-24:00",
+        "operator": "REWE Markt GmbH",
+        "payment:coins": "yes",
+        "payment:contactless": "yes",
+        "payment:girocard": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@id": "node/1740059681",
         "@type": "node"
       }
     },
@@ -14507,6 +14637,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          34.783726,
+          32.070295
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "10",
+        "addr:street": "הארבעה ",
+        "amenity": "nightclub",
+        "description": "Kink night club. Most visitors are 40+ and come as couples. 2/3 men and no single individuals besides club members allowed to \"maintain a gender balance\". Mind the dress code and club rules!",
+        "lgbtq": "yes",
+        "name": "Dungeon",
+        "opening_hours": "Th 23:30-05:00; Sa 00:00-05:00",
+        "phone": "+972 773502500",
+        "source": "Tel Aviv municipality",
+        "website": "https://dungeon.co.il",
+        "@id": "node/2078968855",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           9.1837763,
           47.6428557
         ]
@@ -14573,29 +14727,6 @@
         "phone": "+39 06 7004425",
         "ref:vatin": "IT06747541008",
         "@id": "node/2092013187",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2175703,
-          -33.8811045
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "207",
-        "addr:postcode": "2010",
-        "addr:street": "Oxford Street",
-        "lgbtq": "primary",
-        "name": "Bookshop Darlinghurst",
-        "opening_hours": "Mo-We 10:00-22:00; Th-Sa 10:00-23:00; Su,PH 11:00-22:00",
-        "shop": "books",
-        "website": "https://www.thebookshop.com.au/",
-        "wheelchair": "yes",
-        "@id": "node/2095631981",
         "@type": "node"
       }
     },
@@ -17171,30 +17302,6 @@
         "wheelchair": "limited",
         "wheelchair:description": "Mobile Rampe über eine Stufe am Eingang. Alle Räume ohne Stufen. Zugang zu den Toiletten sehr eng. Linkes Klo, linke Kabine: ca. 2qm, mit Haltegriffen.",
         "@id": "node/2308129193",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2162818,
-          -33.880408
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "175",
-        "addr:postcode": "2010",
-        "addr:street": "Oxford Street",
-        "addr:suburb": "Darlinghurst",
-        "amenity": "pub",
-        "lgbtq": "primary",
-        "name": "Stonewall Hotel",
-        "toilets:wheelchair": "yes",
-        "website": "https://www.stonewallhotel.com/",
-        "wheelchair": "yes",
-        "@id": "node/2312254907",
         "@type": "node"
       }
     },
@@ -20365,6 +20472,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          4.3334292,
+          52.0617138
+        ]
+      },
+      "properties": {
+        "addr:city": "'s-Gravenhage",
+        "addr:housenumber": "536",
+        "addr:postcode": "2516HT",
+        "addr:street": "Rijswijkseweg",
+        "amenity": "bar",
+        "check_date": "2026-04-05",
+        "fetish:bdsm": "yes",
+        "lgbtq:cruising": "yes",
+        "lgbtq:gay": "yes",
+        "min_age": "18",
+        "name": "The Boss",
+        "opening_hours": "Mo 12:00-17:00,20:00-01:00; Tu 20:00-01:00; We 12:00-17:00,20:00-01:00; Th 20:00-01:00; Fr-Sa 12:00-17:00,20:00-02:00; Su 14:00-21:00",
+        "source": "BAG",
+        "source:date": "2014-02-11",
+        "website": "https://therealboss.nl/",
+        "@id": "node/2707855592",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -47.9011477,
           -15.7952818
         ]
@@ -21228,6 +21364,30 @@
         "wikimedia_commons": "Category:Schwules Museum",
         "wikipedia": "de:Schwules Museum",
         "@id": "node/2818117012",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9070951,
+          52.3420973
+        ]
+      },
+      "properties": {
+        "addr:city": "Amsterdam",
+        "addr:housenumber": "187",
+        "addr:postcode": "1079HE",
+        "addr:street": "Rijnstraat",
+        "clothes": "rave",
+        "lgbtq:signed": "yes",
+        "name": "Van Stolked & Co",
+        "shop": "clothes",
+        "source": "BAG",
+        "source:date": "2014-03-24",
+        "@id": "node/2818251863",
         "@type": "node"
       }
     },
@@ -22812,16 +22972,21 @@
         "addr:street": "Rennbahn",
         "air_conditioning": "no",
         "amenity": "bar",
-        "check_date": "2023-05-17",
+        "check_date": "2026-09-05",
+        "check_date:opening_hours": "2026-09-05",
+        "email": "info@grotesque-ac.de",
         "indoor_seating": "yes",
         "internet_access": "wlan",
+        "level": "0",
         "lgbtq": "welcome",
         "name": "Grotesque Absinth-Bar",
-        "opening_hours": "17:00+; Tu off",
+        "opening_hours": "Mo-Sa 17:00-24:00",
         "outdoor_seating": "yes",
         "phone": "+49 241 47586835",
         "smoking": "outside",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
+        "website": "http://www.grotesque-bar.de/",
+        "website:menu": "http://www.grotesque-bar.de/getraenkekarte/",
         "wheelchair": "limited",
         "@id": "node/3211089436",
         "@type": "node"
@@ -26577,6 +26742,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -3.1693652,
+          55.9760852
+        ]
+      },
+      "properties": {
+        "addr:city": "Edinburgh",
+        "addr:housenumber": "59",
+        "addr:street": "Bernard Street",
+        "check_date": "2026-04-21",
+        "lgbtq:signed": "yes",
+        "name": "Portal Leith",
+        "opening_hours": "Mo,Tu off; We, Th 11:00-16:00; Sa 11:00-17:00; Su 12:00-16:00",
+        "shop": "art",
+        "@id": "node/3829625894",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.7325494,
           45.1807027
         ]
@@ -26618,6 +26805,41 @@
         "wheelchair": "yes",
         "wikidata": "Q107125181",
         "@id": "node/3838195097",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3605251,
+          48.1924161
+        ]
+      },
+      "properties": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:floor": "0",
+        "addr:housenumber": "65",
+        "addr:postcode": "1050",
+        "addr:street": "Margaretenstraße",
+        "brand": "Bipa",
+        "brand:wikidata": "Q864933",
+        "brand:wikipedia": "de:Bipa",
+        "check_date": "2026-08-18",
+        "check_date:opening_hours": "2026-08-18",
+        "level": "0",
+        "lgbtq:signed": "yes",
+        "name": "Bipa",
+        "opening_hours": "Mo-Fr 08:00-19:30; Sa 08:00-18:00; Su,PH off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "chemist",
+        "website": "https://bipa.at",
+        "wheelchair": "yes",
+        "@id": "node/3841896137",
         "@type": "node"
       }
     },
@@ -29495,6 +29717,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          4.3518664,
+          50.8477876
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "contact:website": "https://www.potiche.brussels",
+        "description:es": "Every weekend: cabaret/shows with LGBTQIA+ artists. On weekdays: karaoke",
+        "lgbtq:signed": "yes",
+        "name": "Potiche",
+        "was:name": "The Gentleman",
+        "@id": "node/4352415602",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.1235093,
           47.6736599
         ]
@@ -31202,6 +31444,80 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.6324864,
+          51.9560274
+        ]
+      },
+      "properties": {
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "48143",
+        "addr:street": "Herwarthstraße",
+        "air_conditioning": "no",
+        "amenity": "bar",
+        "brewery": "no",
+        "contact:instagram": "a_catkollektiv",
+        "contact:website": "https://a-cat.ms",
+        "drinking_water:refill": "yes",
+        "email": "info@a-cat.ms",
+        "indoor_seating": "yes",
+        "level": "0",
+        "lgbtq:signed:big_progress_pride_flag:outside": "yes",
+        "name": "a.cat",
+        "old_name": "Leo:16",
+        "opening_hours": "We-Th 19:00-24:00; Fr 19:00-02:00; Sa 14:00-02:00",
+        "operator": "Freygeist e.V.",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+4915754420239",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:access": "public",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:number": "2",
+        "toilets:position": "seated",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://a-cat.ms",
+        "wheelchair": "limited",
+        "@id": "node/4579814594",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8894266,
+          52.3633524
+        ]
+      },
+      "properties": {
+        "addr:city": "Amsterdam",
+        "addr:housenumber": "173",
+        "addr:postcode": "1017GH",
+        "addr:street": "Kerkstraat",
+        "female": "no",
+        "lgbtq:signed": "yes",
+        "male": "yes",
+        "name": "Black Body",
+        "shop": "clothes",
+        "url": "http://www.blackbody.nl",
+        "wheelchair": "limited",
+        "@id": "node/4581844723",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.3239431,
           52.4968973
         ]
@@ -31430,7 +31746,7 @@
         "addr:housenumber": "28",
         "addr:street": "Rue Charlot",
         "amenity": "bar",
-        "check_date": "2025-08-07",
+        "check_date": "2026-09-06",
         "contact:instagram": "https://www.instagram.com/onewaybarparis",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -32393,6 +32709,33 @@
         "smoking": "yes",
         "wheelchair": "yes",
         "@id": "node/4799003823",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0720047,
+          59.3225839
+        ]
+      },
+      "properties": {
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2026-06-12",
+        "contact:email": "info@secretgardensthlm.se",
+        "contact:phone": "+46859901959",
+        "contact:website": "http://www.secretgardensthlm.se/",
+        "indoor_seating": "yes",
+        "lgbtq:signed": "yes",
+        "name": "The Secret Garden",
+        "opening_hours": "Mo-Su 11:00-03:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "@id": "node/4806173042",
         "@type": "node"
       }
     },
@@ -34345,6 +34688,28 @@
         "wikidata": "Q17623881",
         "wikipedia": "fr:Centre communautaire LGBTQ+ de Montréal",
         "@id": "node/5189640460",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7343491,
+          52.3779818
+        ]
+      },
+      "properties": {
+        "lgbtq:cruising": "yes",
+        "lgbtq:gay": "yes",
+        "lgbtq:men": "yes",
+        "min_age": "18",
+        "name": "Joe's Dark and Playrooms",
+        "opening_hours": "Mo-Th 12:00-23:00; Fr-Sa 12:00+, Su, PH 14:00-23:00; 2025 Dec 24 16:00+; 2025 Dec 25 -26 14:00+; 2025 Dec 31 12:00+; 2026 Jan 01 15:00+",
+        "phone": "+49 511 67699931",
+        "shop": "erotic",
+        "@id": "node/5191053425",
         "@type": "node"
       }
     },
@@ -42918,6 +43283,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.9591308,
+          50.9325151
+        ]
+      },
+      "properties": {
+        "addr:city": "Köln",
+        "addr:housenumber": "5",
+        "addr:postcode": "50676",
+        "addr:street": "Mathiasstraße",
+        "amenity": "bar",
+        "check_date": "2026-02-15",
+        "contact:facebook": "https://www.facebook.com/deck5koeln",
+        "description": "Gay Event Bar",
+        "indoor_seating": "yes",
+        "level": "0",
+        "lgbtq": "yes",
+        "name": "Deck 5",
+        "opening_hours": "Mo-Su 20:00-24:00",
+        "operator": "Jörg Tucholski",
+        "outdoor_seating": "no",
+        "phone": "+49 221 9926704",
+        "smoking": "no",
+        "wheelchair": "yes",
+        "@id": "node/6759556663",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.9368538,
           40.7055911
         ]
@@ -43134,6 +43531,57 @@
         "opening_hours": "We,Th 18:00-01:00, Fr,Sa 18:00-02:00, Su 16:00-23:00; Mo,Tu off",
         "website": "http://www.zurkaiserin.de/",
         "@id": "node/6790197222",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0010522,
+          51.4598213
+        ]
+      },
+      "properties": {
+        "addr:city": "Essen",
+        "addr:housenumber": "2",
+        "addr:postcode": "45127",
+        "addr:street": "Altendorfer Straße",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "IKEA",
+        "brand:wikidata": "Q54078",
+        "brand:wikipedia": "en:IKEA",
+        "check_date": "2026-09-04",
+        "check_date:opening_hours": "2026-09-04",
+        "cuisine": "swedish",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "dog": "no",
+        "indoor_seating": "yes",
+        "lgbtq:signed": "yes",
+        "name": "IKEA Restaurant",
+        "name:ru": "Ресторан ИКЕА",
+        "opening_hours": "Mo-Sa 09:30-19:00",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:girocard": "yes",
+        "payment:google_pay": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:v_pay": "yes",
+        "payment:visa": "yes",
+        "quiet_hours": "We 17:00-19:00",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@id": "node/6790363107",
         "@type": "node"
       }
     },
@@ -45200,6 +45648,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.4547702,
+          43.525859
+        ]
+      },
+      "properties": {
+        "addr:city": "Aix-en-Provence",
+        "addr:housenumber": "23",
+        "addr:postcode": "13100",
+        "addr:street": "Contre-Allée Carnot",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes;aquae_maltae",
+        "check_date": "2026-09-05",
+        "email": "cafeassociatifaixois@gmail.com",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed:inside": "big_progress_pride_flag",
+        "name": "Le 3C - Café Culturel Citoyen",
+        "opening_hours": "Tu-Th 16:00-22:00; Fr 16:00-23:00; Sa 12:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 9 72 36 46 47",
+        "ref:FR:SIRET": "75305234900028",
+        "website": "https://cafeculturelcitoyen.org/",
+        "wheelchair": "yes",
+        "@id": "node/7164964504",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.1716841,
           37.4251214
         ]
@@ -45250,7 +45731,8 @@
         "addr:street": "Eisenbahnstraße",
         "addr:unit": "HH",
         "air_conditioning": "yes",
-        "check_date": "2025-07-10",
+        "alt_name": "DHL, space",
+        "check_date": "2026-09-05",
         "contact:mastodon": "@dezentrale@chaos.social",
         "description": "Die dezentrale ist ein gemeinschaftlich verwalteter Ort, an dem technisch interessierte Menschen zusammen kommen können, um voneinander zu lernen und an Projekten zu basteln.",
         "drink:club-mate": "yes",
@@ -45264,6 +45746,7 @@
         "leisure": "hackerspace",
         "level": "0",
         "lgbtq": "welcome",
+        "mobile": "+49 341 98985960",
         "name": "dezentrale",
         "official_name": "dezentrale e.V.",
         "opening_hours": "Mo-We,Fr 19:00-22:00; Th 17:30-22:00; Sa-Su off",
@@ -46739,7 +47222,7 @@
         "last_checked": "2026-09-04",
         "lgbtq": "primary",
         "name": "Hessenhuis",
-        "opening_hours": "Mo-Tu: Closed; We: 19:00-01:00; Th:19:00-02:00; Fr-Sa:19:00-04:00; Su:19:00-02:00",
+        "opening_hours": "Mo-Tu closed; We 19:00-01:00; Th 19:00-02:00; Fr-Sa 19:00-04:00; Su 19:00-02:00",
         "outdoor_seating": "yes",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
@@ -49788,6 +50271,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -118.3937045,
+          34.0242422
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "9300",
+        "addr:postcode": "90232",
+        "addr:street": "Culver Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "Philz Coffee",
+        "brand:wikidata": "Q18156812",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "kids_area": "no",
+        "level": "0",
+        "lgbtq:signed": "yes",
+        "name": "Philz Coffee",
+        "opening_hours": "Mo-Fr 06:00-19:00; Sa-Su 06:00-20:00",
+        "outdoor_seating": "yes",
+        "panoramax": "5ab3d6b5-8a38-4ebe-b509-234b1627c4c0",
+        "phone": "+1-424-603-4344",
+        "takeaway": "yes",
+        "website": "https://philzcoffee.com/locations/62",
+        "website:menu": "https://philzcoffee.com/menu/62/coffee",
+        "wheelchair": "yes",
+        "@id": "node/8519602532",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.679543,
           47.3958319
         ]
@@ -52642,7 +53161,7 @@
         "name": "Lewis Barbecue",
         "opening_hours": "Su-Mo 11:00-21:00; Tu-Sa 11:00-22:00",
         "outdoor_seating": "yes",
-        "phone": "404-939-9567",
+        "phone": "+1-404-939-9567",
         "smoking": "isolated",
         "website": "https://www.lewisbarbecue.com/location/lewis-barbecue-atlanta/",
         "@id": "node/9270199577",
@@ -52727,7 +53246,7 @@
         ]
       },
       "properties": {
-        "check_date": "2024-10-17",
+        "check_date": "2026-09-06",
         "lgbtq": "primary",
         "name": "Planetwellers",
         "office": "travel_agent",
@@ -56239,7 +56758,7 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2024-10-17",
+        "check_date": "2026-09-06",
         "lgbtq": "primary",
         "name": "Universal",
         "@id": "node/9886729727",
@@ -56259,7 +56778,7 @@
         "addr:housenumber": "2-4",
         "addr:street": "Oxford Street",
         "amenity": "bar",
-        "check_date": "2024-08-04",
+        "check_date": "2026-09-06",
         "lgbtq": "primary",
         "name": "Burdekin",
         "website": "https://burdekin.com.au/",
@@ -56388,24 +56907,6 @@
         "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-12:30",
         "phone": "+61 2 9385 6482",
         "@id": "node/9903749243",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2162098,
-          -33.8803239
-        ]
-      },
-      "properties": {
-        "amenity": "nightclub",
-        "level": "2",
-        "lgbtq": "primary",
-        "name": "Heaven",
-        "@id": "node/9908622858",
         "@type": "node"
       }
     },
@@ -56728,6 +57229,36 @@
         "website": "https://www.ilboccale2.it/",
         "wheelchair": "yes",
         "@id": "node/9944363673",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9195024,
+          8.5027143
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "lgbtq:signed": "yes",
+        "name": "Eve's Coffee",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+91 96452 63333",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://eves-coffee.business.site/",
+        "wheelchair": "no",
+        "@id": "node/9951556719",
         "@type": "node"
       }
     },
@@ -58701,6 +59232,34 @@
         "website": "https://www.versnyc.com/",
         "wheelchair": "yes",
         "@id": "node/10212457222",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6499405,
+          -23.5445565
+        ]
+      },
+      "properties": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "550",
+        "addr:postcode": "01223-010",
+        "addr:street": "Rua General Jardim",
+        "alt_name": "Green Chef",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/Green-Chef-Restaurante-Vegetariano-e-Vegano-109129816463146/",
+        "contact:phone": "+5511982489008",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "only",
+        "lgbtq": "yes",
+        "name": "Endívia",
+        "opening_hours": "Mo-Fr,Su 11:00-15:00",
+        "outdoor_seating": "no",
+        "@id": "node/10221745544",
         "@type": "node"
       }
     },
@@ -70517,6 +71076,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -96.7279054,
+          43.5539871
+        ]
+      },
+      "properties": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "600",
+        "addr:postcode": "57104",
+        "addr:state": "SD",
+        "addr:street": "North Main Avenue",
+        "addr:unit": "110",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2025-11-12",
+        "cuisine": "sandwich",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "dog": "leashed",
+        "handwashing:soap": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Bread & Circus Sandwich Kitchen",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-21:00; Su 11:00-20:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "payment:qr_code": "no",
+        "phone": "+1 605 338 2206",
+        "service:electricity": "ask",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "toilets:hands_drying": "paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated",
+        "toilets:wash": "no",
+        "website": "https://www.breadandcircussd.com/",
+        "wheelchair": "designated",
+        "@id": "node/12324613079",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           144.9829239,
           -37.8059378
         ]
@@ -71445,6 +72058,32 @@
         "phone": "+1-646-476-9532",
         "wheelchair": "no",
         "@id": "node/12463668755",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1538974,
+          22.2827296
+        ]
+      },
+      "properties": {
+        "addr:housename": "祥興商業大廈 Cheung Hing Commercial Building",
+        "addr:housename:en": "Cheung Hing Commercial Building",
+        "addr:housename:zh": "祥興商業大廈",
+        "addr:housenumber": "37-43",
+        "addr:street": "閣麟街 Cochrane Street",
+        "addr:street:en": "Cochrane Street",
+        "addr:street:wikidata": "Q14473711",
+        "addr:street:zh": "閣麟街",
+        "leisure": "sauna",
+        "level": "2",
+        "lgbtq:signed": "yes",
+        "name": "CE Sauna",
+        "@id": "node/12464106640",
         "@type": "node"
       }
     },
@@ -73553,6 +74192,41 @@
         "shop": "books",
         "website": "https://www.thepondcph.com/",
         "@id": "node/12798373367",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3240758,
+          -33.4855956
+        ]
+      },
+      "properties": {
+        "addr:postcode": "2256",
+        "addr:state": "NSW",
+        "addr:street": "Railway Street",
+        "addr:suburb": "Woy Woy",
+        "addr:unit": "18A",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "yes",
+        "check_date": "2025-04",
+        "food": "yes",
+        "internet_access": "yes",
+        "lgbtq": "yes",
+        "live_music": "yes",
+        "name": "Link & Pin Woy Woy",
+        "opening_hours": "We-Sa 12:00-23:00; Su 12:00-18:00",
+        "outdoor_seating": "yes",
+        "pets_allowed": "yes",
+        "phone": "+61 2 4309 3490",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.linkandpin.com.au",
+        "@id": "node/12799841485",
         "@type": "node"
       }
     },
@@ -79613,6 +80287,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -3.9908806,
+          39.6746956
+        ]
+      },
+      "properties": {
+        "alcohol": "yes",
+        "amenity": "bar",
+        "capacity": "large",
+        "cocktails": "yes",
+        "delivery": "yes",
+        "dine_in": "yes",
+        "drink:beer": "yes",
+        "drink:spirits": "yes",
+        "drink:wine": "yes",
+        "food": "yes",
+        "kids": "yes",
+        "lgbtq": "yes",
+        "live_music": "yes",
+        "music": "live",
+        "name": "Bar Piscina Sonseca",
+        "opening_hours": "Jun 1-Sep 1 Mo-We 09:30-02:00; Th 09:00-02:00; Fr 09:30-02:00; Sa-Su 12:00-02:00",
+        "outdoor_seating": "yes",
+        "parking": "street_side",
+        "parking:fee": "no",
+        "parking:wheelchair": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:nfc": "yes",
+        "seating": "yes",
+        "sport": "yes",
+        "table_service": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "@id": "node/13381736335",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -84.5141266,
           36.4982916
         ]
@@ -79907,6 +80626,23 @@
         "shop": "erotic",
         "website": "https://www.gearleather.com/palmsprings/",
         "@id": "node/13417353056",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4888047,
+          29.4217386
+        ]
+      },
+      "properties": {
+        "lgbtq": "yes",
+        "name": "Bird & Pear",
+        "shop": "gift",
+        "@id": "node/13422165470",
         "@type": "node"
       }
     },
@@ -80434,6 +81170,32 @@
         "outdoor_seating": "no",
         "website": "https://www.kestrelcafe.com/",
         "@id": "node/13529932755",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.644771,
+          44.8960277
+        ]
+      },
+      "properties": {
+        "beauty": "massage;skin_care",
+        "contact:facebook": "https://www.facebook.com/institutnathalievernoux",
+        "contact:instagram": "https://www.instagram.com/institutnathalie/",
+        "contact:phone": "+33 4 75 58 63 66",
+        "lgbtq:signed": "yes",
+        "name": "Institut de Beauté Nathalie",
+        "opening_hours": "We-Sa 09:00-18:00; PH off",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "44852438900013",
+        "shop": "beauty",
+        "wheelchair": "yes",
+        "@id": "node/13531946888",
         "@type": "node"
       }
     },
@@ -81558,6 +82320,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.1393789,
+          52.6352064
+        ]
+      },
+      "properties": {
+        "female": "yes",
+        "lgbtq": "yes",
+        "male": "yes",
+        "name": "Jazz",
+        "opening_hours": "We,Th 10:00-20:00; Tu,Fr 10:00-18:00; Sa 09:00-16:00; Su,Mo off",
+        "shop": "hairdresser",
+        "@id": "node/13634290348",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -96.5202268,
           15.6640558
         ]
@@ -81569,6 +82351,32 @@
         "lgbtq": "primary",
         "shop": "erotic",
         "@id": "node/13638809958",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9626255,
+          50.940976
+        ]
+      },
+      "properties": {
+        "addr:city": "Köln",
+        "addr:postcode": "50667",
+        "addr:street": "Weltjugendtagsweg",
+        "description": "Private gay city tour in Cologne exploring 2000 years of history and today's gay scene.",
+        "language:de": "yes",
+        "language:en": "yes",
+        "lgbtq": "yes",
+        "name": "QT of Cologne",
+        "office": "guide",
+        "operator": "QT of Cologne",
+        "phone": "+49 1727873775",
+        "website": "https://qtofcologne.de",
+        "@id": "node/13639581807",
         "@type": "node"
       }
     },
@@ -83249,6 +84057,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.3954317,
+          47.2608783
+        ]
+      },
+      "properties": {
+        "addr:city": "Innsbruck",
+        "addr:housenumber": "13",
+        "addr:postcode": "6020",
+        "addr:street": "Leopoldstraße",
+        "lgbtq:signed": "yes",
+        "name": "komm. lebe Lust",
+        "opening_hours": "Tu-Fr 11:00-18:00",
+        "shop": "erotic",
+        "url": "https://komm.lebe-lust.at/",
+        "@id": "node/13885973467",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.602906,
           51.9962349
         ]
@@ -83732,6 +84563,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -93.2592532,
+          44.942584
+        ]
+      },
+      "properties": {
+        "amenity": "bench",
+        "lgbtq": "yes",
+        "@id": "node/13970916231",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           100.5339361,
           13.7302447
         ]
@@ -84163,6 +85010,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -113.4855437,
+          53.5705096
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "9352",
+        "addr:street": "118 Avenue NW",
+        "check_date": "2026-07-11",
+        "lgbtq": "yes",
+        "name": "Pe Matawe",
+        "shop": "games",
+        "@id": "node/14005502214",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.2220407,
           40.7833471
         ]
@@ -84187,6 +85054,30 @@
         "tourism": "camp_site",
         "website": "https://retrofrolic.org",
         "@id": "node/14007406594",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5650814,
+          50.4073929
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "74",
+        "addr:postcode": "62600",
+        "addr:street": "Rue Carnot",
+        "amenity": "bar",
+        "cuisine": "pizza",
+        "dog": "yes",
+        "lgbtq": "yes",
+        "name": "Microbrasserie Côté d’Hop",
+        "opening_hours": "Tu-Su 11:00-00:00; Mo 14:00-00:00",
+        "outdoor_seating": "yes",
+        "@id": "node/14018291401",
         "@type": "node"
       }
     },
@@ -84899,6 +85790,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          151.1982817,
+          -33.8957407
+        ]
+      },
+      "properties": {
+        "beauty": "laser",
+        "lgbtq": "yes",
+        "name": "Live More Ethical Beauty",
+        "reservation": "yes",
+        "shop": "beauty",
+        "website": "https://www.livemoreethicalbeauty.com/",
+        "@id": "node/14065986126",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -7.9193458,
           37.0242561
         ]
@@ -85136,6 +86047,28 @@
         "phone": "+38 800 990 678",
         "website": "https://www.sportelloarcobaleno.it",
         "@id": "node/14085657896",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2200241,
+          44.9481744
+        ]
+      },
+      "properties": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "3607",
+        "addr:postcode": "55406",
+        "addr:state": "MN",
+        "addr:street": "East Lake Street",
+        "lgbtq": "yes",
+        "name": "Curiosity Studio",
+        "shop": "alcohol",
+        "@id": "node/14086996410",
         "@type": "node"
       }
     },
@@ -85439,6 +86372,33 @@
         "lgbtq": "primary",
         "wheelchair": "limited",
         "@id": "node/14108195045",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5493691,
+          52.4387374
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "52",
+        "addr:street": "Dörpfeldstraße",
+        "amenity": "doctors",
+        "check_date": "2026-08-23",
+        "email": "ergotherapie-menschlich@posteo.de",
+        "healthcare": "occupational_therapist",
+        "level": "3",
+        "lgbtq:signed": "yes",
+        "name": "Ergotherapie Mensch/ich",
+        "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-14:00",
+        "phone": "+49 1522 8805368",
+        "website": "https://ergo-menschlich.de/",
+        "wheelchair": "yes",
+        "@id": "node/14113750493",
         "@type": "node"
       }
     },
@@ -85807,6 +86767,122 @@
         "lgbtq": "primary",
         "name": "Omaha Mining Company",
         "@id": "node/14152397926",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.213861,
+          -33.8779222
+        ]
+      },
+      "properties": {
+        "check_date": "2026-09-06",
+        "lgbtq": "primary",
+        "name": "Dail Male",
+        "shop": "clothes",
+        "start_date": "1985",
+        "@id": "node/14157181015",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2137815,
+          -33.8778079
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "42",
+        "addr:unit": "38",
+        "check_date": "2026-09-06",
+        "leisure": "sauna",
+        "level": "1",
+        "lgbtq": "primary",
+        "name": "Sydney Sauna",
+        "@id": "node/14157181042",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2146217,
+          -33.8790734
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "check_date": "2026-09-06",
+        "level": "1",
+        "lgbtq": "primary",
+        "name": "Cruise Lounge",
+        "@id": "node/14157181061",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2165149,
+          -33.8800826
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "check_date": "2026-09-06",
+        "level": "-1",
+        "lgbtq": "primary",
+        "name": "Palms",
+        "@id": "node/14157193801",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2160834,
+          -33.8802121
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "check_date": "2026-09-06",
+        "contact:instagram": "bunker161sydney",
+        "lgbtq": "primary",
+        "name": "xxx Bunker",
+        "website": "https://bunkersydney.net.au",
+        "@id": "node/14157193806",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2161554,
+          -33.8802715
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "check_date": "2026-09-06",
+        "lgbtq": "welcome",
+        "name": "Noir",
+        "@id": "node/14157193838",
         "@type": "node"
       }
     },
@@ -96140,6 +97216,51 @@
         "coordinates": [
           [
             [
+              151.2167456,
+              -33.8800987
+            ],
+            [
+              151.2166166,
+              -33.8802186
+            ],
+            [
+              151.2167283,
+              -33.8803112
+            ],
+            [
+              151.2167605,
+              -33.8802999
+            ],
+            [
+              151.2167975,
+              -33.8801396
+            ],
+            [
+              151.2167456,
+              -33.8800987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "134",
+        "addr:street": "Oxford Street",
+        "building": "yes",
+        "building:levels": "3",
+        "check_date": "2026-09-06",
+        "lgbtq": "primary",
+        "name": "The Oxford Hotel",
+        "@id": "way/153276840",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               175.641317,
               -39.9335107
             ],
@@ -96727,6 +97848,7 @@
         "addr:street": "Wardour Street",
         "amenity": "pub",
         "building": "yes",
+        "check_date": "2024-12-31",
         "contact:email": "thedukew1@hotmail.co.uk",
         "contact:phone": "+44 20 7439 1274",
         "fhrs:confidence_management": "10",
@@ -97349,6 +98471,179 @@
         "name": "Le Spartacus",
         "opening_hours": "Mo-Su 22:30+",
         "@id": "way/170724940",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0007418,
+              51.4597306
+            ],
+            [
+              7.0007856,
+              51.4599168
+            ],
+            [
+              7.0004861,
+              51.4599448
+            ],
+            [
+              7.0001048,
+              51.459982
+            ],
+            [
+              7.0002687,
+              51.4606753
+            ],
+            [
+              7.0002843,
+              51.4607339
+            ],
+            [
+              7.0009925,
+              51.4606688
+            ],
+            [
+              7.0015705,
+              51.4606162
+            ],
+            [
+              7.0017924,
+              51.4604303
+            ],
+            [
+              7.0017672,
+              51.4603219
+            ],
+            [
+              7.0019118,
+              51.460201
+            ],
+            [
+              7.0018506,
+              51.4599353
+            ],
+            [
+              7.0024468,
+              51.4598801
+            ],
+            [
+              7.0024351,
+              51.4598266
+            ],
+            [
+              7.0025216,
+              51.4598189
+            ],
+            [
+              7.0025071,
+              51.4597659
+            ],
+            [
+              7.0025934,
+              51.4597569
+            ],
+            [
+              7.0025396,
+              51.4595379
+            ],
+            [
+              7.0024565,
+              51.4595452
+            ],
+            [
+              7.0024424,
+              51.4594919
+            ],
+            [
+              7.0024411,
+              51.4594878
+            ],
+            [
+              7.001634,
+              51.459564
+            ],
+            [
+              7.0014798,
+              51.4595785
+            ],
+            [
+              7.0010892,
+              51.4596167
+            ],
+            [
+              7.0011024,
+              51.4596702
+            ],
+            [
+              7.0009638,
+              51.459683
+            ],
+            [
+              7.000737,
+              51.4597042
+            ],
+            [
+              7.0007418,
+              51.4597306
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Essen",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "45127",
+        "addr:street": "Altendorfer Straße",
+        "alt_name": "IKEA Essen",
+        "branch": "Essen",
+        "brand": "IKEA",
+        "brand:wikidata": "Q54078",
+        "brand:wikipedia": "en:IKEA",
+        "building": "retail",
+        "building:levels": "5",
+        "changing_table": "yes",
+        "check_date": "2026-09-04",
+        "check_date:opening_hours": "2026-09-04",
+        "dog": "leashed",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "IKEA WiFi",
+        "lgbtq:signed": "yes",
+        "name": "IKEA",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "operator": "IKEA",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "payment:google_pay": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:paypal": "yes",
+        "payment:v_pay": "yes",
+        "payment:visa": "yes",
+        "quiet_hours": "We 17:00-19:00",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "self_checkout": "yes",
+        "shop": "furniture",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:fee": "no",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.ikea.com/de/de/store/essen",
+        "wheelchair": "yes",
+        "@id": "way/176009616",
         "@type": "way"
       }
     },
@@ -100701,6 +101996,86 @@
         "shop": "charity",
         "wheelchair": "yes",
         "@id": "way/211377543",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.3461726,
+              42.2040773
+            ],
+            [
+              -73.3461742,
+              42.2040599
+            ],
+            [
+              -73.3461387,
+              42.204058
+            ],
+            [
+              -73.3461419,
+              42.2040244
+            ],
+            [
+              -73.3461672,
+              42.2040257
+            ],
+            [
+              -73.3461714,
+              42.2039818
+            ],
+            [
+              -73.3461021,
+              42.2039781
+            ],
+            [
+              -73.3461064,
+              42.2039336
+            ],
+            [
+              -73.3462978,
+              42.2039437
+            ],
+            [
+              -73.3462762,
+              42.2041704
+            ],
+            [
+              -73.3461336,
+              42.2041629
+            ],
+            [
+              -73.3461419,
+              42.2040757
+            ],
+            [
+              -73.3461726,
+              42.2040773
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Great Barrington",
+        "addr:housenumber": "100",
+        "addr:postcode": "01230",
+        "addr:state": "MA",
+        "addr:street": "Stockbridge Road",
+        "amenity": "restaurant",
+        "building": "retail",
+        "cuisine": "pizza;mediterranean",
+        "lgbtq": "yes",
+        "name": "Four Brothers Pizza Inn",
+        "opening_hours": "Mo-Su 11:30-21:00",
+        "phone": "+1-413-528-9684",
+        "website": "https://fourbrothersrestaurants.com/",
+        "website:menu": "https://fourbrothersrestaurants.com/menu/",
+        "@id": "way/213358491",
         "@type": "way"
       }
     },
@@ -107807,6 +109182,72 @@
         "name": "Oregon Medical Centers, LLC",
         "website": "https://www.oregonmedicalcenters.com/",
         "@id": "way/327357186",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.1602454,
+              44.9399546
+            ],
+            [
+              -93.1601766,
+              44.939954
+            ],
+            [
+              -93.1600934,
+              44.9399532
+            ],
+            [
+              -93.1600958,
+              44.939817
+            ],
+            [
+              -93.1602478,
+              44.9398183
+            ],
+            [
+              -93.1602454,
+              44.9399546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "1416",
+        "addr:postcode": "55105",
+        "addr:street": "Grand Avenue",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "building": "yes",
+        "check_date": "2026-08-16",
+        "check_date:opening_hours": "2026-08-16",
+        "contact:facebook": "https://www.facebook.com/CatzenCoffeeSaintPaul/",
+        "contact:instagram": "https://www.instagram.com/catzencoffeesaintpaul/",
+        "cuisine": "coffee_shop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "info@catzencoffee.com",
+        "food": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Catzen Guests",
+        "lgbtq": "yes",
+        "name": "Catzen Coffee",
+        "opening_hours": "Tu-Sa 07:00-19:00; Su 07:00-17:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-952-261-8664",
+        "theme": "cat",
+        "toilets": "yes",
+        "website": "https://www.catzencoffee.com/",
+        "website:menu": "https://www.catzencoffee.com/menu/",
+        "@id": "way/333114493",
         "@type": "way"
       }
     },
@@ -117026,6 +118467,7 @@
         "internet_access:fee": "no",
         "lgbtq": "welcome",
         "name": "Alamo Drafthouse Cinema",
+        "opening_hours": "PH open",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "phone": "+1 417-708-9599",
@@ -117175,6 +118617,61 @@
         "lgbtq": "primary",
         "source": "Fb: OpenStreetMap Algeria",
         "@id": "way/524712943",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.7958853,
+              44.3076065
+            ],
+            [
+              -77.7958988,
+              44.3075004
+            ],
+            [
+              -77.7960556,
+              44.3075106
+            ],
+            [
+              -77.7960577,
+              44.307494
+            ],
+            [
+              -77.7961563,
+              44.3075004
+            ],
+            [
+              -77.7961407,
+              44.3076231
+            ],
+            [
+              -77.7958853,
+              44.3076065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "building": "yes",
+        "fixme": "missing name",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "kids_area": "no",
+        "lgbtq:signed": "yes",
+        "name": "Chicken Kingdom & Seafood",
+        "opening_hours": "11:00-20:00",
+        "outdoor_seating": "no",
+        "service:electricity": "limited",
+        "takeaway": "yes",
+        "@id": "way/524834105",
         "@type": "way"
       }
     },
@@ -117922,6 +119419,75 @@
         "website": "https://unioncafe.com/",
         "wheelchair": "yes",
         "@id": "way/554659426",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.2154096,
+              -33.8796265
+            ],
+            [
+              151.2152911,
+              -33.8795301
+            ],
+            [
+              151.2152513,
+              -33.8795414
+            ],
+            [
+              151.2152111,
+              -33.8797351
+            ],
+            [
+              151.2153284,
+              -33.8797702
+            ],
+            [
+              151.2153372,
+              -33.8797607
+            ],
+            [
+              151.2153365,
+              -33.8797485
+            ],
+            [
+              151.2153231,
+              -33.8797362
+            ],
+            [
+              151.2152869,
+              -33.8797329
+            ],
+            [
+              151.2152962,
+              -33.8796923
+            ],
+            [
+              151.2153177,
+              -33.8797084
+            ],
+            [
+              151.2154096,
+              -33.8796265
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "117-123",
+        "addr:street": "Oxford Street",
+        "building": "hotel",
+        "building:levels": "3",
+        "check_date": "2026-09-06",
+        "lgbtq": "primary",
+        "name": "The Colombian",
+        "@id": "way/556386950",
         "@type": "way"
       }
     },
@@ -120801,7 +122367,7 @@
         "lgbtq": "welcome",
         "name": "Planned Parenthood",
         "official_name": "Planned Parenthood Great Northwest, Hawai'i, Alaska, Indiana, Kentucky",
-        "opening_hours": "Mo,We-Fr,Sa[3] 08:30-16:30; Tu 11:00-19:00; Fr[3] off",
+        "opening_hours": "Mo, We-Sa 08:30-16:30; Tu 11:00-19:00",
         "operator": "Planned Parenthood",
         "operator:type": "ngo",
         "operator:wikidata": "Q2553262",
@@ -139942,6 +141508,96 @@
         "coordinates": [
           [
             [
+              -75.560709,
+              39.7534094
+            ],
+            [
+              -75.5606447,
+              39.7535217
+            ],
+            [
+              -75.5604767,
+              39.7534648
+            ],
+            [
+              -75.5604717,
+              39.7534736
+            ],
+            [
+              -75.5604266,
+              39.7534583
+            ],
+            [
+              -75.560445,
+              39.7534262
+            ],
+            [
+              -75.5603965,
+              39.7534098
+            ],
+            [
+              -75.5604269,
+              39.7533567
+            ],
+            [
+              -75.5604129,
+              39.753352
+            ],
+            [
+              -75.5604887,
+              39.7532198
+            ],
+            [
+              -75.5605742,
+              39.7532487
+            ],
+            [
+              -75.5605586,
+              39.7532759
+            ],
+            [
+              -75.5605981,
+              39.7532893
+            ],
+            [
+              -75.5605585,
+              39.7533584
+            ],
+            [
+              -75.560709,
+              39.7534094
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "1118",
+        "addr:postcode": "19806",
+        "addr:state": "DE",
+        "addr:street": "North Broom Street",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "check_date": "2026-05-24",
+        "denomination": "swedenborgian",
+        "lgbtq": "yes",
+        "name": "The Church of the Holy City",
+        "phone": "+1 302 654 5014",
+        "religion": "christian",
+        "service_times": "Su 10:30",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.churchoftheholycity.org/",
+        "@id": "way/1521982802",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -123.1174454,
               49.2308605
             ],
@@ -140270,6 +141926,119 @@
         "toilets": "no",
         "tourism": "camp_site",
         "@id": "way/1552035647",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.0821888,
+              51.4851441
+            ],
+            [
+              -0.0813288,
+              51.4844135
+            ],
+            [
+              -0.0812836,
+              51.4844039
+            ],
+            [
+              -0.0812348,
+              51.4844149
+            ],
+            [
+              -0.0798643,
+              51.48531
+            ],
+            [
+              -0.0802112,
+              51.4857908
+            ],
+            [
+              -0.080578,
+              51.4856646
+            ],
+            [
+              -0.0809799,
+              51.4855256
+            ],
+            [
+              -0.0810967,
+              51.4855073
+            ],
+            [
+              -0.0821888,
+              51.4851441
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "landuse": "forest",
+        "lgbtq:cruising": "yes",
+        "natural": "wood",
+        "@id": "way/1553615830",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.9357121,
+              41.253944
+            ],
+            [
+              -95.9357107,
+              41.2540751
+            ],
+            [
+              -95.9357082,
+              41.2543006
+            ],
+            [
+              -95.9352295,
+              41.2542976
+            ],
+            [
+              -95.935232,
+              41.2540721
+            ],
+            [
+              -95.9353637,
+              41.2540729
+            ],
+            [
+              -95.9353652,
+              41.2539418
+            ],
+            [
+              -95.9357121,
+              41.253944
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Omaha",
+        "addr:country": "US",
+        "addr:housenumber": "1417",
+        "addr:state": "NE",
+        "addr:street": "Jackson Street",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "min_age": "21",
+        "name": "The Max",
+        "website": "https://www.themaxomaha.com/",
+        "@id": "way/1556413633",
         "@type": "way"
       }
     },
