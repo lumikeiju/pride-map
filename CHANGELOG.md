@@ -22,6 +22,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 -
 
+## v1.0.2 (2026-09-06)
+
+### Fixed
+
+- Restored root `.nojekyll` file to prevent GitHub Pages publishing issue
+
 ## v1.0.1 (2026-09-06)
 
 ### Fixed
