@@ -16426,14 +16426,15 @@
         "amenity": "restaurant",
         "bar": "yes",
         "branch": "Capitol Hill",
-        "check_date": "2025-03-05",
+        "check_date": "2026-09-06",
+        "check_date:opening_hours": "2026-09-06",
         "contact:phone": "+1-206-717-2867",
         "cuisine": "burger",
         "delivery": "yes",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "206 Burger Company",
-        "opening_hours": "Su-Th 11:00-20:30; Fr-Sa 11:00-21:30",
+        "opening_hours": "Su-Th 10:00-21:00; Fr-Sa 10:00-24:00",
         "outdoor_seating": "no",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -35077,7 +35078,7 @@
         "toilets": "yes",
         "toilets:unisex": "yes",
         "tourism": "attraction",
-        "website": "https://yatan-rumi.business.site/",
+        "website": "https://www.tanti.gob.ar/alojamiento/yatan-rumi/",
         "@id": "node/5269581032",
         "@type": "node"
       }
@@ -84163,7 +84164,7 @@
         "amenity": "bar",
         "atm": "yes",
         "lgbtq": "primary",
-        "name": "Flixx",
+        "name": "Flixx Lounge",
         "@id": "node/13908516481",
         "@type": "node"
       }
@@ -142035,8 +142036,11 @@
         "addr:street": "Jackson Street",
         "amenity": "nightclub",
         "lgbtq": "primary",
+        "lgbtq:men": "primary",
         "min_age": "21",
         "name": "The Max",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
         "website": "https://www.themaxomaha.com/",
         "@id": "way/1556413633",
         "@type": "way"
