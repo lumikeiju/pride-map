@@ -8687,8 +8687,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.2365886,
-          53.4769246
+          -2.2365815,
+          53.4769684
         ]
       },
       "properties": {
@@ -8777,7 +8777,7 @@
         "addr:postcode": "M1 3LZ",
         "addr:street": "Sackville Street",
         "amenity": "nightclub",
-        "check_date:opening_hours": "2023-07-30",
+        "check_date:opening_hours": "2026-09-08",
         "contact:facebook": "https://www.facebook.com/clubtropicanamanchester/",
         "email": "info@clubtropicanamanchester.com",
         "fhrs:id": "1816500",
@@ -23430,7 +23430,7 @@
         "addr:postcode": "EH1 3AF",
         "addr:street": "Baxter's Place",
         "amenity": "bar",
-        "check_date": "2026-01-20",
+        "check_date": "2026-09-08",
         "fhrs:id": "85047",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -28187,33 +28187,6 @@
         "toilets:wheelchair": "no",
         "wheelchair": "limited",
         "@id": "node/4061881874",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.0570275,
-          14.6223661
-        ]
-      },
-      "properties": {
-        "addr:city": "Quezon City",
-        "addr:housename": "Cubao Expo",
-        "addr:street": "General Romulo Avenue",
-        "amenity": "bar",
-        "branch": "Cubao Expo",
-        "brand:website": "fredsrevolucion",
-        "check_date": "2024-05-20",
-        "contact:email": "freds.revolucion@gmail.com",
-        "contact:phone": "+63998 5317949",
-        "lgbtq": "primary",
-        "name": "Fred's Revolucion",
-        "opening_hours": "Tu-Sa 17:00-24:00",
-        "wheelchair": "limited",
-        "@id": "node/4063059843",
         "@type": "node"
       }
     },
@@ -52239,6 +52212,7 @@
         "addr:housenumber": "52",
         "addr:postcode": "M4 1PW",
         "addr:street": "Church Street",
+        "check_date": "2026-09-08",
         "contact:email": "hello@shopluna.co.uk",
         "contact:facebook": "https://www.facebook.com/LunaMcr/",
         "contact:instagram": "https://www.instagram.com/luna_mcr_/",
@@ -63253,10 +63227,17 @@
         ]
       },
       "properties": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "1333",
+        "addr:postcode": "55403",
+        "addr:state": "MN",
+        "addr:street": "Nicollet Mall",
+        "addr:unit": "Suite 200",
         "amenity": "bar",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "On The Rox",
+        "opening_hours": "Mo-Fr 17:00-01:00; Sa-Su 09:00-01:00",
         "outdoor_seating": "yes",
         "website": "https://mplsontherox.com/",
         "@id": "node/11211330419",
@@ -71346,6 +71327,7 @@
         "check_date": "2026-08-16",
         "lgbtq": "primary",
         "name": "The Saloon",
+        "opening_hours": "Mo-Th 12:00-02:00; Fr-Sa 12:00-03:00; Su 12:00-02:00",
         "website": "https://www.saloonmn.com/",
         "@id": "node/12335262725",
         "@type": "node"
@@ -86865,6 +86847,35 @@
         "lgbtq": "welcome",
         "name": "Noir",
         "@id": "node/14157193838",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0347873,
+          51.1178532
+        ]
+      },
+      "properties": {
+        "addr:city": "Wrocław",
+        "addr:housenumber": "2/1",
+        "addr:postcode": "50-243",
+        "addr:street": "Władysława Łokietka",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "email": "kontakt@kulturarownosci.org",
+        "level": "1",
+        "lgbtq": "primary",
+        "name": "Równe Miejsce - Centrum Społeczności LGBT+",
+        "opening_hours": "Mo-Th 15:00-19:00; Tu off",
+        "operator": "Stowarzyszenie Kultura Równości",
+        "operator:type": "private_non_profit",
+        "phone": "884 777 249",
+        "website": "https://kulturarownosci.org",
+        "@id": "node/14163305969",
         "@type": "node"
       }
     },
@@ -122342,8 +122353,8 @@
         "addr:street": "South College Avenue",
         "amenity": "clinic",
         "branch": "Bloomington Health Center",
-        "building": "yes",
-        "healthcare": "counselling",
+        "building": "commercial",
+        "healthcare": "clinic",
         "healthcare:counselling": "antenatal;sexual",
         "healthcare:speciality": "venereology;abortion;fertility",
         "lgbtq": "welcome",
