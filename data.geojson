@@ -12580,6 +12580,7 @@
         "name": "De Trut",
         "opening_hours": "Su 22:00-03:00",
         "website": "http://detrut.amsterdam",
+        "wheelchair": "no",
         "@id": "node/1759917596",
         "@type": "node"
       }
@@ -21873,6 +21874,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -93.2728307,
+          44.9748378
+        ]
+      },
+      "properties": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "80",
+        "addr:postcode": "55402",
+        "addr:street": "South 9th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2026-04-25",
+        "check_date:diet:vegetarian": "2025-04-08",
+        "check_date:smoking": "2026-04-25",
+        "contact:facebook": "HellsKitchenMpls",
+        "contact:instagram": "HellsKitchenMN",
+        "cuisine": "american",
+        "delivery": "no",
+        "diet:vegetarian": "yes",
+        "handwashing:soap": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Hell's Kitchen",
+        "opening_hours": "Su-Th 08:00-21:00; Fr-Sa 08:00-22:00",
+        "outdoor_seating": "no",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
+        "phone": "+1 612 332 4700",
+        "reservation": "yes",
+        "self_service": "no",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "yes",
+        "toilets:hands_drying": "electric_hand_dryer;paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "toilets:wash": "no",
+        "website": "https://www.hellskitcheninc.com/",
+        "website:menu": "https://hellskitcheninc.com/#menu-section",
+        "@id": "node/2927711419",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.3535321,
           48.8585415
         ]
@@ -28195,6 +28250,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          121.0570275,
+          14.6223661
+        ]
+      },
+      "properties": {
+        "addr:city": "Quezon City",
+        "addr:housename": "Cubao Expo",
+        "addr:street": "General Romulo Avenue",
+        "amenity": "bar",
+        "branch": "Cubao Expo",
+        "brand:website": "fredsrevolucion",
+        "check_date": "2024-05-20",
+        "contact:email": "freds.revolucion@gmail.com",
+        "contact:phone": "+63998 5317949",
+        "lgbtq": "primary",
+        "name": "Fred's Revolucion",
+        "opening_hours": "Tu-Sa 17:00-24:00",
+        "wheelchair": "limited",
+        "@id": "node/4063059843",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -81.7471953,
           41.4804048
         ]
@@ -31872,7 +31954,7 @@
         "name": "El Bar de Fede",
         "opening_hours": "Mo-Sa 13:30-00:00; Su 13:30-18:00",
         "outdoor_seating": "yes",
-        "phone": "958288814",
+        "phone": "+34 958 28 88 14",
         "smoking": "no",
         "takeaway": "no",
         "website": "https://elbardefede.com",
@@ -74130,6 +74212,25 @@
         "name": "Cagne Sciolte",
         "website": "https://cagnesciolte.noblogs.org/",
         "@id": "node/12778328298",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3550899,
+          48.8624459
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "contact:instagram": "duplex_bar_paris",
+        "lgbtq": "primary",
+        "name": "Duplex",
+        "ref:FR:SIRET": "31749633900019",
+        "@id": "node/12787050313",
         "@type": "node"
       }
     },
