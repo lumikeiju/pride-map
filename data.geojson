@@ -17442,12 +17442,14 @@
         "addr:postcode": "98105",
         "addr:state": "WA",
         "addr:street": "University Way Northeast",
-        "check_date": "2025-11-21",
+        "check_date": "2026-09-10",
+        "check_date:opening_hours": "2026-09-10",
         "firearms": "no",
         "firearms:signed": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Deep Roots",
+        "opening_hours": "Su-Th 11:00-19:00; Fr,Sa 11:00-20:00",
         "shop": "tattoo",
         "@id": "node/2323794500",
         "@type": "node"
@@ -27753,6 +27755,7 @@
         "drive_through": "no",
         "indoor_seating": "yes",
         "internet_access": "wlan",
+        "kids_area": "no",
         "level": "0",
         "lgbtq": "welcome",
         "name": "Flower Burger",
@@ -27763,6 +27766,7 @@
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "ref:vatin": "IT09142410969",
+        "reservation": "no",
         "smoking": "no",
         "takeaway": "yes",
         "toilets": "no",
@@ -38041,9 +38045,12 @@
       "properties": {
         "access": "customers",
         "addr:housenumber": "10",
-        "addr:state": "NSW",
         "addr:street": "Taylor Street",
-        "addr:suburb": "Darlinghurst",
+        "check_date": "2026-09-10",
+        "check_date:opening_hours": "2026-09-10",
+        "contact:facebook": "saunaxby357",
+        "contact:instagram": "saunax_by_357",
+        "contact:twitter": "saunax_by_357",
         "fee": "yes",
         "leisure": "sauna",
         "lgbtq": "primary",
@@ -38051,7 +38058,9 @@
         "lgbtq:men": "primary",
         "lgbtq:trans": "welcome",
         "name": "Sauna X by 357",
-        "opening_hours": "24/7",
+        "opening_hours": "Mo-Th 10:00-06:00; Fr 10:00-24:00; Sa-Su 00:00-24:00",
+        "phone": "+61 2 9360 7451",
+        "website": "https://www.saunax.com.au/",
         "@id": "node/5887032989",
         "@type": "node"
       }
@@ -38112,6 +38121,31 @@
         "phone": "+81 3 6383 4649",
         "website": "https://www.goldfingerparty.com/bar/",
         "@id": "node/5890557991",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3353979,
+          42.6885962
+        ]
+      },
+      "properties": {
+        "addr:city": "Scansano",
+        "addr:housenumber": "4",
+        "addr:postcode": "58054",
+        "addr:street": "Piazza Giuseppe Garibaldi",
+        "amenity": "restaurant",
+        "lgbtq": "welcome",
+        "name": "Rinata",
+        "opening_hours": "Mo-We, Fr-Su 19:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "3472910081",
+        "website": "https://btanas.github.io/pizzeria-rinata",
+        "@id": "node/5897799250",
         "@type": "node"
       }
     },
@@ -51120,7 +51154,7 @@
         "lgbtq": "primary",
         "min_age": "18",
         "name": "Iconic Bar",
-        "opening_hours": "We-Su 14:00+",
+        "opening_hours": "Mo,Tu 15:00-23:00, We 15:00-23:30, Th 15:00-24:00, Fr 15:00-01:00, Sa 14:00-01:00, Su 14:00-23:00",
         "wheelchair": "no",
         "@id": "node/8905291760",
         "@type": "node"
@@ -59502,6 +59536,7 @@
         "addr:state": "UT",
         "addr:street": "East 900 South",
         "air_conditioning": "yes",
+        "alt_name": "Legendarium Books",
         "books": "scifi;fantasy;queer",
         "email": "info@legendariumbooks.com",
         "lgbtq": "welcome",
@@ -71223,6 +71258,7 @@
         "air_conditioning": "yes",
         "amenity": "fast_food",
         "contact:mobile": "+91-98928-37111",
+        "image:menu": "e9c02fac-09e0-487e-b593-2a26df676746",
         "indoor_seating": "yes",
         "internet_access": "no",
         "level": "0",
@@ -74955,7 +74991,7 @@
         "clothes": "children",
         "lgbtq": "welcome",
         "name": "Petit Bateau",
-        "opening_hours": "Mo-Fr 10:00-19:00",
+        "opening_hours": "Mo-Sa 10:00-19:00",
         "phone": "+33 1 47 05 18 51",
         "ref:FR:SIRET": "30529134601089",
         "shop": "clothes",
@@ -86974,9 +87010,32 @@
         "opening_hours": "Mo-Th 15:00-19:00; Tu off",
         "operator": "Stowarzyszenie Kultura Równości",
         "operator:type": "private_non_profit",
-        "phone": "884 777 249",
+        "phone": "+48 884 777 249",
         "website": "https://kulturarownosci.org",
         "@id": "node/14163305969",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3358743,
+          42.6881394
+        ]
+      },
+      "properties": {
+        "addr:city": "Scansano",
+        "addr:housenumber": "16",
+        "addr:postcode": "58054",
+        "addr:street": "Via Vittorio Emanuele II",
+        "lgbtq": "welcome",
+        "name": "Martina Hair Studio",
+        "opening_hours": "Tu-We 09:00-12:45 & 15:00-19:00, Th-Sa 09:00-18:00",
+        "phone": "0564336577",
+        "shop": "hairdresser",
+        "@id": "node/14170018541",
         "@type": "node"
       }
     },
@@ -112846,6 +112905,7 @@
         "check_date:opening_hours": "2026-07-22",
         "ele": "31",
         "internet_access": "wlan",
+        "internet_access:fee": "no",
         "lgbtq": "welcome",
         "name": "Enoch Pratt Free Library",
         "not:operator:wikidata": "Q69478541",
@@ -138118,6 +138178,67 @@
         "smoking": "isolated",
         "website": "https://www.thebeatmegaclub.com.au/",
         "@id": "way/1360588408",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.9445853,
+              41.251702
+            ],
+            [
+              -95.9443204,
+              41.2517011
+            ],
+            [
+              -95.944321,
+              41.2515994
+            ],
+            [
+              -95.9445858,
+              41.2516002
+            ],
+            [
+              -95.9445857,
+              41.2516272
+            ],
+            [
+              -95.9446081,
+              41.2516273
+            ],
+            [
+              -95.9446078,
+              41.251663
+            ],
+            [
+              -95.9445855,
+              41.251663
+            ],
+            [
+              -95.9445853,
+              41.251702
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "819",
+        "addr:postcode": "68108",
+        "addr:state": "NE",
+        "addr:street": "South 22nd Street",
+        "amenity": "place_of_worship",
+        "denomination": "Universal Fellowship of Metropolitan Community Churches",
+        "lgbtq": "welcome",
+        "name": "Metropolitan Community Church of Omaha",
+        "religion": "christian",
+        "website": "https://visitmccchurch.com/our-churches/mcc-churches-in-the-united-states/mcc-churches-in-ne/mcc-omaha/",
+        "@id": "way/1361533959",
         "@type": "way"
       }
     },
