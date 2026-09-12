@@ -2635,7 +2635,7 @@
         "addr:street": "Alaunstraße",
         "amenity": "bar",
         "brewery": "various",
-        "check_date": "2023-06-05",
+        "check_date": "2026-09-11",
         "contact:facebook": "https://www.facebook.com/BoysBar/",
         "description": "Dresdens älteste Bar für LGBTIQ* and friends.",
         "internet_access": "no",
@@ -8564,7 +8564,6 @@
         ]
       },
       "properties": {
-        "addr:country": "AU",
         "addr:housenumber": "134",
         "addr:postcode": "2010",
         "addr:street": "Oxford Street",
@@ -45816,7 +45815,6 @@
         "leisure": "hackerspace",
         "level": "0",
         "lgbtq": "welcome",
-        "mobile": "+49 341 98985960",
         "name": "dezentrale",
         "official_name": "dezentrale e.V.",
         "opening_hours": "Mo-We,Fr 19:00-22:00; Th 17:30-22:00; Sa-Su off",
@@ -45826,7 +45824,7 @@
         "payment:cash": "yes",
         "payment:credit_cards": "no",
         "payment:debit_cards": "no",
-        "phone": "+49 221 596196172",
+        "phone": "+49 341 98985960",
         "short_name": "dzt",
         "smoking": "outside",
         "source": "survey",
@@ -111458,7 +111456,7 @@
             ],
             [
               -76.628953,
-              39.3304833
+              39.3304832
             ],
             [
               -76.6292028,
@@ -134586,7 +134584,6 @@
         ]
       },
       "properties": {
-        "addr:country": "AU",
         "addr:housenumber": "578-584",
         "addr:postcode": "3053",
         "addr:state": "VIC",
