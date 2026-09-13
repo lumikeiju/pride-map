@@ -38510,7 +38510,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "Flamingos",
-        "opening_hours": "Mo-Fr,Su 11:00-18:00; Sa 10:30-18:00",
+        "opening_hours": "Mo-Su 10:00-18:00",
         "outdoor_seating": "no",
         "source:addr": "FHRS Open Data",
         "wheelchair": "yes",
@@ -65264,6 +65264,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -87.8969505,
+          42.9972454
+        ]
+      },
+      "properties": {
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "2599",
+        "addr:postcode": "53207",
+        "addr:state": "WI",
+        "addr:street": "South Logan Avenue",
+        "amenity": "bar",
+        "handwashing:soap": "yes",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Burnhearts",
+        "opening_hours": "Mo-Th 15:00-02:00; Fr-Su 14:00-02:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-414-294-0490",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:description": "Sink is outside of bathroom.",
+        "toilets:disposal": "flush",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "yes",
+        "toilets:hands_drying": "paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:level": "0",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "toilets:supervised": "no",
+        "toilets:wash": "no",
+        "website": "https://burnheartsbar.com/",
+        "wheelchair": "no",
+        "@id": "node/11495494187",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           46.1630972,
           38.03496
         ]
@@ -83015,8 +83060,11 @@
         "addr:postcode": "60640",
         "addr:state": "IL",
         "addr:street": "North Clark Street",
+        "check_date": "2026-09-12",
+        "check_date:opening_hours": "2026-09-12",
         "lgbtq": "primary",
         "name": "Full Kit Gear",
+        "opening_hours": "Su 11:00-18:00; Mo-We 12:00-20:00; Th 12:00-21:00; Fr 12:00-22:00; Sa 11:00-22:00",
         "shop": "erotic",
         "@id": "node/13669740893",
         "@type": "node"
@@ -86193,6 +86241,53 @@
         "name": "Le Mensch",
         "opening_hours": "Mo-We,Fr-Sa 00:00-02:00,21:00-00:00; Th,Su 00:00-02:00,17:00-00:00",
         "@id": "node/14087676277",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.358617,
+          48.2003791
+        ]
+      },
+      "properties": {
+        "addr:floor": "0",
+        "addr:housenumber": "19",
+        "addr:postcode": "1060",
+        "addr:street": "Theobaldgasse",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "check_date": "2026-09-13",
+        "contact:instagram": "shisoburgerwien",
+        "cuisine": "asian;burger",
+        "delivery": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drink:phin_coffee": "yes",
+        "email": "1060@shisoburger.at",
+        "highchair": "yes",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Shiso Burger",
+        "opening_hours": "Mo-Th,Su,PH 12:00-22:00; Fr-Sa 12:00-22:30",
+        "operator": "TS21 Hospitality GmbH",
+        "outdoor_seating": "parklet",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+43 670 2080673",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://shisoburger.at/",
+        "website:menu": "https://shisoburger.at/#speisekarte",
+        "wheelchair": "no",
+        "@id": "node/14096247802",
         "@type": "node"
       }
     },
@@ -105508,17 +105603,19 @@
         "check_date:opening_hours": "2024-10-29",
         "contact:email": "hello@sparkpizzaredmond.com",
         "cuisine": "pizza",
+        "description": "Award winning pizza place in Redmond, WA. Focuses pan style. Also serves limited quantities of Detroit-style and New York-style, though those run out about 1.5 hours after opening.",
         "diet:gluten_free": "yes",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "drinking_straw": "bioplastic",
+        "indoor_seating": "no",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Spark Pizza",
         "opening_hours": "Mo off; Tu-Th 03:00-21:00; Fr 03:00-22:00; Sa 12:00-22:00; Su 12:00-21:00",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "only",
         "phone": "+1-425-898-4106",
-        "pizza:style": "new_york;chicago;pan",
+        "pizza:style": "pan;new_york;detroit",
         "takeaway": "yes",
         "toilets:wheelchair": "yes",
         "website": "https://sparkpizzaredmond.com",
@@ -117155,6 +117252,140 @@
         "phone": "+1 610-347-9988",
         "website": "https://www.bradburysullivancenter.org/",
         "@id": "way/449593715",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9308488,
+              54.6039374
+            ],
+            [
+              -5.931015,
+              54.6038823
+            ],
+            [
+              -5.9312296,
+              54.6038106
+            ],
+            [
+              -5.9313284,
+              54.6039101
+            ],
+            [
+              -5.9314111,
+              54.6038824
+            ],
+            [
+              -5.931509,
+              54.6038498
+            ],
+            [
+              -5.9314402,
+              54.6037803
+            ],
+            [
+              -5.9313771,
+              54.6037166
+            ],
+            [
+              -5.9313569,
+              54.6036959
+            ],
+            [
+              -5.9311458,
+              54.6037662
+            ],
+            [
+              -5.9307943,
+              54.6038823
+            ],
+            [
+              -5.9308065,
+              54.6038946
+            ],
+            [
+              -5.9308488,
+              54.6039374
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "lgbtq": "primary",
+        "name": "Kremlin",
+        "@id": "way/450903704",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.931773,
+              54.6038503
+            ],
+            [
+              -5.9314885,
+              54.6039447
+            ],
+            [
+              -5.9314366,
+              54.6038924
+            ],
+            [
+              -5.9314249,
+              54.6038963
+            ],
+            [
+              -5.9314111,
+              54.6038824
+            ],
+            [
+              -5.931509,
+              54.6038498
+            ],
+            [
+              -5.9317358,
+              54.6037744
+            ],
+            [
+              -5.9317849,
+              54.6038237
+            ],
+            [
+              -5.931773,
+              54.6038503
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Belfast",
+        "addr:county": "Antrim",
+        "addr:housenumber": "12-14",
+        "addr:postcode": "BT1 2JF",
+        "addr:street": "Union Street",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "4",
+        "building:material": "brick",
+        "fhrs:id": "59490",
+        "lgbtq": "primary",
+        "name": "Union Street Bar",
+        "roof:colour": "grey",
+        "roof:material": "slate",
+        "@id": "way/450903707",
         "@type": "way"
       }
     },
@@ -133370,7 +133601,7 @@
       "properties": {
         "lgbtq": "welcome",
         "natural": "beach",
-        "nudism": "yes",
+        "nudism": "customary",
         "@id": "way/1136948890",
         "@type": "way"
       }
