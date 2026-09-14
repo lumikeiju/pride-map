@@ -4481,10 +4481,12 @@
         "addr:state": "MN",
         "addr:street": "Lyndale Avenue South",
         "amenity": "cafe",
-        "check_date": "2025-07-19",
+        "check_date": "2026-09-13",
+        "check_date:opening_hours": "2026-09-13",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "SK Coffee",
+        "opening_hours": "Mo-Fr 07:30-17:00; Sa 08:00-17:00; Su 08:00-16:00",
         "outdoor_seating": "yes",
         "source": "local_knowledge",
         "@id": "node/577471645",
@@ -11704,6 +11706,7 @@
         "lgbtq": "welcome",
         "name": "KeyBank",
         "source": "King County GIS",
+        "website": "https://www.key.com/locations/wa/seattle/BRCH47310255/321-15th-ave-e",
         "@id": "node/1722522713",
         "@type": "node"
       }
@@ -11876,6 +11879,7 @@
         "opening_hours": "05:00-01:00",
         "operator": "QFC",
         "shop": "supermarket",
+        "website": "https://www.qfc.com/stores/grocery/wa/seattle/broadway-market/705/00887",
         "wheelchair": "yes",
         "@id": "node/1726081341",
         "@type": "node"
@@ -12798,7 +12802,7 @@
         "check_date": "2026-07-30",
         "diet:vegan": "yes",
         "diet:vegetarian": "only",
-        "fhrs:id": "719618",
+        "fhrs:id": "1987172",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Paradise Palms",
@@ -12806,6 +12810,7 @@
         "outdoor_seating": "yes",
         "phone": "+44 131 225 4186",
         "source": "survey",
+        "source:addr": "FHRS Open Data",
         "website": "https://www.theparadisepalms.com/",
         "wheelchair": "no",
         "@id": "node/1770134132",
@@ -14528,6 +14533,7 @@
         "lgbtq:signed": "yes",
         "name": "Umpqua Bank",
         "opening_hours": "Mo-Fr 09:00-17:00",
+        "website": "https://locations.columbiabank.com/wa/seattle/539-broadway-east",
         "@id": "node/2077157837",
         "@type": "node"
       }
@@ -14629,6 +14635,7 @@
         "name": "U.S. Bank",
         "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
         "phone": "+1-206-720-0615",
+        "website": "https://www.usbank.com/locations/washington/seattle/135-broadway-e-bank/",
         "@id": "node/2077272329",
         "@type": "node"
       }
@@ -14691,8 +14698,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5274466,
-          33.7999918
+          -116.5274503,
+          33.7999747
         ]
       },
       "properties": {
@@ -15102,6 +15109,7 @@
         "lgbtq:signed": "yes",
         "name": "1st Security Bank",
         "opening_hours": "Mo-Fr 09:00-17:00",
+        "website": "https://www.fsbwa.com/locations/capitol-hill",
         "@id": "node/2131716946",
         "@type": "node"
       }
@@ -15222,6 +15230,7 @@
         "name": "Star",
         "official_name": "Star Fusion and Bar",
         "opening_hours": "Su-Th 16:00-21:00; Fr,Sa 16:00-21:30; Mo off",
+        "website": "https://starbroadway.com/",
         "@id": "node/2131717379",
         "@type": "node"
       }
@@ -15583,6 +15592,7 @@
         "name": "Hot Cakes",
         "opening_hours": "Mo-Th 16:00-23:00; Fr 16:00-24:00; Sa 15:00-24:00; Su 15:00-23:00",
         "takeaway": "yes",
+        "website": "https://getyourhotcakes.com/pages/cap",
         "wheelchair": "limited",
         "@id": "node/2158667123",
         "@type": "node"
@@ -15888,6 +15898,7 @@
         "name": "8to8 Dental",
         "opening_hours": "Mo,Fr 10:00-18:00; Tu-Th 09:00-20:00; Sa 09:00-16:00",
         "walk-in": "yes",
+        "website": "https://www.8to8dentalcare.com/broadway-location",
         "@id": "node/2158750705",
         "@type": "node"
       }
@@ -15915,6 +15926,7 @@
         "lgbtq:signed": "yes",
         "name": "Bank of America",
         "opening_hours": "Mo-Fr 09:00-16:00",
+        "website": "https://locators.bankofamerica.com/wa/seattle/financial-centers-seattle-16712.html",
         "@id": "node/2158750731",
         "@type": "node"
       }
@@ -16073,6 +16085,7 @@
         "shop": "garden_centre",
         "was:name": "Raven",
         "was:shop": "hairdresser",
+        "website": "https://theplantstore.com/",
         "@id": "node/2158768476",
         "@type": "node"
       }
@@ -16161,6 +16174,7 @@
         "lgbtq": "primary",
         "name": "CC's Seattle",
         "opening_hours": "Mo-Sa 15:00-02:00, Su 13:00-24:00",
+        "website": "https://www.ccsseattle.com/",
         "wikidata": "Q113289095",
         "@id": "node/2158768715",
         "@type": "node"
@@ -16188,6 +16202,7 @@
         "name": "Twice Sold Tales",
         "opening_hours": "Mo-Su 11:00-20:00",
         "shop": "books",
+        "website": "https://www.twicesoldtales.com/",
         "wheelchair": "yes",
         "@id": "node/2158768843",
         "@type": "node"
@@ -17450,6 +17465,7 @@
         "name": "Deep Roots",
         "opening_hours": "Su-Th 11:00-19:00; Fr,Sa 11:00-20:00",
         "shop": "tattoo",
+        "website": "https://beststudioever.com/pages/deep-roots-seattle",
         "@id": "node/2323794500",
         "@type": "node"
       }
@@ -20128,7 +20144,7 @@
         "addr:postcode": "SE11 5QY",
         "addr:street": "Kennington Lane",
         "amenity": "bar",
-        "check_date": "2024-06-22",
+        "check_date": "2026-09-12",
         "contact:facebook": "https://www.facebook.com/EagleLDN",
         "fhrs:authority": "Lambeth",
         "fhrs:id": "483429",
@@ -22059,6 +22075,7 @@
         "operator:type": "private",
         "operator:wikidata": "Q85727717",
         "operator:wikipedia": "en:1Life Healthcare",
+        "website": "https://www.onemedical.com/locations/sea/capitolhill/",
         "@id": "node/2939935901",
         "@type": "node"
       }
@@ -24870,7 +24887,7 @@
         "addr:street": "North Lincoln Street",
         "addr:unit": "103",
         "amenity": "cafe",
-        "check_date": "2026-08-17",
+        "check_date": "2026-09-13",
         "check_date:currency:XBT": "2026-02-06",
         "contact:email": "shay.n.shari@gmail.com",
         "contact:facebook": "https://www.facebook.com/p/Pink-Pony-Cafe-61561072055646",
@@ -57829,6 +57846,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.0490328,
+          47.8044243
+        ]
+      },
+      "properties": {
+        "addr:city": "Salzburg",
+        "addr:floor": "0",
+        "addr:housenumber": "72a",
+        "addr:postcode": "5020",
+        "addr:street": "Linzer Gasse",
+        "amenity": "cafe",
+        "check_date": "2026-04-25",
+        "check_date:diet:vegetarian": "2026-04-19",
+        "contact:instagram": "ratiocoffee_",
+        "cuisine": "coffee_shop;cake",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "dog": "yes",
+        "email": "hello@ratiocoffee.at",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Ratio Coffee",
+        "opening_hours": "Mo-Su,PH 08:00-18:00",
+        "operator": "Ratio Coffee e.U.",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "service:bicycle:pump": "yes",
+        "takeaway": "yes",
+        "toilets": "no",
+        "toilets:wheelchair": "no",
+        "website": "https://ratiocoffee.at/",
+        "wheelchair": "no",
+        "@id": "node/9969751618",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.0748795,
           41.9225138
         ]
@@ -58336,6 +58400,41 @@
         "smoking": "yes",
         "website": "https://www.fahrenheitcafe.com/",
         "@id": "node/10048663047",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9226272,
+          49.2123037
+        ]
+      },
+      "properties": {
+        "addr:city": "New Westminster",
+        "addr:housenumber": "610",
+        "addr:postcode": "V3L 5V1",
+        "addr:province": "BC",
+        "addr:street": "Sixth Avenue",
+        "addr:unit": "157",
+        "brand": "Winners",
+        "brand:wikidata": "Q845257",
+        "check_date:opening_hours": "2024-01-26",
+        "level": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Winners",
+        "opening_hours": "Mo-Tu 09:00-19:00; We-Th 09:00-21:00; Fr 08:00-21:00; Sa 09:00-19:00; Su 10:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "department_store",
+        "stroller": "yes",
+        "toilets": "no",
+        "wheelchair": "yes",
+        "@id": "node/10049761817",
         "@type": "node"
       }
     },
@@ -72737,6 +72836,7 @@
         "lgbtq:signed": "yes",
         "name": "Seasmith Coffee",
         "opening_hours": "Mo-Su 07:00-21:00",
+        "website": "https://www.seasmith.xyz/",
         "@id": "node/12550129812",
         "@type": "node"
       }
@@ -80050,6 +80150,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.4456156,
+          52.498984
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:floor": "0",
+        "addr:housenumber": "16",
+        "addr:postcode": "10997",
+        "addr:street": "Schlesische Straße",
+        "amenity": "bar",
+        "check_date": "2026-09-13",
+        "level": "0",
+        "lgbtq": "only",
+        "lgbtq:bi": "yes",
+        "lgbtq:gay": "no",
+        "lgbtq:intersex": "yes",
+        "lgbtq:lesbian": "yes",
+        "lgbtq:non_binary": "yes",
+        "lgbtq:trans": "yes",
+        "male": "no",
+        "name": "Stück",
+        "opening_hours": "Mo-We 18:00-01:00; Th-Sa 18:00-03:00",
+        "wheelchair": "no",
+        "@id": "node/13298612717",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -89.5902644,
           40.6958558
         ]
@@ -87129,6 +87262,65 @@
         "phone": "0564336577",
         "shop": "hairdresser",
         "@id": "node/14170018541",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1321305,
+          51.5129239
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "50",
+        "addr:street": "Old Compton Street",
+        "check_date": "2026-06-03",
+        "check_date:opening_hours": "2026-06-03",
+        "clothes": "gay",
+        "lgbtq": "primary",
+        "name": "Prowler Red",
+        "old_name": "DV8",
+        "opening_hours": "Mo-Th 10:30-21:30; Fr,Sa 10:30-22:30; Su 12:00-20:00",
+        "shop": "erotic",
+        "website": "https://www.fiftyanddean.com/",
+        "wheelchair": "no",
+        "@id": "node/14178896053",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1322501,
+          51.5128809
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "54",
+        "addr:postcode": "W1D 4UD",
+        "addr:street": "Old Compton Street",
+        "amenity": "pub",
+        "check_date": "2024-10-22",
+        "contact:website": "https://www.admiral-duncan.co.uk/soho",
+        "fhrs:id": "412536",
+        "lgbtq": "primary",
+        "name": "Admiral Duncan",
+        "operator": "Stonegate",
+        "operator:wikidata": "Q7619176",
+        "outdoor_seating": "no",
+        "source": "Bing;photographic_survey;tags copied from node",
+        "wheelchair": "no",
+        "wikidata": "Q4683676",
+        "wikipedia": "en:Admiral Duncan (pub)",
+        "@id": "node/14178896054",
         "@type": "node"
       }
     },
@@ -97926,122 +98118,6 @@
         "website": "https://www.chuo-sports.jp/",
         "wheelchair": "yes",
         "@id": "way/157214425",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -0.1321282,
-              51.5129851
-            ],
-            [
-              -0.1320761,
-              51.5129139
-            ],
-            [
-              -0.13214,
-              51.5128904
-            ],
-            [
-              -0.1321959,
-              51.5129637
-            ],
-            [
-              -0.1321864,
-              51.5129667
-            ],
-            [
-              -0.1321282,
-              51.5129851
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:country": "GB",
-        "addr:housenumber": "50",
-        "addr:street": "Old Compton Street",
-        "building": "yes",
-        "building:levels": "4",
-        "check_date": "2026-06-03",
-        "check_date:opening_hours": "2026-06-03",
-        "clothes": "gay",
-        "lgbtq": "primary",
-        "name": "Prowler Red",
-        "old_name": "DV8",
-        "opening_hours": "Mo-Th 10:30-21:30; Fr,Sa 10:30-22:30; Su 12:00-20:00",
-        "roof:colour": "grey",
-        "shop": "erotic",
-        "website": "https://www.fiftyanddean.com/",
-        "wheelchair": "no",
-        "@id": "way/157771425",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -0.1323637,
-              51.5129761
-            ],
-            [
-              -0.1322974,
-              51.5129964
-            ],
-            [
-              -0.1322566,
-              51.5129449
-            ],
-            [
-              -0.1321966,
-              51.5128697
-            ],
-            [
-              -0.1322642,
-              51.5128445
-            ],
-            [
-              -0.1323324,
-              51.5129347
-            ],
-            [
-              -0.1323637,
-              51.5129761
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:housenumber": "54",
-        "addr:postcode": "W1D 4UD",
-        "addr:street": "Old Compton Street",
-        "amenity": "pub",
-        "building": "retail",
-        "check_date": "2024-10-22",
-        "contact:website": "https://www.admiral-duncan.co.uk/soho",
-        "fhrs:id": "412536",
-        "lgbtq": "primary",
-        "name": "Admiral Duncan",
-        "operator": "Stonegate",
-        "operator:wikidata": "Q7619176",
-        "outdoor_seating": "no",
-        "ref:GB:uprn": "100023472159;10091858303;100023472371;100023472161;100023472160;10033630960",
-        "source": "Bing;photographic_survey;tags copied from node",
-        "wheelchair": "no",
-        "wikidata": "Q4683676",
-        "wikipedia": "en:Admiral Duncan (pub)",
-        "@id": "way/157779526",
         "@type": "way"
       }
     },
@@ -112774,6 +112850,8 @@
         "name": "Forest Park Branch Enoch Pratt Free Library",
         "opening_hours": "Mo,Th 10:00-20:00; Tu,We 10:00-17:30; Fr,Sa 10:00-17:00; Su, PH off",
         "operator": "Enoch Pratt Free Library",
+        "operator:type": "public",
+        "operator:wikidata": "Q69478541",
         "phone": "+1 410 396 0942",
         "source": "USGS Geonames",
         "source:lgbtq": "https://www.prattlibrary.org/about-us/diversity-equity-inclusion/the-pratt-stands-with-our-community/lgbtq-pride",
@@ -116087,6 +116165,7 @@
         "lgbtq": "primary",
         "name": "Seattle Eagle",
         "start_date": "1909",
+        "website": "http://www.seattleeagle.com/",
         "wikidata": "Q55138629",
         "@id": "way/434703405",
         "@type": "way"
