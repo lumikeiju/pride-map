@@ -12143,54 +12143,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.3923206,
-          49.0099102
-        ]
-      },
-      "properties": {
-        "addr:city": "Karlsruhe",
-        "addr:country": "DE",
-        "addr:housenumber": "227-229",
-        "addr:postcode": "76133",
-        "addr:street": "Kaiserstraße",
-        "air_conditioning": "yes",
-        "brand": "Rewe",
-        "brand:wikidata": "Q16968817",
-        "brand:wikipedia": "de:Rewe",
-        "check_date": "2026-06-22",
-        "check_date:diet:halal": "2025-07-22",
-        "check_date:diet:kosher": "2025-07-22",
-        "check_date:opening_hours": "2025-06-20",
-        "contact:phone": "+49 721 1208970",
-        "diet:halal": "no",
-        "diet:kosher": "no",
-        "diet:vegan": "yes",
-        "diet:vegetarian": "yes",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "level": "0",
-        "lgbtq:signed:small_pride_flag:inside": "yes",
-        "name": "REWE Schindler",
-        "opening_hours": "Mo-Sa 07:00-24:00",
-        "operator": "REWE Markt GmbH",
-        "payment:coins": "yes",
-        "payment:contactless": "yes",
-        "payment:girocard": "yes",
-        "payment:maestro": "yes",
-        "payment:mastercard": "yes",
-        "payment:notes": "yes",
-        "payment:visa": "yes",
-        "shop": "supermarket",
-        "wheelchair": "yes",
-        "@id": "node/1740059681",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           4.8903128,
           52.3665466
         ]
@@ -22433,6 +22385,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          21.053964,
+          52.2350956
+        ]
+      },
+      "properties": {
+        "addr:city": "Warszawa",
+        "addr:housenumber": "30",
+        "addr:street": "Francuska",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date": "2023-12-31",
+        "highchair": "yes",
+        "image:menu": "7808b617-a75e-4e99-a819-eeecb72f3eb6",
+        "image:menu:0": "54175bb1-abe3-4bb3-be74-44ad484fb879",
+        "image:menu:1": "6501c90c-6c3f-46cf-9097-af5590970fe6",
+        "image:menu:2": "7e56c9d0-6cdc-4d96-bd1e-cd9820ce1657",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Francuska 30",
+        "opening_hours": "Mo-We 08:00-22:00; Th 08:00-23:00; Fr 08:00-24:00; Sa 09:00-24:00; Su 09:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
+        "service:electricity": "limited",
+        "short_name": "F30",
+        "website": "https://www.facebook.com/francuska.trzydziesci",
+        "wheelchair": "no",
+        "@id": "node/3070274683",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.6511275,
           49.8708409
         ]
@@ -23342,9 +23331,11 @@
       },
       "properties": {
         "amenity": "bar",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Capital Club",
         "opening_hours": "17:00-02:00",
+        "outdoor_seating": "no",
         "phone": "+1 803-256-6464",
         "website": "https://www.capitalclubsc.com/",
         "@id": "node/3262280947",
@@ -24402,30 +24393,6 @@
         "source:date": "2011-06-24",
         "url": "http://turistautak.hu/poi.php?id=60562",
         "@id": "node/3439443261",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.615752,
-          39.3011291
-        ]
-      },
-      "properties": {
-        "addr:city": "Baltimore",
-        "addr:country": "US",
-        "addr:housenumber": "1001-1003",
-        "addr:postcode": "21201",
-        "addr:state": "MD",
-        "addr:street": "North Charles Street",
-        "check_date": "2023-01-16",
-        "disused:amenity": "nightclub",
-        "lgbtq": "primary",
-        "name": "Grand Central",
-        "@id": "node/3441789725",
         "@type": "node"
       }
     },
@@ -31493,55 +31460,6 @@
         "name:zh": "能盛興",
         "tourism": "guest_house",
         "@id": "node/4578601189",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.6324864,
-          51.9560274
-        ]
-      },
-      "properties": {
-        "addr:city": "Münster",
-        "addr:country": "DE",
-        "addr:housenumber": "7",
-        "addr:postcode": "48143",
-        "addr:street": "Herwarthstraße",
-        "air_conditioning": "no",
-        "amenity": "bar",
-        "brewery": "no",
-        "contact:instagram": "a_catkollektiv",
-        "contact:website": "https://a-cat.ms",
-        "drinking_water:refill": "yes",
-        "email": "info@a-cat.ms",
-        "indoor_seating": "yes",
-        "level": "0",
-        "lgbtq:signed:big_progress_pride_flag:outside": "yes",
-        "name": "a.cat",
-        "old_name": "Leo:16",
-        "opening_hours": "We-Th 19:00-24:00; Fr 19:00-02:00; Sa 14:00-02:00",
-        "operator": "Freygeist e.V.",
-        "outdoor_seating": "yes",
-        "payment:cash": "yes",
-        "payment:credit_cards": "no",
-        "payment:debit_cards": "no",
-        "phone": "+4915754420239",
-        "smoking": "outside",
-        "toilets": "yes",
-        "toilets:access": "public",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "toilets:number": "2",
-        "toilets:position": "seated",
-        "toilets:unisex": "yes",
-        "toilets:wheelchair": "no",
-        "website": "https://a-cat.ms",
-        "wheelchair": "limited",
-        "@id": "node/4579814594",
         "@type": "node"
       }
     },
@@ -47440,7 +47358,7 @@
         "lgbtq": "welcome",
         "name": "La Fierté",
         "opening_hours": "Tu-Sa 18:00-01:00",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "parklet",
         "wheelchair": "no",
         "@id": "node/7764506185",
         "@type": "node"
@@ -61197,6 +61115,7 @@
         "lgbtq:signed": "yes",
         "name": "203ºF Coffee Company",
         "payment:cash": "no",
+        "website": "https://www.203degreesfahrenheit.coffee/",
         "@id": "node/10891883062",
         "@type": "node"
       }
@@ -83528,8 +83447,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.8942692,
-          40.7631944
+          -111.8943859,
+          40.7631964
         ]
       },
       "properties": {
