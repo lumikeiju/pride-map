@@ -16833,6 +16833,59 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.4499426,
+          52.5077097
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "33",
+        "addr:postcode": "10243",
+        "addr:street": "Warschauer Straße",
+        "addr:suburb": "Friedrichshain",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "check_date": "2026-09-15",
+        "contact:phone": "+4930220127600",
+        "contact:website": "https://www.rewe.de/marktseite/berlin-friedrichhain/260043/rewe-markt-warschauer-str-33/",
+        "diet:vegan": "only",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "-REWE gratis WLAN-",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "REWE voll pflanzlich",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "operator": "REWE Dennis Henkelmann oHG",
+        "organic": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_card": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:girocard": "yes",
+        "payment:google_pay": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "stroller": "yes",
+        "toilets": "no",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes",
+        "@id": "node/2238828808",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           170.5061666,
           -45.8750048
         ]
@@ -21596,6 +21649,41 @@
         "source:date": "2014-05-20",
         "toilets": "yes",
         "@id": "node/2873511689",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7443952,
+          52.6313162
+        ]
+      },
+      "properties": {
+        "addr:city": "Alkmaar",
+        "addr:housenumber": "204A",
+        "addr:postcode": "1811EN",
+        "addr:street": "Laat",
+        "check_date": "2026-08-09",
+        "check_date:opening_hours": "2026-09-15",
+        "contact:facebook": "dequeerboekenkast",
+        "contact:instagram": "dequeerboekenkast",
+        "email": "contact@dequeerboekenkast.nl",
+        "internet_access": "wlan",
+        "lgbtq": "primary",
+        "name": "De Queer Boekenkast",
+        "note:housenumber": "2026-09-15: Normaal gesproken zijn huisnummers in Nl op de beganegrond zonder achtervoegsel. Website, facebook en KvK vermelden echter 204A",
+        "note:opening_hours": "2026-09-15: website en google gelijk, facebook wijkt af.",
+        "opening_hours": "We-Fr 10:00-17:00; Sa-Su 12:00-17:00",
+        "opening_hours:url": "https://www.dequeerboekenkast.nl/nl/pages/contact",
+        "shop": "books",
+        "source": "BAG",
+        "source:date": "2014-05-20",
+        "source:opening_hours": "website",
+        "website": "https://www.dequeerboekenkast.nl/",
+        "@id": "node/2876410875",
         "@type": "node"
       }
     },
@@ -28527,7 +28615,9 @@
         ]
       },
       "properties": {
+        "addr:city": "Helsinki",
         "addr:housenumber": "16",
+        "addr:postcode": "00120",
         "addr:street": "Uudenmaankatu",
         "amenity": "bar",
         "contact:email": "streetpridebar69@gmail.com",
@@ -34447,6 +34537,7 @@
         ]
       },
       "properties": {
+        "addr:city": "Helsinki",
         "addr:housenumber": "2",
         "addr:postcode": "00100",
         "addr:street": "Ateneuminkuja",
@@ -38077,7 +38168,7 @@
         "name": "Rinata",
         "opening_hours": "Mo-We, Fr-Su 19:00-23:00",
         "outdoor_seating": "no",
-        "phone": "3472910081",
+        "phone": "+39 347 2910081",
         "website": "https://btanas.github.io/pizzeria-rinata",
         "@id": "node/5897799250",
         "@type": "node"
@@ -39751,14 +39842,14 @@
         "addr:postcode": "D02 AX90",
         "addr:street": "Wicklow Street",
         "amenity": "pub",
-        "contact:facebook": "https://www.facebook.com/marysbardublin",
+        "contact:facebook": "marysbardublin",
         "contact:instagram": "@marysbardublin",
         "contact:twitter": "@MarysBarDublin",
         "email": "info@marysbar.ie",
         "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
-        "lgbtq:signed:big_pride_flag:outside": "yes",
+        "lgbtq:signed:outside": "big_pride_flag",
         "name": "Mary’s Bar & Hardware Shop",
         "outdoor_seating": "yes",
         "phone": "+353 1 670 8629",
@@ -39908,6 +39999,7 @@
         ]
       },
       "properties": {
+        "addr:city": "Helsinki",
         "addr:housenumber": "8",
         "addr:postcode": "00100",
         "addr:street": "Keskuskatu",
@@ -40329,7 +40421,9 @@
         ]
       },
       "properties": {
+        "addr:city": "Helsinki",
         "addr:housenumber": "9",
+        "addr:postcode": "00500",
         "addr:street": "Kulmavuorenkatu",
         "amenity": "bar",
         "lgbtq": "welcome",
@@ -50852,7 +50946,9 @@
         ]
       },
       "properties": {
+        "addr:city": "Helsinki",
         "addr:housenumber": "26",
+        "addr:postcode": "00530",
         "addr:street": "Hämeentie",
         "amenity": "cafe",
         "check_date": "2024-09-15",
@@ -50881,7 +50977,9 @@
         ]
       },
       "properties": {
+        "addr:city": "Helsinki",
         "addr:housenumber": "12",
+        "addr:postcode": "00100",
         "addr:street": "Mannerheimintie",
         "amenity": "bar",
         "level": "2",
@@ -51402,28 +51500,6 @@
         "lgbtq": "primary",
         "name": "Touche",
         "@id": "node/8991466459",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.6709737,
-          41.998418
-        ]
-      },
-      "properties": {
-        "addr:city": "Chicago",
-        "addr:housenumber": "6410",
-        "addr:postcode": "60626",
-        "addr:state": "IL",
-        "addr:street": "North Clark Street",
-        "lgbtq": "primary",
-        "name": "Leather 64ten",
-        "shop": "erotic",
-        "@id": "node/8991466460",
         "@type": "node"
       }
     },
@@ -62819,6 +62895,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          20.0380047,
+          50.0760809
+        ]
+      },
+      "properties": {
+        "amenity": "cafe",
+        "check_date:opening_hours": "2024-01-12",
+        "diet:vegetarian": "only",
+        "handwashing:soap": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Zgoda",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:disposal": "flush",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "toilets:hands_drying": "paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "@id": "node/11129166366",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -77.0272943,
           38.909517
         ]
@@ -70260,6 +70371,7 @@
         "addr:postcode": "61612",
         "addr:state": "IL",
         "addr:street": "State Street",
+        "amenity": "bar",
         "contact:email": "jessie@nightjarpeoria.com",
         "contact:phone": "+1-309-306-1449",
         "contact:website": "https://www.nightjarpeoria.com/",
@@ -84824,6 +84936,7 @@
       "properties": {
         "amenity": "bar",
         "lgbtq": "primary",
+        "name": "Il Colpo al Cerchio",
         "@id": "node/13978434755",
         "@type": "node"
       }
@@ -86634,10 +86747,11 @@
         "addr:housenumber": "52",
         "addr:street": "Dörpfeldstraße",
         "amenity": "doctors",
-        "check_date": "2026-08-23",
+        "check_date": "2026-09-15",
         "email": "ergotherapie-menschlich@posteo.de",
         "healthcare": "occupational_therapist",
         "level": "3",
+        "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Ergotherapie Mensch/ich",
         "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-14:00",
@@ -87240,6 +87354,39 @@
         "wikidata": "Q4683676",
         "wikipedia": "en:Admiral Duncan (pub)",
         "@id": "node/14178896054",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4861168,
+          48.7387148
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "516",
+        "addr:postcode": "98225",
+        "addr:state": "WA",
+        "addr:street": "High Street",
+        "addr:unit": "MS 9192",
+        "amenity": "community_centre",
+        "community_centre": "cultural_centre",
+        "community_centre:for": "lgbtq",
+        "contact:instagram": "lgbtqwestern",
+        "description": "LGBTQ+ Western works to advance the holistic thriving of diverse LGBTQ+ students, faculty and staff at Western Washington University by collaboratively engaging the university community with transformational knowledge, resources, advocacy and celebration.",
+        "email": "lgbtq@wwu.edu",
+        "image": "https://lgbtq.wwu.edu/sites/lgbtq.wwu.edu/files/2026-06/Transparent%20LGBTQ%2B.png",
+        "lgbtq": "primary",
+        "name": "LGBTQ+ Western",
+        "opening_hours": "Mon-Fri 8:00-5:00",
+        "operator": "Western Washington University",
+        "operator:type": "university",
+        "website": "https://lgbtq.wwu.edu",
+        "@id": "node/14183432914",
         "@type": "node"
       }
     },
@@ -115020,7 +115167,7 @@
         "addr:street": "Broadway",
         "branch": "Capitol Hill",
         "building": "retail",
-        "check_date": "2026-01-08",
+        "check_date": "2026-09-15",
         "craft": "brewery",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
