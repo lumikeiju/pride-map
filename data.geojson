@@ -11160,6 +11160,7 @@
         "air_conditioning": "no",
         "amenity": "bar",
         "brewery": "jupiler;goudale;entourloupe",
+        "check_date:opening_hours": "2026-09-16",
         "contact:facebook": "https://www.facebook.com/people/BTKC/100057508896806/",
         "contact:housenumber": "168",
         "contact:instagram": "https://www.instagram.com/btkc_/",
@@ -31196,7 +31197,9 @@
         "fhrs:id": "236164",
         "lgbtq": "primary",
         "name": "Powerhouse",
+        "opening_hours": "Fr,Sa 00:00-04:30, Sa 00:00-05:30; Su-Th off",
         "smoking": "outside",
+        "wheelchair": "no",
         "@id": "node/4504609173",
         "@type": "node"
       }
@@ -54659,23 +54662,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.4568628,
-          43.5978146
-        ]
-      },
-      "properties": {
-        "amenity": "nightclub",
-        "lgbtq:men": "only",
-        "name": "G-boy",
-        "@id": "node/9588734846",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -8.6071054,
           41.1514444
         ]
@@ -61190,6 +61176,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "203ºF Coffee Company",
+        "opening_hours": "Mo-Su 07:00-17:00",
         "payment:cash": "no",
         "website": "https://www.203degreesfahrenheit.coffee/",
         "@id": "node/10891883062",
@@ -74455,6 +74442,7 @@
       },
       "properties": {
         "amenity": "cafe",
+        "changing_table": "no",
         "description": "LGBTQIA+ bookstore serving coffee and drinks in a community oriented space",
         "email": "read@thepondcph.com",
         "fvst:navnelbnr": "1465250",
@@ -74462,10 +74450,14 @@
         "lgbtq": "primary",
         "name": "The Pond",
         "opening_hours": "Tu-Th 11:00-18:00; Fr-Sa 11:00-19:00; Su 11:00-18:00; Mo off",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "ref:DK:cvr": "44815494",
         "ref:DK:cvr:pnummer": "1030340589",
         "shop": "books",
+        "smoking": "no",
         "website": "https://www.thepondcph.com/",
+        "wheelchair": "no",
         "@id": "node/12798373367",
         "@type": "node"
       }
@@ -87379,14 +87371,51 @@
         "contact:instagram": "lgbtqwestern",
         "description": "LGBTQ+ Western works to advance the holistic thriving of diverse LGBTQ+ students, faculty and staff at Western Washington University by collaboratively engaging the university community with transformational knowledge, resources, advocacy and celebration.",
         "email": "lgbtq@wwu.edu",
-        "image": "https://lgbtq.wwu.edu/sites/lgbtq.wwu.edu/files/2026-06/Transparent%20LGBTQ%2B.png",
         "lgbtq": "primary",
+        "logo": "https://lgbtq.wwu.edu/sites/lgbtq.wwu.edu/files/2026-06/Transparent%20LGBTQ%2B.png",
         "name": "LGBTQ+ Western",
-        "opening_hours": "Mon-Fri 8:00-5:00",
+        "opening_hours": "Mo-Fr 08:00-17:00",
         "operator": "Western Washington University",
         "operator:type": "university",
         "website": "https://lgbtq.wwu.edu",
         "@id": "node/14183432914",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6737997,
+          50.1145259
+        ]
+      },
+      "properties": {
+        "addr:city": "Frankfurt am Main",
+        "addr:housenumber": "37-39",
+        "addr:postcode": "60313",
+        "addr:street": "Große Bockenheimer Straße",
+        "appointment": "recommended",
+        "email": "info@muscat-hairartist.de",
+        "female": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "male": "yes",
+        "name": "Muscat HairArtist - Dein Friseur in Frankfurt",
+        "opening_hours": "Tu-Fr 11:00-20:00; Sa 11:00-17:00",
+        "operator": "Lifestyle Concept GmbH",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 69 90029484",
+        "shop": "hairdresser",
+        "toilets": "yes",
+        "toilets:unisex": "yes",
+        "website": "https://muscat-hairartist.de/",
+        "wheelchair": "no",
+        "@id": "node/14184695686",
         "@type": "node"
       }
     },
@@ -87857,15 +87886,13 @@
       },
       "properties": {
         "addr:city": "San Diego",
-        "addr:city_1": "Hillcrest",
         "addr:housenumber": "3955",
         "addr:postcode": "92103",
         "addr:state": "CA",
         "addr:street": "4th Avenue",
         "amenity": "love_hotel",
-        "building": "yes",
+        "building": "commercial",
         "building:levels": "3",
-        "building_type": "commercial",
         "fee": "yes",
         "internet_access": "wlan",
         "lgbtq": "primary",
