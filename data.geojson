@@ -15310,7 +15310,7 @@
       },
       "properties": {
         "amenity": "pub",
-        "check_date": "2026-01-24",
+        "check_date": "2026-09-17",
         "lgbtq": "primary",
         "name": "Le George V",
         "ref:FR:SIRET": "91039299200012",
@@ -23846,10 +23846,10 @@
         "addr:postcode": "SE8 3BU",
         "addr:street": "Creek Road",
         "air_conditioning": "no",
-        "amenity": "bar",
         "brewery": "Guinness",
-        "check_date": "2026-08-14",
+        "check_date": "2026-09-17",
         "contact:facebook": "thedukedeptford",
+        "disused:amenity": "bar",
         "fhrs:id": "1790462",
         "internet_access": "no",
         "level": "0",
@@ -61344,6 +61344,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.585848,
+          53.7991285
+        ]
+      },
+      "properties": {
+        "addr:city": "Leeds",
+        "addr:housenumber": "Unit 2",
+        "addr:postcode": "LS12 2ND",
+        "addr:street": "Ledgard Way",
+        "amenity": "swingerclub",
+        "contact:phone": "+4407784309893;+4407521486764",
+        "contact:website": "https://www.pandoraswingers.com/",
+        "lgbtq": "welcome",
+        "membership": "required",
+        "min_age": "18",
+        "name": "Pandora Swingers Club Armley Leeds",
+        "not:brand:wikidata": "Q2241604",
+        "not:operator:wikidata": "Q2241604",
+        "short_name": "Pandora",
+        "smoking": "isolated",
+        "source:lgbtq": "https://www.pandoraswingers.com/faq",
+        "source:website": "https://www.pandoraswingers.com/",
+        "@id": "node/10926879536",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           24.1308372,
           56.9652699
         ]
@@ -63504,6 +63535,38 @@
         "website": "https://secretplace.pl/",
         "wheelchair": "yes",
         "@id": "node/11212264820",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9718489,
+          41.4494114
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "Via de l'Esport 3",
+        "addr:housenumber": "3",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "amenity": "social_facility",
+        "check_date": "2025-07-11",
+        "contact:phone": "+34 936 356402",
+        "email": "igualtat@sabarca.cat",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Punt LGTBI",
+        "name:ca": "Punt LGTBI",
+        "operator": "Ajuntament de Sant Andreu de la Barca",
+        "operator:type": "public",
+        "social_facility:for": "lgtbi",
+        "source": "Generalitat de Catalunya",
+        "wheelchair": "yes",
+        "@id": "node/11221461258",
         "@type": "node"
       }
     },
@@ -69710,7 +69773,7 @@
         "addr:street": "Rue Bergère",
         "amenity": "bar",
         "changing_table": "limited",
-        "check_date": "2026-05-22",
+        "check_date": "2026-09-18",
         "check_date:opening_hours": "2025-12-20",
         "contact:facebook": "Le_Barlone",
         "contact:instagram": "lebarlone",
@@ -70572,8 +70635,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.0350642,
-          33.9997689
+          -81.0352144,
+          33.9997226
         ]
       },
       "properties": {
@@ -70586,6 +70649,7 @@
         "amenity": "bar",
         "indoor_seating": "yes",
         "lgbtq": "primary",
+        "min_age": "21",
         "name": "PT's 1109",
         "opening_hours": "Mo-Su 17:00-02:00",
         "outdoor_seating": "no",
@@ -72499,6 +72563,24 @@
         "opening_hours": "Fr-Sa 23:00-04:00; Tu 23:00-04:00",
         "website": "https://www.theloftgaybar.com/",
         "@id": "node/12506891261",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4441916,
+          42.5246097
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "fixme": "Quelqu'un doit aller vérifier sur place car il est marqué comme possiblement fermé sur google maps",
+        "lgbtq": "primary",
+        "name": "Chez Philippe et Alexis",
+        "@id": "node/12511828901",
         "@type": "node"
       }
     },
@@ -84921,23 +85003,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.1433571,
-          44.0377795
-        ]
-      },
-      "properties": {
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "name": "Il Colpo al Cerchio",
-        "@id": "node/13978434755",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           153.4688278,
           -28.1348363
         ]
@@ -87283,7 +87348,7 @@
         "addr:street": "Via Vittorio Emanuele II",
         "lgbtq": "welcome",
         "name": "Martina Hair Studio",
-        "opening_hours": "Tu-We 09:00-12:45 & 15:00-19:00, Th-Sa 09:00-18:00",
+        "opening_hours": "Tu-We 09:00-12:45,15:00-19:00, Th-Sa 09:00-18:00",
         "phone": "0564336577",
         "shop": "hairdresser",
         "@id": "node/14170018541",
@@ -87416,6 +87481,23 @@
         "website": "https://muscat-hairartist.de/",
         "wheelchair": "no",
         "@id": "node/14184695686",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2173092,
+          42.4295214
+        ]
+      },
+      "properties": {
+        "lgbtq": "primary",
+        "name": "XXX Zone",
+        "shop": "erotic",
+        "@id": "node/14190234327",
         "@type": "node"
       }
     },
@@ -89882,6 +89964,62 @@
         "name": "Maison pour Tous",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "@id": "way/63699152",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.5927235,
+              40.7172541
+            ],
+            [
+              -89.5928817,
+              40.7172553
+            ],
+            [
+              -89.5928815,
+              40.717271
+            ],
+            [
+              -89.5930626,
+              40.7172724
+            ],
+            [
+              -89.5930597,
+              40.7174931
+            ],
+            [
+              -89.5927204,
+              40.7174905
+            ],
+            [
+              -89.5927235,
+              40.7172541
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "106",
+        "addr:postcode": "61614",
+        "addr:state": "IL",
+        "addr:street": "East McClure Avenue",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "cuisine": "chicken;ramen;bagel",
+        "diet:vegetarian": "yes",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "BrightSide Kitchen",
+        "outdoor_seating": "yes",
+        "website": "https://www.brightside.kitchen/",
+        "@id": "way/63861158",
         "@type": "way"
       }
     },
