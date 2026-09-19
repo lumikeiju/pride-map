@@ -2502,34 +2502,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.0259182,
-          52.2377806
-        ]
-      },
-      "properties": {
-        "addr:city": "Warszawa",
-        "addr:housenumber": "6",
-        "addr:postcode": "00-350",
-        "addr:street": "Topiel",
-        "check_date": "2024-06-14",
-        "email": "kontakt@heaven24.pl",
-        "lgbtq": "welcome",
-        "min_age": "18",
-        "name": "Heaven",
-        "opening_hours": "Mo-Sa 11:00-22:00; Su 13:00-19:00",
-        "phone": "+48 500 170 120",
-        "shop": "erotic",
-        "website": "https://www.heaven24.pl/",
-        "wheelchair": "limited",
-        "@id": "node/369632298",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.5557175,
           47.2127058
         ]
@@ -14753,8 +14725,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.1094896,
-          49.4926223
+          0.1095221,
+          49.4926294
         ]
       },
       "properties": {
@@ -14762,12 +14734,12 @@
         "contact:housenumber": "42",
         "contact:postcode": "76600",
         "contact:street": "Place de l'Hôtel de Ville",
+        "contact:website": "https://scandal-lh-shop.com/",
         "lgbtq": "primary",
         "name": "Scandal LH",
         "opening_hours": "Mo 10:00-19:00; Tu-Sa 09:30-19:30",
         "ref:FR:SIRET": "87956618000011",
         "shop": "erotic",
-        "website": "https://scandal-lh-shop.com/",
         "@id": "node/2111133639",
         "@type": "node"
       }
@@ -34695,7 +34667,7 @@
         "drink:wine": "yes",
         "lgbtq": "welcome",
         "name": "Ginger's Bar",
-        "opening_hours": "Tu-Su 14:00-02:00; Mo 17:00-01:00",
+        "opening_hours": "Mo-Th 17:00-01:00+,Fr 17:00-02:00+,Sa 14:00-02:00+,Su 14:00-01:00+",
         "outdoor_seating": "yes",
         "sport": "billiards",
         "website": "https://www.gingersbarbk.com/",
@@ -47237,6 +47209,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9735123,
+          41.4492764
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "11",
+        "addr:street": "Carrer del Sol",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "OMBicis",
+        "service:bicycle:pump": "no",
+        "shop": "bicycle",
+        "@id": "node/7661265970",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9729099,
+          41.4478377
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "18",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Font",
+        "alt_name": "Montse Guardia",
+        "contact:facebook": "https://www.facebook.com/floristeriamontseguardia",
+        "email": "florsidetallsmontseguardia@gmail.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "flors i detalls",
+        "name:ca": "flors i detalls",
+        "phone": "+34651731701",
+        "shop": "florist",
+        "@id": "node/7661265972",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.5938893,
           48.3799619
         ]
@@ -48536,6 +48558,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9740463,
+          41.4495209
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "29",
+        "addr:street": "Carrer del Sol",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Tintoreria Giribet, SL",
+        "phone": "+34 93 653 01 55",
+        "shop": "dry_cleaning",
+        "@id": "node/7816342995",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.3690351,
           51.3384801
         ]
@@ -49281,7 +49325,7 @@
         "outdoor_seating": "no",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
-        "phone": "0456012366",
+        "phone": "+358 45 6012366",
         "reservation": "yes",
         "takeaway": "no",
         "theme": "cat",
@@ -49351,6 +49395,31 @@
         "lgbtq": "welcome",
         "name": "Basement Event Bar",
         "@id": "node/8085958453",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9725107,
+          41.4479601
+        ]
+      },
+      "properties": {
+        "check_date": "2024-05-15",
+        "dog": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Optimus La Roda",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "hardware",
+        "wheelchair": "limited",
+        "@id": "node/8089948771",
         "@type": "node"
       }
     },
@@ -52939,6 +53008,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9720984,
+          41.4480888
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "2",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Sant Josep Oriol",
+        "addr:unit": "3",
+        "amenity": "cafe",
+        "check_date": "2024-05-15",
+        "dog": "outside",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Migas",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+34 93 004 74 65",
+        "wheelchair": "limited",
+        "@id": "node/9231326408",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -76.6304063,
           39.3313149
         ]
@@ -54095,6 +54197,36 @@
         "lgbtq": "primary",
         "name": "La LanGouste à BreTelles",
         "@id": "node/9458267263",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9725501,
+          41.4479021
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "26",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Font",
+        "check_date": "2024-05-15",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "todofoto",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+34 93 776 60 25",
+        "shop": "photo",
+        "website": "https://todofotoonline.es",
+        "wheelchair": "yes",
+        "@id": "node/9468022194",
         "@type": "node"
       }
     },
@@ -59443,6 +59575,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9737711,
+          41.4481342
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "32",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Major",
+        "clothes": "women",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "a 50 grados",
+        "shop": "clothes",
+        "@id": "node/10223357062",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.1239054,
           51.5356967
         ]
@@ -59656,7 +59812,7 @@
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
-        "phone": "0456700510",
+        "phone": "+358 45 6700510",
         "website": "https://restaurant-whatever.fi/",
         "@id": "node/10278807598",
         "@type": "node"
@@ -63557,8 +63713,9 @@
         "check_date": "2025-07-11",
         "contact:phone": "+34 936 356402",
         "email": "igualtat@sabarca.cat",
-        "lgbtq": "welcome",
+        "lgbtq": "primary",
         "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
         "name": "Punt LGTBI",
         "name:ca": "Punt LGTBI",
         "operator": "Ajuntament de Sant Andreu de la Barca",
@@ -94080,6 +94237,76 @@
         "name": "Dempsey's",
         "website": "http://www.dempseys-sheffield.com/",
         "@id": "way/103977459",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.4675226,
+              53.3766175
+            ],
+            [
+              -1.467426,
+              53.3765783
+            ],
+            [
+              -1.4674475,
+              53.3765591
+            ],
+            [
+              -1.4673871,
+              53.3765063
+            ],
+            [
+              -1.4674341,
+              53.3764831
+            ],
+            [
+              -1.4674837,
+              53.3764827
+            ],
+            [
+              -1.4675373,
+              53.3764823
+            ],
+            [
+              -1.4676259,
+              53.3765207
+            ],
+            [
+              -1.4675226,
+              53.3766175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sheffield",
+        "addr:housenumber": "86",
+        "addr:postcode": "S1 2BS",
+        "addr:street": "Brown Street",
+        "amenity": "pub",
+        "building": "pub",
+        "building:colour": "yellow",
+        "contact:phone": "+44 114 272 9003",
+        "fhrs:id": "437021",
+        "lgbtq:trans": "welcome",
+        "name": "Rutland Arms",
+        "opening_hours": "Mo-Sa 12:00-24:00; Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "real_ale": "yes",
+        "roof:colour": "grey",
+        "roof:shape": "mansard",
+        "source:addr": "FHRS Open Data",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited",
+        "@id": "way/104028036",
         "@type": "way"
       }
     },
