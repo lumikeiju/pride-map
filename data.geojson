@@ -14058,6 +14058,7 @@
         "addr:street": "Annenstraße",
         "air_conditioning": "yes",
         "amenity": "community_centre",
+        "check_date:opening_hours": "2026-09-19",
         "community_centre:for": "lgbtq",
         "description": "Die LGBTIQ Interessenvertretung in der Steiermark",
         "email": "info@homo.at",
@@ -17616,15 +17617,19 @@
         "addr:unit": "B",
         "alt_name": "Asylum",
         "amenity": "studio",
+        "check_date": "2026-09-19",
         "contact:email": "howdy@asylumcollective.org",
         "contact:instagram": "https://instagram.com/asylumseattle",
         "contact:phone": "+1-313-312-8003",
         "contact:website": "https://asylumcollective.org/",
         "description": "\"Third place\" artist space which also hosts social events on the weekends.",
         "image": "https://asylumcollective.org/assets/images/image01.png",
+        "internet_access": "wlan",
+        "level": "-1",
         "lgbtq": "welcome",
         "name": "Asylum Collective",
         "start_date": "2023",
+        "toilets": "yes",
         "wheelchair": "no",
         "@id": "node/2351711842",
         "@type": "node"
@@ -18215,6 +18220,7 @@
         "bar": "yes",
         "check_date": "2024-12-12",
         "cuisine": "regional",
+        "diet:vegetarian": "yes",
         "lgbtq": "welcome",
         "lgbtq:trans": "welcome",
         "name": "Toï Toï Le Zinc",
@@ -18231,7 +18237,6 @@
         "toilets": "yes",
         "toilets:menstrual_products": "yes",
         "toilets:wheelchair": "yes",
-        "vegetarian": "yes",
         "website": "https://toitoilezinc.fr/",
         "wheelchair": "yes",
         "@id": "node/2465120104",
@@ -24206,29 +24211,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3514985,
-          48.8634056
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "10",
-        "addr:postcode": "75003",
-        "addr:street": "Rue aux Ours",
-        "amenity": "nightclub",
-        "check_date": "2025-07-02",
-        "lgbtq": "primary",
-        "name": "Le Depot",
-        "smoking": "no",
-        "wheelchair": "no",
-        "@id": "node/3429408400",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           2.3511582,
           48.8652653
         ]
@@ -28873,8 +28855,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2755238,
-          -33.8891623
+          151.2756023,
+          -33.8891922
         ]
       },
       "properties": {
@@ -28883,6 +28865,8 @@
         "branch": "Bondi Beach",
         "brand": "Woolworths Metro",
         "brand:wikidata": "Q111772555",
+        "check_date": "2026-09-20",
+        "level": "0",
         "lgbtq": "welcome",
         "name": "Woolworths Metro",
         "opening_hours": "Mo-Su 06:00-24:00",
@@ -112046,8 +112030,8 @@
               39.3002148
             ],
             [
-              -76.6187063,
-              39.3002112
+              -76.6187064,
+              39.3002111
             ],
             [
               -76.6188638,
