@@ -50808,6 +50808,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.4611504,
+          40.7176253
+        ]
+      },
+      "properties": {
+        "addr:city": "Farmingdale",
+        "addr:housenumber": "47- 7",
+        "addr:postcode": "11735",
+        "addr:state": "NY",
+        "addr:street": "Boundary Avenue",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "NuBar",
+        "nysgissam:nysaddresspointid": "NASS323642",
+        "@id": "node/8783497962",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -77.5580542,
           43.1601139
         ]
@@ -58442,11 +58465,16 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "331",
+        "addr:postcode": "27701",
+        "addr:street": "West Main Street",
         "amenity": "bar",
+        "check_date": "2026-09-21",
+        "check_date:opening_hours": "2026-09-21",
         "lgbtq": "welcome",
         "min_age": "21",
         "name": "Arcana",
-        "opening_hours": "We-Su 18:00-24:00; PH off",
+        "opening_hours": "Su, Tu-Th 18:00-24:00; Fr-Sa 17:00-00:00",
         "phone": "+1-919-973-1675",
         "website": "https://arcanadurham.com/",
         "@id": "node/10030458244",
@@ -61532,7 +61560,7 @@
         "addr:postcode": "LS12 2ND",
         "addr:street": "Ledgard Way",
         "amenity": "swingerclub",
-        "contact:phone": "+4407784309893;+4407521486764",
+        "contact:phone": "+44 7784 309893; +44 7521 486764",
         "contact:website": "https://www.pandoraswingers.com/",
         "lgbtq": "welcome",
         "membership": "required",
@@ -87599,6 +87627,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4703678,
+          50.0993318
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1274/5",
+        "addr:postcode": "18000",
+        "addr:street": "Pod Plynojemem",
+        "amenity": "nightclub",
+        "check_date": "2026-09-14",
+        "check_date:opening_hours": "2026-09-14",
+        "contact:instagram": "xbar.prague",
+        "contact:twitter": "xbarprague",
+        "email": "xbarprague@icloud.com",
+        "lgbtq": "primary",
+        "name": "X Bar Prague",
+        "opening_hours": "Mo-Su 21:00-04:00",
+        "phone": "+420 775 520 797",
+        "website": "https://www.xbarprague.eu/",
+        "@id": "node/14179699501",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.4861168,
           48.7387148
         ]
@@ -87678,6 +87734,56 @@
         "name": "XXX Zone",
         "shop": "erotic",
         "@id": "node/14190234327",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6008638,
+          40.7160858
+        ]
+      },
+      "properties": {
+        "addr:city": "Hempstead",
+        "addr:housenumber": "260",
+        "addr:postcode": "11549",
+        "addr:state": "NY",
+        "addr:street": "Hofstra University",
+        "amenity": "school",
+        "community_centre": "cultural_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Office of Intercultural Engagement and Inclusion",
+        "operator": "Hugo Morales",
+        "operator:type": "university",
+        "website": "https://www.hofstra.edu/intercultural-engagement-inclusion/",
+        "@id": "node/14204608132",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8569603,
+          49.2763448
+        ]
+      },
+      "properties": {
+        "facebook": "https://www.facebook.com/blackberryartistssociety",
+        "instagram": "https://www.instagram.com/blackberrygiftshop/",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Blackberry Gift Shop",
+        "opening_hours": "Mo-Su 12:00-16:00",
+        "phone": "+1-604-931-2008 ext. 102",
+        "shop": "gift",
+        "website": "https://www.blackberrygiftshop.ca/",
+        "@id": "node/14205607823",
         "@type": "node"
       }
     },
@@ -100100,6 +100206,73 @@
         "name": "The London Hotel",
         "ref:GB:uprn": "100060736570;10090585918",
         "@id": "way/183445905",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.8573296,
+              49.2764247
+            ],
+            [
+              -122.8571746,
+              49.2764247
+            ],
+            [
+              -122.8571374,
+              49.2764247
+            ],
+            [
+              -122.8569978,
+              49.2764247
+            ],
+            [
+              -122.856997,
+              49.2763793
+            ],
+            [
+              -122.8569967,
+              49.276313
+            ],
+            [
+              -122.8569978,
+              49.27629
+            ],
+            [
+              -122.8573296,
+              49.27629
+            ],
+            [
+              -122.8573296,
+              49.2764247
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Port Moody",
+        "addr:housenumber": "2425",
+        "addr:postcode": "V3H 2B2",
+        "addr:street": "Saint Johns Street",
+        "alt_name": "Old City Hall",
+        "amenity": "arts_centre",
+        "building": "commercial",
+        "building:levels": "2",
+        "historic": "heritage_building",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "PoMo Arts Centre (Old City Hall);Port Moody Arts Centre;Port Moody Arts Centre (Old City Hall)",
+        "name:en": "Port Moody Arts Centre (Old City Hall)",
+        "opening_hours": "Mo-Fr 10:30-21:00; Sa, Su 10:00-16:30",
+        "phone": "+1-604-931-2008",
+        "smoking": "no",
+        "website": "https://www.pomoarts.ca/;https://pomoarts.ca/",
+        "@id": "way/184517500",
         "@type": "way"
       }
     },
@@ -119618,6 +119791,8 @@
         "outdoor_seating": "no",
         "service:electricity": "limited",
         "takeaway": "yes",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "yes",
         "@id": "way/524834105",
         "@type": "way"
       }
