@@ -7095,6 +7095,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -22.7341503,
+          64.8492953
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "342",
+        "addr:street": "Vegamót",
+        "amenity": "restaurant",
+        "changing_table": "yes",
+        "changing_table:fee": "no",
+        "cuisine": "burger;fish;fish_and_chips;grill;local",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lbgtq:signed": "yes",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Vegamót",
+        "opening_hours": "Mo-Su 10:00-21:30",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+354 788 9100",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.hotelsnaefellsnes.com/",
+        "wheelchair": "yes",
+        "@id": "node/930133855",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.4769833,
           49.4888914
         ]
@@ -12956,9 +12995,11 @@
         "addr:housenumber": "2A",
         "addr:postcode": "00500",
         "addr:street": "Kinaporinkatu",
+        "contact:instagram": "https://www.instagram.com/nurjatattoo",
         "lgbtq": "primary",
-        "name": "Nurja tattoo",
+        "name": "Nurja Tattoo",
         "shop": "tattoo",
+        "wheelchair": "limited",
         "@id": "node/1815854714",
         "@type": "node"
       }
@@ -22652,6 +22693,7 @@
         "min_age": "18",
         "name": "Boxer Bar",
         "opening_hours": "We 18:00-01:30; Th 18:00-02:00; Fr-Sa 18:00-03:00; So 18:00-01:30",
+        "outdoor_seating": "yes",
         "wheelchair": "yes",
         "@id": "node/3113655119",
         "@type": "node"
@@ -39898,6 +39940,7 @@
         "lgbtq": "primary",
         "name": "Strass Barcelona",
         "opening_hours": "Mo-Su 18:00-03:00",
+        "outdoor_seating": "yes",
         "@id": "node/6254618241",
         "@type": "node"
       }
@@ -53448,12 +53491,12 @@
         ]
       },
       "properties": {
-        "check_date": "2025-08-06",
-        "check_date:opening_hours": "2025-08-06",
+        "check_date": "2026-09-22",
+        "check_date:opening_hours": "2026-09-22",
         "contact:email": "info@chezbiclou.com",
         "lgbtq": "welcome",
         "name": "Chez Biclou",
-        "opening_hours": "Tu-Fr 09:00-12:30,13:30-19:00; Mo 14:00-19:00; Sa 10:00-17:00; Aug 2-Aug 25 : off",
+        "opening_hours": "Mo 14:00-19:00; Tu-Fr 09:00-12:30,13:30-19:00; Sa 10:00-17:00",
         "phone": "+33 3 88 10 9832",
         "ref:FR:SIRET": "50435715300031",
         "service:bicycle:pump": "yes",
@@ -63041,29 +63084,6 @@
         "name": "Armada",
         "shop": "erotic",
         "@id": "node/11108812969",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.1776687,
-          51.4781716
-        ]
-      },
-      "properties": {
-        "addr:city": "Cardiff",
-        "addr:housenumber": "2-4",
-        "addr:postcode": "CF10 1AE",
-        "addr:street": "Royal Arcade",
-        "fhrs:id": "1376153",
-        "lgbtq": "primary",
-        "name": "The Queer Emporium",
-        "shop": "clothes",
-        "website": "https://www.queeremporium.co.uk",
-        "@id": "node/11114823178",
         "@type": "node"
       }
     },
@@ -78245,6 +78265,7 @@
         "name": "Honey Bears Barcelona",
         "opening_hours": "Mo-Th 18:00-02:30; Fr-Sa 18:00-03:00; Su 18:00-02:30",
         "operator": "Believe Group",
+        "outdoor_seating": "yes",
         "website": "https://honeyfurrybar.com/",
         "@id": "node/13070261580",
         "@type": "node"
@@ -78396,11 +78417,11 @@
         "addr:postcode": "1053HM",
         "addr:street": "Jacob van Lennepstraat",
         "amenity": "bar",
+        "check_date": "2026-09-22",
         "contact:instagram": "pamela.amsterdam",
         "level": "0",
         "lgbtq": "primary",
         "name": "PAMELA",
-        "website": "https://pamela.amsterdam/",
         "@id": "node/13078340101",
         "@type": "node"
       }
@@ -85771,6 +85792,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.7595062,
+          -36.8648697
+        ]
+      },
+      "properties": {
+        "amenity": "swingerclub",
+        "lgbtq:gay": "only",
+        "min_age": "18",
+        "name": "Lateshift",
+        "phone": "+64 9 373 2657",
+        "website": "https://lateshift.co.nz",
+        "@id": "node/14040558413",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -115.4929112,
           32.6617527
         ]
@@ -90736,8 +90777,10 @@
         "addr:postcode": "61614",
         "addr:state": "IL",
         "addr:street": "East War Memorial Drive",
+        "air_conditioning": "yes",
         "amenity": "community_centre",
         "building": "commercial",
+        "building:levels": "2",
         "community_centre:for": "lgbtq",
         "internet_access": "wlan",
         "lgbtq": "primary",
@@ -102305,9 +102348,9 @@
         "addr:postcode": "89104",
         "addr:state": "NV",
         "addr:street": "East Sahara Avenue",
-        "addr:unit": "Suite 22B",
+        "addr:unit": "22B",
         "amenity": "nightclub",
-        "building": "yes",
+        "building": "retail",
         "contact:instagram": "https://www.instagram.com/badlandsbarlv/",
         "lgbtq": "primary",
         "name": "Badlands Saloon",
@@ -120198,74 +120241,6 @@
         "coordinates": [
           [
             [
-              -1.5585016,
-              52.7731866
-            ],
-            [
-              -1.5583239,
-              52.773246
-            ],
-            [
-              -1.5581544,
-              52.7730606
-            ],
-            [
-              -1.5581844,
-              52.7730506
-            ],
-            [
-              -1.5581505,
-              52.7730136
-            ],
-            [
-              -1.5582873,
-              52.7729949
-            ],
-            [
-              -1.5583083,
-              52.7730179
-            ],
-            [
-              -1.5583382,
-              52.7730079
-            ],
-            [
-              -1.5585016,
-              52.7731866
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Swadlincote",
-        "addr:housenumber": "21",
-        "addr:postcode": "DE11 9DG",
-        "addr:street": "West Street",
-        "alt_name": "The Queens Head",
-        "amenity": "community_centre",
-        "building": "yes",
-        "community_centre:for": "family;lgbtq",
-        "contact:facebook": "https://www.facebook.com/CRDerbyshire",
-        "email": "swad@crderbyshire.co.uk",
-        "lgbtq": "welcome",
-        "name": "Collective Hub",
-        "opening_hours": "Mo-Sa 09:00-23:00",
-        "operator": "Collective Revolution C.I.C",
-        "operator:type": "community",
-        "outdoor_seating": "no",
-        "phone": "+44 7883 509312",
-        "website": "https://crderbyshire.co.uk/",
-        "@id": "way/545909759",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -35.1827527,
               -5.8682651
             ],
@@ -130942,6 +130917,70 @@
         "website": "https://www.charliesphoenix.com",
         "wheelchair": "yes",
         "@id": "way/984959718",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.071514,
+              33.48541
+            ],
+            [
+              -112.071445,
+              33.485411
+            ],
+            [
+              -112.071445,
+              33.485399
+            ],
+            [
+              -112.071304,
+              33.485401
+            ],
+            [
+              -112.071307,
+              33.485567
+            ],
+            [
+              -112.07148,
+              33.485565
+            ],
+            [
+              -112.071479,
+              33.485522
+            ],
+            [
+              -112.071516,
+              33.485521
+            ],
+            [
+              -112.071514,
+              33.48541
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "52",
+        "addr:postcode": "85012",
+        "addr:state": "AZ",
+        "addr:street": "East Monterey Way",
+        "amenity": "clinic",
+        "building": "commercial",
+        "healthcare": "clinic",
+        "lgbtq": "primary",
+        "lgbtq:transgender": "primary",
+        "name": "Spectrum Medical",
+        "phone": "+1-602-604-9500",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://spectrummedicalcare.org/",
+        "@id": "way/986701469",
         "@type": "way"
       }
     },
