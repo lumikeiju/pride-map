@@ -4922,6 +4922,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6025416,
+          49.2003917
+        ]
+      },
+      "properties": {
+        "addr:city": "Brno",
+        "addr:conscriptionnumber": "359",
+        "addr:country": "CZ",
+        "addr:housenumber": "10",
+        "addr:postcode": "60200",
+        "addr:street": "Slovákova",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "check_date": "2026-09-09",
+        "check_date:opening_hours": "2026-05-14",
+        "contact:facebook": "vegalite",
+        "delivery": "yes",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "only",
+        "diet:vegetarian": "only",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "name": "Vegalité",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa 12:00-23:00",
+        "outdoor_seating": "no",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://vegalite.cz",
+        "wheelchair": "no",
+        "@id": "node/603039641",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.5194761,
           47.6249482
         ]
@@ -107619,6 +107664,7 @@
         "opening_hours": "Mo-Fr 14:00-02:30, Sa,Su 12:30-02:30",
         "outdoor_seating": "yes",
         "smoking": "outside",
+        "toilets:wheelchair": "yes",
         "wheelchair": "limited",
         "wikidata": "Q7736161",
         "wikimedia_commons": "Category:The_George,_Dublin",
@@ -135535,6 +135581,7 @@
         "name": "Kittitas Cafe",
         "opening_hours": "Mo-Su 06:00-14:00",
         "outdoor_seating": "yes",
+        "start_date": "2021-06-30",
         "takeaway": "yes",
         "toilets": "yes",
         "toilets:wheelchair": "designated",
