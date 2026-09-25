@@ -7848,12 +7848,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.7663309,
-          42.6591387
+          -73.766331,
+          42.659139
         ]
       },
       "properties": {
         "addr:city": "Albany",
+        "addr:housenumber": "76",
+        "addr:postcode": "12206-3002",
+        "addr:state": "NY",
+        "addr:street": "Central Avenue",
         "air_conditioning": "yes",
         "amenity": "pub",
         "atm": "yes",
@@ -11518,6 +11522,7 @@
         "amenity": "restaurant",
         "check_date": "2026-08-17",
         "cuisine": "italian;pasta;pizza",
+        "email": "pasticcio18contacts@gmail.com",
         "level": "0",
         "lgbtq": "yes",
         "name": "Pasticcio",
@@ -14384,12 +14389,15 @@
       },
       "properties": {
         "amenity": "bar",
+        "contact:housenumber": "1",
         "contact:instagram": "https://www.instagram.com/chezlesjumeaux",
+        "contact:street": "Rue André Mercadier",
         "level": "0",
         "lgbtq": "primary",
         "name": "Chez les Jumeaux",
         "opening_hours": "Su-Fr 16:00-02:00, Sa 16:00-03:00",
         "phone": "+33 5 61 42 37 82",
+        "ref:FR:SIRET": "10246678600013",
         "@id": "node/2051905786",
         "@type": "node"
       }
@@ -15118,15 +15126,20 @@
         "addr:street": "Broadway East",
         "addr:unit": "B",
         "amenity": "bar",
-        "check_date": "2026-01-28",
+        "check_date": "2026-09-22",
         "check_date:opening_hours": "2026-01-28",
+        "diet:vegetarian": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Bait Shop",
         "opening_hours": "Mo-Su 16:00-02:00",
+        "outdoor_seating": "yes",
         "phone": "+1-206-324-2635",
         "theme": "nautical",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
         "website": "https://www.baitshopseattle.com/",
+        "wheelchair": "yes",
         "@id": "node/2131716935",
         "@type": "node"
       }
@@ -15164,8 +15177,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3205321,
-          47.6249602
+          -122.3206262,
+          47.6250238
         ]
       },
       "properties": {
@@ -15174,7 +15187,7 @@
         "addr:postcode": "98102",
         "addr:street": "Broadway East",
         "amenity": "restaurant",
-        "check_date": "2026-03-14",
+        "check_date": "2026-09-23",
         "cuisine": "italian",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
@@ -61151,8 +61164,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.7872741,
-          42.6532114
+          -73.787274,
+          42.653211
         ]
       },
       "properties": {
@@ -61164,6 +61177,7 @@
         "amenity": "cafe",
         "lgbtq": "welcome",
         "name": "Mr. Bumbles Cafe",
+        "phone": "+1-518-818-0622",
         "website": "https://www.mrbumblescafe.com/",
         "@id": "node/10829882994",
         "@type": "node"
@@ -61795,14 +61809,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.7658737,
-          42.6592059
+          -73.765874,
+          42.659206
         ]
       },
       "properties": {
+        "addr:city": "Albany",
+        "addr:housenumber": "77",
+        "addr:postcode": "12206-3001",
+        "addr:state": "NY",
+        "addr:street": "Central Avenue",
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "Rocks",
+        "phone": "+1-518-472-3588",
+        "website": "http://www.rocks77.com/",
         "@id": "node/10948123454",
         "@type": "node"
       }
@@ -64795,7 +64816,7 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date:opening_hours": "2024-12-10",
+        "check_date:opening_hours": "2026-09-24",
         "lgbtq": "primary",
         "name": "El Compay",
         "opening_hours": "Mo-Su 08:00-20:00",
@@ -69838,11 +69859,11 @@
         "contact:instagram": "https://www.instagram.com/perthlaservision/",
         "contact:phone": "+61 8 9388 7773",
         "contact:website": "https://perthlaservision.com.au",
-        "fixme": "technically not an ophthalologist, as they only specialise in laser surgery",
         "healthcare": "doctor",
         "healthcare:speciality": "ophthalmology",
         "lgbtq": "welcome",
         "name": "Perth Laser Vision",
+        "note": "technically not an ophthalologist, as they only specialise in laser surgery",
         "wheelchair": "no",
         "@id": "node/12082416559",
         "@type": "node"
@@ -76130,6 +76151,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -93.2173694,
+          45.0510134
+        ]
+      },
+      "properties": {
+        "addr:city": "New Brighton",
+        "addr:housenumber": "151",
+        "addr:street": "Silver Lake Road Northwest",
+        "addr:unit": "114",
+        "contact:facebook": "https://www.facebook.com/luckystrains",
+        "contact:youtube": "https://www.youtube.com/@lucky_strains",
+        "email": "grow@luckystrains.gives",
+        "lgbtq": "welcome",
+        "name": "Lucky Strains",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-18:00",
+        "phone": "+1-651-424-6788",
+        "shop": "cannabis",
+        "website": "https://www.luckystrains.gives/",
+        "@id": "node/12947152963",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           113.3751679,
           22.5124671
         ]
@@ -77957,8 +78005,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.885929,
-          43.2365598
+          -2.8859402,
+          43.2365492
         ]
       },
       "properties": {
@@ -87876,6 +87924,49 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5418641,
+          42.8821497
+        ]
+      },
+      "properties": {
+        "addr:city": "Santiago de Compostela",
+        "addr:housenumber": "22",
+        "addr:postcode": "15704",
+        "addr:street": "Rúa da Algalia de Abaixo",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "mobile": "625407722",
+        "name": "Bloom",
+        "website": "http://www.bloomsantiago.com/",
+        "@id": "node/14212072112",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5778824,
+          43.863157
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "indoor_seating": "no",
+        "lgbtq:non_binary": "no",
+        "lgbtq:signed": "yes",
+        "name": "Bikini Beach Bar",
+        "outdoor_seating": "beach",
+        "@id": "node/14213581393",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -88414,8 +88505,7 @@
         "addr:state": "CA",
         "addr:street": "University Avenue",
         "amenity": "nightclub",
-        "building": "yes",
-        "building_type": "commercial",
+        "building": "commercial",
         "description": "LGBT nightclub with a bar and a stage for musical and other performances. No food served. Formerly called The Merrow, and prior to that The Ruby Room.",
         "lgbtq": "primary",
         "min_age": "21",
@@ -94671,14 +94761,21 @@
         "amenity": "bar",
         "building": "yes",
         "building:use": "commercial",
+        "check_date": "2026-09-24",
         "contact:facebook": "https://www.facebook.com/loreatl",
         "contact:instagram": "https://www.instagram.com/lore.atlanta",
         "cuisine": "international",
         "lgbtq": "primary",
         "min_age": "21",
         "name": "Lore",
+        "opening_hours": "Mo off; Tu-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 11:00-15:00,19:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 (404) 941-9294",
         "source": "image",
         "website": "https://loreatl.com/",
+        "wheelchair": "yes",
         "@id": "way/108653469",
         "@type": "way"
       }
@@ -101472,9 +101569,11 @@
         "addr:street": "Sunbridge Road",
         "amenity": "pub",
         "building": "yes",
+        "fhrs:id": "324630",
         "lgbtq": "primary",
         "name": "The Sun Hotel",
         "source": "Bing",
+        "source:addr": "FHRS Open Data",
         "@id": "way/201288857",
         "@type": "way"
       }
@@ -114560,9 +114659,13 @@
         "club": "computer",
         "contact:email": "mail@c3d2.de",
         "contact:mastodon": "@c3d2@c3d2.social",
+        "contact:matrix": "#c3d2:c3d2.de",
         "contact:website": "https://c3d2.de/space.html",
         "description": "Hackspace Chaos Computer Club Dresden",
         "drink:club-mate": "yes",
+        "drink:cola": "yes",
+        "drink:kolle-mate": "yes",
+        "drink:soft_drink": "yes",
         "fee": "no",
         "indoor": "room",
         "internet_access": "terminal;wlan",
@@ -131174,6 +131277,7 @@
       },
       "properties": {
         "addr:city": "Roma",
+        "addr:housenumber": "2",
         "addr:postcode": "00176",
         "addr:street": "Via Biordo Michelotti",
         "amenity": "nightclub",
@@ -141188,7 +141292,7 @@
         "amenity": "clinic",
         "branch": "Hammond Health Center",
         "building": "yes",
-        "healthcare": "counselling",
+        "healthcare": "clinic",
         "healthcare:counselling": "antenatal;sexual",
         "healthcare:speciality": "venereology;abortion;fertility",
         "lgbtq": "welcome",
@@ -144373,6 +144477,8 @@
         "name": "Hamilton Branch Enoch Pratt Free Library",
         "opening_hours": "Mo,Th 10:00-20:00; Tu,We 10:00-17:30; Fr,Sa 10:00-17:00; Su, PH off",
         "operator": "Enoch Pratt Free Library",
+        "operator:type": "public",
+        "operator:wikidata": "Q69478541",
         "phone": "+1 410 396 6088",
         "source": "USGS Geonames",
         "source:lgbtq": "https://www.prattlibrary.org/about-us/diversity-equity-inclusion/the-pratt-stands-with-our-community/lgbtq-pride",
