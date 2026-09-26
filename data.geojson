@@ -41934,7 +41934,8 @@
         "addr:housenumber": "19",
         "addr:street": "Calle Horno de Haza",
         "amenity": "bar",
-        "check_date": "2026-03-22",
+        "check_date": "2026-09-25",
+        "contact:instagram": "@tictacgranada",
         "drink:beer": "yes",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -86168,23 +86169,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.2787069,
-          -18.9232704
-        ]
-      },
-      "properties": {
-        "amenity": "pub",
-        "lgbtq": "primary",
-        "name": "Rainbow Pub",
-        "@id": "node/14059814741",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.9944612,
           50.2254833
         ]
@@ -87956,11 +87940,43 @@
       "properties": {
         "amenity": "bar",
         "indoor_seating": "no",
-        "lgbtq:non_binary": "no",
         "lgbtq:signed": "yes",
         "name": "Bikini Beach Bar",
+        "non_binary": "no",
         "outdoor_seating": "beach",
         "@id": "node/14213581393",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5797874,
+          45.4969987
+        ]
+      },
+      "properties": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2110",
+        "addr:province": "QC",
+        "addr:street": "Rue Mackay",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "contact:instagram": "centreforgenderadvocacy",
+        "lgbtq": "primary",
+        "lgbtq:trans": "primary",
+        "name": "Centre for Gender Advocacy",
+        "name:en": "Centre for Gender Advocacy",
+        "name:fr": "Centre de lutte contre l'oppression des genres",
+        "opening_hours": "Tu-Th 15:00-17:00",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "limited",
+        "website": "https://genderadvocacy.org/",
+        "wheelchair": "limited",
+        "@id": "node/14214730228",
         "@type": "node"
       }
     },
@@ -131213,6 +131229,57 @@
         "coordinates": [
           [
             [
+              -1.2437396,
+              51.7504122
+            ],
+            [
+              -1.243762,
+              51.7503611
+            ],
+            [
+              -1.243785,
+              51.7503154
+            ],
+            [
+              -1.2435743,
+              51.7502895
+            ],
+            [
+              -1.2435575,
+              51.7503699
+            ],
+            [
+              -1.2437396,
+              51.7504122
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Oxford",
+        "addr:housenumber": "15",
+        "addr:postcode": "OX4 1AB",
+        "addr:street": "St Clements Street",
+        "amenity": "nightclub",
+        "building": "yes",
+        "check_date": "2025-07-21",
+        "fhrs:id": "1708494",
+        "lgbtq": "primary",
+        "name": "Glamorous",
+        "operator": "Glamorous",
+        "source:lgbtq": "https://glamorous.bar/locations/oxford/",
+        "website": "https://glamorous.bar/locations/oxford/",
+        "@id": "way/988834884",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               12.538038,
               41.8925763
             ],
@@ -143414,6 +143481,68 @@
         "payment:credit_cards": "no",
         "website": "https://www.themaxomaha.com/",
         "@id": "way/1556413633",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.2788079,
+              -18.9232068
+            ],
+            [
+              -48.2787032,
+              -18.9231812
+            ],
+            [
+              -48.2786597,
+              -18.9233411
+            ],
+            [
+              -48.2787021,
+              -18.9233514
+            ],
+            [
+              -48.2787105,
+              -18.9233208
+            ],
+            [
+              -48.2787721,
+              -18.9233359
+            ],
+            [
+              -48.2787851,
+              -18.9232884
+            ],
+            [
+              -48.2788115,
+              -18.9232948
+            ],
+            [
+              -48.2788362,
+              -18.9232042
+            ],
+            [
+              -48.2788103,
+              -18.9231979
+            ],
+            [
+              -48.2788079,
+              -18.9232068
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "amenity": "pub",
+        "building": "yes",
+        "lgbtq": "primary",
+        "name": "Rainbow Pub",
+        "@id": "way/1562074765",
         "@type": "way"
       }
     },
