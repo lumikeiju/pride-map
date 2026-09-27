@@ -671,6 +671,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.1189275,
+          53.5460986
+        ]
+      },
+      "properties": {
+        "addr:city": "Wilhelmshaven",
+        "addr:country": "DE",
+        "addr:housenumber": "199",
+        "addr:postcode": "26386",
+        "addr:street": "Freiligrathstraße",
+        "addr:suburb": "Neuengroden",
+        "amenity": "cafe",
+        "brand": "Müller & Egerer",
+        "brand:wikidata": "Q64140618",
+        "check_date": "2025-07-30",
+        "check_date:opening_hours": "2025-07-30",
+        "contact:phone": "+49 4421 1844614",
+        "contact:website": "https://www.mueller-egerer.de/filialen/wilhelmshaven-freiligrathstrasse-199/",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "Müller & Egerer",
+        "opening_hours": "Mo-Fr 06:30-18:30; Sa 06:30-17:30; Su 07:00-15:00",
+        "operator": "Müller & Egerer Bäckerei Konditorei GmbH",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "shop": "bakery",
+        "@id": "node/282891587",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.1819291,
           51.3963369
         ]
@@ -8661,7 +8696,7 @@
         "addr:postcode": "2010",
         "addr:street": "Oxford Street",
         "amenity": "pub",
-        "check_date": "2024-08-02",
+        "check_date": "2026-09-26",
         "contact:email": "info@theoxfordhotel.com.au",
         "contact:fax": "+61 2 9331 3566",
         "contact:phone": "+61 2 9331 3467",
@@ -28211,6 +28246,7 @@
         "old_name": "Optical Express",
         "shop": "gift",
         "website": "https://thisshopissogay.com/",
+        "wheelchair": "no",
         "@id": "node/4014526321",
         "@type": "node"
       }
@@ -30616,32 +30652,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.549802,
-          47.2170498
-        ]
-      },
-      "properties": {
-        "amenity": "bar",
-        "check_date": "2026-07-14",
-        "contact:facebook": "Le-Plein-Sud-100057718795202",
-        "contact:housenumber": "2",
-        "contact:phone": "+33 2 40 47 06 03",
-        "contact:street": "Rue Prémion",
-        "lgbtq": "primary",
-        "name": "Le Plein Sud",
-        "note": "Ouverture effective à vérifier. Le Siret indiquait activité cessée.",
-        "opening_hours": "Mo,We-Su 15:00-02:00",
-        "opening_hours:signed": "no",
-        "wheelchair": "no",
-        "@id": "node/4405930389",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           4.3496425,
           50.8465438
         ]
@@ -32537,6 +32547,37 @@
         "source:date": "2017-03-07",
         "website": "https://www.tikiroom.nl/",
         "@id": "node/4722887346",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.000938,
+          49.2276164
+        ]
+      },
+      "properties": {
+        "addr:city": "Burnaby",
+        "addr:housenumber": "4700",
+        "addr:province": "BC",
+        "addr:street": "Kingsway",
+        "addr:unit": "E3",
+        "brand": "Winners",
+        "brand:wikidata": "Q845257",
+        "brand:wikipedia": "en:Winners",
+        "level": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Winners",
+        "opening_hours": "Tu-Sa 09:00-21:00; Su-Mo 10:00-19:00",
+        "phone": "+1-604-430-3457",
+        "shop": "kitchenware;clothes",
+        "website": "https://www.winners.ca/en/storelocator?store=372",
+        "wheelchair": "yes",
+        "@id": "node/4730148496",
         "@type": "node"
       }
     },
@@ -37336,6 +37377,82 @@
         "wikimedia_commons": "Category:Movimiento por la Diversidad Sexual",
         "wikipedia": "es:Movimiento por la Diversidad Sexual",
         "@id": "node/5683395349",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9688377,
+          48.0459162
+        ]
+      },
+      "properties": {
+        "addr:city": "Grafing bei München",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "85567",
+        "addr:street": "Rotter Straße",
+        "air_conditioning": "no",
+        "amenity": "bar",
+        "brewery": "Wildbräu;Kloster Scheyern;",
+        "changing_table": "no",
+        "check_date": "2025-07-25",
+        "contact:facebook": "https://www.facebook.com/jig.grafing",
+        "contact:instagram": "https://www.instagram.com/jig.grafing/",
+        "dog": "yes",
+        "drink:beer": "bottled",
+        "drink:club-mate": "bottled",
+        "drink:fritz-kola": "bottled",
+        "drink:tea": "served",
+        "email": "kontakt@jig-grafing.de",
+        "food": "no",
+        "handwashing:soap": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "JiG-GAST",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "live_music": "yes",
+        "microbrewery": "no",
+        "name": "Jugendinitiative Grafing",
+        "opening_hours": "We 19:00+; \"nach Vereinbarung\"",
+        "operator": "Jugendinitiative Grafing e.V.",
+        "outdoor_seating": "yes",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:notes": "yes",
+        "payment:qr_code": "no",
+        "phone": "+49 8092 2641086",
+        "reservation": "no",
+        "service:electricity": "yes",
+        "short_name": "JiG",
+        "smoking": "outside",
+        "snack": "yes",
+        "social_facility": "social_club",
+        "sport": "table_soccer;darts",
+        "start_date": "1984-10-11",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:fee": "no",
+        "toilets:hands_drying": "paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:level": "0.5",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "toilets:wash": "no",
+        "toilets:wheelchair": "no",
+        "tourism": "yes",
+        "website": "https://jig-grafing.de",
+        "wheelchair": "limited",
+        "wikidata": "Q140312492",
+        "@id": "node/5690930274",
         "@type": "node"
       }
     },
@@ -53527,6 +53644,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.1171329,
+          53.5290273
+        ]
+      },
+      "properties": {
+        "addr:city": "Wilhelmshaven",
+        "addr:country": "DE",
+        "addr:housenumber": "146",
+        "addr:postcode": "26384",
+        "addr:street": "Mühlenweg",
+        "amenity": "cafe",
+        "brand": "Müller & Egerer",
+        "brand:wikidata": "Q64140618",
+        "check_date": "2026-04-13",
+        "check_date:opening_hours": "2026-04-13",
+        "contact:phone": "+49 4421 7786872",
+        "contact:website": "https://www.mueller-egerer.de/filialen/wilhelmshaven-muehlenweg-146-im-rewe/",
+        "lgbtq": "welcome",
+        "name": "Müller & Egerer",
+        "opening_hours": "Mo-Sa 07:00-19:00; Su 07:00-12:00",
+        "operator": "Müller & Egerer Bäckerei und Konditorei GmbH",
+        "shop": "bakery",
+        "wheelchair": "yes",
+        "@id": "node/9287973048",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           113.0854702,
           27.8159204
         ]
@@ -57022,6 +57171,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.20356,
+          53.1428898
+        ]
+      },
+      "properties": {
+        "addr:city": "Oldenburg",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "26121",
+        "addr:street": "Auguststraße",
+        "brand": "Müller & Egerer",
+        "brand:wikidata": "Q64140618",
+        "check_date": "2024-08-23",
+        "contact:website": "https://www.mueller-egerer.de/filialen/oldenburg-auguststrasse-7-august-carree/",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Müller & Egerer",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-15:00; PH off",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "shop": "bakery",
+        "@id": "node/9873692722",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.6770343,
           45.6271223
         ]
@@ -58780,6 +58962,32 @@
         "phone": "+1-410-516-2452",
         "website": "https://studentaffairs.jhu.edu/lgbtq",
         "@id": "node/10055008574",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.998509,
+          49.2257915
+        ]
+      },
+      "properties": {
+        "addr:city": "Burnaby",
+        "addr:housenumber": "4820",
+        "addr:province": "BC",
+        "addr:street": "Kingsway",
+        "level": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Herschel Supply Co.",
+        "phone": "+1-604-423-4115",
+        "shop": "bag",
+        "website": "https://herschel.ca/",
+        "wheelchair": "yes",
+        "@id": "node/10066507720",
         "@type": "node"
       }
     },
@@ -87966,7 +88174,7 @@
         "community_centre:for": "lgbtq",
         "contact:instagram": "centreforgenderadvocacy",
         "lgbtq": "primary",
-        "lgbtq:trans": "primary",
+        "lgbtq:transgender": "primary",
         "name": "Centre for Gender Advocacy",
         "name:en": "Centre for Gender Advocacy",
         "name:fr": "Centre de lutte contre l'oppression des genres",
@@ -87977,6 +88185,58 @@
         "website": "https://genderadvocacy.org/",
         "wheelchair": "limited",
         "@id": "node/14214730228",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.111065,
+          53.5768177
+        ]
+      },
+      "properties": {
+        "addr:city": "Wilhelmshaven",
+        "addr:country": "DE",
+        "addr:housenumber": "94",
+        "addr:postcode": "26388",
+        "addr:street": "Flutstraße",
+        "addr:suburb": "Neuengroden",
+        "amenity": "cafe",
+        "brand": "Müller & Egerer",
+        "brand:wikidata": "Q64140618",
+        "check_date": "2026-09-25",
+        "check_date:opening_hours": "2025-07-30",
+        "contact:phone": "+49 4402 98680",
+        "contact:website": "https://www.mueller-egerer.de/filialen/wilhelmshaven-flutstrasse-94/",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "Müller & Egerer",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Müller & Egerer Bäckerei Konditorei GmbH",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "shop": "bakery",
+        "@id": "node/14220282168",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8862073,
+          50.7196165
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Queens",
+        "@id": "node/14220682578",
         "@type": "node"
       }
     },
