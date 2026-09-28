@@ -1635,10 +1635,13 @@
         "brand:wikidata": "Q1466184",
         "brand:wikipedia": "en:Harvey's",
         "cuisine": "breakfast;burger",
+        "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Harvey's",
         "opening_hours": "Mo 10:00-24:00; Tu-Sa 00:00-01:00,10:00-24:00; Su 00:00-02:00,10:00-24:00",
+        "outdoor_seating": "sidewalk",
         "phone": "+49 69 48004878",
+        "smoking": "outside",
         "takeaway": "yes",
         "website": "https://www.harveys-ffm.de",
         "wheelchair": "no",
@@ -37437,7 +37440,7 @@
         "social_facility": "social_club",
         "sport": "table_soccer;darts",
         "start_date": "1984-10-11",
-        "toilets": "yes",
+        "toilets": "separate",
         "toilets:access": "customers",
         "toilets:disposal": "flush",
         "toilets:fee": "no",
@@ -43042,7 +43045,7 @@
         "amenity": "restaurant",
         "changing_table": "yes",
         "changing_table:location": "female_toilet",
-        "check_date": "2024-09-28",
+        "check_date": "2026-09-27",
         "contact:facebook": "Pfannenzauber",
         "contact:instagram": "pz_pfannenzauber",
         "contact:phone": "+49 241 9610569",
@@ -43054,7 +43057,7 @@
         "diet:vegetarian": "yes",
         "email": "info@pfannenzauber-aachen.de",
         "indoor_seating": "yes",
-        "internet_access": "wlan",
+        "internet_access": "no",
         "lgbtq": "welcome",
         "name": "Pfannenzauber",
         "opening_hours": "Mo,Th 17:30-21:00; Fr 17:30-21:30; Sa 12:00-21:30; Su 12:00-21:00",
@@ -57171,6 +57174,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.1584091,
+          41.3807527
+        ]
+      },
+      "properties": {
+        "addr:city": "Barcelona",
+        "addr:housenumber": "100",
+        "addr:postcode": "08015",
+        "addr:street": "Carrer del Comte Borrell",
+        "check_date": "2026-08-07",
+        "contact:facebook": "proleliteraria",
+        "contact:instagram": "_la_prole",
+        "description": "Librería especializada en feminismos, libros LGBTIQA+ y antirracismo. Espacio cultural que reúne publicaciones, autoediciones y obras de artistas emergentes, además de organizar actividades, talleres y eventos con enfoque social.",
+        "email": "hola@prole.cat",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "la prole",
+        "opening_hours": "We-Sa 11:00-20:00; Su 11:00-15:00; Mo-Tu Off",
+        "phone": "+34 655808819",
+        "shop": "books",
+        "website": "https://www.prole.cat/",
+        "@id": "node/9872300274",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.20356,
           53.1428898
         ]
@@ -64718,6 +64751,7 @@
         "diet:vegan": "only",
         "lgbtq": "welcome",
         "name": "ტკბილიკო",
+        "name:be": "Ткбіліко",
         "name:en": "Tkbiliko",
         "name:ka": "ტკბილიკო",
         "name:ru": "ТКБИЛИКО",
