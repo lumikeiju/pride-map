@@ -43769,7 +43769,6 @@
         "addr:city": "Guelph",
         "addr:housenumber": "199",
         "addr:postcode": "N1E6T9",
-        "addr:province": "Ontario",
         "addr:street": "Victoria Road South",
         "addr:unit": "C8",
         "check_date": "2025-04-22",
@@ -46724,7 +46723,6 @@
         "addr:country": "CA",
         "addr:housenumber": "150",
         "addr:postcode": "N1H 0B4",
-        "addr:province": "ON",
         "addr:street": "Wellington Street East",
         "addr:unit": "103",
         "amenity": "restaurant",
@@ -69989,7 +69987,6 @@
         "addr:city": "Guelph",
         "addr:housenumber": "60",
         "addr:postcode": "N1E3B1",
-        "addr:province": "ON",
         "addr:street": "Ontario Street",
         "addr:unit": "B",
         "air_conditioning": "no",
@@ -73464,7 +73461,6 @@
         "addr:door": "406",
         "addr:housenumber": "147",
         "addr:postcode": "N1H4E8",
-        "addr:province": "ON",
         "addr:street": "Wyndham Street North",
         "addr:unit": "406",
         "check_date": "2025-03-24",
@@ -73798,7 +73794,6 @@
         "addr:city": "Guelph",
         "addr:housenumber": "42",
         "addr:postcode": "N1H3A2",
-        "addr:province": "ON",
         "addr:street": "Carden Street",
         "amenity": "community_centre",
         "check_date": "2025-05-21",
@@ -80074,7 +80069,6 @@
         "addr:city": "Guelph",
         "addr:housenumber": "85",
         "addr:postcode": "N1H 4J4",
-        "addr:province": "ON",
         "addr:street": "Norfolk Street",
         "addr:unit": "301",
         "check_date": "2025-10-14",
@@ -87353,6 +87347,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.6007301,
+          -34.9225672
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date": "2026-08-20",
+        "cuisine": "tea",
+        "description": "Fantasy themed teahouse serving homemade sweets, toasties, handblended teas.",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "level": "2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Three Of Cups",
+        "opening_hours": "Mo-Tu off; We-Th 10:30-17:30; Fr 10:30-19:00; Sa 10:30-17:00; Su 11:00-17:00",
+        "outdoor_seating": "no",
+        "reservation": "yes",
+        "wheelchair": "yes",
+        "@id": "node/14106659391",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.4362301,
           49.3164961
         ]
@@ -88203,7 +88226,7 @@
         "contact:facebook": "https://www.facebook.com/bloom.scq/",
         "email": "bloomsantiago@hotmail.com",
         "lgbtq": "primary",
-        "mobile": "625407722",
+        "mobile": "+34 625 40 77 22",
         "name": "Bloom",
         "website": "http://www.bloomsantiago.com/",
         "@id": "node/14212072112",
