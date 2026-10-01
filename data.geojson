@@ -8382,7 +8382,7 @@
         "entrance": "yes",
         "lgbtq": "primary",
         "name": "Knutschfleck",
-        "opening_hours": "Tu 11:00-19:00; We 10:00-15:00; Th 14:00-21:00",
+        "opening_hours": "Tu 15:00-19:00; We 10:00-15:00; Th 16:30-21:00",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "toilets:wheelchair": "no",
         "website": "https://www.knutschfleck-online.de/",
@@ -46769,8 +46769,7 @@
         "addr:street": "Prenzlauer Allee",
         "addr:suburb": "Prenzlauer Berg",
         "air_conditioning": "no",
-        "amenity": "cafe",
-        "check_date": "2026-03-03",
+        "check_date": "2026-09-30",
         "contact:email": "hi@princepeach.de",
         "contact:instagram": "princepeachberlin",
         "contact:website": "http://princepeach.de/",
@@ -46779,6 +46778,7 @@
         "diet:raw": "yes",
         "diet:vegan": "only",
         "diet:vegetarian": "yes",
+        "disused:amenity": "cafe",
         "indoor_seating": "yes",
         "internet_access": "wlan",
         "internet_access:fee": "no",
@@ -81548,10 +81548,22 @@
         "addr:housenumber": "4",
         "addr:postcode": "00530",
         "addr:street": "Kaikukatu",
-        "amenity": "bar",
+        "amenity": "nightclub",
+        "cocktails": "yes",
+        "contact:instagram": "https://www.instagram.com/h2o2.bar",
+        "indoor_seating": "yes",
+        "level": "-1",
         "lgbtq": "primary",
+        "lgbtq:men": "primary",
+        "lgbtq:trans": "primary",
+        "lgbtq:women": "primary",
         "min_age": "20",
         "name": "H₂O₂ Bar",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://h2o2.bar/",
         "@id": "node/13415369402",
         "@type": "node"
       }
@@ -84309,6 +84321,32 @@
         "lgbtq": "primary",
         "name": "El Casino",
         "@id": "node/13716075768",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0853007,
+          45.7755901
+        ]
+      },
+      "properties": {
+        "addr:city": "Clermont-Ferrand",
+        "addr:housenumber": "16",
+        "addr:postcode": "63000",
+        "addr:street": "Rue du Maréchal de Lattre de Tassigny et de la Première Armée",
+        "amenity": "pub",
+        "description": "Bar à bière craft • Breuvages Nat & Éthique• Événements • Lieu de vie inclusif à Clermont-Ferrand🪻",
+        "lgbtq": "welcome",
+        "live_music": "yes",
+        "microbrewery": "yes",
+        "name": "Fermenté.e",
+        "opening_hours": "Tu,We 17:00-00:00; Th-Sa 17:00-01:00; Mo 17:00-23:00",
+        "website": "https://www.instagram.com/fermente.e/",
+        "@id": "node/13749616728",
         "@type": "node"
       }
     },
@@ -88340,6 +88378,32 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6191782,
+          39.3016624
+        ]
+      },
+      "properties": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "227",
+        "addr:postcode": "21201",
+        "addr:state": "MD",
+        "addr:street": "West Chase Street",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/leonsbackroom/",
+        "contact:instagram": "https://www.instagram.com/leons.backroom",
+        "lgbtq": "primary",
+        "name": "Leon's Backroom",
+        "opening_hours": "16:00-02:00",
+        "phone": "+1-410-539-4850",
+        "@id": "node/14234774353",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -91528,55 +91592,6 @@
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "wikidata": "Q55186130",
         "@id": "way/65203666",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.0401856,
-              43.6985094
-            ],
-            [
-              1.0402577,
-              43.6984546
-            ],
-            [
-              1.0403345,
-              43.6983961
-            ],
-            [
-              1.0405091,
-              43.698516
-            ],
-            [
-              1.0403601,
-              43.6986293
-            ],
-            [
-              1.040268,
-              43.698566
-            ],
-            [
-              1.0401856,
-              43.6985094
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "amenity": "community_centre",
-        "building": "yes",
-        "community_centre:for": "lgbtq",
-        "lgbtq": "primary",
-        "roof:material": "roof_tiles",
-        "roof:shape": "hipped",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-        "@id": "way/65239754",
         "@type": "way"
       }
     },
