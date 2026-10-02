@@ -11811,6 +11811,7 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "X Bar",
+        "phone": "+1-303-832-2687",
         "website": "https://www.xbardenver.com/",
         "@id": "node/1710264108",
         "@type": "node"
@@ -59950,6 +59951,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -94.5792329,
+          39.0910608
+        ]
+      },
+      "properties": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "1814",
+        "addr:postcode": "64108",
+        "addr:state": "MO",
+        "addr:street": "McGee Street",
+        "clothes": "wedding",
+        "lgbtq": "welcome",
+        "name": "Savvy Bridal",
+        "shop": "clothes",
+        "website": "https://savvybridalboutique.com/",
+        "women_owned": "yes",
+        "@id": "node/10218480182",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -46.6499405,
           -23.5445565
         ]
@@ -60252,34 +60278,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5586485,
-          51.3170465
-        ]
-      },
-      "properties": {
-        "addr:full": "Pride Hub, Unit 6 Centrium Station Approach Woking GU22 7PA",
-        "addr:housename": "Centrium",
-        "addr:housenumber": "6",
-        "addr:street": "Station Approach",
-        "contact:email": "hello@prideinsurrey.org",
-        "contact:instagram": "https://www.instagram.com/hubpride/",
-        "contact:phone": "+44 1483 663700",
-        "contact:website": "https://www.prideinsurrey.org/pridehub",
-        "gift": "lgbtq",
-        "level": "0",
-        "lgbtq": "primary",
-        "name": "Pride Hub",
-        "operator": "Pride in Surrey",
-        "shop": "gift",
-        "@id": "node/10280196937",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.4434788,
           52.479807
         ]
@@ -60297,34 +60295,6 @@
         "start_date": "2022",
         "wheelchair": "yes",
         "@id": "node/10280888671",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.5586708,
-          51.3170631
-        ]
-      },
-      "properties": {
-        "addr:full": "Pride Hub, Unit 6 Centrium Station Approach Woking GU22 7PA",
-        "addr:housename": "Centrium",
-        "addr:housenumber": "6",
-        "addr:street": "Station Approach",
-        "amenity": "community_centre",
-        "community_centre:for": "lgbtq",
-        "contact:email": "hello@prideinsurrey.org",
-        "contact:instagram": "https://www.instagram.com/hubpride/",
-        "contact:phone": "+44 1483 663700",
-        "contact:website": "https://www.prideinsurrey.org/pridehub",
-        "level": "0",
-        "lgbtq": "primary",
-        "name": "Pride Hub",
-        "operator": "Pride in Surrey",
-        "@id": "node/10302034957",
         "@type": "node"
       }
     },
@@ -123034,7 +123004,7 @@
         "alt_name": "Rosa Bonheur",
         "amenity": "bar",
         "building": "houseboat",
-        "check_date": "2026-07-19",
+        "check_date": "2026-10-02",
         "check_date:opening_hours": "2026-07-19",
         "email": "info@rosabonheursurseine.fr",
         "lgbtq": "welcome",
@@ -143920,6 +143890,113 @@
         "lgbtq": "primary",
         "name": "Rainbow Pub",
         "@id": "way/1562074765",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -47.3356749,
+              -22.7455074
+            ],
+            [
+              -47.3356529,
+              -22.7455457
+            ],
+            [
+              -47.3356156,
+              -22.7455276
+            ],
+            [
+              -47.3356018,
+              -22.7455516
+            ],
+            [
+              -47.3356385,
+              -22.7455695
+            ],
+            [
+              -47.3356118,
+              -22.7456159
+            ],
+            [
+              -47.3355311,
+              -22.7455765
+            ],
+            [
+              -47.3355935,
+              -22.7454677
+            ],
+            [
+              -47.3356749,
+              -22.7455074
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Americana",
+        "addr:housenumber": "416",
+        "addr:postcode": "13465-240",
+        "addr:street": "Avenida Brasil",
+        "addr:suburb": "Vila Medon",
+        "building": "retail",
+        "lgbtq": "welcome",
+        "name": "Julian Magossi",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-18:00",
+        "shop": "tattoo",
+        "website": "https://julianmagossi.com.br/",
+        "@id": "way/1564253867",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -47.3355809,
+              -22.7454309
+            ],
+            [
+              -47.3355067,
+              -22.7455591
+            ],
+            [
+              -47.3354175,
+              -22.7455153
+            ],
+            [
+              -47.3354917,
+              -22.745387
+            ],
+            [
+              -47.3355809,
+              -22.7454309
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Americana",
+        "addr:housenumber": "394",
+        "addr:postcode": "13465-770",
+        "addr:street": "Avenida Brasil",
+        "addr:suburb": "Santo Antônio",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "pizza",
+        "lgbtq": "welcome",
+        "name": "Bella Capri",
+        "phone": "08007659999",
+        "website": "http://bellacapri.com.br/",
+        "@id": "way/1564253868",
         "@type": "way"
       }
     },
