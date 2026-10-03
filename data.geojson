@@ -8376,6 +8376,7 @@
         "addr:housenumber": "163",
         "addr:postcode": "52064",
         "addr:street": "Jakobstraße",
+        "air_conditioning": "no",
         "amenity": "community_centre",
         "community_centre:for": "lgbtq",
         "description": "LGBTQ Jugendtreff",
@@ -11467,6 +11468,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.6430105,
+          44.7564301
+        ]
+      },
+      "properties": {
+        "addr:city": "Traverse City",
+        "addr:housenumber": "1200",
+        "addr:postcode": "49684",
+        "addr:state": "MI",
+        "addr:street": "West Eleventh Street",
+        "addr:unit": "#101",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Cuppa Joe",
+        "opening_hours": "Mo-Su 08:00-15:00",
+        "outdoor_seating": "no",
+        "website": "http://www.cuppajoetc.com/",
+        "@id": "node/1656116959",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.11629,
           52.0949261
         ]
@@ -13344,39 +13375,6 @@
         "wheelchair": "no",
         "wikidata": "Q46008981",
         "@id": "node/1875593753",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3424928,
-          52.4990172
-        ]
-      },
-      "properties": {
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "33",
-        "addr:postcode": "10777",
-        "addr:street": "Fuggerstraße",
-        "addr:suburb": "Schöneberg",
-        "amenity": "nightclub",
-        "contact:email": "info@connection-berlin.de",
-        "contact:fax": "+49 30 2177686",
-        "contact:phone": "+49 30 2181432",
-        "contact:website": "http://www.connection-berlin.de",
-        "cruising": "yes",
-        "lgbtq": "primary",
-        "lgbtq:cruising": "yes",
-        "lgbtq:men": "only",
-        "name": "Connection",
-        "opening_hours": "Mo-Th 10:00-01:00, Fr-Sa 10:00-05:00, Su 14:00-01:00",
-        "operator": "Michael Sonntag, Michael Klatt",
-        "wheelchair": "limited",
-        "@id": "node/1882869375",
         "@type": "node"
       }
     },
@@ -22442,7 +22440,7 @@
         "addr:postcode": "75004",
         "addr:street": "Rue Sainte-Croix de la Bretonnerie",
         "amenity": "restaurant",
-        "check_date": "2026-07-29",
+        "check_date": "2026-10-02",
         "check_date:diet:vegetarian": "2026-07-29",
         "cuisine": "burger",
         "diet:vegetarian": "yes",
@@ -36411,6 +36409,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -2.5828975,
+          51.4490936
+        ]
+      },
+      "properties": {
+        "addr:city": "Bristol",
+        "addr:housename": "Passenger Shed",
+        "addr:postcode": "BS1 6QH",
+        "addr:street": "Approach Road",
+        "addr:suburb": "Redcliffe",
+        "amenity": "nightclub",
+        "check_date": "2026-10-02",
+        "fhrs:id": "906750",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "live_music": "yes",
+        "name": "Loco Klub",
+        "source:addr": "FHRS Open Data",
+        "@id": "node/5434139606",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           37.6000256,
           55.7669844
         ]
@@ -38496,6 +38521,30 @@
         "website": "https://osalonmtl.ca",
         "wheelchair": "no",
         "@id": "node/5937571630",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8169663,
+          41.3243781
+        ]
+      },
+      "properties": {
+        "addr:city": "Tirana",
+        "addr:postcode": "1001",
+        "addr:street": "Rruga Reshit Çollaku",
+        "amenity": "bar",
+        "check_date": "2025-06-15",
+        "level": "0",
+        "lgbtq": "primary",
+        "name": "DOT the bar",
+        "opening_hours": "TH-SU 18:00-01:00",
+        "phone": "+355676880348",
+        "@id": "node/5942100385",
         "@type": "node"
       }
     },
@@ -54563,6 +54612,24 @@
         "website": "https://todofotoonline.es",
         "wheelchair": "yes",
         "@id": "node/9468022194",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9736495,
+          41.4482203
+        ]
+      },
+      "properties": {
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "shop": "tobacco",
+        "@id": "node/9468022197",
         "@type": "node"
       }
     },
@@ -83386,6 +83453,7 @@
         "operator": "Johanniter-Unfall-Hilfe e.V.",
         "operator:type": "ngo",
         "operator:wikidata": "Q14751117",
+        "phone": "+49 341 224760-0",
         "website": "https://www.johanniter.de/bildungseinrichtungen/johanniter-akademie/johanniter-akademie-mitteldeutschland/standorte-der-akademie-in-mitteldeutschland/campus-leipzig/",
         "@id": "node/13645655173",
         "@type": "node"
@@ -88374,6 +88442,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2208208,
+          53.4594378
+        ]
+      },
+      "properties": {
+        "amenity": "clinic",
+        "healthcare": "yes",
+        "hiv:test": "yes",
+        "infection:hiv": "yes",
+        "level": "0",
+        "lgbtq:transgender": "welcome",
+        "name": "Hathersage Centre",
+        "@id": "node/14242812982",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -90489,6 +90578,51 @@
         "min_age": "18",
         "roof:shape": "gabled",
         "@id": "way/47974809",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.1431855,
+              49.6129692
+            ],
+            [
+              6.1430657,
+              49.6128631
+            ],
+            [
+              6.1431946,
+              49.612801
+            ],
+            [
+              6.1433133,
+              49.6129079
+            ],
+            [
+              6.1431855,
+              49.6129692
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Luxembourg",
+        "addr:country": "LU",
+        "addr:housenumber": "5",
+        "addr:postcode": "2165",
+        "addr:street": "Rives de Clausen",
+        "amenity": "bar",
+        "building": "yes",
+        "layer": "1",
+        "lgbtq": "primary",
+        "name": "Dorothy's",
+        "opening_hours": "We-Sa 18:00-01:00",
+        "@id": "way/48993767",
         "@type": "way"
       }
     },
@@ -99732,6 +99866,86 @@
         "coordinates": [
           [
             [
+              -2.5895256,
+              51.4543898
+            ],
+            [
+              -2.5893944,
+              51.4542778
+            ],
+            [
+              -2.5892664,
+              51.4543379
+            ],
+            [
+              -2.5891582,
+              51.4543853
+            ],
+            [
+              -2.5893319,
+              51.4545335
+            ],
+            [
+              -2.5893404,
+              51.4545408
+            ],
+            [
+              -2.5893714,
+              51.4545669
+            ],
+            [
+              -2.589619,
+              51.4544694
+            ],
+            [
+              -2.5895256,
+              51.4543898
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Bristol",
+        "addr:postcode": "BS1 6EU",
+        "addr:street": "Hawkins Lane",
+        "addr:suburb": "Finzels Reach",
+        "amenity": "pub",
+        "brewery": "various",
+        "building": "retail",
+        "check_date": "2026-10-02",
+        "check_date:diet:vegan": "2026-10-02",
+        "check_date:diet:vegetarian": "2026-10-02",
+        "check_date:smoking": "2026-10-02",
+        "craft": "brewery",
+        "cuisine": "pizza",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "only",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "layer": "1",
+        "level": "0;1;2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Left Handed Giant Brewpub",
+        "opening_hours": "Mo-Tu 16:00-24:00; We-Su 12:00-24:00",
+        "operator": "Left Handed Giant",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:GB:uprn": "346261",
+        "smoking": "no",
+        "website": "https://lefthandedgiant.com/pages/custom-pages/brewpub",
+        "@id": "way/168520363",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -122.3221183,
               47.6181591
             ],
@@ -103824,76 +104038,6 @@
         "toilets:menstrual_products": "yes",
         "wikidata": "Q26405543",
         "@id": "way/217295483",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.3748518,
-              47.6630349
-            ],
-            [
-              -122.374852,
-              47.6633077
-            ],
-            [
-              -122.3748522,
-              47.6635498
-            ],
-            [
-              -122.3742913,
-              47.6635499
-            ],
-            [
-              -122.3742913,
-              47.6634406
-            ],
-            [
-              -122.374254,
-              47.6634406
-            ],
-            [
-              -122.3739933,
-              47.6634407
-            ],
-            [
-              -122.373993,
-              47.6630351
-            ],
-            [
-              -122.3748518,
-              47.6630349
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Seattle",
-        "addr:housenumber": "1401",
-        "addr:postcode": "98107",
-        "addr:state": "WA",
-        "addr:street": "Northwest Leary Way",
-        "amenity": "place_of_worship",
-        "building": "yes",
-        "building:levels": "1",
-        "check_date": "2024-06-01",
-        "lgbtq": "welcome",
-        "name": "Quest Church",
-        "opening_hours": "Su 09:30-12:45",
-        "religion": "christian",
-        "roof:shape": "flat",
-        "service_times": "Su 10:00",
-        "source": "King County GIS;data.seattle.gov;https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=2768302590",
-        "source:lgbtq": "https://seattlequest.org/about/beliefs/",
-        "start_date": "1975",
-        "website": "https://seattlequest.org/",
-        "wheelchair": "yes",
-        "@id": "way/217499166",
         "@type": "way"
       }
     },
@@ -115313,6 +115457,63 @@
         "website:menu": "https://newscafesouthbeach.com/menus/",
         "wheelchair": "yes",
         "@id": "way/380861924",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.6010894,
+              51.4537203
+            ],
+            [
+              -2.6010348,
+              51.4536742
+            ],
+            [
+              -2.6009585,
+              51.4536096
+            ],
+            [
+              -2.6008713,
+              51.45366
+            ],
+            [
+              -2.6008731,
+              51.4536838
+            ],
+            [
+              -2.6009859,
+              51.4537735
+            ],
+            [
+              -2.6010894,
+              51.4537203
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Bristol",
+        "addr:housename": "The Queens Shilling",
+        "addr:housenumber": "9",
+        "addr:postcode": "BS1 5NA",
+        "addr:street": "Frogmore Street",
+        "addr:suburb": "City Centre",
+        "alt_name": "The Shilling",
+        "amenity": "nightclub",
+        "building": "yes",
+        "fhrs:id": "312664",
+        "lgbtq": "primary",
+        "name": "Queenshilling",
+        "ref:GB:uprn": "105245;351156",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.queenshilling.com/",
+        "@id": "way/380874326",
         "@type": "way"
       }
     },
