@@ -5070,6 +5070,7 @@
         "lgbtq": "welcome",
         "male:signed": "no",
         "name": "Salon Noland",
+        "opening_hours": "Mo-Fr 09:00-18:00",
         "shop": "hairdresser",
         "@id": "node/612994407",
         "@type": "node"
@@ -13987,10 +13988,7 @@
         "check_date": "2026-08-20",
         "lgbtq": "welcome",
         "name": "Cafe Hazeltree",
-        "note": "Under construction. Expected opening October 3rd, 2026",
         "opening_hours": "We-Sa 14:00-00:00; Su 14:00-24:00",
-        "pet": "fish",
-        "shop": "pet",
         "@id": "node/1976759432",
         "@type": "node"
       }
@@ -19807,6 +19805,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -90.5677781,
+          38.6081316
+        ]
+      },
+      "properties": {
+        "addr:city": "Ballwin",
+        "addr:housenumber": "15480",
+        "addr:postcode": "63011",
+        "addr:street": "Clayton Road",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "microbrewery": "no",
+        "name": "The Wolf Public House",
+        "opening_hours": "Mo-Fr 06:00-22:00; Sa 07:00-22:00; Su 08:00-14:00",
+        "smoking": "no",
+        "website": "https://thewolfstl.com/",
+        "wheelchair": "yes",
+        "@id": "node/2597461750",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           4.835802,
           45.77116
         ]
@@ -22664,8 +22691,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6511275,
-          49.8708409
+          8.6511802,
+          49.8708517
         ]
       },
       "properties": {
@@ -43566,6 +43593,7 @@
         "addr:street": "Plaza de la Pescadería",
         "addr:unit": "Primer Piso",
         "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
         "email": "info@castellolgtbi.es",
         "lgbtq": "primary",
         "name": "Col·lectiu per la Diversitat Afectiu-sexual, Castelló LGTBI",
@@ -52381,7 +52409,7 @@
         "lgbtq:men": "only",
         "male": "yes",
         "name": "Bonbon",
-        "opening_hours": "Mo-Su 15:00-24:00;",
+        "opening_hours": "Mo-Su 15:00-24:00",
         "wheelchair": "no",
         "@id": "node/9052183225",
         "@type": "node"
@@ -75282,7 +75310,12 @@
         ]
       },
       "properties": {
+        "addr:floor": "0",
+        "addr:housenumber": "4",
+        "addr:street": "Rue Chabanais",
         "amenity": "bar",
+        "check_date": "2026-10-03",
+        "level": "0",
         "lgbtq": "primary",
         "lgbtq:women": "primary",
         "name": "La Champmeslé",
@@ -81062,32 +81095,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4798061,
-          48.7490213
-        ]
-      },
-      "properties": {
-        "addr:city": "Bellingham",
-        "addr:housenumber": "1208",
-        "addr:postcode": "98225",
-        "addr:state": "WA",
-        "addr:street": "Cornwall Avenue",
-        "check_date": "2026-06-28",
-        "lgbtq": "welcome",
-        "name": "Emmaquatics",
-        "pet": "fish",
-        "phone": "+1-360-713-7644",
-        "shop": "pet",
-        "start_date": "2025-11-30",
-        "@id": "node/13327160013",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           1.2481163,
           41.2827771
         ]
@@ -81596,6 +81603,7 @@
         "lgbtq:women": "primary",
         "min_age": "20",
         "name": "H₂O₂ Bar",
+        "opening_hours": "Fr-Sa 21:00-04:30",
         "outdoor_seating": "yes",
         "smoking": "outside",
         "toilets": "yes",
@@ -88289,6 +88297,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -97.7559561,
+          30.2292325
+        ]
+      },
+      "properties": {
+        "amenity": "cafe",
+        "check_date": "2026-09-22",
+        "internet_access": "wlan",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Meadows Coffeehouse",
+        "@id": "node/14207987301",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -8.5418641,
           42.8821497
         ]
@@ -88457,6 +88486,59 @@
         "lgbtq:transgender": "welcome",
         "name": "Hathersage Centre",
         "@id": "node/14242812982",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4800384,
+          48.7481066
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "1135",
+        "addr:postcode": "98225",
+        "addr:state": "WA",
+        "addr:street": "Railroad Avenue",
+        "check_date": "2026-10-04",
+        "lgbtq": "welcome",
+        "name": "Emmaquatics",
+        "pet": "fish",
+        "phone": "+1-360-713-7644",
+        "shop": "pet",
+        "start_date": "2025-11-30",
+        "website": "https://www.emmaquatics.com/",
+        "@id": "node/14247121284",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9622204,
+          -37.813781
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "5",
+        "addr:postcode": "3000",
+        "addr:state": "VIC",
+        "addr:street": "Rankins Lane",
+        "addr:suburb": "Melbourne",
+        "lgbtq": "welcome",
+        "min_age": "18",
+        "mobile": "+61 481 579 058",
+        "name": "High Tide",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "shop": "erotic",
+        "website": "https://high-tide.com.au",
+        "@id": "node/14247125176",
         "@type": "node"
       }
     },
@@ -88755,6 +88837,7 @@
         "layer": "1",
         "lgbtq": "primary",
         "postal_code": "02238",
+        "roof:shape": "flat",
         "@id": "way/29803141",
         "@type": "way"
       }
@@ -101416,6 +101499,173 @@
         "coordinates": [
           [
             [
+              -97.7561282,
+              30.230125
+            ],
+            [
+              -97.7562023,
+              30.2299952
+            ],
+            [
+              -97.7560456,
+              30.2299267
+            ],
+            [
+              -97.7560525,
+              30.2299129
+            ],
+            [
+              -97.7560432,
+              30.2298914
+            ],
+            [
+              -97.7560191,
+              30.2298815
+            ],
+            [
+              -97.7559914,
+              30.2298854
+            ],
+            [
+              -97.7559834,
+              30.2298984
+            ],
+            [
+              -97.7559189,
+              30.2298714
+            ],
+            [
+              -97.7558304,
+              30.2298342
+            ],
+            [
+              -97.7557568,
+              30.2299646
+            ],
+            [
+              -97.7558395,
+              30.2300002
+            ],
+            [
+              -97.7558443,
+              30.2299913
+            ],
+            [
+              -97.7559476,
+              30.2300351
+            ],
+            [
+              -97.7560548,
+              30.2300806
+            ],
+            [
+              -97.7560491,
+              30.2300917
+            ],
+            [
+              -97.7561282,
+              30.230125
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building": "university",
+        "building:levels": "3",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Holy Cross Hall",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:unisex": "yes",
+        "@id": "way/188589264",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.7540032,
+              30.2286174
+            ],
+            [
+              -97.7536215,
+              30.2284596
+            ],
+            [
+              -97.7537709,
+              30.2281952
+            ],
+            [
+              -97.753677,
+              30.2281553
+            ],
+            [
+              -97.7537598,
+              30.2280046
+            ],
+            [
+              -97.7536291,
+              30.2279474
+            ],
+            [
+              -97.7534639,
+              30.2282579
+            ],
+            [
+              -97.7534411,
+              30.2282501
+            ],
+            [
+              -97.7532692,
+              30.2285665
+            ],
+            [
+              -97.7539516,
+              30.2288437
+            ],
+            [
+              -97.7540199,
+              30.2287186
+            ],
+            [
+              -97.7539608,
+              30.2286959
+            ],
+            [
+              -97.7540032,
+              30.2286174
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building": "university",
+        "building:levels": "4",
+        "ele": "202",
+        "gnis:feature_id": "2360744",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "John Brooks Williams Natural Science Center- North",
+        "source": "USGS Geonames",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:unisex": "yes",
+        "@id": "way/188589644",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -0.0412988,
               51.5125413
             ],
@@ -108514,8 +108764,11 @@
         "building": "retail",
         "building:levels": "4",
         "building:material": "brick",
+        "check_date": "2026-10-03",
+        "check_date:opening_hours": "2026-10-03",
         "lgbtq": "primary",
         "name": "Clonezone",
+        "opening_hours": "Mo-Fr 10:00-18:00",
         "payment:american_express": "yes",
         "ref:GB:uprn": "100023472219;100023472218;100023472217;100023472216;10033539482;100023609280",
         "roof:colour": "grey",
@@ -120455,6 +120708,81 @@
         "name": "Gael's Public House and Sports",
         "website": "https://www.gaelspublichouse.com/",
         "@id": "way/507080362",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.4522803,
+              28.0325291
+            ],
+            [
+              -82.4522804,
+              28.032506
+            ],
+            [
+              -82.4522807,
+              28.0324201
+            ],
+            [
+              -82.4523601,
+              28.0324203
+            ],
+            [
+              -82.4523605,
+              28.0323234
+            ],
+            [
+              -82.4524983,
+              28.0323238
+            ],
+            [
+              -82.4525703,
+              28.032324
+            ],
+            [
+              -82.4525695,
+              28.0325392
+            ],
+            [
+              -82.4523579,
+              28.0325386
+            ],
+            [
+              -82.4523579,
+              28.0325293
+            ],
+            [
+              -82.4522803,
+              28.0325291
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Tampa",
+        "addr:housenumber": "810",
+        "addr:postcode": "33604",
+        "addr:state": "FL",
+        "addr:street": "East Skagway Avenue",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "building": "yes",
+        "height": "15.23",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:transgender": "welcome",
+        "name": "New World Brewery",
+        "opening_hours": "We-Su 11:00-23:00",
+        "outdoor_seating": "yes",
+        "source:lgbtq": "Progress pride flag hung up inside the concert hall. Hosted a show of 4 trans women and a vert lgbt crowd.",
+        "@id": "way/523922521",
         "@type": "way"
       }
     },
