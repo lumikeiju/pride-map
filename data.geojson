@@ -9600,14 +9600,17 @@
         "check_date": "2026-09-07",
         "check_date:opening_hours": "2026-09-07",
         "clothes": "wedding",
+        "contact:website": "https://fabienneschwarzer.de",
+        "description": "Es werden v.a. selbst geschneiderte Brautkleider verkauft, aber auch Brautkleider anderer Designer.",
         "level": "0",
         "lgbtq": "welcome",
         "name": "Fabienne Schwarzer",
         "old_name": "No. 10;Comic",
         "opening_hours": "Mo-Sa 10:00-18:00; Su,PH closed",
-        "shop": "clothes",
+        "shop": "tailor",
         "short_name": "FS",
         "strapline": "Bridal Design",
+        "tailor:bespoke_tailoring": "yes",
         "wheelchair": "no",
         "wheelchair:description": "2 Stufen nach der Tür",
         "@id": "node/1377638270",
@@ -20052,6 +20055,7 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "Café naar Ons",
+        "opening_hours": "We,Th,Su 16:00-24:00, Fr,Sa 16:00-02:00",
         "source": "BAG;survey",
         "source:date": "2013-11-26",
         "@id": "node/2610201071",
@@ -23600,6 +23604,7 @@
         ]
       },
       "properties": {
+        "air_conditioning": "yes",
         "amenity": "bar",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -55472,6 +55477,7 @@
       },
       "properties": {
         "amenity": "bar",
+        "check_date": "2026-10-04",
         "cocktails": "yes",
         "contact:facebook": "61575705113441",
         "contact:housenumber": "14 bis",
@@ -55488,8 +55494,7 @@
         "ref:FR:NAF": "56.30Z",
         "ref:FR:SIREN": "937535896",
         "ref:FR:SIRET": "93753589600016",
-        "source": "INSEE - 2025-08",
-        "survey:date": "2025-10-04",
+        "source:ref:FR": "INSEE - 2025-08",
         "was:name": "Maison Jaja",
         "website": "https://www.lalicornenoire.fr/",
         "wheelchair": "yes",
@@ -66927,6 +66932,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.3129187,
+          47.662352
+        ]
+      },
+      "properties": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "4534 ½",
+        "addr:postcode": "98105",
+        "addr:state": "WA",
+        "addr:street": "University Way Northeast",
+        "air_conditioning": "yes",
+        "alt_name": "devhack",
+        "charge": "$50/month",
+        "check_date": "2026-01-09",
+        "fee": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "devhack_guest",
+        "leisure": "hackerspace",
+        "level": "1",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "/dev/hack",
+        "name:etymology:wikidata": "Q28015896",
+        "opening_hours": "24/7",
+        "url:spaceapi": "https://devhack.net/spaceapi.json",
+        "website": "https://devhack.net",
+        "wheelchair": "no",
+        "wikidata": "Q134310143",
+        "@id": "node/11737701647",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           121.4655493,
           31.219855
         ]
@@ -71727,6 +71770,7 @@
         "lgbtq:transgender": "welcome",
         "male": "yes",
         "name": "HAIR by Christine & Co",
+        "opening_hours": "Tu-Fr 10:30-20:00; Sa 09:00-17:00",
         "shop": "hairdresser",
         "@id": "node/12262756406",
         "@type": "node"
@@ -88297,27 +88341,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.7559561,
-          30.2292325
-        ]
-      },
-      "properties": {
-        "amenity": "cafe",
-        "check_date": "2026-09-22",
-        "internet_access": "wlan",
-        "level": "0",
-        "lgbtq": "welcome",
-        "lgbtq:signed": "yes",
-        "name": "Meadows Coffeehouse",
-        "@id": "node/14207987301",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -8.5418641,
           42.8821497
         ]
@@ -101847,6 +101870,68 @@
         "website": "https://www.prattlibrary.org/locations/reisterstownroad/",
         "wikidata": "Q69776467",
         "@id": "way/191346154",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5796032,
+              51.456454
+            ],
+            [
+              -2.5796918,
+              51.4564301
+            ],
+            [
+              -2.579702,
+              51.4564127
+            ],
+            [
+              -2.5796296,
+              51.4563326
+            ],
+            [
+              -2.5795763,
+              51.456352
+            ],
+            [
+              -2.5795332,
+              51.4563646
+            ],
+            [
+              -2.5796032,
+              51.456454
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "2-4",
+        "addr:postcode": "BS2 0BH",
+        "addr:street": "West Street",
+        "addr:suburb": "St Philip's",
+        "alt_name": "Bristol Bear Bar",
+        "amenity": "pub",
+        "building": "yes",
+        "check_date": "2026-10-04",
+        "fhrs:id": "312797",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "BBB",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "real_ale": "no",
+        "ref:GB:uprn": "264934;264933;338634;338635;231545",
+        "smoking": "outside",
+        "@id": "way/191919844",
         "@type": "way"
       }
     },
@@ -115612,6 +115697,75 @@
         "lgbtq": "primary",
         "name": "Club Velvet",
         "@id": "way/377148461",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5984691,
+              51.4412856
+            ],
+            [
+              -2.5983777,
+              51.441199
+            ],
+            [
+              -2.5983676,
+              51.4411875
+            ],
+            [
+              -2.5983392,
+              51.4411592
+            ],
+            [
+              -2.5984041,
+              51.441134
+            ],
+            [
+              -2.5984468,
+              51.4411767
+            ],
+            [
+              -2.5984827,
+              51.4411627
+            ],
+            [
+              -2.5985553,
+              51.4412353
+            ],
+            [
+              -2.5985418,
+              51.4412576
+            ],
+            [
+              -2.5984691,
+              51.4412856
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "117",
+        "addr:postcode": "BS3 4EX",
+        "addr:street": "East Street",
+        "addr:suburb": "Bedminster",
+        "amenity": "pub",
+        "building": "yes",
+        "check_date": "2024-11-17",
+        "fhrs:id": "927078",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "name": "The Old Globe",
+        "ref:GB:uprn": "351387;121498",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.oldglobebristol.com/",
+        "@id": "way/377388297",
         "@type": "way"
       }
     },
@@ -144526,6 +144680,57 @@
         "phone": "08007659999",
         "website": "http://bellacapri.com.br/",
         "@id": "way/1564253868",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.755935,
+              30.2291838
+            ],
+            [
+              -97.7560377,
+              30.2292239
+            ],
+            [
+              -97.7559839,
+              30.2293229
+            ],
+            [
+              -97.7559547,
+              30.2293109
+            ],
+            [
+              -97.7558819,
+              30.2292815
+            ],
+            [
+              -97.755935,
+              30.2291838
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date": "2026-10-04",
+        "check_date:opening_hours": "2026-10-04",
+        "indoor": "room",
+        "internet_access": "wlan",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Meadows Coffeehouse",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 09:00-17:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "@id": "way/1565059505",
         "@type": "way"
       }
     },
