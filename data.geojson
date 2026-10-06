@@ -3884,7 +3884,7 @@
         "addr:suburb": "Prenzlauer Berg",
         "amenity": "cafe",
         "bar": "yes",
-        "check_date": "2025-10-12",
+        "check_date": "2026-10-05",
         "contact:phone": "+49 30 44317844",
         "contact:website": "https://www.cafe-morgenrot.de/",
         "delivery": "no",
@@ -3897,14 +3897,16 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "Café Morgenrot",
-        "opening_hours": "Mo off; Tu-Th 15:00-02:00; Fr-Su 11:00-02:00",
+        "opening_hours": "Mo off; Tu-Th 15:00-01:00; Fr 15:00-02:00; Sa 11:00-02:00; Su 11:00-23:00",
         "outdoor_seating": "yes",
         "payment:cards": "no",
-        "payment:cash": "yes",
+        "payment:cash": "only",
         "payment:credit_cards": "no",
         "payment:debit_cards": "no",
+        "reservation": "yes",
         "source": "survey",
         "toilets": "yes",
+        "toilets:menstrual_products": "yes",
         "toilets:wheelchair": "yes",
         "wheelchair": "limited",
         "@id": "node/493655311",
@@ -8321,11 +8323,14 @@
         "addr:postcode": "98122",
         "addr:street": "East Pike Street",
         "amenity": "bar",
-        "check_date": "2026-02-12",
+        "check_date": "2026-10-04",
         "lgbtq": "welcome",
         "name": "Comet Tavern",
         "opening_hours": "12:00-02:00",
+        "outdoor_seating": "no",
         "phone": "+1-206-323-5678",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
         "website": "https://thecomettavern.com/",
         "wikidata": "Q115804471",
         "@id": "node/1194793097",
@@ -15826,8 +15831,9 @@
         "addr:postcode": "98122",
         "addr:street": "10th Avenue",
         "amenity": "restaurant",
-        "check_date": "2024-12-30",
+        "check_date": "2026-10-04",
         "indoor_seating": "yes",
+        "internet_access": "wlan",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Lost Lake Cafe & Lounge",
@@ -15835,6 +15841,7 @@
         "opening_hours:covid19": "Mo-Th 09:00-21:00; Fr-Sa 09:00-22:00",
         "outdoor_seating": "yes",
         "phone": "+1-206-323-5678",
+        "toilets": "yes",
         "website": "https://www.lostlakecafe.com/",
         "wheelchair": "limited",
         "wikidata": "Q111170505",
@@ -16477,7 +16484,7 @@
         "addr:postcode": "98122",
         "addr:street": "East Pike Street",
         "amenity": "bar",
-        "check_date": "2024-07-23",
+        "check_date": "2026-10-04",
         "contact:facebook": "http://www.facebook.com/cha.seattle",
         "contact:instagram": "https://www.instagram.com/chachalounge/",
         "contact:phone": "+1-206-322-0703",
@@ -16485,6 +16492,7 @@
         "lgbtq": "welcome",
         "name": "Cha Cha Lounge",
         "opening_hours": "Tu-Sa 20:00-02:00, Su 19:00-24:00; Mo off",
+        "outdoor_seating": "no",
         "website": "https://www.chachalounge.com/seattle/",
         "@id": "node/2159222950",
         "@type": "node"
@@ -21166,7 +21174,7 @@
         "addr:postcode": "NG1 6AJ",
         "addr:street": "Maid Marian Way",
         "amenity": "cafe",
-        "check_date": "2026-05-29",
+        "check_date": "2026-10-04",
         "cuisine": "tea;coffee_shop;sandwich;cake;pastry",
         "description": "LGBTQ+ friendly space, with a cafe and shop. Sell LGBTQ+ books and gifts, and host events.",
         "fhrs:id": "1781342",
@@ -21174,7 +21182,7 @@
         "internet_access": "wlan",
         "lgbtq": "primary",
         "name": "The Pride Shop",
-        "opening_hours": "Mo-Su 10:00-18:00",
+        "opening_hours": "We-Sa 10:00-18:00; Su 10:00-17:00",
         "outdoor_seating": "no",
         "source": "local knowledge",
         "source:addr": "interpolation",
@@ -41941,8 +41949,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1820568,
-          38.9658318
+          -0.1820566,
+          38.9658409
         ]
       },
       "properties": {
@@ -43390,7 +43398,7 @@
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "toilets": "yes",
         "toilets:wheelchair": "no",
-        "website": "https://www.hanswurst.de/",
+        "website": "https://clac.de/aachen/restaurant/hanswurst",
         "wheelchair": "limited",
         "@id": "node/6703678186",
         "@type": "node"
@@ -45350,14 +45358,26 @@
         "addr:housenumber": "29",
         "addr:postcode": "80331",
         "addr:street": "Blumenstraße",
+        "air_conditioning": "yes",
         "alt_name": "diversity Bar",
         "amenity": "cafe",
         "bar": "yes",
         "brewery": "no",
-        "check_date": "2025-09-24",
+        "check_date": "2026-10-05",
         "cocktails": "yes",
         "cuisine": "cake",
+        "delivery": "no",
         "description": "Bar & Cafe der queeren Jugendorganisation München e.V. . Normaler Cafébetrieb an Dienstag, Donnerstag und Sonntag. Mittwochs als Bar geöffnet.",
+        "diet:meat": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drink:beer": "bottled",
+        "drink:coffee": "yes",
+        "drink:cola": "bottled",
+        "drink:juice": "yes",
+        "drink:liquor": "yes",
+        "drink:soft_drink": "bottled",
+        "drink:tea": "yes",
         "email": "info@diversity-muenchen.de",
         "indoor_seating": "yes",
         "internet_access": "no",
@@ -45372,17 +45392,26 @@
         "organic": "no",
         "outdoor_seating": "no",
         "owner": "diversity München e.V.",
+        "payment:apple_pay": "no",
         "payment:cards": "no",
         "payment:cash": "yes",
+        "payment:coins": "yes",
         "payment:contactless": "no",
         "payment:credit_cards": "no",
+        "payment:cryptocurrencies": "no",
         "payment:debit_cards": "no",
+        "payment:girocard": "no",
+        "payment:google_pay": "no",
         "payment:mastercard": "no",
+        "payment:notes": "yes",
         "payment:visa": "no",
         "phone": "+49 89 55266986",
+        "reservation": "no",
         "self_service": "no",
+        "smoking": "no",
         "toilets": "yes",
         "toilets:access": "yes",
+        "toilets:menstrual_products": "yes",
         "toilets:unisex": "yes",
         "toilets:wheelchair": "no",
         "website": "https://diversity-muenchen.de/de/diversity-cafe/",
@@ -47661,6 +47690,35 @@
         "website": "http://rainbowstation.nyc/",
         "wheelchair": "yes",
         "@id": "node/7680594078",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1218155,
+          47.6738243
+        ]
+      },
+      "properties": {
+        "addr:city": "Redmond",
+        "addr:housenumber": "16389",
+        "addr:postcode": "98052",
+        "addr:state": "WA",
+        "addr:street": "Redmond Way",
+        "alt_name": "Trek Bicycle Store",
+        "brand": "Trek",
+        "brand:wikidata": "Q1067617",
+        "check_date": "2026-02-10",
+        "check_date:service:bicycle:pump": "2026-02-10",
+        "lgbtq": "welcome",
+        "name": "Trek",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-17:00",
+        "service:bicycle:pump": "yes",
+        "shop": "bicycle",
+        "@id": "node/7682083221",
         "@type": "node"
       }
     },
@@ -55478,25 +55536,26 @@
       "properties": {
         "amenity": "bar",
         "check_date": "2026-10-04",
+        "check_date:opening_hours": "2026-10-04",
         "cocktails": "yes",
         "contact:facebook": "61575705113441",
         "contact:housenumber": "14 bis",
         "contact:instagram": "lalicornenoire_nantes",
         "contact:street": "Rue de Mayence",
+        "contact:website": "https://www.lalicornenoire.fr/",
         "description": "Café culturel & Bar festif Afro-caribéen",
         "indoor_seating": "yes",
         "kids_area": "yes",
         "lgbtq": "welcome",
         "live_music": "yes",
         "name": "La Licorne Noire",
-        "opening_hours": "We,Th 16:00-24:00, Fr,Sa 16:00-02:00, Su[2,4] 15:00-20:00",
+        "opening_hours": "Tu 16:00-23:00; We,Th 16:00-24:00, Fr,Sa 16:00-02: 00",
         "outdoor_seating": "sidewalk",
         "ref:FR:NAF": "56.30Z",
         "ref:FR:SIREN": "937535896",
         "ref:FR:SIRET": "93753589600016",
         "source:ref:FR": "INSEE - 2025-08",
         "was:name": "Maison Jaja",
-        "website": "https://www.lalicornenoire.fr/",
         "wheelchair": "yes",
         "@id": "node/9678465282",
         "@type": "node"
@@ -60519,6 +60578,37 @@
         "phone": "+33669578744",
         "shop": "model",
         "@id": "node/10591606414",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0633719,
+          47.4969925
+        ]
+      },
+      "properties": {
+        "addr:floor": "0",
+        "addr:housenumber": "14",
+        "addr:street": "Kazinczy utca",
+        "check_date": "2026-10-05",
+        "contact:facebook": "szimpladesignshop",
+        "contact:website": "https://szimpladesign.com/",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Szimpla Design Shop",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "gift",
+        "stroller": "no",
+        "toilets": "no",
+        "wheelchair": "no",
+        "@id": "node/10594230285",
         "@type": "node"
       }
     },
@@ -73135,7 +73225,7 @@
         "addr:housenumber": "639",
         "addr:postcode": "98312",
         "addr:state": "WA",
-        "addr:street": "North Callow Avenue",
+        "addr:street": "Callow Avenue North",
         "air_conditioning": "yes",
         "alt_name": "PEX",
         "amenity": "community_centre",
@@ -88079,12 +88169,12 @@
         "email": "kontakt@kulturarownosci.org",
         "level": "1",
         "lgbtq": "primary",
-        "name": "Równe Miejsce - Centrum Społeczności LGBT+",
+        "name": "Równe Miejsce",
         "opening_hours": "Mo-Th 15:00-19:00; Tu off",
         "operator": "Stowarzyszenie Kultura Równości",
         "operator:type": "private_non_profit",
         "phone": "+48 884 777 249",
-        "website": "https://kulturarownosci.org",
+        "website": "https://kulturarownosci.org/centrumlgbt/",
         "@id": "node/14163305969",
         "@type": "node"
       }
@@ -90179,28 +90269,44 @@
         "coordinates": [
           [
             [
-              4.8846151,
-              52.3746131
+              4.8846017,
+              52.3746236
             ],
             [
-              4.8849,
-              52.3744431
+              4.8848771,
+              52.3744588
             ],
             [
-              4.8849867,
-              52.3743914
+              4.8848933,
+              52.3744492
             ],
             [
-              4.8848743,
-              52.3743666
+              4.884982,
+              52.3743967
             ],
             [
-              4.8844757,
-              52.3742928
+              4.884871,
+              52.3743772
             ],
             [
-              4.8846151,
-              52.3746131
+              4.8848407,
+              52.3743722
+            ],
+            [
+              4.884612,
+              52.3743332
+            ],
+            [
+              4.8844689,
+              52.374308
+            ],
+            [
+              4.8845058,
+              52.3743986
+            ],
+            [
+              4.8846017,
+              52.3746236
             ]
           ]
         ]
@@ -90209,16 +90315,18 @@
         "addr:city": "Amsterdam",
         "addr:country": "NL",
         "area": "yes",
+        "artist_name": "Karin Daan",
         "description": "Monument to commemorate the persecution of gay and lesbian men and women during World War 2. It consists of 3 triangles, made of pink marble. Gays had to wear a pink triangle in the Nazi concentration camps.",
         "designation": "Gay memorial",
         "historic": "memorial",
         "inscription": "Naar vriendschap zulk een mateloos verlangen",
-        "layer": "-1",
         "lgbtq": "primary",
+        "material": "granite",
         "memorial": "sculpture",
         "monument": "war_memorial",
         "name": "Homomonument",
         "name:uk": "Гомомонумент",
+        "start_date": "5 september 1987",
         "website": "https://www.homomonument.nl/",
         "wikidata": "Q51411",
         "wikimedia_commons": "Category:Homomonument in Amsterdam",
@@ -134659,9 +134767,10 @@
       "properties": {
         "addr:city": "Ciudad del Este",
         "addr:country": "PY",
+        "addr:street": "Avenida Doctor Luis Maria Argaña",
         "baby_feeding": "room",
         "building": "yes",
-        "building:levels": "10",
+        "building:levels": "4",
         "changing_table": "yes",
         "delivery": "yes",
         "internet_access": "yes",
@@ -134674,6 +134783,7 @@
         "parking:covered": "no",
         "parking:fee": "yes",
         "parking:wheelchair": "yes",
+        "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "phone": "+595 981 701701",
@@ -144730,6 +144840,7 @@
         "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 09:00-17:00",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
+        "wheelchair": "yes",
         "@id": "way/1565059505",
         "@type": "way"
       }
