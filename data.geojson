@@ -13960,7 +13960,7 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2026-03-28",
+        "check_date": "2026-10-07",
         "indoor_seating": "yes",
         "internet_access": "no",
         "lgbtq": "primary",
@@ -13988,15 +13988,34 @@
       },
       "properties": {
         "addr:city": "Bellingham",
+        "addr:floor": "1",
         "addr:housenumber": "1135",
         "addr:postcode": "98225",
         "addr:state": "WA",
         "addr:street": "Railroad Avenue",
         "amenity": "cafe",
-        "check_date": "2026-08-20",
+        "changing_table": "yes",
+        "check_date": "2026-10-07",
+        "cuisine": "coffee_shop",
+        "diet:non-vegetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
         "lgbtq": "welcome",
         "name": "Cafe Hazeltree",
         "opening_hours": "We-Sa 14:00-00:00; Su 14:00-24:00",
+        "payment:cash": "yes",
+        "payment:cash:USD": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "wheelchair": "limited",
         "@id": "node/1976759432",
         "@type": "node"
       }
@@ -37530,6 +37549,7 @@
         "opening_hours": "We 19:00+; \"nach Vereinbarung\"",
         "operator": "Jugendinitiative Grafing e.V.",
         "outdoor_seating": "yes",
+        "panoramax": "ac6621e0-8998-4c70-ad2e-1f995b6d38c2",
         "payment:cards": "no",
         "payment:cash": "yes",
         "payment:coins": "yes",
@@ -40321,7 +40341,7 @@
         "addr:state": "WA",
         "addr:street": "Railroad Avenue",
         "amenity": "bar",
-        "check_date": "2026-03-28",
+        "check_date": "2026-10-07",
         "indoor_seating": "yes",
         "internet_access": "wlan",
         "lgbtq": "primary",
@@ -60597,8 +60617,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Budapest",
         "addr:floor": "0",
         "addr:housenumber": "14",
+        "addr:postcode": "1075",
         "addr:street": "Kazinczy utca",
         "check_date": "2026-10-05",
         "contact:facebook": "szimpladesignshop",
@@ -88619,18 +88641,29 @@
       },
       "properties": {
         "addr:city": "Bellingham",
+        "addr:floor": "1",
         "addr:housenumber": "1135",
         "addr:postcode": "98225",
         "addr:state": "WA",
         "addr:street": "Railroad Avenue",
-        "check_date": "2026-10-04",
+        "check_date": "2026-10-07",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
         "lgbtq": "welcome",
         "name": "Emmaquatics",
+        "opening_hours": "Tu,Th-Fr 14:30-21:00",
+        "payment:cash": "yes",
+        "payment:cash:USD": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "pet": "fish",
         "phone": "+1-360-713-7644",
         "shop": "pet",
         "start_date": "2025-11-30",
         "website": "https://www.emmaquatics.com/",
+        "wheelchair": "limited",
         "@id": "node/14247121284",
         "@type": "node"
       }
@@ -88658,6 +88691,83 @@
         "shop": "erotic",
         "website": "https://high-tide.com.au",
         "@id": "node/14247125176",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3973377,
+          33.7865132
+        ]
+      },
+      "properties": {
+        "addr:floor": "G;1",
+        "addr:housenumber": "315",
+        "addr:street": "14th Street Northwest",
+        "amenity": "clinic",
+        "check_date": "2026-10-07",
+        "email": "info@naesminc.org",
+        "healthcare": "clinic",
+        "healthcare:speciality": "hiv",
+        "hiv:medicine": "yes",
+        "hiv:test": "yes",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "name": "NAESM Wellness Services",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 (404) 691-8880",
+        "website": "https://naesminc.org/",
+        "wheelchair": "yes",
+        "@id": "node/14259586429",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7607196,
+          24.5458557
+        ]
+      },
+      "properties": {
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "مجالس محمد بن مبارك السناح",
+        "@id": "node/14262658291",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9938836,
+          40.4817401
+        ]
+      },
+      "properties": {
+        "addr:city": "Bloomington",
+        "addr:housenumber": "418",
+        "addr:postcode": "61701",
+        "addr:state": "IL",
+        "addr:street": "North Main Street",
+        "amenity": "community_centre",
+        "community_center:for": "lgbtq",
+        "community_centre": "community_hall",
+        "lgbtq": "primary",
+        "name": "Prairie Pride Coalition",
+        "source:url": "https://pantagraph.com/news/local/article_dd29211d-0af5-48ff-8ed3-b6c50b044e77.html",
+        "@id": "node/14263006169",
         "@type": "node"
       }
     },
@@ -95267,40 +95377,60 @@
         "coordinates": [
           [
             [
-              -1.4675226,
-              53.3766175
+              -1.4675139,
+              53.3766382
             ],
             [
-              -1.467426,
-              53.3765783
+              -1.4674201,
+              53.3766065
             ],
             [
-              -1.4674475,
-              53.3765591
+              -1.4674024,
+              53.3765937
             ],
             [
-              -1.4673871,
-              53.3765063
+              -1.4674086,
+              53.3765814
             ],
             [
-              -1.4674341,
-              53.3764831
+              -1.4673772,
+              53.3765585
             ],
             [
-              -1.4674837,
-              53.3764827
+              -1.4674068,
+              53.3765449
             ],
             [
-              -1.4675373,
-              53.3764823
+              -1.4674049,
+              53.3765379
             ],
             [
-              -1.4676259,
-              53.3765207
+              -1.4674526,
+              53.3765172
             ],
             [
-              -1.4675226,
-              53.3766175
+              -1.4674912,
+              53.376515
+            ],
+            [
+              -1.4675298,
+              53.3765127
+            ],
+            [
+              -1.4675935,
+              53.3765418
+            ],
+            [
+              -1.4675754,
+              53.3765585
+            ],
+            [
+              -1.4675864,
+              53.3765706
+            ],
+            [
+              -1.4675139,
+              53.3766382
             ]
           ]
         ]
