@@ -4005,6 +4005,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9694797,
+          41.4479443
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "carrer de la Vall Del Palau, 5",
+        "addr:housenumber": "5",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Vall Palau",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936530264",
+        "dispensing": "yes",
+        "dog": "yes",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia Hernández Calvet, Jordi",
+        "opening_hours": "24/7",
+        "ref": "3623805",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "@id": "node/514141292",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.7594206,
           51.0651118
         ]
@@ -8387,6 +8419,7 @@
         "community_centre:for": "lgbtq",
         "description": "LGBTQ Jugendtreff",
         "entrance": "yes",
+        "internet_access": "wlan",
         "lgbtq": "primary",
         "name": "Knutschfleck",
         "opening_hours": "Tu 15:00-19:00; We 10:00-15:00; Th 16:30-21:00",
@@ -8970,9 +9003,11 @@
         "addr:street": "Bloom Street",
         "amenity": "pub",
         "email": "info@eaglemanchester.com",
+        "fetish": "yes",
         "fhrs:id": "1821313",
         "lgbtq": "primary",
-        "lgbtq:men": "primary",
+        "lgbtq:gay": "yes",
+        "male": "only",
         "name": "The Eagle",
         "opening_hours": "Mo-We 17:00-02:30; Th 17:00-03:00; Fr 17:00-05:00; Sa 17:00-03:00",
         "postal_code": "M1 3HZ",
@@ -11761,6 +11796,58 @@
         "wheelchair": "yes",
         "wifi": "no",
         "@id": "node/1688208662",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319878,
+          47.6757068
+        ]
+      },
+      "properties": {
+        "addr:city": "Seattle",
+        "addr:country": "US",
+        "addr:floor": "1",
+        "addr:housenumber": "801",
+        "addr:postcode": "98115",
+        "addr:state": "WA",
+        "addr:street": "Northeast 65th Street",
+        "addr:unit": "C",
+        "amenity": "restaurant",
+        "changing_table": "yes",
+        "check_date": "2026-10-08",
+        "contact:email": "waywardcafe@gmail.com",
+        "contact:facebook": "https://www.facebook.com/WaywardCafe/",
+        "contact:instagram": "https://www.instagram.com/thewaywardcafe_/",
+        "contact:phone": "+1-206-524-0204",
+        "cuisine": "american;burger;sandwich;breakfast",
+        "diet:gluten_free": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "The Wayward Cafe",
+        "opening_hours": "Mo-We 09:00-14:00; Th 09:00-20:00; Fr-Sa 08:00-21:00; Su 08:00-20:00",
+        "panoramax": "6ae13ea1-0d12-417f-8c70-d2b8eba4b3c9",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://thewaywardcafe.com/",
+        "wheelchair": "yes",
+        "@id": "node/1695212221",
         "@type": "node"
       }
     },
@@ -38031,6 +38118,7 @@
         "addr:housenumber": "1704",
         "addr:street": "Queen Street West",
         "amenity": "bar",
+        "check_date": "2026-10-08",
         "lgbtq": "welcome",
         "name": "Dystopia",
         "opening_hours": "Mo-Su 19:00-02:00",
@@ -43350,6 +43438,8 @@
       "properties": {
         "amenity": "community_centre",
         "changing_table": "no",
+        "check_date": "2026-10-08",
+        "contact:mastodon": "vielbunt@www.vielbunt.org",
         "internet_access": "wlan",
         "lgbtq": "primary",
         "name": "Vielbunt e.V.",
@@ -46808,6 +46898,36 @@
         "website": "http://www.hospitaleterzoparadiso.it",
         "wheelchair": "yes",
         "@id": "node/7299794357",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.973848,
+          41.4476751
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "carrer Major, 18",
+        "addr:housenumber": "18",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Major",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936530157",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia Miralles Curto, Pere",
+        "ref": "3624528",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "@id": "node/7323122624",
         "@type": "node"
       }
     },
@@ -54747,6 +54867,81 @@
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
         "shop": "tobacco",
         "@id": "node/9468022197",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.974694,
+          41.447301
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "3",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça d'Anselm Clavé",
+        "indoor_seating": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Cal Forner",
+        "name:ca": "Forn del Poble",
+        "opening_hours": "Mo-Sa 07:00-14:00",
+        "outdoor_seating": "no",
+        "shop": "bakery",
+        "takeaway": "only",
+        "@id": "node/9468022202",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9744311,
+          41.4472505
+        ]
+      },
+      "properties": {
+        "amenity:-2013": "pharmacy",
+        "amenity:2016-2019": "optician",
+        "healthcare": "alternative",
+        "healthcare:speciality": "acupuncture;chiropractic;reflexology",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Qi vital",
+        "name:-2013": "Farmacia Miralles",
+        "shop:2014-2015": "vacant",
+        "shop:2024": "repair",
+        "@id": "node/9468022203",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9743322,
+          41.4471649
+        ]
+      },
+      "properties": {
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Serralva",
+        "name:-2017": "RACC",
+        "office:-2017": "insurance",
+        "shop": "deli",
+        "shop:2018-2021": "vacant",
+        "@id": "node/9468022204",
         "@type": "node"
       }
     },
@@ -72959,6 +73154,7 @@
         "healthcare": "clinic",
         "healthcare:speciality": "endocrinology;venereology;weight_loss",
         "lgbtq": "primary",
+        "lgbtq:transgender": "primary",
         "name": "Identity Hormones and Healthcare",
         "opening_hours": "Mo-Fr 08:00-18:00",
         "phone": "+1-602-354-3925",
@@ -78633,6 +78829,55 @@
         "opening_hours": "Mo-Fr 08:30-16:00",
         "website": "https://linktr.ee/qcenterny",
         "@id": "node/13061109401",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9739394,
+          41.4474724
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Major",
+        "beauty": "hair_removal",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Karini Estètic",
+        "shop": "beauty",
+        "@id": "node/13061846108",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.973999,
+          41.4474443
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Major",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Bonica com tú",
+        "name:-2025": "Repunts Rafi",
+        "shop": "clothes",
+        "shop:-2025": "tailor",
+        "@id": "node/13061846109",
         "@type": "node"
       }
     },
@@ -88733,6 +88978,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -66.1710172,
+          -17.3669873
+        ]
+      },
+      "properties": {
+        "addr:city": "Cochabamba",
+        "addr:door": "2A",
+        "addr:floor": "1",
+        "addr:housename": "Edificio Orión",
+        "addr:housenumber": "2198",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida Los Ceibos",
+        "contact:facebook": "https://www.facebook.com/sacredsex7/",
+        "contact:instagram": "https://www.instagram.com/sacred_sex",
+        "contact:tiktok": "https://www.tiktok.com/@sacredsex7",
+        "contact:whatsapp": "+591 70789246",
+        "delivery": "yes",
+        "email": "sacredsexsexosagrado@gmail.com",
+        "level": "1",
+        "lgbtq": "welcome",
+        "min_age": "18",
+        "mobile": "+591 70789246",
+        "name": "Sacred Sex",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "Sacred Sex",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "payment:qr_code": "yes",
+        "payment:wire_transfer": "yes",
+        "shop": "erotic",
+        "website": "https://www.sacredsex.com.bo/",
+        "@id": "node/14262120650",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.7607196,
           24.5458557
         ]
@@ -88768,6 +89053,41 @@
         "name": "Prairie Pride Coalition",
         "source:url": "https://pantagraph.com/news/local/article_dd29211d-0af5-48ff-8ed3-b6c50b044e77.html",
         "@id": "node/14263006169",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2842859,
+          35.3550786
+        ]
+      },
+      "properties": {
+        "lgbtq:men": "primary",
+        "name": "Kavros/Peristeras Dune Beach",
+        "natural": "beach",
+        "nudism": "customary",
+        "@id": "node/14264716179",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.439518,
+          43.5105455
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "X Night Club",
+        "@id": "node/14266061691",
         "@type": "node"
       }
     },
@@ -144968,12 +145288,14 @@
         "check_date": "2026-10-04",
         "check_date:opening_hours": "2026-10-04",
         "indoor": "room",
+        "indoor_seating": "yes",
         "internet_access": "wlan",
         "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Meadows Coffeehouse",
         "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 09:00-17:00",
+        "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "wheelchair": "yes",
