@@ -11087,6 +11087,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.5793642,
+          45.4976474
+        ]
+      },
+      "properties": {
+        "addr:city": "Montréal",
+        "addr:province": "QC",
+        "addr:street": "Rue Mackay",
+        "check_date": "2026-10-06",
+        "description": "Right to Move is a drop-in, do-it-yourself bike shop where you can fix your own bicycle with the help of volunteer mechanics. Access for the day costs 2$-5$ (sliding scale) and a year pass is 20$ (as of 2026).",
+        "email": "righttomove@gmail.com",
+        "level": "-1",
+        "lgbtq": "yes",
+        "name": "Right to Move",
+        "name:en": "Right to Move",
+        "name:fr": "La Voie Libre",
+        "opening_hours": "Mo-Fr 18:00-21:00; We 18:00-21:00 \"trans/gender diverse and women only\"",
+        "phone": "+1 514-999-4885",
+        "service:bicycle:diy": "yes",
+        "service:bicycle:pump": "yes",
+        "service:bicycle:rental": "no",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "no",
+        "service:bicycle:second_hand": "only",
+        "shop": "bicycle",
+        "website": "https://www.rtm-lvl.org/",
+        "wheelchair": "no",
+        "@id": "node/1599170613",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.3430245,
           52.4868332
         ]
@@ -23891,6 +23927,7 @@
         "name": "Planet",
         "outdoor_seating": "no",
         "source": "survey",
+        "website": "https://planetbaredinburgh.co.uk/planet/",
         "@id": "node/3292175224",
         "@type": "node"
       }
@@ -41391,7 +41428,6 @@
       },
       "properties": {
         "addr:city": "Lyon",
-        "addr:country": "FR",
         "addr:housenumber": "23",
         "addr:street": "Rue des Capucins",
         "amenity": "clinic",
@@ -44179,6 +44215,7 @@
         "addr:city": "New York",
         "addr:floor": "6th",
         "addr:housenumber": "227",
+        "addr:postcode": "10022",
         "addr:street": "East 56th Street",
         "cruising": "yes",
         "email": "info@eastsideclubnyc.com",
@@ -44188,7 +44225,7 @@
         "male": "only",
         "name": "East Side Club",
         "opening_hours": "24/7",
-        "phone": "+1-212-753-2222",
+        "phone": "(646) 454-1449",
         "start_date": "1976",
         "website": "https://eastsideclubnyc.com/",
         "@id": "node/6821692765",
@@ -45447,7 +45484,6 @@
       },
       "properties": {
         "addr:city": "Drumettaz-Clarafond",
-        "addr:country": "FR",
         "addr:housenumber": "79",
         "addr:postcode": "73420",
         "addr:street": "Chemin de Corès",
@@ -46717,15 +46753,16 @@
         "addr:postcode": "12049",
         "addr:street": "Okerstraße",
         "amenity": "doctors",
-        "check_date": "2021-03-18",
+        "check_date": "2026-10-09",
         "contact:email": "info@viropraxis.de",
         "contact:phone": "+49 30 6873150",
         "contact:website": "https://www.viropraxis.de/",
         "healthcare": "doctor",
         "healthcare:speciality": "general;internal;infectious_diseases",
+        "level": "0",
         "lgbtq:transgender": "primary",
         "name": "ViRo Praxisgemeinschaft",
-        "opening_hours": "Mo-Fr 09:00-13:00; Mo,Tu,Th 15:00-18:00",
+        "opening_hours": "Mo-Fr 09:00-13:00",
         "operator": "Elena Rodríguez;Martin Viehweger",
         "start_date": "2020-10",
         "@id": "node/7255420186",
@@ -47399,7 +47436,6 @@
       },
       "properties": {
         "addr:city": "Lyon",
-        "addr:country": "FR",
         "addr:housenumber": "19",
         "addr:postcode": "69002",
         "addr:street": "Rue Claudia",
@@ -61604,7 +61640,7 @@
         "internet_access:ssid": "Greenraven",
         "lgbtq": "welcome",
         "name": "Greenraven Gaming",
-        "website": "https://greenravenstromsun.wixsite.com/website?fbclid=IwAR2alqsAexwtCsgnO0_HvqGBrcM--5yZ47rDy2U7KuQXy0BnZSrQgrbSN9M",
+        "website": "https://greenravenstromsun.wixsite.com/website",
         "wheelchair": "yes",
         "@id": "node/10776377530",
         "@type": "node"
@@ -75960,7 +75996,6 @@
       },
       "properties": {
         "addr:city": "Paris",
-        "addr:country": "FR",
         "alt_name:de": "Denkmal für LGBTQ+-Opfer;Denkmal für homosexuelle NS-Opfer;LGBTQ+-Holocaust-Denkmal;Sternstab-Denkmal;Zauberstab-Denkmal;Großer Stern",
         "alt_name:en": "Memorial to LGBTQ+ Victims;Memorial to Gay Victims of Nazi Persecution;LGBTQ+ Holocaust Memorial;Star Wand Memorial;Magic Wand Memorial;Large Star",
         "alt_name:es": "Memorial a las víctimas LGBTQ+;Memorial a las víctimas homosexuales de la persecución nazi;Memorial LGBTQ+ del Holocausto;Memorial de la varita estrellada;Memorial de la varita mágica;Gran estrella",
@@ -79460,8 +79495,7 @@
         "addr:street": "West Saint Germain Street",
         "addr:unit": "suite 1",
         "air_conditioning": "yes",
-        "alt_name": "valentines salon",
-        "alt_name:en": "Valentines Electrolysis",
+        "alt_name": "valentines electrolysis",
         "beauty": "hair_removal;electrolysis;massage",
         "check_date": "2026-07-08",
         "currency:USD": "yes",
@@ -79478,7 +79512,7 @@
         "level": "-1",
         "lgbtq": "primary",
         "lgbtq:transgender": "primary",
-        "name": "Valentines Salon",
+        "name": "valentines salon",
         "opening_hours": "Mo-Sa 09:00-20:00; Sa 09:00-17:00; PH closed \"by appointment only\"",
         "payment:apple_pay": "yes",
         "payment:cash": "yes",
@@ -89088,6 +89122,41 @@
         "lgbtq": "primary",
         "name": "X Night Club",
         "@id": "node/14266061691",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5798191,
+          45.4969642
+        ]
+      },
+      "properties": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2110",
+        "addr:province": "QC",
+        "addr:street": "Rue Mackay",
+        "amenity": "community_centre",
+        "check_date": "2026-10-06",
+        "community_centre:for": "lgbtq",
+        "contact:instagram": "QueerConcordia",
+        "description": "Non-profit association and on-campus resource centre for the 2SLGBTQIA+ community and allies.",
+        "description:en": "Non-profit association and on-campus resource centre for the 2SLGBTQIA+ community and allies.",
+        "description:fr": "Association à but non lucratif et centre de ressources pour la communauté 2ELGBTQIA+ et allié·es.",
+        "email": "general@queerconcordia.ca",
+        "level": "1",
+        "lgbtq": "primary",
+        "name": "Queer Concordia",
+        "name:en": "Queer Concordia",
+        "name:fr": "Queer Concordia",
+        "opening_hours": "Mo-Th 11:00-16:00; Fr off || \"by appointment\"",
+        "phone": "+1 438-519-1337",
+        "website": "https://queerconcordia.ca/",
+        "wheelchair": "no",
+        "@id": "node/14269344282",
         "@type": "node"
       }
     },
@@ -145268,8 +145337,8 @@
               30.2293229
             ],
             [
-              -97.7559547,
-              30.2293109
+              -97.7559362,
+              30.2293152
             ],
             [
               -97.7558819,
