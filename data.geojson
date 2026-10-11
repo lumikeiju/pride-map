@@ -1726,6 +1726,7 @@
         "addr:postcode": "LS1 8EQ",
         "addr:street": "The Headrow",
         "cocktails": "yes",
+        "contact:tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g186411-d23892486-Reviews-Roxy_Lanes_Leeds_The_Light-Leeds_West_Yorkshire_England.html",
         "description": "Ten pin bowling, ice-free curling, shuffleboard, American pool and tech darts.",
         "drink:beer": "various",
         "fhrs:id": "1812480",
@@ -20086,8 +20087,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3585994,
-          52.0109086
+          4.3585978,
+          52.0109005
         ]
       },
       "properties": {
@@ -34617,6 +34618,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Blue Sky",
+        "opening_hours": "Mo-Su 07:00-21:00",
         "shop": "locksmith",
         "@id": "node/5067774523",
         "@type": "node"
@@ -37591,11 +37593,17 @@
         "addr:housenumber": "77a",
         "addr:postcode": "LS1 3BR",
         "addr:street": "Great George Street",
+        "contact:email": "thebookishtypeleeds@gmail.com",
+        "contact:facebook": "https://www.facebook.com/TheBookishTypeLeeds/",
+        "contact:instagram": "https://www.instagram.com/thebookishtypeleeds/",
+        "contact:website": "https://thebookishtype.co.uk/pages/contact-us",
         "dog": "yes",
         "lgbtq": "primary",
         "name": "The Bookish Type",
-        "opening_hours": "Tu-Sa 10:00-18:00; Su 12:00-16:00",
+        "opening_hours": "Mo closed; Tu-Sa 10:00-18:00; Su 12:00-16:00",
+        "pets_allowed": "yes",
         "shop": "books",
+        "sorting_name": "Bookish Type, The",
         "website": "https://thebookishtype.co.uk/",
         "@id": "node/5660715672",
         "@type": "node"
@@ -62055,7 +62063,9 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Rocco's",
+        "opening_hours": "Mo-Su 11:00-24:00",
         "outdoor_seating": "yes",
+        "website": "https://www.roccosseattle.com/",
         "@id": "node/10885523985",
         "@type": "node"
       }
@@ -72944,6 +72954,8 @@
         "contact:tiktok": "bobacatgent",
         "contact:website": "https://www.bobacatgent.com/",
         "cuisine": "bubble_tea;coffee_shop;smoothie",
+        "diet:halal": "yes",
+        "diet:kosher": "yes",
         "diet:vegan": "yes",
         "diet:vegetarian": "only",
         "indoor_seating": "yes",
@@ -72958,9 +72970,12 @@
         "outdoor_seating": "no",
         "payment:bancontact": "yes",
         "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "payment:notes": "yes",
         "payment:payconiq": "yes",
         "ref:vatin": "BE0801587016",
+        "smoking": "no",
         "start_date": "2023",
         "takeaway": "yes",
         "takeaway:website": "https://www.boba-cat.be/",
@@ -88970,40 +88985,6 @@
         "shop": "erotic",
         "website": "https://high-tide.com.au",
         "@id": "node/14247125176",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.3973377,
-          33.7865132
-        ]
-      },
-      "properties": {
-        "addr:floor": "G;1",
-        "addr:housenumber": "315",
-        "addr:street": "14th Street Northwest",
-        "amenity": "clinic",
-        "check_date": "2026-10-07",
-        "email": "info@naesminc.org",
-        "healthcare": "clinic",
-        "healthcare:speciality": "hiv",
-        "hiv:medicine": "yes",
-        "hiv:test": "yes",
-        "level": "0;1",
-        "lgbtq": "primary",
-        "name": "NAESM Wellness Services",
-        "opening_hours": "Mo-Fr 09:00-17:00",
-        "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "phone": "+1 (404) 691-8880",
-        "website": "https://naesminc.org/",
-        "wheelchair": "yes",
-        "@id": "node/14259586429",
         "@type": "node"
       }
     },
@@ -109038,6 +109019,95 @@
         "coordinates": [
           [
             [
+              -84.3974257,
+              33.7865955
+            ],
+            [
+              -84.3973577,
+              33.7865962
+            ],
+            [
+              -84.397358,
+              33.7866152
+            ],
+            [
+              -84.3972883,
+              33.786616
+            ],
+            [
+              -84.3972856,
+              33.7864471
+            ],
+            [
+              -84.3973166,
+              33.7864467
+            ],
+            [
+              -84.3973162,
+              33.7864224
+            ],
+            [
+              -84.3973811,
+              33.7864217
+            ],
+            [
+              -84.3973815,
+              33.7864461
+            ],
+            [
+              -84.3974159,
+              33.7864457
+            ],
+            [
+              -84.3974161,
+              33.7864551
+            ],
+            [
+              -84.3974234,
+              33.786455
+            ],
+            [
+              -84.3974257,
+              33.7865955
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "315",
+        "addr:postcode": "30318",
+        "addr:street": "14th Street Northwest",
+        "amenity": "clinic",
+        "building": "yes",
+        "check_date": "2026-10-07",
+        "email": "info@naesminc.org",
+        "healthcare": "clinic",
+        "healthcare:speciality": "hiv",
+        "hiv:medicine": "yes",
+        "hiv:test": "yes",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "name": "NAESM Wellness Services",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-691-8880",
+        "website": "https://naesminc.org/",
+        "wheelchair": "yes",
+        "@id": "way/269747931",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -84.3847218,
               33.7849208
             ],
@@ -110917,6 +110987,61 @@
         "coordinates": [
           [
             [
+              -97.7493644,
+              30.25112
+            ],
+            [
+              -97.7493828,
+              30.2510729
+            ],
+            [
+              -97.7494309,
+              30.2510869
+            ],
+            [
+              -97.7494827,
+              30.2509542
+            ],
+            [
+              -97.7493844,
+              30.2509256
+            ],
+            [
+              -97.7493143,
+              30.2511055
+            ],
+            [
+              -97.7493644,
+              30.25112
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1300",
+        "addr:postcode": "78704",
+        "addr:street": "South Congress Avenue",
+        "amenity": "cafe",
+        "building": "yes",
+        "check_date": "2026-07-16",
+        "check_date:opening_hours": "2026-07-16",
+        "facebook": "https://www.facebook.com/joscoffee",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Jo's Coffee",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "website": "https://www.joscoffee.com/south-congress-jos",
+        "@id": "way/312337826",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -68.9384406,
               12.1054785
             ],
@@ -111829,6 +111954,65 @@
         "name": "Oregon Medical Centers, LLC",
         "website": "https://www.oregonmedicalcenters.com/",
         "@id": "way/327357186",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.745195,
+              30.2667895
+            ],
+            [
+              -97.7451344,
+              30.2669514
+            ],
+            [
+              -97.7450582,
+              30.2669302
+            ],
+            [
+              -97.7449908,
+              30.2669114
+            ],
+            [
+              -97.7448416,
+              30.2668698
+            ],
+            [
+              -97.7449022,
+              30.2667078
+            ],
+            [
+              -97.745195,
+              30.2667895
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Austin",
+        "addr:housenumber": "400",
+        "addr:postcode": "78701",
+        "addr:state": "TX",
+        "addr:street": "Colorado Street",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "building": "yes",
+        "check_date": "2023-07-27",
+        "email": "estelle@nocohospitalityatx.com",
+        "lgbtq:signed": "yes",
+        "name": "Estelle's Social Lounge",
+        "opening_hours": "Tu-We 16:00-24:00; Th-Fr 16:00-02:00; Sa 12:00-02:00; Su 12:00-24:00",
+        "phone": "+15129007626",
+        "source:geometry": "Bing",
+        "website": "https://www.estellesatx.com/",
+        "website:menu": "https://www.estellesatx.com/the-menu",
+        "@id": "way/328631296",
         "@type": "way"
       }
     },
@@ -129346,6 +129530,7 @@
       },
       "properties": {
         "addr:floor": "1",
+        "air_conditioning": "yes",
         "amenity": "cafe",
         "building:part": "yes",
         "check_date": "2025-08-17",
@@ -145345,6 +145530,10 @@
               30.2292815
             ],
             [
+              -97.7559184,
+              30.2292144
+            ],
+            [
               -97.755935,
               30.2291838
             ]
@@ -145369,6 +145558,52 @@
         "payment:debit_cards": "yes",
         "wheelchair": "yes",
         "@id": "way/1565059505",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -49.3838645,
+              -20.7993558
+            ],
+            [
+              -49.3841309,
+              -20.7995963
+            ],
+            [
+              -49.3839911,
+              -20.7997315
+            ],
+            [
+              -49.3837248,
+              -20.7994911
+            ],
+            [
+              -49.3838645,
+              -20.7993558
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1840",
+        "addr:postcode": "15025-025",
+        "addr:street": "Rua São João",
+        "addr:suburb": "Vila Zilda",
+        "amenity": "community_centre",
+        "community_centre": "cultural_centre",
+        "contact:facebook": "https://www.facebook.com/centroculturalvascooficial",
+        "contact:instagram": "https://www.instagram.com/centroculturalvasco",
+        "email": "centroculturalvasco@hotmail.com",
+        "lgbtq": "welcome",
+        "name": "Centro Cultural Vasco",
+        "phone": "+55 17 99613-2069",
+        "@id": "way/1567241695",
         "@type": "way"
       }
     },
