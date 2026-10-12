@@ -313,6 +313,7 @@
         "addr:street": "Windmühlenstraße",
         "amenity": "pub",
         "check_date": "2026-02-11",
+        "cuisine": "french;brunch;german;breakfast",
         "drink:club-mate": "yes",
         "email": "info@cafecantona.com",
         "indoor_seating": "yes",
@@ -321,7 +322,7 @@
         "lgbtq": "welcome",
         "name": "Cantona",
         "opening_hours": "Tu-Th 10:00-22:00, Su 10:00-20:00, Fr,Sa 10:00-02:00, Mo 09:00-22:00",
-        "outdoor_seating": "yes",
+        "outdoor_seating": "sidewalk",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
         "phone": "+49 341 2254302",
@@ -9884,7 +9885,10 @@
         "addr:postcode": "28203",
         "addr:street": "Rembertistraße",
         "amenity": "pub",
+        "check_date": "2026-10-11",
+        "email": "info@friends-bar.de",
         "indoor_seating": "yes",
+        "level": "0",
         "lgbtq": "primary",
         "lgbtq:bisexual": "primary",
         "lgbtq:gay": "primary",
@@ -9898,8 +9902,10 @@
         "non_binary": "welcome",
         "opening_hours": "We-Sa 18:00+",
         "outdoor_seating": "no",
+        "phone": "+49421-2581860",
         "source:lgbtq": "https://www.friends-bar.de/",
         "website": "https://www.friends-bar.de/",
+        "website:menu": "https://www.friends-bar.de/_files/ugd/5250ae_8d0a18cf059548c09ec7eb459f01f7f4.pdf",
         "wheelchair": "no",
         "wheelchair:description:de": "Stufen am Eingang, Tür zu schmal, Klotür zu schmal",
         "@id": "node/1426115072",
@@ -11588,15 +11594,25 @@
         "addr:housenumber": "47",
         "addr:postcode": "3511AC",
         "addr:street": "Oudegracht",
+        "air_conditioning": "yes",
         "amenity": "bar",
+        "check_date": "2026-10-11",
         "check_date:opening_hours": "2024-02-19",
         "contact:facebook": "https://www.facebook.com/CafeKalff",
         "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Cafe Kalff Gast",
+        "level": "0",
         "lgbtq": "primary",
         "name": "Café Kalff",
         "old_name": "Café de Wolkenkrabber, Chueca",
         "opening_hours": "Tu-Th 04:00-01:00, Fr 16:00-02:00, Sa 15:00-02:00, Su 15:00-23:00",
         "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "outside",
         "source": "BAG",
         "source:date": "2014-02-11",
         "twitter": "CafeKalff",
@@ -18467,6 +18483,38 @@
         "opening_hours": "We-Th 18:00-24:00; Fr-Sa 18:00-02:00",
         "outdoor_seating": "no",
         "@id": "node/2454756636",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0889238,
+          44.9510213
+        ]
+      },
+      "properties": {
+        "addr:city": "Saint Paul",
+        "addr:country": "US",
+        "addr:housenumber": "237",
+        "addr:postcode": "55101",
+        "addr:street": "7th Street East",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2026-10-11",
+        "check_date:opening_hours": "2026-10-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "The Buttered Tin",
+        "opening_hours": "Mo-Su 07:00-15:00",
+        "outdoor_seating": "yes",
+        "shop": "bakery",
+        "website": "https://www.thebutteredtin.com/",
+        "@id": "node/2458087334",
         "@type": "node"
       }
     },
@@ -36181,6 +36229,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -46.4122038,
+          -24.0016661
+        ]
+      },
+      "properties": {
+        "addr:city": "Praia Grande",
+        "addr:housenumber": "298",
+        "addr:postcode": "11701-000",
+        "addr:street": "Rua Guanabara",
+        "addr:suburb": "Boqueirão",
+        "disused:amenity": "pub",
+        "facebook": "litoralbikenfun",
+        "female_owner": "yes",
+        "instagram": "litoralbikenfun",
+        "lgbtq": "welcome",
+        "name": "Litoral Bike and Fun",
+        "old_name": "Monkeys Beer Pub",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00",
+        "phone": "+55 13 98143 3870",
+        "shop": "bicycle",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.litoralbikeandfun.com.br/",
+        "wheelchair": "yes",
+        "@id": "node/5377012521",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           121.0512415,
           14.5835541
         ]
@@ -43340,7 +43421,7 @@
         "internet_access": "no",
         "lgbtq": "welcome",
         "name": "Pfannenzauber",
-        "opening_hours": "Mo,Th 17:30-21:00; Fr 17:30-21:30; Sa 12:00-21:30; Su 12:00-21:00",
+        "opening_hours": "Mo,Th 17:30-21:00; Fr 17:30-21:30; Sa 15:00-21:30; Su 15:00-21:00",
         "outdoor_seating": "no",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
@@ -44233,7 +44314,7 @@
         "male": "only",
         "name": "East Side Club",
         "opening_hours": "24/7",
-        "phone": "(646) 454-1449",
+        "phone": "+1-646-454-1449",
         "start_date": "1976",
         "website": "https://eastsideclubnyc.com/",
         "@id": "node/6821692765",
@@ -89148,6 +89229,191 @@
         "coordinates": [
           [
             [
+              25.0145385,
+              60.223812
+            ],
+            [
+              25.0145022,
+              60.2238924
+            ],
+            [
+              25.0144237,
+              60.2238816
+            ],
+            [
+              25.0143813,
+              60.2238799
+            ],
+            [
+              25.0143407,
+              60.2238841
+            ],
+            [
+              25.0142983,
+              60.2238972
+            ],
+            [
+              25.0142738,
+              60.2239173
+            ],
+            [
+              25.0142611,
+              60.2239417
+            ],
+            [
+              25.0142628,
+              60.2239649
+            ],
+            [
+              25.0142806,
+              60.2239855
+            ],
+            [
+              25.0143119,
+              60.224001
+            ],
+            [
+              25.0143491,
+              60.2240115
+            ],
+            [
+              25.0143949,
+              60.2240141
+            ],
+            [
+              25.0144474,
+              60.2240086
+            ],
+            [
+              25.0144886,
+              60.2239962
+            ],
+            [
+              25.0146469,
+              60.2240282
+            ],
+            [
+              25.0148341,
+              60.2240574
+            ],
+            [
+              25.0148538,
+              60.2240599
+            ],
+            [
+              25.015088,
+              60.2240803
+            ],
+            [
+              25.0152917,
+              60.2240856
+            ],
+            [
+              25.0154435,
+              60.2240825
+            ],
+            [
+              25.0155153,
+              60.224081
+            ],
+            [
+              25.0155272,
+              60.2240146
+            ],
+            [
+              25.0156548,
+              60.2240218
+            ],
+            [
+              25.0156727,
+              60.2239661
+            ],
+            [
+              25.0156921,
+              60.2239056
+            ],
+            [
+              25.0156349,
+              60.2239044
+            ],
+            [
+              25.01566,
+              60.2238352
+            ],
+            [
+              25.0156333,
+              60.2238328
+            ],
+            [
+              25.0154239,
+              60.2238152
+            ],
+            [
+              25.0154042,
+              60.2238749
+            ],
+            [
+              25.0154014,
+              60.2238835
+            ],
+            [
+              25.0147236,
+              60.2238285
+            ],
+            [
+              25.0145385,
+              60.223812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:housenumber": "1",
+        "addr:postcode": "00790",
+        "addr:street": "Koetilantie",
+        "amenity": "bar",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-09-28",
+        "contact:facebook": "coolheadbrew",
+        "contact:instagram": "coolheadbrew",
+        "craft": "brewery",
+        "cuisine": "pizza",
+        "dog": "yes",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "CoolHead Brew",
+        "opening_hours": "Mo-Tu 11:00-21:00; We-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-20:00",
+        "opening_hours:kitchen": "Mo-Tu 11:00-20:00; We-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-19:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+358 44 4916869",
+        "roof:levels": "1",
+        "shop": "alcohol",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:fee": "no",
+        "was:name": "Gardenia",
+        "website": "https://coolhead.fi/",
+        "website:menu": "https://coolhead.fi/wp-content/uploads/2026/05/CoolHead-menu-SS-26.pdf",
+        "wikipedia": "https://fi.wikipedia.org/wiki/CoolHead_Brew",
+        "@id": "way/10528392",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               151.1786102,
               -33.8974001
             ],
@@ -126894,8 +127160,12 @@
               33.4955219
             ],
             [
-              -112.082978,
-              33.4955225
+              -112.0829744,
+              33.4955212
+            ],
+            [
+              -112.0832603,
+              33.495523
             ],
             [
               -112.0832879,
@@ -141028,8 +141298,12 @@
               51.9604256
             ],
             [
-              5.8153761,
-              51.9604136
+              5.8153769,
+              51.9604155
+            ],
+            [
+              5.8153553,
+              51.9604093
             ],
             [
               5.815184,
