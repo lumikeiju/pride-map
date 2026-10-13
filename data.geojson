@@ -13264,6 +13264,7 @@
         "addr:housenumber": "2A",
         "addr:postcode": "00500",
         "addr:street": "Kinaporinkatu",
+        "appointment": "only",
         "contact:instagram": "https://www.instagram.com/nurjatattoo",
         "lgbtq": "primary",
         "name": "Nurja Tattoo",
@@ -19373,12 +19374,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.3901204,
-          43.0750702
+          -89.3900767,
+          43.0751035
         ]
       },
       "properties": {
+        "addr:city": "Madison",
         "addr:housenumber": "303",
+        "addr:postcode": "53703",
+        "addr:state": "WI",
         "addr:street": "North Henry Street",
         "amenity": "nightclub",
         "level": "-1",
@@ -32505,8 +32509,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.1539677,
-          38.7147589
+          -9.1540138,
+          38.7147374
         ]
       },
       "properties": {
@@ -32517,6 +32521,7 @@
         "lgbtq": "primary",
         "name": "Posh Club Lisbon",
         "opening_hours": "Mo-Su 20:00-04:00",
+        "wheelchair": "no",
         "@id": "node/4692271836",
         "@type": "node"
       }
@@ -33563,8 +33568,10 @@
         "contact:tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187272-d26833516-Reviews-Big_Fernand_Valence_(26)-Drome_Auvergne_Rh%C3%B4ne_Alpes.html",
         "cuisine": "burger",
         "delivery": "yes",
+        "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Big Fernand",
+        "outdoor_seating": "yes",
         "phone": "+33 4 26 52 77 82",
         "ref:FR:NAF": "5610C",
         "ref:FR:SIREN": "952302933",
