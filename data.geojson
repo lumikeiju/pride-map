@@ -13802,6 +13802,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.687134,
+          48.6702029
+        ]
+      },
+      "properties": {
+        "addr:city": "Landau an der Isar",
+        "addr:housenumber": "23",
+        "addr:postcode": "94405",
+        "addr:street": "Alte Umgehungsstraße",
+        "branch": "Landau",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "contact:website": "https://www.penny.de/markt/landau/430419/penny-landau-alte-umgehungsstr-23",
+        "lgbtq": "welcome",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "self_checkout": "no",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@id": "node/1934118699",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.0707081,
           49.2749646
         ]
@@ -17419,7 +17448,7 @@
         "addr:street": "10th Street Northeast",
         "amenity": "bar",
         "brewery": "yes",
-        "check_date": "2025-10-06",
+        "check_date": "2026-10-13",
         "contact:email": "alan@lukem31.sg-host.com",
         "contact:phone": "+1-404-892-5786",
         "contact:website": "https://blakesontheparkatl.com/",
@@ -18030,6 +18059,42 @@
         "ref:FR:SIRET": "10145295100029",
         "start_date": "2026-04-01",
         "@id": "node/2359367614",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2884271,
+          44.9414562
+        ]
+      },
+      "properties": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "3350",
+        "addr:postcode": "55408",
+        "addr:state": "MN",
+        "addr:street": "Lyndale Avenue South",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date": "2026-06-10",
+        "cuisine": "coffee_shop",
+        "description": "Locally roasted coffee & creative espresso drinks, plus pastries, served in cool, industrial digs.",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Five Watt Coffee",
+        "opening_hours": "Mo-Su 06:30-18:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-612-545-5972",
+        "source": "Local Knowledge",
+        "website": "http://fivewattcoffee.com/lyndale",
+        "@id": "node/2360978320",
         "@type": "node"
       }
     },
@@ -24765,39 +24830,6 @@
         "website": "https://chasestreetae.com/",
         "wheelchair": "no",
         "@id": "node/3432415458",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0726359,
-          47.5107373
-        ]
-      },
-      "properties": {
-        "addr:city": "Budapest",
-        "addr:housenumber": "36",
-        "addr:postcode": "1062",
-        "addr:street": "Bajza utca",
-        "alcohol": "yes",
-        "amenity": "bar",
-        "brewery": "various",
-        "contact:instagram": "paintitblack_bar",
-        "contact:telegram": "paintitbudapest",
-        "cuisine": "diner;fish;russian;",
-        "internet_access": "wlan",
-        "internet_access:fee": "customers",
-        "lgbtq": "welcome",
-        "name": "Paint it Black",
-        "outdoor_seating": "yes",
-        "payment:cards": "yes",
-        "payment:cash": "yes",
-        "payment:contactless": "yes",
-        "payment:qr_code": "no",
-        "@id": "node/3433606066",
         "@type": "node"
       }
     },
@@ -32813,7 +32845,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Winners",
-        "opening_hours": "Tu-Sa 09:00-21:00; Su-Mo 10:00-19:00",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
         "phone": "+1-604-430-3457",
         "shop": "kitchenware;clothes",
         "website": "https://www.winners.ca/en/storelocator?store=372",
@@ -53477,7 +53509,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Baltimore",
         "addr:housenumber": "843",
+        "addr:postcode": "21211",
+        "addr:state": "MD",
         "addr:street": "West 36th Street",
         "check_date": "2023-04-17",
         "level": "0",
@@ -69948,6 +69983,7 @@
         "addr:street": "Fröbelgasse",
         "amenity": "community_centre",
         "community_centre": "youth_centre",
+        "community_centre:for": "lgbtq",
         "lgbtq": "primary",
         "name": "Jugendzentrum Q:WIR",
         "operator": "Q:WIR – Verein zur Stärkung und Sichtbarmachung queeren Lebens in Wien.",
@@ -71525,8 +71561,10 @@
         "addr:state": "PA",
         "addr:street": "North Queen Street",
         "check_date": "2025-07-06",
+        "email": "info@madcapandco.com",
         "lgbtq": "welcome",
         "name": "Madcap & Company",
+        "phone": "+1-717-299-0827",
         "shop": "gift",
         "website": "https://madcapandco.com/",
         "@id": "node/12177248326",
@@ -71545,7 +71583,7 @@
       "properties": {
         "addr:city": "Peoria",
         "addr:housenumber": "112",
-        "addr:postcode": "61612",
+        "addr:postcode": "61602",
         "addr:state": "IL",
         "addr:street": "State Street",
         "amenity": "bar",
@@ -91984,7 +92022,7 @@
       "properties": {
         "addr:city": "Peoria",
         "addr:housenumber": "106",
-        "addr:postcode": "61614",
+        "addr:postcode": "61603",
         "addr:state": "IL",
         "addr:street": "East McClure Avenue",
         "amenity": "restaurant",
@@ -96104,6 +96142,7 @@
         "toilets:wheelchair": "no",
         "website": "https://www.rutlandarmssheffield.co.uk/",
         "wheelchair": "limited",
+        "wikidata": "Q137039324",
         "@id": "way/104028036",
         "@type": "way"
       }
