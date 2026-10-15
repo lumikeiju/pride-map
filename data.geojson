@@ -1580,11 +1580,18 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "141-149",
+        "addr:street": "Pontstraße",
         "amenity": "cinema",
+        "check_date": "2026-10-14",
         "level": "-1",
         "lgbtq": "welcome",
         "name": "Apollo Kino",
         "note": "im Keller",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 241 9008484",
         "smoking": "separated",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "website": "https://www.apollo-aachen.de/",
@@ -11889,7 +11896,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "The Wayward Cafe",
-        "opening_hours": "Mo-We 09:00-14:00; Th 09:00-20:00; Fr-Sa 08:00-21:00; Su 08:00-20:00",
+        "opening_hours": "Mo,Tu,Th 08:00-14:30,16:00-20:00; Fr-Su 08:00-20:00; We off",
         "panoramax": "6ae13ea1-0d12-417f-8c70-d2b8eba4b3c9",
         "payment:cash": "no",
         "payment:contactless": "yes",
@@ -13802,8 +13809,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.687134,
-          48.6702029
+          12.6869576,
+          48.6701523
         ]
       },
       "properties": {
@@ -13816,6 +13823,7 @@
         "brand:wikidata": "Q284688",
         "brand:wikipedia": "en:Penny (supermarket)",
         "contact:website": "https://www.penny.de/markt/landau/430419/penny-landau-alte-umgehungsstr-23",
+        "internet_access": "wlan",
         "lgbtq": "welcome",
         "name": "Penny",
         "opening_hours": "Mo-Sa 07:00-20:00",
@@ -14165,7 +14173,7 @@
         "addr:street": "Railroad Avenue",
         "amenity": "cafe",
         "changing_table": "yes",
-        "check_date": "2026-10-07",
+        "check_date": "2026-10-14",
         "cuisine": "coffee_shop",
         "diet:non-vegetarian": "yes",
         "diet:vegan": "yes",
@@ -14185,7 +14193,7 @@
         "smoking": "no",
         "takeaway": "yes",
         "toilets": "yes",
-        "wheelchair": "limited",
+        "wheelchair": "yes",
         "@id": "node/1976759432",
         "@type": "node"
       }
@@ -21694,7 +21702,7 @@
         "name": "Hostal Pizarro",
         "phone": "+34 91 5319158",
         "tourism": "guest_house",
-        "website": "https://www.hostalpizarro.eu/es/index.html",
+        "website": "https://hostalpizarro.eu/",
         "@id": "node/2782198963",
         "@type": "node"
       }
@@ -53365,7 +53373,8 @@
         ]
       },
       "properties": {
-        "check_date": "2025-11-03",
+        "check_date": "2026-10-14",
+        "check_date:opening_hours": "2026-10-14",
         "contact:city": "Garching bei München",
         "contact:country": "DE",
         "contact:housenumber": "3",
@@ -53380,6 +53389,7 @@
         "lgbtq": "welcome",
         "name": "Fachschaft MPIC (MI office)",
         "office": "association",
+        "opening_hours": "\"je nach Anwesenheit der Fachschaftler*innen\"",
         "payment:cards": "no",
         "payment:cash": "yes",
         "payment:credit_cards": "no",
@@ -67899,7 +67909,7 @@
         "self_service": "yes",
         "takeaway": "yes",
         "toilets": "yes",
-        "website": "https://www.facebook.com/profile.php?id=100094451743954&mibextid=ZbWKwL",
+        "website": "https://www.facebook.com/profile.php?id=100094451743954",
         "wheelchair": "no",
         "@id": "node/11782113561",
         "@type": "node"
@@ -82101,6 +82111,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -118.092317,
+          33.8570981
+        ]
+      },
+      "properties": {
+        "addr:city": "Cerritos",
+        "addr:housenumber": "11332",
+        "addr:postcode": "90701",
+        "addr:state": "CA",
+        "addr:street": "South Street",
+        "check_date": "2025-12-27",
+        "lgbtq": "welcome",
+        "lgbtq:trans": "welcome",
+        "name": "Lovers",
+        "shop": "erotic",
+        "@id": "node/13412678316",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.3386745,
           45.7236403
         ]
@@ -89066,7 +89100,7 @@
         "addr:postcode": "98225",
         "addr:state": "WA",
         "addr:street": "Railroad Avenue",
-        "check_date": "2026-10-07",
+        "check_date": "2026-10-14",
         "internet_access": "wlan",
         "internet_access:fee": "customers",
         "level": "0",
@@ -89083,7 +89117,7 @@
         "shop": "pet",
         "start_date": "2025-11-30",
         "website": "https://www.emmaquatics.com/",
-        "wheelchair": "limited",
+        "wheelchair": "yes",
         "@id": "node/14247121284",
         "@type": "node"
       }
@@ -89237,6 +89271,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          19.8169833,
+          41.3242402
+        ]
+      },
+      "properties": {
+        "addr:street": "Rruga Reshit Çollaku",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "DOT the bar",
+        "opening_hours": "Tu-Su 18:00-00:00",
+        "outdoor_seating": "yes",
+        "@id": "node/14269280802",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.5798191,
           45.4969642
         ]
@@ -89264,6 +89319,349 @@
         "website": "https://queerconcordia.ca/",
         "wheelchair": "no",
         "@id": "node/14269344282",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8483135,
+          35.5041779
+        ]
+      },
+      "properties": {
+        "addr:city": "Davidson",
+        "addr:housenumber": "210",
+        "addr:postcode": "28036",
+        "addr:state": "NC",
+        "addr:street": "Delburg Street",
+        "contact:facebook": "https://www.facebook.com/eliteroofandsolar/",
+        "contact:instagram": "https://www.instagram.com/elite_roof_and_solar/",
+        "contact:linkedin": "https://www.linkedin.com/company/elite-roofing-solar/",
+        "contact:twitter": "https://twitter.com/EliteSolarRoof",
+        "contact:youtube": "https://www.youtube.com/@eliteroofandsolar",
+        "craft": "roofer",
+        "email": "sales@eliteroofandsolar.com",
+        "lgbtq": "welcome",
+        "name": "Elite Roof and Solar",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-704-992-7474",
+        "website": "https://eliteroofandsolar.com/",
+        "@id": "node/14284226598",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8194799,
+          35.2139568
+        ]
+      },
+      "properties": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "400",
+        "addr:postcode": "28204",
+        "addr:state": "NC",
+        "addr:street": "Clement Avenue",
+        "branch": "Charlotte",
+        "contact:facebook": "https://www.facebook.com/eliteroofandsolar/",
+        "contact:instagram": "https://www.instagram.com/elite_roof_and_solar/",
+        "contact:linkedin": "https://www.linkedin.com/company/elite-roofing-solar/",
+        "contact:twitter": "https://twitter.com/EliteSolarRoof",
+        "contact:youtube": "https://www.youtube.com/@eliteroofandsolar",
+        "craft": "roofer",
+        "email": "sales@eliteroofandsolar.com",
+        "lgbtq": "welcome",
+        "name": "Elite Roof and Solar",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-704-992-7474",
+        "website": "https://eliteroofandsolar.com/roofers/charlotte-nc/",
+        "@id": "node/14284241378",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5748063,
+          35.5786105
+        ]
+      },
+      "properties": {
+        "addr:city": "Asheville",
+        "addr:housenumber": "257",
+        "addr:postcode": "28806",
+        "addr:state": "NC",
+        "addr:street": "Haywood Road",
+        "addr:unit": "201",
+        "branch": "Asheville",
+        "contact:facebook": "https://www.facebook.com/eliteroofandsolar/",
+        "contact:instagram": "https://www.instagram.com/elite_roof_and_solar/",
+        "contact:linkedin": "https://www.linkedin.com/company/elite-roofing-solar/",
+        "contact:twitter": "https://twitter.com/EliteSolarRoof",
+        "contact:youtube": "https://www.youtube.com/@eliteroofandsolar",
+        "craft": "roofer",
+        "email": "sales@eliteroofandsolar.com",
+        "lgbtq": "welcome",
+        "name": "Elite Roof and Solar",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-828-333-4818",
+        "website": "https://eliteroofandsolar.com/roofers/asheville-nc/",
+        "@id": "node/14284241379",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2494392,
+          36.0986532
+        ]
+      },
+      "properties": {
+        "addr:city": "Winston-Salem",
+        "addr:housenumber": "500",
+        "addr:postcode": "27101",
+        "addr:state": "NC",
+        "addr:street": "West 5th Street",
+        "addr:unit": "800",
+        "branch": "Winston-Salem",
+        "contact:facebook": "https://www.facebook.com/eliteroofandsolar/",
+        "contact:instagram": "https://www.instagram.com/elite_roof_and_solar/",
+        "contact:linkedin": "https://www.linkedin.com/company/elite-roofing-solar/",
+        "contact:twitter": "https://twitter.com/EliteSolarRoof",
+        "contact:youtube": "https://www.youtube.com/@eliteroofandsolar",
+        "craft": "roofer",
+        "email": "sales@eliteroofandsolar.com",
+        "lgbtq": "welcome",
+        "name": "Elite Roof and Solar",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-336-365-1261",
+        "website": "https://eliteroofandsolar.com/roofers/winston-salem-nc/",
+        "@id": "node/14284242413",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6842954,
+          36.2187074
+        ]
+      },
+      "properties": {
+        "addr:city": "Boone",
+        "addr:housenumber": "661",
+        "addr:postcode": "28607",
+        "addr:state": "NC",
+        "addr:street": "West King Street",
+        "branch": "Boone",
+        "contact:facebook": "https://www.facebook.com/eliteroofandsolar/",
+        "contact:instagram": "https://www.instagram.com/elite_roof_and_solar/",
+        "contact:linkedin": "https://www.linkedin.com/company/elite-roofing-solar/",
+        "contact:twitter": "https://twitter.com/EliteSolarRoof",
+        "contact:youtube": "https://www.youtube.com/@eliteroofandsolar",
+        "craft": "roofer",
+        "email": "sales@eliteroofandsolar.com",
+        "lgbtq": "welcome",
+        "name": "Elite Roof and Solar",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-828-333-4818",
+        "website": "https://eliteroofandsolar.com/roofers/boone-nc/",
+        "@id": "node/14284244587",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0347556,
+          34.001295
+        ]
+      },
+      "properties": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "1201",
+        "addr:postcode": "29201",
+        "addr:state": "SC",
+        "addr:street": "Main Street",
+        "addr:unit": "1980",
+        "branch": "Columbia",
+        "contact:facebook": "https://www.facebook.com/eliteroofandsolar/",
+        "contact:instagram": "https://www.instagram.com/elite_roof_and_solar/",
+        "contact:linkedin": "https://www.linkedin.com/company/elite-roofing-solar/",
+        "contact:twitter": "https://twitter.com/EliteSolarRoof",
+        "contact:youtube": "https://www.youtube.com/@eliteroofandsolar",
+        "craft": "roofer",
+        "email": "sales@eliteroofandsolar.com",
+        "lgbtq": "welcome",
+        "name": "Elite Roof and Solar",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-803-970-6869",
+        "website": "https://eliteroofandsolar.com/roofers/columbia-sc/",
+        "@id": "node/14284245064",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3263133,
+          35.735947
+        ]
+      },
+      "properties": {
+        "addr:city": "Hickory",
+        "addr:housenumber": "520",
+        "addr:postcode": "28601",
+        "addr:state": "NC",
+        "addr:street": "8th Street Northeast",
+        "branch": "Hickory",
+        "contact:facebook": "https://www.facebook.com/eliteroofandsolar/",
+        "contact:instagram": "https://www.instagram.com/elite_roof_and_solar/",
+        "contact:linkedin": "https://www.linkedin.com/company/elite-roofing-solar/",
+        "contact:twitter": "https://twitter.com/EliteSolarRoof",
+        "contact:youtube": "https://www.youtube.com/@eliteroofandsolar",
+        "craft": "roofer",
+        "email": "sales@eliteroofandsolar.com",
+        "lgbtq": "welcome",
+        "name": "Elite Roof and Solar",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-828-333-4818",
+        "website": "https://eliteroofandsolar.com/roofers/hickory-nc/",
+        "@id": "node/14284245321",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3103206,
+          34.0903375
+        ]
+      },
+      "properties": {
+        "addr:city": "Los Angeles",
+        "addr:housenumber": "5520",
+        "addr:postcode": "90038",
+        "addr:state": "CA",
+        "addr:street": "Santa Monica Boulevard",
+        "amenity": "nightclub",
+        "contact:facebook": "https://www.facebook.com/64227142153",
+        "lgbtq": "primary",
+        "name": "Club Tempo",
+        "phone": "+1-325-648-6805",
+        "website": "https://www.clubtempola.com/",
+        "@id": "node/14284576994",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3693471,
+          34.1723334
+        ]
+      },
+      "properties": {
+        "addr:city": "North Hollywood",
+        "addr:housenumber": "10937",
+        "addr:postcode": "91601-2524",
+        "addr:state": "CA",
+        "addr:street": "Burbank Boulevard",
+        "amenity": "nightclub",
+        "contact:facebook": "https://www.facebook.com/clubcobrala/",
+        "lgbtq": "primary",
+        "name": "Club Cobra",
+        "phone": "+12132489800",
+        "website": "http://www.clubcobrala.com/",
+        "@id": "node/14284615998",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1346867,
+          34.0225908
+        ]
+      },
+      "properties": {
+        "addr:city": "Montebello",
+        "addr:housenumber": "2915",
+        "addr:postcode": "90640",
+        "addr:state": "CA",
+        "addr:street": "West Beverly Boulevard",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/110274675738847",
+        "lgbtq": "primary",
+        "name": "Chico",
+        "phone": "+1--909-990-6446",
+        "website": "http://www.clubchico.com/",
+        "@id": "node/14284627883",
         "@type": "node"
       }
     },
@@ -89417,17 +89815,29 @@
         "addr:housenumber": "1",
         "addr:postcode": "00790",
         "addr:street": "Koetilantie",
+        "air_conditioning": "yes",
         "amenity": "bar",
         "building": "retail",
         "building:levels": "1",
-        "check_date": "2026-09-28",
+        "check_date": "2026-10-14",
+        "check_date:diet:gluten_free": "2026-10-14",
+        "check_date:diet:vegan": "2026-10-14",
+        "check_date:diet:vegetarian": "2026-10-14",
         "contact:facebook": "coolheadbrew",
         "contact:instagram": "coolheadbrew",
         "craft": "brewery",
         "cuisine": "pizza",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
         "dog": "yes",
+        "email": "taproom@coolhead.fi",
         "food": "yes",
+        "handwashing:soap": "yes",
         "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "CoolHead Customer",
         "level": "0",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -89435,18 +89845,30 @@
         "opening_hours": "Mo-Tu 11:00-21:00; We-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-20:00",
         "opening_hours:kitchen": "Mo-Tu 11:00-20:00; We-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-19:00",
         "outdoor_seating": "yes",
+        "panoramax": "8de6b6a7-a50c-4cc5-a31a-75cb1c6430fc",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
+        "payment:qr_code": "no",
         "phone": "+358 44 4916869",
+        "reservation": "no",
         "roof:levels": "1",
         "shop": "alcohol",
+        "smoking": "outside",
         "takeaway": "yes",
         "toilets": "yes",
         "toilets:access": "customers",
+        "toilets:disposal": "flush",
         "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:wheelchair": "yes",
         "was:name": "Gardenia",
         "website": "https://coolhead.fi/",
         "website:menu": "https://coolhead.fi/wp-content/uploads/2026/05/CoolHead-menu-SS-26.pdf",
+        "wheelchair": "yes",
         "wikipedia": "https://fi.wikipedia.org/wiki/CoolHead_Brew",
         "@id": "way/10528392",
         "@type": "way"
@@ -107626,6 +108048,67 @@
         "wikidata": "Q6530230",
         "wikipedia": "en:Lesbian, Gay, Bisexual & Transgender Community Center",
         "@id": "way/250490670",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.6169655,
+              39.3115601
+            ],
+            [
+              -76.6169618,
+              39.3114996
+            ],
+            [
+              -76.616949,
+              39.3112876
+            ],
+            [
+              -76.6169487,
+              39.3112836
+            ],
+            [
+              -76.6171274,
+              39.3112771
+            ],
+            [
+              -76.6171442,
+              39.3115536
+            ],
+            [
+              -76.6170223,
+              39.3115581
+            ],
+            [
+              -76.6169655,
+              39.3115601
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "12",
+        "addr:postcode": "21201",
+        "addr:state": "MD",
+        "addr:street": "West North Avenue",
+        "amenity": "bar",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/p/The-Club-Car-Baltimore-61556344869273/",
+        "contact:instagram": "https://www.instagram.com/theclubcarbaltimore/",
+        "email": "theclubcarbaltimore@gmail.com",
+        "lgbtq": "primary",
+        "name": "The Club Car",
+        "opening_hours": "Mo-We off; Th,Su 17:00-22:00; Fr,Sa 18:00-01:00",
+        "phone": "+1-443-591-0364",
+        "source": "Baltimore City GIS",
+        "@id": "way/253128341",
         "@type": "way"
       }
     },
@@ -126531,6 +127014,217 @@
         "name": "Woody's",
         "opening_hours": "Mo-Th 16:00-02:00, Fr 16:00-02:30, Sa 14:00-02:30, Su 14:00-02:00",
         "@id": "way/663206976",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.5908265,
+              38.6247401
+            ],
+            [
+              -90.5852153,
+              38.6257837
+            ],
+            [
+              -90.5862453,
+              38.6279629
+            ],
+            [
+              -90.5852046,
+              38.6280467
+            ],
+            [
+              -90.5828496,
+              38.6274013
+            ],
+            [
+              -90.5806448,
+              38.6270451
+            ],
+            [
+              -90.5807467,
+              38.6266931
+            ],
+            [
+              -90.5807896,
+              38.6265045
+            ],
+            [
+              -90.5808218,
+              38.6262405
+            ],
+            [
+              -90.5808487,
+              38.6251508
+            ],
+            [
+              -90.5808755,
+              38.6245306
+            ],
+            [
+              -90.580913,
+              38.6242288
+            ],
+            [
+              -90.5810042,
+              38.623881
+            ],
+            [
+              -90.58109,
+              38.6236756
+            ],
+            [
+              -90.581251,
+              38.6233277
+            ],
+            [
+              -90.5820288,
+              38.6219908
+            ],
+            [
+              -90.58212,
+              38.621907
+            ],
+            [
+              -90.5822166,
+              38.6218776
+            ],
+            [
+              -90.5823668,
+              38.6218609
+            ],
+            [
+              -90.5825384,
+              38.6218818
+            ],
+            [
+              -90.5827155,
+              38.6219405
+            ],
+            [
+              -90.5830105,
+              38.6220704
+            ],
+            [
+              -90.583665,
+              38.6224267
+            ],
+            [
+              -90.5843463,
+              38.6228332
+            ],
+            [
+              -90.5848183,
+              38.6231894
+            ],
+            [
+              -90.5852636,
+              38.6235038
+            ],
+            [
+              -90.5854728,
+              38.6236253
+            ],
+            [
+              -90.5857249,
+              38.6237217
+            ],
+            [
+              -90.5859985,
+              38.6237971
+            ],
+            [
+              -90.5863204,
+              38.6238349
+            ],
+            [
+              -90.586551,
+              38.6238391
+            ],
+            [
+              -90.5868997,
+              38.6238181
+            ],
+            [
+              -90.5871143,
+              38.6237971
+            ],
+            [
+              -90.5880692,
+              38.6236211
+            ],
+            [
+              -90.5882837,
+              38.6236002
+            ],
+            [
+              -90.5885788,
+              38.6236169
+            ],
+            [
+              -90.5888255,
+              38.6236672
+            ],
+            [
+              -90.5892493,
+              38.6237678
+            ],
+            [
+              -90.5898019,
+              38.6239145
+            ],
+            [
+              -90.5900755,
+              38.6240109
+            ],
+            [
+              -90.5902686,
+              38.624124
+            ],
+            [
+              -90.5904402,
+              38.624254
+            ],
+            [
+              -90.5906012,
+              38.624409
+            ],
+            [
+              -90.5907138,
+              38.6245515
+            ],
+            [
+              -90.5908265,
+              38.6247401
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Chesterfield",
+        "addr:housenumber": "2351",
+        "addr:postcode": "63017",
+        "addr:state": "MO",
+        "addr:street": "Clarkson Road",
+        "amenity": "school",
+        "building": "yes",
+        "grades": "9-12",
+        "lgbtq": "welcome",
+        "mascot": "Mustangs",
+        "name": "Marquette High School",
+        "operator": "Rockwood School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q7355712",
+        "religion": "none",
+        "toilets:gender_segregated": "yes",
+        "website": "marquette.rsdmo.org",
+        "@id": "way/664305456",
         "@type": "way"
       }
     },
