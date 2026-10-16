@@ -15426,9 +15426,9 @@
         "addr:housenumber": "622",
         "addr:postcode": "98102",
         "addr:street": "Broadway East",
-        "amenity": "restaurant",
-        "check_date": "2026-09-23",
+        "check_date": "2026-10-15",
         "cuisine": "italian",
+        "disused:amenity": "restaurant",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -36147,6 +36147,7 @@
         "brand": "PureGym",
         "brand:wikidata": "Q18345898",
         "brand:wikipedia": "en:PureGym",
+        "contact:email": "info.leedsmerrion@puregym.com",
         "contact:website": "https://www.puregym.com/gyms/leeds-city-centre-north/",
         "internet_access": "wlan",
         "last_checked": "2025-07-19",
@@ -41228,6 +41229,11 @@
         "amenity": "restaurant",
         "bar": "yes",
         "cocktails": "yes",
+        "contact:email": "info@bluesakura.co.uk",
+        "contact:facebook": "https://www.facebook.com/BlueSakuraLeeds",
+        "contact:instagram": "https://www.instagram.com/bluesakuraleeds",
+        "contact:phone": "+44 113 244 2989",
+        "contact:website": "https://www.bluesakura.co.uk/contact-us",
         "cuisine": "japanese",
         "description": "Blue Sakura offers a unique all you can eat concept of Japanese sushi and Asian style grill.",
         "diet:halal": "yes",
@@ -41248,7 +41254,6 @@
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
-        "phone": "+44 113 244 2989",
         "reservation": "recommended",
         "toilets": "yes",
         "toilets:wheelchair": "yes",
@@ -82123,7 +82128,7 @@
         "addr:street": "South Street",
         "check_date": "2025-12-27",
         "lgbtq": "welcome",
-        "lgbtq:trans": "welcome",
+        "lgbtq:transgender": "welcome",
         "name": "Lovers",
         "shop": "erotic",
         "@id": "node/13412678316",
@@ -85869,25 +85874,6 @@
         "lgbtq": "primary",
         "name": "Flixx Cabaret & Show Bar",
         "@id": "node/13908516482",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.6176356,
-          44.75923
-        ]
-      },
-      "properties": {
-        "amenity": "community_centre",
-        "check_date": "2026-06-06",
-        "community_centre:for": "lgbtq",
-        "lgbtq": "primary",
-        "name": "Up North Pride",
-        "@id": "node/13918859044",
         "@type": "node"
       }
     },
@@ -111369,7 +111355,7 @@
         "addr:state": "WA",
         "addr:street": "East Madison Street",
         "amenity": "bar",
-        "building": "yes",
+        "building": "retail",
         "check_date": "2026-09-04",
         "check_date:opening_hours": "2026-09-04",
         "lgbtq": "primary",
@@ -123678,7 +123664,7 @@
         "addr:postcode": "98122",
         "addr:street": "East Madison Street",
         "amenity": "bar",
-        "building": "yes",
+        "building": "retail",
         "lgbtq": "primary",
         "name": "Madison Pub",
         "outdoor_seating": "no",
@@ -129872,6 +129858,70 @@
         "lgbtq": "primary",
         "name": "Hinan-ay Grandiosa",
         "@id": "way/759815699",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.7943135,
+              35.7257796
+            ],
+            [
+              139.794172,
+              35.7257027
+            ],
+            [
+              139.7941321,
+              35.7257511
+            ],
+            [
+              139.7941692,
+              35.7257713
+            ],
+            [
+              139.7941875,
+              35.7257491
+            ],
+            [
+              139.7942919,
+              35.7258059
+            ],
+            [
+              139.7943135,
+              35.7257796
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:block_number": "4",
+        "addr:city": "台東区",
+        "addr:housenumber": "5",
+        "addr:neighbourhood": "千束三丁目",
+        "addr:postcode": "111-0031",
+        "addr:province": "東京都",
+        "addr:quarter": "竜泉",
+        "alt_name": "ぱんだハウス三ノ輪;Panda House Minowa",
+        "building": "house",
+        "building:levels": "3",
+        "contact:line": "https://line.me/ti/g2/Vyg4MG5_i8KxCygS2GyrvTgf49xyNepJejwfAg",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "アジール三ノ輪",
+        "name:en": "Azyl Minowa",
+        "name:ja": "アジール三ノ輪",
+        "operator": "株式会社場づくり屋",
+        "operator:en": "Bazukuriya Co., Ltd.",
+        "rooms": "9",
+        "source:lgbtq": "https://colish.net/concepts/2116",
+        "start_date": "2026-06",
+        "website": "https://camp-fire.jp/projects/949163/view",
+        "@id": "way/761347020",
         "@type": "way"
       }
     },
@@ -136389,7 +136439,7 @@
         "addr:state": "WA",
         "addr:street": "14th Avenue",
         "amenity": "bar",
-        "building": "yes",
+        "building": "retail",
         "lgbtq": "primary",
         "name": "Diesel",
         "wikidata": "Q111170064",
