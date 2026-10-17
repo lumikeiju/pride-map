@@ -454,17 +454,22 @@
         "addr:city": "Leeds",
         "addr:housenumber": "11",
         "addr:postcode": "LS1 6ER",
-        "addr:street": "Briggate",
+        "addr:street": "Lower Briggate",
         "amenity": "pub",
+        "contact:email": "info@viaductleeds.com",
         "contact:facebook": "https://www.facebook.com/viaductshowbar/",
+        "contact:instagram": "https://www.instagram.com/viaductshowbar/",
+        "contact:phone": "+44 113 344 9552",
         "contact:twitter": "https://twitter.com/ViaductShowBar",
+        "contact:website": "https://viaductleeds.com/contact/",
         "fhrs:id": "321510",
         "lgbtq": "primary",
         "name": "Viaduct Showbar",
         "not:addr:postcode": "LS1 6EP",
-        "phone": "+44 113 344 9552",
+        "opening_hours": "Mo 13:00-04:00; Tu 13:00-02:00; We 13:00-02:00; Th 13:00-03:00; Fr 13:00-05:00; Sa 13:00-17:00; Su 13:00-01:00",
         "source:addr:postcode": "code-point_open",
         "website": "https://www.viaductleeds.com/",
+        "website:booking": "https://viaductleeds.com/book/",
         "wikidata": "Q61875612",
         "wikimedia_commons": "File:Viaduct Showbar, Lower Briggate, Leeds (10th August 2018).jpg",
         "@id": "node/250225357",
@@ -1703,17 +1708,24 @@
       },
       "properties": {
         "addr:city": "Leeds",
+        "addr:housenumber": "167-168",
         "addr:postcode": "LS1 6LY",
         "addr:street": "Briggate",
         "amenity": "pub",
-        "contact:facebook": "https://www.facebook.com/QueensCourt",
+        "building:levels": "0",
+        "contact:email": "contact@glamorousqc.co.uk",
+        "contact:facebook": "https://www.facebook.com/qcglamleeds",
+        "contact:instagram": "https://www.instagram.com/qcglamleeds/",
         "contact:twitter": "https://twitter.com/queenscrtlds",
+        "contact:website": "https://glamorousqc.co.uk/contact/",
         "fhrs:id": "323357",
         "lgbtq": "primary",
         "name": "Queens Court",
+        "opening_hours": "Mo-Th 16:00-00:00, Fr 16:00-02:00, Sa 12:00-02:00, Su 12:00-00:00",
+        "opening_hours:url": "https://glamorousqc.co.uk/contact/",
         "operator": "Stonegate",
         "operator:wikidata": "Q7619176",
-        "website": "https://www.queenscourtleeds.com/leeds",
+        "website": "https://glamorousqc.co.uk/",
         "@id": "node/333452844",
         "@type": "node"
       }
@@ -2557,10 +2569,9 @@
         "amenity": "bar",
         "check_date": "2025-06-27",
         "contact:city": "Nantes",
-        "contact:country": "FR",
-        "contact:facebook": "https://www.facebook.com/lepetit.marais/",
+        "contact:facebook": "lepetit.marais",
         "contact:housenumber": "15",
-        "contact:instagram": "https://www.instagram.com/le_petit_marais_nantes/",
+        "contact:instagram": "le_petit_marais_nantes",
         "contact:phone": "+33 2 40 35 24 62;+33 2 40 20 15 25",
         "contact:postcode": "44000",
         "contact:street": "Rue Kervégan",
@@ -9244,39 +9255,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.5649863,
-          50.1325088
-        ]
-      },
-      "properties": {
-        "addr:city": "Madron",
-        "addr:housenumber": "22",
-        "addr:postcode": "TR20 8SS",
-        "addr:street": "Church Road",
-        "alt_name": "King William IV",
-        "amenity": "pub",
-        "contact:facebook": "KingWilliamIVMadron",
-        "contact:instagram": "king_william_iv_madron",
-        "dog": "yes",
-        "email": "kwivmadron@gmail.com",
-        "food": "yes",
-        "internet_access": "wlan",
-        "lgbtq": "welcome",
-        "name": "King William the Fourth",
-        "opening_hours": "We-Fr 17:00-23:30; Sa-Su 12:00-23:30",
-        "phone": "+44 1736 322320",
-        "real_fire": "yes",
-        "website": "https://www.kwiv.co.uk/",
-        "website:menu": "https://kwiv.co.uk/products",
-        "@id": "node/1327708693",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -77.0253441,
           38.9971944
         ]
@@ -14712,7 +14690,9 @@
         "check_date": "2026-08-26",
         "lgbtq": "primary",
         "lgbtq:signed": "yes",
-        "name": "Changes",
+        "name": "Changes Bar & Grill",
+        "opening_hours": "Mo-Su 12:00-02:00",
+        "phone": "+1 206 545 8363",
         "@id": "node/2061048098",
         "@type": "node"
       }
@@ -17323,7 +17303,6 @@
         "check_date:opening_hours": "2025-07-27",
         "cocktails": "yes",
         "contact:city": "Nantes",
-        "contact:country": "FR",
         "contact:facebook": "barlecerclerouge/",
         "contact:housenumber": "27",
         "contact:phone": "+33 2 28 29 83 65",
@@ -24211,12 +24190,19 @@
         "addr:housenumber": "57-59",
         "addr:postcode": "LS1 7BT",
         "addr:street": "Call Lane",
+        "alt_name": "New Penny, The",
         "amenity": "bar",
+        "contact:email": "thenewpenny@live.co.uk",
+        "contact:facebook": "https://www.facebook.com/TheNewPennyLeeds/",
+        "contact:instagram": "https://www.instagram.com/thenewpenny2024",
+        "contact:phone": "+44 0113 243 8055",
+        "contact:tripadvisor": "https://www.tripadvisor.co.uk/Attraction_Review-g186411-d34457604-Reviews-The_New_Penny-Leeds_West_Yorkshire_England.html",
         "fhrs:id": "321826",
         "lgbtq": "primary",
         "name": "The New Penny",
         "wheelchair": "limited",
         "wikidata": "Q16895775",
+        "wikimedia_commons": "Category:The New Penny, Leeds",
         "wikipedia": "en:The New Penny",
         "@id": "node/3352620261",
         "@type": "node"
@@ -26874,6 +26860,7 @@
         "addr:postcode": "70180",
         "addr:street": "Bopserstraße",
         "amenity": "pub",
+        "check_date": "2026-10-16",
         "contact:facebook": "https://www.facebook.com/bootswesternbarstuttgart/",
         "lgbtq": "primary",
         "lgbtq:gay": "primary",
@@ -39146,13 +39133,18 @@
       },
       "properties": {
         "addr:city": "Leeds",
+        "addr:housename": "Flamingos Coffee House",
         "addr:postcode": "LS1 6DX",
         "addr:street": "Central Arcade",
         "addr:unit": "10",
         "amenity": "cafe",
-        "check_date": "2025-05-30",
+        "check_date": "2026-10-16",
+        "contact:bluesky": "https://bsky.app/profile/flamingoscoffee.bsky.social",
+        "contact:facebook": "https://www.facebook.com/flamingoscoffeehouseleeds",
+        "contact:instagram": "https://www.instagram.com/flamingosleeds/",
         "contact:phone": "+44 113 244 8699",
-        "contact:website": "https://flamingosleeds.co.uk/",
+        "contact:tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g186411-d15314734-Reviews-Flamingos_Coffee_House-Leeds_West_Yorkshire_England.html",
+        "contact:website": "https://flamingoscoffeehouse.co.uk/find-us/",
         "cuisine": "coffee_shop",
         "email": "neil@flamingosleeds.co.uk",
         "fhrs:id": "1808801",
@@ -39163,9 +39155,11 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "Flamingos",
-        "opening_hours": "Mo-Su 10:00-18:00",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-18:00; Su 10:00-18:00",
         "outdoor_seating": "no",
         "source:addr": "FHRS Open Data",
+        "website": "https://flamingoscoffeehouse.co.uk/",
+        "website:menu": "https://flamingoscoffeehouse.co.uk/menu/",
         "wheelchair": "yes",
         "@id": "node/6022850232",
         "@type": "node"
@@ -44916,6 +44910,34 @@
         "website": "https://gap-in-bonn.de/",
         "wheelchair": "no",
         "@id": "node/6898055488",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0522137,
+          51.5473673
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:postcode": "E8 1DU",
+        "addr:street": "Bohemia Place",
+        "addr:unit": "18",
+        "amenity": "bar",
+        "check_date": "2026-10-17",
+        "fhrs:id": "1980680",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "The Joiners Heart",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "@id": "node/6900790810",
         "@type": "node"
       }
     },
@@ -53625,11 +53647,14 @@
         "addr:state": "MD",
         "addr:street": "North Charles Street",
         "amenity": "nightclub",
-        "check_date": "2022-10-10",
+        "check_date": "2026-10-16",
+        "check_date:opening_hours": "2026-10-16",
+        "contact:instagram": "bmoreeagle",
         "fetish:leather": "yes",
         "lgbtq": "primary",
         "name": "Baltimore Eagle",
-        "opening_hours": "Th,Su 17:00-00:00; Fr-Sa 17:00-02:00; Mo-We,PH off",
+        "opening_hours": "Th 20:00-00:00; Fr-Sa 20:00-02:00; Su 16:00-20:00",
+        "phone": "+1-443-759-8228",
         "source:lgbtq": "https://baltimoreeagle.com/about-us/",
         "website": "https://baltimoreeagle.com/",
         "@id": "node/9207624713",
@@ -59066,6 +59091,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.9096994,
+          49.2020004
+        ]
+      },
+      "properties": {
+        "addr:city": "New Westminster",
+        "addr:housenumber": "708",
+        "addr:postcode": "V3M 1A9",
+        "addr:province": "BC",
+        "addr:street": "Columbia Street",
+        "facebook": "https://www.facebook.com/bbombshellsalon",
+        "female": "yes",
+        "instagram": "https://www.instagram.com/bbombshellsalon/",
+        "lgbtq": "primary",
+        "lgbtq:signed": "yes",
+        "male": "yes",
+        "name": "BBombshell Salon",
+        "opening_hours": "Mo-Tu 11:00-19:00; We-Fr 10:00-20:00; Sa 09:00-19:00; Su 11:00-19:00",
+        "phone": "+1-604-544-0199",
+        "shop": "hairdresser",
+        "website": "https://www.bbombshellsalon.com/",
+        "@id": "node/9983080218",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           11.0941774,
           43.8771373
         ]
@@ -62301,7 +62356,7 @@
         "name": "Leslie's Pro",
         "phone": "+19723770209",
         "shop": "swimming_pool",
-        "website": "https://lesliespool.com/location/frisco-texas-frisco-419.html?utm_source=gmb&utm_medium=organic&utm_campaign=store_419",
+        "website": "https://lesliespool.com/location/frisco-texas-frisco-419.html",
         "@id": "node/10888298694",
         "@type": "node"
       }
@@ -63395,7 +63450,8 @@
         "addr:housenumber": "4444",
         "addr:postcode": "19127",
         "addr:street": "Main Street",
-        "check_date": "2026-01-28",
+        "check_date": "2026-10-16",
+        "check_date:opening_hours": "2026-10-16",
         "lgbtq": "welcome",
         "name": "Main St. Music",
         "opening_hours": "We-Sa 11:00-19:00; Su 12:00-18:00",
@@ -89648,6 +89704,29 @@
         "phone": "+1--909-990-6446",
         "website": "http://www.clubchico.com/",
         "@id": "node/14284627883",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5423165,
+          53.7951451
+        ]
+      },
+      "properties": {
+        "addr:city": "Leeds",
+        "addr:housenumber": "167-168",
+        "addr:postcode": "LS1 6LY",
+        "addr:street": "Lower Briggate",
+        "amenity": "nightclub",
+        "building:levels": "1",
+        "lgbtq": "primary",
+        "name": "Glamorous",
+        "opening_hours": "Mo-Th 23:00-04:00; Fr,Sa 23:00-05:00; Su 23:00-03:30",
+        "@id": "node/14291781017",
         "@type": "node"
       }
     },
@@ -133185,10 +133264,6 @@
               52.472281
             ],
             [
-              -1.8957211,
-              52.4721712
-            ],
-            [
               -1.8958475,
               52.472119
             ],
@@ -133276,76 +133351,6 @@
         "name": "Nightingale Club",
         "source": "survey",
         "@id": "way/963200524",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -1.8965752,
-              52.4724567
-            ],
-            [
-              -1.8965439,
-              52.472437
-            ],
-            [
-              -1.8965074,
-              52.4724135
-            ],
-            [
-              -1.8964865,
-              52.4724274
-            ],
-            [
-              -1.8964675,
-              52.4724439
-            ],
-            [
-              -1.8964626,
-              52.4724618
-            ],
-            [
-              -1.8964684,
-              52.4724777
-            ],
-            [
-              -1.8966342,
-              52.4726424
-            ],
-            [
-              -1.8967326,
-              52.4725997
-            ],
-            [
-              -1.8965752,
-              52.4724567
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "Birmingham",
-        "addr:housenumber": "16",
-        "addr:postcode": "B5 6RD",
-        "addr:street": "Kent Street",
-        "amenity": "nightclub",
-        "building": "retail",
-        "building:levels": "3",
-        "email": "info@boltz-club.com",
-        "facebook": "https://www.facebook.com/boltzclub/",
-        "fhrs:id": "1621144",
-        "lgbtq": "primary",
-        "name": "Boltz",
-        "old_name": "Amusement 13",
-        "source:addr": "FHRS Open Data",
-        "twitter": "https://twitter.com/BirminghamBoltz",
-        "website": "https://www.boltz-club.com/",
-        "@id": "way/963985128",
         "@type": "way"
       }
     },
@@ -146668,6 +146673,88 @@
         "name": "Centro Cultural Vasco",
         "phone": "+55 17 99613-2069",
         "@id": "way/1567241695",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5646496,
+              50.1325995
+            ],
+            [
+              -5.5646676,
+              50.1325801
+            ],
+            [
+              -5.5645707,
+              50.1325431
+            ],
+            [
+              -5.5646108,
+              50.1324999
+            ],
+            [
+              -5.56474,
+              50.1325492
+            ],
+            [
+              -5.5647262,
+              50.1325641
+            ],
+            [
+              -5.564873,
+              50.13262
+            ],
+            [
+              -5.5648749,
+              50.1326841
+            ],
+            [
+              -5.5648374,
+              50.1326949
+            ],
+            [
+              -5.5646736,
+              50.1326207
+            ],
+            [
+              -5.5646819,
+              50.1326118
+            ],
+            [
+              -5.5646496,
+              50.1325995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Madron",
+        "addr:housenumber": "22",
+        "addr:postcode": "TR20 8SS",
+        "addr:street": "Church Road",
+        "alt_name": "King William IV",
+        "amenity": "pub",
+        "building": "yes",
+        "contact:facebook": "KingWilliamIVMadron",
+        "contact:instagram": "king_william_iv_madron",
+        "dog": "yes",
+        "email": "kwivmadron@gmail.com",
+        "food": "yes",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "King William the Fourth",
+        "opening_hours": "We-Fr 17:00-23:30; Sa-Su 12:00-23:30",
+        "phone": "+44 1736 322320",
+        "real_fire": "yes",
+        "website": "https://www.kwiv.co.uk/",
+        "website:menu": "https://kwiv.co.uk/products",
+        "@id": "way/1568988337",
         "@type": "way"
       }
     },
