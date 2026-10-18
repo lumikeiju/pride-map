@@ -1782,9 +1782,11 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "109,111",
+        "addr:street": "Sandkaulstraße",
         "alt_name": "Zu Hause",
         "amenity": "pub",
-        "check_date": "2025-04-29",
+        "check_date": "2026-10-18",
         "drinking_water:refill": "yes",
         "drinking_water:refill:network": "Refill Deutschland",
         "indoor_seating": "yes",
@@ -1792,6 +1794,9 @@
         "name": "zuhause",
         "opening_hours": "Mo off; Su off \"außer Veranstaltungen\"; Tu-Th 18:00-01:00, Fr,Sa 18:00-03:00",
         "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "sport": "9pin;table_soccer",
         "toilets:wheelchair": "limited",
@@ -17800,7 +17805,8 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Deep Roots",
-        "opening_hours": "Su-Th 11:00-14:30,15:00-19:00; Fr,Sa 11:00-20:00",
+        "opening_hours": "Mo,We 11:00-14:30,15:00-19:00; Tu,Th,Su 11:00-19:00; Fr,Sa 11:00-20:00",
+        "phone": "+1 206 633 2639",
         "shop": "tattoo",
         "website": "https://beststudioever.com/pages/deep-roots-seattle",
         "@id": "node/2323794500",
@@ -24195,7 +24201,7 @@
         "contact:email": "thenewpenny@live.co.uk",
         "contact:facebook": "https://www.facebook.com/TheNewPennyLeeds/",
         "contact:instagram": "https://www.instagram.com/thenewpenny2024",
-        "contact:phone": "+44 0113 243 8055",
+        "contact:phone": "+44 113 243 8055",
         "contact:tripadvisor": "https://www.tripadvisor.co.uk/Attraction_Review-g186411-d34457604-Reviews-The_New_Penny-Leeds_West_Yorkshire_England.html",
         "fhrs:id": "321826",
         "lgbtq": "primary",
@@ -29641,8 +29647,10 @@
         "addr:postcode": "98122",
         "addr:street": "Bellevue Avenue",
         "amenity": "cafe",
-        "check_date": "2025-08-05",
+        "check_date": "2026-10-17",
+        "check_date:diet:vegetarian": "2026-10-17",
         "cuisine": "coffee_shop",
+        "diet:vegetarian": "yes",
         "indoor_seating": "yes",
         "internet_access": "yes",
         "internet_access:fee": "yes",
@@ -47936,7 +47944,7 @@
         "toilets": "yes",
         "toilets:wheelchair": "yes",
         "website": "https://zenchay.de",
-        "wheelchair": "limited",
+        "wheelchair": "no",
         "@id": "node/7658178576",
         "@type": "node"
       }
@@ -50064,42 +50072,6 @@
         "phone": "+16309632665",
         "shop": "books",
         "@id": "node/8003613986",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.7813066,
-          61.5013487
-        ]
-      },
-      "properties": {
-        "addr:city": "Tampere",
-        "addr:housenumber": "31-33",
-        "addr:postcode": "33500",
-        "addr:street": "Aaltosenkatu",
-        "amenity": "cafe",
-        "delivery": "no",
-        "diet:halal": "no",
-        "diet:kosher": "no",
-        "lgbtq": "welcome",
-        "name": "Kissakahvila Purnauskis",
-        "opening_hours": "Tu-Fr 12:00-18:00; Sa 12:00-18:00; Su-Mo off",
-        "outdoor_seating": "no",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "phone": "+358 45 6012366",
-        "reservation": "yes",
-        "takeaway": "no",
-        "theme": "cat",
-        "toilets": "yes",
-        "toilets:wheelchair": "no",
-        "website": "https://www.purnauskis.fi/",
-        "wheelchair": "limited",
-        "@id": "node/8013629206",
         "@type": "node"
       }
     },
@@ -82664,7 +82636,7 @@
         "min_age": "18",
         "name": "Böse Buben",
         "opening_hours": "We 16:00-23:00, Th 19:00-01:00, Fr 20:00-02:00, Sa 20:00-03:00, Su 15:00+",
-        "website": "https://www.boese-buben.de",
+        "website": "https://www.boese-buben-berlin.de",
         "wheelchair": "no",
         "@id": "node/13471102128",
         "@type": "node"
@@ -89701,7 +89673,7 @@
         "contact:facebook": "https://www.facebook.com/110274675738847",
         "lgbtq": "primary",
         "name": "Chico",
-        "phone": "+1--909-990-6446",
+        "phone": "+1-909-990-6446",
         "website": "http://www.clubchico.com/",
         "@id": "node/14284627883",
         "@type": "node"
@@ -89727,6 +89699,59 @@
         "name": "Glamorous",
         "opening_hours": "Mo-Th 23:00-04:00; Fr,Sa 23:00-05:00; Su 23:00-03:30",
         "@id": "node/14291781017",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347019,
+          48.8659128
+        ]
+      },
+      "properties": {
+        "date": "1750-01-04",
+        "historic": "memorial",
+        "inscription": "Le 4 janvier 1750 rue Montorgeuil entre la rue Saint-Sauveur et l'ancienne rue Beaurepaire furent arrêtés Bruno Lenoir et Jean Diot condamnés pour homosexualité.",
+        "inscription:2": "Ils furent brûlés en place de Grève le 6 juillet 1750 ce fut la dernière exécution pour homosexualité en France.",
+        "lgbtq": "primary",
+        "location": "surface",
+        "memorial": "plaque",
+        "name": "Bruno Lenoir et Jean Diot",
+        "openplaques:id": "75345",
+        "ref:FR:Paris:plaque": "2902",
+        "subject:wikidata": "Q131561048;Q56024389;Q56024396",
+        "wikidata": "Q131739740",
+        "wikimedia_commons": "File:Plaque_commémorative_Jean_DIOT_Bruno_LENOIR_-_Paris_2e_-_67_rue_Montorgueil.jpeg",
+        "@id": "node/14293136055",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3469572,
+          48.8663591
+        ]
+      },
+      "properties": {
+        "date": "1750-01-04",
+        "historic": "memorial",
+        "inscription": "Le 4 janvier 1750 rue Montorgeuil entre la rue Saint-Sauveur et l'ancienne rue Beaurepaire furent arrêtés Bruno Lenoir et Jean Diot condamnés pour homosexualité.",
+        "inscription:2": "Ils furent brûlés en place de Grève le 6 juillet 1750 ce fut la dernière exécution pour homosexualité en France.",
+        "lgbtq": "primary",
+        "material": "stone",
+        "memorial": "plaque",
+        "name": "Bruno Lenoir et Jean Diot",
+        "openplaques:id": "71088",
+        "subject:wikidata": "Q131561048;Q56024389;Q56024396",
+        "wikidata": "Q131561061",
+        "wikimedia_commons": "File:Plaque 1 rue Léopold-Bellan (Paris 2e).jpg;File:Plaque 1 rue Léopold-Bellan (Paris 2e) 2025.jpg",
+        "@id": "node/14293136056",
         "@type": "node"
       }
     },
@@ -89881,6 +89906,7 @@
         "addr:postcode": "00790",
         "addr:street": "Koetilantie",
         "air_conditioning": "yes",
+        "alt_name": "CoolHead Taproom",
         "amenity": "bar",
         "building": "retail",
         "building:levels": "1",
@@ -89919,6 +89945,7 @@
         "phone": "+358 44 4916869",
         "reservation": "no",
         "roof:levels": "1",
+        "self_checkout": "no",
         "shop": "alcohol",
         "smoking": "outside",
         "takeaway": "yes",
@@ -119655,9 +119682,9 @@
         "addr:state": "WA",
         "addr:street": "East Pike Street",
         "amenity": "bar",
-        "building": "yes",
+        "building": "retail",
         "building:levels": "2",
-        "check_date": "2024-07-02",
+        "check_date": "2026-10-17",
         "contact:facebook": "theseattleeagle",
         "lgbtq": "primary",
         "name": "Seattle Eagle",
