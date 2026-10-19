@@ -37738,6 +37738,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.1627913,
+          51.4276056
+        ]
+      },
+      "properties": {
+        "addr:city": "Bochum",
+        "addr:housenumber": "802",
+        "addr:postcode": "44879",
+        "addr:street": "Hattinger Straße",
+        "brand": "Dertour Reisebüro",
+        "brand:wikidata": "Q56729186",
+        "check_date": "2023-06-18",
+        "level": "0",
+        "lgbtq:signed": "yes",
+        "name": "Dertour Reisebüro",
+        "opening_hours": "Mo-Fr 10:00-14:00,14:30-18:30; Sa 09:30-13:30",
+        "phone": "+49 234 490059",
+        "shop": "travel_agency",
+        "website": "https://dertour-reisebuero.de/bochum1",
+        "wheelchair": "limited",
+        "@id": "node/5677961164",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.6669629,
           -33.4488697
         ]
@@ -44926,8 +44955,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.0522137,
-          51.5473673
+          -0.0522142,
+          51.5473714
         ]
       },
       "properties": {
@@ -59480,6 +59509,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5063888,
+          46.0496622
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "22",
+        "addr:street": "Mestni trg",
+        "check_date": "2026-05-21",
+        "lgbtq": "welcome",
+        "name": "Rogaska",
+        "shop": "houseware",
+        "@id": "node/10047334061",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           121.0321311,
           14.62436
         ]
@@ -64278,7 +64327,6 @@
         "operator:type": "association",
         "website": "https://www.lovemyway.it/",
         "wheelchair": "limited",
-        "wikidata": "Q136337811",
         "@id": "node/11161114464",
         "@type": "node"
       }
@@ -66188,7 +66236,7 @@
         ]
       },
       "properties": {
-        "check_date": "2023-12-29",
+        "check_date": "2026-10-19",
         "lgbtq": "primary",
         "name": "Aunty Dana's Op Shop",
         "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-16:00",
@@ -73100,56 +73148,6 @@
         "phone": "+12267799695",
         "website": "https://ourspectrum.com/",
         "@id": "node/12383175740",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.7330217,
-          51.0491649
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "8",
-        "addr:street": "Zuidstationstraat",
-        "amenity": "cafe",
-        "contact:email": "info@bobacatgent.com",
-        "contact:facebook": "bobacatgent",
-        "contact:instagram": "bobacatgent",
-        "contact:phone": "+32 471 02 28 91",
-        "contact:tiktok": "bobacatgent",
-        "contact:website": "https://www.bobacatgent.com/",
-        "cuisine": "bubble_tea;coffee_shop;smoothie",
-        "diet:halal": "yes",
-        "diet:kosher": "yes",
-        "diet:vegan": "yes",
-        "diet:vegetarian": "only",
-        "indoor_seating": "yes",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "internet_access:password": "bubblecat",
-        "internet_access:ssid": "Catwifi",
-        "level": "0",
-        "lgbtq": "welcome",
-        "name": "Boba Cat",
-        "opening_hours": "Tu-Fr 12:00-19:00; Sa 12:30-19:30",
-        "outdoor_seating": "no",
-        "payment:bancontact": "yes",
-        "payment:coins": "yes",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "payment:notes": "yes",
-        "payment:payconiq": "yes",
-        "ref:vatin": "BE0801587016",
-        "smoking": "no",
-        "start_date": "2023",
-        "takeaway": "yes",
-        "takeaway:website": "https://www.boba-cat.be/",
-        "toilets": "separate",
-        "@id": "node/12385440179",
         "@type": "node"
       }
     },
@@ -115677,7 +115675,7 @@
         "addr:street": "Falls Road",
         "amenity": "library",
         "building": "yes",
-        "check_date": "2022-10-28",
+        "check_date": "2026-10-18",
         "ele": "78",
         "internet_access": "wlan",
         "lgbtq": "welcome",
@@ -115686,7 +115684,7 @@
         "operator": "Enoch Pratt Free Library",
         "operator:type": "public",
         "operator:wikidata": "Q69478541",
-        "phone": "+1 410 396 6043",
+        "phone": "+1-410-396-6043",
         "source": "USGS Geonames",
         "source:lgbtq": "https://www.prattlibrary.org/about-us/diversity-equity-inclusion/the-pratt-stands-with-our-community/lgbtq-pride",
         "website": "https://www.prattlibrary.org/locations/hampden/",
