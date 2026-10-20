@@ -725,15 +725,22 @@
         "air_conditioning": "no",
         "brand": "REWE Getränkemarkt",
         "brand:wikidata": "Q57519344",
-        "check_date": "2026-08-25",
-        "check_date:lgbtq:signed": "2026-08-25",
-        "check_date:opening_hours": "2026-07-23",
+        "check_date": "2026-10-18",
+        "check_date:lgbtq:signed": "2026-10-18",
+        "check_date:opening_hours": "2026-10-18",
         "lgbtq:signed": "yes",
         "name": "REWE Getränkemarkt",
         "opening_hours": "Mo-Sa 07:00-21:00",
         "payment:cash": "yes",
         "payment:girocard": "yes",
         "phone": "+49 2324 56590",
+        "post_office": "post_partner",
+        "post_office:brand": "DHL Paketshop",
+        "post_office:brand:wikidata": "Q489815",
+        "post_office:parcel_from": "yes",
+        "post_office:parcel_to": "yes",
+        "post_office:ref": "Postfiliale 403",
+        "ref:deutsche_post": "403",
         "shop": "beverages",
         "website": "https://rewe-uhl.de/",
         "wheelchair": "yes",
@@ -5434,6 +5441,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.43176,
+          52.5004111
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "10",
+        "addr:postcode": "10997",
+        "addr:street": "Lausitzer Platz",
+        "amenity": "restaurant",
+        "check_date": "2026-10-19",
+        "contact:email": "zerostresspizzashop@gmail.com",
+        "contact:instagram": "https://www.instagram.com/zerostresspizza_xberg/",
+        "contact:phone": "+49 30 84515952",
+        "contact:website": "https://zerostresspizza.de/",
+        "cuisine": "pizza",
+        "diet:vegan": "yes",
+        "internet_access": "wlan",
+        "lgbtq": "yes",
+        "name": "Zero Stress Pizza",
+        "opening_hours": "Mo-Su 17:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "wheelchair": "no",
+        "@id": "node/660153461",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.4071868,
           49.0065018
         ]
@@ -6454,6 +6494,7 @@
         ]
       },
       "properties": {
+        "check_date": "2026-10-16",
         "contact:city": "Auxerre",
         "contact:housenumber": "3",
         "contact:postcode": "89000",
@@ -6464,6 +6505,7 @@
         "name": "Cartes sur Table",
         "opening_hours": "We,Th,Sa 10:00-19:00; Tu,Fr 10:00-23:00",
         "panoramax": "0ce82960-1ee0-4243-b3f2-8bcde7839ebe",
+        "phone": "+33 3 86 32 16 54",
         "ref:FR:SIRET": "89232187800027",
         "shop": "games",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010;survey",
@@ -9966,11 +10008,15 @@
         "addr:postcode": "EH1 3AA",
         "addr:street": "Greenside Place",
         "amenity": "bar",
-        "check_date": "2026-02-21",
+        "check_date": "2026-10-19",
+        "contact:facebook": "https://www.facebook.com/ccbloomsedinburgh/",
+        "contact:instagram": "https://www.instagram.com/ccbloomsedinburgh",
         "contact:phone": "+44 131 556 9331",
+        "diet:vegan": "yes",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "C.C. Blooms",
+        "opening_hours": "Mo-We 15:00-03:00; Th 13:00-03:00; Fr-Su 11:00-03:00",
         "outdoor_seating": "seasonal",
         "source": "survey",
         "website": "http://ccbloomsedinburgh.com/",
@@ -13479,8 +13525,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.5825763,
-          50.9292035
+          11.5825951,
+          50.9292285
         ]
       },
       "properties": {
@@ -13488,6 +13534,7 @@
         "addr:housenumber": "26",
         "addr:postcode": "07743",
         "addr:street": "Krautgasse",
+        "alt_name": "Hackspace Jena",
         "club": "computer",
         "contact:email": "office@kraut.space",
         "contact:mastodon": "@krautspace@chaos.social",
@@ -13508,6 +13555,7 @@
         "opening_hours": "Tu 20:00+; Th 20:00+ \"Linux User Group\"; PH off || \"Nach Vereinbarung\"",
         "operator": "Hackspace Jena e.V.",
         "operator:type": "community",
+        "phone": "+49 221 596195650",
         "repair": "assisted_self_service",
         "smoking": "outside",
         "url:spaceapi": "https://status.krautspace.de/api",
@@ -15394,34 +15442,6 @@
         "opening_hours": "Mo-Fr 09:00-17:00",
         "website": "https://www.fsbwa.com/locations/capitol-hill",
         "@id": "node/2131716946",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3206262,
-          47.6250238
-        ]
-      },
-      "properties": {
-        "addr:city": "Seattle",
-        "addr:housenumber": "622",
-        "addr:postcode": "98102",
-        "addr:street": "Broadway East",
-        "check_date": "2026-10-15",
-        "cuisine": "italian",
-        "disused:amenity": "restaurant",
-        "indoor_seating": "yes",
-        "lgbtq": "welcome",
-        "lgbtq:signed": "yes",
-        "name": "Carrello",
-        "opening_hours": "We-Th,Su 16:30-21:00; Fr-Sa 16:30-22:00",
-        "outdoor_seating": "yes",
-        "website": "https://carrellorestaurant.com",
-        "@id": "node/2131716963",
         "@type": "node"
       }
     },
@@ -21814,6 +21834,7 @@
         "addr:postcode": "10785",
         "addr:street": "Lützowstraße",
         "addr:suburb": "Tiergarten",
+        "check_date": "2026-10-19",
         "contact:email": "kontakt@schwulesmuseum.de",
         "contact:facebook": "SchwulesMuseum",
         "contact:instagram": "schwulesmuseum",
@@ -43025,10 +43046,11 @@
         ]
       },
       "properties": {
+        "addr:city": "Bilbao",
         "addr:street": "Kristo kalea",
         "amenity": "pub",
         "lgbtq": "primary",
-        "name": "Pub Key",
+        "name": "Key",
         "opening_hours": "Fr-Sa 22:00-04:30",
         "phone": "+34 669 00 73 96",
         "website": "https://pub-key.negocio.site/",
@@ -60647,15 +60669,15 @@
         ]
       },
       "properties": {
-        "commemoration_date": "1750-01-04",
+        "date": "1750-01-04",
         "historic": "memorial",
         "inscription": "Le 4 janvier 1750 rue Montorgeuil entre la rue Saint-Sauveur et l'ancienne rue Beaurepaire furent arrêtés Bruno Lenoir et Jean Diot condamnés pour homosexualité.",
         "inscription:2": "Ils furent brûlés en place de Grève le 6 juillet 1750 ce fut la dernière exécution pour homosexualité en France.",
         "lgbtq": "primary",
         "material": "stone",
         "memorial": "plaque",
-        "name": "Bruno Lenoir et Jean Diot",
         "openplaques:id": "71088",
+        "panoramax": "0e932e85-9484-40a2-87e9-a9de988a13e4",
         "subject:wikidata": "Q131561048;Q56024389;Q56024396",
         "wikidata": "Q131561061",
         "wikimedia_commons": "File:Plaque 1 rue Léopold-Bellan (Paris 2e).jpg;File:Plaque 1 rue Léopold-Bellan (Paris 2e) 2025.jpg",
@@ -88124,8 +88146,6 @@
         "addr:city": "Portugalete",
         "amenity": "bar",
         "bar": "yes",
-        "crossing": "uncontrolled",
-        "highway": "crossing",
         "lgbtq": "primary",
         "wheelchair": "limited",
         "@id": "node/14108195045",
@@ -88670,6 +88690,29 @@
         "phone": "+48 884 777 249",
         "website": "https://kulturarownosci.org/centrumlgbt/",
         "@id": "node/14163305969",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5989236,
+          35.0794884
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "4021",
+        "addr:postcode": "87108",
+        "addr:street": "Central Avenue Northeast",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Albuquerque Social Club",
+        "opening_hours": "Th 16:00-00:00; Fr-Sa 16:00-14:00; Su 15:00-21:00",
+        "phone": "+1-505-200-0663",
+        "website": "http://abqsocial.org",
+        "@id": "node/14167750401",
         "@type": "node"
       }
     },
@@ -89713,12 +89756,12 @@
         "date": "1750-01-04",
         "historic": "memorial",
         "inscription": "Le 4 janvier 1750 rue Montorgeuil entre la rue Saint-Sauveur et l'ancienne rue Beaurepaire furent arrêtés Bruno Lenoir et Jean Diot condamnés pour homosexualité.",
-        "inscription:2": "Ils furent brûlés en place de Grève le 6 juillet 1750 ce fut la dernière exécution pour homosexualité en France.",
+        "inscription:2": "Ils furent brûlés en place de Grève le 6 juillet 1750. Ce fut la dernière exécution pour homosexualité en France.",
         "lgbtq": "primary",
         "location": "surface",
         "memorial": "plaque",
-        "name": "Bruno Lenoir et Jean Diot",
         "openplaques:id": "75345",
+        "panoramax": "240f6d08-663d-497b-a83f-9c1ef2ce59fe",
         "ref:FR:Paris:plaque": "2902",
         "subject:wikidata": "Q131561048;Q56024389;Q56024396",
         "wikidata": "Q131739740",
@@ -89750,6 +89793,29 @@
         "wikidata": "Q131561061",
         "wikimedia_commons": "File:Plaque 1 rue Léopold-Bellan (Paris 2e).jpg;File:Plaque 1 rue Léopold-Bellan (Paris 2e) 2025.jpg",
         "@id": "node/14293136056",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9021584,
+          51.8888609
+        ]
+      },
+      "properties": {
+        "addr:city": "Colchester",
+        "addr:housename": "Unit 3 Foundation House",
+        "addr:postcode": "CO1 1AZ",
+        "addr:street": "Long Wyre Street",
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Dragonfly Lounge",
+        "smoking": "no",
+        "website": "https://dragonflylounge.co.uk/",
+        "@id": "node/14299583582",
         "@type": "node"
       }
     },
