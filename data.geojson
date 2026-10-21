@@ -23938,7 +23938,7 @@
         "addr:housenumber": "6-20",
         "addr:postcode": "51063",
         "addr:street": "Schanzenstraße",
-        "charge": "14,90 EUR",
+        "charge": "14.90 EUR",
         "check_date": "2025-06-05",
         "contact:email": "info@stuntwerk-koeln-muelheim.de",
         "contact:facebook": "stuntwerk.koeln",
@@ -42517,16 +42517,20 @@
       "properties": {
         "addr:city": "Granada",
         "addr:housenumber": "19",
+        "addr:postcode": "18002",
         "addr:street": "Calle Horno de Haza",
         "amenity": "bar",
-        "check_date": "2026-09-25",
+        "check_date": "2026-10-20",
+        "contact:email": "tictacgrx@gmail.com",
+        "contact:facebook": "https://www.facebook.com/tictac.granada/",
         "contact:instagram": "@tictacgranada",
+        "contact:mobile": "+34 663 39 09 39",
+        "contact:phone": "+34 958 29 63 66",
         "drink:beer": "yes",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Tic Tac",
         "outdoor_seating": "no",
-        "phone": "+34 958 29 63 66",
         "@id": "node/6516971457",
         "@type": "node"
       }
@@ -47165,6 +47169,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9754368,
+          41.4450302
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "plaça Onze de Setembre, 1-2",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça de l'Onze de Setembre",
+        "addr:unit": "3",
+        "alt_name": "Farmàcia Pascual Aventin, Adria",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936823133",
+        "dispensing": "yes",
+        "email": "farmaciadelonze@gmail.com",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia de l'Onze",
+        "phone:mobile": "+34611639589",
+        "ref": "3621421",
+        "@id": "node/7323122613",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9772355,
+          41.4460993
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "carrer Rector Juanico, 35, portal 2",
+        "addr:housenumber": "35",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Rector Juanico",
+        "addr:unit": "2",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936824215",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "mobile": "+34 689 555 010",
+        "name": "Farmàcia Pugès",
+        "ref": "3621774",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "website": "https://www.farmaciapuges.com",
+        "@id": "node/7323122615",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.973848,
           41.4476751
         ]
@@ -49426,6 +49496,61 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9765029,
+          41.4479103
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "14",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "addr:unit": "2",
+        "amenity": "cafe",
+        "dog": "outside",
+        "instagram": "cafedeisa",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "El cafè de l'Isa",
+        "name:-2025": "Meraki",
+        "name:2025": "El cafè de l'Isa",
+        "opening_hours": "Mo-Fr 06:00-20:00; Sa 06:00-19:00; Su 07:00-15:00",
+        "phone": "+34 611 78 48 60",
+        "wheelchair": "limited",
+        "@id": "node/7817673111",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9770182,
+          41.4478383
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "6",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Riu",
+        "addr:unit": "3",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Shampoo",
+        "shop": "hairdresser",
+        "@id": "node/7817673116",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           121.0419718,
           14.6293695
         ]
@@ -50184,6 +50309,34 @@
         "lgbtq": "welcome",
         "name": "Basement Event Bar",
         "@id": "node/8085958453",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9724974,
+          41.4486775
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Riera de Canals",
+        "contact:mobile": "+34 674 09 58 30",
+        "dog": "yes",
+        "email": "ffernandez10365@hotmail.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Ferreteria Carmona",
+        "name:ca": "Carmona",
+        "phone": "+34 93 653 04 36",
+        "shop": "hardware",
+        "@id": "node/8089948768",
         "@type": "node"
       }
     },
@@ -58167,6 +58320,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.1539749,
+          48.5382371
+        ]
+      },
+      "properties": {
+        "addr:city": "Landshut",
+        "addr:country": "DE",
+        "addr:housenumber": "379",
+        "addr:postcode": "84028",
+        "addr:street": "Herrngasse",
+        "anime:manga": "yes",
+        "check_date": "2026-10-15",
+        "contact:instagram": "crowsowlslittleshop",
+        "description": "Verkauft Manga, Anime Figuren, Trading Cards und mehr",
+        "email": "info@crowsandowlslittleshop.de",
+        "lgbtq": "yes",
+        "name": "Crow's & Owls Little Shop",
+        "opening_hours": "Mo-Th 10:00-18:00; Fr 10:00-19:00; Sa 10:30-17:00",
+        "phone": "+49 871 96683535",
+        "shop": "anime",
+        "start_date": "2023",
+        "website": "https://www.crowsandowlslittleshop.de",
+        "@id": "node/9915624044",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -96.8103849,
           32.8106064
         ]
@@ -63423,14 +63607,16 @@
         "addr:city": "London",
         "addr:country": "CA",
         "addr:housenumber": "320",
-        "addr:postcode": "N6A 0E1",
+        "addr:postcode": "N6A 1A5",
         "addr:province": "ON",
         "addr:street": "Thames Street",
         "addr:unit": "101",
         "air_conditioning": "yes",
         "amenity": "cafe",
-        "check_date": "2024-09-04",
+        "check_date": "2026-10-20",
+        "check_date:opening_hours": "2026-10-20",
         "contact:email": "cafe@londonbicyclecafe.com",
+        "contact:facebook": "LdnOntBikeCafe",
         "contact:instagram": "ldnontbikecafe",
         "cuisine": "coffee_shop",
         "description": "London Bicycle Café is about 21st century mobility. We help your family get moving on two wheels (or three!), giving you the freedom to explore, and the freedom from the gridlock and daily grind.",
@@ -63439,7 +63625,7 @@
         "internet_access:fee": "no",
         "lgbtq": "welcome",
         "name": "London Bicycle Cafe",
-        "opening_hours": "Mo-Su 09:00-21:30",
+        "opening_hours": "Su-We 09:00-16:00; Th-Sa 09:00-21:00",
         "outdoor_seating": "yes",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
@@ -63449,6 +63635,7 @@
         "toilets": "yes",
         "toilets:wheelchair": "yes",
         "website": "https://cafe.londonbicyclecafe.com",
+        "website:menu": "https://cafe.londonbicyclecafe.com/cafe-menu",
         "wheelchair": "yes",
         "@id": "node/11046854041",
         "@type": "node"
@@ -64205,6 +64392,33 @@
         "start_date": "2022",
         "website": "https://www.thelittlegaypub.com/",
         "@id": "node/11147140677",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9596861,
+          41.4546983
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "3",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "10",
+        "amenity": "veterinary",
+        "email": "cvminos@gmail.com",
+        "emergency:phone": "+34 607 67 96 17",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Minos",
+        "phone": "+34 93 682 35 21",
+        "@id": "node/11153283430",
         "@type": "node"
       }
     },
@@ -65440,6 +65654,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9761464,
+          41.4460402
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "5",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Onze de Març",
+        "email": "sabarca@phrotraining.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "PHRO training",
+        "office": "educational_institution",
+        "phone": "+34 93 594 89 90",
+        "website": "https://phrofessional.com",
+        "@id": "node/11301144193",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           44.7924953,
           41.7018625
         ]
@@ -65667,6 +65907,36 @@
         "shop": "music",
         "website": "https://luckycatrecords.com/",
         "@id": "node/11372361574",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9754875,
+          41.4451218
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça Onze de Setembre",
+        "amenity": "cafe",
+        "amenity:-2023": "pub",
+        "amenity:2023": "cafe",
+        "dog": "outside",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "23D",
+        "name:-2023": "Benji",
+        "name:2023": "23D",
+        "name:ca": "23D",
+        "outdoor_seating": "yes",
+        "@id": "node/11377522712",
         "@type": "node"
       }
     },
@@ -67843,6 +68113,80 @@
         "toilets:wheelchair": "yes",
         "wheelchair": "yes",
         "@id": "node/11774635983",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9594059,
+          41.455125
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Barbershop Christian Maez",
+        "shop": "hairdresser",
+        "@id": "node/11777321323",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9591393,
+          41.4548883
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Papereria Vall Palau",
+        "phone": "+34 93 653 20 95",
+        "phone:mobile": "+34 666 395 954",
+        "shop": "stationery",
+        "@id": "node/11777321324",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9599568,
+          41.4551921
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "7",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "6",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "O Forno do Hórreo",
+        "shop": "bakery",
+        "@id": "node/11777394696",
         "@type": "node"
       }
     },
@@ -89822,6 +90166,151 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9756587,
+          41.4448352
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "2",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça Onze de Setembre",
+        "addr:unit": "5",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Corpobello Estética",
+        "shop": "beauty",
+        "@id": "node/14304626622",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.960314,
+          41.4550299
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "5",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "8",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Peluqueria Mireia González",
+        "shop": "hairdresser",
+        "@id": "node/14304687636",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9587458,
+          41.4548904
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "10",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "amenity": "prep_school",
+        "education": "prep_school",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Centre d'Estudis El Palau",
+        "@id": "node/14304690925",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9592523,
+          41.4545499
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "8",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Estanc nº2",
+        "shop": "tobacco",
+        "@id": "node/14304690926",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9601074,
+          41.4549729
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "5",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "5",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Flacko Cruz",
+        "shop": "hairdresser",
+        "@id": "node/14304690927",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9586509,
+          41.4544876
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "14",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "5",
+        "amenity": "language_school",
+        "education": "language_school",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Academia de Idiomas El Palau",
+        "@id": "node/14304697028",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -103985,9 +104474,12 @@
         "addr:street": "Sunbridge Road",
         "amenity": "pub",
         "building": "yes",
+        "contact:facebook": "https://www.facebook.com/sunbradford/",
+        "contact:tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g186408-d14062675-Reviews-The_Sun_Hotel-Bradford_West_Yorkshire_England.html",
         "fhrs:id": "324630",
         "lgbtq": "primary",
         "name": "The Sun Hotel",
+        "sorting_name": "Sun Hotel, The",
         "source": "Bing",
         "source:addr": "FHRS Open Data",
         "@id": "way/201288857",
