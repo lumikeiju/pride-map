@@ -24311,44 +24311,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.0203976,
-          51.4811582
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:housename": "The Duke",
-        "addr:housenumber": "125",
-        "addr:postcode": "SE8 3BU",
-        "addr:street": "Creek Road",
-        "air_conditioning": "no",
-        "brewery": "Guinness",
-        "check_date": "2026-09-17",
-        "contact:facebook": "thedukedeptford",
-        "disused:amenity": "bar",
-        "fhrs:id": "1790462",
-        "internet_access": "no",
-        "level": "0",
-        "lgbtq": "welcome",
-        "lgbtq:signed": "yes",
-        "name": "The Duke",
-        "outdoor_seating": "yes",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "payment:mastercard": "yes",
-        "payment:visa": "yes",
-        "source:addr": "FHRS Open Data",
-        "website": "https://thedukedeptford.com/",
-        "wheelchair": "yes",
-        "@id": "node/3371176988",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.3585181,
           48.1990757
         ]
@@ -47235,6 +47197,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9627266,
+          41.4525542
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "carrer Priorat, LOCAL 5, 00010",
+        "addr:housenumber": "10",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Priorat",
+        "addr:unit": "5",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936820603",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia Fernández Giménez, Sandra",
+        "name:ca": "Farmàcia Fernández Giménez, Sandra",
+        "ref": "3623361",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "@id": "node/7323122620",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.973848,
           41.4476751
         ]
@@ -49496,6 +49490,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9760825,
+          41.4484412
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "34",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Riera de Canals",
+        "addr:unit": "2",
+        "female": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "male": "yes",
+        "name": "Peliqueria Maria Angeles",
+        "shop": "hairdresser",
+        "@id": "node/7817673096",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9765029,
           41.4479103
         ]
@@ -50414,6 +50434,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.976945,
+          41.446709
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "3",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Perú",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Zinnia",
+        "shop": "florist",
+        "@id": "node/8142722314",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.5687681,
           55.6784007
         ]
@@ -50729,6 +50772,77 @@
         "website": "https://thelabo.fr",
         "wheelchair": "limited",
         "@id": "node/8243533268",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.969413,
+          41.4480138
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "7",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Vall Palau",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Calçats Montse Roig",
+        "shop": "shoes",
+        "@id": "node/8263061419",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9698023,
+          41.4478416
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "6",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Vall Palau",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Sotillo III",
+        "shop": "shoe_repair",
+        "@id": "node/8263061424",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9696844,
+          41.4477373
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Vall Palau",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "mobile": "+34 618 629 052",
+        "name": "Legna Láser",
+        "phone": "+34 93 145 39 34",
+        "shop": "beauty",
+        "@id": "node/8263061425",
         "@type": "node"
       }
     },
@@ -55210,6 +55324,65 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9719699,
+          41.4483091
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Sant Josep Oriol",
+        "brand": "Clarel",
+        "brand:wikidata": "Q48784350",
+        "brand:wikipedia": "es:Clarel",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Clarel",
+        "operator": "Condis",
+        "shop": "chemist",
+        "website": "https://www.clarel.es/",
+        "@id": "node/9468022187",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9720274,
+          41.4481716
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Sant Josep Oriol",
+        "clothes": "children",
+        "clothes:-2023": "underwear",
+        "clothes:2025": "children",
+        "contact:instagram": "elpetitlleo",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "El Petit Lleó",
+        "name:-2023": "donna",
+        "name:2025": "El Petit Lleó",
+        "opening_hours": "Mo-Fr 10:00-13:30,17:00-20:00; Sa 10:00-13:30",
+        "phone": "+34 661524958",
+        "shop": "clothes",
+        "@id": "node/9468022189",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9725501,
           41.4479021
         ]
@@ -55245,9 +55418,14 @@
         ]
       },
       "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "31",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Major",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Estant nº1",
         "shop": "tobacco",
         "@id": "node/9468022197",
         "@type": "node"
@@ -55325,6 +55503,30 @@
         "shop": "deli",
         "shop:2018-2021": "vacant",
         "@id": "node/9468022204",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9697375,
+          41.4479095
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Vall Palau",
+        "addr:unit": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "El raconet Dolç",
+        "shop": "confectionery",
+        "@id": "node/9468022216",
         "@type": "node"
       }
     },
@@ -56776,6 +56978,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9747338,
+          41.4467918
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "5",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Església",
+        "addr:unit": "2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Taraxacum Atelier",
+        "shop": "florist",
+        "shop:-2014": "vacant",
+        "@id": "node/9802616441",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.271174,
           37.8046486
         ]
@@ -57809,6 +58036,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9672907,
+          41.4473979
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "31",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del pintor Marià Fortuny",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "CIM",
+        "shop": "hairdresser",
+        "@id": "node/9825123136",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           60.6329017,
           56.8271355
         ]
@@ -58268,6 +58518,34 @@
         "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-12:30",
         "phone": "+61 2 9385 6482",
         "@id": "node/9903749243",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9758768,
+          41.4467161
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Rector Juanico",
+        "amenity:-2023": "language_school",
+        "email": "arroyocerverafincas@gmail.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Arroyo & Cervera",
+        "name:-2023": "Yellow Submarine",
+        "office": "estate_agent",
+        "phone": "+34 648 88 74 15",
+        "website": "https://fincasarroyo.com/",
+        "@id": "node/9908919203",
         "@type": "node"
       }
     },
@@ -60866,6 +61144,35 @@
         "wikidata": "Q131561061",
         "wikimedia_commons": "File:Plaque 1 rue Léopold-Bellan (Paris 2e).jpg;File:Plaque 1 rue Léopold-Bellan (Paris 2e) 2025.jpg",
         "@id": "node/10221854192",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.972697,
+          41.4481311
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "19",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Parera",
+        "check_date": "2024-05-15",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Rosella",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+34 93 682 13 61",
+        "shop": "herbalist",
+        "wheelchair": "limited",
+        "@id": "node/10223357059",
         "@type": "node"
       }
     },
@@ -69644,6 +69951,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.959783,
+          41.4551249
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Parc Vall del Palau",
+        "addr:unit": "6",
+        "amenity": "arts_centre",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Taller de Dibuix i Pintura Creativa Santacana",
+        "phone": "+34 664 700 709",
+        "training": "art",
+        "@id": "node/11934624436",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.2447991,
           47.7926027
         ]
@@ -75697,6 +76030,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9621203,
+          41.4522923
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "16",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Priorat",
+        "amenity": "driving_school",
+        "education": "driving_school",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Més Vial",
+        "phone": "+34 93 682 14 95",
+        "@id": "node/12727032266",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -88.2436736,
           40.1199318
         ]
@@ -75770,6 +76128,80 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9676499,
+          41.4476167
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "25",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la pintor Marià Fortuny",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Wild Pets",
+        "phone": "+34 692 936 611",
+        "shop": "pet_grooming",
+        "@id": "node/12729925253",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9663377,
+          41.4513253
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Penedés",
+        "addr:unit": "2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "HIDALGS.INK - NO DRAMA",
+        "phone": "+34 722 566 001",
+        "shop": "tattoo",
+        "@id": "node/12729961579",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9678304,
+          41.447727
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "21",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del pintor Marià Fortuny",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "XPELOS",
+        "opening_hours": "Tu-Fr 09:00-13:00,15:00-19:00; Sa 09:00-15:00",
+        "phone": "+34 93 682 90 50",
+        "shop": "beauty",
+        "@id": "node/12730013916",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.2846146,
           33.7377087
         ]
@@ -75789,6 +76221,30 @@
         "opening_hours": "Mo-Fr 07:00-15:00; Sa,Su 07:00-16:00",
         "website": "https://www.distritocoffee.com/",
         "@id": "node/12730041410",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9658675,
+          41.4496515
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "35",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "beauty": "nails",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Blu Nails",
+        "shop": "beauty",
+        "@id": "node/12732184536",
         "@type": "node"
       }
     },
@@ -86159,6 +86615,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9626384,
+          41.4525585
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "12",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Priorat",
+        "addr:unit": "1",
+        "female": "yes",
+        "instagram": "dsalonhairspa",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "male": "yes",
+        "name": "D.Salón",
+        "opening_hours": "Tu-Sa 09:30-19:00; Sa 09:00-13:00",
+        "phone": "+34 604 19 06 22",
+        "shop": "hairdresser",
+        "website": "https://www.dsalonhairspa.com/",
+        "@id": "node/13894944040",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.602906,
           51.9962349
         ]
@@ -90305,6 +90791,185 @@
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
         "name": "Academia de Idiomas El Palau",
         "@id": "node/14304697028",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0930426,
+          51.4947193
+        ]
+      },
+      "properties": {
+        "addr:city": "London",
+        "addr:housenumber": "98",
+        "addr:postcode": "SE1 6AQ",
+        "addr:street": "Harper Road",
+        "alt_name": "The Rising, SE1",
+        "amenity": "pub",
+        "check_date": "2026-09-22",
+        "check_date:opening_hours": "2026-09-22",
+        "contact:email": "hello@RisingSE1.com",
+        "contact:facebook": "RisingSE1",
+        "contact:instagram": "RisingSE1",
+        "fhrs:id": "1748059",
+        "food": "no",
+        "lgbtq": "primary",
+        "name": "The Rising",
+        "old_name": "The Rising Sun",
+        "opening_hours": "Su-We 12:00-23:00; Th-Sa 12:00-25:00",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 3885 0990",
+        "website": "https://www.therisingse1.com",
+        "@id": "node/14307698829",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9665963,
+          41.4512016
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "6",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Penedés",
+        "addr:unit": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Mi Estilista",
+        "shop": "hairdresser",
+        "@id": "node/14307723634",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.970582,
+          41.4469078
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Tomàs Vives",
+        "amenity": "dancing_school",
+        "education": "dancing_school",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Entre Bambolines",
+        "@id": "node/14307723635",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9714302,
+          41.4492666
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "6",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça de la Pau",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Perruqueria Ti Ama",
+        "shop": "hairdresser",
+        "@id": "node/14307758871",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9656099,
+          41.4519253
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "16",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Penedés",
+        "addr:unit": "2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Nature",
+        "shop": "beauty",
+        "@id": "node/14307777515",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9686086,
+          41.4482232
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "5",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del pintor Marià Fortuny",
+        "addr:unit": "4",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Agatha Stils",
+        "shop": "hairdresser",
+        "@id": "node/14307797865",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9654323,
+          41.4522691
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "20",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Penedés",
+        "hairdresser": "barber",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "CM Barber",
+        "opening_hours": "Tu-Fr 10:00-13:00,15:00-20:00; Sa 10:00-13:00",
+        "phone": "+34 930189249",
+        "shop": "hairdresser",
+        "website": "http://cmbarbeer.booksy.com/",
+        "@id": "node/14307798725",
         "@type": "node"
       }
     },
@@ -96542,67 +97207,6 @@
         "wikidata": "Q10400577",
         "wikipedia": "sv:Actionpark (Göteborg)",
         "@id": "way/87959505",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -0.0932121,
-              51.494691
-            ],
-            [
-              -0.0929819,
-              51.4946768
-            ],
-            [
-              -0.0929627,
-              51.4947974
-            ],
-            [
-              -0.0929807,
-              51.4947985
-            ],
-            [
-              -0.0930852,
-              51.4948049
-            ],
-            [
-              -0.0930952,
-              51.4947424
-            ],
-            [
-              -0.0932028,
-              51.494749
-            ],
-            [
-              -0.0932121,
-              51.494691
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "London",
-        "addr:housenumber": "98",
-        "addr:postcode": "SE1 6AQ",
-        "addr:street": "Harper Road",
-        "alt_name": "The Rising, SE1",
-        "amenity": "pub",
-        "building": "yes",
-        "contact:instagram": "RisingSE1",
-        "fhrs:id": "364120",
-        "lgbtq": "primary",
-        "name": "The Rising",
-        "old_name": "The Rising Sun",
-        "outdoor_seating": "yes",
-        "source:addr": "FHRS Open Data",
-        "website": "https://www.therisingse1.com",
-        "@id": "way/89719962",
         "@type": "way"
       }
     },
@@ -111887,8 +112491,8 @@
         "amenity": "pub",
         "brewery": "ranier",
         "building": "retail",
-        "check_date": "2026-02-07",
-        "check_date:opening_hours": "2026-02-07",
+        "check_date": "2026-10-21",
+        "check_date:opening_hours": "2026-10-21",
         "diet:meat": "yes",
         "diet:omnivore": "yes",
         "diet:vegan": "yes",
