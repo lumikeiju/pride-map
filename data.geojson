@@ -14745,7 +14745,7 @@
         "lgbtq:signed": "yes",
         "name": "Changes Bar & Grill",
         "opening_hours": "Mo-Su 12:00-02:00",
-        "phone": "+1 206 545 8363",
+        "phone": "+1-206-545-8363",
         "@id": "node/2061048098",
         "@type": "node"
       }
@@ -15061,6 +15061,35 @@
         "phone": "+39 06 7004425",
         "ref:vatin": "IT06747541008",
         "@id": "node/2092013187",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9699497,
+          41.4484372
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "11",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "amenity": "veterinary",
+        "instagram": "medivet_sp",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Medivet",
+        "name:-2023": "Clínica Veteralia - Via Veterinària",
+        "name:2024": "Medivet",
+        "opening_hours": "Mo-Fr 08:30-20:00",
+        "phone": "+34 93 682 30 39",
+        "website": "https://www.medivetgroup.com/es-es",
+        "@id": "node/2093585732",
         "@type": "node"
       }
     },
@@ -17757,7 +17786,7 @@
         "lgbtq": "primary",
         "museum": "history",
         "name": "GLBT History Museum",
-        "opening_hours": "11:00-18:00; Su 12:00-17:00; Tu closed",
+        "opening_hours": "Tu-Su 11:00-13:00, 13:30-17:00; Mo closed",
         "phone": "+1-415-621-1107",
         "tourism": "museum",
         "website": "https://www.glbthistory.org/museum/",
@@ -17826,7 +17855,7 @@
         "lgbtq:signed": "yes",
         "name": "Deep Roots",
         "opening_hours": "Mo,We 11:00-14:30,15:00-19:00; Tu,Th,Su 11:00-19:00; Fr,Sa 11:00-20:00",
-        "phone": "+1 206 633 2639",
+        "phone": "+1-206-633-2639",
         "shop": "tattoo",
         "website": "https://beststudioever.com/pages/deep-roots-seattle",
         "@id": "node/2323794500",
@@ -26231,8 +26260,8 @@
         "addr:street": "Marienburger Straße",
         "addr:suburb": "Prenzlauer Berg",
         "amenity": "bar",
-        "check_date": "2026-03-03",
-        "check_date:opening_hours": "2025-01-21",
+        "check_date": "2026-10-21",
+        "check_date:opening_hours": "2026-10-21",
         "contact:website": "http://marienhof-berlin.de/",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -47131,6 +47160,100 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9763805,
+          41.4480515
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "carrer Guatemala, 16",
+        "addr:housenumber": "16",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "alt_name": "Farmàcia Lozano Arroyo, Ismael",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936533404",
+        "dispensing": "yes",
+        "dog": "no",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia Guatemala",
+        "name:ca": "Farmàcia Guatemala",
+        "ref": "3622998",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "@id": "node/7323122601",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9605419,
+          41.4534244
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "avinguda Constitució, 76-80",
+        "addr:housenumber": "76-80",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "alt_name": "Farmàcia Hernández Mercè, Begoña",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936820357",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia del Palau",
+        "ref": "3624588",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "@id": "node/7323122603",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9724367,
+          41.4500411
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "carrer Creu, 27",
+        "addr:housenumber": "27",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Creu",
+        "amenity": "pharmacy",
+        "contact:phone": "+34936533369",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia Castán Orduna",
+        "ref": "3621254",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "@id": "node/7323122605",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9754368,
           41.4450302
         ]
@@ -47197,6 +47320,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9670846,
+          41.4513021
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:full": "carrer L'Anoia, 21",
+        "addr:housenumber": "2",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Garraf",
+        "alt_name": "Farmàcia Aguiila Pijuan, M. Soledad",
+        "amenity": "pharmacy",
+        "contact:phone": "+34931534915",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Farmàcia La Plana",
+        "name:ca": "Farmàcia La Plana",
+        "ref": "3622065",
+        "source": "Generalitat de Catalunya",
+        "source:date": "03/11/2020 07:58:52 AM +0000",
+        "@id": "node/7323122617",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9627266,
           41.4525542
         ]
@@ -47236,9 +47391,10 @@
       "properties": {
         "addr:city": "Sant Andreu de la Barca",
         "addr:full": "carrer Major, 18",
-        "addr:housenumber": "18",
+        "addr:housenumber": "22",
         "addr:postcode": "08740",
         "addr:street": "Carrer Major",
+        "addr:unit": "10",
         "amenity": "pharmacy",
         "contact:phone": "+34936530157",
         "dispensing": "yes",
@@ -47771,6 +47927,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.968097,
+          41.4490925
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "18",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "A",
+        "amenity": "cafe",
+        "brand": "Granier",
+        "brand:wikidata": "Q102311169",
+        "check_date": "2024-05-17",
+        "dog": "outside",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Granier",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "bakery",
+        "wheelchair": "limited",
+        "@id": "node/7536467224",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.6838041,
           32.6466267
         ]
@@ -48069,6 +48259,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9744032,
+          41.4470872
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Joan Bosch",
+        "amenity": "cafe",
+        "dog": "outside",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Forn de l'Avi Josep",
+        "name:ca": "Forn de l'Avi Josep",
+        "outdoor_seating": "yes",
+        "@id": "node/7660760278",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9735123,
           41.4492764
         ]
@@ -48100,14 +48317,13 @@
         "addr:housenumber": "18",
         "addr:postcode": "08740",
         "addr:street": "Carrer de la Font",
-        "alt_name": "Montse Guardia",
         "contact:facebook": "https://www.facebook.com/floristeriamontseguardia",
         "email": "florsidetallsmontseguardia@gmail.com",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
-        "name": "flors i detalls",
-        "name:ca": "flors i detalls",
+        "name": "flors i detalls Montse Guardia",
+        "name:ca": "flors i detalls Montse Guardia",
         "phone": "+34651731701",
         "shop": "florist",
         "@id": "node/7661265972",
@@ -48250,6 +48466,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9703719,
+          41.4485116
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça de Catalunya",
+        "amenity": "driving_school",
+        "education": "driving_school",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Autoescoles Singuerlin",
+        "opening_hours": "Mo-Th 09:00-13:30, 16:00-20:30; Fr 09:30-13:30, 16:00-18:00",
+        "operator": "Autoescoles Singuerlin",
+        "operator:type": "private",
+        "phone": "+34 635 463 221",
+        "website": "https://www.autoescolasinguerlin.com",
+        "@id": "node/7698940272",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.970693,
+          41.4484377
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "2",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça de Catalunya",
+        "female": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "male": "yes",
+        "name": "Olga Perruqueria",
+        "shop": "hairdresser",
+        "@id": "node/7698940273",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.075097,
           50.7703252
         ]
@@ -48340,6 +48610,66 @@
         "lgbtq": "primary",
         "name": "La Taberna",
         "@id": "node/7704037029",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9679602,
+          41.4492089
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "20",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "brand": "Clarel",
+        "brand:wikidata": "Q48784350",
+        "check_date": "2024-05-16",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Clarel",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "chemist",
+        "website": "https://www.clarel.es/",
+        "@id": "node/7733828168",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9665036,
+          41.4493693
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "21",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "amenity": "restaurant",
+        "contact:instagram": "@dtaping_dgustam",
+        "cuisine": "burger;american",
+        "dog": "outside",
+        "email": "info@dtaping.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Dtaping",
+        "outdoor_seating": "yes",
+        "phone": "+34 935 10 18 49",
+        "website": "https://dtaping.com",
+        "@id": "node/7733828169",
         "@type": "node"
       }
     },
@@ -50337,6 +50667,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9726345,
+          41.449354
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "3",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Barcelona",
+        "amenity": "pub",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "mobile": "+34722671415",
+        "name": "Platillo's",
+        "outdoor_seating": "yes",
+        "@id": "node/8089948746",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9699897,
+          41.4476903
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "12",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Hora i Or",
+        "shop": "jewelry",
+        "@id": "node/8089948750",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9724974,
           41.4486775
         ]
@@ -50365,11 +50743,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.9725107,
-          41.4479601
+          1.9725442,
+          41.4479953
         ]
       },
       "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "21",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Parera",
         "check_date": "2024-05-15",
         "dog": "yes",
         "lgbtq": "welcome",
@@ -50426,6 +50808,33 @@
         "ref:DK:cvr:pnummer": "1021285273",
         "website": "https://gbar.safeticket.dk/",
         "@id": "node/8140434503",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9745434,
+          41.4478583
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "36",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Barcelona",
+        "brand": "BonÀrea",
+        "brand:wikidata": "Q11924743",
+        "brand:wikipedia": "ca:Grup Alimentari Guissona",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "BonÀrea",
+        "ref": "42366",
+        "shop": "supermarket",
+        "@id": "node/8142722302",
         "@type": "node"
       }
     },
@@ -50780,6 +51189,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9683767,
+          41.4489618
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "10",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "amenity": "cafe",
+        "brand": "365",
+        "brand:wikidata": "Q135921692",
+        "check_date": "2024-05-16",
+        "cuisine": "coffee_shop",
+        "dog": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "365",
+        "name:ca": "365",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@id": "node/8262956000",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9683022,
+          41.4490171
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "14",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "amenity": "bar",
+        "dog": "outside",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Mi Café",
+        "outdoor_seating": "yes",
+        "@id": "node/8262956001",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9698233,
+          41.4483323
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "13",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Fincas Blanco",
+        "office": "estate_agent",
+        "phone": "+34 93 653 53 53",
+        "@id": "node/8263061417",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.969413,
           41.4480138
         ]
@@ -50795,6 +51288,37 @@
         "name": "Calçats Montse Roig",
         "shop": "shoes",
         "@id": "node/8263061419",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9695672,
+          41.4478552
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "2",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Joan XXIII",
+        "clothes:-2024": "women",
+        "instagram": "nyla.hairstylist",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Nyla Hair Stylist",
+        "name:-2024": "Uh La La!!!",
+        "name:2024-2025": "Beglow",
+        "name:2025": "Nyla Hair Stylist",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-14:00",
+        "phone": "+34 634 959 804",
+        "shop": "hairdresser",
+        "shop:-2024": "clothes",
+        "@id": "node/8263061423",
         "@type": "node"
       }
     },
@@ -51292,6 +51816,37 @@
         "lgbtq": "primary",
         "name": "Tasca Las 3 Hermanas",
         "@id": "node/8382494588",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9667227,
+          41.4492375
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "17",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "amenity": "restaurant",
+        "cuisine": "burger;cuban",
+        "dog": "outside",
+        "email": "hola@esquinitadelmojito.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Esquinita del Mojito",
+        "name:ca": "Esquinita del Mojito",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+34 936532449",
+        "website": "https://esquinitadelmojito.com/",
+        "@id": "node/8408736966",
         "@type": "node"
       }
     },
@@ -51926,6 +52481,60 @@
         "operator:type": "community",
         "website": "http://der-springende-punkt.org/",
         "@id": "node/8817535894",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9741211,
+          41.450269
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "31",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "addr:unit": "1A",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "KBllo's",
+        "shop": "hairdresser",
+        "@id": "node/8820476164",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9737653,
+          41.4481825
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "34",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer Major",
+        "female": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "male": "yes",
+        "name": "Fletcher",
+        "name:-2015": "AXA",
+        "name:2016-2019": "blaullar",
+        "office:-2015": "insurance",
+        "phone": "+34 679 268 203",
+        "shop": "hairdresser",
+        "shop:2016-2019": "estate_agent",
+        "@id": "node/8820476168",
         "@type": "node"
       }
     },
@@ -55324,6 +55933,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9708662,
+          41.4499516
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "amenity": "restaurant",
+        "dog": "outside",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "23 Focs",
+        "outdoor_seating": "yes",
+        "@id": "node/9468022170",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9719699,
           41.4483091
         ]
@@ -55383,6 +56017,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9722885,
+          41.4478142
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "35",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Font",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "DR Decoració",
+        "shop": "interior_decoration",
+        "@id": "node/9468022191",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9725501,
           41.4479021
         ]
@@ -55405,6 +56062,29 @@
         "website": "https://todofotoonline.es",
         "wheelchair": "yes",
         "@id": "node/9468022194",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9725726,
+          41.4478327
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "29",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Font",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Esencias Perfumeria Teresa",
+        "shop": "perfumery",
+        "@id": "node/9468022195",
         "@type": "node"
       }
     },
@@ -55436,6 +56116,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9769771,
+          41.4469079
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "3",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "addr:unit": "2",
+        "dog": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Papelería Sacapuntas",
+        "opening_hours": "Mo-Fr 09:15-13:30,17:00-20:00; Sa,Su 09:00-13:30",
+        "shop": "stationery",
+        "@id": "node/9468022200",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.974694,
           41.447301
         ]
@@ -55445,6 +56151,7 @@
         "addr:housenumber": "3",
         "addr:postcode": "08740",
         "addr:street": "Plaça d'Anselm Clavé",
+        "alt_name": "Forn Garcia",
         "indoor_seating": "no",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
@@ -55469,6 +56176,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça d'Anselm Clavé",
         "amenity:-2013": "pharmacy",
         "amenity:2016-2019": "optician",
         "healthcare": "alternative",
@@ -55476,7 +56187,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
-        "name": "Qi vital",
+        "name": "Qi Vital",
         "name:-2013": "Farmacia Miralles",
         "shop:2014-2015": "vacant",
         "shop:2024": "repair",
@@ -55494,6 +56205,11 @@
         ]
       },
       "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça d'Anselm Clavé",
+        "addr:unit": "2",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
@@ -55503,6 +56219,31 @@
         "shop": "deli",
         "shop:2018-2021": "vacant",
         "@id": "node/9468022204",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9700953,
+          41.4475891
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "27",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Mardi Administració",
+        "office": "estate_agent",
+        "phone": "+34 93 653 50 58",
+        "phone:mobile": "+34 657 921 966",
+        "@id": "node/9468022215",
         "@type": "node"
       }
     },
@@ -56401,6 +57142,78 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9705327,
+          41.4494564
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "6",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Colombini Casa",
+        "phone": "+34 93 653 17 09",
+        "shop": "furniture",
+        "@id": "node/9689498765",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9708828,
+          41.4476767
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Estatut",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Óptica Sant Jordi",
+        "name:ca": "Òptica Sant Jordi",
+        "shop": "optician",
+        "@id": "node/9702612220",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.970997,
+          41.447975
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "10",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Estatut",
+        "beauty": "nails",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Sara Nails",
+        "shop": "beauty",
+        "@id": "node/9702612221",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -7.9406361,
           13.402575
         ]
@@ -56697,6 +57510,82 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9673916,
+          41.4467656
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "43",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "carpenter:aluminium": "yes",
+        "craft": "carpenter",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Carpinteria de Aluminio MPC",
+        "opening_hours": "Mo-Fr 9:30-13:45,17:00-20:00",
+        "phone": "+34 93 682 08 08",
+        "phone:mobile": "+34 618 631 055",
+        "@id": "node/9754237764",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9673502,
+          41.4470733
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "42",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "alt_name": "Alba Roc",
+        "amenity": "veterinary",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Sant Andreu Veterinària",
+        "phone": "+34 93 682 30 35",
+        "shop": "pet_grooming",
+        "@id": "node/9754237767",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9687799,
+          41.4476976
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "27",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Totos Mascotas",
+        "shop": "pet",
+        "@id": "node/9754237774",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -42.8044679,
           -5.0845615
         ]
@@ -56743,6 +57632,82 @@
         "name": "Casa Brandon",
         "website": "https://www.brandon.org.ar",
         "@id": "node/9760819617",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9715494,
+          41.4485266
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Kàrnika",
+        "name:-2024": "Plataforma Cárnica",
+        "name:ca": "Kàrnika",
+        "opening_hours": "Mo-Sa 09:00-14:00; Mo-Fr 17:30-20:30",
+        "phone": "+34 931182686",
+        "shop": "butcher",
+        "@id": "node/9765727439",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9686663,
+          41.4484087
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "5",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "craft": "carpenter",
+        "email": "elcordelafusta@gmail.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "El Cor de la Fusta",
+        "phone": "+34 93 635 67 16",
+        "@id": "node/9775009810",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9651263,
+          41.449972
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "49",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "El Món Dolç de Maku",
+        "shop": "confectionery",
+        "@id": "node/9779711495",
         "@type": "node"
       }
     },
@@ -56978,6 +57943,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9739641,
+          41.4472338
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "6",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Joan Archs",
+        "alt_name": "Sonia Navarro",
+        "amenity": "dancing_school",
+        "education": "dancing_school",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Sonia's Dance Place",
+        "phone": "+34 93 653 29 02",
+        "website": "http://escueladedanzasonianavarro.com",
+        "@id": "node/9802616440",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9747338,
           41.4467918
         ]
@@ -56995,6 +57987,29 @@
         "shop": "florist",
         "shop:-2014": "vacant",
         "@id": "node/9802616441",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9712107,
+          41.4482222
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "15",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Papereria Catalunya",
+        "shop": "stationery",
+        "@id": "node/9802616447",
         "@type": "node"
       }
     },
@@ -58036,6 +59051,82 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9689628,
+          41.4470694
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "20",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del doctor Fleming",
+        "amenity": "dentist",
+        "contact:instagram": "clinicadentalsantandreu",
+        "healthcare": "dentist",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Dental Sant Andreu",
+        "phone": "+34 93 181 76 70",
+        "phone:mobile": "+34 640 34 91 74",
+        "website": "https://clinicadentalsantandreu.com/",
+        "@id": "node/9818243805",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9690824,
+          41.4471323
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "24",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Botiga Esotérica Inma",
+        "opening_hours": "Mo-Fr 10:30-14:00,17:00-20:30; Sa 10:30–14:00",
+        "shop": "esoteric",
+        "@id": "node/9818368228",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9696611,
+          41.4475098
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "16",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "addr:unit": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "CopySab",
+        "shop": "copyshop",
+        "@id": "node/9818368239",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9672907,
           41.4473979
         ]
@@ -58581,6 +59672,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9702327,
+          41.4476924
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "25",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "healthcare": "alternative",
+        "healthcare:speciality": "osteopathy;herbalism;acupuncture;homeopathy;aromatherapy;massage_therapy",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Dietética Antía",
+        "phone": "+34 93 682 46 36",
+        "@id": "node/9914340533",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.970314,
+          41.4473252
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "13",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Estatut",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Clar optics",
+        "shop": "optician",
+        "@id": "node/9914340534",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           121.0666282,
           14.5853668
         ]
@@ -58727,6 +59866,56 @@
         "sport": "billiards",
         "website": "http://ohonlark.com/",
         "@id": "node/9921603810",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9734219,
+          41.4510809
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "37",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "amenity": "driving_school",
+        "education": "driving_school",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Elias Autoescola",
+        "phone": "+34 93 682 31 75",
+        "@id": "node/9922822173",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.973646,
+          41.4476105
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "3",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Font",
+        "clothes": "men",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Garcia",
+        "name:ca": "Garcia",
+        "shop": "clothes",
+        "@id": "node/9925131201",
         "@type": "node"
       }
     },
@@ -59001,6 +60190,57 @@
         "toilets:unisex": "yes",
         "wheelchair": "yes",
         "@id": "node/9953562112",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9686716,
+          41.4476259
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "29",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "email": "info@vivendisinmobiliaria.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Vivendis",
+        "office": "estate_agent",
+        "phone": "+34 93 179 60 87",
+        "website": "https://vivendisinmobiliaria.com/",
+        "@id": "node/9956701413",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9690033,
+          41.448102
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "20",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "brand": "GAES",
+        "brand:wikidata": "Q98492565",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "GAES",
+        "shop": "hearing_aids",
+        "@id": "node/9956722020",
         "@type": "node"
       }
     },
@@ -60934,6 +62174,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9724319,
+          41.4478521
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "33",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Font",
+        "email": "larodaoptics@hotmail.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "La Roda Òptics",
+        "phone": "+34 93 682 91 15",
+        "shop": "optician",
+        "@id": "node/10183012024",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9700421,
+          41.4479016
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Merche Heras",
+        "shop": "beauty",
+        "@id": "node/10188368814",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           9.9187741,
           53.5642488
         ]
@@ -61229,6 +62517,30 @@
         "wikimedia_commons": "Category:Queer Britain",
         "wikipedia": "en:Queer Britain",
         "@id": "node/10240945793",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9686596,
+          41.4471478
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "39",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del doctor Fleming",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Perruqueria Unisex Yolanda López",
+        "phone": "+34 93 682 55 15",
+        "shop": "hairdresser",
+        "@id": "node/10246537817",
         "@type": "node"
       }
     },
@@ -61957,6 +63269,42 @@
         "website:menu": "https://heat.c.obypay.com/v-v6.0.12/i-VRAZmKKSp2-1/action-order",
         "wheelchair": "yes",
         "@id": "node/10697843293",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9715849,
+          41.4506547
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "2",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Martorell",
+        "check_date": "2025-01-02",
+        "description": "Pastisseria - Forn de pa - Catering - Cafeteria",
+        "dog": "outside",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Pastisseria Arenas",
+        "name:-2020": "Condis",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "pastry",
+        "shop:-2020": "supermarket",
+        "wheelchair": "yes",
+        "@id": "node/10699278781",
         "@type": "node"
       }
     },
@@ -64304,6 +65652,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9696196,
+          41.4488687
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:place": "Plaça Federico Garcia Lorca",
+        "addr:postcode": "08740",
+        "amenity": "pub",
+        "dog": "outside",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Cafè del Teatre",
+        "name:ca": "Cafè del Teatre",
+        "phone": "+34 93 632 36 72",
+        "@id": "node/11082705713",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           9.0528953,
           48.5109075
         ]
@@ -64734,6 +66108,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9766033,
+          41.4468327
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "109",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Barcelona",
+        "amenity": "arts_centre",
+        "contact:instagram": "@taller_ana_",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "El taller de Ana",
+        "phone": "+34 93 653 24 51",
+        "training": "art",
+        "@id": "node/11153301589",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.976341,
+          41.4476743
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "13",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "addr:unit": "A",
+        "contact:facebook": "Fincas Ordóñez",
+        "contact:instagram": "fincasordonez",
+        "email": "info@fincasordonez.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Fincas Ordoñez",
+        "office": "estate_agent",
+        "phone": "+34 93 653 21 09",
+        "phone:mobile": "+34 657 929 555",
+        "website": "fincasordonez.com",
+        "@id": "node/11153327433",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.2259715,
           50.0220023
         ]
@@ -65125,6 +66555,61 @@
         "name": "Palais Royal de Gouin",
         "name:fr": "Palais Royal de Gouin",
         "@id": "node/11188180422",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9763216,
+          41.446794
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "78",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Barcelona",
+        "amenity:-2025": "post_office",
+        "contact:instagram": "rbmcentreauditiu",
+        "email": "info@rbmcentreauditiu.com",
+        "healthcare": "audiologist",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "mobile": "+34 618718713",
+        "name": "RBM Centre Auditiu",
+        "name:-2025": "Mail Boxes Etc.",
+        "opening_hours": "Mo-Fr 09:00-13:30,16:00-19:30",
+        "phone": "+34 933545071",
+        "website": "https://rbmcentreauditiu.com/",
+        "@id": "node/11194734650",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9757356,
+          41.4471778
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "64",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Barcelona",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "BeGlow",
+        "phone": "+34  634 95 98 04",
+        "shop": "hairdresser",
+        "@id": "node/11194850659",
         "@type": "node"
       }
     },
@@ -69951,6 +71436,131 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9664012,
+          41.4494173
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "23",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda de la Constitució",
+        "email": "chema@icuines.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "...icuines",
+        "phone": "+34 93 682 20 71",
+        "phone:mobile": "+34 615 17 11 37",
+        "shop": "kitchen",
+        "website": "www.icuines.com",
+        "@id": "node/11933830139",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9668879,
+          41.4517237
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "25",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Anoia",
+        "addr:unit": "2",
+        "female": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "male": "yes",
+        "name": "HBH Saloon",
+        "phone": "+34 611 401 807",
+        "shop": "hairdresser",
+        "@id": "node/11934038936",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9662479,
+          41.4522478
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "29",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Anoia",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Ohana Dog",
+        "phone": "+34 613 759 621",
+        "shop": "pet_grooming",
+        "@id": "node/11934122942",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9659805,
+          41.4524669
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "33",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Anoia",
+        "addr:unit": "2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Hair Stylist",
+        "shop": "hairdresser",
+        "@id": "node/11934122943",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9670432,
+          41.4515608
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "23",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Anoia",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Nova Dermis",
+        "shop": "beauty",
+        "@id": "node/11934122946",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.959783,
           41.4551249
         ]
@@ -69988,6 +71598,32 @@
         "lgbtq": "primary",
         "operator:type": "private",
         "@id": "node/11936986091",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.963036,
+          41.4517087
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "60",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "9",
+        "email": "fjromero72@gmail.com",
+        "healthcare": "alternative",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Enso",
+        "phone": "+34 938 33 82 02",
+        "@id": "node/11938292457",
         "@type": "node"
       }
     },
@@ -73457,6 +75093,78 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9706896,
+          41.4479601
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "23",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Sabana",
+        "shop": "clothes",
+        "@id": "node/12330761761",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.970813,
+          41.4480359
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "21",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "email": "info@imecat.es",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "IMECAT",
+        "phone": "+34 936 53 15 21",
+        "shop": "computer",
+        "@id": "node/12330761763",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9708695,
+          41.4480799
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "19",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "MZ Tattoos",
+        "phone": "+34 93 124 95 04",
+        "shop": "tattoo",
+        "@id": "node/12330761764",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.7186933,
           51.0564499
         ]
@@ -73803,6 +75511,59 @@
         "source:addr": "FHRS Open Data",
         "website": "https://www.omgclubs.com/venues/omg-plymouth",
         "@id": "node/12370702181",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9665544,
+          41.4493505
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "19",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "email": "ejuncosas@gmail.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Miquel Juncosas",
+        "office": "insurance",
+        "phone": "+34 609 204 335",
+        "@id": "node/12381010124",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9742746,
+          41.4480039
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "24",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Barcelona",
+        "addr:unit": "13",
+        "contact:instagram": "barbershop.said.vip",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "male": "yes",
+        "name": "Barbershop Said Perruquers",
+        "opening_hours": "Mo-Sa 09:30-14:00; Mo-Fr 16:30-21:00; Sa 17:00-20:00; Su 10:00-14:00",
+        "phone": "+34 931 524 544",
+        "shop": "hairdresser",
+        "@id": "node/12381010126",
         "@type": "node"
       }
     },
@@ -74349,6 +76110,30 @@
         "phone": "+49 4535 515868",
         "website": "https://www.gymtime-fitness.de/",
         "@id": "node/12468601146",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9662393,
+          41.4494853
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "25",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Halcón Viatges",
+        "phone": "+34 93 142 68 68",
+        "shop": "travel_agency",
+        "@id": "node/12469594361",
         "@type": "node"
       }
     },
@@ -75202,6 +76987,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9687043,
+          41.4501704
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "9",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Anoia",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Instituto de Belleza Sana",
+        "shop": "beauty",
+        "@id": "node/12607663320",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.7192786,
           49.4148145
         ]
@@ -76030,6 +77838,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9660729,
+          41.4523963
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "31",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Anoia",
+        "addr:unit": "1",
+        "healthcare": "physiotherapist",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Isaac Valero",
+        "phone": "+34 627 510 626",
+        "@id": "node/12724526900",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9621203,
           41.4522923
         ]
@@ -76177,6 +78010,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9650513,
+          41.4499985
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "49",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "2",
+        "amenity": "cafe",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Tasta'm",
+        "@id": "node/12729977847",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.9678304,
           41.447727
         ]
@@ -76229,22 +78086,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.9658675,
-          41.4496515
+          1.977491,
+          41.4466191
         ]
       },
       "properties": {
         "addr:city": "Sant Andreu de la Barca",
-        "addr:housenumber": "35",
+        "addr:housenumber": "28",
         "addr:postcode": "08740",
-        "addr:street": "Avinguda Constitució",
-        "beauty": "nails",
+        "addr:street": "Avinguda de l'Argentina",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
-        "name": "Blu Nails",
-        "shop": "beauty",
-        "@id": "node/12732184536",
+        "male": "yes",
+        "mobile": "+34 611 476 227",
+        "name": "la Barbería",
+        "phone": "+34 93 682 91 98",
+        "shop": "hairdresser",
+        "@id": "node/12732174243",
         "@type": "node"
       }
     },
@@ -76720,6 +78579,34 @@
         "ref:FR:SIRET": "31574872300022",
         "wikidata": "Q88465773",
         "@id": "node/12802290379",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9714711,
+          41.4484885
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "addr:unit": "2",
+        "contact:instagram": "piecitos.sab",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Piecitos",
+        "name:-2024": "menuts",
+        "phone": "+34 620 562 784",
+        "shop": "shoes",
+        "shop:-2024": "clothes",
+        "@id": "node/12813116129",
         "@type": "node"
       }
     },
@@ -82591,6 +84478,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.9703046,
+          41.4477327
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "25",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "amenity": "prep_school",
+        "education": "prep_school",
+        "email": "academia@imecat.es",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "IMECAT Centre d'Estudis",
+        "phone": "+34 936 53 25 05",
+        "@id": "node/13352166316",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3588228,
           48.1924423
         ]
@@ -84665,6 +86578,58 @@
         "toilets:wheelchair": "yes",
         "wheelchair": "limited",
         "@id": "node/13610878276",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9666828,
+          41.449097
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "17",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça Charlie Rivel",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Ferreteria Flavià",
+        "opening_hours": "Mo-Fr 08:30-13:30,16:00-20:30; Sa 08:30-14:00",
+        "operator": "Cadena88",
+        "phone": "+34 936825755",
+        "shop": "hardware",
+        "website": "www.cadena88.com/flavia",
+        "@id": "node/13613850536",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9666777,
+          41.4490311
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "15",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça Charlie Rivel",
+        "email": "tintoreriamaen@hotmail.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Tintoreria Maen",
+        "phone": "+34 936 82 41 05",
+        "shop": "dry_cleaning",
+        "@id": "node/13613910033",
         "@type": "node"
       }
     },
@@ -90970,6 +92935,355 @@
         "shop": "hairdresser",
         "website": "http://cmbarbeer.booksy.com/",
         "@id": "node/14307798725",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9707497,
+          41.4478377
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "8",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de l'Estatut",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "El Gessamí",
+        "shop": "florist",
+        "@id": "node/14308407149",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9731828,
+          41.4477853
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "10",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de la Font",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Calçats Montse Roig",
+        "shop": "shoes",
+        "@id": "node/14308437572",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9685214,
+          41.4474587
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "26",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del doctor Fleming",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Peluqueria Unisex Carme i Montes",
+        "shop": "hairdresser",
+        "@id": "node/14308448505",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9687779,
+          41.4470369
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "37",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del doctor Fleming",
+        "addr:unit": "1",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Mamuna Peluqueria",
+        "shop": "hairdresser",
+        "@id": "node/14308448506",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9603552,
+          41.4536015
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "78",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "amenity": "fast_food",
+        "fast_food": "cafeteria",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Delicious Bakery",
+        "@id": "node/14308940896",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9668464,
+          41.4487319
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça Charlie Rivel",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Marta Morral Saez",
+        "shop": "beauty",
+        "@id": "node/14308963488",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9668109,
+          41.448764
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "1",
+        "addr:postcode": "08740",
+        "addr:street": "Plaça Charlie Rivel",
+        "healthcare": "podiatrist",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Sant Andreu Podologia",
+        "@id": "node/14308963489",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9682486,
+          41.4490676
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "16",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Foto Estudio Montero",
+        "shop": "photo",
+        "@id": "node/14309058737",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9777221,
+          41.4463821
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "26",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda de l'Argentina",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Maybe Peluqueria",
+        "shop": "hairdresser",
+        "@id": "node/14309096022",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9779816,
+          41.4466972
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "23",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer del Brasil",
+        "addr:unit": "3",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Perruqueria Unisex Unicolor",
+        "shop": "hairdresser",
+        "@id": "node/14310944225",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9701155,
+          41.4476258
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "27",
+        "addr:postcode": "08740",
+        "addr:street": "Carrer de Catalunya",
+        "addr:unit": "2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Administración de Loterías nº1",
+        "shop": "lottery",
+        "@id": "node/14310944226",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9742104,
+          41.447983
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "22-28",
+        "addr:postcode": "08740",
+        "addr:street": "Carretera de Barcelona",
+        "healthcare": "laboratory",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Laboratoris Miralles",
+        "@id": "node/14310952097",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9748186,
+          41.4495188
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "29",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "DecuBany",
+        "shop": "interior_decoration",
+        "@id": "node/14310988168",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9764899,
+          41.4474922
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "11",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Estanc nº4",
+        "shop": "tobacco",
+        "@id": "node/14310988169",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9738216,
+          41.4505724
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "35",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Guatemala",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Nova Gestión",
+        "office": "estate_agent",
+        "@id": "node/14310988170",
         "@type": "node"
       }
     },
@@ -128664,7 +130978,7 @@
         "building": "retail",
         "lgbtq": "welcome",
         "name": "A Room of One's Own",
-        "opening_hours": "Tu-Su 12:00-18:00",
+        "opening_hours": "Su-Fr 11:00-19:00; Sa 10:00-19:00",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -139523,6 +141837,783 @@
         "coordinates": [
           [
             [
+              1.968793,
+              41.4487994
+            ],
+            [
+              1.9688279,
+              41.4488272
+            ],
+            [
+              1.9688016,
+              41.4488458
+            ],
+            [
+              1.9687746,
+              41.4488649
+            ],
+            [
+              1.9687396,
+              41.4488376
+            ],
+            [
+              1.9687522,
+              41.4488283
+            ],
+            [
+              1.968793,
+              41.4487994
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "indoor": "shop",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Estanc nº3",
+        "opening_hours": "Mo-Fr 09:00-13:30; Mo-Fr 16:30-20:00; Sa 09:00-14:00",
+        "phone": "+34 93 653 27 31",
+        "shop": "tobacco",
+        "@id": "way/1192018893",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9688363,
+              41.4487688
+            ],
+            [
+              1.9688702,
+              41.448797
+            ],
+            [
+              1.9689449,
+              41.448745
+            ],
+            [
+              1.9689102,
+              41.4487168
+            ],
+            [
+              1.9688771,
+              41.4487409
+            ],
+            [
+              1.9688363,
+              41.4487688
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "lottery": "yes",
+        "name": "Papereria Martín",
+        "name:ca": "Papereria Martín",
+        "shop": "stationery",
+        "@id": "way/1192018894",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.96922,
+              41.4488549
+            ],
+            [
+              1.9691822,
+              41.4488816
+            ],
+            [
+              1.9691558,
+              41.4488603
+            ],
+            [
+              1.9691319,
+              41.4488404
+            ],
+            [
+              1.9690866,
+              41.4488028
+            ],
+            [
+              1.9690495,
+              41.4488279
+            ],
+            [
+              1.9690271,
+              41.4488122
+            ],
+            [
+              1.9690167,
+              41.4488034
+            ],
+            [
+              1.9690517,
+              41.4487795
+            ],
+            [
+              1.9690134,
+              41.448748
+            ],
+            [
+              1.9689784,
+              41.4487719
+            ],
+            [
+              1.9689102,
+              41.4487168
+            ],
+            [
+              1.9689503,
+              41.448689
+            ],
+            [
+              1.9689877,
+              41.448662
+            ],
+            [
+              1.96922,
+              41.4488549
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "23",
+        "brand": "La Sirena",
+        "brand:wikidata": "Q21034458",
+        "dog": "no",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "La Sirena",
+        "shop": "frozen_food",
+        "@id": "way/1192018895",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9688541,
+              41.4489097
+            ],
+            [
+              1.9688598,
+              41.4489057
+            ],
+            [
+              1.9688952,
+              41.4488807
+            ],
+            [
+              1.9689235,
+              41.4489032
+            ],
+            [
+              1.9688822,
+              41.4489322
+            ],
+            [
+              1.9688541,
+              41.4489097
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "41-42-43",
+        "alt_name": "Quality",
+        "email": "qualityxarcu@gmail.com",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "mobile": "+34 656 372 756",
+        "name": "Ca'l Ton",
+        "note": "Amb tu des de 1843",
+        "opening_hours": "Mo-Th 07:30-14:00; Fr 07:00-20:00; Sa 07:00-15:00",
+        "phone": "+34 936 53 34 19",
+        "shop": "butcher",
+        "@id": "way/1192018896",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9689105,
+              41.4489546
+            ],
+            [
+              1.9688822,
+              41.4489322
+            ],
+            [
+              1.9689235,
+              41.4489032
+            ],
+            [
+              1.9689517,
+              41.4489257
+            ],
+            [
+              1.9689105,
+              41.4489546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "40;45-46",
+        "contact:facebook": "https://www.facebook.com/aliciaXF",
+        "contact:instagram": "aliciaxarcutersformatgers",
+        "contact:twitter": "aliciaxarcuters",
+        "email": "info@aliciaxarcuters.com",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Alicia Xarcuters i Formatgers",
+        "name:ca": "Alicia Xarcuters i Formatgers",
+        "opening_hours": "Mo 08:00-14:00; Tu 17:00-20:00; We-Th 08:00-14:00; Fr 08:00-20:00; Sa 08:00-14:00",
+        "phone": "+34 936 53 22 04",
+        "phone:mobile": "+34 634 546 022",
+        "shop": "butcher",
+        "@id": "way/1192018898",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9691623,
+              41.4491594
+            ],
+            [
+              1.9691056,
+              41.4491129
+            ],
+            [
+              1.9691278,
+              41.4490972
+            ],
+            [
+              1.9691842,
+              41.4491444
+            ],
+            [
+              1.9691623,
+              41.4491594
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "51-52",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "La Bona Fruita",
+        "shop": "greengrocer",
+        "@id": "way/1192018901",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9689352,
+              41.448852
+            ],
+            [
+              1.9689772,
+              41.4488229
+            ],
+            [
+              1.9690323,
+              41.4488676
+            ],
+            [
+              1.9690116,
+              41.4488819
+            ],
+            [
+              1.9689903,
+              41.4488967
+            ],
+            [
+              1.9689352,
+              41.448852
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "31-34",
+        "email": "carnsvega@hotmail.com",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Vega by Jeni",
+        "opening_hours": "Mo-Sa 08:00-14:00; Tu 08:00-14:00,17:00-20:00; Fr 08:00-20:00",
+        "phone": "+34 93 653 31 05",
+        "shop": "butcher",
+        "@id": "way/1192018909",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9690099,
+              41.4490027
+            ],
+            [
+              1.9689891,
+              41.4490173
+            ],
+            [
+              1.9689386,
+              41.4489771
+            ],
+            [
+              1.96896,
+              41.4489624
+            ],
+            [
+              1.9689827,
+              41.4489808
+            ],
+            [
+              1.9690099,
+              41.4490027
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "46-47",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Felguera & Hijos Frutas y Verduras",
+        "phone": "+34 616 87 92 22",
+        "shop": "greengrocer",
+        "@id": "way/1192018910",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.96896,
+              41.4489624
+            ],
+            [
+              1.9689827,
+              41.4489808
+            ],
+            [
+              1.9690099,
+              41.4490027
+            ],
+            [
+              1.9690303,
+              41.4489883
+            ],
+            [
+              1.9689802,
+              41.4489484
+            ],
+            [
+              1.96896,
+              41.4489624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "38-39",
+        "butcher": "poultry",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Polleria Charo",
+        "phone": "+34 936 53 42 68",
+        "shop": "butcher",
+        "@id": "way/1192018911",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9690661,
+              41.4489268
+            ],
+            [
+              1.9690452,
+              41.4489413
+            ],
+            [
+              1.9690201,
+              41.448921
+            ],
+            [
+              1.9689903,
+              41.4488967
+            ],
+            [
+              1.9690116,
+              41.4488819
+            ],
+            [
+              1.9690414,
+              41.4489064
+            ],
+            [
+              1.9690661,
+              41.4489268
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "35-36",
+        "email": "frutasfernandez57@gmail.com",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Frutas y verduras Fernández",
+        "phone": "+34 685488323",
+        "shop": "greengrocer",
+        "@id": "way/1192018912",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9691278,
+              41.4490972
+            ],
+            [
+              1.9691008,
+              41.4490757
+            ],
+            [
+              1.9690736,
+              41.4490536
+            ],
+            [
+              1.9690945,
+              41.4490393
+            ],
+            [
+              1.9691482,
+              41.4490833
+            ],
+            [
+              1.9691278,
+              41.4490972
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "55-56",
+        "butcher": "poultry",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "La Granja",
+        "phone": "+34 936 62 30 74",
+        "shop": "butcher",
+        "@id": "way/1192018917",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9689035,
+              41.4488228
+            ],
+            [
+              1.9688702,
+              41.448797
+            ],
+            [
+              1.9689449,
+              41.448745
+            ],
+            [
+              1.9689784,
+              41.4487719
+            ],
+            [
+              1.9689434,
+              41.4487957
+            ],
+            [
+              1.9689035,
+              41.4488228
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "21",
+        "building": "yes",
+        "food": "prepared_meals",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Market Diner",
+        "opening_hours": "Mo-Sa 08:30-15:00",
+        "phone": "+34 93 682 33 31",
+        "shop": "deli",
+        "@id": "way/1192018918",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9688279,
+              41.4488272
+            ],
+            [
+              1.9688618,
+              41.4488541
+            ],
+            [
+              1.9688355,
+              41.4488727
+            ],
+            [
+              1.9688016,
+              41.4488458
+            ],
+            [
+              1.9688279,
+              41.4488272
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "18",
+        "butcher": "poultry",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Polleria y hueveria Pili",
+        "shop": "butcher",
+        "@id": "way/1192305708",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9691215,
+              41.4489706
+            ],
+            [
+              1.9691424,
+              41.4489553
+            ],
+            [
+              1.9691765,
+              41.4489824
+            ],
+            [
+              1.9691555,
+              41.448998
+            ],
+            [
+              1.9691215,
+              41.4489706
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "67",
+        "butcher": "poultry",
+        "email": "maribel.1961@hotmail.com",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Polleria Maribel",
+        "phone": "+34 646 24 75 28",
+        "shop": "butcher",
+        "@id": "way/1192305710",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -119.8598305,
               39.5159831
             ],
@@ -139573,6 +142664,159 @@
         "outdoor_seating": "yes",
         "takeaway": "yes",
         "@id": "way/1193496828",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9693438,
+              41.4490658
+            ],
+            [
+              1.9693836,
+              41.4490977
+            ],
+            [
+              1.969362,
+              41.4491125
+            ],
+            [
+              1.9693076,
+              41.4491496
+            ],
+            [
+              1.9692687,
+              41.4491183
+            ],
+            [
+              1.9693097,
+              41.4490896
+            ],
+            [
+              1.9693438,
+              41.4490658
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "3;4",
+        "beauty": "nails",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Blu Nails",
+        "phone": "+34 620 201 146",
+        "shop": "beauty",
+        "@id": "way/1194531478",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9688308,
+              41.448946
+            ],
+            [
+              1.9689025,
+              41.4490028
+            ],
+            [
+              1.9688621,
+              41.4490299
+            ],
+            [
+              1.9687915,
+              41.4489739
+            ],
+            [
+              1.9688308,
+              41.448946
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "15-16",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Peixateria Navarro",
+        "opening_hours": "Tu-Sa 08:00-14:00",
+        "phone": "+34 667 564 931",
+        "shop": "seafood",
+        "@id": "way/1194531482",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9689025,
+              41.4490028
+            ],
+            [
+              1.9689809,
+              41.4490649
+            ],
+            [
+              1.9689416,
+              41.4490928
+            ],
+            [
+              1.9688621,
+              41.4490299
+            ],
+            [
+              1.9689025,
+              41.4490028
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "12-14",
+        "indoor": "shop",
+        "indoor:level": "0",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Peixateria Aurora",
+        "shop": "seafood",
+        "@id": "way/1194531483",
         "@type": "way"
       }
     },
@@ -139681,6 +142925,130 @@
         "nudism": "yes",
         "surface": "grass",
         "@id": "way/1207837681",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9709178,
+              41.4500218
+            ],
+            [
+              1.9708736,
+              41.4499953
+            ],
+            [
+              1.9708317,
+              41.4499701
+            ],
+            [
+              1.9708632,
+              41.4499403
+            ],
+            [
+              1.9708318,
+              41.4499198
+            ],
+            [
+              1.9708661,
+              41.449888
+            ],
+            [
+              1.9709605,
+              41.4498009
+            ],
+            [
+              1.9709944,
+              41.4497695
+            ],
+            [
+              1.9710262,
+              41.4497889
+            ],
+            [
+              1.9710597,
+              41.4497578
+            ],
+            [
+              1.9710948,
+              41.4497793
+            ],
+            [
+              1.9711455,
+              41.4498103
+            ],
+            [
+              1.9711003,
+              41.449852
+            ],
+            [
+              1.9710922,
+              41.449847
+            ],
+            [
+              1.9710424,
+              41.4498928
+            ],
+            [
+              1.9710367,
+              41.4498893
+            ],
+            [
+              1.9709969,
+              41.4499261
+            ],
+            [
+              1.971003,
+              41.4499297
+            ],
+            [
+              1.9709539,
+              41.4499756
+            ],
+            [
+              1.9709618,
+              41.4499803
+            ],
+            [
+              1.9709178,
+              41.4500218
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "air_conditioning": "yes",
+        "brand": "Catalonia Hotels",
+        "building": "hotel",
+        "check_date": "2024-05-15",
+        "dog": "yes",
+        "email": "booking@cataloniahotels.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Hotel Bristol",
+        "name:ca": "Hotel Bristol",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+34 93 236 00 59",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel",
+        "website": "https://www.cataloniahotels.com/ca/hotel/catalonia-bristol",
+        "wheelchair": "yes",
+        "@id": "way/1208504262",
         "@type": "way"
       }
     },
@@ -141527,6 +144895,119 @@
         "nudism": "yes",
         "surface": "ground",
         "@id": "way/1286706866",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9691829,
+              41.4490199
+            ],
+            [
+              1.9691555,
+              41.448998
+            ],
+            [
+              1.9691765,
+              41.4489824
+            ],
+            [
+              1.9692046,
+              41.4490043
+            ],
+            [
+              1.9691829,
+              41.4490199
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Avinguda Constitució",
+        "addr:unit": "66",
+        "email": "frederic@modahomegarcia.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Pesca Salada Lolita",
+        "phone": "+34 660 41 08 79",
+        "shop": "deli",
+        "@id": "way/1290066971",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9695347,
+              41.4489547
+            ],
+            [
+              1.9695861,
+              41.4489966
+            ],
+            [
+              1.9694609,
+              41.4490827
+            ],
+            [
+              1.9694348,
+              41.4491007
+            ],
+            [
+              1.9693687,
+              41.4490468
+            ],
+            [
+              1.9693795,
+              41.4490394
+            ],
+            [
+              1.9694154,
+              41.4490147
+            ],
+            [
+              1.9694301,
+              41.4490266
+            ],
+            [
+              1.9694713,
+              41.4489983
+            ],
+            [
+              1.9695347,
+              41.4489547
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Sant Andreu de la Barca",
+        "addr:housenumber": "4",
+        "addr:postcode": "08740",
+        "addr:street": "Via de l'Esport",
+        "amenity": "ice_cream",
+        "brand": "Jijonenca",
+        "brand:website": "https://www.jijonenca.es",
+        "brand:wikidata": "Q109332228",
+        "dog": "outside",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
+        "name": "Jijonenca",
+        "@id": "way/1290117607",
         "@type": "way"
       }
     },
