@@ -762,10 +762,15 @@
         "addr:postcode": "LS1 7HG",
         "addr:street": "Bridge End",
         "amenity": "bar",
-        "contact:facebook": "https://www.facebook.com/leedsbridgebar/",
+        "check_date": "2026-10-23",
+        "contact:facebook": "https://www.facebook.com/thebridgebarleeds",
         "lgbtq": "primary",
         "name": "Bridge Bar",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+44 113 244 4734",
+        "real_ale": "no",
+        "website": "https://bridgebarleeds.co.uk/",
         "wikidata": "Q61866058",
         "@id": "node/288338336",
         "@type": "node"
@@ -5431,6 +5436,7 @@
         "subject": "AIDS",
         "wheelchair": "yes",
         "wikidata": "Q293530",
+        "wikimedia_commons": "Category:AIDS-Memorial München",
         "wikipedia": "de:AIDS-Memorial (München)",
         "@id": "node/658947401",
         "@type": "node"
@@ -20164,6 +20170,7 @@
         "name": "It Pub Bar",
         "opening_hours": "Fr,Sa 23:45-04:00",
         "phone": "+33630108969",
+        "ref:FR:SIRET": "53752623800010",
         "@id": "node/2598279542",
         "@type": "node"
       }
@@ -28986,6 +28993,7 @@
         "name": "Repère(S)",
         "opening_hours": "Tu,We 18:00-23:00; Th-Sa 18:00-24:00",
         "outdoor_seating": "yes",
+        "ref:FR:SIRET": "91173349100011",
         "@id": "node/4121087424",
         "@type": "node"
       }
@@ -29813,6 +29821,25 @@
         "start_date": "2025-11-14",
         "website": "https://yourgaybar.com/",
         "@id": "node/4263873694",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3483541,
+          44.4991848
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Barattolo",
+        "opening_hours": "Tu-Th, Su 17:00-01:00; Fr, Sa 18:00-02:00",
+        "outdoor_seating": "yes",
+        "@id": "node/4268793991",
         "@type": "node"
       }
     },
@@ -32670,6 +32697,7 @@
         "name": "NoZe",
         "opening_hours": "Mo-Sa 08:00-22:30; Su 08:00-20:30",
         "phone": "+33 4 72 26 63 21",
+        "ref:FR:SIRET": "81045709300013",
         "@id": "node/4705433890",
         "@type": "node"
       }
@@ -65637,10 +65665,16 @@
       },
       "properties": {
         "check_date:opening_hours": "2026-04-02",
+        "email": "3pbellingham@gmail.com",
         "lgbtq": "welcome",
         "name": "The Third Planet",
+        "nobrand": "yes",
         "opening_hours": "Mo-Su 11:00-19:00",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
         "phone": "+1-360-778-3765",
+        "self_checkout": "no",
         "shop": "gift",
         "website": "https://www.thirdplanetboutique.com/",
         "@id": "node/11082647367",
@@ -65874,11 +65908,22 @@
         "addr:state": "WA",
         "addr:street": "Commercial Street",
         "check_date:opening_hours": "2026-04-02",
+        "email": "info@winkwinkboutique.com",
+        "fetish:bdsm:soft": "yes",
+        "fetish:bdsm:specialized": "yes",
+        "fetish:leather": "yes",
+        "fetish:pet_play": "no",
+        "fetish:uniform": "no",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Wink Wink",
+        "nobrand": "yes",
         "opening_hours": "Mo-Su 12:00-18:00",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
         "phone": "+1-360-922-3023",
+        "self_checkout": "no",
         "shop": "erotic",
         "website": "https://winkwinkboutique.com",
         "@id": "node/11100953981",
@@ -83589,6 +83634,7 @@
         "payment:debit_cards": "yes",
         "payment:mastercard": "yes",
         "payment:visa": "yes",
+        "ref:FR:SIRET": "83774566000022",
         "wheelchair": "yes",
         "@id": "node/13243754635",
         "@type": "node"
@@ -102724,6 +102770,7 @@
         "outdoor_seating": "yes",
         "phone": "+44 1273 624091",
         "ref:GB:uprn": "22061481;22274152",
+        "roof:colour": "green",
         "smoking": "outside",
         "website": "http://www.charles-street.com/",
         "@id": "way/137389441",
