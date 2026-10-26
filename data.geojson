@@ -4610,6 +4610,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -93.2966434,
+          44.9554113
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "2601",
+        "addr:street": "Hennepin Avenue South",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "Uptown",
+        "check_date": "2026-10-25",
+        "check_date:opening_hours": "2026-10-25",
+        "check_date:smoking": "2026-10-25",
+        "description": "Hot & ice tea; bubble tea; a few sandwiches & pastries.",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Sencha Tea Bar",
+        "opening_hours": "Su-Sa 10:00-21:00",
+        "outdoor_seating": "no",
+        "panoramax": "5a8ef75d-7a43-40e4-8b70-2e9811062b16",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "website": "https://www.senchateabar.com",
+        "@id": "node/581241431",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           4.4670715,
           51.915888
         ]
@@ -18017,6 +18053,7 @@
         "amenity": "trapeze_school",
         "lgbtq": "welcome",
         "name": "Emerald City Trapeze",
+        "opening_hours": "Su 09:00-21:30; Mo,Fr 09:00-22:00; Tu,Th 12:00-22:00; We 09:30-22:00; Sa 09:00-18:00",
         "source": "King County GIS;data.seattle.gov",
         "website": "https://emeraldcitytrapeze.com/",
         "@id": "node/2350331323",
@@ -21047,6 +21084,52 @@
         "source:date": "2014-02-11",
         "website": "https://therealboss.nl/",
         "@id": "node/2707855592",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3532828,
+          52.4946386
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "69",
+        "addr:postcode": "10781",
+        "addr:street": "Hohenstaufenstraße",
+        "addr:suburb": "Schöneberg",
+        "amenity": "cafe",
+        "cafe": "board_game",
+        "check_date": "2026-10-25",
+        "cuisine": "sandwich;flammkuchen",
+        "description": "Board game café with 400+ games, hourly play fee, group room",
+        "description:de": "Brettspielcafe mit 400+ Spielen, stündlicher Spielgebühr, Gruppenraum",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "hallo@boardroom.berlin",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Boardroom",
+        "opening_hours": "Tu-Su 14:00-22:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:girocard": "yes",
+        "reservation": "recommended",
+        "reservation:website": "https://boardroom-reservierung.netlify.app/",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://boardroom.berlin",
+        "wheelchair": "limited",
+        "@id": "node/2709186225",
         "@type": "node"
       }
     },
@@ -31841,6 +31924,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -3.0539726,
+          53.8231921
+        ]
+      },
+      "properties": {
+        "addr:city": "Blackpool",
+        "addr:housenumber": "9-11",
+        "addr:postcode": "FY1 1SF",
+        "addr:street": "Cocker Street",
+        "fhrs:id": "813365",
+        "lgbtq": "primary",
+        "name": "Chaps Hotel",
+        "tourism": "guest_house",
+        "website": "https://chapshotel.co.uk/",
+        "@id": "node/4557089176",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -77.0307874,
           -12.1236591
         ]
@@ -32122,6 +32228,29 @@
         "website": "https://www.cafe-firlefanz.de/",
         "wheelchair": "no",
         "@id": "node/4598928202",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0508065,
+          53.8217235
+        ]
+      },
+      "properties": {
+        "addr:city": "Blackpool",
+        "addr:housenumber": "15",
+        "addr:postcode": "FY1 2AZ",
+        "addr:street": "Lord Street",
+        "fhrs:id": "984546",
+        "lgbtq": "primary",
+        "name": "Rendezvous",
+        "tourism": "guest_house",
+        "website": "https://rendezvousblackpool.com/",
+        "@id": "node/4605464287",
         "@type": "node"
       }
     },
@@ -33527,6 +33656,7 @@
         "addr:postcode": "98101",
         "addr:state": "WA",
         "addr:street": "Seneca Street",
+        "addr:unit": "2709",
         "amenity": "fast_food",
         "check_date": "2026-09-28",
         "cuisine": "pizza",
@@ -33538,7 +33668,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "A Pizza Mart",
-        "opening_hours": "10:00-02:00",
+        "opening_hours": "Mo-Fr 10:00-02:30; Sa 15:00-02:30; Su 15:30-02:30",
         "phone": "+1-206-623-0777",
         "takeaway": "yes",
         "toilets": "yes",
@@ -35735,6 +35865,28 @@
         "start_date": "2025-10-15",
         "wheelchair": "yes",
         "@id": "node/5278438416",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0500928,
+          53.8217363
+        ]
+      },
+      "properties": {
+        "addr:city": "Blackpool",
+        "addr:housenumber": "12",
+        "addr:postcode": "FY1 2BL",
+        "addr:street": "High Street",
+        "lgbtq": "primary",
+        "name": "Pride Lodge",
+        "tourism": "guest_house",
+        "website": "https://pridelodge.com/",
+        "@id": "node/5284288475",
         "@type": "node"
       }
     },
@@ -64648,7 +64800,10 @@
         ]
       },
       "properties": {
+        "addr:city": "Seattle",
         "addr:housenumber": "7000",
+        "addr:postcode": "98115",
+        "addr:state": "WA",
         "addr:street": "Woodlawn Avenue Northeast",
         "check_date": "2026-04-13",
         "check_date:opening_hours": "2026-03-25",
@@ -72949,6 +73104,7 @@
         "addr:street": "Rue Clare",
         "amenity": "bar",
         "diet:vegan": "only",
+        "diet:vegetarian": "only",
         "email": "lespreuvesducontraire@gmail.com",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -72961,6 +73117,8 @@
         "ref:FR:SIRET": "92172041300019",
         "source": "INSEE - 2025-02",
         "survey:date": "2025-12-17",
+        "toilets": "yes",
+        "toilets:access": "customers",
         "wheelchair": "yes",
         "@id": "node/12066130952",
         "@type": "node"
@@ -93359,6 +93517,41 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4049419,
+          37.5331682
+        ]
+      },
+      "properties": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "1004",
+        "addr:postcode": "23223",
+        "addr:state": "VA",
+        "addr:street": "Oakwood Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "changing_table": "yes",
+        "changing_table:fee": "no",
+        "changing_table:location": "unisex_toilet",
+        "cuisine": "mexican",
+        "diet:vegan": "only",
+        "diet:vegetarian": "only",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Taco Vegana",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "@id": "node/14318493396",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -103419,7 +103612,7 @@
       },
       "properties": {
         "addr:city": "Blackpool",
-        "addr:housename": "44",
+        "addr:housenumber": "44",
         "addr:postcode": "FY1 2AY",
         "addr:street": "Queen Street",
         "amenity": "bar",
@@ -103429,8 +103622,9 @@
         "fhrs:id": "1777178",
         "lgbtq": "primary",
         "name": "Flying Handbag",
-        "phone": "+44 12 5364 9155",
-        "website": "http://www.flyinghandbagonline.co.uk/",
+        "opening_hours": "Su-Th 12:00-03:00, Fr-Sa 12:00-04:00",
+        "phone": "+44 1253 207773",
+        "website": "https://flyinghandbagblackpool.co.uk/",
         "@id": "way/146613554",
         "@type": "way"
       }
@@ -103490,7 +103684,7 @@
       },
       "properties": {
         "addr:city": "Blackpool",
-        "addr:housename": "5",
+        "addr:housenumber": "5",
         "addr:postcode": "FY1 2AX",
         "addr:street": "Dickson Road",
         "amenity": "theatre",
@@ -103498,7 +103692,7 @@
         "fhrs:id": "738970",
         "lgbtq": "welcome",
         "name": "Funny Girls",
-        "website": "http://www.funnygirlsonline.co.uk/",
+        "website": "https://www.funnygirlsshow.co.uk",
         "@id": "way/146613556",
         "@type": "way"
       }
@@ -141175,6 +141369,59 @@
         "building": "yes",
         "lgbtq": "primary",
         "@id": "way/1144508709",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.3562112,
+              36.3190737
+            ],
+            [
+              -82.35631,
+              36.3191744
+            ],
+            [
+              -82.3561759,
+              36.3192597
+            ],
+            [
+              -82.3560771,
+              36.319159
+            ],
+            [
+              -82.3562112,
+              36.3190737
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Johnson City",
+        "addr:housenumber": "117",
+        "addr:postcode": "37604",
+        "addr:state": "TN",
+        "addr:street": "West Fairview Avenue",
+        "amenity": "cafe",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/ThePhilosophersHouseJC/",
+        "contact:instagram": "https://www.instagram.com/thephilosophershouse/",
+        "cuisine": "tea;pastry",
+        "email": "thephilosophershouse@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "name": "Philosopher's House",
+        "opening_hours": "Tu-Fr 12:00-20:00; Sa 10:00-20:00; Su 12:00-19:00",
+        "start_date": "2022-12",
+        "website": "https://thephilosophershouse.org/",
+        "website:menu": "https://thephilosophershouse.org/75-2/",
+        "@id": "way/1148006737",
         "@type": "way"
       }
     },
