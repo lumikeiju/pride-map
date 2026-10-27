@@ -14004,6 +14004,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          19.9428789,
+          50.0500751
+        ]
+      },
+      "properties": {
+        "addr:city": "Kraków",
+        "addr:country": "PL",
+        "addr:housenumber": "22",
+        "addr:postcode": "31-062",
+        "addr:street": "Krakowska",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "lgbtq": "primary",
+        "name": "Krakowskie Centrum Równości DOM EQ",
+        "website": "https://znakirownosci.org.pl/",
+        "@id": "node/1939175768",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -16.903676,
           32.6481361
         ]
@@ -32251,41 +32275,6 @@
         "tourism": "guest_house",
         "website": "https://rendezvousblackpool.com/",
         "@id": "node/4605464287",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.895642,
-          40.7493851
-        ]
-      },
-      "properties": {
-        "addr:city": "Salt Lake City",
-        "addr:housenumber": "912",
-        "addr:postcode": "84101",
-        "addr:state": "UT",
-        "addr:street": "South Jefferson Street",
-        "amenity": "restaurant",
-        "contact:facebook": "https://www.facebook.com/Lazizslc/",
-        "contact:instagram": "https://www.instagram.com/lazizslc",
-        "contact:yelp": "https://www.yelp.com/biz/laziz-kitchen-salt-lake-city",
-        "cuisine": "mediterranean",
-        "diet:gluten_free": "yes",
-        "diet:vegan": "yes",
-        "diet:vegetarian": "yes",
-        "email": "granary@lazizkitchen.com",
-        "lgbtq": "welcome",
-        "name": "Laziz Kitchen",
-        "name:en": "Laziz Kitchen",
-        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 12:00-20:00",
-        "phone": "+1 801-441-1228",
-        "website": "https://lazizkitchen.com/",
-        "wheelchair": "yes",
-        "@id": "node/4608305392",
         "@type": "node"
       }
     },
@@ -61298,9 +61287,14 @@
         "contact:email": "bonjourmadameparis11@gmail.com",
         "contact:facebook": "bonjourmadame.paris11",
         "contact:phone": "+33 9 83 51 61 33",
+        "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Bonjour Madame",
         "opening_hours": "Tu-Sa 14:00-02:00, Mo 18:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes",
         "@id": "node/9999607886",
         "@type": "node"
       }
@@ -63887,10 +63881,10 @@
         "addr:postcode": "30316",
         "addr:state": "GA",
         "addr:street": "Metropolitan Avenue Southeast",
-        "amenity": "arts_centre",
-        "check_date": "2025-11-16",
+        "check_date": "2026-10-26",
         "contact:facebook": "https://www.facebook.com/MetropolitanStudios/",
         "contact:instagram": "https://www.instagram.com/metropolitan_studios_",
+        "disused:amenity": "arts_centre",
         "email": "metrostudioseav@gmail.com",
         "level": "0;1",
         "lgbtq": "welcome",
@@ -93546,6 +93540,30 @@
         "takeaway": "yes",
         "toilets": "yes",
         "@id": "node/14318493396",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.440743,
+          50.0738577
+        ]
+      },
+      "properties": {
+        "addr:floor": "0",
+        "addr:housenumber": "847/4",
+        "addr:street": "Sázavská",
+        "check_date": "2026-10-26",
+        "level": "0",
+        "lgbtq": "primary",
+        "name": "Queer Cuts",
+        "opening_hours": "Mo-Sa 09:00-20:00; Su off",
+        "shop": "hairdresser",
+        "website": "https://www.queercuts.cz/",
+        "@id": "node/14321628529",
         "@type": "node"
       }
     },
@@ -125896,6 +125914,102 @@
         "wikidata": "Q24890738",
         "wikipedia": "en:Montrose Center",
         "@id": "way/490800930",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.7268045,
+              51.0557016
+            ],
+            [
+              3.7269366,
+              51.0558222
+            ],
+            [
+              3.7271631,
+              51.055725
+            ],
+            [
+              3.7271651,
+              51.0557223
+            ],
+            [
+              3.7271653,
+              51.0557215
+            ],
+            [
+              3.7271644,
+              51.0557192
+            ],
+            [
+              3.7270925,
+              51.0556702
+            ],
+            [
+              3.7270942,
+              51.0556692
+            ],
+            [
+              3.7270412,
+              51.0556336
+            ],
+            [
+              3.7270391,
+              51.0556347
+            ],
+            [
+              3.727037,
+              51.0556323
+            ],
+            [
+              3.7269237,
+              51.0556788
+            ],
+            [
+              3.7268812,
+              51.0556427
+            ],
+            [
+              3.7268545,
+              51.0556228
+            ],
+            [
+              3.726808,
+              51.0556422
+            ],
+            [
+              3.7268527,
+              51.0556804
+            ],
+            [
+              3.7268045,
+              51.0557016
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Gent",
+        "addr:housenumber": "22",
+        "addr:postcode": "9000",
+        "addr:street": "Kammerstraat",
+        "amenity": "social_centre",
+        "building": "yes",
+        "building:levels": "3",
+        "lgbtq": "primary",
+        "name": "Magenta",
+        "old_name": "Casa Rosa",
+        "source:geometry:date": "2015-10-01",
+        "source:geometry:ref": "Gbg/1360676",
+        "website": "https://magenta.gent/",
+        "wheelchair": "yes",
+        "@id": "way/494018306",
         "@type": "way"
       }
     },
