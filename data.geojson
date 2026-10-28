@@ -26914,13 +26914,15 @@
         "addr:suburb": "Schöneberg",
         "amenity": "fast_food",
         "check_date": "2026-06-08",
+        "contact:instagram": "tomswurst",
         "cuisine": "sausage",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "indoor_seating": "no",
         "lgbtq": "primary",
         "name": "Toms Wurst",
-        "opening_hours": "Su-We,PH 11:30-22:00, Th-Sa 11:30-24:00",
+        "opening_hours": "11:30-24:00",
+        "opening_hours:signed": "yes",
         "outdoor_seating": "sidewalk",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -42575,7 +42577,6 @@
         "addr:postcode": "28004",
         "addr:street": "Calle de San Bartolomé",
         "amenity": "pub",
-        "description": "Nuevo bar de copas en el centro de Chueca Buenos precios, buenas copas, música actual y divertida y el mejor ambiente.",
         "lgbtq": "primary",
         "name": "Barbanarama",
         "wheelchair": "no",
@@ -43095,7 +43096,6 @@
         "addr:housenumber": "31",
         "addr:street": "Calle Alfaros",
         "amenity": "nightclub",
-        "description": "Rush Club es un bar open mind LGTBQ en pleno centro de Córdoba. En este local podrás tomarte algo y bailar con las mejores melodías de ayer y de hoy toda la noche. Disponemos de servicio de cuarto oscuro.",
         "facebook": "https://www.facebook.com/cordobarushclub/",
         "lgbtq": "primary",
         "lgbtq:cruising": "yes",
@@ -43157,7 +43157,6 @@
         "addr:city": "Torremolinos",
         "addr:street": "Calle Casablanca",
         "amenity": "nightclub",
-        "description": "Ven a CENTURYON y vive en tus carnes por qué somos segun miles de personas el mejor club gay del sur de España.",
         "email": "salacenturyon@gmail.com",
         "facebook": "https://www.facebook.com/salacenturyon",
         "lgbtq": "primary",
@@ -77545,7 +77544,9 @@
         "lgbtq": "primary",
         "min_age": "21",
         "name": "5801",
+        "opening_hours": "Mo-Wed 4PM-1AM, Thu-Fri 4PM-2AM, Sat 2PM-2AM, Sun 11AM-12AM",
         "smoking": "outside",
+        "website": "https://5801pgh.com",
         "@id": "node/12670621759",
         "@type": "node"
       }
@@ -114195,11 +114196,11 @@
         "building": "retail",
         "building:levels": "4",
         "building:material": "brick",
-        "check_date": "2026-10-03",
-        "check_date:opening_hours": "2026-10-03",
+        "check_date": "2026-10-27",
+        "check_date:opening_hours": "2026-10-27",
         "lgbtq": "primary",
         "name": "Clonezone",
-        "opening_hours": "Mo-Fr 10:00-18:00",
+        "opening_hours": "Mo-Tu 11:00-21:00; We-Th 09:00-22:00; Fr-Sa 11:00-23:00; Su 12:00-20:00",
         "payment:american_express": "yes",
         "ref:GB:uprn": "100023472219;100023472218;100023472217;100023472216;10033539482;100023609280",
         "roof:colour": "grey",
@@ -126083,28 +126084,28 @@
         "coordinates": [
           [
             [
-              -74.0115477,
-              40.2161166
+              -74.0115404,
+              40.2161185
             ],
             [
-              -74.0114993,
-              40.2162555
+              -74.0114925,
+              40.2162537
             ],
             [
-              -74.0113778,
-              40.2162308
+              -74.0113793,
+              40.2162302
             ],
             [
-              -74.0114153,
-              40.2161229
+              -74.0114176,
+              40.216122
             ],
             [
-              -74.0114419,
-              40.2160951
+              -74.0114372,
+              40.2160972
             ],
             [
-              -74.0115477,
-              40.2161166
+              -74.0115404,
+              40.2161185
             ]
           ]
         ]
