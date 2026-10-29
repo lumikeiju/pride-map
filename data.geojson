@@ -10077,8 +10077,8 @@
       "properties": {
         "addr:city": "Edinburgh",
         "addr:housenumber": "23-24",
+        "addr:place": "Greenside Place",
         "addr:postcode": "EH1 3AA",
-        "addr:street": "Greenside Place",
         "amenity": "bar",
         "check_date": "2026-10-19",
         "contact:facebook": "https://www.facebook.com/ccbloomsedinburgh/",
@@ -24067,6 +24067,7 @@
         "opening_hours": "17:00-02:00",
         "outdoor_seating": "no",
         "phone": "+1 803-256-6464",
+        "smoking": "no",
         "website": "https://www.capitalclubsc.com/",
         "@id": "node/3262280947",
         "@type": "node"
@@ -24221,8 +24222,8 @@
         "addr:city": "Edinburgh",
         "addr:country": "GB",
         "addr:housenumber": "6",
+        "addr:place": "Baxter's Place",
         "addr:postcode": "EH1 3AF",
-        "addr:street": "Baxter's Place",
         "amenity": "bar",
         "check_date": "2026-09-08",
         "fhrs:id": "85047",
@@ -80231,8 +80232,10 @@
         "addr:postcode": "86150",
         "addr:street": "Maximilianstraße",
         "email": "rezeption@artwork-hairdresser.com",
+        "female:signed": "no",
         "internet_access": "wlan",
         "lgbtq": "welcome",
+        "male:signed": "no",
         "name": "Artwork Hairdresser",
         "opening_hours": "Tu-Fr 10:00-20:00",
         "shop": "hairdresser",
@@ -87674,6 +87677,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -104.9725941,
+          39.7370332
+        ]
+      },
+      "properties": {
+        "addr:city": "Denver",
+        "addr:housenumber": "1209",
+        "addr:postcode": "80218",
+        "addr:state": "CO",
+        "addr:street": "East 13th Avenue",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Wild Tulips",
+        "start_date": "2026-10-28",
+        "website": "https://www.wildtulipsdenver.com",
+        "@id": "node/13673306365",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.2178059,
           43.3381469
         ]
@@ -93565,6 +93592,56 @@
         "shop": "hairdresser",
         "website": "https://www.queercuts.cz/",
         "@id": "node/14321628529",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7466802,
+          49.4424852
+        ]
+      },
+      "properties": {
+        "addr:city": "Kaiserslautern",
+        "addr:housenumber": "182",
+        "addr:postcode": "67655",
+        "addr:street": "Pariser Str.",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "I.Y.K.Y.K.",
+        "opening_hours": "Fr-Sa 20:00-02:00",
+        "@id": "node/14325128907",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6202502,
+          39.3193939
+        ]
+      },
+      "properties": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "2600",
+        "addr:postcode": "21218",
+        "addr:state": "MD",
+        "addr:street": "North Howard Street",
+        "addr:unit": "Suite 200",
+        "amenity": "theatre",
+        "contact:facebook": "http://facebook.com/ironcrowtheatre",
+        "contact:instagram": "https://instagram.com/ironcrowtheatre",
+        "email": "info@ironcrowtheatre.org",
+        "lgbtq": "yes",
+        "name": "Iron Crow Theatre",
+        "phone": "+1-443-637-2769",
+        "website": "https://www.ironcrowtheatre.org/",
+        "@id": "node/14325349605",
         "@type": "node"
       }
     },
