@@ -14235,7 +14235,7 @@
         "addr:postcode": "98225",
         "addr:state": "WA",
         "addr:street": "East Magnolia Street",
-        "check_date": "2025-08-12",
+        "check_date": "2026-10-29",
         "internet_access": "no",
         "lgbtq": "welcome",
         "name": "Ritual Records",
@@ -42778,13 +42778,20 @@
       "properties": {
         "addr:city": "Madison",
         "addr:housenumber": "3116",
+        "addr:postcode": "53714",
+        "addr:state": "WI",
         "addr:street": "Commercial Avenue",
         "amenity": "nightclub",
+        "contact:facebook": "https://www.facebook.com/cruciblemadison",
+        "contact:instagram": "https://www.instagram.com/cruciblemadison",
+        "email": "info@cruciblemadison.com",
         "lgbtq": "welcome",
         "name": "Crucible",
-        "opening_hours": "\"Opens Tues-Sat between 6-9pm, depending on the event\"",
+        "opening_hours": "\"Opens Tues-Sat between 06:00-09:00pm,depending on the event\"",
+        "phone": "+1-608-640-4441",
         "smoking": "outside",
         "toilets:wheelchair": "yes",
+        "website": "https://www.cruciblemadison.com/",
         "wheelchair": "yes",
         "@id": "node/6519071395",
         "@type": "node"
@@ -54880,14 +54887,20 @@
         ]
       },
       "properties": {
+        "addr:postcode": "21211",
         "amenity": "cafe",
+        "check_date": "2026-10-29",
+        "contact:facebook": "CafeLosSuenos",
+        "contact:instagram": "cafelossuenos",
         "cuisine": "coffee_shop",
+        "email": "info@cafelossuenos.com",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Cafe Los Sueños",
         "opening_hours": "Mo-Su 08:00-15:00",
         "outdoor_seating": "yes",
-        "website": "https://www.cafelossuenos.com",
+        "phone": "+1-443-378-3377",
+        "website": "https://cafe-los-suenos.square.site/",
         "@id": "node/9228569018",
         "@type": "node"
       }
@@ -55240,6 +55253,24 @@
         "smoking": "isolated",
         "website": "https://www.lewisbarbecue.com/location/lewis-barbecue-atlanta/",
         "@id": "node/9270199577",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9819529,
+          41.0365684
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Bigudi Club",
+        "name:en": "U2",
+        "@id": "node/9280657117",
         "@type": "node"
       }
     },
@@ -64876,8 +64907,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.9825283,
-          41.0346515
+          28.982623,
+          41.0346718
         ]
       },
       "properties": {
@@ -76465,6 +76496,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          28.9833779,
+          41.0375046
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "check_date": "2025-01-17",
+        "lgbtq": "primary",
+        "name": "Cheeky Club",
+        "@id": "node/12510989060",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           9.4441916,
           42.5246097
         ]
@@ -77545,7 +77594,7 @@
         "lgbtq": "primary",
         "min_age": "21",
         "name": "5801",
-        "opening_hours": "Mo-Wed 4PM-1AM, Thu-Fri 4PM-2AM, Sat 2PM-2AM, Sun 11AM-12AM",
+        "opening_hours": "Mo-We 16:00-01:00; Th-Fr 16:00-02:00; Sa 14:00-02:00; Su 11:00-24:00",
         "smoking": "outside",
         "website": "https://5801pgh.com",
         "@id": "node/12670621759",
@@ -81307,6 +81356,24 @@
         "unisex": "yes",
         "wheelchair": "yes",
         "@id": "node/13017024708",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9801786,
+          41.0339511
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "level": "2",
+        "lgbtq": "primary",
+        "name": "EXbar",
+        "@id": "node/13018684302",
         "@type": "node"
       }
     },
@@ -91160,6 +91227,7 @@
       },
       "properties": {
         "addr:city": "Speyer",
+        "addr:country": "DE",
         "addr:housenumber": "2",
         "addr:postcode": "67346",
         "addr:street": "Schulergasse",
@@ -93642,6 +93710,123 @@
         "phone": "+1-443-637-2769",
         "website": "https://www.ironcrowtheatre.org/",
         "@id": "node/14325349605",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7377876,
+          60.2247509
+        ]
+      },
+      "properties": {
+        "addr:city": "Espoo",
+        "addr:housenumber": "13",
+        "addr:postcode": "02710",
+        "addr:street": "Kavallinpelto",
+        "amenity": "restaurant",
+        "branch": "Viherlaakso",
+        "cuisine": "noodle",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "yes",
+        "level": "1",
+        "lgbtq": "welcome",
+        "name": "Noodle Master",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa,Su 12:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+358442467678",
+        "toilets": "yes",
+        "website": "https://noodlemaster.fi/",
+        "@id": "node/14330732528",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6608532,
+          39.2598908
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "addr:city": "Baltimore",
+        "addr:housenumber": "3010",
+        "addr:postcode": "21230",
+        "addr:state": "MD",
+        "addr:street": "Washington Boulevard",
+        "club": "social",
+        "contact:instagram": "https://www.instagram.com/baltimoreplayhouse/",
+        "kinky": "yes",
+        "lgbtq": "welcome",
+        "min_age": "19",
+        "name": "Baltimore Playhouse",
+        "website": "https://baltimoreplayhouse.com/",
+        "@id": "node/14330995805",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4974239,
+          53.5091682
+        ]
+      },
+      "properties": {
+        "addr:city": "Edmonton",
+        "addr:housenumber": "7225",
+        "addr:postcode": "T6E 4B8",
+        "addr:province": "AB",
+        "addr:street": "104 Street NW",
+        "addr:unit": "5",
+        "female": "yes",
+        "lgbtq": "welcome",
+        "male": "yes",
+        "name": "Gentle Outlaws",
+        "opening_hours": "by appointment",
+        "phone": "+1-902-237-6494",
+        "reservation": "required",
+        "shop": "hairdresser",
+        "walk-in": "no",
+        "wheelchair": "yes",
+        "@id": "node/14331779213",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8875555,
+          50.7196609
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "31",
+        "addr:street": "Poole Hill",
+        "amenity": "bar",
+        "fhrs:id": "342573",
+        "lgbtq": "primary",
+        "name": "DYMK Bar",
+        "postal_code": "BH2 5PW",
+        "source:addr": "FHRS Open Data",
+        "@id": "node/14331963226",
         "@type": "node"
       }
     },
@@ -153565,6 +153750,95 @@
         "type": "multipolygon",
         "website": "https://templeshalomdallas.org/",
         "@id": "relation/6933787",
+        "@type": "relation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.3516945,
+              33.7732621
+            ],
+            [
+              -84.3516969,
+              33.7733708
+            ],
+            [
+              -84.3519011,
+              33.7733691
+            ],
+            [
+              -84.3519011,
+              33.7735207
+            ],
+            [
+              -84.3519386,
+              33.7735586
+            ],
+            [
+              -84.3519413,
+              33.773621
+            ],
+            [
+              -84.3521079,
+              33.7736216
+            ],
+            [
+              -84.3521079,
+              33.7735547
+            ],
+            [
+              -84.3521481,
+              33.7735146
+            ],
+            [
+              -84.3521508,
+              33.7733697
+            ],
+            [
+              -84.3523812,
+              33.7733736
+            ],
+            [
+              -84.3523812,
+              33.7732665
+            ],
+            [
+              -84.3516945,
+              33.7732621
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1085",
+        "addr:postcode": "30306",
+        "addr:street": "Ponce de Leon Avenue Northeast",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2026-10-29",
+        "contact:facebook": "https://www.facebook.com/churchatponceandhighland/",
+        "contact:instagram": "https://www.instagram.com/churchponcehighland/",
+        "denomination": "nondenominational",
+        "lgbtq": "welcome",
+        "name": "The Church & Ponce & Highland",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-874-5721",
+        "religion": "christian",
+        "source": "local_knowledge",
+        "type": "multipolygon",
+        "website": "https://www.dhbc.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q5308983",
+        "wikipedia": "en:The Church at Ponce & Highland",
+        "@id": "relation/7309873",
         "@type": "relation"
       }
     },
