@@ -9662,6 +9662,9 @@
         "contact:facebook": "https://www.facebook.com/freeridebicycleproject/",
         "contact:instagram": "https://www.instagram.com/freeridepgh/",
         "description": "Volunteer-run co-op where hours worked earn shop credit",
+        "handwashing:soap": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
         "lgbtq": "welcome",
         "name": "FreeRide Bicycle Collective",
         "opening_hours": "Tu 18:00-21:00; Sa 10:00-14:00",
@@ -9677,12 +9680,14 @@
         "service:bicycle:bike": "yes",
         "service:bicycle:chain_tool": "yes",
         "service:bicycle:cleaning": "yes",
+        "service:bicycle:cleaning:fee": "no",
         "service:bicycle:clothing": "yes",
         "service:bicycle:diy": "yes",
         "service:bicycle:miscellaneous": "yes",
         "service:bicycle:mtb": "yes",
         "service:bicycle:parts": "yes",
         "service:bicycle:pump": "yes",
+        "service:bicycle:rental": "no",
         "service:bicycle:repair": "yes",
         "service:bicycle:retail": "yes",
         "service:bicycle:sales": "yes",
@@ -9691,6 +9696,16 @@
         "service:bicycle:stand": "yes",
         "service:bicycle:tools": "yes",
         "shop": "bicycle",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:disposal": "flush",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "toilets:supervised": "no",
+        "toilets:wash": "no",
         "valves": "schrader;sclaverand",
         "website": "https://freeridepgh.org/",
         "wheelchair": "yes",
@@ -38868,7 +38883,8 @@
         "addr:postcode": "39104",
         "addr:street": "Breiter Weg",
         "amenity": "cafe",
-        "check_date": "2025-10-25",
+        "check_date": "2026-10-30",
+        "check_date:opening_hours": "2026-10-30",
         "contact:instagram": "https://www.instagram.com/cowvana_",
         "cuisine": "bistro;cake;coffee_shop",
         "diet:vegan": "only",
@@ -38879,7 +38895,7 @@
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Cowvana - vegan Food & More",
-        "opening_hours": "Tu-Sa 09:00-18:00; Su 13:00-18:00",
+        "opening_hours": "Tu-Sa 11:00-18:00",
         "outdoor_seating": "yes",
         "payment:cash": "no",
         "payment:contactless": "yes",
@@ -54998,14 +55014,18 @@
         "addr:state": "MD",
         "addr:street": "Chestnut Avenue",
         "amenity": "arts_centre",
-        "check_date": "2024-11-07",
+        "check_date": "2026-10-30",
         "check_date:opening_hours": "2024-05-20",
+        "email": "artists@andamentogallery.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Andamento Studio & Gallery",
         "opening_hours": "Th-Sa 12:00-19:00; Su 12:00-18:00; Mo-We off",
         "opening_hours:signed": "no",
         "shop": "art",
+        "wheelchair": "yes",
         "@id": "node/9233928076",
         "@type": "node"
       }
@@ -65409,6 +65429,7 @@
         "addr:postcode": "10777",
         "addr:street": "Motzstraße",
         "addr:suburb": "Schöneberg",
+        "air_conditioning": "no",
         "amenity": "bar",
         "check_date": "2026-06-08",
         "check_date:smoking": "2026-06-08",
@@ -81364,8 +81385,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.9801786,
-          41.0339511
+          28.9802165,
+          41.033965
         ]
       },
       "properties": {
@@ -93794,6 +93815,7 @@
         "addr:province": "AB",
         "addr:street": "104 Street NW",
         "addr:unit": "5",
+        "diet:vegan": "only",
         "female": "yes",
         "lgbtq": "welcome",
         "male": "yes",
@@ -93827,6 +93849,25 @@
         "postal_code": "BH2 5PW",
         "source:addr": "FHRS Open Data",
         "@id": "node/14331963226",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9871688,
+          41.0479384
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Love Dance Point",
+        "phone": "+902122325683",
+        "website": "http://www.lovedp.net/",
+        "@id": "node/14334197065",
         "@type": "node"
       }
     },
