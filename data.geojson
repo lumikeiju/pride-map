@@ -22128,6 +22128,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -93.2322906,
+          44.9340121
+        ]
+      },
+      "properties": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "3800",
+        "addr:postcode": "55406",
+        "addr:street": "28th Avenue South",
+        "check_date": "2026-10-31",
+        "check_date:opening_hours": "2026-10-31",
+        "diet:gluten_free": "only",
+        "indoor_seating": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "atuvava bakery",
+        "opening_hours": "We-Sa 11:00-18:00",
+        "outdoor_seating": "no",
+        "shop": "bakery",
+        "takeaway": "only",
+        "website": "https://www.atuvava.com/",
+        "@id": "node/2832104548",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.9528103,
           40.7269085
         ]
@@ -54161,6 +54191,7 @@
         "addr:postcode": "03501",
         "addr:street": "Carrer de la Palma",
         "amenity": "nightclub",
+        "check_date": "2026-10-31",
         "contact:phone": "+34 615 19 20 06",
         "contact:website": "https://www.copperprivateclub.com",
         "lgbtq:cruising": "yes",
@@ -57769,7 +57800,7 @@
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
         "name": "Carpinteria de Aluminio MPC",
-        "opening_hours": "Mo-Fr 9:30-13:45,17:00-20:00",
+        "opening_hours": "Mo-Fr 09:30-13:45,17:00-20:00",
         "phone": "+34 93 682 08 08",
         "phone:mobile": "+34 618 631 055",
         "@id": "node/9754237764",
@@ -59336,7 +59367,7 @@
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
         "name": "Botiga Esotérica Inma",
-        "opening_hours": "Mo-Fr 10:30-14:00,17:00-20:30; Sa 10:30–14:00",
+        "opening_hours": "Mo-Fr 10:30-14:00,17:00-20:30; Sa 10:30-14:00",
         "shop": "esoteric",
         "@id": "node/9818368228",
         "@type": "node"
@@ -66570,23 +66601,6 @@
         "min_age": "21",
         "name": "Barcode",
         "@id": "node/11161724375",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4748258,
-          53.3745015
-        ]
-      },
-      "properties": {
-        "disused:amenity": "nightclub",
-        "lgbtq": "primary",
-        "old_name": "BarCode",
-        "@id": "node/11162714534",
         "@type": "node"
       }
     },
@@ -88836,12 +88850,17 @@
         ]
       },
       "properties": {
+        "addr:housenumber": "17",
+        "addr:street": "Avenida de Tirajana",
+        "check_date": "2026-10-31",
+        "check_date:opening_hours": "2026-10-31",
         "fee": "yes",
         "leisure": "sauna",
         "lgbtq": "primary",
         "lgbtq:men": "only",
-        "name": "Club Enjoy",
-        "opening_hours": "We-Su 14:00-22:00",
+        "name": "Sauna Enjoy Club",
+        "opening_hours": "Mo-Su 14:00-22:00",
+        "website": "https://www.saunaenjoyclub.com/en-gb/el-club",
         "@id": "node/13883685401",
         "@type": "node"
       }
@@ -93657,6 +93676,36 @@
         "takeaway": "yes",
         "toilets": "yes",
         "@id": "node/14318493396",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7706804,
+          41.7262519
+        ]
+      },
+      "properties": {
+        "internet_access": "wlan",
+        "language:az": "yes",
+        "language:en": "yes",
+        "language:ka": "yes",
+        "language:ru": "yes",
+        "language:tr": "yes",
+        "lgbtq": "welcome",
+        "name": "მენს სპეისი",
+        "name:en": "Men’s Space",
+        "name:ka": "მენს სპეისი",
+        "name:ru": "Менс Спеис",
+        "operator": "men’s space",
+        "payment:contactless": "yes",
+        "shop": "hairdresser",
+        "wheelchair": "yes",
+        "⁠internet_access⁠": "wlan",
+        "@id": "node/14320548474",
         "@type": "node"
       }
     },
@@ -100608,6 +100657,7 @@
         "addr:postcode": "S1 4PR",
         "addr:street": "Hereford Street",
         "amenity": "nightclub",
+        "check_date": "2026-10-31",
         "contact:facebook": "https://www.facebook.com/DempseysSheffield",
         "contact:phone": "+44 114 275 4616",
         "email": "tom@dempseys-sheffield.com",
@@ -101001,7 +101051,6 @@
         "check_date": "2023-05-28",
         "lgbtq": "primary",
         "min_age": "21",
-        "name": "Elsker",
         "opening_hours:covid19": "closed",
         "smoking": "no",
         "@id": "way/111845747",
