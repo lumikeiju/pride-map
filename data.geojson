@@ -1089,6 +1089,7 @@
         "addr:housenumber": "2-8",
         "addr:street": "Marzellenstraße",
         "amenity": "restaurant",
+        "check_date:opening_hours": "2026-11-01",
         "cuisine": "chinese",
         "diet:meat": "yes",
         "diet:vegan": "yes",
@@ -22128,36 +22129,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.2322906,
-          44.9340121
-        ]
-      },
-      "properties": {
-        "addr:city": "Minneapolis",
-        "addr:housenumber": "3800",
-        "addr:postcode": "55406",
-        "addr:street": "28th Avenue South",
-        "check_date": "2026-10-31",
-        "check_date:opening_hours": "2026-10-31",
-        "diet:gluten_free": "only",
-        "indoor_seating": "no",
-        "lgbtq": "welcome",
-        "lgbtq:signed": "yes",
-        "name": "atuvava bakery",
-        "opening_hours": "We-Sa 11:00-18:00",
-        "outdoor_seating": "no",
-        "shop": "bakery",
-        "takeaway": "only",
-        "website": "https://www.atuvava.com/",
-        "@id": "node/2832104548",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -73.9528103,
           40.7269085
         ]
@@ -26989,7 +26960,8 @@
       },
       "properties": {
         "amenity": "nightclub",
-        "contact:website": "http://www.bh-club.de/",
+        "check_date:contact:website": "2026-11-01",
+        "contact:website": "https://bhd.club/",
         "entrance": "yes",
         "lgbtq": "welcome",
         "name": "BH-Club",
@@ -38004,7 +37976,7 @@
         "addr:street": "Hattinger Straße",
         "brand": "Dertour Reisebüro",
         "brand:wikidata": "Q56729186",
-        "check_date": "2023-06-18",
+        "check_date": "2026-11-01",
         "level": "0",
         "lgbtq:signed": "yes",
         "name": "Dertour Reisebüro",
@@ -38410,7 +38382,8 @@
         "drinking_water": "yes",
         "fee": "no",
         "lgbtq": "welcome",
-        "name": "Galeria Dizajn",
+        "name": "Żyjnia",
+        "old_name": "Galeria Dizajn",
         "opening_hours": "Tu-Fr 14:00-18:00; Sa,Su 11:00-18:00; Mo off",
         "operator": "BWA Wrocław",
         "toilets": "yes",
@@ -39797,6 +39770,7 @@
         "addr:city": "Cambridge",
         "addr:state": "MA",
         "addr:street": "Massachusetts Avenue",
+        "check_date:opening_hours": "2026-11-01",
         "leisure": "fitness_centre",
         "lgbtq": "welcome",
         "name": "Get In Shape for Women",
@@ -93923,6 +93897,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1072873,
+          49.3816391
+        ]
+      },
+      "properties": {
+        "contact:city": "Saint-Étienne-du-Rouvray",
+        "contact:housenumber": "12",
+        "contact:postcode": "76800",
+        "contact:street": "Rue Lazare Carnot",
+        "lgbtq": "welcome",
+        "name": "Pomme & Violette",
+        "opening_hours": "Mo 14:00-18:30; Tu 10:00-18:30; We 14:00-18:30; Th 10:00-18:30; Fr 10:00-18:30; Sa 09:00-12:00; Su off; PH off",
+        "phone": "+33 6 99 14 22 01",
+        "ref:FR:SIRET": "10731291000014",
+        "shop": "herbalist",
+        "@id": "node/14338123397",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -120895,6 +120893,72 @@
         "coordinates": [
           [
             [
+              13.4753,
+              52.507698
+            ],
+            [
+              13.4752021,
+              52.5075262
+            ],
+            [
+              13.4751132,
+              52.5073752
+            ],
+            [
+              13.4747176,
+              52.5074619
+            ],
+            [
+              13.474568,
+              52.507494
+            ],
+            [
+              13.4747491,
+              52.5078088
+            ],
+            [
+              13.4747884,
+              52.5078007
+            ],
+            [
+              13.4749151,
+              52.507775
+            ],
+            [
+              13.4750333,
+              52.5077523
+            ],
+            [
+              13.4753,
+              52.507698
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1-4",
+        "addr:postcode": "10365",
+        "addr:street": "Wiesenweg",
+        "addr:suburb": "Lichtenberg",
+        "amenity": "nightclub",
+        "contact:instagram": "https://www.instagram.com/oxi_club",
+        "contact:website": "https://oxi-garten.de/",
+        "lgbtq": "welcome",
+        "name": "OXI",
+        "wheelchair": "limited",
+        "@id": "way/355476495",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -87.2030732,
               30.41891
             ],
@@ -122744,7 +122808,8 @@
         "lgbtq:signed": "yes",
         "microbrewery": "yes",
         "name": "Stoup Brewing",
-        "opening_hours": "Mo-We 14:00-23:00; Th-Sa 12:00-00:00; Su 12:00-22:00",
+        "opening_hours": "Mo-Th,Su 12:00-22:00; Fr,Sa 12:00-24:00",
+        "phone": "+1-206-659-8962",
         "short_name": "Stoup",
         "website": "https://www.stoupbrewing.com/capitol-hill/",
         "wheelchair": "yes",
@@ -151507,7 +151572,8 @@
         "check_date": "2026-07-02",
         "email": "lana@woolybutt.com.au",
         "level": "0",
-        "lgbtq:signed": "welcome",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
         "mobile": "+61 400 021 642",
         "name": "Woolybutt Knitting",
         "opening_hours": "Mo-Tu 10:00-15:00; Th-Fr 10:00-15:00; Sa 10:00-14:00",
@@ -152211,6 +152277,106 @@
         "website": "https://www.kwiv.co.uk/",
         "website:menu": "https://kwiv.co.uk/products",
         "@id": "way/1568988337",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.2322573,
+              44.9340374
+            ],
+            [
+              -93.232262,
+              44.9340375
+            ],
+            [
+              -93.2323426,
+              44.9340375
+            ],
+            [
+              -93.2323428,
+              44.9339006
+            ],
+            [
+              -93.2322575,
+              44.9339005
+            ],
+            [
+              -93.2322573,
+              44.9340374
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "3800",
+        "addr:postcode": "55406",
+        "addr:street": "28th Avenue South",
+        "building:part": "yes",
+        "check_date": "2026-10-31",
+        "check_date:opening_hours": "2026-10-31",
+        "diet:gluten_free": "only",
+        "indoor_seating": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "atuvava bakery",
+        "opening_hours": "We-Sa 11:00-18:00",
+        "outdoor_seating": "no",
+        "shop": "bakery",
+        "takeaway": "only",
+        "website": "https://www.atuvava.com/",
+        "@id": "way/1574273557",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.2324293,
+              44.9340376
+            ],
+            [
+              -93.2323533,
+              44.9340375
+            ],
+            [
+              -93.2323426,
+              44.9340375
+            ],
+            [
+              -93.2323428,
+              44.9339006
+            ],
+            [
+              -93.2324295,
+              44.9339007
+            ],
+            [
+              -93.2324293,
+              44.9340376
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building:part": "yes",
+        "check_date": "2026-10-31",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Studio Emme",
+        "opening_hours": "We-Su 10:00-18:00",
+        "shop": "florist",
+        "@id": "way/1574273558",
         "@type": "way"
       }
     },
