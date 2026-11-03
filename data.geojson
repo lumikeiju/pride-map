@@ -2435,7 +2435,7 @@
         "addr:street": "University Avenue",
         "amenity": "bar",
         "lgbtq": "primary",
-        "name": "Richs San Diego",
+        "name": "Rich's San Diego",
         "source": "SanGIS Business Sites Public Domain (http://www.sangis.org/)",
         "@id": "node/365317693",
         "@type": "node"
@@ -2459,7 +2459,7 @@
         "addr:street": "University Avenue",
         "amenity": "bar",
         "lgbtq": "primary",
-        "name": "The Alibi",
+        "name": "Alibi",
         "source": "SanGIS Business Sites Public Domain (http://www.sangis.org/)",
         "sport": "billiards",
         "@id": "node/365317734",
@@ -8324,7 +8324,7 @@
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Kult",
-        "opening_hours": "Mo 18:00-01:00; Tu-Su 10:00-01:00",
+        "opening_hours": "Mo-Th 17:00-01:00, Fr-Su 10:00-01:00",
         "outdoor_seating": "yes",
         "payment:cash": "yes",
         "phone": "+49 931 53143",
@@ -14867,6 +14867,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          10.0157,
+          53.5531273
+        ]
+      },
+      "properties": {
+        "addr:city": "Hamburg",
+        "addr:housenumber": "37",
+        "addr:postcode": "20099",
+        "addr:street": "Pulverteich",
+        "check_date:opening_hours": "2026-10-18",
+        "fee": "yes",
+        "internet_access": "wlan",
+        "leisure": "sauna",
+        "lgbtq": "only",
+        "name": "Dragon Sauna",
+        "name:de": "Dragon Sauna",
+        "opening_hours": "Mo-We 13:00-23:00; Th-Fr 13:00-24:00; Sa 00:00-24:00; Su 00:00-23:00",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:visa": "yes",
+        "phone": "+49 40 240514",
+        "website": "https://www.dragon-sauna.com/",
+        "@id": "node/2066068131",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -89.594404,
           40.696799
         ]
@@ -19386,27 +19419,6 @@
         "opening_hours": "Tu-Su 14:00-23:30",
         "wheelchair": "limited",
         "@id": "node/2505611383",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6859485,
-          50.1175046
-        ]
-      },
-      "properties": {
-        "amenity": "bar",
-        "check_date": "2025-08-27",
-        "lgbtq": "welcome",
-        "name": "Krawallschachtel",
-        "opening_hours": "Mo,Su 20:00-24:00; Tu-Sa 11:00-18:00",
-        "phone": "+49 69 21990950",
-        "wheelchair": "limited",
-        "@id": "node/2505611384",
         "@type": "node"
       }
     },
@@ -26966,7 +26978,6 @@
         "lgbtq": "welcome",
         "name": "BH-Club",
         "opening_hours": "Tu,Th 21:00-02:00, Sa 22:00-03:00",
-        "opening_hours:covid19": "off",
         "operator": "Ilmenauer Studentenclub e.V.",
         "smoking": "no",
         "toilets:wheelchair": "no",
@@ -31020,6 +31031,7 @@
         "addr:province": "BC",
         "addr:street": "West Pender Street",
         "amenity": "swingerclub",
+        "check_date": "2026-11-02",
         "description": "Private men's gym, sauna, and bathhouse",
         "fitness_centre": "yes",
         "lgbtq:gay": "primary",
@@ -62907,29 +62919,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5478814,
-          33.8434213
-        ]
-      },
-      "properties": {
-        "air_conditioning": "yes",
-        "check_date": "2022-12-18",
-        "internet_access": "wlan",
-        "lgbtq": "welcome",
-        "name": "Trixie Motel",
-        "rooms": "7",
-        "smoking": "no",
-        "tourism": "hotel",
-        "website": "https://www.trixiemotel.com/",
-        "@id": "node/10271797231",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -111.880818,
           40.750099
         ]
@@ -93843,7 +93832,7 @@
         "lgbtq": "welcome",
         "male": "yes",
         "name": "Gentle Outlaws",
-        "opening_hours": "by appointment",
+        "opening_hours": "\"by appointment\"",
         "phone": "+1-902-237-6494",
         "reservation": "required",
         "shop": "hairdresser",
@@ -93915,6 +93904,54 @@
         "ref:FR:SIRET": "10731291000014",
         "shop": "herbalist",
         "@id": "node/14338123397",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1496821,
+          32.7482585
+        ]
+      },
+      "properties": {
+        "addr:city": "San Diego",
+        "addr:housenumber": "1469",
+        "addr:postcode": "92103",
+        "addr:state": "CA",
+        "addr:street": "University Avenue",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "AWOL",
+        "@id": "node/14344240072",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1503319,
+          32.7482685
+        ]
+      },
+      "properties": {
+        "addr:city": "San Diego",
+        "addr:housenumber": "1435",
+        "addr:postcode": "92103",
+        "addr:state": "CA",
+        "addr:street": "University Avenue",
+        "lgbtq": "primary",
+        "min_age": "18",
+        "name": "HUMANITY!",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 10:00-22:00; Su 10:00-20:00; Thanksgiving off; Christmas off",
+        "phone": "+1-619-677-2080",
+        "shop": "erotic",
+        "website": "https://www.humanitysd.com",
+        "@id": "node/14344240079",
         "@type": "node"
       }
     },
@@ -141454,6 +141491,114 @@
         "topless": "yes",
         "tourism": "attraction",
         "@id": "way/1117115299",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.5479842,
+              33.8434092
+            ],
+            [
+              -116.5479821,
+              33.8431935
+            ],
+            [
+              -116.547982,
+              33.84319
+            ],
+            [
+              -116.5480884,
+              33.8431893
+            ],
+            [
+              -116.5480885,
+              33.8431924
+            ],
+            [
+              -116.5480907,
+              33.8434126
+            ],
+            [
+              -116.5480952,
+              33.8434126
+            ],
+            [
+              -116.5480958,
+              33.8434736
+            ],
+            [
+              -116.5480206,
+              33.8434741
+            ],
+            [
+              -116.5480207,
+              33.8434797
+            ],
+            [
+              -116.5478469,
+              33.8434809
+            ],
+            [
+              -116.547847,
+              33.8434931
+            ],
+            [
+              -116.5477923,
+              33.8434935
+            ],
+            [
+              -116.5477914,
+              33.8433995
+            ],
+            [
+              -116.5478332,
+              33.8433992
+            ],
+            [
+              -116.5478323,
+              33.8433087
+            ],
+            [
+              -116.5478916,
+              33.8433083
+            ],
+            [
+              -116.5478921,
+              33.8433575
+            ],
+            [
+              -116.5479288,
+              33.8433572
+            ],
+            [
+              -116.5479293,
+              33.8434095
+            ],
+            [
+              -116.5479842,
+              33.8434092
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "building": "yes",
+        "check_date": "2022-12-18",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "name": "Trixie Motel",
+        "rooms": "7",
+        "smoking": "no",
+        "tourism": "motel",
+        "website": "https://www.trixiemotel.com/",
+        "@id": "way/1123183279",
         "@type": "way"
       }
     },
