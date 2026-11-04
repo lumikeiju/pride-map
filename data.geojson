@@ -15324,29 +15324,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.0871172,
-          42.2673517
-        ]
-      },
-      "properties": {
-        "addr:city": "Rockford",
-        "addr:housenumber": "513",
-        "addr:postcode": "61104",
-        "addr:state": "IL",
-        "addr:street": "East State Street",
-        "amenity": "nightclub",
-        "lgbtq": "primary",
-        "name": "The Office",
-        "website": "http://maps.google.com/local_url?dq=The+Office&q=http://officeniteclub.com/&oi=miw&sa=X&ct=miw_link&cd=1&cad=homepage,cid:14270163330463945376&ei=6Oz1UPKiEOSOwgH8sIGYDQ&s=ANYYN7kcGRSmBhGGq9uu0aY_T3Nb9vAF5Q",
-        "@id": "node/2113101448",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.3873361,
           52.4936383
         ]
@@ -16898,8 +16875,9 @@
         "contact:instagram": "union.seattle.bar",
         "lgbtq": "primary",
         "name": "Union",
-        "opening_hours": "Mo-Fr 16:00-22:00; Sa,Su 12:00-22:00",
+        "opening_hours": "Mo-Fr 16:00-02:00; Sa,Su 12:00-02:00",
         "outdoor_seating": "yes",
+        "phone": "+1-206-328-1318",
         "website": "https://www.unionseattle.com/",
         "wikidata": "Q65054127",
         "@id": "node/2159322642",
@@ -17807,7 +17785,7 @@
         "level": "0",
         "lgbtq": "primary",
         "name": "Why Not Café and Bar",
-        "opening_hours": "Mo-Fr 16:00-03:00; Sa,Su 10:00-03:00",
+        "opening_hours": "Mo-Th 10:00-02:00, Fr,Sa 10:00-03:00, Su 10:00-01:00",
         "operator": "Cool Café Kft.",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
@@ -29737,7 +29715,7 @@
         "check_date": "2026-01-08",
         "contact:facebook": "rheinhausseattle",
         "contact:instagram": "rheinhausseattle",
-        "contact:phone": "+1-206-325-5409",
+        "contact:phone": "+1-206-889-6220",
         "contact:tiktok": "rheinhaus",
         "contact:website": "https://www.rheinhausseattle.com/",
         "cuisine": "german",
@@ -29745,7 +29723,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Rhein Haus Seattle",
-        "opening_hours": "Mo-Th 15:00-22:00; Fr 15:00-25:30; Sa 12:00-25:30; Su 09:00-22:00",
+        "opening_hours": "Mo-Th 15:00-22:00; Fr 15:00-01:30; Sa 12:00-01:30; Su 12:00-22:00",
         "start_date": "2013",
         "wikidata": "Q114713256",
         "@id": "node/4238553191",
@@ -115612,7 +115590,7 @@
         "min_age": "21",
         "name": "Pony",
         "note:lgbtq": "Signage says Pony is for queer people and respectful allies only.",
-        "opening_hours": "Mo-Th 17:00-02:00, Fr-Su 15:00-02:00",
+        "opening_hours": "Mo-Th 17:00-02:00; Fr-Su 15:00-02:00",
         "outdoor_seating": "yes",
         "smoking": "outside",
         "source:addr:id": "438751",
@@ -128077,17 +128055,21 @@
       },
       "properties": {
         "addr:city": "Seattle",
-        "addr:housenumber": "1313",
+        "addr:housenumber": "1315",
         "addr:postcode": "98122",
+        "addr:state": "WA",
         "addr:street": "East Madison Street",
         "amenity": "bar",
         "building": "retail",
         "lgbtq": "primary",
         "name": "Madison Pub",
+        "opening_hours": "Mo-Su 12:00-02:00",
         "outdoor_seating": "no",
+        "phone": "+1-206-325-6537",
         "smoking": "isolated",
         "source": "data.seattle.gov;https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=3865400006;King County GIS",
         "start_date": "1911",
+        "website": "http://www.madisonpub.com/",
         "wikidata": "Q55138745",
         "@id": "way/568043376",
         "@type": "way"
@@ -151181,6 +151163,74 @@
         "website": "https://www.braunfelser-biergarten.de/",
         "website:menu": "https://www.braunfelser-biergarten.de/index.html#karte",
         "@id": "way/1498986437",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.0872021,
+              42.2671584
+            ],
+            [
+              -89.0870599,
+              42.2673249
+            ],
+            [
+              -89.0870428,
+              42.2673319
+            ],
+            [
+              -89.0870428,
+              42.2673437
+            ],
+            [
+              -89.0870524,
+              42.2673575
+            ],
+            [
+              -89.0870661,
+              42.2673646
+            ],
+            [
+              -89.0870771,
+              42.2673615
+            ],
+            [
+              -89.0871042,
+              42.2673749
+            ],
+            [
+              -89.0872355,
+              42.2672224
+            ],
+            [
+              -89.087265,
+              42.2671878
+            ],
+            [
+              -89.0872021,
+              42.2671584
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Rockford",
+        "addr:housenumber": "513",
+        "addr:postcode": "61104",
+        "addr:state": "IL",
+        "addr:street": "East State Street",
+        "amenity": "nightclub",
+        "building": "yes",
+        "lgbtq": "primary",
+        "name": "The Office",
+        "website": "http://maps.google.com/local_url?dq=The+Office&q=http://officeniteclub.com/&oi=miw&sa=X&ct=miw_link&cd=1&cad=homepage,cid:14270163330463945376&ei=6Oz1UPKiEOSOwgH8sIGYDQ&s=ANYYN7kcGRSmBhGGq9uu0aY_T3Nb9vAF5Q",
+        "@id": "way/1500852983",
         "@type": "way"
       }
     },
