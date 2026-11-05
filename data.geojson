@@ -80365,33 +80365,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.9488752,
-          53.5695334
-        ]
-      },
-      "properties": {
-        "addr:city": "Hamburg",
-        "addr:housenumber": "1",
-        "addr:postcode": "20257",
-        "addr:street": "Ophagen",
-        "amenity": "cafe",
-        "contact:instagram": "https://www.instagram.com/cosmiccoffee.hamburg/",
-        "cuisine": "coffee_shop;cake",
-        "food:cake": "yes",
-        "lgbtq": "welcome",
-        "name": "Cosmic Coffee",
-        "opening_hours": "Mo-Fr 10:00-17:00; Sa 11:00-16:00; PH off",
-        "outdoor_seating": "no",
-        "wheelchair": "yes",
-        "@id": "node/12999745866",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           11.8917241,
           45.4156913
         ]
@@ -86548,7 +86521,7 @@
         "addr:unit": "A",
         "amenity": "clinic",
         "branch": "Southside Health Center",
-        "healthcare": "counselling",
+        "healthcare": "clinic",
         "healthcare:counselling": "antenatal;sexual",
         "healthcare:speciality": "venereology;abortion;fertility",
         "lgbtq": "welcome",
@@ -93687,7 +93660,7 @@
         "addr:city": "Kaiserslautern",
         "addr:housenumber": "182",
         "addr:postcode": "67655",
-        "addr:street": "Pariser Str.",
+        "addr:street": "Pariser Straße",
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "I.Y.K.Y.K.",
@@ -93930,6 +93903,107 @@
         "shop": "erotic",
         "website": "https://www.humanitysd.com",
         "@id": "node/14344240079",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5440782,
+          42.568551
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Hogar del jubilado",
+        "@id": "node/14348533608",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5432275,
+          42.5700721
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Piscinas",
+        "@id": "node/14348533609",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5130984,
+          42.5620471
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "@id": "node/14348541986",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5117504,
+          42.5629518
+        ]
+      },
+      "properties": {
+        "addr:street": "Kale Nagusia",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Hogar del jubilado",
+        "@id": "node/14348541987",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4751246,
+          42.6036656
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "@id": "node/14348609033",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2715445,
+          42.5517259
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "La pata de Oca",
+        "@id": "node/14348624002",
         "@type": "node"
       }
     },
@@ -142328,11 +142402,11 @@
         "fee": "yes",
         "hot_tub": "yes",
         "lgbtq": "welcome",
+        "loc_name": "Balneário Municipal de Monte Alegre do Sul",
         "massage": "yes",
-        "name": "Balneário Municipal de Monte Alegre do Sul",
-        "official_name": "Balneário Municipal Alice Girardelli",
+        "name": "Balneário Municipal Alice Girardelli",
         "opening_hours": "We-Fr 10:00-18:00; Sa 10:00-19:00; Su 10:00-14:00",
-        "operator": "Prefeitura de Monte Alegre do Sul",
+        "operator": "Prefeitura Municipal de Monte Alegre do Sul",
         "operator:type": "government",
         "ownership": "municipal",
         "parking": "yes",
