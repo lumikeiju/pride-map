@@ -6591,8 +6591,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0003326,
-          49.2359242
+          7.0002793,
+          49.2359313
         ]
       },
       "properties": {
@@ -6602,16 +6602,18 @@
         "addr:postcode": "66111",
         "addr:street": "Nauwieserstraße",
         "addr:suburb": "St. Johann",
+        "alt_name": "Kurzes Eck",
         "amenity": "bar",
         "bar": "yes",
         "check_date": "2025-06-16",
         "check_date:opening_hours": "2025-06-16",
+        "contact:instagram": "https://www.instagram.com/kurze.eck/",
         "contact:phone": "+49 681 36864",
         "indoor_seating": "yes",
         "level": "0",
         "lgbtq": "welcome",
         "live_music": "yes",
-        "name": "Kurzes Eck",
+        "name": "Kurze Eck",
         "opening_hours": "We-Su 19:00+; PH,Mo-Tu closed",
         "outdoor_seating": "sidewalk",
         "smoking": "outside",
@@ -43376,8 +43378,8 @@
         "amenity": "bar",
         "brewery": "various",
         "check_date": "2026-08-02",
-        "contact:instagram": "https://www.instagram.com/nobody.queerbar?igsh=MWpyenR0MWRmZnV6dg==",
-        "description": "Nobody is perfect.\nNobody is for everybody.\nQueer Bar / Cocktails / & more",
+        "contact:instagram": "https://www.instagram.com/nobody.queerbar",
+        "description": "Nobody is perfect. Nobody is for everybody. Queer Bar / Cocktails / & more",
         "food": "yes",
         "image": "https://maps.app.goo.gl/tiCQfP2TjiNxHSHZ7?g_st=ac",
         "indoor_seating": "yes",
@@ -50312,6 +50314,8 @@
         "addr:postcode": "1201",
         "addr:street": "Rue Lissignol",
         "amenity": "bar",
+        "contact:facebook": "lepharegeneve",
+        "contact:instagram": "le_phare_cafe_geneve_",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "indoor_seating": "yes",
@@ -56085,6 +56089,33 @@
         "name": "Doogie's",
         "website": "http://www.doogies.net/",
         "@id": "node/9432042689",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7662577,
+          59.9136312
+        ]
+      },
+      "properties": {
+        "amenity": "cafe",
+        "check_date": "2026-05-12",
+        "contact:instagram": "papegoye.oslo",
+        "cuisine": "coffee_shop",
+        "diet:vegan": "yes",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Papegøye",
+        "opening_hours": "Mo-Tu 07:00-19:00; We-Fr 07:00-23:00; Sa 08:00-23:00; Su 08:00-18:00",
+        "outdoor_seating": "yes",
+        "phone": "+4796230927",
+        "website": "https://www.prettybird.no/",
+        "@id": "node/9432113863",
         "@type": "node"
       }
     },
@@ -94010,6 +94041,82 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6965332,
+          41.9027717
+        ]
+      },
+      "properties": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "2753",
+        "addr:postcode": "60622",
+        "addr:state": "IL",
+        "addr:street": "West Division Street",
+        "amenity": "community_centre",
+        "community_centre:for": "lgbtq",
+        "email": "transchicago@prcc-chgo.org",
+        "lgbtq": "primary",
+        "name": "Lisa Isadora Cruz Trans Empowerment Center",
+        "opening_hours": "Mo-Fr 10:00-18:00; Tu 10:00-18:30",
+        "operator": "Puerto Rican Cultural Center",
+        "operator:type": "private_non_profit",
+        "phone": "+1-773-698-7473",
+        "website": "https://transchicago.square.site",
+        "@id": "node/14354996677",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5562643,
+          40.176157
+        ]
+      },
+      "properties": {
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "diet:gluten_free": "limited",
+        "diet:halal": "only",
+        "diet:lactose_free": "limited",
+        "diet:sugar_free": "no",
+        "diet:vegan": "limited",
+        "diet:vegetarian": "limited",
+        "handwashing:soap": "yes",
+        "indoor_seating": "yes",
+        "kids_area": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Flavor Spot",
+        "opening_hours": "Mo 10:00-20:00; We-Su 10:00-20:00",
+        "organic": "no",
+        "outdoor_seating": "no",
+        "panoramax:0": "dee5d03a-53e0-466e-a217-0b8e543e9ce1",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
+        "phone": "+1 484 798 4765",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "toilets:handwashing": "yes",
+        "toilets:supervised": "no",
+        "website": "https://order.toasttab.com/online/flavor-spot-625-new-st",
+        "website:menu": "https://order.toasttab.com/online/flavor-spot-625-new-st",
+        "wheelchair": "no",
+        "@id": "node/14355323005",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -107134,7 +107241,7 @@
         "brand:wikipedia": "en:Penny (supermarket)",
         "building": "retail",
         "building:levels": "1",
-        "check_date": "2024-05-04",
+        "check_date": "2026-11-06",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Penny",
