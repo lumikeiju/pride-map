@@ -9665,11 +9665,14 @@
         "contact:facebook": "https://www.facebook.com/freeridebicycleproject/",
         "contact:instagram": "https://www.instagram.com/freeridepgh/",
         "description": "Volunteer-run co-op where hours worked earn shop credit",
+        "dog": "no",
         "handwashing:soap": "yes",
         "internet_access": "wlan",
         "internet_access:fee": "customers",
+        "internet_access:ssid": "FreeRide",
         "lgbtq": "welcome",
         "name": "FreeRide Bicycle Collective",
+        "nobrand": "yes",
         "opening_hours": "Tu 18:00-21:00; Sa 10:00-14:00",
         "operator": "Free Ride Bicycle Project",
         "operator:type": "private_non_profit",
@@ -20483,8 +20486,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4731607,
-          51.9188023
+          4.4731723,
+          51.9188058
         ]
       },
       "properties": {
@@ -20498,6 +20501,29 @@
         "source": "BAG",
         "source:date": "2013-11-26",
         "@id": "node/2610210898",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.472906,
+          51.9187513
+        ]
+      },
+      "properties": {
+        "addr:city": "Rotterdam",
+        "addr:housenumber": "154A",
+        "addr:postcode": "3012GX",
+        "addr:street": "Van Oldenbarneveltstraat",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Strano",
+        "source": "BAG",
+        "source:date": "2013-11-26",
+        "@id": "node/2610212252",
         "@type": "node"
       }
     },
@@ -35424,7 +35450,7 @@
         "lgbtq:men": "yes",
         "min_age": "18",
         "name": "Joe's Dark and Playrooms",
-        "opening_hours": "Mo-Th 12:00-23:00; Fr-Sa 12:00+, Su, PH 14:00-23:00; 2025 Dec 24 16:00+; 2025 Dec 25 -26 14:00+; 2025 Dec 31 12:00+; 2026 Jan 01 15:00+",
+        "opening_hours": "Mo-Th 12:00-23:00; Fr-Sa 12:00+, Su, PH 14:00-23:00",
         "phone": "+49 511 67699931",
         "shop": "erotic",
         "@id": "node/5191053425",
@@ -36836,23 +36862,6 @@
         "wheelchair": "yes",
         "wheelchair:description": "Wheelchair accessible entrance",
         "@id": "node/5422663145",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.473005,
-          51.9187638
-        ]
-      },
-      "properties": {
-        "amenity": "bar",
-        "lgbtq": "primary",
-        "name": "Strano",
-        "@id": "node/5423405323",
         "@type": "node"
       }
     },
@@ -80138,6 +80147,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          9.6801352,
+          50.550787
+        ]
+      },
+      "properties": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Zum Brauerei Gaul",
+        "opening_hours": "We,Th 16:00-23:00; Fr,Sa 16:00-24:00",
+        "outdoor_seating": "yes",
+        "website": "https://brauereigaul.de/",
+        "website:menu": "https://brauereigaul.de/getraenke",
+        "@id": "node/12965209949",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.7865402,
           53.1960606
         ]
@@ -82730,31 +82762,6 @@
         "shop": "erotic",
         "website": "https://www.lusternla.com",
         "@id": "node/13115718815",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.4026897,
-          43.6557743
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "254",
-        "addr:postcode": "M5T 2L7",
-        "addr:street": "Augusta Avenue",
-        "books": "erotic",
-        "check_date": "2025-11-04",
-        "clothes": "gender_affirming;erotic",
-        "lgbtq": "welcome",
-        "name": "Come As You Are",
-        "shop": "erotic",
-        "website": "https://www.comeasyouare.com/",
-        "wikidata": "Q16950366",
-        "@id": "node/13116447502",
         "@type": "node"
       }
     },
@@ -88766,6 +88773,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -79.4581204,
+          43.6744299
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1671",
+        "addr:street": "St Clair Avenue West",
+        "leisure": "fitness_centre",
+        "lgbtq": "welcome",
+        "name": "Homegrown Fitness",
+        "source": "City of Toronto Open Data",
+        "@id": "node/13874925784",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -4.0672631,
           40.5017694
         ]
@@ -94111,6 +94138,28 @@
         "website:menu": "https://order.toasttab.com/online/flavor-spot-625-new-st",
         "wheelchair": "no",
         "@id": "node/14355323005",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3752909,
+          20.6720393
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "amenity": "nightclub",
+        "fee": "yes",
+        "lgbtq": "primary",
+        "min_age": "18",
+        "name": "Envy GDL",
+        "smoking": "yes",
+        "wheelchair": "no",
+        "@id": "node/14356137673",
         "@type": "node"
       }
     },
@@ -135975,22 +136024,8 @@
         ]
       },
       "properties": {
-        "addr:city": "Bridgeport",
-        "addr:country": "US",
-        "addr:county": "Fairfield",
-        "addr:housenumber": "85",
-        "addr:postcode": "06605",
-        "addr:state": "CT",
-        "addr:street": "Ferris Street",
-        "amenity": "restaurant",
-        "books": "feminist",
         "building": "yes",
-        "diet:vegetarian": "yes",
         "lgbtq": "primary",
-        "name": "Bloodroot",
-        "phone": "+1 203-576-9168",
-        "shop": "books",
-        "website": "https://www.bloodroot.com",
         "@id": "way/862398823",
         "@type": "way"
       }
@@ -146405,6 +146440,61 @@
         "sport": "beachvolleyball",
         "surface": "sand",
         "@id": "way/1299492794",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.1775766,
+              53.0247529
+            ],
+            [
+              -2.1773251,
+              53.0246735
+            ],
+            [
+              -2.1772916,
+              53.0247157
+            ],
+            [
+              -2.1774737,
+              53.0247769
+            ],
+            [
+              -2.1775766,
+              53.0247529
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Stoke-on-Trent",
+        "addr:country": "GB",
+        "addr:county": "Staffordshire",
+        "addr:housenumber": "50",
+        "addr:postcode": "ST1 1EG",
+        "addr:street": "Piccadilly",
+        "addr:town": "Hanley",
+        "amenity": "restaurant",
+        "building": "retail",
+        "check_date:opening_hours": "2025-05-08",
+        "cuisine": "asian",
+        "email": "Staff@littledumplingking.co.uk",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Little Dumpling King",
+        "opening_hours": "Tu-Sa 12:00-15:00, 17:00-21:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "phone": "+44 1782 286113",
+        "toilets": "yes",
+        "website": "https://littledumplingking.co.uk/",
+        "@id": "way/1299602291",
         "@type": "way"
       }
     },
