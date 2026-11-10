@@ -16510,13 +16510,13 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Voodoo Doughnut",
-        "opening_hours": "Su-Th 06:00-24:00; Fr-Sa 06:00-27:00",
+        "opening_hours": "Mo-We,Su 06:00-23:00; Th-Sa 06:00-24:00",
         "outdoor_seating": "no",
         "shop": "pastry",
         "source:opening_hours": "https://voodoodoughnut.com/order-online/#Washington",
         "start_date": "2024-12-10",
         "takeaway": "yes",
-        "website": "https://voodoodoughnuti.com",
+        "website": "https://www.voodoodoughnut.com/",
         "website:jobs": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fd832929-2424-4088-ad76-b3211b230d69&ccId=19000101_000001&lang=en_US&selectedMenuKey=CareerCenter",
         "website:menu": "https://order.toasttab.com/online/capitol-hill",
         "website:order": "https://order.toasttab.com/online/capitol-hill",
@@ -25668,7 +25668,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "The Carlile Room",
-        "opening_hours": "We-Su 16:30-24:00",
+        "opening_hours": "We,Th,Su 16:30-21:00; Fr,Sa 16:30-22:00",
         "operator": "Tom Douglas",
         "phone": "+1-206-946-9720",
         "website": "https://www.thecarlile.com/",
@@ -27612,7 +27612,7 @@
         "addr:postcode": "70176",
         "addr:street": "Johannesstraße",
         "amenity": "community_centre",
-        "check_date:opening_hours": "2022-11-01",
+        "check_date:opening_hours": "2026-11-09",
         "community_centre:for": "woman",
         "lgbtq:women": "welcome",
         "name": "Das Sarah - Kulturzentrum für Frauen",
@@ -28348,7 +28348,7 @@
         "addr:postcode": "70176",
         "addr:street": "Johannesstraße",
         "amenity": "cafe",
-        "check_date:opening_hours": "2022-11-01",
+        "check_date:opening_hours": "2026-11-09",
         "cuisine": "bistro",
         "lgbtq:women": "welcome",
         "name": "Café Sarah",
@@ -29863,45 +29863,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.6704006,
-          48.2655212
-        ]
-      },
-      "properties": {
-        "check_date": "2026-01-18",
-        "check_date:opening_hours": "2026-01-18",
-        "contact:city": "Garching bei München",
-        "contact:country": "DE",
-        "contact:housenumber": "15",
-        "contact:phone": "+49 89 28915045",
-        "contact:postcode": "85748",
-        "contact:street": "Boltzmannstraße",
-        "contact:website": "https://www.fsmb.de/",
-        "faculty": "mechanical_engineering",
-        "level": "0",
-        "lgbtq": "welcome",
-        "lgbtq:signed": "yes",
-        "name": "Fachschaft Maschinenbau",
-        "name:de": "Fachschaft Maschinenbau",
-        "name:en": "Mechanical Engineering Student Council",
-        "office": "association",
-        "opening_hours": "Mo-Fr 09:00-11:30,12:30-18:30; PH closed",
-        "opening_hours:signed": "no",
-        "payment:cards": "no",
-        "payment:cash": "yes",
-        "payment:credit_cards": "no",
-        "payment:debit_cards": "no",
-        "ref": "MW0101",
-        "wheelchair": "yes",
-        "@id": "node/4252698253",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           120.9793599,
           14.598928
         ]
@@ -30517,7 +30478,7 @@
         "male": "yes",
         "name": "Rudy's Barbershop",
         "opening_hours": "Mo-Th 10:00-20:00; Fr-Su 09:00-20:00",
-        "phone": "(425) 497-3858",
+        "phone": "+1-425-497-3858",
         "shop": "hairdresser",
         "website": "https://rudysbarbershop.com/blogs/locations/redmond-wa-barbershop",
         "@id": "node/4353378468",
@@ -39966,13 +39927,13 @@
         "addr:street": "Rue Saint-Martin",
         "air_conditioning": "yes",
         "amenity": "bar",
-        "check_date": "2025-08-22",
+        "check_date": "2026-11-10",
         "contact:bluesky": "https://bsky.app/profile/lamutinerie.bsky.social",
         "contact:city": "Paris",
         "contact:email": "contact@lamutinerie.eu",
         "contact:housenumber": "176-178",
         "contact:instagram": "https://www.instagram.com/lamutinerieparis/",
-        "contact:mastodon": "https://mastodon.social/@lamutinerie",
+        "contact:mastodon": "lamutinerie@eldritch.cafe",
         "contact:postcode": "75003",
         "contact:street": "Rue Saint-Martin",
         "contact:website": "https://lamutinerie.eu",
@@ -44616,6 +44577,8 @@
         "opening_hours": "Mo-Fr 07:30-15:30; Sa-Su off",
         "phone": "+420 377 520 755",
         "ref": "44378000002",
+        "ref:SUKL": "44378000002",
+        "website": "http://www.fairnature.cz/kontakt",
         "wheelchair": "limited",
         "@id": "node/6804860546",
         "@type": "node"
@@ -45793,11 +45756,13 @@
         "addr:postcode": "84107",
         "addr:state": "UT",
         "addr:street": "East 900 South",
+        "check_date": "2026-11-09",
         "lgbtq": "welcome",
         "name": "Salt & Honey",
-        "opening_hours": "Mo-Th 11:00-18:00, Fr-Sa 11:00-19:00, Su 11:00-17:00",
+        "opening_hours": "Mo-Th 10:00-19:00; Fr-Sa 10:00-20:00; Su 10:00-17:00",
         "shop": "clothes",
         "website": "https://www.saltandhoneymarket.com/",
+        "wheelchair": "limited",
         "@id": "node/7020877909",
         "@type": "node"
       }
@@ -62591,6 +62556,7 @@
         ]
       },
       "properties": {
+        "access": "customers",
         "addr:housenumber": "6",
         "addr:street": "Rue Saint-Ferréol",
         "check_date": "2025-05-10",
@@ -66965,7 +66931,9 @@
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "name": "Lush",
+        "opening_hours": "We,Th 16:00-22:00; Fr 16:00-01:00; Sa 11:00-01:00; Su 11:00-22:00",
         "outdoor_seating": "yes",
+        "phone": "+1 612-208-0053",
         "website": "https://lushmpls.com/",
         "@id": "node/11211330183",
         "@type": "node"
@@ -70642,7 +70610,7 @@
         "internet_access:fee": "customers",
         "lgbtq": "primary",
         "name": "Peer Seattle",
-        "opening_hours": "09:00-20:00",
+        "opening_hours": "Mo-Fr,Su 10:00-20:00",
         "operator": "Peer Seattle",
         "social_facility": "outreach",
         "wheelchair": "yes",
@@ -73892,7 +73860,7 @@
         "addr:postcode": "M5S 2T9",
         "addr:province": "Ontario",
         "addr:street": "Spadina Avenue",
-        "addr:unit": "403",
+        "addr:unit": "411",
         "alt_name": "Quecey",
         "club": "computer;demoscene",
         "contact:mastodon": "@quecey@fedi.queercomputerclub.ca",
@@ -82141,8 +82109,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.1626074,
-          41.389444
+          2.162624,
+          41.3894755
         ]
       },
       "properties": {
@@ -87156,6 +87124,10 @@
         "addr:housenumber": "33",
         "addr:postcode": "04317",
         "addr:street": "Riebeckstraße",
+        "contact:facebook": "https://www.facebook.com/JA.Mitteldeutschland/",
+        "contact:instagram": "https://www.instagram.com/johanniter_akademie_mitteld/",
+        "contact:youtube": "https://www.youtube.com/playlist?list=PLW2ibcVbN3HBgFWpRPCQSLH4neWWfUhOj",
+        "education": "centre",
         "lgbtq": "welcome",
         "name": "Johanniter-Akademie Mitteldeutschland - Campus Leipzig",
         "office": "educational_institution",
@@ -87163,6 +87135,7 @@
         "operator:type": "ngo",
         "operator:wikidata": "Q14751117",
         "phone": "+49 341 224760-0",
+        "school": "vocational",
         "website": "https://www.johanniter.de/bildungseinrichtungen/johanniter-akademie/johanniter-akademie-mitteldeutschland/standorte-der-akademie-in-mitteldeutschland/campus-leipzig/",
         "@id": "node/13645655173",
         "@type": "node"
@@ -122123,6 +122096,58 @@
         "coordinates": [
           [
             [
+              -97.6209527,
+              30.4402715
+            ],
+            [
+              -97.6209677,
+              30.4402475
+            ],
+            [
+              -97.6211367,
+              30.4403285
+            ],
+            [
+              -97.6210637,
+              30.4404425
+            ],
+            [
+              -97.6208957,
+              30.4403615
+            ],
+            [
+              -97.6209527,
+              30.4402715
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "100",
+        "addr:street": "West Pecan Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "email": "info@westpecancoffee.com",
+        "height": "5.8",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "West Pecan Coffee + Beer",
+        "opening_hours": "07:00-16:00",
+        "phone": "+1 512 551 3471",
+        "toilets": "yes",
+        "website": "https://westpecancoffee.com/",
+        "@id": "way/383784131",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -118.3848079,
               34.0849743
             ],
@@ -124178,6 +124203,7 @@
         "lgbtq": "primary",
         "name": "Seattle Eagle",
         "opening_hours": "Mo-Su 16:00-02:00",
+        "phone": "+1-206-621-7591",
         "start_date": "1909",
         "website": "http://www.seattleeagle.com/",
         "wikidata": "Q55138629",
@@ -150672,6 +150698,101 @@
         "building": "yes",
         "lgbtq": "primary",
         "@id": "way/1459264605",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.6703891,
+              48.2655934
+            ],
+            [
+              11.6703532,
+              48.2654631
+            ],
+            [
+              11.6704495,
+              48.2654513
+            ],
+            [
+              11.6704567,
+              48.2654776
+            ],
+            [
+              11.6704763,
+              48.2655479
+            ],
+            [
+              11.6704768,
+              48.2655495
+            ],
+            [
+              11.6704318,
+              48.2655548
+            ],
+            [
+              11.6704135,
+              48.265557
+            ],
+            [
+              11.6704158,
+              48.2655663
+            ],
+            [
+              11.670481,
+              48.2655638
+            ],
+            [
+              11.670489,
+              48.2655905
+            ],
+            [
+              11.6704062,
+              48.2655929
+            ],
+            [
+              11.6703891,
+              48.2655934
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "check_date": "2026-01-18",
+        "check_date:opening_hours": "2026-01-18",
+        "contact:city": "Garching bei München",
+        "contact:country": "DE",
+        "contact:housenumber": "15",
+        "contact:phone": "+49 89 28915045",
+        "contact:postcode": "85748",
+        "contact:street": "Boltzmannstraße",
+        "contact:website": "https://www.fsmb.de/",
+        "faculty": "mechanical_engineering",
+        "height": "2.85",
+        "indoor": "room",
+        "level": "0",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Fachschaft Maschinenbau",
+        "name:de": "Fachschaft Maschinenbau",
+        "name:en": "Mechanical Engineering Student Council",
+        "office": "association",
+        "opening_hours": "Mo-Fr 09:00-11:30,12:30-18:30; PH closed",
+        "opening_hours:signed": "no",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "ref": "0101",
+        "ref:tum": "5501.EG.101",
+        "room": "office",
+        "wheelchair": "yes",
+        "@id": "way/1459277987",
         "@type": "way"
       }
     },
