@@ -16414,7 +16414,8 @@
         "diet:vegan": "yes",
         "lgbtq": "welcome",
         "name": "Life on Mars",
-        "opening_hours": "Tu-We 16:00-23:00; Th 16:00-00:00; Fr 16:00-02:00; Sa 10:00-02:00; Su 10:00-23:00",
+        "opening_hours": "Tu-Th 16:00-23:00; Fr 16:00-02:00; Sa 11:00-02:00; Su 11:00-23:00",
+        "phone": "+1-206-323-9166",
         "website": "https://www.lifeonmarsseattle.com",
         "wikidata": "Q115021305",
         "@id": "node/2158750780",
@@ -16445,10 +16446,10 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Aveda",
-        "opening_hours": "Mo-Sa 08:30-17:30",
+        "opening_hours": "Mo 09:00-17:30; Tu-Sa 08:30-17:30",
         "phone": "+1-206-302-1044",
         "shop": "cosmetics",
-        "website": "https://atelier.avedaarts.edu/campus/wa/seattle/",
+        "website": "https://avedaarts.edu/locations/seattle/",
         "@id": "node/2158750785",
         "@type": "node"
       }
@@ -16979,7 +16980,9 @@
         "lgbtq": "primary",
         "name": "Babeland",
         "opening_hours": "Mo-Su 12:00-20:00",
+        "phone": "+1-206-687-6966",
         "shop": "erotic",
+        "website": "http://www.babeland.com/",
         "wikidata": "Q4837700",
         "@id": "node/2159323095",
         "@type": "node"
@@ -17006,6 +17009,7 @@
         "lgbtq": "primary",
         "name": "Doghouse Leathers",
         "opening_hours": "PH off; Mo-Su 12:00-21:30",
+        "phone": "+1-206-257-0231",
         "shop": "erotic",
         "website": "https://www.doghouseleathers.com/",
         "@id": "node/2159323114",
@@ -17032,14 +17036,17 @@
         "bar": "yes",
         "changing_table": "no",
         "check_date": "2024-08-19",
+        "cuisine": "american",
         "diet:vegetarian": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Saint John's Bar & Eatery",
-        "opening_hours": "Mo-Fr 16:00-24:00, Sa,Su 12:00-02:00",
+        "opening_hours": "Mo-Th 16:00-24:00; Fr 16:00-02:00; Sa 10:00-02:00; Su 10:00-24:00",
         "outdoor_seating": "yes",
+        "phone": "+1-206-245-1390",
         "toilets": "yes",
         "toilets:wheelchair": "yes",
+        "website": "http://www.saintjohnsseattle.com/",
         "@id": "node/2159323122",
         "@type": "node"
       }
@@ -18806,7 +18813,7 @@
         "contact:website": "https://mediumscollective.com/",
         "lgbtq": "welcome",
         "name": "Mediums",
-        "opening_hours": "Mo-Fr 13:00-22:00; Sa 11:00-23:00; Su 11:00-20:00",
+        "opening_hours": "Mo-Su 12:00-19:00",
         "shop": "clothes",
         "@id": "node/2463389926",
         "@type": "node"
@@ -25734,6 +25741,43 @@
         "website": "https://www.kaffemik.at/",
         "wheelchair": "no",
         "@id": "node/3586247775",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9767216,
+          51.4446569
+        ]
+      },
+      "properties": {
+        "addr:city": "Essen",
+        "addr:housenumber": "86",
+        "addr:postcode": "45145",
+        "addr:street": "Breslauer Straße",
+        "amenity": "social_centre",
+        "check_date": "2026-11-11",
+        "contact:instagram": "https://instagram.com/coralle_frohnhausen",
+        "description": "Die Coralle ist ein 100% unabhängiger & spendenfinanzierter Freiraum für Kunst, Kultur und Spaß in Essen-Frohnhausen.",
+        "dog": "yes",
+        "email": "riff@coralle.org",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "Freifunk",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "Coralle",
+        "phone": "+49 201 520 797 38",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:number": "2",
+        "toilets:unisex": "yes",
+        "website": "https://coralle.org",
+        "wheelchair": "limited",
+        "@id": "node/3592801752",
         "@type": "node"
       }
     },
@@ -37658,7 +37702,6 @@
         "lgbtq": "welcome",
         "name": "Avant Garden",
         "opening_hours": "Mo-Fr 07:00-17:00; Sa,Su 08:00-17:00",
-        "website": "https://www.avantgardenanoka.com/",
         "@id": "node/5599281255",
         "@type": "node"
       }
@@ -68936,7 +68979,7 @@
         "lgbtq": "primary",
         "min_age": "18",
         "name": "King",
-        "opening_hours": "Tu-Sa 14:00-01:30: Su 14:00-24:00",
+        "opening_hours": "Tu-Sa 14:00-01:30; Su 14:00-24:00",
         "phone": "+52 55 1301 3534",
         "@id": "node/11481302247",
         "@type": "node"
@@ -99445,6 +99488,7 @@
         "building": "detached",
         "community_centre:for": "lgbtq",
         "email": "info@lgbtqcenterofdurham.org",
+        "layer": "1",
         "lgbtq": "primary",
         "name": "LGBTQ Center of Durham",
         "opening_hours": "Mo-Fr 14:00-20:00; Sa-Su 12:00-18:00",
@@ -101394,6 +101438,59 @@
         "coordinates": [
           [
             [
+              7.6972548,
+              49.5032406
+            ],
+            [
+              7.6972657,
+              49.5032337
+            ],
+            [
+              7.6974492,
+              49.503357
+            ],
+            [
+              7.6973309,
+              49.5034312
+            ],
+            [
+              7.6971474,
+              49.503308
+            ],
+            [
+              7.6972548,
+              49.5032406
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Katzweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "67734",
+        "addr:street": "Storcheneckerstraße",
+        "building": "yes",
+        "contact:email": "traueratelierjung@gmail.com",
+        "contact:fax": "+49 6301 6169858",
+        "contact:mobile": "+49 172 6813609",
+        "lgbtq": "welcome",
+        "name": "Erwin Jung Traueratelier",
+        "phone": "+49 6301 6169830",
+        "shop": "funeral_directors",
+        "website": "https://www.traueratelierjung.de",
+        "wheelchair": "limited",
+        "@id": "way/112310704",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               5.996092,
               46.259407
             ],
@@ -101979,8 +102076,9 @@
         "amenity": "pub",
         "building": "yes",
         "contact:facebook": "https://www.facebook.com/SixBarrelVictoria/",
-        "fhrs:id": "1194492",
+        "fhrs:id": "1194492;2012215",
         "floor:material": "rough_wood",
+        "food": "yes",
         "lgbtq": "welcome",
         "name": "Six Barrel Drafthouse",
         "old_name": "Keogh's Bar",
