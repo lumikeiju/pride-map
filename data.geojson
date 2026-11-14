@@ -8464,12 +8464,13 @@
         "addr:country": "US",
         "addr:housenumber": "922",
         "addr:postcode": "98122",
+        "addr:state": "WA",
         "addr:street": "East Pike Street",
         "amenity": "bar",
         "check_date": "2026-10-04",
         "lgbtq": "welcome",
         "name": "Comet Tavern",
-        "opening_hours": "12:00-02:00",
+        "opening_hours": "Mo-Th 16:00-02:00; Fr 12:00-02:00; Sa,Su 10:00-02:00",
         "outdoor_seating": "no",
         "phone": "+1-206-323-5678",
         "toilets": "yes",
@@ -8634,6 +8635,7 @@
         "addr:city": "Seattle",
         "addr:housenumber": "1000",
         "addr:postcode": "98122",
+        "addr:state": "WA",
         "addr:street": "East Pike Street",
         "amenity": "restaurant",
         "check_date": "2026-02-12",
@@ -8641,9 +8643,9 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Poquitos",
-        "opening_hours": "Mo-Th 16:00-21:00, Fr 16:00-21:30, Sa 12:00-21:30, Su 12:00-20:00",
+        "opening_hours": "Mo 15:00-21:00; Tu-Th 15:00-22:00; Fr 12:00-23:00; Sa 11:00-23:00; Su 11:00-21:00",
         "outdoor_seating": "yes",
-        "phone": "+1-206-453-4216",
+        "phone": "+1-206-426-4750",
         "website": "https://www.vivapoquitos.com/",
         "wikidata": "Q65054116",
         "@id": "node/1237352093",
@@ -16011,6 +16013,7 @@
         "addr:city": "Seattle",
         "addr:housenumber": "1600",
         "addr:postcode": "98122",
+        "addr:state": "WA",
         "addr:street": "Broadway",
         "check_date": "2026-01-08",
         "email": "BlickCapitolHill@dickblick.com",
@@ -16187,15 +16190,17 @@
         "addr:city": "Seattle",
         "addr:housenumber": "1505",
         "addr:postcode": "98122",
+        "addr:state": "WA",
         "addr:street": "10th Avenue",
         "amenity": "restaurant",
         "check_date": "2026-10-04",
+        "cuisine": "diner",
         "indoor_seating": "yes",
         "internet_access": "wlan",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Lost Lake Cafe & Lounge",
-        "opening_hours": "24/7",
+        "opening_hours": "Mo-We,Su 07:00-24:00; Th 07:00-02:00; Fr,Sa 07:00-03:00",
         "opening_hours:covid19": "Mo-Th 09:00-21:00; Fr-Sa 09:00-22:00",
         "outdoor_seating": "yes",
         "phone": "+1-206-323-5678",
@@ -26107,6 +26112,7 @@
         "bar": "yes",
         "check_date": "2026-06-07",
         "check_date:opening_hours": "2026-06-07",
+        "contact:facebook": "caffettocafe",
         "cuisine": "coffee_shop",
         "delivery": "no",
         "description": "Chill coffee house with pinball machines and arcade games in the basement.",
@@ -26118,7 +26124,7 @@
         "internet_access:ssid": "Caffetto",
         "lgbtq": "welcome",
         "name": "Caffetto",
-        "opening_hours": "Mo-Su 06:30-01:00",
+        "opening_hours": "Mo-Su 07:00-00:00",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -43960,6 +43966,7 @@
         "amenity": "community_centre",
         "changing_table": "no",
         "check_date": "2026-10-08",
+        "community_centre:for": "lgbtq",
         "contact:mastodon": "vielbunt@www.vielbunt.org",
         "internet_access": "wlan",
         "lgbtq": "primary",
@@ -67866,6 +67873,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Arc'teryx",
+        "note": "Moving to https://www.openstreetmap.org/node/5076588127/ in Spring 2027",
         "shop": "clothes",
         "@id": "node/11331347719",
         "@type": "node"
@@ -76602,6 +76610,7 @@
         "check_date": "2025-01-17",
         "lgbtq": "primary",
         "name": "Cheeky Club",
+        "phone": "+905323411043",
         "@id": "node/12510989060",
         "@type": "node"
       }
@@ -85768,8 +85777,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.7661043,
-          61.5033538
+          23.7670042,
+          61.5036969
         ]
       },
       "properties": {
@@ -94336,6 +94345,42 @@
         "opening_hours": "Mo 14:00-18:00; Th 15:00-19:00; Sa 12:00-17:00",
         "website": "https://linktr.ee/translibraryhelsinki",
         "@id": "node/14371375673",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.987156,
+          41.0425753
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Super fabric",
+        "phone": "+905308485252",
+        "website": "http://www.superfabricclub.com/",
+        "@id": "node/14373753177",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9845175,
+          41.0338819
+        ]
+      },
+      "properties": {
+        "amenity": "nightclub",
+        "lgbtq": "primary",
+        "name": "Qclass İstanbul",
+        "@id": "node/14373900071",
         "@type": "node"
       }
     },
@@ -106166,7 +106211,9 @@
         "lgbtq:signed": "yes",
         "name": "Seattle Central College",
         "old_name": "Seattle Central Community College",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr 07:00-18:00",
         "operator": "Seattle Colleges",
+        "phone": "+1-206-934-3800",
         "website": "https://seattlecentral.edu/",
         "wheelchair": "yes",
         "wikidata": "Q7442064",
@@ -132112,7 +132159,6 @@
         "addr:state": "MO",
         "addr:street": "Clarkson Road",
         "amenity": "school",
-        "building": "yes",
         "grades": "9-12",
         "lgbtq": "welcome",
         "mascot": "Mustangs",
@@ -148297,12 +148343,8 @@
               51.9604256
             ],
             [
-              5.8153769,
-              51.9604155
-            ],
-            [
-              5.8153553,
-              51.9604093
+              5.8153761,
+              51.9604136
             ],
             [
               5.815184,
