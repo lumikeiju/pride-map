@@ -13545,7 +13545,7 @@
         "addr:street": "Rathausstraße",
         "amenity": "bar",
         "check_date:min_age": "2025-05-26",
-        "check_date:opening_hours": "2025-05-26",
+        "check_date:opening_hours": "2026-11-15",
         "contact:phone": "+49 431 6967373",
         "contact:website": "https://www.birdcage-kiel.de",
         "indoor_seating": "yes",
@@ -24722,7 +24722,7 @@
       "properties": {
         "addr:housenumber": "15",
         "addr:postcode": "46009",
-        "addr:street": "Carrer Pepita",
+        "addr:street": "Carrer de Pepita",
         "amenity": "nightclub",
         "lgbtq": "primary",
         "name": "Deseo 54",
@@ -67023,7 +67023,7 @@
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
         "name": "BeGlow",
-        "phone": "+34  634 95 98 04",
+        "phone": "+34 634 95 98 04",
         "shop": "hairdresser",
         "@id": "node/11194850659",
         "@type": "node"
@@ -72415,7 +72415,7 @@
         "lgbtq:signed": "yes",
         "name": "Capitol Hill Dental Group",
         "opening_hours": "Mo-Tu 08:00-19:00; Wed-Thu 08:00-18:00; Fri 07:00-18:00",
-        "phone": "2067851372",
+        "phone": "+1-206-785-1372",
         "@id": "node/11974443110",
         "@type": "node"
       }
@@ -82019,8 +82019,10 @@
         ]
       },
       "properties": {
+        "addr:city": "San Francisco",
         "addr:housenumber": "1123",
         "addr:postcode": "94103",
+        "addr:state": "CA",
         "addr:street": "Folsom Street",
         "amenity": "bar",
         "contact:facebook": "THESTUDBAR",
@@ -87115,6 +87117,26 @@
         "website": "https://ilga-portugal.pt/",
         "wikidata": "Q9634405",
         "@id": "node/13615302284",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9293562,
+          -37.7870973
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "42",
+        "addr:street": "Pin Oak Crescent",
+        "lgbtq": "welcome",
+        "name": "Pin Oak Beer & Wine",
+        "shop": "alcohol",
+        "website": "https://pinoakbeerandwine.com.au/",
+        "@id": "node/13619769184",
         "@type": "node"
       }
     },
@@ -94544,6 +94566,35 @@
         "payment:notes": "yes",
         "phone": "+886 4 2220 2345",
         "@id": "node/14379515455",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9889176,
+          39.7047296
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "675",
+        "addr:postcode": "80209",
+        "addr:street": "South Broadway",
+        "amenity": "restaurant",
+        "check_date": "2026-11-15",
+        "check_date:opening_hours": "2026-11-15",
+        "contact:instagram": "motherotherdenver",
+        "diet:lactose_free": "only",
+        "diet:vegan": "only",
+        "email": "hello@motherother.com",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Mother Other",
+        "opening_hours": "Th-Sa 16:00-22:00; Su 16:00-21:00",
+        "website": "https://www.motherother.com/",
+        "@id": "node/14382356901",
         "@type": "node"
       }
     },
