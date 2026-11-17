@@ -2191,34 +2191,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.6106527,
-          40.7653598
-        ]
-      },
-      "properties": {
-        "addr:city": "Peoria",
-        "addr:housenumber": "6400",
-        "addr:postcode": "61614",
-        "addr:state": "IL",
-        "addr:street": "North University Street",
-        "amenity": "place_of_worship",
-        "ele": "238",
-        "email": "info@fccpeoria.org",
-        "gnis:feature_id": "1839970",
-        "lgbtq": "welcome",
-        "name": "First Christian Church",
-        "phone": "+1-309-692-1420",
-        "religion": "christian",
-        "website": "https://www.fccpeoria.org/",
-        "@id": "node/354269527",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -89.6112353,
           40.7562448
         ]
@@ -24304,12 +24276,14 @@
         "addr:place": "Baxter's Place",
         "addr:postcode": "EH1 3AF",
         "amenity": "bar",
-        "check_date": "2026-09-08",
+        "check_date": "2026-11-16",
+        "check_date:opening_hours": "2026-11-16",
         "fhrs:id": "85047",
         "indoor_seating": "yes",
         "lgbtq": "primary",
         "min_age": "18",
         "name": "Planet",
+        "opening_hours:signed": "no",
         "outdoor_seating": "no",
         "source": "survey",
         "website": "https://planetbaredinburgh.co.uk/planet/",
@@ -29301,15 +29275,18 @@
         "addr:postcode": "00120",
         "addr:street": "Uudenmaankatu",
         "amenity": "bar",
+        "capacity:seats": "60",
         "contact:email": "streetpridebar69@gmail.com",
         "contact:phone": "+358413132010",
         "indoor_seating": "yes",
+        "karaoke": "yes",
         "lgbtq": "primary",
         "name": "Street Pride Bar",
+        "opening_hours": "Mo-Su 14:00-05:00",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
-        "website": "https://www.streetpride.fi/",
+        "website": "https://www.streetpridebar.com/",
         "@id": "node/4123221289",
         "@type": "node"
       }
@@ -34240,6 +34217,31 @@
         "recycling:green_waste": "yes",
         "website": "https://www.habitat-baumpflege.de/",
         "@id": "node/4906229541",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9903061,
+          40.7612958
+        ]
+      },
+      "properties": {
+        "addr:city": "New York",
+        "addr:housenumber": "674",
+        "addr:postcode": "10019",
+        "addr:state": "NY",
+        "addr:street": "9th Avenue",
+        "amenity": "bar",
+        "disused:shop": "dry_cleaning",
+        "lgbtq": "primary",
+        "min_age": "21",
+        "name": "Balcon Salon",
+        "website": "https://balcon.salon",
+        "@id": "node/4922311229",
         "@type": "node"
       }
     },
@@ -44650,6 +44652,7 @@
         "addr:postcode": "00510",
         "addr:street": "Helsinginkatu",
         "amenity": "bar",
+        "capacity": "250",
         "lgbtq": "welcome",
         "name": "Limbo",
         "opening_hours": "We-Th 18:00-02:00; Fr-Sa 16:00-03:00; Su 18:00-02:00",
@@ -54664,6 +54667,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.919173,
+          49.2136335
+        ]
+      },
+      "properties": {
+        "addr:city": "New Westminster",
+        "addr:housenumber": "500",
+        "addr:postcode": "V3L 1V3",
+        "addr:province": "BC",
+        "addr:street": "Sixth Avenue",
+        "addr:unit": "100",
+        "amenity": "ice_cream",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Rocky Point Ice Cream",
+        "opening_hours": "Mo-Su,PH 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-778-731-1001",
+        "smoking": "no",
+        "website": "https://rockypointicecream.com",
+        "@id": "node/9173772694",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3529542,
           48.2073825
         ]
@@ -61978,59 +62011,6 @@
         "lgbtq": "primary",
         "name": "G-Bar",
         "@id": "node/10099253843",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          41.6287435,
-          41.6443999
-        ]
-      },
-      "properties": {
-        "addr:city": "ბათუმი",
-        "addr:housenumber": "116-118",
-        "addr:postcode": "6000",
-        "addr:street": "ვახტანგ გორგასალის ქუჩა",
-        "alcohol": "yes",
-        "amenity": "restaurant",
-        "breakfast": "no",
-        "contact:mobile": "+995 557 63 50 04",
-        "cuisine": "pizza",
-        "delivery": "yes",
-        "diet:halal": "yes",
-        "diet:vegetarian": "yes",
-        "dinner": "yes",
-        "dog": "yes",
-        "drink:beer": "yes",
-        "drink:wine": "yes",
-        "indoor_seating": "yes",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "internet_access:ssid": "Red Hot Pizza Free Wi-Fi",
-        "lgbtq": "welcome",
-        "lunch": "yes",
-        "name": "რედ ჰოთ პიცა",
-        "name:en": "Red Hot Pizza",
-        "name:ka": "რედ ჰოთ პიცა",
-        "name:ru": "Рэд Хот Пицца",
-        "opening_hours": "Mo-Su 13:00-23:00",
-        "outdoor_seating": "yes",
-        "parking:fee": "no",
-        "payment:contactless": "yes",
-        "payment:maestro": "yes",
-        "payment:mastercard": "yes",
-        "payment:visa": "yes",
-        "reservation": "yes",
-        "start_date": "2022-05",
-        "takeaway": "yes",
-        "toilets": "yes",
-        "tourism": "yes",
-        "website:menu": "https://taplink.cc/redhotpizza",
-        "@id": "node/10101804671",
         "@type": "node"
       }
     },
@@ -94601,6 +94581,221 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2863449,
+          46.7703234
+        ]
+      },
+      "properties": {
+        "addr:city": "Québec",
+        "addr:door": "23",
+        "addr:housename": "Édifice Champlain",
+        "addr:housenumber": "1155",
+        "addr:postcode": "G1V 4K5",
+        "addr:province": "QC",
+        "addr:street": "Avenue de Germain-des-Prés",
+        "addr:unit": "1000",
+        "brand:website": "https://rmrsyndics.com/",
+        "description": "Syndic autorisé en insolvabilité. Particuliers : proposition de consommateur, faillite, consolidation de dettes, succession insolvable. Entreprises : avis d'intention, proposition aux créanciers, faillite, restructuration, liquidation d'inventaire.",
+        "lgbtq": "welcome",
+        "name": "Roy Métivier Roberge",
+        "office": "financial_advisor",
+        "opening_hours": "Mo-We 08:00-20:00; Th,Fr 08:00-16:30",
+        "phone": "+1 418 651 5500",
+        "reservation": "required",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://rmrsyndics.com/bureaux/syndic-quebec/",
+        "wheelchair": "yes",
+        "@id": "node/14384459234",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5389293,
+          46.3413544
+        ]
+      },
+      "properties": {
+        "addr:city": "Trois-Rivières",
+        "addr:housename": "Édifice Le Bourg du Fleuve",
+        "addr:housenumber": "25",
+        "addr:postcode": "G9A 6A7",
+        "addr:province": "QC",
+        "addr:street": "Rue des Forges",
+        "addr:unit": "316",
+        "brand:website": "https://rmrsyndics.com/",
+        "description": "Syndic autorisé en insolvabilité. Particuliers : proposition de consommateur, faillite, consolidation de dettes, succession insolvable. Entreprises : avis d'intention, proposition aux créanciers, faillite, restructuration, liquidation d'inventaire.",
+        "lgbtq": "welcome",
+        "name": "Roy Métivier Roberge",
+        "office": "financial_advisor",
+        "opening_hours": "Mo-We 08:00-20:00; Th,Fr 08:00-16:30",
+        "phone": "+1 819 379 3585",
+        "reservation": "required",
+        "website": "https://rmrsyndics.com/bureaux/syndic-trois-rivieres/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Stationnement accessible en fauteuil roulant",
+        "@id": "node/14384564659",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5073065,
+          45.7245002
+        ]
+      },
+      "properties": {
+        "addr:city": "Terrebonne",
+        "addr:housenumber": "1000",
+        "addr:postcode": "J6V 1S8",
+        "addr:province": "QC",
+        "addr:street": "Montée des Pionniers",
+        "addr:unit": "200",
+        "brand:website": "https://rmrsyndics.com/",
+        "description": "Syndic autorisé en insolvabilité. Particuliers : proposition de consommateur, faillite, consolidation de dettes, succession insolvable. Entreprises : avis d'intention, proposition aux créanciers, faillite, restructuration, liquidation d'inventaire.",
+        "lgbtq": "welcome",
+        "name": "Roy Métivier Roberge",
+        "office": "financial_advisor",
+        "opening_hours": "Mo-We 08:00-20:00; Th,Fr 08:00-16:30",
+        "phone": "+1 450 704 8002",
+        "reservation": "required",
+        "toilets:wheelchair": "yes",
+        "website": "https://rmrsyndics.com/bureaux/syndic-terrebonne/",
+        "wheelchair:description": "Stationnement accessible en fauteuil roulant",
+        "@id": "node/14384646470",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9564191,
+          46.0568999
+        ]
+      },
+      "properties": {
+        "addr:city": "Victoriaville",
+        "addr:housenumber": "103",
+        "addr:postcode": "G6P 9P6",
+        "addr:province": "QC",
+        "addr:street": "Rue de Bigarré",
+        "brand:website": "https://rmrsyndics.com/",
+        "description": "Syndic autorisé en insolvabilité. Particuliers : proposition de consommateur, faillite, consolidation de dettes, succession insolvable. Entreprises : avis d'intention, proposition aux créanciers, faillite, restructuration, liquidation d'inventaire.",
+        "lgbtq": "welcome",
+        "name": "Roy Métivier Roberge",
+        "office": "financial_advisor",
+        "opening_hours": "Mo-We 08:00-20:00; Th,Fr 08:00-16:30",
+        "phone": "+1 819 758 0696",
+        "reservation": "required",
+        "website": "https://rmrsyndics.com/bureaux/syndic-victoriaville/",
+        "wheelchair:description": "Stationnement accessible en fauteuil roulant",
+        "@id": "node/14385020901",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9486577,
+          45.6236991
+        ]
+      },
+      "properties": {
+        "addr:city": "Saint-Hyacinthe",
+        "addr:housenumber": "695",
+        "addr:postcode": "J2S 5K3",
+        "addr:province": "QC",
+        "addr:street": "Avenue Saint-Joseph",
+        "brand:website": "https://rmrsyndics.com/",
+        "description": "Syndic autorisé en insolvabilité. Particuliers : proposition de consommateur, faillite, consolidation de dettes, succession insolvable. Entreprises : avis d'intention, proposition aux créanciers, faillite, restructuration, liquidation d'inventaire.",
+        "lgbtq": "welcome",
+        "name": "Roy Métivier Roberge",
+        "office": "financial_advisor",
+        "opening_hours": "Mo-We 08:00-20:00; Th,Fr 08:00-16:30",
+        "phone": "+1 450 250 8896",
+        "reservation": "required",
+        "website": "https://rmrsyndics.com/bureaux/syndic-saint-hyacinthe/",
+        "wheelchair:description": "Stationnement accessible en fauteuil roulant",
+        "@id": "node/14385021841",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.727067,
+          45.3979935
+        ]
+      },
+      "properties": {
+        "addr:city": "Granby",
+        "addr:housename": "Le Rayonnant",
+        "addr:housenumber": "163",
+        "addr:postcode": "J2G 9A7",
+        "addr:province": "QC",
+        "addr:street": "Rue Saint-Jacques",
+        "brand:website": "https://rmrsyndics.com/",
+        "description": "Syndic autorisé en insolvabilité. Particuliers : proposition de consommateur, faillite, consolidation de dettes, succession insolvable. Entreprises : avis d'intention, proposition aux créanciers, faillite, restructuration, liquidation d'inventaire.",
+        "lgbtq": "welcome",
+        "name": "Roy Métivier Roberge",
+        "office": "financial_advisor",
+        "opening_hours": "Mo-We 08:00-20:00; Th,Fr 08:00-16:30",
+        "phone": "+1 844 651 5500",
+        "reservation": "required",
+        "website": "https://rmrsyndics.com/bureaux/syndic-granby/",
+        "wheelchair:description": "Stationnement accessible en fauteuil roulant",
+        "@id": "node/14385025788",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9688048,
+          32.8587469
+        ]
+      },
+      "properties": {
+        "addr:city": "North Charleston",
+        "addr:housenumber": "1813",
+        "addr:postcode": "29405",
+        "addr:state": "SC",
+        "addr:street": "Reynolds Avenue",
+        "addr:unit": "C",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "microbrewery": "no",
+        "min_age": "21",
+        "name": "Bar Polari",
+        "opening_hours": "Mo-Th 16:00-00:00; Fr-Sa 16:00-0200; Su 13:00-22:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.barpolari.com/",
+        "@id": "node/14385185045",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -97709,6 +97904,143 @@
         "coordinates": [
           [
             [
+              -89.6102712,
+              40.7652344
+            ],
+            [
+              -89.6105029,
+              40.7652855
+            ],
+            [
+              -89.6105194,
+              40.7652391
+            ],
+            [
+              -89.610741,
+              40.7652875
+            ],
+            [
+              -89.6107479,
+              40.7652733
+            ],
+            [
+              -89.6109149,
+              40.7653103
+            ],
+            [
+              -89.6109081,
+              40.7653268
+            ],
+            [
+              -89.6109424,
+              40.7653348
+            ],
+            [
+              -89.6109784,
+              40.7654585
+            ],
+            [
+              -89.6108512,
+              40.7655478
+            ],
+            [
+              -89.6108296,
+              40.7655364
+            ],
+            [
+              -89.6108152,
+              40.7655471
+            ],
+            [
+              -89.6107192,
+              40.765471
+            ],
+            [
+              -89.6106938,
+              40.7654773
+            ],
+            [
+              -89.6107011,
+              40.7654947
+            ],
+            [
+              -89.6106543,
+              40.7655035
+            ],
+            [
+              -89.6106447,
+              40.7654715
+            ],
+            [
+              -89.610629,
+              40.765474
+            ],
+            [
+              -89.6105681,
+              40.7656279
+            ],
+            [
+              -89.6104091,
+              40.7655921
+            ],
+            [
+              -89.6104653,
+              40.7654728
+            ],
+            [
+              -89.6103371,
+              40.765445
+            ],
+            [
+              -89.6103344,
+              40.7654519
+            ],
+            [
+              -89.6103087,
+              40.7654462
+            ],
+            [
+              -89.6102976,
+              40.7654719
+            ],
+            [
+              -89.6101891,
+              40.7654474
+            ],
+            [
+              -89.6102712,
+              40.7652344
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "6400",
+        "addr:postcode": "61614",
+        "addr:state": "IL",
+        "addr:street": "North University Street",
+        "amenity": "place_of_worship",
+        "building": "commercial",
+        "ele": "238",
+        "email": "info@fccpeoria.org",
+        "gnis:feature_id": "1839970",
+        "lgbtq": "welcome",
+        "name": "First Christian Church",
+        "phone": "+1-309-692-1420",
+        "religion": "christian",
+        "website": "https://www.fccpeoria.org/",
+        "@id": "way/64121467",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -89.5746989,
               40.7455108
             ],
@@ -99873,7 +100205,7 @@
         "roof:shape": "gabled",
         "source:lgbtq": "https://www.rainbow-aachen.de/diva/auslagestellen/",
         "website": "https://www.domkeller.de/",
-        "wheelchair": "no",
+        "wheelchair": "limited",
         "wikidata": "Q1238483",
         "wikimedia_commons": "Category:Domkeller",
         "wikipedia": "de:Domkeller (Aachen)",
@@ -110005,6 +110337,66 @@
         "website": "https://skagitfoodcoop.com",
         "wheelchair": "yes",
         "@id": "way/209490324",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.6385741,
+              35.7781533
+            ],
+            [
+              -78.6385806,
+              35.7780237
+            ],
+            [
+              -78.638585,
+              35.7779364
+            ],
+            [
+              -78.6386707,
+              35.7779392
+            ],
+            [
+              -78.6386646,
+              35.7780586
+            ],
+            [
+              -78.638704,
+              35.7780599
+            ],
+            [
+              -78.638699,
+              35.7781575
+            ],
+            [
+              -78.6385741,
+              35.7781533
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "14",
+        "addr:postcode": "27601",
+        "addr:state": "NC",
+        "addr:street": "East Hargett Street",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "2",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "The Raleigh Times Bar",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-24:00",
+        "website": "https://www.raleightimesbar.com/",
+        "@id": "way/209632662",
         "@type": "way"
       }
     },
@@ -147213,57 +147605,6 @@
         "lgbtq": "welcome",
         "name": "The Handsome Cab",
         "@id": "way/1306711943",
-        "@type": "way"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -79.9688445,
-              32.8588294
-            ],
-            [
-              -79.9688988,
-              32.8587944
-            ],
-            [
-              -79.9689631,
-              32.858753
-            ],
-            [
-              -79.9688892,
-              32.8586806
-            ],
-            [
-              -79.9687721,
-              32.858753
-            ],
-            [
-              -79.9688445,
-              32.8588294
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "addr:city": "North Charleston",
-        "addr:housenumber": "1813",
-        "addr:postcode": "29405",
-        "addr:state": "SC",
-        "addr:street": "Reynolds Avenue",
-        "addr:unit": "C",
-        "air_conditioning": "yes",
-        "amenity": "bar",
-        "building": "yes",
-        "lgbtq": "primary",
-        "min_age": "21",
-        "name": "Bar Polari",
-        "opening_hours": "Mo-Sa 16:00-00:00; Su 13:00-22:00",
-        "@id": "way/1307744003",
         "@type": "way"
       }
     },
