@@ -3426,19 +3426,24 @@
         ]
       },
       "properties": {
-        "amenity": "pub",
+        "amenity": "bar",
         "brewery": "Ratsherrn",
-        "check_date": "2026-05-08",
+        "check_date": "2026-11-19",
         "check_date:opening_hours": "2025-11-17",
         "indoor_seating": "yes",
         "lgbtq": "primary",
+        "lgbtq:signed:outside": "small_progress_pride_flag",
         "name": "KytiVoo",
         "opening_hours": "Mo-Th 17:30-01:00, Fr,Sa 17:00-18:00+",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
+        "toilets": "yes",
+        "toilets:gender_segregated": "no",
+        "toilets:unisex": "yes",
         "toilets:wheelchair": "no",
         "website": "https://www.kytivoo.com",
+        "website:menu": "https://menu.orderbird.com/restaurant-page",
         "wheelchair": "limited",
         "@id": "node/443236859",
         "@type": "node"
@@ -16156,8 +16161,9 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Dingfelder’s Delicatessen",
-        "opening_hours": "Mo-Th,Su 07:00-19:00; Fr 07:00-21:00",
+        "opening_hours": "Mo-Th,Su 07:00-19:00; Fr,Sa 07:00-21:00",
         "outdoor_seating": "no",
+        "phone": "+1-206-403-1365",
         "website": "https://dingfelders.com/",
         "wikidata": "Q114596209",
         "@id": "node/2158750305",
@@ -35664,6 +35670,7 @@
         "lgbtq:signed": "yes",
         "name": "RCF Barbell Club",
         "opening_hours": "24/7",
+        "website": "https://www.rcfbarbellclub.com/",
         "@id": "node/5199218716",
         "@type": "node"
       }
@@ -54936,6 +54943,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -76.6301893,
+          39.3313464
+        ]
+      },
+      "properties": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "820",
+        "addr:postcode": "21211",
+        "addr:state": "MD",
+        "addr:street": "West 36th Street",
+        "check_date": "2026-11-19",
+        "check_date:opening_hours": "2023-04-17",
+        "contact:instagram": "https://www.instagram.com/havefunbeluckytattoo",
+        "email": "havefunbelucky@gmail.com",
+        "lgbtq": "welcome",
+        "name": "Have Fun Be Lucky",
+        "opening_hours:signed": "no",
+        "phone": "+1 410-235-5930",
+        "shop": "tattoo",
+        "website": "https://www.havefunbeluckytattoo.com/",
+        "@id": "node/9207613424",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -76.6168123,
           39.3130287
         ]
@@ -55150,16 +55186,31 @@
         ]
       },
       "properties": {
-        "check_date": "2025-03-23",
-        "check_date:opening_hours": "2023-04-17",
+        "addr:city": "Baltimore",
+        "addr:housenumber": "826",
+        "addr:postcode": "21211",
+        "addr:state": "MD",
+        "addr:street": "West 36th Street",
+        "check_date": "2026-11-19",
+        "check_date:opening_hours": "202-11-19",
+        "contact:facebook": "https://www.facebook.com/twobitsbarbershop2020",
+        "contact:instagram": "https://www.instagram.com/twobitsbarbershop",
+        "email": "twobitsbarbershop@gmail.com",
         "female": "yes",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "male": "yes",
         "name": "Two Bits Barber Shop",
-        "opening_hours:signed": "no",
+        "opening_hours": "Mo 10:00-18:00; Tu-Fr 09:00-18:00; Sa 09:00-16:00; Su off",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+1 443-449-6705",
         "shop": "hairdresser",
         "source:lgbtq": "Window sign stating \"We welcome [...] all sexual orientations\"",
+        "website": "https://www.twobitsbarbershopbaltimore.com/",
+        "wheelchair": "no",
         "@id": "node/9233729698",
         "@type": "node"
       }
@@ -84706,6 +84757,7 @@
         ]
       },
       "properties": {
+        "access": "customers",
         "addr:housenumber": "32",
         "addr:street": "Mehringdamm",
         "check_date": "2026-01-22",
@@ -94563,8 +94615,10 @@
       "properties": {
         "access": "customers",
         "addr:city": "臺中市",
+        "addr:country": "TW",
         "addr:district": "中區",
         "addr:floor": "-1",
+        "addr:full": "400臺中市中區光復路151號-1樓",
         "addr:housenumber": "151",
         "addr:postcode": "400",
         "addr:street": "光復路",
@@ -94824,7 +94878,7 @@
         "microbrewery": "no",
         "min_age": "21",
         "name": "Bar Polari",
-        "opening_hours": "Mo-Th 16:00-00:00; Fr-Sa 16:00-0200; Su 13:00-22:00",
+        "opening_hours": "Mo-Th 16:00-00:00; Fr-Sa 16:00-02:00; Su 13:00-22:00",
         "outdoor_seating": "yes",
         "website": "https://www.barpolari.com/",
         "@id": "node/14385185045",
@@ -141966,6 +142020,8 @@
         "building": "retail",
         "lgbtq": "primary",
         "name": "Diesel",
+        "opening_hours": "Mo-Fr 15:00-02:00; Sa,Su 12:00-02:00",
+        "phone": "+1-206-322-1080",
         "wikidata": "Q111170064",
         "@id": "way/1091715660",
         "@type": "way"
