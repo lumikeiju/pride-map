@@ -4472,15 +4472,18 @@
       "properties": {
         "addr:city": "Berlin",
         "addr:country": "DE",
+        "addr:floor": "0",
         "addr:housenumber": "1",
         "addr:postcode": "10178",
         "addr:street": "Rathausstraße",
         "addr:suburb": "Mitte",
         "amenity": "pub",
+        "check_date": "2026-11-20",
         "contact:email": "besenkammer-bar@gmx.de",
         "contact:facebook": "https://www.facebook.com/pages/Besenkammer-Bar/150442284993771",
         "indoor_seating": "yes",
         "layer": "-1",
+        "level": "0",
         "lgbtq": "primary",
         "lgbtq:men": "primary",
         "name": "Besenkammer",
@@ -4488,6 +4491,7 @@
         "outdoor_seating": "yes",
         "phone": "+49 30 2424083",
         "smoking": "yes",
+        "toilets": "yes",
         "wheelchair": "no",
         "@id": "node/567168302",
         "@type": "node"
@@ -5905,7 +5909,7 @@
         "lgbtq": "primary",
         "name": "L'Happy Café",
         "opening_hours": "We-Su 18:00-02:00",
-        "ref:FR:SIRET": "45304047900017",
+        "ref:FR:SIRET": "10039329700013",
         "@id": "node/739825562",
         "@type": "node"
       }
@@ -11621,12 +11625,14 @@
         "addr:postcode": "13006",
         "addr:street": "Cours Julien",
         "amenity": "restaurant",
+        "check_date": "2026-11-20",
+        "check_date:opening_hours": "2026-11-20",
         "cuisine": "egyptian",
         "diet:vegan": "yes",
         "diet:vegetarian": "yes",
         "lgbtq": "welcome",
         "name": "Tabla",
-        "opening_hours": "Tu-Su 12:30-15:00; Tu 18:30-22:00; We 18:30-21:00; Th-Sa 18:30-22:00",
+        "opening_hours": "Su 12:00-15:00; Tu-Sa 12:00-15:00, 19:00-22:00",
         "phone": "+33665183606",
         "ref:FR:SIRET": "98069019200011",
         "takeaway": "yes",
@@ -14304,7 +14310,7 @@
         "addr:street": "Railroad Avenue",
         "amenity": "cafe",
         "changing_table": "yes",
-        "check_date": "2026-10-14",
+        "check_date": "2026-11-20",
         "cuisine": "coffee_shop",
         "diet:non-vegetarian": "yes",
         "diet:vegan": "yes",
@@ -14315,7 +14321,7 @@
         "level": "0",
         "lgbtq": "welcome",
         "name": "Cafe Hazeltree",
-        "opening_hours": "We-Sa 14:00-00:00; Su 14:00-24:00",
+        "opening_hours": "14:00-24:00",
         "payment:cash": "yes",
         "payment:cash:USD": "yes",
         "payment:contactless": "yes",
@@ -18769,6 +18775,7 @@
         "name": "The Buttered Tin",
         "opening_hours": "Mo-Su 07:00-15:00",
         "outdoor_seating": "yes",
+        "phone": "+1-651-224-2300",
         "shop": "bakery",
         "website": "https://www.thebutteredtin.com/",
         "@id": "node/2458087334",
@@ -56972,7 +56979,7 @@
         "internet_access": "wlan",
         "lgbtq": "welcome",
         "name": "Pizza Karma",
-        "opening_hours": "Su 11:30-21:00; Mo-Th 15:30-21:00; Fr-Sa 11:30-21:00",
+        "opening_hours": "Mo-Th 15:00-21:00; Fr-Su 11:30-21:00",
         "phone": "+1-952-800-4540",
         "takeaway": "yes",
         "toilets": "yes",
@@ -71098,33 +71105,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.8596289,
-          36.8058782
-        ]
-      },
-      "properties": {
-        "addr:city": "Fresno",
-        "addr:housenumber": "3657",
-        "addr:postcode": "93711",
-        "addr:state": "CA",
-        "addr:street": "West Shaw Avenue",
-        "brand": "Foods Co",
-        "brand:wikidata": "Q5465282",
-        "lgbtq": "welcome",
-        "name": "Foods Co",
-        "opening_hours": "Mo-Su 06:00-24:00",
-        "phone": "+1-559-274-1130",
-        "shop": "supermarket",
-        "website": "https://www.foodsco.net/stores/grocery/ca/fresno/the-shaw-marketplace/704/00784?cid=loc_70400784_gmb",
-        "@id": "node/11843070050",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.5418238,
           47.0041795
         ]
@@ -84716,25 +84696,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6315346,
-          50.0048608
-        ]
-      },
-      "properties": {
-        "amenity": "community_centre",
-        "community_centre:for": "lgbtq",
-        "lgbtq": "primary",
-        "name": "MaWa Banny",
-        "website": "https://t.me/MaWaBanny",
-        "@id": "node/13294969301",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.0879129,
           37.5161887
         ]
@@ -89235,6 +89196,55 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.34436,
+          48.1907663
+        ]
+      },
+      "properties": {
+        "addr:door": "2G",
+        "addr:floor": "0",
+        "addr:housenumber": "116",
+        "addr:street": "Gumpendorfer Straße",
+        "amenity": "cafe",
+        "changing_table": "no",
+        "check_date": "2026-11-20",
+        "cuisine": "coffee_shop;pastry;ice_cream;cake",
+        "description": "vegane Schaumrollen",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "info@gumperia.at",
+        "highchair": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "kids_area": "no",
+        "level": "0",
+        "lgbtq:signed": "yes",
+        "name": "Gumperia",
+        "opening_hours": "Mo-Fr 12:00-17:00; Sa-Su 13:00-17:00",
+        "outdoor_seating": "sidewalk",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:vatin": "ATU79601539",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "website": "https://gumperia.at/",
+        "wheelchair": "no",
+        "@id": "node/13902465716",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -16.5208099,
           28.3921333
         ]
@@ -92640,13 +92650,13 @@
         "addr:postcode": "98225",
         "addr:state": "WA",
         "addr:street": "Railroad Avenue",
-        "check_date": "2026-10-14",
+        "check_date": "2026-11-20",
         "internet_access": "wlan",
         "internet_access:fee": "customers",
         "level": "0",
         "lgbtq": "welcome",
         "name": "Emmaquatics",
-        "opening_hours": "Tu,Th-Fr 14:30-21:00",
+        "opening_hours": "Th,Sa 14:00-21:00",
         "payment:cash": "yes",
         "payment:cash:USD": "yes",
         "payment:contactless": "yes",
@@ -92859,6 +92869,26 @@
         "website": "https://queerconcordia.ca/",
         "wheelchair": "no",
         "@id": "node/14269344282",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9662606,
+          -37.8175997
+        ]
+      },
+      "properties": {
+        "healthcare": "yes",
+        "lgbtq": "welcome",
+        "name": "Flinders Street Health",
+        "opening_hours": "Mo-Fr 09:30-17:30",
+        "operator": "cohealth",
+        "phone:AU": "1800 495 434",
+        "@id": "node/14278499643",
         "@type": "node"
       }
     },
@@ -94197,7 +94227,10 @@
         "addr:province": "AB",
         "addr:street": "104 Street NW",
         "addr:unit": "5",
+        "appointment": "only",
+        "contact:instagram": "https://www.instagram.com/gentle.outlaws.yeg",
         "diet:vegan": "only",
+        "email": "gentle.outlaws@gmail.com",
         "female": "yes",
         "lgbtq": "welcome",
         "male": "yes",
@@ -94207,6 +94240,8 @@
         "reservation": "required",
         "shop": "hairdresser",
         "walk-in": "no",
+        "website": "https://book.squareup.com/appointments/1rqt796ejmcuyq/location/LPY0TV8C27P66/services",
+        "website:booking": "https://book.squareup.com/appointments/1rqt796ejmcuyq/location/LPY0TV8C27P66/services",
         "wheelchair": "yes",
         "@id": "node/14331779213",
         "@type": "node"
@@ -94882,6 +94917,28 @@
         "outdoor_seating": "yes",
         "website": "https://www.barpolari.com/",
         "@id": "node/14385185045",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4131105,
+          52.5203588
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "114",
+        "addr:place": "Stadtbahnbogen",
+        "amenity": "nightclub",
+        "check_date": "2026-11-20",
+        "lgbtq": "welcome",
+        "min_age": "21",
+        "name": "Das Amt",
+        "website": "https://www.club-amt.berlin/?",
+        "@id": "node/14399436830",
         "@type": "node"
       }
     },
@@ -96067,12 +96124,12 @@
         "coordinates": [
           [
             [
-              12.1148731,
-              54.0787019
+              12.1148729,
+              54.0787022
             ],
             [
-              12.1147849,
-              54.078693
+              12.1147762,
+              54.078692
             ],
             [
               12.1146722,
@@ -96091,7 +96148,7 @@
               54.0789422
             ],
             [
-              12.1144583,
+              12.1144595,
               54.0789532
             ],
             [
@@ -96139,8 +96196,8 @@
               54.0787189
             ],
             [
-              12.1148731,
-              54.0787019
+              12.1148729,
+              54.0787022
             ]
           ]
         ]
@@ -96157,11 +96214,11 @@
         "building:colour": "#EDE861",
         "building:levels": "1",
         "drink:club-mate": "yes",
+        "end_date": "2026-12-31",
         "height": "5.5 m",
         "kvl_hro:type": "1374",
         "lgbtq": "welcome",
         "name": "Zwischenbau",
-        "old_name": "Interclub",
         "opening_hours": "\"geöffnet bei Veranstaltungen\"",
         "roof:colour": "grey",
         "roof:height": "0.5",
@@ -116727,6 +116784,96 @@
         "shop": "erotic",
         "website": "https://basementnz.com/",
         "@id": "way/293020911",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.6936742,
+              52.4106503
+            ],
+            [
+              9.6933096,
+              52.4103035
+            ],
+            [
+              9.6933678,
+              52.4102807
+            ],
+            [
+              9.6935954,
+              52.4102556
+            ],
+            [
+              9.6939948,
+              52.4102097
+            ],
+            [
+              9.6942842,
+              52.4101765
+            ],
+            [
+              9.6943701,
+              52.4104322
+            ],
+            [
+              9.6944315,
+              52.4104254
+            ],
+            [
+              9.6944726,
+              52.4105577
+            ],
+            [
+              9.6944087,
+              52.4105629
+            ],
+            [
+              9.6944104,
+              52.4105679
+            ],
+            [
+              9.6944065,
+              52.4105683
+            ],
+            [
+              9.6936742,
+              52.4106503
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Hannover",
+        "addr:housenumber": "12",
+        "addr:postcode": "30419",
+        "addr:street": "Am Fuhrenkampe",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "building": "retail",
+        "building:levels": "1",
+        "drink:club-mate": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed:outside": "large_pride_flag",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 511 2281067",
+        "roof:levels": "0",
+        "roof:shape": "many",
+        "self_checkout": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@id": "way/294665231",
         "@type": "way"
       }
     },
