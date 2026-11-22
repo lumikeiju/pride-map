@@ -4801,7 +4801,7 @@
         "addr:housenumber": "8",
         "addr:postcode": "1090",
         "addr:street": "Berggasse",
-        "check_date:opening_hours": "2025-08-29",
+        "check_date:opening_hours": "2026-11-21",
         "lgbtq": "primary",
         "name": "Löwenherz",
         "opening_hours": "Mo-Th 10:00-19:00; Fr 10:00-20:00; Sa 10:00-18:00",
@@ -12443,7 +12443,7 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Plenty of Clouds",
-        "opening_hours": "Mo-Su 17:00-21:00",
+        "opening_hours": "Mo-We,Fr-Su 17:00-21:00",
         "outdoor_seating": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
@@ -12468,6 +12468,7 @@
         "addr:city": "Seattle",
         "addr:housenumber": "1535",
         "addr:postcode": "98122",
+        "addr:state": "WA",
         "addr:street": "14th Avenue",
         "amenity": "bar",
         "check_date": "2024-11-20",
@@ -12475,7 +12476,8 @@
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "name": "Artusi",
-        "opening_hours": "Su-Th 17:00-23:00; Fr-Sa 17:00-01:00",
+        "opening_hours": "Mo-Th,Su 17:00-22:00; Fr,Sa 17:00-23:00",
+        "phone": "+1-206-251-7673",
         "website": "https://artusibar.com/",
         "wheelchair": "yes",
         "wikidata": "Q124059626",
@@ -19597,7 +19599,7 @@
         "contact:facebook": "https://www.facebook.com/woofs.madison",
         "contact:phone": "+1-608-204-6222",
         "contact:twitter": "https://twitter.com/woofsmadison",
-        "contact:website": "http://madwoofs.com/",
+        "contact:website": "https://madwoofs.com/",
         "fetish:bear": "yes",
         "indoor_seating": "yes",
         "lgbtq": "primary",
@@ -32375,7 +32377,7 @@
         "air_conditioning": "no",
         "amenity": "bar",
         "brewery": "Waldhaus",
-        "check_date": "2025-11-20",
+        "check_date": "2026-11-22",
         "entrance": "main",
         "indoor_seating": "yes",
         "internet_access": "no",
@@ -38574,7 +38576,7 @@
         "addr:unit": "K",
         "amenity": "clinic",
         "brand": "Healthfirst",
-        "brand:website": "http://www.healthfirstnetwork.org/",
+        "brand:website": "https://www.healthfirstnetwork.org/",
         "check_date:opening_hours": "2022-08-15",
         "healthcare": "clinic",
         "healthcare:counselling": "nutrition;sexual",
@@ -56878,7 +56880,8 @@
         "addr:street": "Kottbusser Damm",
         "addr:suburb": "Neukölln",
         "books": "feminist;queer",
-        "check_date": "2025-10-18",
+        "check_date": "2026-11-21",
+        "check_date:opening_hours": "2026-11-21",
         "contact:email": "hallo@shesaid.de",
         "contact:phone": "+49 30 27999955",
         "contact:website": "https://www.shesaid.de/",
@@ -62096,9 +62099,11 @@
       },
       "properties": {
         "amenity": "bar",
-        "check_date": "2026-01-01",
+        "check_date": "2026-11-21",
+        "check_date:opening_hours": "2026-11-21",
         "lgbtq": "primary",
         "name": "G-Bar",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 10:00-20:00",
         "@id": "node/10099253843",
         "@type": "node"
       }
@@ -69474,7 +69479,7 @@
         "amenity": "bar",
         "lgbtq": "primary",
         "name": "POP",
-        "website": "https://popwalkerspoint.com/",
+        "website": "https://www.popwalkerspoint.com/",
         "@id": "node/11538205223",
         "@type": "node"
       }
@@ -80093,9 +80098,11 @@
         "contact:website": "http://westwooddanang.com/",
         "currency:XBT": "yes",
         "email": "westwooddanang@gmail.com",
+        "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Westwood Da Nang",
         "opening_hours": "Tu-Su 18:00-22:00",
+        "outdoor_seating": "yes",
         "payment:lightning": "yes",
         "payment:lightning_contactless": "no",
         "payment:onchain": "yes",
@@ -132416,7 +132423,7 @@
         "lgbtq": "welcome",
         "name": "Underwood Memorial Baptist Church",
         "religion": "christian",
-        "website": "https://www.underwoodchurch.org/about/directions",
+        "website": "https://www.underwoodchurch.org/",
         "@id": "way/662439291",
         "@type": "way"
       }
@@ -132744,7 +132751,6 @@
         "payment:american_express": "yes",
         "payment:mastercard": "yes",
         "payment:visa": "yes",
-        "website": "http://www.harbor-room.com",
         "@id": "way/663206838",
         "@type": "way"
       }
@@ -132806,7 +132812,6 @@
         "contact:email": "Woodys-mke@ameritech.net",
         "contact:myspace": "woodysmke",
         "contact:phone": "+1-414-672-0806",
-        "contact:website": "http://www.woodys-milwaukee.com",
         "lgbtq": "primary",
         "name": "Woody's",
         "opening_hours": "Mo-Th 16:00-02:00, Fr 16:00-02:30, Sa 14:00-02:30, Su 14:00-02:00",
@@ -135120,7 +135125,7 @@
         "religion": "christian",
         "service_times": "Su 08:30-09:00, 10:00-11:30",
         "toilets:wheelchair": "yes",
-        "website": "https://menomonieucc.org/",
+        "website": "https://www.menomonieucc.org/",
         "wheelchair": "limited",
         "@id": "way/722384670",
         "@type": "way"
@@ -145805,8 +145810,16 @@
               -23.5561363
             ],
             [
-              -46.660091,
-              -23.5562026
+              -46.6600584,
+              -23.5561028
+            ],
+            [
+              -46.6601845,
+              -23.5562185
+            ],
+            [
+              -46.6600832,
+              -23.5563102
             ],
             [
               -46.6600278,
