@@ -9509,6 +9509,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          9.6153065,
+          47.7808576
+        ]
+      },
+      "properties": {
+        "addr:city": "Ravensburg",
+        "addr:housenumber": "31",
+        "addr:postcode": "88212",
+        "addr:street": "Marktstraße",
+        "amenity": "pub",
+        "drink:club-mate": "no",
+        "entrance": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "no",
+        "name": "Musik Cafe Bar Balthes",
+        "opening_hours": "Mo-We 17:00-02:00, Su 17:00-01:00, Th 14:00-02:00, Fr 14:00-03:00, Sa 10:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 751 32665",
+        "smoking": "isolated",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited",
+        "@id": "node/1352667521",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           11.0767129,
           49.4406801
         ]
@@ -14384,9 +14415,9 @@
         "male": "yes",
         "name": "Kaiserbründl",
         "name:pl": "Cesarska sauna",
-        "opening_hours": "Su-Th 14:00-24:00; Fr,Sa 14:00-02:00",
-        "phone": "+43 1 5133293",
-        "website": "https://www.kaiserbruendl.at/",
+        "opening_hours": "Su-Fr 14:00-24:00; Sa 14:00-02:00",
+        "phone": "+43 1 4302216",
+        "website": "https://kaiserbruendl.at/",
         "wheelchair": "no",
         "wikidata": "Q190203",
         "wikipedia": "de:Zentralbad (Wien)",
@@ -22676,7 +22707,7 @@
         "toilets:paper_supplied": "yes",
         "toilets:position": "seated;urinal",
         "toilets:wash": "no",
-        "website": "https://www.hellskitcheninc.com/",
+        "website": "https://hellskitcheninc.com/",
         "website:menu": "https://hellskitcheninc.com/#menu-section",
         "@id": "node/2927711419",
         "@type": "node"
@@ -26542,6 +26573,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.1166058,
+          49.2840782
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "737",
+        "addr:province": "BC",
+        "addr:street": "Dunsmuir Street",
+        "brand": "Holt Renfrew",
+        "brand:wikidata": "Q3139527",
+        "check_date": "2026-03-11",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Holt Renfrew",
+        "opening_hours": "Mo-We 10:00-19:00; Th,Fr 10:00-21:00; Sa 10:00-20:00; Su 11:00-19:00",
+        "payment:american_express": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-604-681-3121",
+        "shop": "department_store",
+        "toilets": "yes",
+        "website": "https://www.holtrenfrew.com/",
+        "@id": "node/3728301263",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.4433784,
           47.0666647
         ]
@@ -30238,7 +30306,9 @@
         "opening_hours:signed": "no",
         "outdoor_seating": "yes",
         "phone": "+49 30 259 33 003",
+        "smoking": "outside",
         "website": "http://thisiscoco.de/",
+        "wheelchair": "no",
         "@id": "node/4304149095",
         "@type": "node"
       }
@@ -32008,6 +32078,7 @@
         "contact:website": "http://www.lef2.com/",
         "cuisine": "french",
         "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
         "name": "Le F2",
         "opening_hours": "Mo 07:30-24:00; Tu-Sa 00:00-00:30,07:30-24:00; Su 00:00-00:30",
         "outdoor_seating": "yes",
@@ -33960,29 +34031,28 @@
         ]
       },
       "properties": {
-        "addr:city": "Valence",
-        "addr:housenumber": "3",
-        "addr:postcode": "26000",
-        "addr:street": "Boulevard d'Alsace",
         "amenity": "fast_food",
         "brand": "Big Fernand",
         "brand:wikidata": "Q19521346",
         "check_date": "2025-08-12",
+        "contact:city": "Valence",
+        "contact:housenumber": "3",
         "contact:instagram": "https://www.instagram.com/bigfernand_valence/",
+        "contact:phone": "+33 4 26 52 77 82",
+        "contact:postcode": "26000",
+        "contact:street": "Boulevard d'Alsace",
         "contact:tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187272-d26833516-Reviews-Big_Fernand_Valence_(26)-Drome_Auvergne_Rh%C3%B4ne_Alpes.html",
+        "contact:website": "http://www.bigfernand.com",
         "cuisine": "burger",
         "delivery": "yes",
         "indoor_seating": "yes",
         "lgbtq": "welcome",
         "name": "Big Fernand",
         "outdoor_seating": "yes",
-        "phone": "+33 4 26 52 77 82",
         "ref:FR:NAF": "5610C",
         "ref:FR:SIREN": "952302933",
         "ref:FR:SIRET": "95230293300017",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "takeaway": "yes",
-        "website": "http://www.bigfernand.com",
         "website:menu": "https://bigfernand.com/menu-big-fernand/",
         "@id": "node/4863585740",
         "@type": "node"
@@ -36174,7 +36244,7 @@
         "phone": "+1 612 200 8350",
         "service:private_video_booth": "no",
         "shop": "erotic",
-        "website": "https://bondesque.com/",
+        "website": "https://www.bondesque.com/",
         "@id": "node/5292649239",
         "@type": "node"
       }
@@ -37961,7 +38031,7 @@
         "lgbtq:gay": "primary",
         "lgbtq:men": "primary",
         "name": "Römersauna - Gay Sauna",
-        "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-04:00",
+        "opening_hours": "Su-Th 11:00-24:00; Fr-Sa 11:00-04:00",
         "operator": "Adrian Gastro GmbH",
         "phone": "+43 1 8907898",
         "website": "https://roemersauna.at/",
@@ -65578,8 +65648,8 @@
         "addr:state": "MN",
         "addr:street": "Lyndale Avenue South",
         "air_conditioning": "yes",
-        "check_date": "2026-06-04",
-        "check_date:opening_hours": "2026-06-04",
+        "check_date": "2026-11-22",
+        "check_date:opening_hours": "2026-11-22",
         "email": "hello@smittenkittenonline.com",
         "fetish:bdsm:soft": "yes",
         "fetish:bdsm:specialized": "yes",
@@ -65594,7 +65664,7 @@
         "name": "Smitten Kitten",
         "nobrand": "yes",
         "non_binary": "welcome",
-        "opening_hours": "Tu-Fr 13:00-20:00; Sa 11:00-20:00; Su 11:00-17:00",
+        "opening_hours": "Tu-Fr 11:00-20:00; Su 11:00-17:00",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "payment:visa": "yes",
@@ -72848,7 +72918,7 @@
         "description": "Queer library has incredible collection. Community room attached.",
         "lgbtq": "primary",
         "name": "Quatrefoil Library",
-        "website": "https://www.qlibrary.org/",
+        "website": "https://qlibrary.org/",
         "@id": "node/12000063888",
         "@type": "node"
       }
@@ -95875,7 +95945,7 @@
         "amenity": "pub",
         "building": "yes",
         "building:levels": "1",
-        "contact:website": "http://www.ninaqueer.com",
+        "contact:website": "https://zumschmutzigenhobby.de/",
         "lgbtq": "primary",
         "name": "Zum schmutzigen Hobby",
         "wheelchair": "no",
@@ -106539,6 +106609,68 @@
         "source:lgbtq": "https://www.towsonuuc.org/what-we-do",
         "website": "https://www.towsonuuc.org/",
         "@id": "way/163018723",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.1023973,
+              49.2696656
+            ],
+            [
+              -123.1024098,
+              49.2693587
+            ],
+            [
+              -123.1021316,
+              49.2693539
+            ],
+            [
+              -123.1015334,
+              49.2693436
+            ],
+            [
+              -123.1015209,
+              49.2696504
+            ],
+            [
+              -123.1023973,
+              49.2696656
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "111",
+        "addr:postcode": "V5T 1B4",
+        "addr:street": "East 2nd Avenue",
+        "branch": "Vancouver",
+        "brand": "MEC Mountain Equipment Company",
+        "brand:wikidata": "Q104867916",
+        "building": "retail",
+        "building:levels": "4",
+        "clothes": "sports;swimwear",
+        "internet_access": "wlan",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "MEC Mountain Equipment Company",
+        "opening_hours": "Mo 10:00-19:00; Tu-Fr 09:00-21:00; Sa-Su 09:00-19:00",
+        "operator": "Mountain Equipment Co-operative",
+        "phone": "+1-604-872-7858",
+        "service:bicycle:clothing": "yes",
+        "service:bicycle:retail": "yes",
+        "shop": "outdoor",
+        "short_name": "MEC",
+        "stroller": "yes",
+        "website": "https://www.mec.ca/en/stores/vancouver",
+        "wheelchair": "yes",
+        "@id": "way/163658877",
         "@type": "way"
       }
     },
