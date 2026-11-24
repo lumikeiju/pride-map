@@ -2013,6 +2013,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.4169229,
+          52.5006568
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "126",
+        "addr:postcode": "10999",
+        "addr:street": "Dresdener Straße",
+        "addr:suburb": "Kreuzberg",
+        "air_conditioning": "yes",
+        "amenity": "cinema",
+        "check_date": "2026-11-24",
+        "check_date:opening_hours": "2024-09-13",
+        "contact:phone": "+49 30 61609693",
+        "contact:website": "https://yorck.de/kinos/babylon-kreuzberg",
+        "description": "Not to be confused with Babylon Mitte",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "lgbtq": "welcome",
+        "name": "Babylon Kreuzberg",
+        "opening_hours:signed": "no",
+        "operator": "Yorck Kinogruppe",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "screen": "2",
+        "toilets": "yes",
+        "toilets:unisex": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "An der Kasse jemanden um Hilfe holen (lassen). Dann wird Seiteneingang aufgemacht.",
+        "@id": "node/350460874",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.3593976,
           52.4863303
         ]
@@ -13699,7 +13740,7 @@
         "addr:suburb": "Schöneberg",
         "amenity": "pub",
         "brewery": "various",
-        "check_date": "2025-06-11",
+        "check_date": "2026-11-24",
         "contact:email": "prinzknechtberlin@gmail.com",
         "contact:facebook": "https://www.facebook.com/prinzknecht",
         "contact:phone": "+49 30 23627444",
@@ -13711,6 +13752,7 @@
         "lgbtq:cruising": "yes",
         "lgbtq:gay": "primary",
         "lgbtq:men": "primary",
+        "male": "only",
         "microbrewery": "no",
         "name": "Prinzknecht",
         "opening_hours": "Su-Th 15:00-02:00, Fr,Sa 15:00-03:00",
@@ -13904,7 +13946,7 @@
         "lgbtq": "welcome",
         "mode_of_organisation:self_managed": "yes",
         "name": "Tristeza",
-        "opening_hours": "Su,Tu-Th 18:00-01:30, Fr-Sa 18:00-04:00",
+        "opening_hours": "Tu-Th 18:00-01:30, Fr-Sa 18:00-04:00, Su 18:00-24:00; Mo off",
         "source": "Solikon 2015",
         "toilets:wheelchair": "yes",
         "website": "https://tristezakollektiv.wordpress.com/",
@@ -15364,16 +15406,15 @@
         "addr:street": "Mehringdamm",
         "addr:suburb": "Kreuzberg",
         "alt_name": "Boiler Sauna Berlin",
-        "check_date": "2026-06-04",
+        "check_date": "2026-11-24",
         "check_date:opening_hours": "2025-09-11",
         "email": "info@boiler-berlin.de",
         "fee": "yes",
         "female": "no",
         "leisure": "sauna",
         "level": "0;1",
-        "lgbtq": "primary",
-        "lgbtq:men": "only",
-        "male": "yes",
+        "lgbtq": "only",
+        "male": "only",
         "name": "Boiler",
         "name:de": "Boiler",
         "opening_hours": "Mo-Th 12:00-06:00, Fr 12:00-24:00, Sa 00:00-00:00, Su 00:00-00:00, Mo 00:00-06:00",
@@ -49180,13 +49221,14 @@
         ]
       },
       "properties": {
-        "addr:housenumber": "29",
-        "addr:postcode": "75010",
-        "addr:street": "Rue de Sambre et Meuse",
         "amenity": "bar",
         "check_date": "2026-07-14",
         "check_date:opening_hours": "2026-07-14",
+        "contact:city": "Paris",
+        "contact:housenumber": "29",
         "contact:instagram": "lafierte.barqueer",
+        "contact:postcode": "75010",
+        "contact:street": "Rue de Sambre et Meuse",
         "cuisine": "pizza;tapas",
         "indoor_seating": "yes",
         "level": "0",
@@ -49194,6 +49236,7 @@
         "name": "La Fierté",
         "opening_hours": "Tu-Sa 18:00-01:00",
         "outdoor_seating": "parklet",
+        "ref:FR:SIRET": "99393336500021",
         "wheelchair": "no",
         "@id": "node/7764506185",
         "@type": "node"
@@ -61854,6 +61897,59 @@
         "shop": "sewing",
         "website": "https://www.freemanscreative.com/",
         "@id": "node/10030474659",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3796521,
+          48.8570136
+        ]
+      },
+      "properties": {
+        "addr:city": "Paris",
+        "addr:housenumber": "170",
+        "addr:postcode": "75011",
+        "addr:street": "Avenue Ledru-Rollin",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "check_date:opening_hours": "2024-11-05",
+        "contact:website": "https://chezfunda.fr/fr/contact",
+        "cuisine": "kurdish",
+        "delivery": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "handwashing:soap": "yes",
+        "kids_area": "no",
+        "lgbtq": "welcome",
+        "lgbtq:signed": "yes",
+        "name": "Chez Funda",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:qr_code": "no",
+        "phone": "+33 9 54 82 81 07",
+        "reservation": "recommended",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:fee": "no",
+        "toilets:gender_segregated": "no",
+        "toilets:hands_drying": "paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "website:menu": "https://chezfunda.fr/fr/services",
+        "wheelchair": "limited",
+        "@id": "node/10036143582",
         "@type": "node"
       }
     },
@@ -79093,10 +79189,11 @@
         ]
       },
       "properties": {
-        "addr:city": "Botley",
+        "addr:city": "Oxford",
         "addr:housenumber": "36",
         "addr:postcode": "OX2 9LJ",
         "addr:street": "West Way Square",
+        "addr:suburb": "Botley",
         "contact:instagram": "theprojectpt",
         "leisure": "fitness_centre",
         "lgbtq": "welcome",
@@ -79727,8 +79824,10 @@
         "level": "-1",
         "lgbtq": "primary",
         "name": "New Delhi LGBTQIA+ Center",
-        "opening_hours": "Mo-Sa 10:00-17:00",
-        "operator": "Naz India Foundation",
+        "opening_hours": "Mo-Su 10:00-17:00",
+        "operator": "Naz Foundation (India) Trust",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q6983205",
         "wheelchair": "no",
         "@id": "node/12873037456",
         "@type": "node"
@@ -91111,6 +91210,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3699797,
+          52.5124509
+        ]
+      },
+      "properties": {
+        "description": "Neu gepflanzter Baum mit Metallgitter und Bank in Regenbogenfarben",
+        "historic": "memorial",
+        "image": "https://commons.wikimedia.org/wiki/File:(20260825_094156509_HDR)_Berlin_Tiergarten_(cropped).jpg",
+        "lgbtq": "primary",
+        "material": "wood",
+        "memorial": "bench",
+        "name": "Gedenkstelle CSD-Attentat vom 25.7.2026",
+        "start_date": "2026-08-06",
+        "website": "https://www.rbb24.de/panorama/beitrag/2026/08/berlin-anschlag-csd-baumpflanzung-gedenkort.html",
+        "wikidata": "Q140959741",
+        "wikimedia_commons": "Category:CSD attack memorial tree Großer Tiergarten Berlin",
+        "@id": "node/14076715427",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.4807024,
           51.340363
         ]
@@ -91320,7 +91444,6 @@
         "internet_access:fee": "no",
         "internet_access:ssid": "lostfoundcz",
         "lgbtq": "welcome",
-        "min_age": "18",
         "name": "Lost & Found",
         "opening_hours": "Su-Tu 18:00-24:00; We-Th 17:00-01:00; Fr-Sa 17:00-03:00",
         "outdoor_seating": "no",
@@ -91336,7 +91459,7 @@
         "phone": "+420 724 188 537",
         "reservation": "recommended",
         "shisha": "yes",
-        "smoking": "outside",
+        "smoking": "yes",
         "start_date": "2025-03",
         "toilets": "yes",
         "website": "https://lostfoundcz.com",
@@ -95227,6 +95350,91 @@
         "wheelchair": "yes",
         "wikipedia": "https://fi.wikipedia.org/wiki/CoolHead_Brew",
         "@id": "way/10528392",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.4229241,
+              52.5208905
+            ],
+            [
+              13.4233901,
+              52.5207521
+            ],
+            [
+              13.4231651,
+              52.5204717
+            ],
+            [
+              13.4230938,
+              52.5203829
+            ],
+            [
+              13.4226278,
+              52.5205213
+            ],
+            [
+              13.4226999,
+              52.5206111
+            ],
+            [
+              13.4229241,
+              52.5208905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "33",
+        "addr:postcode": "10178",
+        "addr:street": "Karl-Marx-Allee",
+        "addr:suburb": "Mitte",
+        "air_conditioning": "yes",
+        "amenity": "cinema",
+        "building": "cinema",
+        "building:colour": "#f1f1e9",
+        "building:levels": "2",
+        "check_date": "2026-11-24",
+        "check_date:payment:credit_cards": "2026-11-24",
+        "check_date:payment:debit_cards": "2026-11-24",
+        "contact:phone": "+49 30 322931322",
+        "contact:website": "https://yorck.de/kinos/kino-international",
+        "height": "15",
+        "heritage:operator": "LDA",
+        "heritage:website": "https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09011370",
+        "image": "https://photos.app.goo.gl/https://commons.wikimedia.org/wiki/File:Kino_International,_Berlin-msu-2021-3439-.jpg",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "welcome",
+        "name": "Kino International",
+        "opening_hours": "\"30 minutes before first screening\"",
+        "operator": "Yorck Kinogruppe",
+        "operator:wikidata": "Q1667854",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:girocard": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "roof:colour": "#f1f1e9",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "screen": "1",
+        "start_date": "1963",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1670774",
+        "wikipedia": "de:Kino International",
+        "year_of_construction": "1963",
+        "@id": "way/24240975",
         "@type": "way"
       }
     },
