@@ -8217,6 +8217,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.336079,
+          46.500236
+        ]
+      },
+      "properties": {
+        "addr:city": "Bolzano - Bozen",
+        "addr:housenumber": "1m",
+        "addr:postcode": "39100",
+        "addr:street": "Via Tre Santi - Dreiheiligengasse",
+        "amenity": "bar",
+        "contact:instagram": "https://www.instagram.com/linmonebar",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "name": "Bar Linmone",
+        "opening_hours": "Mo-Sa 07:30-13:30,16:00-20:00",
+        "outdoor_seating": "sidewalk",
+        "@id": "node/1102976095",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.1728511,
           51.4821981
         ]
@@ -8555,6 +8581,7 @@
         "addr:street": "Jakobstraße",
         "air_conditioning": "no",
         "amenity": "community_centre",
+        "changing_table": "no",
         "community_centre:for": "lgbtq",
         "description": "LGBTQ Jugendtreff",
         "entrance": "yes",
@@ -15109,6 +15136,7 @@
         "phone": "+1-206-322-6444",
         "takeaway": "yes",
         "toilets": "no",
+        "walkup_window": "only",
         "website": "https://www.hot-mamaspizza.com/",
         "@id": "node/2077248855",
         "@type": "node"
@@ -56812,13 +56840,16 @@
         "addr:street": "Plaça d'Anselm Clavé",
         "amenity:-2013": "pharmacy",
         "amenity:2016-2019": "optician",
+        "email": "qivital3@gmail.com",
         "healthcare": "alternative",
-        "healthcare:speciality": "acupuncture;chiropractic;reflexology",
+        "healthcare:speciality": "acupuncture;chiropractic;reflexology;nutrition;naturopathy",
+        "instagram": "qivital",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
         "name": "Qi Vital",
         "name:-2013": "Farmacia Miralles",
+        "phone": "+34 664 37 00 80",
         "shop:2014-2015": "vacant",
         "shop:2024": "repair",
         "@id": "node/9468022203",
@@ -58151,7 +58182,7 @@
         "addr:postcode": "08740",
         "addr:street": "Via de l'Esport",
         "carpenter:aluminium": "yes",
-        "craft": "carpenter",
+        "craft": "window_construction",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
@@ -66826,6 +66857,7 @@
         "contact:facebook": "Fincas Ordóñez",
         "contact:instagram": "fincasordonez",
         "email": "info@fincasordonez.com",
+        "instagram": "fincasordonez",
         "lgbtq": "welcome",
         "lgbtq:signed": "yes",
         "lgbtq:signed:outside": "local_government_lgbtq_friendly_initative",
@@ -66833,7 +66865,7 @@
         "office": "estate_agent",
         "phone": "+34 93 653 21 09",
         "phone:mobile": "+34 657 929 555",
-        "website": "fincasordonez.com",
+        "website": "https://fincasordonez.com",
         "@id": "node/11153327433",
         "@type": "node"
       }
@@ -94120,8 +94152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.9742104,
-          41.447983
+          1.9740885,
+          41.4478576
         ]
       },
       "properties": {
