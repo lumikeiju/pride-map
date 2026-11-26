@@ -2980,7 +2980,7 @@
         "addr:postcode": "80469",
         "addr:street": "Hans-Sachs-Straße",
         "amenity": "bar",
-        "check_date": "2024-10-20",
+        "check_date": "2026-11-25",
         "contact:email": "nilgmbh@aol.com",
         "contact:phone": "+49 89 2388 9595",
         "contact:website": "https://www.cafenil.com/",
@@ -9530,6 +9530,7 @@
         "addr:postcode": "80469",
         "addr:street": "Hans-Sachs-Straße",
         "amenity": "bar",
+        "check_date": "2026-11-25",
         "check_date:opening_hours": "2023-04-12",
         "contact:phone": "+49 89 266175",
         "lgbtq": "primary",
@@ -14399,8 +14400,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.480073,
-          48.7480827
+          -122.480034,
+          48.748088
         ]
       },
       "properties": {
@@ -91469,7 +91470,7 @@
         "drink:cocktail": "yes",
         "drink:craft_beer": "yes",
         "drink:wine": "yes",
-        "email": "lostfoundcz@gmail.com",
+        "email": "info@lostfoundcz.com",
         "food": "yes",
         "indoor_seating": "yes",
         "internet_access": "wlan",
@@ -92871,8 +92872,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4800384,
-          48.7481066
+          -122.4800717,
+          48.7480627
         ]
       },
       "properties": {
@@ -95171,6 +95172,35 @@
         "name": "Das Amt",
         "website": "https://www.club-amt.berlin/?",
         "@id": "node/14399436830",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9763485,
+          33.5881751
+        ]
+      },
+      "properties": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "11209",
+        "addr:postcode": "85028",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "addr:unit": "185",
+        "amenity": "doctors",
+        "fax": "+1-602-669-2586",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
+        "lgbtq": "primary",
+        "name": "RSG Healthcare",
+        "opening_hours": "Mo-Th 07:00-12:00, 13:00-17:00; Fr 07:00-11:00",
+        "phone": "+1-602-669-2585",
+        "website": "https://rsghealthcare.com",
+        "@id": "node/14418807705",
         "@type": "node"
       }
     },
