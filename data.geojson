@@ -1215,6 +1215,9 @@
         "amenity": "pharmacy",
         "check_date": "2026-07-13",
         "check_date:opening_hours": "2025-11-09",
+        "contact:facebook": "marienapowien",
+        "contact:instagram": "marienapowien",
+        "contact:youtube": "marienapowien",
         "dispensing": "yes",
         "email": "info@marienapo.eu",
         "fax": "+43 1 5970207 66",
@@ -20808,32 +20811,6 @@
         "wheelchair": "limited",
         "wheelchair:description": "Keine behindertengerechte Toilette. Eingang ok.",
         "@id": "node/2640326880",
-        "@type": "node"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.4428339,
-          27.9611062
-        ]
-      },
-      "properties": {
-        "addr:city": "Tampa",
-        "addr:housenumber": "1901",
-        "addr:postcode": "33605",
-        "addr:state": "FL",
-        "addr:street": "North 15th Street",
-        "amenity": "nightclub",
-        "description": "Gay gift shop",
-        "lgbtq": "primary",
-        "name": "Disco Pony Nightclub",
-        "opening_hours": "Mo 15:00-03:00; We 18:00-03:00; Fr 18:00-03:00; Sa-Su 12:00-03:00",
-        "phone": "+1 813-247-6233",
-        "wheelchair": "yes",
-        "@id": "node/2641536525",
         "@type": "node"
       }
     },
@@ -95207,6 +95184,33 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7050423,
+          40.416607
+        ]
+      },
+      "properties": {
+        "addr:city": "Madrid",
+        "addr:floor": "2",
+        "addr:housenumber": "4",
+        "addr:postcode": "28013",
+        "addr:street": "Calle Mayor",
+        "addr:unit": "Despacho 2",
+        "email": "info@psicolgtb.com",
+        "healthcare": "psychotherapist",
+        "lgbtq": "primary",
+        "name": "PsicoLGTB+",
+        "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-20:00",
+        "phone": "+34 697 91 34 20",
+        "website": "https://psicolgtb.com/",
+        "@id": "node/14419820558",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -118856,6 +118860,62 @@
         "website": "https://www.catzencoffee.com/",
         "website:menu": "https://www.catzencoffee.com/menu/",
         "@id": "way/333114493",
+        "@type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.4428756,
+              27.9610998
+            ],
+            [
+              -82.4428755,
+              27.9611599
+            ],
+            [
+              -82.4426562,
+              27.9611595
+            ],
+            [
+              -82.4426563,
+              27.9611317
+            ],
+            [
+              -82.4426564,
+              27.9610772
+            ],
+            [
+              -82.442852,
+              27.9610776
+            ],
+            [
+              -82.4428756,
+              27.9610998
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "addr:city": "Tampa",
+        "addr:housenumber": "1901",
+        "addr:postcode": "33605",
+        "addr:state": "FL",
+        "addr:street": "North 15th Street",
+        "amenity": "nightclub",
+        "building": "yes",
+        "description": "Gay gift shop",
+        "lgbtq": "primary",
+        "name": "Disco Pony Nightclub",
+        "opening_hours": "Mo 15:00-03:00; We 18:00-03:00; Fr 18:00-03:00; Sa-Su 12:00-03:00",
+        "phone": "+1 813-247-6233",
+        "source:geometry": "Bing",
+        "wheelchair": "yes",
+        "@id": "way/333540398",
         "@type": "way"
       }
     },
