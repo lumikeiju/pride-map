@@ -11273,10 +11273,12 @@
         "check_date:opening_hours": "2026-04-05",
         "contact:email": "office@village-bar.at",
         "contact:facebook": "https://www.facebook.com/VillageBarVienna",
+        "contact:instagram": "village_bar_vienna",
         "contact:website": "http://www.village-bar.at/",
         "lgbtq": "primary",
         "name": "Village",
         "opening_hours": "Mo-Su,PH 20:00-03:00",
+        "ref:vatin": "ATU61614747",
         "@id": "node/1591079494",
         "@type": "node"
       }
@@ -18147,7 +18149,7 @@
         "cuisine": "thai",
         "lgbtq": "welcome",
         "name": "Bangrak Market",
-        "opening_hours": "Mo-Th 11:00-15:00,16:00-24:00; Fr 11:00-15:00,16:00-26:00; Sa 12:00-26:00; Su 12:00-23:00",
+        "opening_hours": "Mo-Th 11:00-15:00,16:00-24:00; Fr 11:00-15:00,16:00-02:00; Sa 12:00-02:00; Su 12:00-23:00",
         "outdoor_seating": "yes",
         "wheelchair": "yes",
         "@id": "node/2327663068",
@@ -27751,6 +27753,11 @@
         "brand:wikipedia": "de:Bipa",
         "check_date": "2026-08-18",
         "check_date:opening_hours": "2026-08-18",
+        "contact:facebook": "BIPA",
+        "contact:instagram": "bipa",
+        "contact:tiktok": "bipa",
+        "contact:youtube": "BIPATV",
+        "email": "shop@bipa.at",
         "level": "0",
         "lgbtq:signed": "yes",
         "name": "Bipa",
@@ -64831,6 +64838,7 @@
         "name": "Rocco's",
         "opening_hours": "Mo-Su 11:00-24:00",
         "outdoor_seating": "yes",
+        "phone": "+1-206-448-2625",
         "website": "https://www.roccosseattle.com/",
         "@id": "node/10885523985",
         "@type": "node"
@@ -66408,6 +66416,7 @@
         "addr:street": "Burwood Road",
         "contact:facebook": "https://www.facebook.com/dallelscutsandcurls/",
         "contact:instagram": "https://www.instagram.com/dallelscutsandcurls/",
+        "female": "yes",
         "lgbtq": "welcome",
         "name": "Dallel's Cuts & Curls",
         "phone": "+61 404 805 148",
@@ -94277,7 +94286,6 @@
         "payment:contactless": "yes",
         "shop": "hairdresser",
         "wheelchair": "yes",
-        "⁠internet_access⁠": "wlan",
         "@id": "node/14320548474",
         "@type": "node"
       }
@@ -94410,13 +94418,18 @@
         "addr:postcode": "21230",
         "addr:state": "MD",
         "addr:street": "Washington Boulevard",
+        "check_date": "2026-11-21",
         "club": "social",
         "contact:instagram": "https://www.instagram.com/baltimoreplayhouse/",
         "kinky": "yes",
         "lgbtq": "welcome",
         "min_age": "19",
         "name": "Baltimore Playhouse",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "website": "https://baltimoreplayhouse.com/",
+        "wheelchair": "limited",
         "@id": "node/14330995805",
         "@type": "node"
       }
@@ -95205,6 +95218,36 @@
         "phone": "+34 697 91 34 20",
         "website": "https://psicolgtb.com/",
         "@id": "node/14419820558",
+        "@type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.501998,
+          46.6013093
+        ]
+      },
+      "properties": {
+        "addr:city": "Yakima",
+        "addr:housenumber": "105",
+        "addr:postcode": "98901",
+        "addr:state": "WA",
+        "addr:street": "South 3rd Street",
+        "addr:unit": "105",
+        "amenity": "doctors",
+        "email": "welcome@yakimabrainhealth.com",
+        "fax": "+1 509-377-5314",
+        "healthcare": "doctor",
+        "healthcare:speciality": "psychiatry",
+        "lgbtq": "welcome",
+        "name": "Yakima Brain Health",
+        "opening_hours": "Mo-Fr 09:00-19:30 \"by appointment\"",
+        "phone": "+1 509-955-5100",
+        "website": "https://yakimabrainhealth.com",
+        "@id": "node/14424558073",
         "@type": "node"
       }
     },
